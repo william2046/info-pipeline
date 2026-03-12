@@ -1,0 +1,48 @@
+# AI 工具新闻每日简报流水线
+# 方案见：AI工具新闻跟踪方案.md
+# 触发：每日北京时间上午 9 点 + 手动触发
+
+name: AI Tools Daily Digest
+
+on:
+  schedule:
+    # 每日 01:00 UTC = 北京时间 09:00
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+env:
+  TZ: "Asia/Shanghai"
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run digest pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          export DATE=$(date +%Y-%m-%d)
+          echo "DATE=$DATE" >> $GITHUB_ENV
+          python scripts/run_digest.py --repo-root . --date "$DATE"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add news/ai-tools/
+          git diff --staged --quiet || git commit -m "chore(digest): AI tools digest ${{ env.DATE }}"
+          git push
