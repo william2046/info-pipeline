@@ -110,7 +110,8 @@ def call_gemini(context: str, date_str: str, api_key: str) -> str:
 
 请直接输出 Markdown，不要输出「好的，以下是…」等前缀。"""
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    # v1beta 的 gemini-1.5-flash 已下线，改用 v1 + gemini-1.5-flash-latest
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash-latest:generateContent?key={api_key}"
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
