@@ -9,7 +9,8 @@ on:
     # 每日 01:00 UTC = 北京时间 09:00
     - cron: "0 1 * * *"
   workflow_dispatch:
-
+permissions: 
+  contents: write
 env:
   TZ: "Asia/Shanghai"
 
