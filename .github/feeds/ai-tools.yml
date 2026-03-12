@@ -1,0 +1,64 @@
+# AI 工具新闻 Feed 源配置
+# 格式: name / url / type(rss|release|hn) / weight(可选, 1-10)
+# 只改此文件即可增删源，无需改 workflow
+
+sources:
+  # === A. 权威发布 ===
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+    type: rss
+    weight: 10
+  - name: Anthropic Blog
+    url: https://www.anthropic.com/news/rss
+    type: rss
+    weight: 10
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+    type: rss
+    weight: 9
+  - name: Meta AI Blog
+    url: https://ai.meta.com/blog/feed/
+    type: rss
+    weight: 9
+  - name: Microsoft Source
+    url: https://blogs.microsoft.com/ai/feed/
+    type: rss
+    weight: 9
+
+  # === B. 产品发现 / HN ===
+  - name: Hacker News (Show HN + AI)
+    url: https://hnrss.org/frontpage
+    type: rss
+    weight: 6
+  - name: Product Hunt
+    url: https://www.producthunt.com/feed
+    type: rss
+    weight: 5
+
+  # === C. 开源与生态 (GitHub Releases via RSSHub 或 release feed) ===
+  - name: Ollama Releases
+    url: https://github.com/ollama/ollama/releases.atom
+    type: rss
+    weight: 8
+  - name: vLLM Releases
+    url: https://github.com/vllm-project/vllm/releases.atom
+    type: rss
+    weight: 7
+  - name: LangChain Releases
+    url: https://github.com/langchain-ai/langchain/releases.atom
+    type: rss
+    weight: 7
+  - name: llama.cpp Releases
+    url: https://github.com/ggerganov/llama.cpp/releases.atom
+    type: rss
+    weight: 7
+
+  # === D. 行业新闻（少量） ===
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    type: rss
+    weight: 5
+  - name: The Verge AI
+    url: https://www.theverge.com/ai-artificial-intelligence/rss/index.xml
+    type: rss
+    weight: 5
