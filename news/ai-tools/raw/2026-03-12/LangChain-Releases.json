@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain==1.2.12",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.12",
+    "description": "Changes since langchain==1.2.11 release(langchain_v1): 1.2.12 ( #35770 ) feat: tracing for wrap model + tool call ( #35765 )",
+    "published": "2026-03-11T22:21:17Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.2.11",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.11",
+    "description": "Changes since langchain==1.2.10 release(langchain_v1): 1.2.11 ( #35723 ) fix(langchain): normalize custom detector output to prevent KeyError in hash/mask strategies ( #35651 ) chore: bump the minor-and-patch group across 3 directories with 7 updates ( #35605 ) chore(langchain): switch refs from gemini-3 to gemini-3.1 ( #35535 ) chore: bump the langchain-deps group across 3 directories with 7 updates ( #35513 ) chore: bump langgraph-checkpoint from 3.0.1 to 4.0.0 in /libs/langchain_v1 ( #35445 )",
+    "published": "2026-03-10T19:46:31Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.1.11",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.11",
+    "description": "Changes since langchain-openai==1.1.10 fix(openai): bump min core version ( #35705 ) release(openai): 1.1.11 ( #35703 ) fix(openai): update responses API model detection for pro and codex models ( #35594 ) feat(openai): support tool search ( #35582 ) chore: bump langgraph from 1.0.8 to 1.0.10rc1 in /libs/partners/openai ( #35612 ) chore(model-profiles): refresh model profile data ( #35593 ) fix(openai): avoid PydanticSerializationUnexpectedValue for structured output ( #35543 ) feat(openrouter):",
+    "published": "2026-03-09T23:02:48Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.2.18",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.18",
+    "description": "Changes since langchain-core==1.2.17 release(core): 1.2.18 ( #35704 ) fix(core): fix double backticks in deprecation docstring for alternative_import ( #35658 ) fix(core): preserve default_factory when generating tool call schema ( #35550 ) feat(openai): support tool search ( #35582 ) chore: bump the minor-and-patch group across 3 directories with 7 updates ( #35605 )",
+    "published": "2026-03-09T20:40:19Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-classic==1.0.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.0.2",
+    "description": "Changes since langchain-classic==1.0.1 release(langchain): bump langchain-classic to 1.0.2 ( #35601 ) fix(langchain-classic): patch ReDoS vulnerability in MRKL and ReAct action regex ( CVE-2024-58340 ) ( #35598 ) chore: bump the langchain-deps group across 3 directories with 7 updates ( #35513 ) chore: bump the langchain-deps group across 3 directories with 14 updates ( #35441 ) chore: bump google-cloud-aiplatform from 1.117.0 to 1.133.0 in /libs/langchain ( #35392 ) docs: fix docstring inaccura",
+    "published": "2026-03-06T20:20:03Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==0.3.28",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D0.3.28",
+    "description": "Changes since langchain==0.3.27 fix(langchain): bump minimum langchain-core to 0.3.73 ( #35608 ) release(langchain): 0.3.28 ( #35607 ) fix(langchain): backport patch ReDoS vulnerability in MRKL and ReAct action regex ( CVE-2024-58340 ) ( #35603 ) feat(core,langchain,text-splitters): (v0.3) use uuid7 for run ids ( #34732 ) fix(core): serialization patch ( #34458 ) feat(openai): enable stream_usage when using default base URL and client ( #33296 ) fix(langchain): handle gpt-5 model name in init_ch",
+    "published": "2026-03-06T22:45:45Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openrouter==0.1.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.1.0",
+    "description": "Changes since langchain-openrouter==0.0.2 fix(openrouter): include role in sdk model_construct for min dep compat ( #35562 ) release(openrouter): 0.1.0 ( #35560 ) feat(openrouter): add streaming token usage support ( #35559 ) feat(fireworks,groq,openrouter): add standard model property ( #35542 ) feat(openrouter): surface cost and cost_details in response_metadata ( #35461 ) chore(model-profiles): refresh model profile data ( #35477 ) feat(openrouter): default headers ( #35369 ) fix(model-profil",
+    "published": "2026-03-04T21:10:10Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-huggingface==1.2.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.2.1",
+    "description": "Changes since langchain-huggingface==1.2.0 fix(huggingface): switch integration test provider to together ( #35525 ) fix(huggingface): resolve huggingface-hub 1.x compat ( #35524 ) fix(huggingface): bump transformers and sentence-transformers lower bounds ( #35522 ) chore: bump langgraph-checkpoint from 3.0.0 to 4.0.0 in /libs/partners/huggingface ( #35447 ) fix(model-profiles): sort generated profiles by model ID for stable diffs ( #35344 ) chore: bump model profiles ( #35294 ) release(huggingf",
+    "published": "2026-03-02T18:44:57Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.2.17",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.17",
+    "description": "Changes since langchain-core==1.2.16 release(core): 1.2.17 ( #35527 ) fix(core): extract usage metadata from serialized tracer message outputs ( #35526 ) chore: bump the langchain-deps group across 3 directories with 7 updates ( #35513 ) chore: bump the langchain-deps group across 3 directories with 14 updates ( #35441 )",
+    "published": "2026-03-02T22:48:13Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.2.16",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.16",
+    "description": "Changes since langchain-core==1.2.15 release(core): 1.2.16 ( #35439 ) fix(core): treat empty tool chunk ids as missing in merge ( #35414 )",
+    "published": "2026-02-25T16:27:43Z",
+    "source": "LangChain Releases"
+  }
+]

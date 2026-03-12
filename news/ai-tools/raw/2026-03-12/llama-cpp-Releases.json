@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8286",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8286",
+    "description": "ggml-cuda: gdn use shared mem for HIP ( #20366 ) Suggested-by: Aman Gupta amangupta052@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph",
+    "published": "2026-03-12T07:49:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8285",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8285",
+    "description": "cuda/hip: fix loop unrolling in ssm-conv ( #20369 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 ",
+    "published": "2026-03-12T07:47:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8284: Fix agentic mcp image single model (#20339)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8284",
+    "description": "webui: fix MCP image attachments dropped during the agentic loop in single-model mode chore: update webui build output",
+    "published": "2026-03-11T04:31:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8281",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8281",
+    "description": "fix op rope, add rope_back ( #20293 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Gra",
+    "published": "2026-03-12T03:41:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8280",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8280",
+    "description": "fix for failed UT case: ACC, L2_NORM, UPSCALE, fused_glu, unary ( #20283 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (3",
+    "published": "2026-03-12T01:41:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8279",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8279",
+    "description": "model : qwen3vl reranker text support ( #20332 ) model : fix qwen3vl reranker support Remove CLS_OUT Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1",
+    "published": "2026-03-12T00:56:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8278",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8278",
+    "description": "llama-quant : correct n_attention_wv usage ( #20357 ) llama-quant : correct n_attention_wv usage In #19770 , I introduced a regression in the way the quantize_state_impl counter values were initialized. I was incrementing and using n_attention_wv in the same loop, when it should have been fixed by the time we're deciding tensor types in llama_tensor_get_type_impl (for use_more_bits ). I never observed a difference in any of my tests it was only after @bartowski kindly pointed this out that I rea",
+    "published": "2026-03-11T22:22:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8277",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8277",
+    "description": "ggml : bump RPC version ( #20330 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph)",
+    "published": "2026-03-11T19:30:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8276",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8276",
+    "description": "ggml webgpu: faster normal quant and some k-quant matrix operations, better shader parameter handling ( #20173 ) K quant speedup ( #20 ) Basic JIT compilation for mul_mat, get_rows, and scale ( #17 ) scale jit working preliminary working jit for getrows and mulmat, needs refining simplified mul_mat preprocessing switch statement get_rows fixes, mul_mat refinement formatted + last edits removed some extraneous prints fixed get_rows, fixed workgroup dispatch in mul_mat. no gibberish small fix some",
+    "published": "2026-03-11T19:10:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8272",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8272",
+    "description": "models : fix assert in mamba2 (cont) ( #20335 ) models : fix assert in mamba2 (cont) cont : add n_group mod Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CU",
+    "published": "2026-03-11T14:02:10Z",
+    "source": "llama.cpp Releases"
+  }
+]

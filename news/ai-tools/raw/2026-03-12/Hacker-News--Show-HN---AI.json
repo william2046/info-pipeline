@@ -1,0 +1,142 @@
+[
+  {
+    "title": "SBCL: A Sanely-Bootstrappable Common Lisp (2008) [pdf]",
+    "link": "https://research.gold.ac.uk/id/eprint/2336/1/sbcl.pdf",
+    "description": "Article URL: https://research.gold.ac.uk/id/eprint/2336/1/sbcl.pdf Comments URL: https://news.ycombinator.com/item?id=47347362 Points: 13 # Comments: 0",
+    "published": "Thu, 12 Mar 2026 06:55:56 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Returning to Rails in 2026",
+    "link": "https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/",
+    "description": "Article URL: https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/ Comments URL: https://news.ycombinator.com/item?id=47347064 Points: 65 # Comments: 49",
+    "published": "Thu, 12 Mar 2026 06:06:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Iran-backed hackers claim wiper attack on medtech firm Stryker",
+    "link": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
+    "description": "Article URL: https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/ Comments URL: https://news.ycombinator.com/item?id=47346091 Points: 139 # Comments: 60",
+    "published": "Thu, 12 Mar 2026 03:29:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: s@: decentralized social networking over static sites",
+    "link": "http://satproto.org/",
+    "description": "Article URL: http://satproto.org/ Comments URL: https://news.ycombinator.com/item?id=47344548 Points: 237 # Comments: 90",
+    "published": "Thu, 12 Mar 2026 00:22:19 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Autoresearch@home",
+    "link": "https://www.ensue-network.ai/autoresearch",
+    "description": "autoresearch@home is a collaborative research collective where AI agents share GPU resources to collectively improve a language model. Think SETI@home, but for model training. How it works: Agents read the current best result, propose a hypothesis, modify train.py, run the experiment on your GPU, and publish results back. When an agent beats the current best validation loss, that becomes the new baseline for every other agent. Agents learn from great runs and failures, since we're using Ensue as",
+    "published": "Wed, 11 Mar 2026 23:27:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: A context-aware permission guard for Claude Code",
+    "link": "https://github.com/manuelschipper/nah/",
+    "description": "We needed something like --dangerously-skip-permissions that doesn’t nuke your untracked files, exfiltrate your keys, or install malware. Claude Code's permission system is allow-or-deny per tool, but that doesn’t really scale. Deleting some files is fine sometimes. And git checkout is sometimes not fine. Even when you curate permissions, 200 IQ Opus can find a way around it. Maintaining a deny list is a fool's errand. nah is a PreToolUse hook that classifies every tool call by what it actually ",
+    "published": "Wed, 11 Mar 2026 23:26:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Meticulous (YC S21) is hiring to redefine software dev",
+    "link": "https://jobs.ashbyhq.com/meticulous/3197ae3d-bb26-4750-9ed7-b830f640515e",
+    "description": "Article URL: https://jobs.ashbyhq.com/meticulous/3197ae3d-bb26-4750-9ed7-b830f640515e Comments URL: https://news.ycombinator.com/item?id=47341760 Points: 0 # Comments: 0",
+    "published": "Wed, 11 Mar 2026 21:01:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Many SWE-bench-Passing PRs would not be merged",
+    "link": "https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/",
+    "description": "Article URL: https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/ Comments URL: https://news.ycombinator.com/item?id=47341645 Points: 223 # Comments: 95",
+    "published": "Wed, 11 Mar 2026 20:56:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+    "link": "https://news.ycombinator.com/newsguidelines.html#generated",
+    "description": "Article URL: https://news.ycombinator.com/newsguidelines.html#generated Comments URL: https://news.ycombinator.com/item?id=47340079 Points: 3412 # Comments: 1273",
+    "published": "Wed, 11 Mar 2026 19:29:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I'm glad the Anthropic fight is happening now",
+    "link": "https://www.dwarkesh.com/p/dow-anthropic",
+    "description": "Article URL: https://www.dwarkesh.com/p/dow-anthropic Comments URL: https://news.ycombinator.com/item?id=47340071 Points: 137 # Comments: 179",
+    "published": "Wed, 11 Mar 2026 19:28:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Personal Computer by Perplexity",
+    "link": "https://www.perplexity.ai/personal-computer-waitlist",
+    "description": "Article URL: https://www.perplexity.ai/personal-computer-waitlist Comments URL: https://news.ycombinator.com/item?id=47339223 Points: 147 # Comments: 119",
+    "published": "Wed, 11 Mar 2026 18:22:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I was interviewed by an AI bot for a job",
+    "link": "https://www.theverge.com/featured-video/892850/i-was-interviewed-by-an-ai-bot-for-a-job",
+    "description": "https://archive.ph/DEwy7 Comments URL: https://news.ycombinator.com/item?id=47339164 Points: 279 # Comments: 253",
+    "published": "Wed, 11 Mar 2026 18:17:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: I built a tool that watches webpages and exposes changes as RSS",
+    "link": "https://sitespy.app",
+    "description": "I built Site Spy after missing a visa appointment slot because a government page changed and I didn’t notice for two weeks. It watches webpages for changes and shows the result like a diff. The part I think HN might find interesting is that it can monitor a specific element on a page, not just the whole page, and it can expose changes as RSS feeds. So instead of tracking an entire noisy page, you can watch just a price, a stock status, a headline, or a specific content block. When it changes, yo",
+    "published": "Wed, 11 Mar 2026 16:21:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Klaus – OpenClaw on a VM, batteries included",
+    "link": "https://klausai.com/",
+    "description": "We are Bailey and Robbie and we are working on Klaus ( https://klausai.com/ ): hosted OpenClaw that is secure and powerful out of the box. Running OpenClaw requires setting up a cloud VM or local container (a pain) or giving OpenClaw root access to your machine (insecure). Many basic integrations (eg Slack, Google Workspace) require you to create your own OAuth app. We make running OpenClaw simple by giving each user their own EC2 instance, preconfigured with keys for OpenRouter, AgentMail, and ",
+    "published": "Wed, 11 Mar 2026 15:54:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Temporal: The 9-year journey to fix time in JavaScript",
+    "link": "https://bloomberg.github.io/js-blog/post/temporal/",
+    "description": "Article URL: https://bloomberg.github.io/js-blog/post/temporal/ Comments URL: https://news.ycombinator.com/item?id=47336989 Points: 653 # Comments: 206",
+    "published": "Wed, 11 Mar 2026 15:35:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Google closes deal to acquire Wiz",
+    "link": "https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz",
+    "description": "Previously: Google to buy Wiz for $32B - https://news.ycombinator.com/item?id=43398518 - March 2025 (845 comments) Comments URL: https://news.ycombinator.com/item?id=47336476 Points: 279 # Comments: 167",
+    "published": "Wed, 11 Mar 2026 14:58:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Faster asin() was hiding in plain sight",
+    "link": "https://16bpp.net/blog/post/faster-asin-was-hiding-in-plain-sight/",
+    "description": "Article URL: https://16bpp.net/blog/post/faster-asin-was-hiding-in-plain-sight/ Comments URL: https://news.ycombinator.com/item?id=47336111 Points: 197 # Comments: 107",
+    "published": "Wed, 11 Mar 2026 14:35:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Entities enabling scientific fraud at scale (2025)",
+    "link": "https://doi.org/10.1073/pnas.2420092122",
+    "description": "Article URL: https://doi.org/10.1073/pnas.2420092122 Comments URL: https://news.ycombinator.com/item?id=47335349 Points: 286 # Comments: 195",
+    "published": "Wed, 11 Mar 2026 13:32:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "BitNet: 100B Param 1-Bit model for local CPUs",
+    "link": "https://github.com/microsoft/BitNet",
+    "description": "Article URL: https://github.com/microsoft/BitNet Comments URL: https://news.ycombinator.com/item?id=47334694 Points: 333 # Comments: 161",
+    "published": "Wed, 11 Mar 2026 12:27:15 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The MacBook Neo",
+    "link": "https://daringfireball.net/2026/03/the_macbook_neo",
+    "description": "https://www.pcmag.com/news/asus-co-ceo-macbook-neo-is-a-shoc... Comments URL: https://news.ycombinator.com/item?id=47334293 Points: 509 # Comments: 835",
+    "published": "Wed, 11 Mar 2026 11:37:24 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
