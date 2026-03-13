@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Tennessee grandmother jailed after AI face recognition error links her to fraud",
+    "link": "https://www.theguardian.com/us-news/2026/mar/12/tennessee-grandmother-ai-fraud",
+    "description": "Article URL: https://www.theguardian.com/us-news/2026/mar/12/tennessee-grandmother-ai-fraud Comments URL: https://news.ycombinator.com/item?id=47359136 Points: 24 # Comments: 2",
+    "published": "Fri, 13 Mar 2026 00:17:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: OpenClaw-class agents on ESP32 (and the IDE that makes it possible)",
+    "link": "https://pycoclaw.com/",
+    "description": "Article URL: https://pycoclaw.com/ Comments URL: https://news.ycombinator.com/item?id=47357515 Points: 16 # Comments: 2",
+    "published": "Thu, 12 Mar 2026 21:38:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Shall I implement it? No",
+    "link": "https://gist.github.com/bretonium/291f4388e2de89a43b25c135b44e41f0",
+    "description": "Article URL: https://gist.github.com/bretonium/291f4388e2de89a43b25c135b44e41f0 Comments URL: https://news.ycombinator.com/item?id=47357042 Points: 734 # Comments: 264",
+    "published": "Thu, 12 Mar 2026 21:01:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Innocent woman jailed after being misidentified using AI facial recognition",
+    "link": "https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case",
+    "description": "Article URL: https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case Comments URL: https://news.ycombinator.com/item?id=47356968 Points: 362 # Comments: 188",
+    "published": "Thu, 12 Mar 2026 20:55:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "An old photo of a large BBS (2022)",
+    "link": "https://rachelbythebay.com/w/2022/01/26/swcbbs/",
+    "description": "Article URL: https://rachelbythebay.com/w/2022/01/26/swcbbs/ Comments URL: https://news.ycombinator.com/item?id=47356017 Points: 156 # Comments: 114",
+    "published": "Thu, 12 Mar 2026 19:41:35 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Runners who churn butter on their runs",
+    "link": "https://www.runnersworld.com/news/a70683169/how-to-make-butter-while-running/",
+    "description": "Article URL: https://www.runnersworld.com/news/a70683169/how-to-make-butter-while-running/ Comments URL: https://news.ycombinator.com/item?id=47355781 Points: 87 # Comments: 45",
+    "published": "Thu, 12 Mar 2026 19:21:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference",
+    "link": "https://ionrouter.io",
+    "description": "Hey HN — I’m Veer and my cofounder is Suryaa. We're building Cumulus Labs (YC W26), and we're releasing our latest product IonRouter ( https://ionrouter.io/ ), an inference API for open-source and fine tuned models. You swap in our base URL, keep your existing OpenAI client code, and get access to any model (open source or finetuned to you) running on our own inference engine. The problem we kept running into: every inference provider is either fast-but-expensive (Together, Fireworks — you pay f",
+    "published": "Thu, 12 Mar 2026 18:52:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Bubble Sorted Amen Break",
+    "link": "https://parametricavocado.itch.io/amen-sorting",
+    "description": "Article URL: https://parametricavocado.itch.io/amen-sorting Comments URL: https://news.ycombinator.com/item?id=47354098 Points: 254 # Comments: 86",
+    "published": "Thu, 12 Mar 2026 17:13:56 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Understudy – Teach a desktop agent by demonstrating a task once",
+    "link": "https://github.com/understudy-ai/understudy",
+    "description": "I built Understudy because a lot of real work still spans native desktop apps, browser tabs, terminals, and chat tools. Most current agents live in only one of those surfaces. Understudy is a local-first desktop agent runtime that can operate GUI apps, browsers, shell tools, files, and messaging in one session. The part I'm most interested in feedback on is teach-by-demonstration: you do a task once, the agent records screen video + semantic events, extracts the intent rather than coordinates, a",
+    "published": "Thu, 12 Mar 2026 17:04:35 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Converge (YC S23) Is Hiring a Founding Platform Engineer (NYC, Onsite)",
+    "link": "https://www.runconverge.com/careers/founding-platform-engineer",
+    "description": "Article URL: https://www.runconverge.com/careers/founding-platform-engineer Comments URL: https://news.ycombinator.com/item?id=47353904 Points: 0 # Comments: 0",
+    "published": "Thu, 12 Mar 2026 17:01:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: OneCLI – Vault for AI Agents in Rust",
+    "link": "https://github.com/onecli/onecli",
+    "description": "We built OneCLI because AI agents are being given raw API keys. And it's going about as well as you'd expect. We figured the answer isn't \"don't give agents access,\" it's \"give them access without giving them secrets.\" OneCLI is an open-source gateway that sits between your AI agents and the services they call. You store your real credentials once in OneCLI's encrypted vault, and give your agents placeholder keys. When an agent makes an HTTP call through the proxy, OneCLI matches the request by ",
+    "published": "Thu, 12 Mar 2026 16:41:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Reversing memory loss via gut-brain communication",
+    "link": "https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html",
+    "description": "Article URL: https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html Comments URL: https://news.ycombinator.com/item?id=47353533 Points: 219 # Comments: 86",
+    "published": "Thu, 12 Mar 2026 16:38:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Met releases high-def 3D scans of 140 famous art objects",
+    "link": "https://www.openculture.com/2026/03/the-met-releases-high-definition-3d-scans-of-140-famous-art-objects.html",
+    "description": "Article URL: https://www.openculture.com/2026/03/the-met-releases-high-definition-3d-scans-of-140-famous-art-objects.html Comments URL: https://news.ycombinator.com/item?id=47352459 Points: 214 # Comments: 43",
+    "published": "Thu, 12 Mar 2026 15:43:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "WolfIP: Lightweight TCP/IP stack with no dynamic memory allocations",
+    "link": "https://github.com/wolfssl/wolfip",
+    "description": "Article URL: https://github.com/wolfssl/wolfip Comments URL: https://news.ycombinator.com/item?id=47352385 Points: 87 # Comments: 12",
+    "published": "Thu, 12 Mar 2026 15:39:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "ATMs didn't kill bank teller jobs, but the iPhone did",
+    "link": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller",
+    "description": "Article URL: https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller Comments URL: https://news.ycombinator.com/item?id=47351371 Points: 319 # Comments: 366",
+    "published": "Thu, 12 Mar 2026 14:48:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Hive (YC S14) is hiring scrappy product managers and product/data engineers",
+    "link": "https://jobs.ashbyhq.com/hive.co",
+    "description": "Article URL: https://jobs.ashbyhq.com/hive.co Comments URL: https://news.ycombinator.com/item?id=47351089 Points: 0 # Comments: 0",
+    "published": "Thu, 12 Mar 2026 14:32:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Axe – A 12MB binary that replaces your AI framework",
+    "link": "https://github.com/jrswab/axe",
+    "description": "I built Axe because I got tired of every AI tool trying to be a chatbot. Most frameworks want a long-lived session with a massive context window doing everything at once. That's expensive, slow, and fragile. Good software is small, focused, and composable... AI agents should be too. Axe treats LLM agents like Unix programs. Each agent is a TOML config with a focused job. Such as code reviewer, log analyzer, commit message writer. You can run them from the CLI, pipe data in, get results out. You ",
+    "published": "Thu, 12 Mar 2026 13:49:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Malus – Clean Room as a Service",
+    "link": "https://malus.sh",
+    "description": "https://fosdem.org/2026/schedule/event/SUVS7G-lets_end_open_... https://malus.sh/blog.html Comments URL: https://news.ycombinator.com/item?id=47350424 Points: 1015 # Comments: 396",
+    "published": "Thu, 12 Mar 2026 13:42:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Document poisoning in RAG systems: How attackers corrupt AI's sources",
+    "link": "https://aminrj.com/posts/rag-document-poisoning/",
+    "description": "I'm the author. Repo is here: https://github.com/aminrj-labs/mcp-attack-labs/tree/main/lab... The lab runs entirely on LM Studio + Qwen2.5-7B-Instruct (Q4_K_M) + ChromaDB — no cloud APIs, no GPU required, no API keys. From zero to seeing the poisoning succeed: git clone, make setup, make attack1. About 10 minutes. Two things worth flagging upfront: - The 95% success rate is against a 5-document corpus (best case for the attacker). In a mature collection you need proportionally more poisoned docs",
+    "published": "Thu, 12 Mar 2026 13:40:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Long Overlooked as Crucial to Life, Fungi Start to Get Their Due",
+    "link": "https://e360.yale.edu/features/fungi-kingdom",
+    "description": "Article URL: https://e360.yale.edu/features/fungi-kingdom Comments URL: https://news.ycombinator.com/item?id=47350136 Points: 91 # Comments: 30",
+    "published": "Thu, 12 Mar 2026 13:16:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

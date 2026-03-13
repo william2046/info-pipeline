@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8305",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8305",
+    "description": "hip: compile debug builds with -O2 on hip to avoid a compiler bug ( #2 …",
+    "published": "2026-03-12T02:37:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8298",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8298",
+    "description": "llama : whitespace cleanup ( #20422 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Gra",
+    "published": "2026-03-13T00:27:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8297",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8297",
+    "description": "ggml : add NVFP4 quantization type support ( #19769 ) WIP: add NVFP4 quantization support tests improve NVFP4 dot product implementation performance and fix bad super call typo Use nvfp4 kvalues vulkan : fix NVFP4 shader compilation by including kvalues_mxfp4 lookup table vulcal and perf fixes wip Fix metal fix vulcan Rename threshold & fix wrong scale Fix MOE Shelf backend implementations (CUDA, Metal, Vulkan, arch-specific SIMD) Remove NVFP4 support from GPU backends and architecture-specific ",
+    "published": "2026-03-13T00:19:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8295",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8295",
+    "description": "llama : add support for Nemotron 3 Super ( #20411 ) llama : add support for Nemotron 3 Super This commit adds support for the Nemotron 3 Super model (120B.A12B) enabling this model to be converted to GGUF format and run in llama.cpp. Co-authored-by: Georgi Gerganov ggerganov@gmail.com Co-authored-by: Matt Clayton 156335168+mattjcly@users.noreply.github.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ub",
+    "published": "2026-03-12T23:58:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8292",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8292",
+    "description": "metal : fix q5_k mul_mv register spill ( #20399 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (9",
+    "published": "2026-03-12T17:50:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8291",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8291",
+    "description": "metal : add env var to trigger graph capture ( #20398 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarc",
+    "published": "2026-03-12T16:19:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8287",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8287",
+    "description": "common/parser: handle reasoning budget ( #20297 ) v1 Finished! Handlie cli Reasoning sampler Apply suggestions from code review Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com Less explosive terminology :) Add utf-8 case and tests common : migrate reasoning budget sampler to common cont : clean up cont : expose state and allow passing as initial state cont : remove unused imports cont : update state machine doc string Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com Co-a",
+    "published": "2026-03-12T09:23:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8286",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8286",
+    "description": "ggml-cuda: gdn use shared mem for HIP ( #20366 ) Suggested-by: Aman Gupta amangupta052@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph",
+    "published": "2026-03-12T07:49:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8285",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8285",
+    "description": "cuda/hip: fix loop unrolling in ssm-conv ( #20369 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 ",
+    "published": "2026-03-12T07:47:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8284: Fix agentic mcp image single model (#20339)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8284",
+    "description": "webui: fix MCP image attachments dropped during the agentic loop in single-model mode chore: update webui build output",
+    "published": "2026-03-11T04:31:33Z",
+    "source": "llama.cpp Releases"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.17.8",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc3",
+    "description": "What's Changed parsers: repair unclosed arg_value tags in GLM tool calls by @BruceMacD in #14656 Reapply \"don't require pulling stubs for cloud models\" again by @jmorganca in #14608 docs: format compat docs by @mxyng in #14678 create: fix localhost handling by @dhiltgen in #14681 build: smarter docker parallelism by @dhiltgen in #14653 mlx: int4 groupsize 64 by @pdevine in #14682 cloud_proxy: handle stream disconnects gracefully by @drifkin in #14685 x/mlxrunner: replace sampler interface chain ",
+    "published": "2026-03-13T00:10:09Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.8-rc2: mlx: perf improvements (#14768)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc2",
+    "description": "mlx: perf improvements Fix nn.go to call mlx_fast_layer_norm instead of manually implementing (mean, subtract, variance, rsqrt, multiply, add — 6 ops) Fix llama.go, gemma3.go to remove RepeatKV to tile K/V tensors to match the Q head count, since scaled_dot_product_attention natively handles GQA (it just requires n_q_heads % n_kv_heads == 0) review comments",
+    "published": "2026-03-12T19:01:28Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.8-rc1: ci: Fix windows build (#14754)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc1",
+    "description": "Instead of relying on sh for wildcard, do it in Go for better windows compatibility.",
+    "published": "2026-03-10T02:27:59Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.8-rc0: MLX: add header vendoring and remove go build tag (#14642)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc0",
+    "description": "prefer rocm v6 on windows Avoid building with v7 - more changes are needed MLX: add header vendoring and remove go build tag This switches to using a vendoring approach for the mlx-c headers so that Go can build without requiring a cmake first. This enables building the new MLX based code by default. Every time cmake runs, the headers are refreshed, so we can easily keep them in sync when we bump mlx versions. Basic Windows and Linux support are verified. ci: harden for flaky choco repo servers ",
+    "published": "2026-03-10T00:24:45Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.7",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.7",
+    "description": "What's Changed Allow thinking levels such as \"medium\" to correctly interpreted in Ollama's API for all thinking models Add context length to support compaction when using ollama launch Full Changelog : v0.17.6...v0.17.7",
+    "published": "2026-03-06T07:36:22Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.7-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.7-rc2",
+    "description": "cmd: override stale entries for context window pi ( #14655 )",
+    "published": "2026-03-06T00:30:24Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.7-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.7-rc1",
+    "description": "cmd/config: fix cloud model limit lookups in integrations ( #14650 )",
+    "published": "2026-03-05T21:57:28Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.7-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.7-rc0",
+    "description": "cmd: add qwen3.5 context length for launch ( #14626 )",
+    "published": "2026-03-04T22:10:52Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.6",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.6",
+    "description": "What's Changed Fixed issue where GLM-OCR would not work due to incorrect prompt rendering Fixed tool calling parsing and rendering for Qwen 3.5 models New Contributors @Victor-Quqi made their first contribution in #14584 Full Changelog : v0.17.5...v0.17.6",
+    "published": "2026-03-04T09:39:12Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.5",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.5",
+    "description": "New models Qwen3.5 : the small Qwen 3.5 model series is now available in 0.8B, 2B, 4B and 9B parameter sizes. What's Changed Fixed crash in Qwen 3.5 models when split over GPU & CPU Fixed issue where Qwen 3.5 models would repeat themselves due to no presence penalty (note: you may have to redownload the qwen3.5 models: ollama pull qwen3.5:35b for example) ollama run --verbose will now show peak memory usage when using Ollama's MLX engine Fixed memory issues and crashes in MLX runner Fixed issue ",
+    "published": "2026-03-02T16:54:29Z",
+    "source": "Ollama Releases"
+  }
+]
