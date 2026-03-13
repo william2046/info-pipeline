@@ -7,6 +7,20 @@
     "source": "llama.cpp Releases"
   },
   {
+    "title": "b8300",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8300",
+    "description": "ggml-webgpu: Add supports for GGML_OP_REPEAT ( #20230 ) Add GGML_OP_REPEAT to webgpu backend. Add i16 support for GGML_OP_REPEAT. macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310",
+    "published": "2026-03-13T03:27:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8299",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8299",
+    "description": "llama : enable chunked fused GDN path ( #20340 ) llama : enable chunked fused GDN path models : avoid Q and K repeats when using fused GDA cont : fix comment Co-authored-by: Aman Gupta amangupta052@gmail.com cont : fix the fix Co-authored-by: Aman Gupta amangupta052@gmail.com cont : fix metal : add GDN kernel ( #20361 ) metal : add Metal backend for GGML_OP_GATED_DELTA_NET Add a fused Metal kernel for the gated delta net recurrence op ( #19504 ), enabling GPU-accelerated inference for DeltaNet-b",
+    "published": "2026-03-13T02:44:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
     "title": "b8298",
     "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8298",
     "description": "llama : whitespace cleanup ( #20422 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Gra",
@@ -53,20 +67,6 @@
     "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8286",
     "description": "ggml-cuda: gdn use shared mem for HIP ( #20366 ) Suggested-by: Aman Gupta amangupta052@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph",
     "published": "2026-03-12T07:49:13Z",
-    "source": "llama.cpp Releases"
-  },
-  {
-    "title": "b8285",
-    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8285",
-    "description": "cuda/hip: fix loop unrolling in ssm-conv ( #20369 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 ",
-    "published": "2026-03-12T07:47:21Z",
-    "source": "llama.cpp Releases"
-  },
-  {
-    "title": "b8284: Fix agentic mcp image single model (#20339)",
-    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8284",
-    "description": "webui: fix MCP image attachments dropped during the agentic loop in single-model mode chore: update webui build output",
-    "published": "2026-03-11T04:31:33Z",
     "source": "llama.cpp Releases"
   }
 ]
