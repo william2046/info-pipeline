@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.18.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.0",
+    "description": "What's Changed cmd: TUI model ordering by @ParthSareen in #14814 docs: document reasoning_effort support in OpenAI-compatible API by @flipbit03 in #14821 launch: fix headless --yes integration flow and policy scoping by @ParthSareen in #14815 api/create: always propagate :cloud source for cloud models by @drifkin in #14822 launch: add compact window for claude code by @ParthSareen in #14823 cmd: still populate ollama ls when using ollama run <model:cloud> by @drifkin in #14824 New Contributors @",
+    "published": "2026-03-14T02:18:35Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.0-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.0-rc2",
+    "description": "server: decompress zstd request bodies in cloud passthrough middlewar…",
+    "published": "2026-03-13T22:06:47Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.0-rc1",
+    "description": "anthropic: close thinking block before tool_use when no text in betwe…",
+    "published": "2026-03-13T20:12:05Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.0-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.0-rc0",
+    "description": "cmd: still populate ollama ls when using ollama run <model:cloud> …",
+    "published": "2026-03-13T19:24:45Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.8",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc4",
+    "description": "What's Changed parsers: repair unclosed arg_value tags in GLM tool calls by @BruceMacD in #14656 Reapply \"don't require pulling stubs for cloud models\" again by @jmorganca in #14608 docs: format compat docs by @mxyng in #14678 create: fix localhost handling by @dhiltgen in #14681 build: smarter docker parallelism by @dhiltgen in #14653 mlx: int4 groupsize 64 by @pdevine in #14682 cloud_proxy: handle stream disconnects gracefully by @drifkin in #14685 x/mlxrunner: replace sampler interface chain ",
+    "published": "2026-03-13T04:25:46Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.8-rc3: ci: fix missing windows zip file (#14807)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc3",
+    "description": "Use 7z compression (better compression rate) if found in path. That alone isn't sufficient to get us under 2G, so MLX is now split out as a discrete download. Fix CI so it will fail if artifacts fail to upload.",
+    "published": "2026-03-12T23:14:00Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.8-rc2: mlx: perf improvements (#14768)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc2",
+    "description": "mlx: perf improvements Fix nn.go to call mlx_fast_layer_norm instead of manually implementing (mean, subtract, variance, rsqrt, multiply, add — 6 ops) Fix llama.go, gemma3.go to remove RepeatKV to tile K/V tensors to match the Q head count, since scaled_dot_product_attention natively handles GQA (it just requires n_q_heads % n_kv_heads == 0) review comments",
+    "published": "2026-03-12T19:01:28Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.8-rc1: ci: Fix windows build (#14754)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc1",
+    "description": "Instead of relying on sh for wildcard, do it in Go for better windows compatibility.",
+    "published": "2026-03-10T02:27:59Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.8-rc0: MLX: add header vendoring and remove go build tag (#14642)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc0",
+    "description": "prefer rocm v6 on windows Avoid building with v7 - more changes are needed MLX: add header vendoring and remove go build tag This switches to using a vendoring approach for the mlx-c headers so that Go can build without requiring a cmake first. This enables building the new MLX based code by default. Every time cmake runs, the headers are refreshed, so we can easily keep them in sync when we bump mlx versions. Basic Windows and Linux support are verified. ci: harden for flaky choco repo servers ",
+    "published": "2026-03-10T00:24:45Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.7",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.7",
+    "description": "What's Changed Allow thinking levels such as \"medium\" to correctly interpreted in Ollama's API for all thinking models Add context length to support compaction when using ollama launch Full Changelog : v0.17.6...v0.17.7",
+    "published": "2026-03-06T07:36:22Z",
+    "source": "Ollama Releases"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Optimizing Content for Agents",
+    "link": "https://cra.mr/optimizing-content-for-agents/",
+    "description": "Article URL: https://cra.mr/optimizing-content-for-agents/ Comments URL: https://news.ycombinator.com/item?id=47372672 Points: 7 # Comments: 0",
+    "published": "Sat, 14 Mar 2026 02:27:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "An investigation of the forces behind the age-verification bills",
+    "link": "https://old.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/",
+    "description": "Article URL: https://old.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/ Comments URL: https://news.ycombinator.com/item?id=47372290 Points: 96 # Comments: 12",
+    "published": "Sat, 14 Mar 2026 01:19:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Our Experience with I-Ready",
+    "link": "https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/",
+    "description": "Article URL: https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/ Comments URL: https://news.ycombinator.com/item?id=47371922 Points: 25 # Comments: 4",
+    "published": "Sat, 14 Mar 2026 00:29:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Games with loot boxes to get minimum 16 age rating across Europe",
+    "link": "https://www.bbc.com/news/articles/cge84xqjg5lo",
+    "description": "Article URL: https://www.bbc.com/news/articles/cge84xqjg5lo Comments URL: https://news.ycombinator.com/item?id=47371692 Points: 58 # Comments: 14",
+    "published": "Sat, 14 Mar 2026 00:02:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I Found 39 Algolia Admin Keys Exposed Across Open Source Documentation Sites",
+    "link": "https://benzimmermann.dev/blog/algolia-docsearch-admin-keys",
+    "description": "Article URL: https://benzimmermann.dev/blog/algolia-docsearch-admin-keys Comments URL: https://news.ycombinator.com/item?id=47371064 Points: 90 # Comments: 22",
+    "published": "Fri, 13 Mar 2026 22:52:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Stanford researchers report first recording of a blue whale's heart rate (2019)",
+    "link": "https://news.stanford.edu/stories/2019/11/first-ever-recording-blue-whales-heart-rate",
+    "description": "Article URL: https://news.stanford.edu/stories/2019/11/first-ever-recording-blue-whales-heart-rate Comments URL: https://news.ycombinator.com/item?id=47368430 Points: 57 # Comments: 38",
+    "published": "Fri, 13 Mar 2026 19:15:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Mouser: An open source alternative to Logi-Plus mouse software",
+    "link": "https://github.com/TomBadash/MouseControl",
+    "description": "I discovered this project because all-of-a-sudden Logi Options Plus software updater started taking 40-60% of my Intel Macbook Pro until I killed the process (of course it restarts). In my searches I ended up at a reddit discussion where I found other people with same issues. I'm a minor contributor to this project but it aims to reduce/eliminate the need to use Logitech proprietary software and telemetry. We could use help if other people are interested. Please check out the github link for mor",
+    "published": "Fri, 13 Mar 2026 18:42:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Hammerspoon",
+    "link": "https://github.com/Hammerspoon/hammerspoon",
+    "description": "Article URL: https://github.com/Hammerspoon/hammerspoon Comments URL: https://news.ycombinator.com/item?id=47367932 Points: 229 # Comments: 83",
+    "published": "Fri, 13 Mar 2026 18:34:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Your phone is an entire computer",
+    "link": "https://medhir.com/blog/your-phone-is-an-entire-computer",
+    "description": "Article URL: https://medhir.com/blog/your-phone-is-an-entire-computer Comments URL: https://news.ycombinator.com/item?id=47367568 Points: 262 # Comments: 249",
+    "published": "Fri, 13 Mar 2026 18:02:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
+    "link": "https://github.com/Compresr-ai/Context-Gateway",
+    "description": "We built an open-source proxy that sits between coding agents (Claude Code, OpenClaw, etc.) and the LLM, compressing tool outputs before they enter the context window. Demo: https://www.youtube.com/watch?v=-vFZ6MPrwjw#t=9s . Motivation: Agents are terrible at managing context. A single file read or grep can dump thousands of tokens into the window, most of it noise. This isn't just expensive — it actively degrades quality. Long-context benchmarks consistently show steep accuracy drops as context",
+    "published": "Fri, 13 Mar 2026 17:58:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "John Carmack about open source and anti-AI activists",
+    "link": "https://twitter.com/id_aa_carmack/status/2032460578669691171",
+    "description": "https://xcancel.com/id_aa_carmack/status/2032460578669691171 Comments URL: https://news.ycombinator.com/item?id=47367463 Points: 252 # Comments: 346",
+    "published": "Fri, 13 Mar 2026 17:51:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
+    "link": "https://claude.com/blog/1m-context-ga",
+    "description": "Article URL: https://claude.com/blog/1m-context-ga Comments URL: https://news.ycombinator.com/item?id=47367129 Points: 342 # Comments: 100",
+    "published": "Fri, 13 Mar 2026 17:19:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Elon Musk pushes out more xAI founders as AI coding effort falters",
+    "link": "https://www.ft.com/content/e5fbc6c2-d5a6-4b97-a105-6a96ea849de5",
+    "description": "https://archive.ph/rP4cb (text at bottom) https://x.com/elonmusk/status/2032201568335044978 , https://xcancel.com/elonmusk/status/2032201568335044978 https://economictimes.indiatimes.com/tech/artificial-intelli... https://futurism.com/artificial-intelligence/elon-musk-screw... Comments URL: https://news.ycombinator.com/item?id=47366666 Points: 349 # Comments: 526",
+    "published": "Fri, 13 Mar 2026 16:40:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Wyden Siren Goes Off Again: We'll Be \"Stunned\" by NSA Under Section 702",
+    "link": "https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702/",
+    "description": "Article URL: https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702/ Comments URL: https://news.ycombinator.com/item?id=47366374 Points: 395 # Comments: 119",
+    "published": "Fri, 13 Mar 2026 16:13:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Captain (YC W26) – Automated RAG for Files",
+    "link": "https://www.runcaptain.com/",
+    "description": "Hi HN, we’re Lewis and Edgar, building Captain to simplify unstructured data search ( https://runcaptain.com ). Captain automates the building and maintenance of file-based RAG pipelines. It indexes cloud storage like S3 and GCS, plus SaaS sources like Google Drive. There’s a quick walkthrough at https://youtu.be/EIQkwAsIPmc . We also put up this demo site called “Ask PG’s Essays” which lets you ask/search the corpus of pg’s essays, to get a feel for how it works: https://pg.runcaptain.com . The",
+    "published": "Fri, 13 Mar 2026 15:45:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Parallels confirms MacBook Neo can run Windows in a virtual machine",
+    "link": "https://www.macrumors.com/2026/03/13/macbook-neo-runs-windows-11-vm/",
+    "description": "Article URL: https://www.macrumors.com/2026/03/13/macbook-neo-runs-windows-11-vm/ Comments URL: https://news.ycombinator.com/item?id=47364729 Points: 208 # Comments: 288",
+    "published": "Fri, 13 Mar 2026 14:11:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Spine Swarm (YC S23) – AI agents that collaborate on a visual canvas",
+    "link": "https://www.getspine.ai/",
+    "description": "Hey HN! We're Ashwin and Akshay from Spine AI ( https://www.getspine.ai ). Spine Swarm is a multi-agent system that works on an infinite visual canvas to complete complex non-coding projects: competitive analysis, financial modeling, SEO audits, pitch decks, interactive prototypes, and more. Here's a video of it in action: https://www.youtube.com/watch?v=R_2-ggpZz0Q . We've been friends for over 13 years. We took our first ML course together at NTU, in a part of campus called North Spine, which ",
+    "published": "Fri, 13 Mar 2026 13:22:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Can I run AI locally?",
+    "link": "https://www.canirun.ai/",
+    "description": "Article URL: https://www.canirun.ai/ Comments URL: https://news.ycombinator.com/item?id=47363754 Points: 994 # Comments: 260",
+    "published": "Fri, 13 Mar 2026 12:46:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Qatar helium shutdown puts chip supply chain on a two-week clock",
+    "link": "https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
+    "description": "Article URL: https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock Comments URL: https://news.ycombinator.com/item?id=47363584 Points: 461 # Comments: 421",
+    "published": "Fri, 13 Mar 2026 12:31:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "TUI Studio – visual terminal UI design tool",
+    "link": "https://tui.studio/",
+    "description": "Article URL: https://tui.studio/ Comments URL: https://news.ycombinator.com/item?id=47362613 Points: 571 # Comments: 275",
+    "published": "Fri, 13 Mar 2026 10:32:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

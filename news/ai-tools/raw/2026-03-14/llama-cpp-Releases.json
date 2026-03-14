@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8325",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8325",
+    "description": "metal : fix l2 norm scale ( #20493 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Grap",
+    "published": "2026-03-14T00:53:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8323",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8323",
+    "description": "llama : disable graph reuse with pipeline parallelism ( #20463 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openE",
+    "published": "2026-03-13T19:51:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8322",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8322",
+    "description": "vendor : update cpp-httplib to 0.37.1 ( #20390 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (91",
+    "published": "2026-03-13T15:23:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8320",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8320",
+    "description": "test-backend-ops: allow loading tests from file and parsing model operators into file ( #19896 ) tests: allow loading test-backend-ops tests from json add error threshold based on op add error when file cannot be read add graph operator json extraction tool add nb parameter for non-contiguous input tensors fix view check only use view if non-contiguous/permuted, use C++ random instead of rand() replace internal API calls with public llama_graph_reserve call reduce test description length fix nb[",
+    "published": "2026-03-13T15:07:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8318",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8318",
+    "description": "grammar: Fix grammar root symbol check ( #19761 ) grammar: fix bad check for root symbol, correct error logging add tests to demonstrate root symbol check failure macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (H",
+    "published": "2026-03-13T15:00:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8317",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8317",
+    "description": "vulkan: add GATED_DELTA_NET op support ( #20334 ) vulkan: add GATED_DELTA_NET op support Implements the fused gated delta net recurrence as a Vulkan compute shader with full support for scalar gate, KDA vector gate, GQA broadcast, multi-token sequences, and permuted (non-contiguous) q/k inputs. Specialization constants select head size (32/64/128) and KDA mode at pipeline creation time. Passes all 13 test-backend-ops cases on AMD Radeon 890M (RADV GFX1150). Co-Authored-By: Claude Opus 4.6 norepl",
+    "published": "2026-03-13T14:07:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8315",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8315",
+    "description": "vulkan: fix SSM_CONV PP scaling with large ubatch sizes ( #20379 ) vulkan: optimize SSM_CONV workgroup dispatch for large ubatch Tile tokens into 2D workgroups (32x16) to reduce workgroup launch overhead at large ubatch sizes. Add vec4 fast path for nc=4 (common d_conv size). Fixes PP performance degradation with ubatch > 512. Ref: #18725 Co-Authored-By: Claude Opus 4.6 noreply@anthropic.com vulkan: remove unused shared memory declaration in SSM_CONV Co-Authored-By: Claude Opus 4.6 noreply@anthr",
+    "published": "2026-03-13T14:01:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8312",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8312",
+    "description": "metal : avoid divisions in bin kernel ( #20426 ) metal : avoid modulus in bin kernel when not broadcasting metal : fix capture_started flag macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEule",
+    "published": "2026-03-13T13:21:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8310",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8310",
+    "description": "vulkan: fix l2_norm epsilon handling ( #20350 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910",
+    "published": "2026-03-13T13:02:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8309",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8309",
+    "description": "vulkan: fix OOB check in flash_attn_mask_opt ( #20296 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarc",
+    "published": "2026-03-13T12:50:28Z",
+    "source": "llama.cpp Releases"
+  }
+]
