@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8352",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8352",
+    "description": "model : wire up Qwen3.5/Qwen3.5MoE tensors for NVFP4 support ( #20506 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) o",
+    "published": "2026-03-15T00:44:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8351",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8351",
+    "description": "metal : add FA specialization for HSK = 320, HSV = 256 ( #20549 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEul",
+    "published": "2026-03-14T23:54:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8350",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8350",
+    "description": "ci : move self-hosted workflows to separate files ( #20540 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aa",
+    "published": "2026-03-14T23:50:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8348",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8348",
+    "description": "ci : try to optimize some jobs ( #20521 ) force arm version to test run on either x86 or arm if we can help it, this only works for runs without ccache readd other jobs remove ccache macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 ",
+    "published": "2026-03-14T20:56:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8347",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8347",
+    "description": "hexagon: Q4_0 and MXFP4 repack fixes ( #20527 ) hexagon: fix tail corruption with rows sizes not multiple of 256 hexagon: use different stride for repacking partial blocks hex-mm: update repack and kernels to avoid shuffles for full 256-element blocks Previous commit changed the repacking to use even:odd (0:1,2:3,..) packing instead of the original (0:128,1:129,...) packing in order to fix tail corruption. Since the mm kernels already deal with partial tails we can use even:odd packing only for ",
+    "published": "2026-03-14T19:59:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8340",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8340",
+    "description": "ggml : add native AVX512-FP16 support for F16 operations ( #20529 ) The overall benchmark speed remains almost the same because the CPU is now calculating faster than the RAM can deliver the data. (See perf stat results below showing 2.7 billion fewer instructions). Also note that this path will be only enabled for native build or with custom flags. now: Performance counter stats for 'build/bin/llama-bench -m Qwen3-0.6B-f16.gguf -p 512 -n 128': 189,073.52 msec task-clock # 14.658 CPUs utilized 4",
+    "published": "2026-03-14T14:09:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8339",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8339",
+    "description": "Use fp32 in cuBLAS V100 to avoid overflows, env variables to override cuBLAS compute type ( #19959 ) Update ggml-cuda.cu Update ggml-cuda.cu Update build.md Update build.md Update ggml/src/ggml-cuda/ggml-cuda.cu Co-authored-by: Johannes Gäßler johannesg@5d6.de Update ggml-cuda.cu Update build.md Update ggml/src/ggml-cuda/ggml-cuda.cu Co-authored-by: Johannes Gäßler johannesg@5d6.de Update build.md Update ggml-cuda.cu Update ggml-cuda.cu Co-authored-by: Johannes Gäßler johannesg@5d6.de macOS/iOS:",
+    "published": "2026-03-14T14:06:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8338",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8338",
+    "description": "ggml : add OpenVINO backend ( #15307 ) Update build doc Add cgraph tensor output name to OV op name Update openvino build instructions Add initial NPU support draft NPU support version 2: prefill + kvcache NPU support version 2: prefill + kvcache Change due to ggml cgraph changes, not correct yet Change due to ggml cgraph changes, llama-3.2 CPU work Add AMD64 to CMakeLists Change due to ggml cgraph changes, all device work Refactor: clean, fix warning Update clang-format Statful transformation f",
+    "published": "2026-03-14T12:30:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8337",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8337",
+    "description": "vendor : update cpp-httplib to 0.37.2 ( #20484 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Gr",
+    "published": "2026-03-14T12:18:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8336",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8336",
+    "description": "Fix data race in CUDA's \"cpy\" kernel (influences GGML's DUP, CONT operations). ( #20507 ) Fix datarace in CUDA's \"cpy\" kernel. Remove extra barrier by using more of shared memory. macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYC",
+    "published": "2026-03-14T12:17:36Z",
+    "source": "llama.cpp Releases"
+  }
+]
