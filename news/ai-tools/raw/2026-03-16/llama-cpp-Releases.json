@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8368",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8368",
+    "description": "tools/cli: fix disable reasoning ( #20606 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) open",
+    "published": "2026-03-15T23:41:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8366",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8366",
+    "description": "sycl : fix for untransposed GDA recurrent state ( #20583 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarc",
+    "published": "2026-03-15T23:07:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8364",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8364",
+    "description": "CUDA: limit number of FA stream-k CUDA blocks ( #20586 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch6",
+    "published": "2026-03-15T22:50:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8363",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8363",
+    "description": "ggml: avoid creating CUDA context during device init ( #20595 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler",
+    "published": "2026-03-15T22:53:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8362",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8362",
+    "description": "vendor : update cpp-httplib to 0.38.0 ( #20578 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openE",
+    "published": "2026-03-15T22:49:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8361",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8361",
+    "description": "ggml/hip: fix APU compatibility - soft error handling for hipMemAdviseSetCoarseGrain ( #20536 ) ggml/hip: fix APU compatibility - soft error handling for hipMemAdviseSetCoarseGrain On AMD APU/iGPU devices (unified memory architecture), hipMemAdviseSetCoarseGrain returns hipErrorInvalidValue because the hint is not applicable to UMA systems. The previous CUDA_CHECK() call treated this as a fatal error, causing crashes on APU systems such as AMD Strix Halo (gfx1151). Fix: treat hipMemAdviseSetCoar",
+    "published": "2026-03-15T22:46:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8360",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8360",
+    "description": "fix: prevent nullptr dereference ( #20552 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) open",
+    "published": "2026-03-15T22:37:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8358",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8358",
+    "description": "ci : split build.yml + server.yml ( #20546 ) ci : split build.yml cont : split server.yml cont : reduce paths cont : split build-android.yml + update paths ci : make msys workflows manual ( #20588 ) ci : make cross-build workflows manual ( #20585 ) cont : fix release paths Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ",
+    "published": "2026-03-15T20:26:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8356",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8356",
+    "description": "ggml : guard against sumq2 being 0 in IQ4_NL ( #20460 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64",
+    "published": "2026-03-15T16:19:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8355",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8355",
+    "description": "cuda : add RDNA4-specific MMVQ parameter table for bs=1 decode ( #19478 ) mmvq: add RDNA3/RDNA4-specific parameter table (nwarps=8, rows=1) mmvq: add dedicated RDNA3 parameter table mmvq: exclude RDNA3.5 (gfx1150/1151) from RDNA3 table macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLL",
+    "published": "2026-03-15T16:40:57Z",
+    "source": "llama.cpp Releases"
+  }
+]
