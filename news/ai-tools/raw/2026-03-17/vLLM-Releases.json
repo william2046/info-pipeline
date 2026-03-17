@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.17.1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.17.1",
+    "description": "This is a patch release on top of v0.17.0 to address a few issues: New Model: Nemotron 3 Super Fix passing of activation_type to trtllm fused MoE NVFP4 and FP8 ( #36017 ) Fix/resupport nongated fused moe triton ( #36412 ) Re-enable EP for trtllm MoE FP8 backend ( #36494 ) [Mamba][Qwen3.5] Zero freed SSM cache blocks on GPU ( #35219 ) Fix TRTLLM Block FP8 MoE Monolithic ( #36296 ) [DSV3.2][MTP] Optimize Indexer MTP handling ( #36723 )",
+    "published": "2026-03-12T01:47:57Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.17.1rc0: [CI] Bump `mypy` version to 1.19.1 (#36104)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.17.1rc0",
+    "description": "Signed-off-by: Harry Mellor 19981378+hmellor@users.noreply.github.com",
+    "published": "2026-03-10T16:18:28Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.17.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.17.0",
+    "description": "vLLM v0.17.0 Known Issue : If you are on CUDA 12.9+ and encounter a CUBLAS_STATUS_INVALID_VALUE error, this is caused by a CUDA library mismatch. To resolve, try one of the following: Remove the path to system CUDA shared library files (e.g. /usr/local/cuda ) from LD_LIBRARY_PATH , or simply unset LD_LIBRARY_PATH . Install vLLM with uv pip install vllm --torch-backend=auto . Install vLLM with pip install vllm --extra-index-url https://download.pytorch.org/whl/cu129 (change the CUDA version to ma",
+    "published": "2026-03-07T03:57:13Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.17.0rc1: Bound openai to under 2.25.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.17.0rc1",
+    "description": "Signed-off-by: khluu khluu000@gmail.com",
+    "published": "2026-03-06T21:04:15Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.17.0rc0: [Bugfix] Improve engine ready timeout error message (#35616)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.17.0rc0",
+    "description": "Signed-off-by: damaozi 1811866786@qq.com",
+    "published": "2026-03-04T05:54:32Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.16.1rc0: [Test] Add tests for n parameter in chat completions API (#35283)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.16.1rc0",
+    "description": "Signed-off-by: KrxGu krishom70@gmail.com",
+    "published": "2026-02-26T09:14:07Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.16.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.16.0",
+    "description": "vLLM v0.16.0 Please note that this release was branch cut on Feb 8, so any features added to vLLM after that date is not included. Highlights This release features 440 commits from 203 contributors (7 new)! Async scheduling + Pipeline Parallelism is now fully supported, delivering 30.8% E2E throughput improvement and 31.8% TPOT improvement ( #32618 ). Realtime API : A new WebSocket-based Realtime API enables streaming audio interactions ( #33187 ), building on the Voxtral realtime infrastructure",
+    "published": "2026-02-26T04:35:50Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.16.0rc3: [Bugfix] Fix MTP accuracy for GLM-5 (#34385)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.16.0rc3",
+    "description": "Signed-off-by: mgoin mgoin64@gmail.com (cherry picked from commit ec12d39 )",
+    "published": "2026-02-12T04:54:27Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.16.0rc2: Patch protobuf for CVE-2026-0994 (#34253)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.16.0rc2",
+    "description": "Signed-off-by: Seiji Eicher seiji@anyscale.com Co-authored-by: Kevin H. Luu khluu000@gmail.com (cherry picked from commit 5045d5c )",
+    "published": "2026-02-11T10:33:40Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.16.0rc1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.16.0rc1",
+    "description": "[Frontend][last/5] Make pooling entrypoints request schema consensus.…",
+    "published": "2026-02-09T06:42:38Z",
+    "source": "vLLM Releases"
+  }
+]

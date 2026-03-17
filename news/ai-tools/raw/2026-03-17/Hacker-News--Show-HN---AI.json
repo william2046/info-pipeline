@@ -1,0 +1,142 @@
+[
+  {
+    "title": "US SEC preparing to scrap quarterly reporting requirement",
+    "link": "https://www.reuters.com/business/finance/us-sec-preparing-eliminate-quarterly-reporting-requirement-wsj-says-2026-03-16/",
+    "description": "Article URL: https://www.reuters.com/business/finance/us-sec-preparing-eliminate-quarterly-reporting-requirement-wsj-says-2026-03-16/ Comments URL: https://news.ycombinator.com/item?id=47406779 Points: 337 # Comments: 171",
+    "published": "Tue, 17 Mar 2026 00:02:35 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "AnswerThis (YC F25) Is Hiring",
+    "link": "https://www.ycombinator.com/companies/answerthis/jobs/CNdatw5-founding-engineering-lead",
+    "description": "Article URL: https://www.ycombinator.com/companies/answerthis/jobs/CNdatw5-founding-engineering-lead Comments URL: https://news.ycombinator.com/item?id=47404801 Points: 0 # Comments: 0",
+    "published": "Mon, 16 Mar 2026 21:00:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Beyond has dropped “meat” from its name and expanded its high-protein drink line",
+    "link": "https://plantbasednews.org/news/alternative-protein/beyond-meat-not-the-moment-rebrand/",
+    "description": "Article URL: https://plantbasednews.org/news/alternative-protein/beyond-meat-not-the-moment-rebrand/ Comments URL: https://news.ycombinator.com/item?id=47404798 Points: 65 # Comments: 103",
+    "published": "Mon, 16 Mar 2026 20:59:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Leanstral: Open-source agent for trustworthy coding and formal proof engineering",
+    "link": "https://mistral.ai/news/leanstral",
+    "description": "Lean 4 paper (2021): https://dl.acm.org/doi/10.1007/978-3-030-79876-5_37 Comments URL: https://news.ycombinator.com/item?id=47404796 Points: 338 # Comments: 63",
+    "published": "Mon, 16 Mar 2026 20:59:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Meta’s renewed commitment to jemalloc",
+    "link": "https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/",
+    "description": "https://github.com/jemalloc/jemalloc Comments URL: https://news.ycombinator.com/item?id=47402640 Points: 365 # Comments: 151",
+    "published": "Mon, 16 Mar 2026 18:12:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Language model teams as distributed systems",
+    "link": "https://arxiv.org/abs/2603.12229",
+    "description": "Article URL: https://arxiv.org/abs/2603.12229 Comments URL: https://news.ycombinator.com/item?id=47401901 Points: 73 # Comments: 33",
+    "published": "Mon, 16 Mar 2026 17:19:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The “small web” is bigger than you might think",
+    "link": "https://kevinboone.me/small_web_is_big.html",
+    "description": "Article URL: https://kevinboone.me/small_web_is_big.html Comments URL: https://news.ycombinator.com/item?id=47401879 Points: 332 # Comments: 138",
+    "published": "Mon, 16 Mar 2026 17:17:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The American Healthcare Conundrum",
+    "link": "https://github.com/rexrodeo/american-healthcare-conundrum",
+    "description": "Article URL: https://github.com/rexrodeo/american-healthcare-conundrum Comments URL: https://news.ycombinator.com/item?id=47401809 Points: 263 # Comments: 210",
+    "published": "Mon, 16 Mar 2026 17:13:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Kaizen (YC P25) Hiring Eng, GTM, Cos to Automate BPOs",
+    "link": "https://www.kaizenautomation.com/careers",
+    "description": "Article URL: https://www.kaizenautomation.com/careers Comments URL: https://news.ycombinator.com/item?id=47401618 Points: 0 # Comments: 0",
+    "published": "Mon, 16 Mar 2026 17:00:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Voygr (YC W26) – A better maps API for agents and AI apps",
+    "link": "https://news.ycombinator.com/item?id=47401042",
+    "description": "Hi HN, we’re Yarik and Vlad from VOYGR ( https://voygr.tech/ ), working on better real-world place intelligence for app developers and agents. Here’s a demo: https://www.youtube.com/watch?v=cNIpcWIE0n4 . Google Maps can tell you a restaurant is \"4.2 stars, open till 10.\" Their API can't tell you the chef left last month, wait times doubled, and locals moved on. Maps APIs today just give you a fixed snapshot. We're building an infinite, queryable place profile that combines accurate place data wi",
+    "published": "Mon, 16 Mar 2026 16:21:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Claude Code skills that build complete Godot games",
+    "link": "https://github.com/htdt/godogen",
+    "description": "I’ve been working on this for about a year through four major rewrites. Godogen is a pipeline that takes a text prompt, designs the architecture, generates 2D/3D assets, writes the GDScript, and tests it visually. The output is a complete, playable Godot 4 project. Getting LLMs to reliably generate functional games required solving three specific engineering bottlenecks: 1. The Training Data Scarcity: LLMs barely know GDScript. It has ~850 classes and a Python-like syntax that will happily let a",
+    "published": "Mon, 16 Mar 2026 16:07:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Apideck CLI – An AI-agent interface with much lower context consumption than MCP",
+    "link": "https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative",
+    "description": "Article URL: https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative Comments URL: https://news.ycombinator.com/item?id=47400261 Points: 126 # Comments: 107",
+    "published": "Mon, 16 Mar 2026 15:25:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "AirPods Max 2",
+    "link": "https://www.apple.com/airpods-max/",
+    "description": "Article URL: https://www.apple.com/airpods-max/ Comments URL: https://news.ycombinator.com/item?id=47398681 Points: 228 # Comments: 400",
+    "published": "Mon, 16 Mar 2026 13:22:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "My Journey to a reliable and enjoyable locally hosted voice assistant (2025)",
+    "link": "https://community.home-assistant.io/t/my-journey-to-a-reliable-and-enjoyable-locally-hosted-voice-assistant/944860",
+    "description": "Article URL: https://community.home-assistant.io/t/my-journey-to-a-reliable-and-enjoyable-locally-hosted-voice-assistant/944860 Comments URL: https://news.ycombinator.com/item?id=47398534 Points: 333 # Comments: 100",
+    "published": "Mon, 16 Mar 2026 13:09:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Lazycut: A simple terminal video trimmer using FFmpeg",
+    "link": "https://github.com/emin-ozata/lazycut",
+    "description": "Article URL: https://github.com/emin-ozata/lazycut Comments URL: https://news.ycombinator.com/item?id=47397857 Points: 164 # Comments: 53",
+    "published": "Mon, 16 Mar 2026 12:05:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Nango (YC W23, API Access for Agents and Apps) Is Hiring",
+    "link": "https://jobs.ashbyhq.com/Nango",
+    "description": "Article URL: https://jobs.ashbyhq.com/Nango Comments URL: https://news.ycombinator.com/item?id=47397842 Points: 0 # Comments: 0",
+    "published": "Mon, 16 Mar 2026 12:03:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Polymarket gamblers threaten to kill me over Iran missile story",
+    "link": "https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/",
+    "description": "Article URL: https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/ Comments URL: https://news.ycombinator.com/item?id=47397822 Points: 1377 # Comments: 891",
+    "published": "Mon, 16 Mar 2026 12:00:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Corruption erodes social trust more in democracies than in autocracies",
+    "link": "https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2026.1779810/full",
+    "description": "Article URL: https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2026.1779810/full Comments URL: https://news.ycombinator.com/item?id=47397593 Points: 676 # Comments: 353",
+    "published": "Mon, 16 Mar 2026 11:25:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Why I love FreeBSD",
+    "link": "https://it-notes.dragas.net/2026/03/16/why-i-love-freebsd/",
+    "description": "Article URL: https://it-notes.dragas.net/2026/03/16/why-i-love-freebsd/ Comments URL: https://news.ycombinator.com/item?id=47397574 Points: 370 # Comments: 177",
+    "published": "Mon, 16 Mar 2026 11:23:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Starlink Mini as a failover",
+    "link": "https://www.jackpearce.co.uk/posts/starlink-failover/",
+    "description": "Article URL: https://www.jackpearce.co.uk/posts/starlink-failover/ Comments URL: https://news.ycombinator.com/item?id=47396264 Points: 217 # Comments: 169",
+    "published": "Mon, 16 Mar 2026 08:07:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
