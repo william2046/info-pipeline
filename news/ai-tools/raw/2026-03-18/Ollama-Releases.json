@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.18.2-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc0",
+    "description": "launch: register websearch for openclaw ( #14914 )",
+    "published": "2026-03-17T22:03:15Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.1",
+    "description": "Web Search and Fetch in OpenClaw Ollama now ships with web search and web fetch plugin for OpenClaw. This allows Ollama's models (local or cloud) to search the web for the latest content and news. This also allows OpenClaw with Ollama to be able to fetch the web and extract readable content for processing. This feature does not execute JavaScript. When using local models with web search in OpenClaw, ensure you are signed into Ollama with ollama signin ollama launch openclaw You can install web s",
+    "published": "2026-03-17T20:16:03Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.1-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.1-rc1",
+    "description": "launch: fix web search, add web fetch, and enable both for local ( #14 …",
+    "published": "2026-03-16T23:26:19Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.1-rc0: cmd/launch: skip --install-daemon when systemd is unavailable (#14883)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.1-rc0",
+    "description": "In container environments without systemd, openclaw onboard --install-daemon exits non-zero because it cannot create a systemd user service. This causes ollama launch openclaw to abort even though the gateway can be started as a foreground child process. Only pass --install-daemon when systemd user services are reachable (Linux with /run/systemd/system present and XDG_RUNTIME_DIR set). On all other platforms the flag is still included by default.",
+    "published": "2026-03-16T20:50:04Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.0",
+    "description": "Ollama 0.18 includes improved performance for OpenClaw and Ollama’s cloud models , including the new Nemotron-3-Super model by NVIDIA designed for high-performance agentic reasoning tasks. Improved OpenClaw performance with Kimi-K2.5 This release of Ollama improves performance of cloud models and their reliability. Up to 2x faster speeds with Kimi-K2.5 Tool calling accuracy has been improved ollama launch openclaw --model kimi-k2.5 Ollama is now a provider in OpenClaw Ollama can now be selected ",
+    "published": "2026-03-15T17:26:14Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.0-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.0-rc2",
+    "description": "server: decompress zstd request bodies in cloud passthrough middlewar…",
+    "published": "2026-03-13T22:06:47Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.0-rc1",
+    "description": "anthropic: close thinking block before tool_use when no text in betwe…",
+    "published": "2026-03-13T20:12:05Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.0-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.0-rc0",
+    "description": "cmd: still populate ollama ls when using ollama run <model:cloud> …",
+    "published": "2026-03-13T19:24:45Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.8",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc4",
+    "description": "What's Changed parsers: repair unclosed arg_value tags in GLM tool calls by @BruceMacD in #14656 Reapply \"don't require pulling stubs for cloud models\" again by @jmorganca in #14608 docs: format compat docs by @mxyng in #14678 create: fix localhost handling by @dhiltgen in #14681 build: smarter docker parallelism by @dhiltgen in #14653 mlx: int4 groupsize 64 by @pdevine in #14682 cloud_proxy: handle stream disconnects gracefully by @drifkin in #14685 x/mlxrunner: replace sampler interface chain ",
+    "published": "2026-03-14T09:21:31Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.17.8-rc3: ci: fix missing windows zip file (#14807)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc3",
+    "description": "Use 7z compression (better compression rate) if found in path. That alone isn't sufficient to get us under 2G, so MLX is now split out as a discrete download. Fix CI so it will fail if artifacts fail to upload.",
+    "published": "2026-03-12T23:14:00Z",
+    "source": "Ollama Releases"
+  }
+]

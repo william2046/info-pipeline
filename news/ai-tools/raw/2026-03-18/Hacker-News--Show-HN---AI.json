@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Launch an autonomous AI agent with sandboxed execution in 2 lines of code",
+    "link": "https://amaiya.github.io/onprem/examples_agent.html",
+    "description": "Article URL: https://amaiya.github.io/onprem/examples_agent.html Comments URL: https://news.ycombinator.com/item?id=47420493 Points: 14 # Comments: 3",
+    "published": "Wed, 18 Mar 2026 01:10:19 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Pleasures of Poor Product Design",
+    "link": "https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design",
+    "description": "Article URL: https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design Comments URL: https://news.ycombinator.com/item?id=47420432 Points: 31 # Comments: 5",
+    "published": "Wed, 18 Mar 2026 01:00:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A tale about fixing eBPF spinlock issues in the Linux kernel",
+    "link": "https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/",
+    "description": "Article URL: https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/ Comments URL: https://news.ycombinator.com/item?id=47420388 Points: 24 # Comments: 1",
+    "published": "Wed, 18 Mar 2026 00:53:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Why AI systems don't learn – On autonomous learning from cognitive science",
+    "link": "https://arxiv.org/abs/2603.15381",
+    "description": "Article URL: https://arxiv.org/abs/2603.15381 Comments URL: https://news.ycombinator.com/item?id=47418722 Points: 37 # Comments: 13",
+    "published": "Tue, 17 Mar 2026 21:42:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Mistral AI Releases Forge",
+    "link": "https://mistral.ai/news/forge",
+    "description": "Article URL: https://mistral.ai/news/forge Comments URL: https://news.ycombinator.com/item?id=47418295 Points: 176 # Comments: 26",
+    "published": "Tue, 17 Mar 2026 21:04:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Meta and TikTok let harmful content rise to drove engagement, say whistleblowers",
+    "link": "https://www.bbc.com/news/articles/cqj9kgxqjwjo",
+    "description": "Article URL: https://www.bbc.com/news/articles/cqj9kgxqjwjo Comments URL: https://news.ycombinator.com/item?id=47417814 Points: 234 # Comments: 148",
+    "published": "Tue, 17 Mar 2026 20:24:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System",
+    "link": "https://github.com/gsd-build/get-shit-done",
+    "description": "Article URL: https://github.com/gsd-build/get-shit-done Comments URL: https://news.ycombinator.com/item?id=47417804 Points: 224 # Comments: 127",
+    "published": "Tue, 17 Mar 2026 20:23:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Kita (YC W26) – Automate credit review in emerging markets",
+    "link": "https://news.ycombinator.com/item?id=47417335",
+    "description": "Hey HN! We’re Carmel and Rhea, the founders of Kita ( https://www.usekita.com/ ). We automate credit review for lenders in emerging markets using VLMs. In many emerging markets, like the Philippines and Mexico, credit infrastructure is weak. Open finance is still nascent, and credit bureaus are unreliable. So to apply for a loan, lenders rely on borrowers submitting documentation to understand their ability to repay. A borrower can submit financial documents, such as bank statements and payslips",
+    "published": "Tue, 17 Mar 2026 19:46:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A Decade of Slug",
+    "link": "https://terathon.com/blog/decade-slug.html",
+    "description": "https://web.archive.org/web/20260317185928/https://terathon.... Comments URL: https://news.ycombinator.com/item?id=47416736 Points: 469 # Comments: 43",
+    "published": "Tue, 17 Mar 2026 18:59:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Java 26 is here",
+    "link": "https://hanno.codes/2026/03/17/java-26-is-here/",
+    "description": "Article URL: https://hanno.codes/2026/03/17/java-26-is-here/ Comments URL: https://news.ycombinator.com/item?id=47416548 Points: 192 # Comments: 153",
+    "published": "Tue, 17 Mar 2026 18:44:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Python 3.15's JIT is now back on track",
+    "link": "https://fidget-spinner.github.io/posts/jit-on-track.html",
+    "description": "Article URL: https://fidget-spinner.github.io/posts/jit-on-track.html Comments URL: https://news.ycombinator.com/item?id=47416486 Points: 298 # Comments: 115",
+    "published": "Tue, 17 Mar 2026 18:37:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Edge.js: Run Node apps inside a WebAssembly sandbox",
+    "link": "https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox",
+    "description": "Article URL: https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox Comments URL: https://news.ycombinator.com/item?id=47416081 Points: 106 # Comments: 33",
+    "published": "Tue, 17 Mar 2026 18:01:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Spice Data (YC S19) Is Hiring a Product Specialist",
+    "link": "https://www.ycombinator.com/companies/spice-data/jobs/P0e9MKz-product-specialist-new-grad",
+    "description": "Article URL: https://www.ycombinator.com/companies/spice-data/jobs/P0e9MKz-product-specialist-new-grad Comments URL: https://news.ycombinator.com/item?id=47415350 Points: 0 # Comments: 0",
+    "published": "Tue, 17 Mar 2026 17:00:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "'The Secret Agent': Exploring a Vibrant, yet Violent Brazil (2025)",
+    "link": "https://theasc.com/articles/the-secret-agent-cinematography",
+    "description": "Article URL: https://theasc.com/articles/the-secret-agent-cinematography Comments URL: https://news.ycombinator.com/item?id=47414440 Points: 125 # Comments: 65",
+    "published": "Tue, 17 Mar 2026 15:56:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Unsloth Studio",
+    "link": "https://unsloth.ai/docs/new/studio",
+    "description": "Article URL: https://unsloth.ai/docs/new/studio Comments URL: https://news.ycombinator.com/item?id=47414032 Points: 198 # Comments: 45",
+    "published": "Tue, 17 Mar 2026 15:26:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Microsoft's 'unhackable' Xbox One has been hacked by 'Bliss'",
+    "link": "https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level",
+    "description": "Article URL: https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level Comments URL: https://news.ycombinator.com/item?id=47413876 Points: 579 # Comments: 214",
+    "published": "Tue, 17 Mar 2026 15:16:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Node.js needs a virtual file system",
+    "link": "https://blog.platformatic.dev/why-nodejs-needs-a-virtual-file-system",
+    "description": "Article URL: https://blog.platformatic.dev/why-nodejs-needs-a-virtual-file-system Comments URL: https://news.ycombinator.com/item?id=47413195 Points: 234 # Comments: 199",
+    "published": "Tue, 17 Mar 2026 14:28:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenSUSE Kalpa",
+    "link": "https://kalpadesktop.org/",
+    "description": "Article URL: https://kalpadesktop.org/ Comments URL: https://news.ycombinator.com/item?id=47412726 Points: 181 # Comments: 79",
+    "published": "Tue, 17 Mar 2026 13:54:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
+    "link": "https://github.com/adammiribyan/zeroboot",
+    "description": "I wanted to see how fast an isolated code sandbox could start if I never had to boot a fresh VM. So instead of launching a new microVM per execution, I boot Firecracker once with Python and numpy already loaded, then snapshot the full VM state. Every execution after that creates a new KVM VM backed by a `MAP_PRIVATE` mapping of the snapshot memory, so Linux gives me copy-on-write pages automatically. That means each sandbox starts from an already-running Python process inside a real VM, runs the",
+    "published": "Tue, 17 Mar 2026 13:43:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ryugu asteroid samples contain all DNA and RNA building blocks",
+    "link": "https://phys.org/news/2026-03-ryugu-asteroid-samples-dna-rna.html",
+    "description": "Article URL: https://phys.org/news/2026-03-ryugu-asteroid-samples-dna-rna.html Comments URL: https://news.ycombinator.com/item?id=47411480 Points: 203 # Comments: 103",
+    "published": "Tue, 17 Mar 2026 12:01:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
