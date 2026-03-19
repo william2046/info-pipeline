@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Cook: A simple CLI for orchestrating Claude Code",
+    "link": "https://rjcorwin.github.io/cook/",
+    "description": "Article URL: https://rjcorwin.github.io/cook/ Comments URL: https://news.ycombinator.com/item?id=47434024 Points: 25 # Comments: 5",
+    "published": "Thu, 19 Mar 2026 02:20:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ask HN: How do you deal with people who trust LLMs?",
+    "link": "https://news.ycombinator.com/item?id=47433702",
+    "description": "A lot of people use LLMs as the source of their objective truth. They have a question that would be very well answered with a search leading to a reputable source, but instead they ask some LLM chat bot and just blindly trust whatever it says. How do you deal with that? Do you try to tell them about hallucinations and that LLMs have no concept of true or false? Or do you just let them be? What do you do when they do that in a conversation with you or encounter LLMs being used as a source for som",
+    "published": "Thu, 19 Mar 2026 01:37:35 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Autoresearch for SAT Solvers",
+    "link": "https://github.com/iliazintchenko/agent-sat",
+    "description": "Article URL: https://github.com/iliazintchenko/agent-sat Comments URL: https://news.ycombinator.com/item?id=47433265 Points: 57 # Comments: 5",
+    "published": "Thu, 19 Mar 2026 00:40:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: ATO – a GUI to see and fix what your LLM agents configured",
+    "link": "https://github.com/WillNigri/Agentic-Tool-Optimization",
+    "description": "Article URL: https://github.com/WillNigri/Agentic-Tool-Optimization Comments URL: https://news.ycombinator.com/item?id=47433155 Points: 3 # Comments: 0",
+    "published": "Thu, 19 Mar 2026 00:28:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Austin’s surge of new housing construction drove down rents",
+    "link": "https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents",
+    "description": "Article URL: https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents Comments URL: https://news.ycombinator.com/item?id=47433058 Points: 346 # Comments: 335",
+    "published": "Thu, 19 Mar 2026 00:15:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "RX – a new random-access JSON alternative",
+    "link": "https://github.com/creationix/rx",
+    "description": "Article URL: https://github.com/creationix/rx Comments URL: https://news.ycombinator.com/item?id=47432915 Points: 20 # Comments: 7",
+    "published": "Wed, 18 Mar 2026 23:58:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "What’s on HTTP?",
+    "link": "https://whatsonhttp.com/",
+    "description": "Article URL: https://whatsonhttp.com/ Comments URL: https://news.ycombinator.com/item?id=47431930 Points: 39 # Comments: 17",
+    "published": "Wed, 18 Mar 2026 21:57:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training",
+    "link": "https://github.com/alainnothere/llm-circuit-finder",
+    "description": "I replicated David Ng's RYS method ( https://dnhkng.github.io/posts/rys/ ) on consumer AMD GPUs (RX 7900 XT + RX 6950 XT) and found something I didn't expect. Transformers appear to have discrete \"reasoning circuits\" — contiguous blocks of 3-4 layers that act as indivisible cognitive units. Duplicate the right block and the model runs its reasoning pipeline twice. No weights change. No training. The model just thinks longer. The results on standard benchmarks (lm-evaluation-harness, n=50): Devst",
+    "published": "Wed, 18 Mar 2026 21:31:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Warranty Void If Regenerated",
+    "link": "https://nearzero.software/p/warranty-void-if-regenerated",
+    "description": "As an experiment I started asking Claude to explain things to me with a fiction story and it ended up being really good, so I started seeing how far I could take it and what it would take to polish it enough to share publicly. Over the last couple months, I've been building world bibles, writing and visual style guides, and other documents for this project… think the fiction equivalent of all the markdown files we use for agentic development now. After that, this was about two weeks of additiona",
+    "published": "Wed, 18 Mar 2026 20:45:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Playing LongTurn FreeCiv with Friends",
+    "link": "https://github.com/ndroo/freeciv.andrewmcgrath.info",
+    "description": "Article URL: https://github.com/ndroo/freeciv.andrewmcgrath.info Comments URL: https://news.ycombinator.com/item?id=47429988 Points: 56 # Comments: 28",
+    "published": "Wed, 18 Mar 2026 19:01:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Will my flight have Starlink?",
+    "link": "https://news.ycombinator.com/item?id=47428650",
+    "description": "Hey HN, If you’ve been lucky enough to be on a flight with Starlink, you understand the hype. It actually works! However, its availability on flights is patchy and hard to predict. So we built a database of all airlines that have rolled out Starlink (beyond just a trial), and a flight search tool to predict it. Plug in a flight number and date, and we'll estimate the likelihood of Starlink on-board based on aircraft type and tail number. If you don’t have any trips coming up, you can also look u",
+    "published": "Wed, 18 Mar 2026 17:29:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: I built 48 lightweight SVG backgrounds you can copy/paste",
+    "link": "https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/",
+    "description": "Article URL: https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/ Comments URL: https://news.ycombinator.com/item?id=47427299 Points: 185 # Comments: 32",
+    "published": "Wed, 18 Mar 2026 15:50:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "CVE-2026-3888: Important Snap Flaw Enables Local Privilege Escalation to Root",
+    "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root",
+    "description": "Article URL: https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root Comments URL: https://news.ycombinator.com/item?id=47427208 Points: 108 # Comments: 64",
+    "published": "Wed, 18 Mar 2026 15:43:19 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Nvidia NemoClaw",
+    "link": "https://github.com/NVIDIA/NemoClaw",
+    "description": "Article URL: https://github.com/NVIDIA/NemoClaw Comments URL: https://news.ycombinator.com/item?id=47427027 Points: 258 # Comments: 197",
+    "published": "Wed, 18 Mar 2026 15:31:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Machine Payments Protocol (MPP)",
+    "link": "https://stripe.com/blog/machine-payments-protocol",
+    "description": "Article URL: https://stripe.com/blog/machine-payments-protocol Comments URL: https://news.ycombinator.com/item?id=47426936 Points: 158 # Comments: 70",
+    "published": "Wed, 18 Mar 2026 15:24:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Despite Doubts, Federal Cyber Experts Approved Microsoft Cloud Service",
+    "link": "https://www.propublica.org/article/microsoft-cloud-fedramp-cybersecurity-government",
+    "description": "Article URL: https://www.propublica.org/article/microsoft-cloud-fedramp-cybersecurity-government Comments URL: https://news.ycombinator.com/item?id=47426057 Points: 448 # Comments: 204",
+    "published": "Wed, 18 Mar 2026 14:14:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Trevor Milton is raising funds for a new jet he claims will transform flying",
+    "link": "https://www.wsj.com/business/trevor-milton-pardon-nikola-trump-3163e19c",
+    "description": "Article URL: https://www.wsj.com/business/trevor-milton-pardon-nikola-trump-3163e19c Comments URL: https://news.ycombinator.com/item?id=47425176 Points: 103 # Comments: 159",
+    "published": "Wed, 18 Mar 2026 12:52:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Measuring progress toward AGI: A cognitive framework",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework/",
+    "description": "Article URL: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework/ Comments URL: https://news.ycombinator.com/item?id=47424458 Points: 108 # Comments: 180",
+    "published": "Wed, 18 Mar 2026 11:44:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenAI Has New Focus (on the IPO)",
+    "link": "https://om.co/2026/03/17/openai-has-new-focus-on-the-ipo/",
+    "description": "Article URL: https://om.co/2026/03/17/openai-has-new-focus-on-the-ipo/ Comments URL: https://news.ycombinator.com/item?id=47423976 Points: 163 # Comments: 159",
+    "published": "Wed, 18 Mar 2026 10:49:19 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "2025 Turing award given for quantum information science",
+    "link": "https://awards.acm.org/about/2025-turing",
+    "description": "https://blog.computationalcomplexity.org/2026/03/bennett-and... https://www.quantamagazine.org/quantum-cryptography-pioneers... https://www.nytimes.com/2026/03/18/technology/turing-award-w... https://www.wired.com/story/a-quantum-leap-for-the-turing-aw... Comments URL: https://news.ycombinator.com/item?id=47423694 Points: 105 # Comments: 25",
+    "published": "Wed, 18 Mar 2026 10:10:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

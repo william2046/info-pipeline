@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8416",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8416",
+    "description": "model : add control vector support where missing ( #20653 ) Add control vector functions to qwen3.5 and qwen-next models Add missing cvec compatibility to the rest of the models Adjust comments and formatting cleanup whitespace Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Wind",
+    "published": "2026-03-18T23:18:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8413",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8413",
+    "description": "Move to no timeout for WaitAny in graph submission to avoid deadlocks in some cases on llvm-pipe backends ( #20618 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler",
+    "published": "2026-03-18T21:49:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8412",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8412",
+    "description": "ggml-cpu/x86: fix unused changemask warning in repack ( #20692 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEule",
+    "published": "2026-03-18T19:49:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8411",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8411",
+    "description": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (910b, ACL Graph)",
+    "published": "2026-03-18T17:51:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8407",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8407",
+    "description": "llama : re-enable manual LoRA adapter free ( #19983 ) Re-enable manual LoRA adapter free Remove stale \"all adapters must be loaded before context creation\" stale comments macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Win",
+    "published": "2026-03-18T12:56:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8405",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8405",
+    "description": "common : rework gpt-oss parser ( #20393 ) common : rework gpt-oss parser cont : fix gpt-oss tests cont : add structured output test cont : rename final to final_msg macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x",
+    "published": "2026-03-18T11:45:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8401",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8401",
+    "description": "context : fix graph not resetting when control vector changes ( #20381 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) ",
+    "published": "2026-03-18T08:49:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8400",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8400",
+    "description": "hexagon: add neg, exp, sigmoid, softplus ops, cont, repeat ops ( #20701 ) Add element-wise unary ops needed by Qwen 3.5's DeltaNet linear attention layers. These ops follow the existing unary-ops pattern with VTCM DMA double-buffering. neg: negate via scale by -1.0 exp: uses existing hvx_exp_f32 HVX intrinsics sigmoid: uses existing hvx_sigmoid_f32_aa HVX intrinsics softplus: log(1 + exp(x)) scalar fallback CONT reuses the existing CPY infrastructure since making a tensor contiguous is equivalen",
+    "published": "2026-03-17T23:21:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8399",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8399",
+    "description": "vulkan: disable mmvq on Intel Windows driver ( #20672 ) vulkan: disable mmvq on Intel Windows driver improve comment macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler",
+    "published": "2026-03-17T21:55:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8398",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8398",
+    "description": "ggml-blas: set mkl threads from thread context ( #20602 ) ggml blas: set mkl threads from thread context add code to run blas locally macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) ope",
+    "published": "2026-03-17T18:27:34Z",
+    "source": "llama.cpp Releases"
+  }
+]
