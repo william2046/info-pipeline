@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Full Disclosure: A Third (and Fourth) Azure Sign-In Log Bypass Found",
+    "link": "https://trustedsec.com/blog/full-disclosure-a-third-and-fourth-azure-sign-in-log-bypass-found",
+    "description": "Article URL: https://trustedsec.com/blog/full-disclosure-a-third-and-fourth-azure-sign-in-log-bypass-found Comments URL: https://news.ycombinator.com/item?id=47448994 Points: 30 # Comments: 2",
+    "published": "Fri, 20 Mar 2026 01:09:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Drugwars for the TI-82/83/83 Calculators",
+    "link": "https://gist.github.com/mattmanning/1002653/b7a1e88479a10eaae3bd5298b8b2c86e16fb4404",
+    "description": "Article URL: https://gist.github.com/mattmanning/1002653/b7a1e88479a10eaae3bd5298b8b2c86e16fb4404 Comments URL: https://news.ycombinator.com/item?id=47448566 Points: 60 # Comments: 27",
+    "published": "Fri, 20 Mar 2026 00:26:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Push events into a running session with channels",
+    "link": "https://code.claude.com/docs/en/channels",
+    "description": "Article URL: https://code.claude.com/docs/en/channels Comments URL: https://news.ycombinator.com/item?id=47448524 Points: 198 # Comments: 112",
+    "published": "Fri, 20 Mar 2026 00:22:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Wayland set the Linux Desktop back by 10 years?",
+    "link": "https://omar.yt/posts/wayland-set-the-linux-desktop-back-by-10-years",
+    "description": "Article URL: https://omar.yt/posts/wayland-set-the-linux-desktop-back-by-10-years Comments URL: https://news.ycombinator.com/item?id=47448328 Points: 182 # Comments: 176",
+    "published": "Fri, 20 Mar 2026 00:01:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The day I discovered type design",
+    "link": "https://www.marksimonson.com/notebook/view/the-day-i-discovered-type-design/",
+    "description": "Article URL: https://www.marksimonson.com/notebook/view/the-day-i-discovered-type-design/ Comments URL: https://news.ycombinator.com/item?id=47447690 Points: 51 # Comments: 6",
+    "published": "Thu, 19 Mar 2026 23:08:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Be intentional about how AI changes your codebase",
+    "link": "https://aicode.swerdlow.dev",
+    "description": "Article URL: https://aicode.swerdlow.dev Comments URL: https://news.ycombinator.com/item?id=47446373 Points: 77 # Comments: 28",
+    "published": "Thu, 19 Mar 2026 21:23:24 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "EsoLang-Bench: Evaluating Genuine Reasoning in LLMs via Esoteric Languages",
+    "link": "https://esolang-bench.vercel.app/",
+    "description": "Article URL: https://esolang-bench.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=47446021 Points: 72 # Comments: 35",
+    "published": "Thu, 19 Mar 2026 21:01:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Cockpit is a web-based graphical interface for servers",
+    "link": "https://github.com/cockpit-project/cockpit",
+    "description": "Article URL: https://github.com/cockpit-project/cockpit Comments URL: https://news.ycombinator.com/item?id=47445599 Points: 191 # Comments: 113",
+    "published": "Thu, 19 Mar 2026 20:33:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Waymo Safety Impact",
+    "link": "https://waymo.com/safety/impact/",
+    "description": "Article URL: https://waymo.com/safety/impact/ Comments URL: https://news.ycombinator.com/item?id=47445246 Points: 246 # Comments: 237",
+    "published": "Thu, 19 Mar 2026 20:13:35 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Clockwise acquired by Salesforce and shutting down next week",
+    "link": "https://www.getclockwise.com",
+    "description": "Article URL: https://www.getclockwise.com Comments URL: https://news.ycombinator.com/item?id=47444906 Points: 86 # Comments: 49",
+    "published": "Thu, 19 Mar 2026 19:50:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "From Oscilloscope to Wireshark: A UDP Story (2022)",
+    "link": "https://www.mattkeeter.com/blog/2022-08-11-udp/",
+    "description": "Article URL: https://www.mattkeeter.com/blog/2022-08-11-udp/ Comments URL: https://news.ycombinator.com/item?id=47444460 Points: 86 # Comments: 16",
+    "published": "Thu, 19 Mar 2026 19:18:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute",
+    "link": "https://qlabs.sh/10x",
+    "description": "Article URL: https://qlabs.sh/10x Comments URL: https://news.ycombinator.com/item?id=47444072 Points: 106 # Comments: 22",
+    "published": "Thu, 19 Mar 2026 18:51:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Noq: n0's new QUIC implementation in Rust",
+    "link": "https://www.iroh.computer/blog/noq-announcement",
+    "description": "Article URL: https://www.iroh.computer/blog/noq-announcement Comments URL: https://news.ycombinator.com/item?id=47443588 Points: 158 # Comments: 21",
+    "published": "Thu, 19 Mar 2026 18:17:15 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "An update on Steam / GOG changes for OpenTTD",
+    "link": "https://www.openttd.org/news/2026/03/19/steam-changes-update",
+    "description": "Article URL: https://www.openttd.org/news/2026/03/19/steam-changes-update Comments URL: https://news.ycombinator.com/item?id=47442834 Points: 284 # Comments: 194",
+    "published": "Thu, 19 Mar 2026 17:27:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Google details new 24-hour process to sideload unverified Android apps",
+    "link": "https://arstechnica.com/gadgets/2026/03/google-details-new-24-hour-process-to-sideload-unverified-android-apps/",
+    "description": "https://android-developers.googleblog.com/2026/03/android-de... Comments URL: https://news.ycombinator.com/item?id=47442690 Points: 570 # Comments: 664",
+    "published": "Thu, 19 Mar 2026 17:16:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Voltair (YC W26) – Drone and charging network for power utilities",
+    "link": "https://news.ycombinator.com/item?id=47442452",
+    "description": "Hey HN! We’re Hayden, Ronan, Avi, and Warren of Voltair ( https://voltairlabs.com/ ). We’re making weatherized, hybrid-fixed drones deployed for power utility inspections. Here’s some footage: https://vimeo.com/1173862237/ac28095cc6?share=copy&fl=sv&fe=... and a photo of our latest prototype: https://imgur.com/a/bYHnqZ4 . The U.S. has 7M miles of power lines (enough to go to the moon and back 14 times), and they're aging. Over 50% of all power flows through transformers that are at least 30 year",
+    "published": "Thu, 19 Mar 2026 16:57:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Scaling Karpathy's Autoresearch: What Happens When the Agent Gets a GPU Cluster",
+    "link": "https://blog.skypilot.co/scaling-autoresearch/",
+    "description": "Article URL: https://blog.skypilot.co/scaling-autoresearch/ Comments URL: https://news.ycombinator.com/item?id=47442435 Points: 132 # Comments: 61",
+    "published": "Thu, 19 Mar 2026 16:55:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Canary (YC W26) – AI QA that understands your code",
+    "link": "https://news.ycombinator.com/item?id=47441629",
+    "description": "Hey HN! We're Aakash and Viswesh, and we're building Canary ( https://www.runcanary.ai ). We build AI agents that read your codebase, figure out what a pull request actually changed, and generate and execute tests for every affected user workflow. Aakash and I previously built AI coding tools at Windsurf, Cognition, and Google. AI tools were making every team faster at shipping, but nobody was testing real user behavior before merge. PRs got bigger, reviews still happened in file diffs, and chan",
+    "published": "Thu, 19 Mar 2026 16:01:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Three new Kitten TTS models – smallest less than 25MB",
+    "link": "https://github.com/KittenML/KittenTTS",
+    "description": "Kitten TTS ( https://github.com/KittenML/KittenTTS ) is an open-source series of tiny and expressive text-to-speech models for on-device applications. We had a thread last year here: https://news.ycombinator.com/item?id=44807868 . Today we're releasing three new models with 80M, 40M and 14M parameters. The largest model (80M) has the highest quality. The 14M variant reaches new SOTA in expressivity among similar sized models, despite being Here's a short demo: https://www.youtube.com/watch?v=ge3",
+    "published": "Thu, 19 Mar 2026 15:56:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "4Chan mocks £520k fine for UK online safety breaches",
+    "link": "https://www.bbc.com/news/articles/c624330lg1ko",
+    "description": "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-c... Comments URL: https://news.ycombinator.com/item?id=47440430 Points: 289 # Comments: 467",
+    "published": "Thu, 19 Mar 2026 14:46:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8429",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8429",
+    "description": "mtmd: add clip_graph::build_mm() ( #20751 ) clip: add build_mm() apply to all models add TODO for bias overload macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 ",
+    "published": "2026-03-19T14:02:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8425",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8425",
+    "description": "common : fix gpt-oss content removal ( #20745 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) ",
+    "published": "2026-03-19T14:01:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8424",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8424",
+    "description": "vulkan: dequantize iq4_xs 4 at a time ( #20657 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p)",
+    "published": "2026-03-19T13:54:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8423",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8423",
+    "description": "cmake : fix build warning when kleidiai is enabled ( #20457 ) cmake : fix build warning when kleidiai is enabled remove LLAMA_ARG_THREADS from KleidiAI backend macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (S",
+    "published": "2026-03-19T13:51:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8422",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8422",
+    "description": "vocab : assert array size of scores and toktypes ( #20737 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aar",
+    "published": "2026-03-19T10:45:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8420",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8420",
+    "description": "CANN: handle in-place ROPE on non-contiguous f32 tensors ( #20274 ) RotaryPositionEmbedding on CANN fails when src and dst share the same non-contiguous buffer (inplace + view), because the operator overwrites source data before it is fully read. Add a branch that detects this case and uses contiguous temporary buffers: copy src to temp, run ROPE into another temp, then copy back to the non-contiguous dst. Fixes 20 failing ROPE tests (f32, v=1, inplace=1). Signed-off-by: noemotiovon 757486878@qq",
+    "published": "2026-03-19T08:30:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8419",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8419",
+    "description": "ggml-webgpu: Update the RMS_NORM preprocessor and add L2_NORM ( #20665 ) Update the preprocessor of RMS_NORM and add L2_NORM. Fix the name of rms_norm to row_norm. macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x6",
+    "published": "2026-03-19T08:09:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8418",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8418",
+    "description": "ggml-webgpu: Add supports for DIAG and TRI ( #20664 ) Add supports for DIAG and TRI. Remove extra ttype and add a comment for TRI op. macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) ope",
+    "published": "2026-03-19T07:40:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8417",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8417",
+    "description": "CANN: support flash attention for head dim not multiple of 16, fix ALiBi slope offset ( #20031 ) Allow FLASH_ATTN_EXT when head dimension D is not a multiple of 16 by padding Q/K/V to D_padded = GGML_PAD(D, 16), running FusedInferAttentionScoreV2, then slicing the output back to D (ggml-cann.cpp + aclnn_ops.cpp). Fix aclnn_get_slope second-part offset: use ggml_type_size(dtype) instead of sizeof(float) so ALiBi slopes are correct when dtype is F16 (e.g. GQA with 48 heads); fixes buffer overflow ",
+    "published": "2026-03-19T05:38:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8416",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8416",
+    "description": "model : add control vector support where missing ( #20653 ) Add control vector functions to qwen3.5 and qwen-next models Add missing cvec compatibility to the rest of the models Adjust comments and formatting cleanup whitespace Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Wind",
+    "published": "2026-03-18T23:18:05Z",
+    "source": "llama.cpp Releases"
+  }
+]
