@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Traces of Evil",
+    "link": "https://www.tracesofevil.com/",
+    "description": "Article URL: https://www.tracesofevil.com/ Comments URL: https://news.ycombinator.com/item?id=47462915 Points: 4 # Comments: 0",
+    "published": "Sat, 21 Mar 2026 00:54:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)",
+    "link": "https://github.com/arnoldrobbins/LinuxByExample-2e",
+    "description": "Article URL: https://github.com/arnoldrobbins/LinuxByExample-2e Comments URL: https://news.ycombinator.com/item?id=47462483 Points: 38 # Comments: 5",
+    "published": "Fri, 20 Mar 2026 23:57:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Red Grid Link – peer-to-peer team tracking over Bluetooth, no servers",
+    "link": "https://github.com/RedGridTactical/RedGridLink",
+    "description": "I go on a lot of backcountry trips where I barely get cell service. If my group splits, nobody knows knows where anyone is until you regroup at camp or at your destination. You can buy Garmin radios or try to set up an ATAK, but ATAK is Android-only and assumes you have a TAK Server running somewhere to make use of all of the functionality. Cool tools themselves, but expensive to set up correctly. I just wanted two iPhones to share their location directly over Bluetooth when cell coverage was la",
+    "published": "Fri, 20 Mar 2026 22:25:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ghostling",
+    "link": "https://github.com/ghostty-org/ghostling",
+    "description": "Article URL: https://github.com/ghostty-org/ghostling Comments URL: https://news.ycombinator.com/item?id=47461378 Points: 120 # Comments: 15",
+    "published": "Fri, 20 Mar 2026 22:11:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran",
+    "link": "https://github.com/FormerLab/fortransky",
+    "description": "Yes, that Fortran. Comments URL: https://news.ycombinator.com/item?id=47461321 Points: 46 # Comments: 30",
+    "published": "Fri, 20 Mar 2026 22:06:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "We rewrote our Rust WASM parser in TypeScript and it got faster",
+    "link": "https://www.openui.com/blog/rust-wasm-parser",
+    "description": "Article URL: https://www.openui.com/blog/rust-wasm-parser Comments URL: https://news.ycombinator.com/item?id=47461094 Points: 121 # Comments: 67",
+    "published": "Fri, 20 Mar 2026 21:48:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Discontinuation and reinitiation of dual-labeled GLP-1 receptor agonists",
+    "link": "https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029",
+    "description": "Study: https://pubmed.ncbi.nlm.nih.gov/39888616/ Comments URL: https://news.ycombinator.com/item?id=47461018 Points: 61 # Comments: 82",
+    "published": "Fri, 20 Mar 2026 21:42:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Baltic shadow fleet tracker – live AIS, cable proximity alerts",
+    "link": "https://github.com/FormerLab/shadow-fleet-tracker-light",
+    "description": "Article URL: https://github.com/FormerLab/shadow-fleet-tracker-light Comments URL: https://news.ycombinator.com/item?id=47460528 Points: 33 # Comments: 6",
+    "published": "Fri, 20 Mar 2026 21:04:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenCode – Open source AI coding agent",
+    "link": "https://opencode.ai/",
+    "description": "Article URL: https://opencode.ai/ Comments URL: https://news.ycombinator.com/item?id=47460525 Points: 493 # Comments: 228",
+    "published": "Fri, 20 Mar 2026 21:03:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A Japanese glossary of chopsticks faux pas",
+    "link": "https://www.nippon.com/en/japan-data/h01362/",
+    "description": "Article URL: https://www.nippon.com/en/japan-data/h01362/ Comments URL: https://news.ycombinator.com/item?id=47460452 Points: 135 # Comments: 118",
+    "published": "Fri, 20 Mar 2026 20:54:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "NumKong: 2'000 Mixed Precision Kernels for All",
+    "link": "https://ashvardanian.com/posts/numkong/",
+    "description": "Article URL: https://ashvardanian.com/posts/numkong/ Comments URL: https://news.ycombinator.com/item?id=47459447 Points: 36 # Comments: 1",
+    "published": "Fri, 20 Mar 2026 19:29:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Our commitment to Windows quality",
+    "link": "https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/",
+    "description": "Article URL: https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/ Comments URL: https://news.ycombinator.com/item?id=47459296 Points: 442 # Comments: 784",
+    "published": "Fri, 20 Mar 2026 19:16:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Attention Residuals",
+    "link": "https://github.com/MoonshotAI/Attention-Residuals",
+    "description": "Article URL: https://github.com/MoonshotAI/Attention-Residuals Comments URL: https://news.ycombinator.com/item?id=47458595 Points: 132 # Comments: 20",
+    "published": "Fri, 20 Mar 2026 18:23:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: I made an email app inspired by Arc browser",
+    "link": "https://demo.define.app",
+    "description": "Email is one of those tools we check daily but its underlying experience didn’t evolve much. I use Gmail, as probably most of you reading this. The Arc browser brought joy and taste to browsing the web. Cursor created a new UX with agents ready to work for you in a handy right panel. I use these three tools every day. Since Arc was acquired by Atlassian, I’ve been wondering: what if I built a new interface that applied Arc’s UX to email rather than browser tabs, while making AI agents easily ava",
+    "published": "Fri, 20 Mar 2026 18:06:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Meme Buildings",
+    "link": "https://misfitsarchitecture.com/2026/03/15/meme-buildings/",
+    "description": "Article URL: https://misfitsarchitecture.com/2026/03/15/meme-buildings/ Comments URL: https://news.ycombinator.com/item?id=47456421 Points: 22 # Comments: 2",
+    "published": "Fri, 20 Mar 2026 15:55:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Molly Guard",
+    "link": "https://bookofjoe2.blogspot.com/2026/02/molly-guard.html",
+    "description": "https://en.wiktionary.org/wiki/molly-guard Comments URL: https://news.ycombinator.com/item?id=47455138 Points: 5 # Comments: 1",
+    "published": "Fri, 20 Mar 2026 14:33:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Social Smolnet",
+    "link": "https://ploum.net/2026-03-20-social-smolnet.html",
+    "description": "Article URL: https://ploum.net/2026-03-20-social-smolnet.html Comments URL: https://news.ycombinator.com/item?id=47453947 Points: 112 # Comments: 13",
+    "published": "Fri, 20 Mar 2026 13:02:19 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "France's aircraft carrier located in real time by Le Monde through fitness app",
+    "link": "https://www.lemonde.fr/en/international/article/2026/03/20/stravaleaks-france-s-aircraft-carrier-located-in-real-time-by-le-monde-through-fitness-app_6751640_4.html",
+    "description": "Article URL: https://www.lemonde.fr/en/international/article/2026/03/20/stravaleaks-france-s-aircraft-carrier-located-in-real-time-by-le-monde-through-fitness-app_6751640_4.html Comments URL: https://news.ycombinator.com/item?id=47453942 Points: 487 # Comments: 398",
+    "published": "Fri, 20 Mar 2026 13:01:56 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Entso-E final report on Iberian 2025 blackout",
+    "link": "https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/",
+    "description": "Article URL: https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/ Comments URL: https://news.ycombinator.com/item?id=47452955 Points: 177 # Comments: 76",
+    "published": "Fri, 20 Mar 2026 11:03:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Delve – Fake Compliance as a Service",
+    "link": "https://deepdelver.substack.com/p/delve-fake-compliance-as-a-service",
+    "description": "Article URL: https://deepdelver.substack.com/p/delve-fake-compliance-as-a-service Comments URL: https://news.ycombinator.com/item?id=47444319 Points: 575 # Comments: 200",
+    "published": "Thu, 19 Mar 2026 19:08:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

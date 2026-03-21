@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8460",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8460",
+    "description": "common/parser: fix nasty bug causing subtle corruption of generation prompt ( #20825 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910",
+    "published": "2026-03-21T00:51:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8459",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8459",
+    "description": "ggml-cpu: add always_inline to tinyBLAS_PPC accumulator saves ( #20791 ) Explicitly mark save_acc and add_save_Acc with always_inline in tinyBLAS_PPC. This ensures the compiler keeps MMA accumulator disassembly within kernel's register context, preventing un-necessary stask spills. Signed-off-by: Shalini Salomi Bodapati Shalini.Salomi.Bodapati@ibm.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu ",
+    "published": "2026-03-21T00:23:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8457",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8457",
+    "description": "common : fix typo in debug log ('extracft' -> 'extract') ( #20807 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openE",
+    "published": "2026-03-20T18:23:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8445",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8445",
+    "description": "common/parser : fix out_of_range crash in throw path ( #20424 regressi…",
+    "published": "2026-03-20T01:37:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8429",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8429",
+    "description": "mtmd: add clip_graph::build_mm() ( #20751 ) clip: add build_mm() apply to all models add TODO for bias overload macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 ",
+    "published": "2026-03-19T14:02:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8425",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8425",
+    "description": "common : fix gpt-oss content removal ( #20745 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) ",
+    "published": "2026-03-19T14:01:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8424",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8424",
+    "description": "vulkan: dequantize iq4_xs 4 at a time ( #20657 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p)",
+    "published": "2026-03-19T13:54:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8423",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8423",
+    "description": "cmake : fix build warning when kleidiai is enabled ( #20457 ) cmake : fix build warning when kleidiai is enabled remove LLAMA_ARG_THREADS from KleidiAI backend macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (S",
+    "published": "2026-03-19T13:51:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8422",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8422",
+    "description": "vocab : assert array size of scores and toktypes ( #20737 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aar",
+    "published": "2026-03-19T10:45:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8420",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8420",
+    "description": "CANN: handle in-place ROPE on non-contiguous f32 tensors ( #20274 ) RotaryPositionEmbedding on CANN fails when src and dst share the same non-contiguous buffer (inplace + view), because the operator overwrites source data before it is fully read. Add a branch that detects this case and uses contiguous temporary buffers: copy src to temp, run ROPE into another temp, then copy back to the non-contiguous dst. Fixes 20 failing ROPE tests (f32, v=1, inplace=1). Signed-off-by: noemotiovon 757486878@qq",
+    "published": "2026-03-19T08:30:42Z",
+    "source": "llama.cpp Releases"
+  }
+]
