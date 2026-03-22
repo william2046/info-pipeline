@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8468",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8468",
+    "description": "misc : prefer ggml-org models in docs and examples ( #20827 ) misc : prefer ggml-org models in docs and examples Prefer referring to known-good quantizations under ggml-org rather than 3rd-party uploaders. remove accidentally committed file macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.",
+    "published": "2026-03-21T22:27:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8467",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8467",
+    "description": "common/grammar: fix grammar parsing issues to prevent stack overflow and hangs ( #18604 ) grammar: add test case for nullable symbol loop Reproduce stack overflow (or OOM) with ( [x]* )* found while adding GBNF support to ripgrep-edit. llama-server reproducer: curl -X POST -d '{ \"messages\": [{ \"role\": \"user\", \"content\": \"write yes\" }], \"grammar\": \"root ::= ( [x]* )*\" }' -H \"Content-Type: application/json\" http://localhost:8811/v1/chat/completions grammar: prevent stack overflow with nullable sym",
+    "published": "2026-03-21T18:41:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8466",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8466",
+    "description": "context : use n_embd_out for pooled embedding extraction ( #20840 ) The MEAN/CLS/LAST pooling paths in encode() and decode() used n_embd_inp() (16384 for qwen3vl with deepstack) to read from the pooled embedding tensor, which only has n_embd_out() (4096) floats per sequence. This caused a tensor read out of bounds assertion. Fixes embedding mode for Qwen3-VL-Embedding models. macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubun",
+    "published": "2026-03-21T18:16:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8464",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8464",
+    "description": "fix(rpc): prevent division by zero in deserialize_tensor ( #20712 ) rpc : prevent division by zero in deserialize_tensor When receiving an RPC message with a deprecated tensor type (e.g., type 4 or 5 where blck_size == 0 ), ggml_row_size() will trigger a division by zero (SIGFPE) and crash the rpc-server. This patch adds a simple validation check in deserialize_tensor to return nullptr if the requested tensor type has a block size of 0. (Note: This was originally reported via Security Advisory a",
+    "published": "2026-03-21T15:11:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8461",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8461",
+    "description": "Add shader count for Intel Arc Pro B60 ( #20818 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p",
+    "published": "2026-03-21T05:00:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8460",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8460",
+    "description": "common/parser: fix nasty bug causing subtle corruption of generation prompt ( #20825 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910",
+    "published": "2026-03-21T00:51:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8459",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8459",
+    "description": "ggml-cpu: add always_inline to tinyBLAS_PPC accumulator saves ( #20791 ) Explicitly mark save_acc and add_save_Acc with always_inline in tinyBLAS_PPC. This ensures the compiler keeps MMA accumulator disassembly within kernel's register context, preventing un-necessary stask spills. Signed-off-by: Shalini Salomi Bodapati Shalini.Salomi.Bodapati@ibm.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu ",
+    "published": "2026-03-21T00:23:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8457",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8457",
+    "description": "common : fix typo in debug log ('extracft' -> 'extract') ( #20807 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openE",
+    "published": "2026-03-20T18:23:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8445",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8445",
+    "description": "common/parser : fix out_of_range crash in throw path ( #20424 regressi…",
+    "published": "2026-03-20T01:37:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8429",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8429",
+    "description": "mtmd: add clip_graph::build_mm() ( #20751 ) clip: add build_mm() apply to all models add TODO for bias overload macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 ",
+    "published": "2026-03-19T14:02:36Z",
+    "source": "llama.cpp Releases"
+  }
+]
