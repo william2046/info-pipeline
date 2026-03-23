@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8477",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8477",
+    "description": "mtmd: Add dynamic high-resolution image preprocessing for InternVL model ( #20847 ) added support for internvl's dynamic high-resolution (Qianfan-OCR needed) add min/max dynamic patch to gguf meta clean up simplified handling min/max dynamic patch reuse llava_uhd logic for slice images provide default values for older models flake8 prevent writing 0 value to gguf remove duplicated resolution candidates with a better algorithm fix indentation format add protection from divide by zero change to 0 ",
+    "published": "2026-03-23T02:27:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8476",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8476",
+    "description": "mtmd : fix LightOnOCR image preprocessing ( #20877 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (3",
+    "published": "2026-03-23T02:20:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8475",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8475",
+    "description": "server: allow router to report child instances sleep status ( #20849 ) server: allow router to report child instances sleep status refactor move sleeping to state nits macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Window",
+    "published": "2026-03-22T19:14:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8474",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8474",
+    "description": "CUDA: fix BF16 FA compilation ( #20865 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEul",
+    "published": "2026-03-22T18:55:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8473",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8473",
+    "description": "jinja : refactor token advancement ( #20864 ) refactor token advancement exercise sub-expressions macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEul",
+    "published": "2026-03-22T18:38:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8472",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8472",
+    "description": "server: fix Host header ( #20843 ) It should include port when it's not default. macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL",
+    "published": "2026-03-22T16:46:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8471",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8471",
+    "description": "support bf16 and quantized type ( #20803 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openE",
+    "published": "2026-03-22T16:15:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8470",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8470",
+    "description": "ggml-cuda: native bf16 flash attention for vec kernel ( #20525 ) ggml-cuda: native bf16 flash attention for vec and tile kernels mma kernel still converts bf16 to fp16 before launch, native mma bf16 todo ggml-cuda: address code owner review feedback reverted tile kernel changes to avoid larger refactor fix ci failures on turing and hip fix bf16 vec kernel compile on hip v_dot2 platforms add comments Co-authored-by: Johannes Gäßler johannesg@5d6.de macOS/iOS: macOS Apple Silicon (arm64) macOS Int",
+    "published": "2026-03-22T11:23:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8469",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8469",
+    "description": "[CUDA] Increase number of output elements per-thread block if the K-dimension is small ( #20635 ) Increase per-thread work if the K-dimension is small With tensor parallelism, the K-dimension of the FFN-down matrices is split, which makes it quite small, especially for MOEs. For example, Qwen3-30b-A3B has a K-dimension of 768, and Qwen3235B-A22B has k-dimension of 1536. The current heuristic uses a group of 4 warps irrespective of K-dimension size, resulting in some of the threads being idle. Th",
+    "published": "2026-03-22T10:04:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8468",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8468",
+    "description": "misc : prefer ggml-org models in docs and examples ( #20827 ) misc : prefer ggml-org models in docs and examples Prefer referring to known-good quantizations under ggml-org rather than 3rd-party uploaders. remove accidentally committed file macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.",
+    "published": "2026-03-21T22:27:06Z",
+    "source": "llama.cpp Releases"
+  }
+]
