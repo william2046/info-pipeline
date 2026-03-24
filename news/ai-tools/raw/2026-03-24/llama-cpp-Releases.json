@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8495",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8495",
+    "description": "hexagon: general DMA and Binary Op fixes for large strides ( #20918 ) hex-dma: make chained dma the default to handle newer models This also includes some new instrumentation that we can remove later. hexagon: add uint32 dump helper hexagon: use single-page VTCM allocation to avoid issues with large gather ops in ssm-conv ssm-conv uses HVX gather instruction and that instruction cannot handle cases where the base+offset spans page boundaries. hexagon: update ssm-conv to make base-addr compute a ",
+    "published": "2026-03-23T23:20:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8493",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8493",
+    "description": "opencl: add q6_K gemm and gemv kernels for Adreno ( #20089 ) opencl: add q6_K noshuffle kernels, initial q6_K gemv, some host code opencl: add q6_K transpose opencl: fix cvt kernel name opencl: add call to q6_K gemv opencl: fix q6_K scale transpose opencl: fix loading for gemv q6_K, refactor opencl: fix transpose_8_buf kernel assignment, refactor opencl: refactor q6_K transpose opencl: add gemm_noshuffle_q6_k_f32 opencl: fix qh loading opencl: refactor q6_K gemv host side, release bufs and imgs ",
+    "published": "2026-03-23T20:27:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8492",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8492",
+    "description": "rpc : RCE patch ( #20908 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarch64 (91",
+    "published": "2026-03-23T18:43:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8487",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8487",
+    "description": "memory : fix seq_id bounds in llama_memory_recurrent::state_read_meta() ( #20887 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, A",
+    "published": "2026-03-23T14:53:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8485",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8485",
+    "description": "server: use httplib dynamic threads ( #20817 ) server: use httplib dynamic threads change to n_threads_http + 1024 macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x",
+    "published": "2026-03-23T13:27:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8480",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8480",
+    "description": "CANN: add RoPE cache preload before ACL graph capture ( #20747 ) ACL graph capture disallows host-to-device memcpy and device memory malloc/free on the captured stream. Pre-load the RoPE cache before capture so that: Host-to-device copies and allocations run on the non-captured stream Cache metadata is populated and memory pool is warmed up During capture, only on-device computations are recorded; host-side and allocation branches are skipped macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x",
+    "published": "2026-03-23T11:07:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8479",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8479",
+    "description": "fix(openvino): explicit memset in buffer_context allocation ( #20857 ) fix(openvino): explicit memset in buffer_context allocation minor Co-authored-by: Dan Hoffman dhoffman@cyket.net Co-authored-by: Georgi Gerganov ggerganov@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLL",
+    "published": "2026-03-23T09:17:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8478",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8478",
+    "description": "opencl: add flattened Q4_K mv and general Q4_K mm ( #20773 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aa",
+    "published": "2026-03-23T09:16:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8477",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8477",
+    "description": "mtmd: Add dynamic high-resolution image preprocessing for InternVL model ( #20847 ) added support for internvl's dynamic high-resolution (Qianfan-OCR needed) add min/max dynamic patch to gguf meta clean up simplified handling min/max dynamic patch reuse llava_uhd logic for slice images provide default values for older models flake8 prevent writing 0 value to gguf remove duplicated resolution candidates with a better algorithm fix indentation format add protection from divide by zero change to 0 ",
+    "published": "2026-03-23T02:27:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8476",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8476",
+    "description": "mtmd : fix LightOnOCR image preprocessing ( #20877 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (3",
+    "published": "2026-03-23T02:20:28Z",
+    "source": "llama.cpp Releases"
+  }
+]
