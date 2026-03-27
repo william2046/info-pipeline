@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8547",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8547",
+    "description": "CANN: update docker images to 8.5.0 and improve CANN.md ( #20801 ) cann: update docker images to 8.5.0 bump CANN base image from 8.3.rc2 to 8.5.0 bump ASCEND_VERSION from 8.1.RC1.alpha001 to 8.5.0 Move to newer stable releases. cann: update CANN.md Update CANN.md to include BF16 support Added BF16 support information to the CANN documentation and corrected formatting for the installation instructions. Fix formatting issues in CANN.md Fix 234: Trailing whitespace macOS/iOS: macOS Apple Silicon (a",
+    "published": "2026-03-27T01:22:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8546",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8546",
+    "description": "mtmd: fix \"v.patch_embd\" quant and unsupported im2col ops on Metal for deepseek-ocr ( #21027 ) mtmd: fix \"v.patch_embd\" quant and unsupported im2col ops on Metal for deepseek-ocr Update src/llama-quant.cpp Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (Op",
+    "published": "2026-03-27T01:45:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8545",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8545",
+    "description": "hip: use fnuz fp8 for conversion on CDNA3 ( #21040 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (3",
+    "published": "2026-03-27T00:32:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8533",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8533",
+    "description": "imatrix : fix crash when using --show-statistics with zero counts ( #19532 ) imatrix: fix crash when using --show-statistics with zero counts Fixes division by zero that caused floating point exceptions when processing imatrix files with zero count values. Added checks to skip zero counts and handle empty activation vectors. Fix for the bug #19190 imatrix: lower log level for zero-count skip message to DBG macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64",
+    "published": "2026-03-26T08:10:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8532",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8532",
+    "description": "CUDA & CPU: support F32 kernel type for CONV_TRANSPOSE_2D ( #17094 ) Refactor CUDA 2D transpose implementation to support multiple kernel types and improve parameter handling Introduced a conv2d_transpose_params struct for better parameter management. Updated conv2d_transpose_kernel to be templated for different kernel types (float and half). Modified ggml_cuda_conv_2d_transpose_p0 to handle both F16 and F32 kernel types. Enhanced test cases to validate functionality for both kernel types. Refac",
+    "published": "2026-03-26T03:49:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8531",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8531",
+    "description": "common : do not delete old files from the old cache when updating ( #21000 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler",
+    "published": "2026-03-26T02:02:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8530",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8530",
+    "description": "mtmd: Add DeepSeekOCR Support ( #17400 ) mtmd: llama.cpp DeepSeekOCR support init commit loading sam tensors mtmd: fix vision model processing deepseek-ocr clip-vit model impl mtmd: add DeepSeek-OCR LM support with standard attention mtmd: successfully runs DeepSeek-OCR LM in llama-cli mtmd: Fix RoPE type for DeepSeek-OCR LM. loading LM testing Vision model loading sam warmup working sam erroneous return corrected clip-vit: corrected cls_embd concat clip-vit: model convert qkv_proj split correct",
+    "published": "2026-03-26T00:22:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8529",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8529",
+    "description": "common : fix verbosity setup ( #20989 ) The verbosity threshold was set at the end of common_params_parse_ex(), after doing many things (like downloading files..) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13",
+    "published": "2026-03-26T00:11:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8528",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8528",
+    "description": "common : fix gguf selection in common_list_cached_models ( #20996 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEul",
+    "published": "2026-03-26T00:03:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8526",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8526",
+    "description": "model: codefuse-ai/F2LLM-v2 support macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aa",
+    "published": "2026-03-25T23:18:49Z",
+    "source": "llama.cpp Releases"
+  }
+]
