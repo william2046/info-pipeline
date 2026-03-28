@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8562",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8562",
+    "description": "cli : add /glob command ( #21084 ) add /glob command output error when max files reached support globbing outside curdir macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openE",
+    "published": "2026-03-28T03:22:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8560",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8560",
+    "description": "server : add custom socket options to disable SO_REUSEPORT ( #21056 ) server : add custom socket options to disable SO_REUSEPORT Signed-off-by: Adrien Gallouët angt@huggingface.co Add --reuse-port $ strace -e trace=setsockopt,bind build/bin/llama-server -lv 2 --reuse-port setsockopt(3, SOL_TCP, TCP_NODELAY, [1], 4) = 0 setsockopt(3, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0 setsockopt(3, SOL_SOCKET, SO_REUSEPORT, [1], 4) = 0 bind(3, {sa_family=AF_INET, sin_port=htons(8080), sin_addr=inet_addr(\"127.0",
+    "published": "2026-03-28T02:32:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8559",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8559",
+    "description": "common : inhibit lazy grammar sampler while reasoning is active ( #20970 ) common : inhibit grammar while reasoning budget is active cont : update force_pos in accept cont : fix tests cont : tweak should apply logic cont : return early not using grammar sampler Add tests cont : prevent backend sampling when reasoning budget enabled cont : fix typo Co-authored-by: Piotr Wilkin piotr.wilkin@syndatis.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU",
+    "published": "2026-03-27T21:03:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8558",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8558",
+    "description": "server: Introduce LLAMA_BUILD_WEBUI build flag to allow disabling the embedded web ui ( #20158 ) introduce LLAMA_SERVER_NO_WEBUI LLAMA_SERVER_NO_WEBUI → LLAMA_BUILD_WEBUI LLAMA_BUILD_WEBUI ON by default not based on LLAMA_STANDALONE MIssed this Add useWebUi to package.nix macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) ",
+    "published": "2026-03-27T20:11:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8557",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8557",
+    "description": "hexagon: support for IQ4_NL and MXFP4 ( #21018 ) ggml-hexagon: add IQ4_NL and MXFP4 HMX matmul support Add IQ4_NL quantization type support to Hexagon backend (buffer set/get tensor repack, mul_mat, mul_mat_id dispatch) Implement HVX IQ4_NL vec_dot kernels (1x1, 2x1, 2x2) with LUT-based 4-bit index to int8 kvalue dequantization Add MXFP4 HMX dequantization path with E8M0 scale conversion, including batch-4 fast path and single-tile fallback Unify quantized row size / scale offset logic to handle",
+    "published": "2026-03-27T19:37:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8555",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8555",
+    "description": "server: remove the verbose_prompt parameter ( #21059 ) server: respect the verbose_prompt parameter Revert \"server: respect the verbose_prompt parameter\" This reverts commit 8ed885c . Remove --verbose-prompt parameter from llama-server Using set_examples instead of set_excludes macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 ",
+    "published": "2026-03-27T13:11:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8554",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8554",
+    "description": "mtmd: add more sanity checks ( #21047 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEule",
+    "published": "2026-03-27T13:08:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8553",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8553",
+    "description": "server: add built-in tools backend support ( #20898 ) wip: server_tools refactor displayName -> display_name snake_case everywhere rm redundant field change arg to --tools all add readme mention llama-gen-docs macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - ",
+    "published": "2026-03-27T13:04:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8552",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8552",
+    "description": "rpc : proper handling of data pointers to CPU buffers ( #21030 ) The compute graph may contain tensors pointing to CPU buffers. In these cases the buffer address is serialized as 0 and sent over the wire. However, the data pointer is serialized as-is and this prevents proper validation on the server side. This patches fixes this by serializing the data pointer as 0 for non-RPC buffers and doing proper validation on the server side. closes: #21006 macOS/iOS: macOS Apple Silicon (arm64) macOS Inte",
+    "published": "2026-03-27T12:28:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8551",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8551",
+    "description": "completion : session_tokens insert range in completion tool (no-op → correct) ( #20917 ) The embd.begin(), embd.begin() range is empty and inserts nothing, so session_tokens never gets updated after decoding. Should be embd.begin(), embd.end(). Introduced in commit 2b6dfe8 . macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CP",
+    "published": "2026-03-27T12:23:52Z",
+    "source": "llama.cpp Releases"
+  }
+]
