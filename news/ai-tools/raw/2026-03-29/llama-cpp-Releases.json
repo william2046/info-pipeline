@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8575",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8575",
+    "description": "fix **/x glob matching ( #21129 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarc",
+    "published": "2026-03-28T22:10:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8574",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8574",
+    "description": "common/parser: fix handling of tool definition with missing properties key ( #21128 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b",
+    "published": "2026-03-28T20:27:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8573",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8573",
+    "description": "common : add character class support to glob_match ( #21111 ) add character class support to glob_match remove pointless reference macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEu",
+    "published": "2026-03-28T19:39:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8571",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8571",
+    "description": "common/json-schema: fix: handle non-capturing groups (?:...) in JSON schema pattern converter ( #21124 ) The regex-to-grammar converter in _visit_pattern() crashes with SIGSEGV when a JSON schema \"pattern\" field contains a non-capturing group (?:...). Root cause: when the parser sees '(' followed by '?', it pushes a warning but does not advance past '?:'. The recursive transform() call then interprets '?' as a quantifier and calls seq.back() on an empty vector, causing undefined behavior. This c",
+    "published": "2026-03-28T17:58:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8570",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8570",
+    "description": "common : add reasoning_format = none support to gpt-oss ( #21094 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEu",
+    "published": "2026-03-28T16:42:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8569",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8569",
+    "description": "server : fix processing of multiple back-to-back mtmd chunks ( #21107 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) o",
+    "published": "2026-03-28T16:10:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8565",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8565",
+    "description": "vendor : update cpp-httplib to 0.40.0 ( #21100 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openE",
+    "published": "2026-03-28T11:47:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8563",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8563",
+    "description": "common/parser: fix reasoning whitespace bugs + extra parser tests ( #21085 ) fix whitespace reasoning issues + add reconstruction tests Proper fix fix Nemotron autoparser test expectations to include newline in marker macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUD",
+    "published": "2026-03-28T07:20:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8562",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8562",
+    "description": "cli : add /glob command ( #21084 ) add /glob command output error when max files reached support globbing outside curdir macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openE",
+    "published": "2026-03-28T03:22:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8560",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8560",
+    "description": "server : add custom socket options to disable SO_REUSEPORT ( #21056 ) server : add custom socket options to disable SO_REUSEPORT Signed-off-by: Adrien Gallouët angt@huggingface.co Add --reuse-port $ strace -e trace=setsockopt,bind build/bin/llama-server -lv 2 --reuse-port setsockopt(3, SOL_TCP, TCP_NODELAY, [1], 4) = 0 setsockopt(3, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0 setsockopt(3, SOL_SOCKET, SO_REUSEPORT, [1], 4) = 0 bind(3, {sa_family=AF_INET, sin_port=htons(8080), sin_addr=inet_addr(\"127.0",
+    "published": "2026-03-28T02:32:51Z",
+    "source": "llama.cpp Releases"
+  }
+]
