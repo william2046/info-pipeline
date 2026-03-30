@@ -1,0 +1,142 @@
+[
+  {
+    "title": "The Sudden Fall of OpenAI's Most Hyped Product Since ChatGPT",
+    "link": "https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9",
+    "description": "Article URL: https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9 Comments URL: https://news.ycombinator.com/item?id=47569837 Points: 15 # Comments: 19",
+    "published": "Mon, 30 Mar 2026 02:43:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "New Apple Silicon M4 and M5 HiDPI Limitation on 4K External Displays",
+    "link": "https://smcleod.net/2026/03/new-apple-silicon-m4-m5-hidpi-limitation-on-4k-external-displays/",
+    "description": "Article URL: https://smcleod.net/2026/03/new-apple-silicon-m4-m5-hidpi-limitation-on-4k-external-displays/ Comments URL: https://news.ycombinator.com/item?id=47569502 Points: 115 # Comments: 35",
+    "published": "Mon, 30 Mar 2026 01:43:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Philly courts will ban all smart eyeglasses starting next week",
+    "link": "https://www.inquirer.com/news/philadelphia/smart-glasses-ai-meta-courts-20260326.html",
+    "description": "Article URL: https://www.inquirer.com/news/philadelphia/smart-glasses-ai-meta-courts-20260326.html Comments URL: https://news.ycombinator.com/item?id=47569471 Points: 110 # Comments: 35",
+    "published": "Mon, 30 Mar 2026 01:38:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "DoesItAgeVerify: The age verification status of Open Source Operating Systems",
+    "link": "https://github.com/BryanLunduke/DoesItAgeVerify",
+    "description": "Article URL: https://github.com/BryanLunduke/DoesItAgeVerify Comments URL: https://news.ycombinator.com/item?id=47569167 Points: 37 # Comments: 34",
+    "published": "Mon, 30 Mar 2026 00:52:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "There is No Spoon. A software engineers primer for demystified ML",
+    "link": "https://github.com/dreddnafious/thereisnospoon",
+    "description": "Article URL: https://github.com/dreddnafious/thereisnospoon Comments URL: https://news.ycombinator.com/item?id=47568080 Points: 72 # Comments: 16",
+    "published": "Sun, 29 Mar 2026 22:28:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Coding Agents Could Make Free Software Matter Again",
+    "link": "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/",
+    "description": "Article URL: https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/ Comments URL: https://news.ycombinator.com/item?id=47568028 Points: 127 # Comments: 119",
+    "published": "Sun, 29 Mar 2026 22:21:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Claude Code runs Git reset –hard origin/main against project repo every 10 mins",
+    "link": "https://github.com/anthropics/claude-code/issues/40710",
+    "description": "Article URL: https://github.com/anthropics/claude-code/issues/40710 Comments URL: https://news.ycombinator.com/item?id=47567969 Points: 207 # Comments: 135",
+    "published": "Sun, 29 Mar 2026 22:15:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Crazierl – An Erlang Operating System",
+    "link": "https://crazierl.org/demo/",
+    "description": "Crazierl is an experimental/hobby operating system based around BEAM. I've linked the browser based demo; I don’t recommend using a phone; it does work, slowly, on the phones I tested, but it’s very awkward to use. You can share a link with a hashtag with your friends and click the consent checkbox, and it (should) link up into dist and I’ve also included a chat application you can start with chat:start(). (quit chat with /quit, or use the shell menu with ctrl-g to switch between shells etc). Th",
+    "published": "Sun, 29 Mar 2026 20:38:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The road signs that teach travellers about France",
+    "link": "https://www.bbc.com/travel/article/20260327-the-road-signs-that-teach-travellers-about-france",
+    "description": "Article URL: https://www.bbc.com/travel/article/20260327-the-road-signs-that-teach-travellers-about-france Comments URL: https://news.ycombinator.com/item?id=47566960 Points: 61 # Comments: 21",
+    "published": "Sun, 29 Mar 2026 20:30:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "ChatGPT won't let you type until Cloudflare reads your React state",
+    "link": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/",
+    "description": "Article URL: https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/ Comments URL: https://news.ycombinator.com/item?id=47566865 Points: 380 # Comments: 286",
+    "published": "Sun, 29 Mar 2026 20:21:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Cognitive Dark Forest",
+    "link": "https://ryelang.org/blog/posts/cognitive-dark-forest/",
+    "description": "Article URL: https://ryelang.org/blog/posts/cognitive-dark-forest/ Comments URL: https://news.ycombinator.com/item?id=47566442 Points: 315 # Comments: 146",
+    "published": "Sun, 29 Mar 2026 19:36:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "More on Version Control",
+    "link": "https://bramcohen.com/p/more-on-version-control",
+    "description": "Article URL: https://bramcohen.com/p/more-on-version-control Comments URL: https://news.ycombinator.com/item?id=47566332 Points: 64 # Comments: 13",
+    "published": "Sun, 29 Mar 2026 19:26:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Kyushu Railway Company Train Varieties",
+    "link": "https://www.jrkyushu.co.jp/english/train/index.html",
+    "description": "Article URL: https://www.jrkyushu.co.jp/english/train/index.html Comments URL: https://news.ycombinator.com/item?id=47566140 Points: 67 # Comments: 9",
+    "published": "Sun, 29 Mar 2026 19:08:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "C++26 is done ISO C++ standards meeting, Trip Report",
+    "link": "https://herbsutter.com/2026/03/29/c26-is-done-trip-report-march-2026-iso-c-standards-meeting-london-croydon-uk/",
+    "description": "Article URL: https://herbsutter.com/2026/03/29/c26-is-done-trip-report-march-2026-iso-c-standards-meeting-london-croydon-uk/ Comments URL: https://news.ycombinator.com/item?id=47565365 Points: 182 # Comments: 144",
+    "published": "Sun, 29 Mar 2026 17:46:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Neovim 0.12.0",
+    "link": "https://github.com/neovim/neovim/releases/tag/v0.12.0",
+    "description": "Article URL: https://github.com/neovim/neovim/releases/tag/v0.12.0 Comments URL: https://news.ycombinator.com/item?id=47565316 Points: 312 # Comments: 169",
+    "published": "Sun, 29 Mar 2026 17:39:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
+    "link": "https://www.righto.com/2026/03/ibm-4-pi-computer-history.html",
+    "description": "Article URL: https://www.righto.com/2026/03/ibm-4-pi-computer-history.html Comments URL: https://news.ycombinator.com/item?id=47564579 Points: 80 # Comments: 24",
+    "published": "Sun, 29 Mar 2026 16:26:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Voyager 1 runs on 69 KB of memory and an 8-track tape recorder",
+    "link": "https://techfixated.com/a-1977-time-capsule-voyager-1-runs-on-69-kb-of-memory-and-an-8-track-tape-recorder-4/",
+    "description": "Article URL: https://techfixated.com/a-1977-time-capsule-voyager-1-runs-on-69-kb-of-memory-and-an-8-track-tape-recorder-4/ Comments URL: https://news.ycombinator.com/item?id=47564421 Points: 425 # Comments: 173",
+    "published": "Sun, 29 Mar 2026 16:12:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
+    "link": "https://github.com/austin-weeks/miasma",
+    "description": "Article URL: https://github.com/austin-weeks/miasma Comments URL: https://news.ycombinator.com/item?id=47561819 Points: 300 # Comments: 213",
+    "published": "Sun, 29 Mar 2026 10:10:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Nitrile and latex gloves may cause overestimation of microplastics",
+    "link": "https://news.umich.edu/nitrile-and-latex-gloves-may-cause-overestimation-of-microplastics-u-m-study-reveals/",
+    "description": "Article URL: https://news.umich.edu/nitrile-and-latex-gloves-may-cause-overestimation-of-microplastics-u-m-study-reveals/ Comments URL: https://news.ycombinator.com/item?id=47561711 Points: 523 # Comments: 237",
+    "published": "Sun, 29 Mar 2026 09:46:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "LinkedIn uses 2.4 GB RAM across two tabs",
+    "link": "https://news.ycombinator.com/item?id=47561489",
+    "description": "https://ibb.co/fYQVfMWp https://ibb.co/MyTNnrGQ Comments URL: https://news.ycombinator.com/item?id=47561489 Points: 649 # Comments: 380",
+    "published": "Sun, 29 Mar 2026 08:58:24 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

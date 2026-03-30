@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8580",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8580",
+    "description": "add missing ROPE_FACTORS_LONG/SHORT for MiniCPM ( #21150 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarc",
+    "published": "2026-03-29T18:38:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8579",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8579",
+    "description": "Optimize MOE GEMV kernel for BS > 1. ( #20905 ) Optimize MOE GEMV kernel for BS > 1. The previous MOE kernel for BS > 1 had too many thread blocks (nrows_x, nchannels_dst, ncols_dst), with very little work per block. block of (32, 4) was doing inner dot product for a single row. New mul_mat_vec_q_moe kernel is dedicated for MoE multi-token kernel with grid (ceil(nrows_x/rpb), nchannels_dst), block (warp_size, ncols_dst). Each warp handles two rows independently with warp-level reduction only (no",
+    "published": "2026-03-29T17:08:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8578",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8578",
+    "description": "hexagon: dma optimizations (mostly fixing regressions) ( #21137 ) hex-fa: add simple dma cache for Mask I noticed that we were refetch the mask rows over and over. This simple cache avoids that. hex-dma: unset in-order desc bit which caused signficant perf regression We don't rely on true in order processing of the DMA descriptors anywhere. Turns out this mode caused significant regression of around 3-4 TPS during token gen. hex-rope: update comment to clarify that we don't need in-order DMA com",
+    "published": "2026-03-29T15:25:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8576",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8576",
+    "description": "[SYCL] Enhance build script to use half cores to build, avoid OS hang…",
+    "published": "2026-03-29T01:02:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8575",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8575",
+    "description": "fix **/x glob matching ( #21129 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (310p) openEuler aarc",
+    "published": "2026-03-28T22:10:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8574",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8574",
+    "description": "common/parser: fix handling of tool definition with missing properties key ( #21128 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b",
+    "published": "2026-03-28T20:27:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8573",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8573",
+    "description": "common : add character class support to glob_match ( #21111 ) add character class support to glob_match remove pointless reference macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEu",
+    "published": "2026-03-28T19:39:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8571",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8571",
+    "description": "common/json-schema: fix: handle non-capturing groups (?:...) in JSON schema pattern converter ( #21124 ) The regex-to-grammar converter in _visit_pattern() crashes with SIGSEGV when a JSON schema \"pattern\" field contains a non-capturing group (?:...). Root cause: when the parser sees '(' followed by '?', it pushes a warning but does not advance past '?:'. The recursive transform() call then interprets '?' as a quantifier and calls seq.back() on an empty vector, causing undefined behavior. This c",
+    "published": "2026-03-28T17:58:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8570",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8570",
+    "description": "common : add reasoning_format = none support to gpt-oss ( #21094 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEu",
+    "published": "2026-03-28T16:42:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8569",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8569",
+    "description": "server : fix processing of multiple back-to-back mtmd chunks ( #21107 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu x64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu s390x (CPU) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) o",
+    "published": "2026-03-28T16:10:19Z",
+    "source": "llama.cpp Releases"
+  }
+]
