@@ -1,0 +1,142 @@
+[
+  {
+    "title": "15% of Americans say they’d be willing to work for an AI boss, according to new poll",
+    "link": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
+    "description": "According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job where their direct supervisor was an AI program that assigned tasks and set schedules.",
+    "published": "Mon, 30 Mar 2026 23:41:48 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+    "link": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+    "description": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.",
+    "published": "Mon, 30 Mar 2026 23:08:12 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "As more Americans adopt AI tools, fewer say they can trust the results",
+    "link": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
+    "description": "AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll.",
+    "published": "Mon, 30 Mar 2026 20:24:53 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Mantis Biotech is making ‘digital twins’ of humans to help solve medicine’s data availability problem",
+    "link": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/",
+    "description": "Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-called \"digital twins\" of the human body, representing anatomy, physiology and behavior.",
+    "published": "Mon, 30 Mar 2026 14:30:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "ScaleOps raises $130M to improve computing efficiency amid AI demand",
+    "link": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
+    "description": "ScaleOps just raised $130M to tackle GPU shortages and soaring AI cloud costs by automating infrastructure in real time.",
+    "published": "Mon, 30 Mar 2026 13:52:02 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round",
+    "link": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
+    "description": "The startup, which is planning to go public later this year, designs chips specifically for AI inference, another challenger to Nvidia's dominance.",
+    "published": "Mon, 30 Mar 2026 13:00:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Mistral AI raises $830M in debt to set up a data center near Paris",
+    "link": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
+    "description": "Mistral aims to start operating the data center by the second quarter of 2026.",
+    "published": "Mon, 30 Mar 2026 12:49:51 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Qodo raises $70M for code verification as AI coding scales",
+    "link": "https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/",
+    "description": "As AI floods software development with code, Qodo is betting the real challenge is making sure it actually works.",
+    "published": "Mon, 30 Mar 2026 12:30:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Starcloud raises $170 million Series A to build data centers in space",
+    "link": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
+    "description": "Starcloud becomes the fastest Y Combinator startup to reach unicorn status, just 17 months after demo day.",
+    "published": "Mon, 30 Mar 2026 11:00:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Why OpenAI really shut down Sora",
+    "link": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+    "description": "OpenAI's decision last week to shut down Sora, its AI video-generation tool, just six months after releasing it to the public, raised immediate suspicions. The app had invited users to upload their own faces — so was this some kind of elaborate data grab?",
+    "published": "Mon, 30 Mar 2026 03:09:38 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Sora’s shutdown could be a reality check moment for AI video",
+    "link": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
+    "description": "Is this just normal corporate strategy, or are we about to see a broader pullback on AI-generated video?",
+    "published": "Sun, 29 Mar 2026 16:30:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
+    "link": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+    "description": "Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protocol atproto.",
+    "published": "Sat, 28 Mar 2026 23:00:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
+    "link": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+    "description": "While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists attempts to measure how harmful that tendency might be.",
+    "published": "Sat, 28 Mar 2026 20:45:54 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Elon Musk’s last co-founder reportedly leaves xAI",
+    "link": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+    "description": "All but two of Musk's 11 xAI co-founders departed before this week.",
+    "published": "Sat, 28 Mar 2026 16:11:16 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Anthropic’s Claude popularity with paying consumers is skyrocketing",
+    "link": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+    "description": "Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch that Claude paid subscriptions have more than doubled this year.",
+    "published": "Sat, 28 Mar 2026 14:15:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO",
+    "link": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
+    "description": "Wall Street giants JPMorgan and Goldman Sachs are extending a 12-month, unsecured loan to the Japanese conglomerate.",
+    "published": "Fri, 27 Mar 2026 21:44:45 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Memory chip giant SK hynix could help end ‘RAMmageddon’ with blockbuster US IPO",
+    "link": "https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/",
+    "description": "SK hynix’s potential U.S. listing could raise $10-$14 billion to help it build more capacity, encourage others to follow, and end the 'RAMmageddon' memory shortage.",
+    "published": "Fri, 27 Mar 2026 19:11:28 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "VCs are betting billions on AI’s next wave, so why is OpenAI killing Sora?",
+    "link": "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/",
+    "description": "When an 82-year-old Kentucky woman was offered $26 million from an AI company that wanted to build a data center on her land, she said no. Sure, that same company can try to rezone 2,000 acres nearby anyway, but as AI infrastructure stretches further into the real world, the real world is starting to push back. That tension is everywhere […]",
+    "published": "Fri, 27 Mar 2026 15:40:19 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "OpenAI shuts down Sora while Meta gets shut out in court",
+    "link": "https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/",
+    "description": "When an 82-year-old Kentucky woman was offered $26 million from an AI company that wanted to build a data center on her land, she said no. Sure, that same company can try to rezone 2,000 acres nearby anyway, but as AI infrastructure stretches further into the real world, the real world is starting to push back. That tension is everywhere […]",
+    "published": "Fri, 27 Mar 2026 13:30:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "David Sacks is done as AI czar — here’s what he’s doing instead",
+    "link": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
+    "description": "Sacks will be much further from the power center in Washington than since the outset of this second Trump administration.",
+    "published": "Fri, 27 Mar 2026 01:26:40 +0000",
+    "source": "TechCrunch AI"
+  }
+]

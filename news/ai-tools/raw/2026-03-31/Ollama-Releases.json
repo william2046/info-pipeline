@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.19.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.19.0",
+    "description": "What's Changed Ollama's app will now no longer incorrectly show \"model is out of date\" ollama launch pi now includes web search plugin that uses Ollama's web search Improved KV cache hit rate when using the Anthropic-compatible API Fixed tool call parsing issue with Qwen3.5 where tool calls would be output in thinking MLX runner will now create periodic snapshots during prompt processing Fixed KV cache snapshot memory leak in MLX runner Fixed issue where flash attention would be incorrectly enab",
+    "published": "2026-03-30T03:51:14Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.19.0-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.19.0-rc2",
+    "description": "cmd: set OpenCode default model in config ( #15127 )",
+    "published": "2026-03-29T19:11:36Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.19.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.19.0-rc1",
+    "description": "mlx: fix vision capability + min version ( #15106 )",
+    "published": "2026-03-28T00:09:28Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.19.0-rc0: ci: harden cuda include path handling (#15093)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.19.0-rc0",
+    "description": "On windows we can get multiple include dirs, so find where the headers are then copy from that location.",
+    "published": "2026-03-27T14:57:07Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.4-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.4-rc1",
+    "description": "launch: warn when server context length is below 64k for local models…",
+    "published": "2026-03-27T07:15:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.4-rc0",
+    "description": "What's Changed ggml: force flash attention off for grok by @rick-github in #15050 mlx: fix KV cache snapshot memory leak by @jessegross in #15065 mlxrunner: schedule periodic snapshots during prefill by @jessegross in #15058 doc: update vscode doc by @hoyyeva in #15064 Full Changelog : v0.18.3...v0.18.4-rc0",
+    "published": "2026-03-30T23:16:42Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.3",
+    "description": "Visual Studio Code Microsoft Visual Studio Code now directly integrates with Ollama via GitHub Copilot. If you have Ollama installed, any local or cloud model from Ollama can be selected for use within visual studio code. What's Changed GLM parser improvements for tool calls OpenClaw integration improvements for gateway checks Full Changelog : v0.18.2...v0.18.3",
+    "published": "2026-03-26T08:45:19Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.3-rc2: api/show: overwrite basename for copilot chat (#15062)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.3-rc2",
+    "description": "Copilot Chat prefers to use general.basename in the built-in Ollama integration, but this name isn't usually shown directly to users (and there may be many models that share this name). Instead we pass back req.Model , which for this extension is the value that we return from /api/tags",
+    "published": "2026-03-25T21:02:22Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.3-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.3-rc1",
+    "description": "ci: fix windows cgo compiler error ( #15046 )",
+    "published": "2026-03-24T23:45:36Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.18.3-rc0: mlx: add mxfp4/mxfp8/nvfp4 importing (#15015)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.18.3-rc0",
+    "description": "This change allows importing bf16 and converting to mxfp4/mxfp8/nvfp4 and also importing fp8 and converting directly to mxfp8.",
+    "published": "2026-03-24T20:45:44Z",
+    "source": "Ollama Releases"
+  }
+]

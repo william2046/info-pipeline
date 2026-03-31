@@ -1,0 +1,399 @@
+[1] 来源: OpenAI Blog
+标题: Helping disaster response teams turn AI into action across Asia
+链接: https://openai.com/index/helping-disaster-response-teams-asia
+摘要: AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation
+
+[2] 来源: OpenAI Blog
+标题: STADLER reshapes knowledge work at a 230-year-old company
+链接: https://openai.com/index/stadler
+摘要: Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.
+
+[3] 来源: OpenAI Blog
+标题: Inside our approach to the Model Spec
+链接: https://openai.com/index/our-approach-to-the-model-spec
+摘要: Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.
+
+[4] 来源: OpenAI Blog
+标题: Introducing the OpenAI Safety Bug Bounty program
+链接: https://openai.com/index/safety-bug-bounty
+摘要: OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.
+
+[5] 来源: OpenAI Blog
+标题: Helping developers build safer AI experiences for teens
+链接: https://openai.com/index/teen-safety-policies-gpt-oss-safeguard
+摘要: OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.
+
+[6] 来源: OpenAI Blog
+标题: Update on the OpenAI Foundation
+链接: https://openai.com/index/update-on-the-openai-foundation
+摘要: The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.
+
+[7] 来源: OpenAI Blog
+标题: Powering product discovery in ChatGPT
+链接: https://openai.com/index/powering-product-discovery-in-chatgpt
+摘要: ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.
+
+[8] 来源: OpenAI Blog
+标题: Creating with Sora Safely
+链接: https://openai.com/index/creating-with-sora-safely
+摘要: To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approach is anchored in concrete protections.
+
+[9] 来源: OpenAI Blog
+标题: How we monitor internal coding agents for misalignment
+链接: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment
+摘要: How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.
+
+[10] 来源: OpenAI Blog
+标题: OpenAI to acquire Astral
+链接: https://openai.com/index/openai-to-acquire-astral
+摘要: Accelerates Codex growth to power the next generation of Python developer tools
+
+[11] 来源: OpenAI Blog
+标题: Introducing GPT-5.4 mini and nano
+链接: https://openai.com/index/introducing-gpt-5-4-mini-and-nano
+摘要: GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.
+
+[12] 来源: OpenAI Blog
+标题: OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first
+链接: https://openai.com/index/japan-teen-safety-blueprint
+摘要: OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.
+
+[13] 来源: OpenAI Blog
+标题: Equipping workers with insights about compensation
+链接: https://openai.com/index/equipping-workers-with-insights-about-compensation
+摘要: New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.
+
+[14] 来源: OpenAI Blog
+标题: Why Codex Security Doesn’t Include a SAST Report
+链接: https://openai.com/index/why-codex-security-doesnt-include-sast
+摘要: A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false positives.
+
+[15] 来源: OpenAI Blog
+标题: Rakuten fixes issues twice as fast with Codex
+链接: https://openai.com/index/rakuten
+摘要: Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.
+
+[16] 来源: OpenAI Blog
+标题: Designing AI agents to resist prompt injection
+链接: https://openai.com/index/designing-agents-to-resist-prompt-injection
+摘要: How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.
+
+[17] 来源: OpenAI Blog
+标题: From model to agent: Equipping the Responses API with a computer environment
+链接: https://openai.com/index/equip-responses-api-computer-environment
+摘要: How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.
+
+[18] 来源: OpenAI Blog
+标题: Wayfair boosts catalog accuracy and support speed with OpenAI
+链接: https://openai.com/index/wayfair
+摘要: Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.
+
+[19] 来源: OpenAI Blog
+标题: Improving instruction hierarchy in frontier LLMs
+链接: https://openai.com/index/instruction-hierarchy-challenge
+摘要: IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.
+
+[20] 来源: OpenAI Blog
+标题: New ways to learn math and science in ChatGPT
+链接: https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt
+摘要: ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.
+
+[21] 来源: OpenAI Blog
+标题: OpenAI to acquire Promptfoo
+链接: https://openai.com/index/openai-to-acquire-promptfoo
+摘要: OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.
+
+[22] 来源: OpenAI Blog
+标题: Codex Security: now in research preview
+链接: https://openai.com/index/codex-security-now-in-research-preview
+摘要: Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.
+
+[23] 来源: OpenAI Blog
+标题: How Descript enables multilingual video dubbing at scale
+链接: https://openai.com/index/descript
+摘要: Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.
+
+[24] 来源: OpenAI Blog
+标题: How Balyasny Asset Management built an AI research engine for investing
+链接: https://openai.com/index/balyasny-asset-management
+摘要: See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.
+
+[25] 来源: OpenAI Blog
+标题: Introducing GPT-5.4
+链接: https://openai.com/index/introducing-gpt-5-4
+摘要: Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.
+
+[26] 来源: OpenAI Blog
+标题: GPT-5.4 Thinking System Card
+链接: https://openai.com/index/gpt-5-4-thinking-system-card
+摘要: 
+
+[27] 来源: OpenAI Blog
+标题: Reasoning models struggle to control their chains of thought, and that’s good
+链接: https://openai.com/index/reasoning-models-chain-of-thought-controllability
+摘要: OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.
+
+[28] 来源: OpenAI Blog
+标题: Ensuring AI use in education leads to opportunity
+链接: https://openai.com/index/ai-education-opportunity
+摘要: OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.
+
+[29] 来源: OpenAI Blog
+标题: Introducing ChatGPT for Excel and new financial data integrations
+链接: https://openai.com/index/chatgpt-for-excel
+摘要: OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.
+
+[30] 来源: OpenAI Blog
+标题: Introducing the Adoption news channel
+链接: https://openai.com/index/introducing-the-adoption-news-channel
+摘要: Practical insights and frameworks to turn AI progress into business advantage
+
+[31] 来源: OpenAI Blog
+标题: VfL Wolfsburg turns ChatGPT into a club-wide capability
+链接: https://openai.com/index/vfl-wolfsburg
+摘要: By focusing on people, not pilots, the Bundesliga club is scaling efficiency, creativity, and knowledge—without losing its football identity.
+
+[32] 来源: OpenAI Blog
+标题: The five AI value models driving business reinvention
+链接: https://openai.com/index/the-five-ai-value-models-driving-business-reinvention
+摘要: Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.
+
+[33] 来源: OpenAI Blog
+标题: Extending single-minus amplitudes to gravitons
+链接: https://openai.com/index/extending-single-minus-amplitudes-to-gravitons
+摘要: A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.
+
+[34] 来源: OpenAI Blog
+标题: Understanding AI and learning outcomes
+链接: https://openai.com/index/understanding-ai-and-learning-outcomes
+摘要: OpenAI introduces the Learning Outcomes Measurement Suite to assess AI’s impact on student learning across diverse educational environments over time.
+
+[35] 来源: OpenAI Blog
+标题: How Axios uses AI to help deliver high-impact local journalism
+链接: https://openai.com/index/axios-allison-murphy
+摘要: Axios COO Allison Murphy explains how the company uses AI to support local reporters, streamline newsroom workflows, and deliver high-impact local journalism at scale.
+
+[36] 来源: OpenAI Blog
+标题: GPT-5.3 Instant System Card
+链接: https://openai.com/index/gpt-5-3-instant-system-card
+摘要: 
+
+[37] 来源: OpenAI Blog
+标题: GPT-5.3 Instant: Smoother, more useful everyday conversations
+链接: https://openai.com/index/gpt-5-3-instant
+摘要: 
+
+[38] 来源: OpenAI Blog
+标题: Our agreement with the Department of War
+链接: https://openai.com/index/our-agreement-with-the-department-of-war
+摘要: Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.
+
+[39] 来源: OpenAI Blog
+标题: Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock
+链接: https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock
+摘要: Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.
+
+[40] 来源: OpenAI Blog
+标题: Joint Statement from OpenAI and Microsoft
+链接: https://openai.com/index/continuing-microsoft-partnership
+摘要: Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.
+
+[41] 来源: OpenAI Blog
+标题: Scaling AI for everyone
+链接: https://openai.com/index/scaling-ai-for-everyone
+摘要: Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.
+
+[42] 来源: OpenAI Blog
+标题: OpenAI and Amazon announce strategic partnership
+链接: https://openai.com/index/amazon-partnership
+摘要: OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.
+
+[43] 来源: OpenAI Blog
+标题: An update on our mental health-related work
+链接: https://openai.com/index/update-on-mental-health-related-work
+摘要: OpenAI shares updates on its mental health safety work, including parental controls, trusted contacts, improved distress detection, and recent litigation developments.
+
+[44] 来源: OpenAI Blog
+标题: Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting
+链接: https://openai.com/index/pacific-northwest-national-laboratory
+摘要: OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA drafting time by up to 15% and modernize infrastructure reviews.
+
+[45] 来源: OpenAI Blog
+标题: OpenAI Codex and Figma launch seamless code-to-design experience
+链接: https://openai.com/index/figma-partnership
+摘要: OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.
+
+[46] 来源: OpenAI Blog
+标题: Disrupting malicious uses of AI | February 2026
+链接: https://openai.com/index/disrupting-malicious-ai-uses
+摘要: Our latest threat report examines how malicious actors combine AI models with websites and social platforms—and what it means for detection and defense.
+
+[47] 来源: OpenAI Blog
+标题: Arvind KC appointed Chief People Officer
+链接: https://openai.com/index/arvind-kc-chief-people-officer
+摘要: OpenAI appoints Arvind KC as Chief People Officer to help scale the company, strengthen its culture, and lead how work evolves in the age of AI.
+
+[48] 来源: OpenAI Blog
+标题: Why we no longer evaluate SWE-bench Verified
+链接: https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified
+摘要: SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.
+
+[49] 来源: OpenAI Blog
+标题: OpenAI announces Frontier Alliance Partners
+链接: https://openai.com/index/frontier-alliance-partners
+摘要: OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.
+
+[50] 来源: OpenAI Blog
+标题: Our First Proof submissions
+链接: https://openai.com/index/first-proof-submissions
+摘要: We share our AI model’s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems.
+
+[51] 来源: OpenAI Blog
+标题: Advancing independent research on AI alignment
+链接: https://openai.com/index/advancing-independent-research-ai-alignment
+摘要: OpenAI commits $7.5M to The Alignment Project to fund independent AI alignment research, strengthening global efforts to address AGI safety and security risks.
+
+[52] 来源: OpenAI Blog
+标题: Introducing OpenAI for India
+链接: https://openai.com/index/openai-for-india
+摘要: OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.
+
+[53] 来源: OpenAI Blog
+标题: Introducing EVMbench
+链接: https://openai.com/index/introducing-evmbench
+摘要: OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.
+
+[54] 来源: OpenAI Blog
+标题: GPT-5.2 derives a new result in theoretical physics
+链接: https://openai.com/index/new-result-theoretical-physics
+摘要: A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.
+
+[55] 来源: OpenAI Blog
+标题: Introducing Lockdown Mode and Elevated Risk labels in ChatGPT
+链接: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt
+摘要: Introducing Lockdown Mode and Elevated Risk labels in ChatGPT to help organizations defend against prompt injection and AI-driven data exfiltration.
+
+[56] 来源: OpenAI Blog
+标题: Beyond rate limits: scaling access to Codex and Sora
+链接: https://openai.com/index/beyond-rate-limits
+摘要: How OpenAI built a real-time access system combining rate limits, usage tracking, and credits to power continuous access to Sora and Codex.
+
+[57] 来源: OpenAI Blog
+标题: Scaling social science research
+链接: https://openai.com/index/scaling-social-science-research
+摘要: GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale.
+
+[58] 来源: OpenAI Blog
+标题: Introducing GPT-5.3-Codex-Spark
+链接: https://openai.com/index/introducing-gpt-5-3-codex-spark
+摘要: Introducing GPT-5.3-Codex-Spark—our first real-time coding model. 15x faster generation, 128k context, now in research preview for ChatGPT Pro users.
+
+[59] 来源: OpenAI Blog
+标题: Harness engineering: leveraging Codex in an agent-first world
+链接: https://openai.com/index/harness-engineering
+摘要: By Ryan Lopopolo, Member of the Technical Staff
+
+[60] 来源: OpenAI Blog
+标题: Testing ads in ChatGPT
+链接: https://openai.com/index/testing-ads-in-chatgpt
+摘要: OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.
+
+[61] 来源: OpenAI Blog
+标题: Bringing ChatGPT to GenAI.mil
+链接: https://openai.com/index/bringing-chatgpt-to-genaimil
+摘要: OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.
+
+[62] 来源: OpenAI Blog
+标题: Making AI work for everyone, everywhere: our approach to localization
+链接: https://openai.com/index/our-approach-to-localization
+摘要: OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.
+
+[63] 来源: OpenAI Blog
+标题: GPT-5 lowers the cost of cell-free protein synthesis
+链接: https://openai.com/index/gpt-5-lowers-protein-synthesis-cost
+摘要: An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.
+
+[64] 来源: OpenAI Blog
+标题: Introducing Trusted Access for Cyber
+链接: https://openai.com/index/trusted-access-for-cyber
+摘要: OpenAI introduces Trusted Access for Cyber, a trust-based framework that expands access to frontier cyber capabilities while strengthening safeguards against misuse.
+
+[65] 来源: OpenAI Blog
+标题: Introducing OpenAI Frontier
+链接: https://openai.com/index/introducing-openai-frontier
+摘要: OpenAI Frontier is an enterprise platform for building, deploying, and managing AI agents with shared context, onboarding, permissions, and governance.
+
+[66] 来源: OpenAI Blog
+标题: Introducing GPT-5.3-Codex
+链接: https://openai.com/index/introducing-gpt-5-3-codex
+摘要: GPT-5.3-Codex is a Codex-native agent that pairs frontier coding performance with general reasoning to support long-horizon, real-world technical work.
+
+[67] 来源: OpenAI Blog
+标题: Navigating health questions with ChatGPT
+链接: https://openai.com/index/navigating-health-questions
+摘要: A family shares how ChatGPT helped them prepare for critical cancer treatment decisions for their son alongside expert guidance from his doctors.
+
+[68] 来源: OpenAI Blog
+标题: GPT-5.3-Codex System Card
+链接: https://openai.com/index/gpt-5-3-codex-system-card
+摘要: GPT‑5.3-Codex is the most capable agentic coding model to date, combining the frontier coding performance of GPT‑5.2-Codex with the reasoning and professional knowledge capabilities of GPT‑5.2.
+
+[69] 来源: OpenAI Blog
+标题: Unlocking the Codex harness: how we built the App Server
+链接: https://openai.com/index/unlocking-the-codex-harness
+摘要: Learn how to embed the Codex agent using the Codex App Server, a bidirectional JSON-RPC API powering streaming progress, tool use, approvals, and diffs.
+
+[70] 来源: OpenAI Blog
+标题: The Sora feed philosophy
+链接: https://openai.com/index/sora-feed-philosophy
+摘要: Discover the Sora feed philosophy—built to spark creativity, foster connections, and keep experiences safe with personalized recommendations, parental controls, and strong guardrails.
+
+[71] 来源: OpenAI Blog
+标题: Snowflake and OpenAI partner to bring frontier intelligence to enterprise data
+链接: https://openai.com/index/snowflake-partnership
+摘要: OpenAI and Snowflake partner in a $200M agreement to bring frontier intelligence into enterprise data, enabling AI agents and insights directly in Snowflake.
+
+[72] 来源: OpenAI Blog
+标题: Introducing the Codex app
+链接: https://openai.com/index/introducing-the-codex-app
+摘要: Introducing the Codex app for macOS—a command center for AI coding and software development with multiple agents, parallel workflows, and long-running tasks.
+
+[73] 来源: OpenAI Blog
+标题: Inside OpenAI’s in-house data agent
+链接: https://openai.com/index/inside-our-in-house-data-agent
+摘要: How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.
+
+[74] 来源: OpenAI Blog
+标题: Taisei Corporation shapes the next generation of talent with AI
+链接: https://openai.com/index/taisei
+摘要: Taisei Corporation’s HR team is leading the rollout of ChatGPT Enterprise to drive AI-powered talent development across the organization.
+
+[75] 来源: OpenAI Blog
+标题: Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT
+链接: https://openai.com/index/retiring-gpt-4o-and-older-models
+摘要: On February 13, 2026, alongside the previously announced retirement⁠ of GPT‑5 (Instant, Thinking, and Pro), we will retire GPT‑4o, GPT‑4.1, GPT‑4.1 mini, and OpenAI o4-mini from ChatGPT. In the API, there are no changes at this time.
+
+[76] 来源: OpenAI Blog
+标题: EMEA Youth & Wellbeing Grant
+链接: https://openai.com/index/emea-youth-and-wellbeing-grant
+摘要: Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.
+
+[77] 来源: OpenAI Blog
+标题: The next chapter for AI in the EU
+链接: https://openai.com/index/the-next-chapter-for-ai-in-the-eu
+摘要: OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.
+
+[78] 来源: OpenAI Blog
+标题: Keeping your data safe when an AI agent clicks a link
+链接: https://openai.com/index/ai-agent-link-safety
+摘要: Learn how OpenAI protects user data when AI agents open links, preventing URL-based data exfiltration and prompt injection with built-in safeguards.
+
+[79] 来源: OpenAI Blog
+标题: PVH reimagines the future of fashion with OpenAI
+链接: https://openai.com/index/pvh-future-of-fashion
+摘要: PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.
+
+[80] 来源: OpenAI Blog
+标题: TRUSTBANK uses AI agents to personalize Furusato Nozei gifts
+链接: https://openai.com/index/trustbank
+摘要: TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, enabling personalized conversational recommendations that simplify Furusato Nozei gift discovery.
