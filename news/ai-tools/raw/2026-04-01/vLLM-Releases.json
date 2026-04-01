@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.18.2rc0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.18.2rc0",
+    "description": "[Fix] handle PaddleOCR-VL image processor max_pixels across Transform…",
+    "published": "2026-03-31T15:50:41Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.18.1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.18.1",
+    "description": "This is a patch release on top of v0.18.0 to address a few issues: Change default SM100 MLA prefill backend back to TRT-LLM ( #38562 ) Fix mock.patch resolution failure for standalone_compile.FakeTensorMode on Python <= 3.10 ( #37158 ) Disable monolithic TRTLLM MoE for Renormalize routing #37605 Pre-download missing FlashInfer headers in Docker build #38391 Fix DeepGemm E8M0 accuracy degradation for Qwen3.5 FP8 on Blackwell ( #38083 )",
+    "published": "2026-03-31T05:59:49Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.18.1rc0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.18.1rc0",
+    "description": "[Hybrid] calling get_mamba_groups() once at MambaCopyBuffers.create()…",
+    "published": "2026-03-21T09:29:43Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.18.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.18.0",
+    "description": "vLLM v0.18.0 Known issues Degraded accuracy when serving Qwen3.5 with FP8 KV cache on B200 ( #37618 ) If you previously ran into CUBLAS_STATUS_INVALID_VALUE and had to use a workaround in v0.17.0 , you can reinstall torch 2.10.0 . PyTorch published an updated wheel that addresses this bug. Highlights This release features 445 commits from 213 contributors (61 new)! gRPC Serving Support : vLLM now supports gRPC serving via the new --grpc flag ( #36169 ), enabling high-performance RPC-based servin",
+    "published": "2026-03-20T22:19:03Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.18.0rc2",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.18.0rc2",
+    "description": "[Bugfix] Zero-init MLA attention output buffers to prevent NaN from C…",
+    "published": "2026-03-19T01:44:16Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.18.0rc1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.18.0rc1",
+    "description": "[cherry-pick][Bugfix] Fix EP weight filter breaking EPLB and NVFP4 ac…",
+    "published": "2026-03-18T08:48:32Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.17.2rc0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.17.2rc0",
+    "description": "[ROCm] Fix AttributeError for torch.compiler.skip_all_guards_unsafe o…",
+    "published": "2026-03-17T03:34:49Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.18.0rc0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.18.0rc0",
+    "description": "[Bugfix][MultiConnector] Fix MultiConnector for SupportsHMA sub-conne…",
+    "published": "2026-03-16T20:51:04Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.17.1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.17.1",
+    "description": "This is a patch release on top of v0.17.0 to address a few issues: New Model: Nemotron 3 Super Fix passing of activation_type to trtllm fused MoE NVFP4 and FP8 ( #36017 ) Fix/resupport nongated fused moe triton ( #36412 ) Re-enable EP for trtllm MoE FP8 backend ( #36494 ) [Mamba][Qwen3.5] Zero freed SSM cache blocks on GPU ( #35219 ) Fix TRTLLM Block FP8 MoE Monolithic ( #36296 ) [DSV3.2][MTP] Optimize Indexer MTP handling ( #36723 )",
+    "published": "2026-03-12T01:47:57Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.17.1rc0: [CI] Bump `mypy` version to 1.19.1 (#36104)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.17.1rc0",
+    "description": "Signed-off-by: Harry Mellor 19981378+hmellor@users.noreply.github.com",
+    "published": "2026-03-10T16:18:28Z",
+    "source": "vLLM Releases"
+  }
+]
