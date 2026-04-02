@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-core==1.2.24",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.24",
+    "description": "Changes since langchain-core==1.2.23 release(core): 1.2.24 ( #36434 ) feat(core): impute placeholder filenames for OpenAI file inputs ( #36433 ) chore: pygments>=2.20.0 across all packages ( CVE-2026-4539 ) ( #36385 ) fix(core): add \"computer\" to _WellKnownOpenAITools ( #36261 )",
+    "published": "2026-04-01T20:01:05Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.2.14",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.14",
+    "description": "Changes since langchain==1.2.13 release(langchain): 1.2.14 ( #36396 ) chore: pygments>=2.20.0 across all packages ( CVE-2026-4539 ) ( #36385 ) test(langchain): cover runtime recursion limit override in create_agent ( #36376 ) perf(langchain): reduce init speed by 15% ( #36375 ) fix(langchain): update recursion limit for create_agent ( #36351 ) fix(infra): correct lint_diff relative paths in package makefiles ( #36333 ) chore: bump cryptography from 46.0.5 to 46.0.6 in /libs/langchain_v1 ( #36324",
+    "published": "2026-03-31T13:50:55Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openrouter==0.2.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.1",
+    "description": "Changes since langchain-openrouter==0.2.0 release(openrouter): 0.2.1 ( #36348 ) fix(openrouter): pass attribution headers via httpx default_headers ( #36347 ) chore(model-profiles): refresh model profile data ( #36267 ) chore: bump requests from 2.32.5 to 2.33.0 in /libs/partners/openrouter ( #36247 )",
+    "published": "2026-03-30T00:54:07Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.2.23",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.23",
+    "description": "Changes since langchain-core==1.2.22 release(core): 1.2.23 ( #36323 ) revert: Revert \"fix(core): trace invocation params in metadata\" ( #36322 ) chore: bump requests from 2.32.5 to 2.33.0 in /libs/core ( #36243 )",
+    "published": "2026-03-27T23:28:27Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-exa==1.1.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-exa%3D%3D1.1.0",
+    "description": "Changes since langchain-exa==1.0.0 release(exa): 1.1.0 ( #36278 ) feat(exa): update default search type from neural to auto ( #36125 ) chore: bump requests from 2.32.5 to 2.33.0 in /libs/partners/exa ( #36255 ) chore(partners): bump langchain-core min to 1.2.21 ( #36183 ) ci: suppress pytest streaming output in CI ( #36092 ) ci: avoid unnecessary dep installs in lint targets ( #36046 ) chore: bump orjson from 3.11.5 to 3.11.6 in /libs/partners/exa ( #35869 ) chore(deps): bump langsmith from 0.4.",
+    "published": "2026-03-26T17:00:22Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openrouter==0.2.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.0",
+    "description": "Changes since langchain-openrouter==0.1.0 release(openrouter): 0.2.0 ( #36227 ) feat(openrouter): add app_categories field for marketplace attribution ( #36205 ) chore(openrouter): update URL/title ( #36204 ) chore(model-profiles): refresh model profile data ( #36195 ) chore(partners): bump langchain-core min to 1.2.21 ( #36183 ) fix(core,model-profiles): add missing ModelProfile fields, warn on schema drift ( #36129 ) chore(model-profiles): refresh model profile data ( #36123 ) chore(model-prof",
+    "published": "2026-03-25T15:16:49Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.2.22",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.22",
+    "description": "Changes since langchain-core==1.2.21 release(core): 1.2.22 ( #36201 ) fix(core): validate paths in prompt.save and load_prompt , deprecate methods ( #36200 )",
+    "published": "2026-03-24T18:49:00Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.1.12",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.12",
+    "description": "Changes since langchain-openai==1.1.11 fix(openai): bump min core version ( #36180 ) release(openai): 1.1.12 ( #36178 ) fix(core,model-profiles): add missing ModelProfile fields, warn on schema drift ( #36129 ) fix(openai): support phase parameter ( #36161 ) fix(openai): preserve namespace field in streaming function_call chunks ( #36108 ) ci: suppress pytest streaming output in CI ( #36092 ) ci: avoid unnecessary dep installs in lint targets ( #36046 ) chore(model-profiles): refresh model profi",
+    "published": "2026-03-23T18:59:31Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.2.21",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.21",
+    "description": "Changes since langchain-core==1.2.20 release(core): 1.2.21 ( #36179 ) fix(core,model-profiles): add missing ModelProfile fields, warn on schema drift ( #36129 ) chore(core): remove stale blockbuster allowlist for deleted context module ( #36168 ) ci: suppress pytest streaming output in CI ( #36092 )",
+    "published": "2026-03-23T18:01:16Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.2.13",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.13",
+    "description": "Changes since langchain==1.2.12 release(langchain): 1.2.13 ( #36111 ) ci: suppress pytest streaming output in CI ( #36092 ) feat: Add LangSmith integration metadata to create_agent and init_chat_model ( #35810 ) ci: avoid unnecessary dep installs in lint targets ( #36046 ) chore: bump pyasn1 from 0.6.2 to 0.6.3 in /libs/langchain_v1 ( #36029 ) chore: bump pyjwt from 2.10.1 to 2.12.0 in /libs/langchain_v1 ( #36024 ) fix(langchain): export Runtime from agents.middleware ( #35975 ) chore: bump lock",
+    "published": "2026-03-19T17:16:22Z",
+    "source": "LangChain Releases"
+  }
+]
