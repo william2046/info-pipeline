@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8642",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8642",
+    "description": "[HIP] Bump ROCm version to 7.2.1 ( #21066 ) Bump ROCm version on Linux from 7.2 to 7.2.1 Add gfx1102 target Delete LLVM workaround since ROCm 7.2.1 has fix for ROCm 7.2 perf regression ROCm/rocm-systems#2865 Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: W",
+    "published": "2026-04-03T01:23:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8641",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8641",
+    "description": "fix: gemma 4 template ( #21326 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph)",
+    "published": "2026-04-02T23:46:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8640",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8640",
+    "description": "tests : add unit test coverage for llama_tensor_get_type ( #20112 ) Add unit test coverage for llama_tensor_get_type Fix merge conflicts, add more schemas clang formatter changes Trailing whitespace Update name Start rebase Updating files with upstream changes prior to rebase Changes needed from rebase Update attn_qkv schema, change throw behaviour Fix merge conflicts White space Update with latest changes to state counters Revert accidental personal CLAUDE.md changes Change quotation mark Reuse",
+    "published": "2026-04-02T22:45:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8639",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8639",
+    "description": "ggml-webgpu: add vectorized flash attention ( #20709 ) naive vectorized version add vectorized flash attention update vec version remove unused path and shader remove unused helper functions add comments remove pad path ggml-webgpu: fix flash-attn vec nwg=1 path and tighten vec specialization change back to vec4 enable multi split enable vec path when: Q->ne[1] < 20 Q->ne[0] % 32 == 0 V->ne[0] % 4 == 0 K->type == f16 update flast_attn_vec_split.wgsl to reduce redundant workgroup barrier usage an",
+    "published": "2026-04-02T19:57:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8638",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8638",
+    "description": "tests: allow exporting graph ops from HF file without downloading weights ( #21182 ) tests: allow exporting graph ops from HF file without downloading weights use unique_ptr for llama_context in HF metadata case fix missing non-required tensors falling back to type f32 use unique pointers where possible use no_alloc instead of fixing f32 fallback fix missing space macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU",
+    "published": "2026-04-02T18:42:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8637",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8637",
+    "description": "model, mtmd: fix gguf conversion for audio/vision mmproj ( #21309 ) fix gguf conversion for audio/vision mmproj fix test macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 ",
+    "published": "2026-04-02T18:38:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8635",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8635",
+    "description": "Relax prefill parser to allow space. ( #21240 ) Relax prefill parser to allow space. Move changes from prefix() to parser generation Only allow spaces if we're not having a pure content parser next macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 ",
+    "published": "2026-04-02T13:51:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8634",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8634",
+    "description": "chat : add Granite 4.0 chat template with correct tool_call role mapping ( #20804 ) chat : add Granite 4.0 chat template with correct tool_call role mapping Introduce LLM_CHAT_TEMPLATE_GRANITE_4_0 alongside the existing Granite 3.x template (renamed LLM_CHAT_TEMPLATE_GRANITE_3_X ). The Granite 4.0 Jinja template uses <tool_call> XML tags and maps the assistant_tool_call role to <|start_of_role|>assistant<|end_of_role|><|tool_call|> . Without a matching C++ handler, the fallback path emits the li",
+    "published": "2026-04-02T13:28:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8631",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8631",
+    "description": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x86 (910b, ACL Graph) openEuler aarch64 (3",
+    "published": "2026-04-02T12:06:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8629",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8629",
+    "description": "sycl : fix llama_kv_cache hang when kv_cache is huge: 5GB ( #21283 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (3",
+    "published": "2026-04-02T11:29:00Z",
+    "source": "llama.cpp Releases"
+  }
+]
