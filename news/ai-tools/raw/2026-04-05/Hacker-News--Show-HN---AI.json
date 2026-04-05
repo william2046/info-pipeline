@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Show HN: mailtrim – find what's actually filling your Gmail inbox",
+    "link": "https://news.ycombinator.com/item?id=47645719",
+    "description": "I always assumed Gmail bloat came from large attachments. Turns out 3 senders were responsible for 30% of my inbox — thousands of tiny emails I'd never thought to clean up. I built mailtrim to surface this pattern: - ranks senders by actual storage impact (not just count) - confidence scoring on what's safe to bulk-delete - 30-day undo on everything — nothing is permanent by default - runs entirely locally, no email data leaves your machine Free, open source (MIT). No subscription, no backend. O",
+    "published": "Sun, 05 Apr 2026 02:53:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Writing Lisp Is AI Resistant and I'm Sad",
+    "link": "https://blog.djhaskin.com/blog/writing-lisp-is-ai-resistant-and-im-sad/",
+    "description": "Article URL: https://blog.djhaskin.com/blog/writing-lisp-is-ai-resistant-and-im-sad/ Comments URL: https://news.ycombinator.com/item?id=47645468 Points: 8 # Comments: 1",
+    "published": "Sun, 05 Apr 2026 02:01:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Introduction to Computer Music [pdf]",
+    "link": "https://composerprogrammer.com/introductiontocomputermusic.pdf",
+    "description": "Article URL: https://composerprogrammer.com/introductiontocomputermusic.pdf Comments URL: https://news.ycombinator.com/item?id=47645432 Points: 58 # Comments: 18",
+    "published": "Sun, 05 Apr 2026 01:54:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "SpaceX Pushes Back Crucial Starship Test Launch",
+    "link": "https://www.wsj.com/business/spacex-pushes-back-crucial-starship-test-launch-e1fb91f5",
+    "description": "Article URL: https://www.wsj.com/business/spacex-pushes-back-crucial-starship-test-launch-e1fb91f5 Comments URL: https://news.ycombinator.com/item?id=47645240 Points: 7 # Comments: 1",
+    "published": "Sun, 05 Apr 2026 01:19:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Isseven",
+    "link": "https://isseven.app/",
+    "description": "Article URL: https://isseven.app/ Comments URL: https://news.ycombinator.com/item?id=47645168 Points: 46 # Comments: 20",
+    "published": "Sun, 05 Apr 2026 01:05:19 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Shooting down ideas is not a skill",
+    "link": "https://scottlawsonbc.com/post/shooting-down-ideas",
+    "description": "Article URL: https://scottlawsonbc.com/post/shooting-down-ideas Comments URL: https://news.ycombinator.com/item?id=47645037 Points: 104 # Comments: 107",
+    "published": "Sun, 05 Apr 2026 00:42:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Contrapunk – Real-time counterpoint harmony from guitar input, in Rust",
+    "link": "https://contrapunk.com/",
+    "description": "Article URL: https://contrapunk.com/ Comments URL: https://news.ycombinator.com/item?id=47645025 Points: 19 # Comments: 3",
+    "published": "Sun, 05 Apr 2026 00:40:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "AWS Engineer Reports PostgreSQL Perf Halved by Linux 7.0, Fix May Not Be Easy",
+    "link": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop",
+    "description": "Article URL: https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop Comments URL: https://news.ycombinator.com/item?id=47644864 Points: 144 # Comments: 36",
+    "published": "Sun, 05 Apr 2026 00:13:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Advice to Young People, the Lies I Tell Myself (2024)",
+    "link": "https://jxnl.co/writing/2024/06/01/advice-to-young-people/",
+    "description": "Article URL: https://jxnl.co/writing/2024/06/01/advice-to-young-people/ Comments URL: https://news.ycombinator.com/item?id=47644566 Points: 52 # Comments: 14",
+    "published": "Sat, 04 Apr 2026 23:18:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: M. C. Escher spiral in WebGL inspired by 3Blue1Brown",
+    "link": "https://static.laszlokorte.de/escher/",
+    "description": "The latest 3Blue1Brown video [1] about the M. C. Escher print gallery effect inspired me to re-implement the effect as WebGL fragment shader on my own. [1]: https://www.youtube.com/watch?v=ldxFjLJ3rVY Comments URL: https://news.ycombinator.com/item?id=47642601 Points: 34 # Comments: 6",
+    "published": "Sat, 04 Apr 2026 19:43:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "How many products does Microsoft have named 'Copilot'?",
+    "link": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
+    "description": "Article URL: https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html Comments URL: https://news.ycombinator.com/item?id=47642569 Points: 469 # Comments: 234",
+    "published": "Sat, 04 Apr 2026 19:39:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "LLM Wiki – example of an \"idea file\"",
+    "link": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+    "description": "https://x.com/karpathy/status/2040470801506541998 https://xcancel.com/karpathy/status/2040470801506541998 Comments URL: https://news.ycombinator.com/item?id=47640875 Points: 93 # Comments: 21",
+    "published": "Sat, 04 Apr 2026 16:57:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: A game where you build a GPU",
+    "link": "https://jaso1024.com/mvidia/",
+    "description": "Thought the resources for GPU arch were lacking, so here we are Comments URL: https://news.ycombinator.com/item?id=47640728 Points: 555 # Comments: 143",
+    "published": "Sat, 04 Apr 2026 16:45:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
+    "link": "https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs",
+    "description": "Article URL: https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs Comments URL: https://news.ycombinator.com/item?id=47640380 Points: 386 # Comments: 169",
+    "published": "Sat, 04 Apr 2026 16:16:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens",
+    "link": "https://sllm.cloud",
+    "description": "Running DeepSeek V3 (685B) requires 8×H100 GPUs which is about $14k/month. Most developers only need 15-25 tok/s. sllm lets you join a cohort of developers sharing a dedicated node. You reserve a spot with your card, and nobody is charged until the cohort fills. Prices start at $5/mo for smaller models. The LLMs are completely private (we don't log any traffic). The API is OpenAI-compatible (we run vLLM), so you just swap the base URL. Currently offering a few models. Comments URL: https://news.",
+    "published": "Sat, 04 Apr 2026 15:18:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: TurboQuant-WASM – Google's vector quantization in the browser",
+    "link": "https://github.com/teamchong/turboquant-wasm",
+    "description": "Article URL: https://github.com/teamchong/turboquant-wasm Comments URL: https://news.ycombinator.com/item?id=47639567 Points: 144 # Comments: 6",
+    "published": "Sat, 04 Apr 2026 14:53:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: I made open source, zero power PCB hackathon badges",
+    "link": "https://github.com/KaiPereira/Overglade-Badges",
+    "description": "I love getting cool swag from hackathons and I also love designing PCB's, so when my friend asked me if I would design hackathon badges for a large game jam in singapore, I was absolutely down! The theme of overglade was a \"The game jam within a game\", pretty cool concept right! High schoolers from around the world were flown out to the event by hackclub after they spent about 70 hours designing their own game. These badges needed to be really cheap and simple, because we were going to manufactu",
+    "published": "Sat, 04 Apr 2026 14:20:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Indie Internet Index – submit your favorite sites",
+    "link": "https://iii.social",
+    "description": "Article URL: https://iii.social Comments URL: https://news.ycombinator.com/item?id=47639291 Points: 110 # Comments: 23",
+    "published": "Sat, 04 Apr 2026 14:18:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Components of a Coding Agent",
+    "link": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+    "description": "Article URL: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent Comments URL: https://news.ycombinator.com/item?id=47638810 Points: 181 # Comments: 66",
+    "published": "Sat, 04 Apr 2026 13:16:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Mbodi AI (YC P25) Is Hiring",
+    "link": "https://www.ycombinator.com/companies/mbodi-ai/jobs/mf9L3sy-senior-robotics-engineer-systems-controls",
+    "description": "Article URL: https://www.ycombinator.com/companies/mbodi-ai/jobs/mf9L3sy-senior-robotics-engineer-systems-controls Comments URL: https://news.ycombinator.com/item?id=47638270 Points: 0 # Comments: 0",
+    "published": "Sat, 04 Apr 2026 12:00:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
