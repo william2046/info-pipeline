@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8672",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8672",
+    "description": "hexagon: slight optimization for argosrt output init ( #21463 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) ",
+    "published": "2026-04-06T02:54:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8671",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8671",
+    "description": "llama : correct platform-independent loading of BOOL metadata ( #21428 ) model-loader : fix GGUF bool array conversion model-loader : fix remaining GGUF bool pointer uses macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) ",
+    "published": "2026-04-06T00:34:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8670",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8670",
+    "description": "model : add HunyuanOCR support ( #21395 ) HunyuanOCR: add support for text and vision models Add HunyuanOCR vision projector (perceiver-based) with Conv2d merge Add separate HUNYUAN_OCR chat template (content-before-role format) Handle HunyuanOCR's invalid pad_token_id=-1 in converter Fix EOS/EOT token IDs from generation_config.json Support xdrope RoPE scaling type Add tensor mappings for perceiver projector (mm.before_rms, mm.after_rms, etc.) Register HunYuanVLForConditionalGeneration for both",
+    "published": "2026-04-06T00:05:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8668",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8668",
+    "description": "server : fix logging of build + system info ( #21460 ) This PR changes the logging that occurs at startup of llama-server. Currently, it is redundant (including CPU information twice) and it is missing the build + commit info. macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windo",
+    "published": "2026-04-05T15:49:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8667: ci: lower cuda12 floor to 12.8.1 for broader host compatibility (#21438)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8667",
+    "description": "Co-authored-by: M1DNYT3 m1dnyt3@MacBookPro.lan",
+    "published": "2026-04-05T01:04:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8665",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8665",
+    "description": "common : add gemma 4 specialized parser ( #21418 ) common : add gemma4 dedicated parser cont : add '<|tool_response>' as eog cont : emit JSON from Gemma4 tool call AST cont : more fixes cont : refactor convert function cont : refine rules and mapping cont : add more tests cont : clean up cont : remove autoparser gemma4 implementation cont : more cleanup cont : rename gemma4.jinja to match the others cont : add custom template to support interleaved thinking cont : preserve reasoning in model tur",
+    "published": "2026-04-04T22:06:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8664",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8664",
+    "description": "server: Fix undefined timing measurement errors in server context ( #21201 ) Co-authored-by: Dan Hoffman dhoffman@cyket.net macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x",
+    "published": "2026-04-04T15:09:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8663",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8663",
+    "description": "common : respect specified tag, only fallback when tag is empty ( #21413 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows",
+    "published": "2026-04-04T13:47:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8662",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8662",
+    "description": "llama-model: read final_logit_softcapping for Gemma 4 ( #21390 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p)",
+    "published": "2026-04-04T11:49:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8661",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8661",
+    "description": "llama: add custom newline split for Gemma 4 ( #21406 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler",
+    "published": "2026-04-04T08:51:49Z",
+    "source": "llama.cpp Releases"
+  }
+]

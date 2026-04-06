@@ -1,0 +1,142 @@
+[
+  {
+    "title": "We replaced Node.js with Bun for 5x throughput",
+    "link": "https://trigger.dev/blog/firebun",
+    "description": "Article URL: https://trigger.dev/blog/firebun Comments URL: https://news.ycombinator.com/item?id=47656114 Points: 6 # Comments: 0",
+    "published": "Mon, 06 Apr 2026 01:57:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Stamp It All Programs Must Report Their Version – Michael Stapelberg",
+    "link": "https://michael.stapelberg.ch/posts/2026-04-05-stamp-it-all-programs-must-report-their-version/",
+    "description": "Article URL: https://michael.stapelberg.ch/posts/2026-04-05-stamp-it-all-programs-must-report-their-version/ Comments URL: https://news.ycombinator.com/item?id=47655978 Points: 5 # Comments: 1",
+    "published": "Mon, 06 Apr 2026 01:42:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "LLMs can't justify their answers–this CLI forces them to",
+    "link": "https://wheat.grainulation.com/",
+    "description": "Article URL: https://wheat.grainulation.com/ Comments URL: https://news.ycombinator.com/item?id=47655721 Points: 6 # Comments: 3",
+    "published": "Mon, 06 Apr 2026 01:07:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Employers use your personal data to figure out the lowest salary you'll accept",
+    "link": "https://www.marketwatch.com/story/employers-are-using-your-personal-data-to-figure-out-the-lowest-salary-youll-accept-c2b968fb",
+    "description": "Article URL: https://www.marketwatch.com/story/employers-are-using-your-personal-data-to-figure-out-the-lowest-salary-youll-accept-c2b968fb Comments URL: https://news.ycombinator.com/item?id=47655466 Points: 111 # Comments: 45",
+    "published": "Mon, 06 Apr 2026 00:29:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: I built a tiny LLM to demystify how language models work",
+    "link": "https://github.com/arman-bd/guppylm",
+    "description": "Built a ~9M param LLM from scratch to understand how they actually work. Vanilla transformer, 60K synthetic conversations, ~130 lines of PyTorch. Trains in 5 min on a free Colab T4. The fish thinks the meaning of life is food. Fork it and swap the personality for your own character. Comments URL: https://news.ycombinator.com/item?id=47655408 Points: 130 # Comments: 9",
+    "published": "Mon, 06 Apr 2026 00:20:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: YouTube search barely works, I made a search form with advanced filters",
+    "link": "https://playlists.at/youtube/search/",
+    "description": "Article URL: https://playlists.at/youtube/search/ Comments URL: https://news.ycombinator.com/item?id=47655392 Points: 101 # Comments: 73",
+    "published": "Mon, 06 Apr 2026 00:18:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud",
+    "link": "https://github.com/kessler/gemma-gem",
+    "description": "Gemma Gem is a Chrome extension that loads Google's Gemma 4 (2B) through WebGPU in an offscreen document and gives it tools to interact with any webpage: read content, take screenshots, click elements, type text, scroll, and run JavaScript. You get a small chat overlay on every page. Ask it about the page and it (usually) figures out which tools to call. It has a thinking mode that shows chain-of-thought reasoning as it works. It's a 2B model in a browser. It works for simple page questions and ",
+    "published": "Mon, 06 Apr 2026 00:14:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Recall – local multimodal semantic search for your files",
+    "link": "https://github.com/aayu22809/Recall",
+    "description": "Article URL: https://github.com/aayu22809/Recall Comments URL: https://news.ycombinator.com/item?id=47655335 Points: 12 # Comments: 8",
+    "published": "Mon, 06 Apr 2026 00:09:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Copilot is 'for entertainment purposes only', per Microsoft's terms of use",
+    "link": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
+    "description": "Article URL: https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/ Comments URL: https://news.ycombinator.com/item?id=47655329 Points: 39 # Comments: 11",
+    "published": "Mon, 06 Apr 2026 00:07:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Modo – I built an open-source alternative to Kiro, Cursor, and Windsurf",
+    "link": "https://github.com/mohshomis/modo",
+    "description": "Article URL: https://github.com/mohshomis/modo Comments URL: https://news.ycombinator.com/item?id=47655268 Points: 19 # Comments: 2",
+    "published": "Sun, 05 Apr 2026 23:59:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Mdarena – Benchmark your Claude.md against your own PRs",
+    "link": "https://github.com/HudsonGri/mdarena",
+    "description": "Article URL: https://github.com/HudsonGri/mdarena Comments URL: https://news.ycombinator.com/item?id=47655078 Points: 14 # Comments: 1",
+    "published": "Sun, 05 Apr 2026 23:35:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenAI's fall from grace as investors race to Anthropic",
+    "link": "https://www.latimes.com/business/story/2026-04-01/openais-shocking-fall-from-grace-as-investors-race-to-anthropic",
+    "description": "Article URL: https://www.latimes.com/business/story/2026-04-01/openais-shocking-fall-from-grace-as-investors-race-to-anthropic Comments URL: https://news.ycombinator.com/item?id=47655058 Points: 112 # Comments: 67",
+    "published": "Sun, 05 Apr 2026 23:33:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "In Japan, the robot isn't coming for your job; it's filling the one nobody wants",
+    "link": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+    "description": "Article URL: https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/ Comments URL: https://news.ycombinator.com/item?id=47654620 Points: 137 # Comments: 152",
+    "published": "Sun, 05 Apr 2026 22:31:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: TermHub – Open-source terminal control gateway built for AI Agents",
+    "link": "https://github.com/duo121/termhub",
+    "description": "Article URL: https://github.com/duo121/termhub Comments URL: https://news.ycombinator.com/item?id=47654495 Points: 5 # Comments: 1",
+    "published": "Sun, 05 Apr 2026 22:14:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Mechanics of Steins Gate (2023) [pdf]",
+    "link": "https://github.com/Votuko/steins-gate-mechanics/blob/main/The%20Mechanics%20of%20Steins%20Gate%20v1.0.3.pdf",
+    "description": "Article URL: https://github.com/Votuko/steins-gate-mechanics/blob/main/The%20Mechanics%20of%20Steins%20Gate%20v1.0.3.pdf Comments URL: https://news.ycombinator.com/item?id=47654171 Points: 58 # Comments: 9",
+    "published": "Sun, 05 Apr 2026 21:42:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Gemma 4 on iPhone",
+    "link": "https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337",
+    "description": "Article URL: https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337 Comments URL: https://news.ycombinator.com/item?id=47652561 Points: 476 # Comments: 127",
+    "published": "Sun, 05 Apr 2026 18:45:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Why Switzerland has 25 Gbit internet and America doesn't",
+    "link": "https://sschueller.github.io/posts/the-free-market-lie/",
+    "description": "Article URL: https://sschueller.github.io/posts/the-free-market-lie/ Comments URL: https://news.ycombinator.com/item?id=47652400 Points: 286 # Comments: 232",
+    "published": "Sun, 05 Apr 2026 18:29:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Music for Programming",
+    "link": "https://musicforprogramming.net",
+    "description": "Article URL: https://musicforprogramming.net Comments URL: https://news.ycombinator.com/item?id=47652322 Points: 121 # Comments: 51",
+    "published": "Sun, 05 Apr 2026 18:23:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Microsoft hasn't had a coherent GUI strategy since Petzold",
+    "link": "https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/",
+    "description": "See also https://x.com/stevesi/status/2036921223150440542 ( https://xcancel.com/stevesi/status/2036921223150440542 ) Comments URL: https://news.ycombinator.com/item?id=47651703 Points: 262 # Comments: 144",
+    "published": "Sun, 05 Apr 2026 17:27:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
+    "link": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with",
+    "description": "Article URL: https://ai.georgeliu.com/p/running-google-gemma-4-locally-with Comments URL: https://news.ycombinator.com/item?id=47651540 Points: 213 # Comments: 55",
+    "published": "Sun, 05 Apr 2026 17:13:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
