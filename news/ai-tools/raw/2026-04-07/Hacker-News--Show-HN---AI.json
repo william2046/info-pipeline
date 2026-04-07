@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Why the majority of vibe coded projects fail",
+    "link": "https://www.reddit.com/r/ClaudeAI/s/Vkkzi4lUW0",
+    "description": "Article URL: https://www.reddit.com/r/ClaudeAI/s/Vkkzi4lUW0 Comments URL: https://news.ycombinator.com/item?id=47670276 Points: 8 # Comments: 1",
+    "published": "Tue, 07 Apr 2026 03:05:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Solod – A Subset of Go That Translates to C",
+    "link": "https://github.com/solod-dev/solod",
+    "description": "Article URL: https://github.com/solod-dev/solod Comments URL: https://news.ycombinator.com/item?id=47669337 Points: 44 # Comments: 11",
+    "published": "Tue, 07 Apr 2026 00:48:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "After 20 years I turned off Google Adsense for my websites (2025)",
+    "link": "https://blog.ericgoldman.org/archives/2025/06/after-20-years-i-turned-off-google-adsense-for-my-websites.htm",
+    "description": "Article URL: https://blog.ericgoldman.org/archives/2025/06/after-20-years-i-turned-off-google-adsense-for-my-websites.htm Comments URL: https://news.ycombinator.com/item?id=47668727 Points: 135 # Comments: 94",
+    "published": "Mon, 06 Apr 2026 23:23:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Anthropic expands partnership with Google and Broadcom for next-gen compute",
+    "link": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+    "description": "Article URL: https://www.anthropic.com/news/google-broadcom-partnership-compute Comments URL: https://news.ycombinator.com/item?id=47667717 Points: 175 # Comments: 79",
+    "published": "Mon, 06 Apr 2026 21:52:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Hippo, biologically inspired memory for AI agents",
+    "link": "https://github.com/kitfunso/hippo-memory",
+    "description": "Article URL: https://github.com/kitfunso/hippo-memory Comments URL: https://news.ycombinator.com/item?id=47667672 Points: 59 # Comments: 15",
+    "published": "Mon, 06 Apr 2026 21:49:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "HackerRank (YC S11) Is Hiring",
+    "link": "https://news.ycombinator.com/item?id=47667011",
+    "description": "Comments URL: https://news.ycombinator.com/item?id=47667011 Points: 0 # Comments: 0",
+    "published": "Mon, 06 Apr 2026 21:00:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Ghost Pepper – Local hold-to-talk speech-to-text for macOS",
+    "link": "https://github.com/matthartman/ghost-pepper",
+    "description": "I built this because I wanted to see how far I could get with a voice-to-text app that used 100% local models so no data left my computer. I've been using a ton for coding and emails. Experimenting with using it as a voice interface for my other agents too. 100% open-source MIT license, would love feedback, PRs, and ideas on where to take it. Comments URL: https://news.ycombinator.com/item?id=47666024 Points: 265 # Comments: 122",
+    "published": "Mon, 06 Apr 2026 19:50:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: TTF-DOOM – A raycaster running inside TrueType font hinting",
+    "link": "https://github.com/4RH1T3CT0R7/ttf-doom",
+    "description": "TrueType fonts have a hinting VM that grid-fits glyphs. It has a stack, storage area, conditionals, function calls, and it turns out it's Turing-complete. So I built a raycasting engine in the hinting bytecode. The glyph \"A\" in the font has 16 vertical bar contours. The hinting program reads player coordinates from font variation axes via GETVARIATION, does DDA ray marching against a tile map in the storage area, and repositions bar heights with SCFS. It ends up looking like a crude Wolfenstein-",
+    "published": "Mon, 06 Apr 2026 19:25:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Agent Reading Test",
+    "link": "https://agentreadingtest.com",
+    "description": "https://dacharycarey.com/2026/04/06/designing-agent-reading-... Comments URL: https://news.ycombinator.com/item?id=47665245 Points: 53 # Comments: 15",
+    "published": "Mon, 06 Apr 2026 18:56:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "SOM: A minimal Smalltalk for teaching of and research on Virtual Machines",
+    "link": "http://som-st.github.io/",
+    "description": "Article URL: http://som-st.github.io/ Comments URL: https://news.ycombinator.com/item?id=47665207 Points: 36 # Comments: 0",
+    "published": "Mon, 06 Apr 2026 18:54:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The cult of vibe coding is dogfooding run amok",
+    "link": "https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane",
+    "description": "Article URL: https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane Comments URL: https://news.ycombinator.com/item?id=47664912 Points: 487 # Comments: 431",
+    "published": "Mon, 06 Apr 2026 18:31:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Battle for Wesnoth: open-source, turn-based strategy game",
+    "link": "https://www.wesnoth.org",
+    "description": "Article URL: https://www.wesnoth.org Comments URL: https://news.ycombinator.com/item?id=47664186 Points: 410 # Comments: 114",
+    "published": "Mon, 06 Apr 2026 17:37:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Freestyle – Sandboxes for Coding Agents",
+    "link": "https://www.freestyle.sh/",
+    "description": "We’re Ben and Jacob, cofounders of Freestyle ( https://freestyle.sh ). We’re building a cloud for Coding Agents. For the first generation of agents it looked like workflows with minimal tools. 2 years ago we published a package to let AI work in SQL, at that time GPT-4 could write simple scripts. Soon after the first AI App Builders started using AI to make whole websites; we supported that with a serverless deploy system. But the current generation is going much further, instead of minimal tool",
+    "published": "Mon, 06 Apr 2026 16:32:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: GovAuctions lets you browse government auctions at once",
+    "link": "https://www.govauctions.app/",
+    "description": "I've long been into finding deals on government auction sites (seizures, surplus sales etc.) - right now for example San Diego DHS is selling 26 tons of lead shot, with bidding starting at $1,000 ¯\\_(ツ)_/¯ It has historically been extremely tedious though: scanning dozens of janky sites which have interminable page loading times; back buttons take you all the way back to the homepage etc. The site I built - GovAuctions - lets you search every government surplus auction at once. You can filter by",
+    "published": "Mon, 06 Apr 2026 16:21:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "AI singer now occupies eleven spots on iTunes singles chart",
+    "link": "https://www.showbiz411.com/2026/04/05/itunes-takeover-by-fake-ai-singer-eddie-dalton-now-occupies-eleven-spots-on-chart-despite-not-being-human-or-real-exclusive",
+    "description": "Article URL: https://www.showbiz411.com/2026/04/05/itunes-takeover-by-fake-ai-singer-eddie-dalton-now-occupies-eleven-spots-on-chart-despite-not-being-human-or-real-exclusive Comments URL: https://news.ycombinator.com/item?id=47662596 Points: 116 # Comments: 160",
+    "published": "Mon, 06 Apr 2026 15:57:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A cryptography engineer's perspective on quantum computing timelines",
+    "link": "https://words.filippo.io/crqc-timeline/",
+    "description": "Article URL: https://words.filippo.io/crqc-timeline/ Comments URL: https://news.ycombinator.com/item?id=47662234 Points: 365 # Comments: 150",
+    "published": "Mon, 06 Apr 2026 15:31:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Sky – an Elm-inspired language that compiles to Go",
+    "link": "https://github.com/anzellai/sky",
+    "description": "Article URL: https://github.com/anzellai/sky Comments URL: https://news.ycombinator.com/item?id=47662116 Points: 137 # Comments: 51",
+    "published": "Mon, 06 Apr 2026 15:22:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "German police name alleged leaders of GandCrab and REvil ransomware groups",
+    "link": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
+    "description": "Article URL: https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/ Comments URL: https://news.ycombinator.com/item?id=47660954 Points: 268 # Comments: 137",
+    "published": "Mon, 06 Apr 2026 13:52:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
+    "link": "https://github.com/anthropics/claude-code/issues/42796",
+    "description": "Article URL: https://github.com/anthropics/claude-code/issues/42796 Comments URL: https://news.ycombinator.com/item?id=47660925 Points: 816 # Comments: 483",
+    "published": "Mon, 06 Apr 2026 13:50:35 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Book review: There Is No Antimemetics Division",
+    "link": "https://www.stephendiehl.com/posts/no_antimimetics/",
+    "description": "Article URL: https://www.stephendiehl.com/posts/no_antimimetics/ Comments URL: https://news.ycombinator.com/item?id=47660853 Points: 215 # Comments: 158",
+    "published": "Mon, 06 Apr 2026 13:44:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

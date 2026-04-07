@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.20.3-rc0: model/parsers: add gemma4 tool call repair (#15374)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.3-rc0",
+    "description": "The existing strict gemma4 tool parser is still the primary path, but if this fails, we try to repair by fixing some of the most commonly seen mistakes these models seem to make in practice. We repair by building up a set of candidates, and use the first candidate that parses. Repairs cover: missing Gemma string delimiters single-quoted string values, including a dangling Gemma delimiter raw terminal string values (if the corresponding tool schema indicates it should be a string) missing object ",
+    "published": "2026-04-07T01:47:17Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.2",
+    "description": "What's Changed app: default app home view to new chat instead of launch by @jmorganca in #15312 Full Changelog : v0.20.1...v0.20.2",
+    "published": "2026-04-04T06:51:14Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.1",
+    "description": "What's Changed bench: add prompt calibration, context size flag, and NumCtx reporting by @dhiltgen in #15158 model/parsers: fix gemma4 arg parsing when quoted strings contain \" by @drifkin in #15254 ggml: skip cublasGemmBatchedEx during graph reservation by @jessegross in #15301 gemma4: enable flash attention by @dhiltgen in #15296 ggml: fix ROCm build for cublasGemmBatchedEx reserve wrapper by @jessegross in #15305 model/parsers: rework gemma4 tool call handling by @drifkin in #15306 Full Chang",
+    "published": "2026-04-04T03:23:04Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.1-rc2: model/parsers: rework gemma4 tool call handling (#15306)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.1-rc2",
+    "description": "Replace the custom Gemma4 argument normalizer with a stricter reference-style conversion: preserve Gemma-quoted strings, quote bare keys, and then unmarshal the result as JSON. This keeps quoted scalars as strings, preserves typed unquoted values, and adds test coverage for malformed raw-quoted inputs that the reference implementation rejects.",
+    "published": "2026-04-03T21:35:00Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.1-rc1: ggml: fix ROCm build for cublasGemmBatchedEx reserve wrapper",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.1-rc1",
+    "description": "Add missing cublasGemmAlgo_t to hipblasGemmAlgo_t type mapping and cast away const qualifiers that hipblasGemmBatchedEx doesn't accept.",
+    "published": "2026-04-03T21:22:46Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.1-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.1-rc0",
+    "description": "enable flash attention for gemma4 ( #15296 )",
+    "published": "2026-04-03T19:46:18Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.0",
+    "description": "Gemma 4 Effective 2B (E2B) ollama run gemma4:e2b Effective 4B (E4B) ollama run gemma4:e4b 26B (Mixture of Experts model with 4B active parameters) ollama run gemma4:26b 31B (Dense) ollama run gemma4:31b What's Changed docs: update pi docs by @ParthSareen in #15152 mlx: respect tokenizer add_bos_token setting in pipeline by @dhiltgen in #15185 tokenizer: add SentencePiece-style BPE support by @dhiltgen in #15162 Full Changelog : v0.19.0...v0.20.0-rc0",
+    "published": "2026-04-02T21:19:31Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.0-rc1: convert: support new Gemma4 audio_tower tensor naming (#15221)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.0-rc1",
+    "description": "Co-authored-by: jmorganca jmorganca@gmail.com",
+    "published": "2026-04-02T16:30:05Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.0-rc0: Merge pull request #42 from ollama/jmorganca/gemma4-ggml-improvements",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.0-rc0",
+    "description": "gemma4: fix MoE fused gate_up split and multiline tool-call arg parsing",
+    "published": "2026-04-02T14:16:06Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.19.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.19.0",
+    "description": "Ollama is now powered by MLX on Apple Silicon in preview Ollama on Apple silicon is now built on top of Apple’s machine learning framework, MLX, to take advantage of its unified memory architecture. mlx-coding-agent.mov Read more: https://ollama.com/blog/mlx What's Changed Ollama's app will now no longer incorrectly show \"model is out of date\" ollama launch pi now includes web search plugin that uses Ollama's web search Improved KV cache hit rate when using the Anthropic-compatible API Fixed too",
+    "published": "2026-03-31T04:57:08Z",
+    "source": "Ollama Releases"
+  }
+]

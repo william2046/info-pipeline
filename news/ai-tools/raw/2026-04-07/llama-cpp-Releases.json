@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8683",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8683",
+    "description": "ggml-webgpu: Add the support of MUL_MAT_ID ( #21147 ) Add mul_mat_id support to WebGPU Apply suggestion from @reeselevine Co-authored-by: Reese Levine reeselevine1@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 1",
+    "published": "2026-04-06T22:52:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8682",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8682",
+    "description": "ggml: add Q1_0 1-bit quantization support (CPU) ( #21273 ) ggml: add Q1_0 and Q1_0_g128 1-bit quantization support (CPU) add generic fallback for x86 remove Q1_0 (group size 32) rename Q1_0_g128 => Q1_0 fix Q1_0 LlamaFileType Enum Fix trailing spaces; add generic fallback for othre backends Apply suggestions from code review Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com fix /r/n spacing + arch-fallback Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS A",
+    "published": "2026-04-06T21:51:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8681",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8681",
+    "description": "cli: fix stripping of \\n in multiline input ( #21485 ) llama-cli: fix stripping of \\n in multiline input Change & string to string_view Apply suggestions from code review Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com Fix EditorConfig linter error Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) ",
+    "published": "2026-04-06T20:50:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8680",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8680",
+    "description": "[CUDA ] Write an optimized flash_attn_stream_k_fixup kernel ( #21159 ) Write an optimized flash_attn_stream_k_fixup kernel Write a specialized and more optimized kernel for cases where nblocks_stream_k is multiple of ntiles_dst. Make nblocks_stream_k to multiple of ntiles_dst if nblocks_stream_k > 2 * ntiles_dst Use the new kernel only for nblocks_stream_k_raw > 4 * ntiles_dst to make sure we have enough concurrency on GPUs Address review comments Address review comments Revert variable names to",
+    "published": "2026-04-06T19:40:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8679",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8679",
+    "description": "llama-bench: add -fitc and -fitt to arguments ( #21304 ) llama-bench: add -fitc and -fitt to arguments update README.md address review comments update compare-llama-bench.py macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 1",
+    "published": "2026-04-06T18:21:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8678",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8678",
+    "description": "vocab : add byte token handling to BPE detokenizer for Gemma4 ( #21488 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x8",
+    "published": "2026-04-06T17:46:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8676",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8676",
+    "description": "server : handle unsuccessful sink.write in chunked stream provider ( #21478 ) Check the return value of sink.write() in the chunked content provider and return false when the write fails, matching cpp-httplib's own streaming contract. This prevents logging chunks as sent when the sink rejected them and properly aborts the stream on connection failure. macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 ",
+    "published": "2026-04-06T15:57:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8672",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8672",
+    "description": "hexagon: slight optimization for argosrt output init ( #21463 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) ",
+    "published": "2026-04-06T02:54:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8671",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8671",
+    "description": "llama : correct platform-independent loading of BOOL metadata ( #21428 ) model-loader : fix GGUF bool array conversion model-loader : fix remaining GGUF bool pointer uses macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) ",
+    "published": "2026-04-06T00:34:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8670",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8670",
+    "description": "model : add HunyuanOCR support ( #21395 ) HunyuanOCR: add support for text and vision models Add HunyuanOCR vision projector (perceiver-based) with Conv2d merge Add separate HUNYUAN_OCR chat template (content-before-role format) Handle HunyuanOCR's invalid pad_token_id=-1 in converter Fix EOS/EOT token IDs from generation_config.json Support xdrope RoPE scaling type Add tensor mappings for perceiver projector (mm.before_rms, mm.after_rms, etc.) Register HunYuanVLForConditionalGeneration for both",
+    "published": "2026-04-06T00:05:58Z",
+    "source": "llama.cpp Releases"
+  }
+]
