@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8702",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8702",
+    "description": "CUDA: make cuda graphs props check faster ( #21472 ) CUDA: compute fast hash instead of expensive props check use seen node use memcp macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan)",
+    "published": "2026-04-08T03:11:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8701",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8701",
+    "description": "ggml-cuda: ds_read_b128 for q4_0 and q4_1 mmq kernels ( #21168 ) ds_read_b128 for q4_0 and q4_1 mmq kernels Current for loop generates ds_read_b32 instructions with hip compiler, the new solution generates ds_read_b128 instructions for the same operation, saving some LDS bandwidth. Tested on MI50 and RX6800XT, its faster on both. Vectorized lds load update: used ggml_cuda_get_max_cpy_bytes and ggml_cuda_memcpy_1 functions for generic implementation Explicit for loop in mmq, renamed vec into tmp ",
+    "published": "2026-04-08T02:39:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8699",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8699",
+    "description": "kv-cache : support attention rotation for heterogeneous iSWA ( #21513 ) kv-cache : support attention rotation for heterogeneous iSWA cont : remove assert macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs ",
+    "published": "2026-04-08T01:51:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8698",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8698",
+    "description": "ggml-webgpu: parameterize submission size and add iOS specific limits ( #21533 ) Work towards removing bitcast Move rest of existing types over Add timeout back to wait and remove synchronous set_tensor/memset_tensor move to unpackf16 for wider compatibility cleanup Remove deadlock condition in free_bufs Start work on removing parameter buffer pools Simplify and optimize further simplify profile futures Fix stride Try using a single command buffer per batch formatting Add parameters for differen",
+    "published": "2026-04-08T00:55:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8697",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8697",
+    "description": "CUDA: check for buffer overlap before fusing ( #21566 ) CUDA: check for buffer overlap before fusing use ggml_cuda_check_fusion_memory_ranges macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 ",
+    "published": "2026-04-08T01:44:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8696",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8696",
+    "description": "llama-server: fix model params not propagated ( #21509 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (",
+    "published": "2026-04-08T00:46:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8694",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8694",
+    "description": "llama: remove per-arch tensor name lists ( #21531 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p) openEuler x8",
+    "published": "2026-04-07T23:16:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8693",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8693",
+    "description": "server : fix restore for checkpoints with pos_min == 0 ( #21510 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: openEuler x86 (310p",
+    "published": "2026-04-07T21:45:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8692",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8692",
+    "description": "ggml : deprecate GGML_OP_ADD1 ( #21363 ) ggml : deprecate GGML_OP_ADD1 cont : remove tests cont : re-enable vulkan check macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 ",
+    "published": "2026-04-07T19:54:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8691",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8691",
+    "description": "ggml: Vulkan build, Linux -- output error string for errno on fork failure ( #20868 ) ( #20904 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP)",
+    "published": "2026-04-07T18:57:40Z",
+    "source": "llama.cpp Releases"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.20.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.4-rc2",
+    "description": "What's Changed mlx: Improve M5 performance with NAX by @dhiltgen in #15345 gemma4: enable flash attention by @dhiltgen in #15378 create: Clean up experimental paths, fix create from existing safetensor model by @dhiltgen in #14679 gemma4: add missing file by @dhiltgen in #15394 Full Changelog : v0.20.3...v0.20.4-rc1",
+    "published": "2026-04-08T00:27:18Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.4-rc1: gemma4: add missing file (#15394)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.4-rc1",
+    "description": "File accidentally omitted from #15378",
+    "published": "2026-04-07T16:18:01Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.4-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.4-rc0",
+    "description": "create: Clean up experimental paths, fix create from existing safete…",
+    "published": "2026-04-07T15:12:57Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.3",
+    "description": "What's Changed Gemma 4 Tool Calling improvements Added latest models to Ollama App OpenClaw fixes for launching TUI Full Changelog : v0.20.2...v0.20.3",
+    "published": "2026-04-07T05:38:31Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.3-rc0: model/parsers: add gemma4 tool call repair (#15374)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.3-rc0",
+    "description": "The existing strict gemma4 tool parser is still the primary path, but if this fails, we try to repair by fixing some of the most commonly seen mistakes these models seem to make in practice. We repair by building up a set of candidates, and use the first candidate that parses. Repairs cover: missing Gemma string delimiters single-quoted string values, including a dangling Gemma delimiter raw terminal string values (if the corresponding tool schema indicates it should be a string) missing object ",
+    "published": "2026-04-07T01:47:17Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.2",
+    "description": "What's Changed app: default app home view to new chat instead of launch by @jmorganca in #15312 Full Changelog : v0.20.1...v0.20.2",
+    "published": "2026-04-04T06:51:14Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.1",
+    "description": "What's Changed bench: add prompt calibration, context size flag, and NumCtx reporting by @dhiltgen in #15158 model/parsers: fix gemma4 arg parsing when quoted strings contain \" by @drifkin in #15254 ggml: skip cublasGemmBatchedEx during graph reservation by @jessegross in #15301 gemma4: enable flash attention by @dhiltgen in #15296 ggml: fix ROCm build for cublasGemmBatchedEx reserve wrapper by @jessegross in #15305 model/parsers: rework gemma4 tool call handling by @drifkin in #15306 Full Chang",
+    "published": "2026-04-04T03:23:04Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.1-rc2: model/parsers: rework gemma4 tool call handling (#15306)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.1-rc2",
+    "description": "Replace the custom Gemma4 argument normalizer with a stricter reference-style conversion: preserve Gemma-quoted strings, quote bare keys, and then unmarshal the result as JSON. This keeps quoted scalars as strings, preserves typed unquoted values, and adds test coverage for malformed raw-quoted inputs that the reference implementation rejects.",
+    "published": "2026-04-03T21:35:00Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.1-rc1: ggml: fix ROCm build for cublasGemmBatchedEx reserve wrapper",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.1-rc1",
+    "description": "Add missing cublasGemmAlgo_t to hipblasGemmAlgo_t type mapping and cast away const qualifiers that hipblasGemmBatchedEx doesn't accept.",
+    "published": "2026-04-03T21:22:46Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.1-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.1-rc0",
+    "description": "enable flash attention for gemma4 ( #15296 )",
+    "published": "2026-04-03T19:46:18Z",
+    "source": "Ollama Releases"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Protect Your Shed",
+    "link": "https://dylanbutler.dev/blog/protect-your-shed/",
+    "description": "Article URL: https://dylanbutler.dev/blog/protect-your-shed/ Comments URL: https://news.ycombinator.com/item?id=47684514 Points: 9 # Comments: 1",
+    "published": "Wed, 08 Apr 2026 03:03:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "LLM scraper bots are overloading acme.com's HTTPS server",
+    "link": "http://acme.com/updates/archive/229.html",
+    "description": "Article URL: http://acme.com/updates/archive/229.html Comments URL: https://news.ycombinator.com/item?id=47684506 Points: 5 # Comments: 1",
+    "published": "Wed, 08 Apr 2026 03:02:56 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenAI says its new model GPT-2 is too dangerous to release (2019)",
+    "link": "https://slate.com/technology/2019/02/openai-gpt2-text-generating-algorithm-ai-dangerous.html",
+    "description": "Article URL: https://slate.com/technology/2019/02/openai-gpt2-text-generating-algorithm-ai-dangerous.html Comments URL: https://news.ycombinator.com/item?id=47684326 Points: 186 # Comments: 45",
+    "published": "Wed, 08 Apr 2026 02:41:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "JSIR: A High-Level IR for JavaScript",
+    "link": "https://discourse.llvm.org/t/rfc-jsir-a-high-level-ir-for-javascript/90456",
+    "description": "Article URL: https://discourse.llvm.org/t/rfc-jsir-a-high-level-ir-for-javascript/90456 Comments URL: https://news.ycombinator.com/item?id=47683376 Points: 22 # Comments: 6",
+    "published": "Wed, 08 Apr 2026 00:59:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Xilem – An experimental Rust native UI framework",
+    "link": "https://github.com/linebender/xilem",
+    "description": "Article URL: https://github.com/linebender/xilem Comments URL: https://news.ycombinator.com/item?id=47682719 Points: 44 # Comments: 9",
+    "published": "Tue, 07 Apr 2026 23:36:15 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "US and Iran agree to provisional ceasefire",
+    "link": "https://www.theguardian.com/us-news/2026/apr/07/trump-iran-war-ceasefire",
+    "description": "https://www.reuters.com/world/iran-war-live-tehran-rejects-c... Comments URL: https://news.ycombinator.com/item?id=47682276 Points: 292 # Comments: 747",
+    "published": "Tue, 07 Apr 2026 22:41:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Move Detroit",
+    "link": "https://www.movedetroit.com/program",
+    "description": "Article URL: https://www.movedetroit.com/program Comments URL: https://news.ycombinator.com/item?id=47681361 Points: 42 # Comments: 61",
+    "published": "Tue, 07 Apr 2026 21:04:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Bitcoin and quantum computing",
+    "link": "https://nehanarula.org/2026/04/03/bitcoin-and-quantum-computing.html",
+    "description": "Article URL: https://nehanarula.org/2026/04/03/bitcoin-and-quantum-computing.html Comments URL: https://news.ycombinator.com/item?id=47681274 Points: 116 # Comments: 74",
+    "published": "Tue, 07 Apr 2026 20:56:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: An interactive map of Tolkien's Middle-earth",
+    "link": "https://middle-earth-interactive-map.web.app/",
+    "description": "An interactive map of Tolkien’s Middle-earth, with events from across the legendarium plotted as markers. I have been commuting a fair bit between the East and West coast, and thanks to American Airlines' free onboard WiFi, I was able to vibe-code a full interactive map of Middle-earth right from my economy seat at the back of the bus. It's rather amazing how much an LLM knows about Tolkien's work, and it was fun to delve into many of the nooks and crannies of Tolkien's lore. Some features: - Pl",
+    "published": "Tue, 07 Apr 2026 20:42:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "S3 Files",
+    "link": "https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html",
+    "description": "https://aws.amazon.com/blogs/aws/launching-s3-files-making-s... Comments URL: https://news.ycombinator.com/item?id=47680404 Points: 229 # Comments: 65",
+    "published": "Tue, 07 Apr 2026 19:44:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
+    "link": "https://github.com/mattmireles/gemma-tuner-multimodal",
+    "description": "About six months ago, I started working on a project to fine-tune Whisper locally on my M2 Ultra Mac Studio with a limited compute budget. I got into it. The problem I had at the time was I had 15,000 hours of audio data in Google Cloud Storage, and there was no way I could fit all the audio onto my local machine, so I built a system to stream data from my GCS to my machine during training. Gemma 3n came out, so I added that. Kinda went nuts, tbh. Then I put it on the shelf. When Gemma 4 came ou",
+    "published": "Tue, 07 Apr 2026 19:37:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "System Card: Claude Mythos Preview [pdf]",
+    "link": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
+    "description": "Related: Project Glasswing: Securing critical software for the AI era - https://news.ycombinator.com/item?id=47679121 Assessing Claude Mythos Preview's cybersecurity capabilities - https://news.ycombinator.com/item?id=47679155 Comments URL: https://news.ycombinator.com/item?id=47679258 Points: 572 # Comments: 420",
+    "published": "Tue, 07 Apr 2026 18:18:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Project Glasswing: Securing critical software for the AI era",
+    "link": "https://www.anthropic.com/glasswing",
+    "description": "Related: Assessing Claude Mythos Preview's cybersecurity capabilities - https://news.ycombinator.com/item?id=47679155 System Card: Claude Mythos Preview [pdf] - https://news.ycombinator.com/item?id=47679258 Also: Anthropic's Project Glasswing sounds necessary to me - https://news.ycombinator.com/item?id=47681241 Comments URL: https://news.ycombinator.com/item?id=47679121 Points: 986 # Comments: 436",
+    "published": "Tue, 07 Apr 2026 18:09:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Cambodia unveils statue to honour famous landmine-sniffing rat",
+    "link": "https://www.bbc.com/news/articles/c0rx7xzd10xo",
+    "description": "Article URL: https://www.bbc.com/news/articles/c0rx7xzd10xo Comments URL: https://news.ycombinator.com/item?id=47678573 Points: 311 # Comments: 66",
+    "published": "Tue, 07 Apr 2026 17:23:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Rescuing old printers with an in-browser Linux VM bridged to WebUSB over USB/IP",
+    "link": "https://printervention.app/details",
+    "description": "Article URL: https://printervention.app/details Comments URL: https://news.ycombinator.com/item?id=47677885 Points: 159 # Comments: 72",
+    "published": "Tue, 07 Apr 2026 16:33:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "GLM-5.1: Towards Long-Horizon Tasks",
+    "link": "https://z.ai/blog/glm-5.1",
+    "description": "Article URL: https://z.ai/blog/glm-5.1 Comments URL: https://news.ycombinator.com/item?id=47677853 Points: 449 # Comments: 171",
+    "published": "Tue, 07 Apr 2026 16:32:15 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Lunar Flyby",
+    "link": "https://www.nasa.gov/gallery/lunar-flyby/",
+    "description": "Article URL: https://www.nasa.gov/gallery/lunar-flyby/ Comments URL: https://news.ycombinator.com/item?id=47676509 Points: 461 # Comments: 112",
+    "published": "Tue, 07 Apr 2026 15:03:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A blind man made it possible for others with low vision to build Lego sets",
+    "link": "https://apnews.com/article/lego-bricks-for-blind-audio-braille-instructions-5a2a27de4354a0b1443171c3f24f29e4",
+    "description": "Article URL: https://apnews.com/article/lego-bricks-for-blind-audio-braille-instructions-5a2a27de4354a0b1443171c3f24f29e4 Comments URL: https://news.ycombinator.com/item?id=47675893 Points: 59 # Comments: 5",
+    "published": "Tue, 07 Apr 2026 14:24:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Cloudflare targets 2029 for full post-quantum security",
+    "link": "https://blog.cloudflare.com/post-quantum-roadmap/",
+    "description": "Article URL: https://blog.cloudflare.com/post-quantum-roadmap/ Comments URL: https://news.ycombinator.com/item?id=47675625 Points: 290 # Comments: 93",
+    "published": "Tue, 07 Apr 2026 14:07:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "9 Mothers (YC P26) Is Hiring – Lead Robotics and More",
+    "link": "https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q",
+    "description": "Article URL: https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q Comments URL: https://news.ycombinator.com/item?id=47675302 Points: 0 # Comments: 0",
+    "published": "Tue, 07 Apr 2026 13:45:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
