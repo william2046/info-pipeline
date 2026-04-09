@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Newly created Polymarket accounts win big on well-timed Iran ceasefire bets",
+    "link": "https://www.theguardian.com/business/2026/apr/08/polymarket-trump-us-iran-ceasefire",
+    "description": "Article URL: https://www.theguardian.com/business/2026/apr/08/polymarket-trump-us-iran-ceasefire Comments URL: https://news.ycombinator.com/item?id=47698082 Points: 50 # Comments: 24",
+    "published": "Thu, 09 Apr 2026 00:55:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "LittleSnitch for Linux",
+    "link": "https://obdev.at/products/littlesnitch-linux/index.html",
+    "description": "Article URL: https://obdev.at/products/littlesnitch-linux/index.html Comments URL: https://news.ycombinator.com/item?id=47697870 Points: 260 # Comments: 94",
+    "published": "Thu, 09 Apr 2026 00:26:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Is Hormuz open yet?",
+    "link": "https://www.ishormuzopenyet.com/",
+    "description": "I built this because I was interested in the data. Didn't fully get it to what I wanted, but thought I'd share it nonetheless. Maybe someone has better data sources they could share! Turns out live ship tracking APIs are expensive so I manually just copied the json from https://www.marinetraffic.com/en/ais/home/centerx:57.4/cente... I'll probably have an ai agent do the same thing on some cron interval, if this gets any fanfare. To actually know if the port is open without live ship tracking I f",
+    "published": "Wed, 08 Apr 2026 21:33:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "John Deere to pay $99M in right-to-repair settlement",
+    "link": "https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement",
+    "description": "Article URL: https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement Comments URL: https://news.ycombinator.com/item?id=47696035 Points: 211 # Comments: 56",
+    "published": "Wed, 08 Apr 2026 20:46:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "USB for Software Developers: An introduction to writing userspace USB drivers",
+    "link": "https://werwolv.net/posts/usb_for_sw_devs/",
+    "description": "Article URL: https://werwolv.net/posts/usb_for_sw_devs/ Comments URL: https://news.ycombinator.com/item?id=47695012 Points: 212 # Comments: 29",
+    "published": "Wed, 08 Apr 2026 19:23:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Expanding Swift's IDE Support",
+    "link": "https://swift.org/blog/expanding-swift-ide-support/",
+    "description": "Article URL: https://swift.org/blog/expanding-swift-ide-support/ Comments URL: https://news.ycombinator.com/item?id=47694983 Points: 87 # Comments: 39",
+    "published": "Wed, 08 Apr 2026 19:21:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Orange Juice – Small UX improvements that make HN easier to read",
+    "link": "http://oj-hn.com/",
+    "description": "Article URL: http://oj-hn.com/ Comments URL: https://news.ycombinator.com/item?id=47694036 Points: 95 # Comments: 121",
+    "published": "Wed, 08 Apr 2026 18:08:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I've been waiting over a month for Anthropic to respond to my billing issue",
+    "link": "https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/",
+    "description": "Article URL: https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/ Comments URL: https://news.ycombinator.com/item?id=47693679 Points: 301 # Comments: 146",
+    "published": "Wed, 08 Apr 2026 17:44:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Understanding the Kalman filter with a simple radar example",
+    "link": "https://kalmanfilter.net",
+    "description": "Article URL: https://kalmanfilter.net Comments URL: https://news.ycombinator.com/item?id=47693153 Points: 255 # Comments: 35",
+    "published": "Wed, 08 Apr 2026 17:11:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Muse Spark: Scaling towards personal superintelligence",
+    "link": "https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1",
+    "description": "https://meta.ai/ Comments URL: https://news.ycombinator.com/item?id=47692043 Points: 290 # Comments: 304",
+    "published": "Wed, 08 Apr 2026 16:01:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I ported Mac OS X to the Nintendo Wii",
+    "link": "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html",
+    "description": "Article URL: https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html Comments URL: https://news.ycombinator.com/item?id=47691730 Points: 1332 # Comments: 224",
+    "published": "Wed, 08 Apr 2026 15:40:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Microsoft terminates VeraCrypt account, halting Windows updates",
+    "link": "https://www.404media.co/microsoft-abruptly-terminates-veracrypt-account-halting-windows-updates/",
+    "description": "https://archive.ph/Oc85c Comments URL: https://news.ycombinator.com/item?id=47690977 Points: 492 # Comments: 186",
+    "published": "Wed, 08 Apr 2026 14:46:15 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "ML promises to be profoundly weird",
+    "link": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
+    "description": "Article URL: https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess Comments URL: https://news.ycombinator.com/item?id=47689648 Points: 412 # Comments: 438",
+    "published": "Wed, 08 Apr 2026 13:06:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Skrun – Deploy any agent skill as an API",
+    "link": "https://github.com/skrun-dev/skrun",
+    "description": "Article URL: https://github.com/skrun-dev/skrun Comments URL: https://news.ycombinator.com/item?id=47689319 Points: 48 # Comments: 9",
+    "published": "Wed, 08 Apr 2026 12:34:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "US cities are axing Flock Safety surveillance technology",
+    "link": "https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/",
+    "description": "Article URL: https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/ Comments URL: https://news.ycombinator.com/item?id=47689237 Points: 651 # Comments: 385",
+    "published": "Wed, 08 Apr 2026 12:26:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
+    "link": "https://arxiv.org/abs/2604.05091",
+    "description": "Article URL: https://arxiv.org/abs/2604.05091 Comments URL: https://news.ycombinator.com/item?id=47689174 Points: 266 # Comments: 49",
+    "published": "Wed, 08 Apr 2026 12:19:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "They're made out of meat (1991)",
+    "link": "http://www.terrybisson.com/theyre-made-out-of-meat-2/",
+    "description": "Article URL: http://www.terrybisson.com/theyre-made-out-of-meat-2/ Comments URL: https://news.ycombinator.com/item?id=47688678 Points: 433 # Comments: 129",
+    "published": "Wed, 08 Apr 2026 11:20:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Git commands I run before reading any code",
+    "link": "https://piechowski.io/post/git-commands-before-reading-code/",
+    "description": "Article URL: https://piechowski.io/post/git-commands-before-reading-code/ Comments URL: https://news.ycombinator.com/item?id=47687273 Points: 1859 # Comments: 392",
+    "published": "Wed, 08 Apr 2026 08:53:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Veracrypt project update",
+    "link": "https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/",
+    "description": "Article URL: https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/ Comments URL: https://news.ycombinator.com/item?id=47686549 Points: 1163 # Comments: 428",
+    "published": "Wed, 08 Apr 2026 07:23:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "We moved Railway's frontend off Next.js. Builds went from 10+ mins to under 2",
+    "link": "https://blog.railway.com/p/moving-railways-frontend-off-nextjs",
+    "description": "Article URL: https://blog.railway.com/p/moving-railways-frontend-off-nextjs Comments URL: https://news.ycombinator.com/item?id=47685945 Points: 188 # Comments: 176",
+    "published": "Wed, 08 Apr 2026 06:01:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

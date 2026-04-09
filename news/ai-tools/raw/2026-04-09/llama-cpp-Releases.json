@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8720",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8720",
+    "description": "CUDA: also store node->src->data ptrs for equality check ( #21635 ) CUDA: also store node->src->data ptrs for equality check address review comments macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLL",
+    "published": "2026-04-09T02:23:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8719",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8719",
+    "description": "fix: free ctx_copy in ggml_opt_free to plug per-training-session leak ( #21592 ) fix: free ctx_copy in ggml_opt_free to plug per-training-session leak ggml_opt_alloc populates opt_ctx->ctx_copy via a free+init pair every time the allocated graph shape changes. The last ctx_copy from the final ggml_opt_alloc call survives until ggml_opt_free is invoked, but ggml_opt_free was only freeing ctx_static and ctx_cpu, never ctx_copy. Each opt_ctx lifetime therefore leaks the final per-batch context — ~9",
+    "published": "2026-04-09T02:20:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8718",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8718",
+    "description": "server: respect the ignore eos flag ( #21203 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) ope",
+    "published": "2026-04-09T02:18:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8717",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8717",
+    "description": "vocab : remove eog token if gemma4 ( #21492 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) open",
+    "published": "2026-04-09T02:17:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8715",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8715",
+    "description": "Propose fix a couple of typos ( #21581 ) Signed-off-by: John E jeis4wpi@outlook.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Win",
+    "published": "2026-04-09T02:11:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8714",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8714",
+    "description": "kv-cache : extend cache quantization checks ( #21586 ) to also check for enabled flash attention, instead of just auto. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUD",
+    "published": "2026-04-09T02:11:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8713",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8713",
+    "description": "webgpu : Query for adapter support when registering WebGPU backend ( #21579 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x",
+    "published": "2026-04-09T01:21:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8712",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8712",
+    "description": "metal: Q1_0 backend ( #21528 ) initial Q1_0 Metal backend tuning q1_0 metal kernels add Q1_0 to test-backend-ops add Q1_0<->F32 copy test Apply suggestions from code review Co-authored-by: Georgi Gerganov ggerganov@gmail.com Co-authored-by: Georgi Gerganov ggerganov@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) ",
+    "published": "2026-04-09T00:24:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8711",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8711",
+    "description": "gemma : perform per-layer projections in the first layer ( #21612 ) gemma : reduce graph splits by keeping per-layer ops in the input layer gemma : put the per-layer proj in the first layer cont : move the projection before the layer loop macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Open",
+    "published": "2026-04-09T00:22:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8710",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8710",
+    "description": "examples : disable cb_eval callback for --save-logits ( #21553 ) This commit updates the debug example to not create the base_callback_data. The motivation for this is when using --save-logits , which is used by examples/model-conversion scripts, we often don't care about the tensor outputs and they just add noise to the output. This changes is quiet by default we can always remove --save-logits to get the tensor outputs when debugging. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon ",
+    "published": "2026-04-08T23:22:41Z",
+    "source": "llama.cpp Releases"
+  }
+]
