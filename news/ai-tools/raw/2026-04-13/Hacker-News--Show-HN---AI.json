@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Haunt, the 70s text adventure game, is now playable on a website",
+    "link": "https://haunt.madebywindmill.com",
+    "description": "Article URL: https://haunt.madebywindmill.com Comments URL: https://news.ycombinator.com/item?id=47747248 Points: 11 # Comments: 0",
+    "published": "Mon, 13 Apr 2026 03:31:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Apple's accidental moat: How the \"AI Loser\" may end up winning",
+    "link": "https://adlrocha.substack.com/p/adlrocha-how-the-ai-loser-may-end",
+    "description": "Article URL: https://adlrocha.substack.com/p/adlrocha-how-the-ai-loser-may-end Comments URL: https://news.ycombinator.com/item?id=47747017 Points: 38 # Comments: 17",
+    "published": "Mon, 13 Apr 2026 02:53:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "All elementary functions from a single binary operator",
+    "link": "https://arxiv.org/abs/2603.21852",
+    "description": "Article URL: https://arxiv.org/abs/2603.21852 Comments URL: https://news.ycombinator.com/item?id=47746610 Points: 75 # Comments: 23",
+    "published": "Mon, 13 Apr 2026 01:49:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "State of Homelab 2026",
+    "link": "https://mrlokans.work/posts/state-of-homelab-2026/",
+    "description": "Article URL: https://mrlokans.work/posts/state-of-homelab-2026/ Comments URL: https://news.ycombinator.com/item?id=47746577 Points: 20 # Comments: 4",
+    "published": "Mon, 13 Apr 2026 01:42:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Taking on CUDA with ROCm: 'One Step After Another'",
+    "link": "https://www.eetimes.com/taking-on-cuda-with-rocm-one-step-after-another/",
+    "description": "Article URL: https://www.eetimes.com/taking-on-cuda-with-rocm-one-step-after-another/ Comments URL: https://news.ycombinator.com/item?id=47745284 Points: 91 # Comments: 73",
+    "published": "Sun, 12 Apr 2026 22:38:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A Perfectable Programming Language",
+    "link": "https://alok.github.io/lean-pages/perfectable-lean/",
+    "description": "Article URL: https://alok.github.io/lean-pages/perfectable-lean/ Comments URL: https://news.ycombinator.com/item?id=47744540 Points: 77 # Comments: 23",
+    "published": "Sun, 12 Apr 2026 21:11:24 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Uncharted island soon to appear on nautical charts",
+    "link": "https://www.awi.de/en/about-us/service/press/single-view/unkartierte-insel-demnaechst-auf-seekarten-verzeichnet.html",
+    "description": "Article URL: https://www.awi.de/en/about-us/service/press/single-view/unkartierte-insel-demnaechst-auf-seekarten-verzeichnet.html Comments URL: https://news.ycombinator.com/item?id=47744132 Points: 56 # Comments: 24",
+    "published": "Sun, 12 Apr 2026 20:30:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Google removes \"Doki Doki Literature Club\" from Google Play",
+    "link": "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t",
+    "description": "Article URL: https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t Comments URL: https://news.ycombinator.com/item?id=47743730 Points: 346 # Comments: 170",
+    "published": "Sun, 12 Apr 2026 19:53:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The peril of laziness lost",
+    "link": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
+    "description": "Article URL: https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/ Comments URL: https://news.ycombinator.com/item?id=47743628 Points: 346 # Comments: 115",
+    "published": "Sun, 12 Apr 2026 19:44:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: boringBar – a taskbar-style dock replacement for macOS",
+    "link": "https://boringbar.app/",
+    "description": "Hi HN! I recently switched from a Fedora/GNOME laptop to a MacBook Air. My old setup served me well as a portable workstation, but I’ve started traveling more while working remotely and needed something with similar performance but better battery life. The main thing I missed was a simple taskbar that shows the windows in the current workspace instead of a Dock that mixes everything together. I built boringBar so I would not have to use the Dock. It shows only the windows in the current Space, l",
+    "published": "Sun, 12 Apr 2026 17:25:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "EasyPost (YC S13) Is Hiring",
+    "link": "https://www.easypost.com/careers",
+    "description": "Article URL: https://www.easypost.com/careers Comments URL: https://news.ycombinator.com/item?id=47741953 Points: 0 # Comments: 0",
+    "published": "Sun, 12 Apr 2026 17:01:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Claudraband – Claude Code for the Power User",
+    "link": "https://github.com/halfwhey/claudraband",
+    "description": "Hello everyone. Claudraband wraps a Claude Code TUI in a controlled terminal to enable extended workflows. It uses tmux for visible controlled sessions or xterm.js for headless sessions (a little slower), but everything is mediated by an actual Claude Code TUI. One example of a workflow I use now is having my current Claude Code interrogate older sessions for certain decisions it made: https://github.com/halfwhey/claudraband?tab=readme-ov-file#s... This project provides: - Resumable non-interact",
+    "published": "Sun, 12 Apr 2026 16:55:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "DIY Soft Drinks",
+    "link": "https://blinry.org/diy-soft-drinks/",
+    "description": "Article URL: https://blinry.org/diy-soft-drinks/ Comments URL: https://news.ycombinator.com/item?id=47741701 Points: 302 # Comments: 84",
+    "published": "Sun, 12 Apr 2026 16:38:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ask HN: What Are You Working On? (April 2026)",
+    "link": "https://news.ycombinator.com/item?id=47741527",
+    "description": "What are you working on? Any new ideas that you're thinking about? Comments URL: https://news.ycombinator.com/item?id=47741527 Points: 160 # Comments: 467",
+    "published": "Sun, 12 Apr 2026 16:24:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy",
+    "link": "https://arxiv.org/abs/2505.09509",
+    "description": "Article URL: https://arxiv.org/abs/2505.09509 Comments URL: https://news.ycombinator.com/item?id=47741460 Points: 77 # Comments: 21",
+    "published": "Sun, 12 Apr 2026 16:17:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Seven countries now generate 100% of their electricity from renewable energy",
+    "link": "https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html",
+    "description": "Article URL: https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html Comments URL: https://news.ycombinator.com/item?id=47739313 Points: 532 # Comments: 277",
+    "published": "Sun, 12 Apr 2026 13:21:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Pro Max 5x quota exhausted in 1.5 hours despite moderate usage",
+    "link": "https://github.com/anthropics/claude-code/issues/45756",
+    "description": "Article URL: https://github.com/anthropics/claude-code/issues/45756 Comments URL: https://news.ycombinator.com/item?id=47739260 Points: 554 # Comments: 508",
+    "published": "Sun, 12 Apr 2026 13:15:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+    "link": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+    "description": "Article URL: https://github.com/rochus-keller/OberonSystem3Native/releases Comments URL: https://news.ycombinator.com/item?id=47739174 Points: 173 # Comments: 36",
+    "published": "Sun, 12 Apr 2026 13:06:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "We have a 99% email reputation, but Gmail disagrees",
+    "link": "https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/",
+    "description": "Article URL: https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/ Comments URL: https://news.ycombinator.com/item?id=47738978 Points: 195 # Comments: 184",
+    "published": "Sun, 12 Apr 2026 12:42:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Tell HN: Docker pull fails in Spain due to football Cloudflare block",
+    "link": "https://news.ycombinator.com/item?id=47738883",
+    "description": "I just spent 1h+ debugging why my locally-hosted gitlab runner would fail to create pipelines. The gitlab job output would just display weird TLS errors when trying to pull a docker images. After debugging gitlab and the runner, I realized after a while I could not even run \"docker pull \" on my machine as root: > error pulling image configuration: download failed after attempts=6: tls: failed to verify certificate: x509: certificate is not valid for any names, but wanted to match docker-images-p",
+    "published": "Sun, 12 Apr 2026 12:28:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

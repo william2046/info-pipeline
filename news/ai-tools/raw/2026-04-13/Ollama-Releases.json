@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.20.6",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.6",
+    "description": "What's Changed Gemma 4 Tool Calling Improvements App bug fixes and improvements Parallel tool calling improvements Docs for Hermes Agent Full Changelog : v0.20.5...v0.20.6",
+    "published": "2026-04-13T00:38:07Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.6-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.6-rc1",
+    "description": "gemma4: be less strict about whitespace before bare keys ( #15494 )",
+    "published": "2026-04-11T23:30:27Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.6-rc0: gemma4: update renderer to match new jinja template (#15490)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.6-rc0",
+    "description": "gemma4: update renderer to match new jinja template Google has updated their jinja template for gemma4, and so this change gives us parity with the new template. The parsing also slightly changed upstream, so we make a small change to our parser as well. I've also corrected a few probably existing edge cases, especially around type unions. The upstream output format is weird (a stringified array), but in practice the models seem to understand it well. gemma4: special case simple AnyOf s The upst",
+    "published": "2026-04-10T22:45:27Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.5",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.5",
+    "description": "OpenClaw channel setup with Ollama Launch What's Changed OpenClaw channel setup: connect WhatsApp, Telegram, Discord, and other messaging channels through ollama launch openclaw Enable flash attention for Gemma 4 on compatible GPUs ollama launch openclaw now detects curl-based OpenCode installs at ~/.opencode/bin Fix /save command for models imported from safetensors New Contributors @sjhddh made their first contribution in #15424 Full Changelog : v0.20.4...v0.20.5",
+    "published": "2026-04-12T06:09:52Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.5-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.5-rc2",
+    "description": "launch: update openclaw channel message ( #15463 )",
+    "published": "2026-04-09T22:20:30Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.5-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.5-rc1",
+    "description": "launch: add re-run hint to dependency error message ( #15439 )",
+    "published": "2026-04-09T16:51:34Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.5-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.5-rc0",
+    "description": "fix: improve error message for unknown input item type in responses A…",
+    "published": "2026-04-09T00:41:12Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.4",
+    "description": "What's Changed mlx: Improve M5 performance with NAX gemma4: enable flash attention Full Changelog : v0.20.3...v0.20.4",
+    "published": "2026-04-08T18:40:03Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.4-rc2: gemma4: Disable FA on older GPUs where it doesn't work (#15403)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.4-rc2",
+    "description": "CUDA older than 7.5 lack the support to enable flash attention for the model.",
+    "published": "2026-04-07T21:54:25Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.4-rc1: gemma4: add missing file (#15394)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.4-rc1",
+    "description": "File accidentally omitted from #15378",
+    "published": "2026-04-07T16:18:01Z",
+    "source": "Ollama Releases"
+  }
+]
