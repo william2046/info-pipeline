@@ -1,0 +1,142 @@
+[
+  {
+    "title": "A new spam policy for \"back button hijacking\"",
+    "link": "https://developers.google.com/search/blog/2026/04/back-button-hijacking",
+    "description": "Article URL: https://developers.google.com/search/blog/2026/04/back-button-hijacking Comments URL: https://news.ycombinator.com/item?id=47760764 Points: 13 # Comments: 3",
+    "published": "Tue, 14 Apr 2026 03:06:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "DaVinci Resolve releases Photo Editor",
+    "link": "https://www.blackmagicdesign.com/products/davinciresolve/photo",
+    "description": "Article URL: https://www.blackmagicdesign.com/products/davinciresolve/photo Comments URL: https://news.ycombinator.com/item?id=47760529 Points: 68 # Comments: 12",
+    "published": "Tue, 14 Apr 2026 02:25:15 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Lean proved this program correct; then I found a bug",
+    "link": "https://kirancodes.me/posts/log-who-watches-the-watchers.html",
+    "description": "Article URL: https://kirancodes.me/posts/log-who-watches-the-watchers.html Comments URL: https://news.ycombinator.com/item?id=47759709 Points: 140 # Comments: 73",
+    "published": "Tue, 14 Apr 2026 00:25:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Why it’s impossible to measure England’s coastline",
+    "link": "https://www.bbc.com/travel/article/20260410-why-its-impossible-to-measure-englands-coastline",
+    "description": "https://www.researchgate.net/profile/Ion-Andronache/post/Wha... Comments URL: https://news.ycombinator.com/item?id=47759416 Points: 21 # Comments: 17",
+    "published": "Mon, 13 Apr 2026 23:44:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "SnapState - Persistent state for AI agent workflows",
+    "link": "https://snapstate.dev",
+    "description": "Article URL: https://snapstate.dev Comments URL: https://news.ycombinator.com/item?id=47759400 Points: 6 # Comments: 0",
+    "published": "Mon, 13 Apr 2026 23:42:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "WiiFin – Jellyfin Client for Nintendo Wii",
+    "link": "https://github.com/fabienmillet/WiiFin",
+    "description": "Article URL: https://github.com/fabienmillet/WiiFin Comments URL: https://news.ycombinator.com/item?id=47759341 Points: 86 # Comments: 32",
+    "published": "Mon, 13 Apr 2026 23:33:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The AI revolution in math has arrived",
+    "link": "https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/",
+    "description": "Article URL: https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/ Comments URL: https://news.ycombinator.com/item?id=47759292 Points: 38 # Comments: 20",
+    "published": "Mon, 13 Apr 2026 23:26:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "N-Day-Bench – Can LLMs find real vulnerabilities in real codebases?",
+    "link": "https://ndaybench.winfunc.com",
+    "description": "N-Day-Bench tests whether frontier LLMs can find known security vulnerabilities in real repository code. Each month it pulls fresh cases from GitHub security advisories, checks out the repo at the last commit before the patch, and gives models a sandboxed bash shell to explore the codebase. Static vulnerability discovery benchmarks become outdated quickly. Cases leak into training data, and scores start measuring memorization. The monthly refresh keeps the test set ahead of contamination — or at",
+    "published": "Mon, 13 Apr 2026 21:54:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "GitHub Stacked PRs",
+    "link": "https://github.github.com/gh-stack/",
+    "description": "Article URL: https://github.github.com/gh-stack/ Comments URL: https://news.ycombinator.com/item?id=47757495 Points: 509 # Comments: 281",
+    "published": "Mon, 13 Apr 2026 20:36:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ascending into the Realm of Japanese Charts",
+    "link": "https://www.chartography.net/p/ascending-into-the-realm-of-japanese",
+    "description": "Article URL: https://www.chartography.net/p/ascending-into-the-realm-of-japanese Comments URL: https://news.ycombinator.com/item?id=47757426 Points: 46 # Comments: 1",
+    "published": "Mon, 13 Apr 2026 20:29:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "GAIA – Open-source framework for building AI agents that run on local hardware",
+    "link": "https://amd-gaia.ai/docs",
+    "description": "Article URL: https://amd-gaia.ai/docs Comments URL: https://news.ycombinator.com/item?id=47756772 Points: 106 # Comments: 25",
+    "published": "Mon, 13 Apr 2026 19:28:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Ithihāsas – a character explorer for Hindu epics, built in a few hours",
+    "link": "https://www.ithihasas.in",
+    "description": "Hi HN! I’ve always found it hard to explore the Mahābhārata and Rāmāyaṇa online. Most content is either long-form or scattered, and understanding a character like Karna or Bhishma usually means opening multiple tabs. I built https://www.ithihasas.in/ to solve that. It is a simple character explorer that lets you navigate the epics through people and their relationships instead of reading everything linearly. This was also an experiment with Claude CLI. I was able to put together the first versio",
+    "published": "Mon, 13 Apr 2026 19:10:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "How to make Firefox builds 17% faster",
+    "link": "https://blog.farre.se/posts/2026/04/10/caching-webidl-codegen/",
+    "description": "Article URL: https://blog.farre.se/posts/2026/04/10/caching-webidl-codegen/ Comments URL: https://news.ycombinator.com/item?id=47756321 Points: 143 # Comments: 23",
+    "published": "Mon, 13 Apr 2026 18:50:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Visualizing CPU Pipelining (2024)",
+    "link": "https://timmastny.com/blog/visualizing-cpu-pipelining/",
+    "description": "Article URL: https://timmastny.com/blog/visualizing-cpu-pipelining/ Comments URL: https://news.ycombinator.com/item?id=47756036 Points: 68 # Comments: 9",
+    "published": "Mon, 13 Apr 2026 18:26:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Someone bought 30 WordPress plugins and planted a backdoor in all of them",
+    "link": "https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/",
+    "description": "Article URL: https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/ Comments URL: https://news.ycombinator.com/item?id=47755629 Points: 768 # Comments: 217",
+    "published": "Mon, 13 Apr 2026 17:54:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "New Orleans's Car-Crash Conspiracy",
+    "link": "https://www.newyorker.com/magazine/2026/04/20/the-car-crash-conspiracy",
+    "description": "Article URL: https://www.newyorker.com/magazine/2026/04/20/the-car-crash-conspiracy Comments URL: https://news.ycombinator.com/item?id=47755573 Points: 86 # Comments: 52",
+    "published": "Mon, 13 Apr 2026 17:50:56 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "B-trees and database indexes (2024)",
+    "link": "https://planetscale.com/blog/btrees-and-database-indexes",
+    "description": "Article URL: https://planetscale.com/blog/btrees-and-database-indexes Comments URL: https://news.ycombinator.com/item?id=47755209 Points: 93 # Comments: 38",
+    "published": "Mon, 13 Apr 2026 17:22:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Building a CLI for all of Cloudflare",
+    "link": "https://blog.cloudflare.com/cf-cli-local-explorer/",
+    "description": "Article URL: https://blog.cloudflare.com/cf-cli-local-explorer/ Comments URL: https://news.ycombinator.com/item?id=47753689 Points: 274 # Comments: 89",
+    "published": "Mon, 13 Apr 2026 15:44:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
+    "link": "https://github.com/sterlingcrispin/nothing-ever-happens",
+    "description": "Article URL: https://github.com/sterlingcrispin/nothing-ever-happens Comments URL: https://news.ycombinator.com/item?id=47753472 Points: 370 # Comments: 195",
+    "published": "Mon, 13 Apr 2026 15:31:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Make tmux pretty and usable (2024)",
+    "link": "https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/",
+    "description": "Article URL: https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/ Comments URL: https://news.ycombinator.com/item?id=47752819 Points: 328 # Comments: 209",
+    "published": "Mon, 13 Apr 2026 14:48:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

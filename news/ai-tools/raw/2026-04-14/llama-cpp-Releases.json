@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8783",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8783",
+    "description": "common/gemma4 : handle parsing edge cases ( #21760 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HI",
+    "published": "2026-04-14T00:12:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8781",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8781",
+    "description": "chat: dedicated DeepSeek v3.2 parser + \"official\" template ( #21785 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL",
+    "published": "2026-04-13T21:47:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8779",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8779",
+    "description": "vulkan: Flash Attention DP4A shader for quantized KV cache ( #20797 ) use integer dot product for quantized KV flash attention small improvements fix SHMEM_STAGING indexing add missing KV type quants fixes add supported quants to FA tests readd fast paths for <8bit quants fix mmq gate and shmem checks macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulk",
+    "published": "2026-04-13T15:29:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8778",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8778",
+    "description": "common : add download cancellation and temp file cleanup ( #21813 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA",
+    "published": "2026-04-13T13:02:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8777",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8777",
+    "description": "server: Expose build_info in router mode ( #21835 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP",
+    "published": "2026-04-13T12:04:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8776",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8776",
+    "description": "CUDA: Limit DeviceSegmentedSort to immediate mode ( #21718 ) CUDA: Limit DeviceSegmentedSort to immediate mode DeviceSegmentedSort is currently not capturable in a cuda graph. Hence, we have to go for the slower DeviceSegmentedRadixSort in that case. Perf numbers on RTX Pro 6000 Blackwell Max-Q: DeviceSegmentedRadixSort in graph mode (i.e. CUDA Graphs) ARGSORT(type=f32,ne=[2048,512,1,1],order=1): 12291 runs - 105.94 us/run - 8192 kB/run - 73.75 GB/s ARGSORT(type=f32,ne=[4096,512,1,1],order=1): 1",
+    "published": "2026-04-13T11:47:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8775",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8775",
+    "description": "mtmd: use causal attn for gemma 4 audio ( #21824 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP)",
+    "published": "2026-04-13T10:19:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8772",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8772",
+    "description": "Remove extra conditional check on debug mode. ( #21798 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64",
+    "published": "2026-04-13T05:04:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8771",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8771",
+    "description": "sycl: disable Q1_0 in backend and cleanup unused variables ( #21807 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL",
+    "published": "2026-04-13T02:45:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8770",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8770",
+    "description": "mtmd: fix crash when sending image under 2x2 pixels ( #21711 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windo",
+    "published": "2026-04-12T23:35:45Z",
+    "source": "llama.cpp Releases"
+  }
+]
