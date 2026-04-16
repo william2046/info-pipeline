@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Show HN: Hiraeth – AWS Emulator",
+    "link": "https://github.com/SethPyle376/hiraeth",
+    "description": "With the recent changes around Localstack pricing/licensing I've been hunting for alternatives. I decided that it might be a fun experiment to try rolling my own. SQS is a service I use heavily so I chose that as the first service to implement. I have more services planned and in development. A few things I think are cool: 4MB Docker Image Size Instant Startup AWS Sigv4 Authentication A little admin UI that can be helpful for development/troubleshooting Most of the SQS API implemented, the rest ",
+    "published": "Thu, 16 Apr 2026 02:28:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Stealth signals are bypassing Iran’s internet blackout",
+    "link": "https://spectrum.ieee.org/iran-internet-blackout-satellite-tv",
+    "description": "Article URL: https://spectrum.ieee.org/iran-internet-blackout-satellite-tv Comments URL: https://news.ycombinator.com/item?id=47787877 Points: 47 # Comments: 6",
+    "published": "Thu, 16 Apr 2026 02:16:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Arguing with Agents",
+    "link": "https://blowmage.com/2026/04/14/arguing-with-agents/",
+    "description": "Article URL: https://blowmage.com/2026/04/14/arguing-with-agents/ Comments URL: https://news.ycombinator.com/item?id=47787854 Points: 50 # Comments: 28",
+    "published": "Thu, 16 Apr 2026 02:13:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A Better Ludum Dare; Or, How to Ruin a Legacy",
+    "link": "https://ldjam.com/events/ludum-dare/59/$425291/$425292",
+    "description": "Article URL: https://ldjam.com/events/ludum-dare/59/$425291/$425292 Comments URL: https://news.ycombinator.com/item?id=47787587 Points: 27 # Comments: 1",
+    "published": "Thu, 16 Apr 2026 01:25:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Agent - Native Mac OS X coding ide/harness",
+    "link": "https://github.com/macOS26/Agent",
+    "description": "Article URL: https://github.com/macOS26/Agent Comments URL: https://news.ycombinator.com/item?id=47787127 Points: 12 # Comments: 2",
+    "published": "Thu, 16 Apr 2026 00:19:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "YouTube users get option to set their Shorts time limit to zero minutes",
+    "link": "https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes",
+    "description": "Article URL: https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes Comments URL: https://news.ycombinator.com/item?id=47786791 Points: 240 # Comments: 103",
+    "published": "Wed, 15 Apr 2026 23:36:56 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I made a terminal pager",
+    "link": "https://theleo.zone/posts/pager/",
+    "description": "Article URL: https://theleo.zone/posts/pager/ Comments URL: https://news.ycombinator.com/item?id=47786164 Points: 84 # Comments: 20",
+    "published": "Wed, 15 Apr 2026 22:27:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ohio prison inmates 'built computers and hid them in ceiling' (2017)",
+    "link": "https://www.bbc.com/news/technology-39576394",
+    "description": "Article URL: https://www.bbc.com/news/technology-39576394 Comments URL: https://news.ycombinator.com/item?id=47785948 Points: 87 # Comments: 77",
+    "published": "Wed, 15 Apr 2026 22:05:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The buns in McDonald's Japan's burger photos are all slightly askew",
+    "link": "https://www.mcdonalds.co.jp/en/menu/burger/",
+    "description": "Article URL: https://www.mcdonalds.co.jp/en/menu/burger/ Comments URL: https://news.ycombinator.com/item?id=47785738 Points: 268 # Comments: 147",
+    "published": "Wed, 15 Apr 2026 21:48:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Hacker News CLI (2014)",
+    "link": "https://pythonhosted.org/hackernews-cli/commands.html",
+    "description": "Article URL: https://pythonhosted.org/hackernews-cli/commands.html Comments URL: https://news.ycombinator.com/item?id=47785582 Points: 39 # Comments: 16",
+    "published": "Wed, 15 Apr 2026 21:35:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "ChatGPT for Excel",
+    "link": "https://chatgpt.com/apps/spreadsheets/",
+    "description": "Article URL: https://chatgpt.com/apps/spreadsheets/ Comments URL: https://news.ycombinator.com/item?id=47785397 Points: 119 # Comments: 96",
+    "published": "Wed, 15 Apr 2026 21:21:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "PiCore - Raspberry Pi Port of Tiny Core Linux",
+    "link": "http://tinycorelinux.net/5.x/armv6/releases/README",
+    "description": "Article URL: http://tinycorelinux.net/5.x/armv6/releases/README Comments URL: https://news.ycombinator.com/item?id=47784244 Points: 90 # Comments: 12",
+    "published": "Wed, 15 Apr 2026 19:45:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ask HN: Who is using OpenClaw?",
+    "link": "https://news.ycombinator.com/item?id=47783940",
+    "description": "I don't use it personally, and neither does anyone in my circle...even though I feel like I'm super plugged into the ai world Comments URL: https://news.ycombinator.com/item?id=47783940 Points: 240 # Comments: 289",
+    "published": "Wed, 15 Apr 2026 19:22:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Live Nation illegally monopolized ticketing market, jury finds",
+    "link": "https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds",
+    "description": "https://www.nytimes.com/2026/04/15/arts/music/live-nation-an... , https://archive.ph/KA1wV https://www.theverge.com/policy/912689/live-nation-ticketmas... Comments URL: https://news.ycombinator.com/item?id=47783713 Points: 459 # Comments: 130",
+    "published": "Wed, 15 Apr 2026 19:06:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Google broke its promise to me – now ICE has my data",
+    "link": "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data",
+    "description": "Article URL: https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data Comments URL: https://news.ycombinator.com/item?id=47782570 Points: 1236 # Comments: 544",
+    "published": "Wed, 15 Apr 2026 17:44:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Gemini app is now on Mac",
+    "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
+    "description": "Article URL: https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/ Comments URL: https://news.ycombinator.com/item?id=47782256 Points: 104 # Comments: 51",
+    "published": "Wed, 15 Apr 2026 17:25:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Adaptional (YC S25) is hiring AI engineers",
+    "link": "https://www.ycombinator.com/companies/adaptional/jobs/k7W6ge9-founding-engineer",
+    "description": "Article URL: https://www.ycombinator.com/companies/adaptional/jobs/k7W6ge9-founding-engineer Comments URL: https://news.ycombinator.com/item?id=47781912 Points: 0 # Comments: 0",
+    "published": "Wed, 15 Apr 2026 17:00:56 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "CRISPR takes important step toward silencing Down syndrome’s extra chromosome",
+    "link": "https://medicalxpress.com/news/2026-04-crispr-bold-silencing-syndrome-extra.html",
+    "description": "Article URL: https://medicalxpress.com/news/2026-04-crispr-bold-silencing-syndrome-extra.html Comments URL: https://news.ycombinator.com/item?id=47781286 Points: 96 # Comments: 57",
+    "published": "Wed, 15 Apr 2026 16:19:48 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Cal.com is going closed source",
+    "link": "https://cal.com/blog/cal-com-goes-closed-source-why",
+    "description": "Article URL: https://cal.com/blog/cal-com-goes-closed-source-why Comments URL: https://news.ycombinator.com/item?id=47780456 Points: 241 # Comments: 180",
+    "published": "Wed, 15 Apr 2026 15:26:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "US v. Heppner (S.D.N.Y. 2026) no attorney-client privilege for AI chats [pdf]",
+    "link": "https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf",
+    "description": "Article URL: https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf Comments URL: https://news.ycombinator.com/item?id=47778920 Points: 99 # Comments: 83",
+    "published": "Wed, 15 Apr 2026 13:47:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
