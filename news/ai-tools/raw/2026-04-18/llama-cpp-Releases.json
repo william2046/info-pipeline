@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8833",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8833",
+    "description": "ggml-webgpu: fix compiler warnings and refactor FlashAttention encoding ( #21052 ) Update workflows to remove dependence on llvmpipe Try setting Dawn_DIR remove c++20 initializers Move to proper guid Try avoiding segfaults on vulkan backend process exit Remove compiler warnings on parameter casting Fix soft_max and update reg_tile accumulation to f32 for better precision Refactor flash_attn a bit remove c++20 initializers and format Increase div precision for NVIDIA revert div precision and comm",
+    "published": "2026-04-17T18:37:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8832",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8832",
+    "description": "CUDA: use LRU based eviction for cuda graphs ( #21611 ) CUDA: use a ring-buffer for cuda graphs bump limit to 128 use LRU eviction better naming do periodic clean-up macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm",
+    "published": "2026-04-17T18:21:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8831",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8831",
+    "description": "ci : add android arm64 build and release ( #21647 ) server: respect the ignore eos flag ci: add android arm64 build and release patch pin android-setup actions to v4 Apply suggestions from code review Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com lf in the suggestion Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 ",
+    "published": "2026-04-17T13:27:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8830",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8830",
+    "description": "mtmd: add missing struct tag ( #22023 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler:",
+    "published": "2026-04-17T12:57:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8829",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8829",
+    "description": "libs : rename libcommon -> libllama-common ( #21936 ) cmake : allow libcommon to be shared cmake : rename libcommon to libllama-common cont : set -fPIC for httplib cont : export all symbols cont : fix build_info exports libs : add libllama-common-base log : add common_log_get_verbosity_thold() macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubun",
+    "published": "2026-04-17T12:27:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8828",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8828",
+    "description": "model : Gemma4 model type detection ( #22027 ) model : Gemma4 model type detection model : Gemma4 model type detection macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA",
+    "published": "2026-04-17T11:55:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8827",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8827",
+    "description": "opencl: refactor q8_0 set_tensor and mul_mat host side dispatch for Adreno ( #21938 ) opencl: refactor q8_0 gemm/gemv Adreno dispatch opencl: refactor q8_0 set_tensor opencl: fix whitespace macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (C",
+    "published": "2026-04-17T06:43:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8826",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8826",
+    "description": "cli : use get_media_marker ( #22017 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64 (HIP) openEuler: o",
+    "published": "2026-04-17T02:37:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8825",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8825",
+    "description": "cmake: use glob to collect src/models sources ( #22005 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Windows x64",
+    "published": "2026-04-17T02:01:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8824",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8824",
+    "description": "hexagon: optimize HMX matmul operations ( #21071 ) optimize hmx_mat_mul functions by calculating row and column tiles upfront refactor core_dot_chunk_fp16 to use size_t for tile counts and improve readability wip set scale outside of loop wip refactor core_mma_chunk_fp16 and mat_mul_qk_0_d16a32 to use size_t for tile counts wip wip refactor transfer_output_chunk_fp16_to_fp32 to use size_t for dimensions refactor core_dot_chunk_fp16 to use size_t for tile row stride calculation wip refactor hmx_m",
+    "published": "2026-04-17T01:22:18Z",
+    "source": "llama.cpp Releases"
+  }
+]
