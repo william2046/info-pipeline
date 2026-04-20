@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Claude Token Counter, now with model comparisons",
+    "link": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
+    "description": "Article URL: https://simonwillison.net/2026/Apr/20/claude-token-counts/ Comments URL: https://news.ycombinator.com/item?id=47829178 Points: 17 # Comments: 3",
+    "published": "Mon, 20 Apr 2026 00:56:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: A lightweight way to make agents talk without paying for API usage",
+    "link": "https://juanpabloaj.com/2026/04/16/a-lightweight-way-to-make-agents-talk-without-paying-for-api-usage/",
+    "description": "Article URL: https://juanpabloaj.com/2026/04/16/a-lightweight-way-to-make-agents-talk-without-paying-for-api-usage/ Comments URL: https://news.ycombinator.com/item?id=47828968 Points: 16 # Comments: 4",
+    "published": "Mon, 20 Apr 2026 00:21:24 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: TRELLIS.2 image-to-3D running on Mac Silicon – no Nvidia GPU needed",
+    "link": "https://github.com/shivampkumar/trellis-mac",
+    "description": "I ported Microsoft's TRELLIS.2 (4B parameter image-to-3D model) to run on Apple Silicon via PyTorch MPS. The original requires CUDA with flash_attn, nvdiffrast, and custom sparse convolution kernels: none of which work on Mac. I replaced the CUDA-specific ops with pure-PyTorch alternatives: a gather-scatter sparse 3D convolution, SDPA attention for sparse transformers, and a Python-based mesh extraction replacing CUDA hashmap operations. Total changes are a few hundred lines across 9 files. Gene",
+    "published": "Mon, 20 Apr 2026 00:07:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Sudo for Windows",
+    "link": "https://github.com/microsoft/sudo",
+    "description": "Article URL: https://github.com/microsoft/sudo Comments URL: https://news.ycombinator.com/item?id=47828853 Points: 23 # Comments: 5",
+    "published": "Sun, 19 Apr 2026 23:59:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Swiss AI Initiative (2023)",
+    "link": "https://www.swiss-ai.org",
+    "description": "Article URL: https://www.swiss-ai.org Comments URL: https://news.ycombinator.com/item?id=47828444 Points: 30 # Comments: 8",
+    "published": "Sun, 19 Apr 2026 22:58:35 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "2,100 Swiss municipalities showing which provider handles their official email",
+    "link": "https://mxmap.ch/",
+    "description": "Related ongoing thread: Swiss authorities want to reduce dependency on Microsoft - https://news.ycombinator.com/item?id=47827383 Comments URL: https://news.ycombinator.com/item?id=47828420 Points: 92 # Comments: 24",
+    "published": "Sun, 19 Apr 2026 22:55:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Stop trying to engineer your way out of listening to people",
+    "link": "https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/",
+    "description": "Article URL: https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/ Comments URL: https://news.ycombinator.com/item?id=47827259 Points: 65 # Comments: 10",
+    "published": "Sun, 19 Apr 2026 20:09:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I wrote a CHIP-8 emulator in my own programming language",
+    "link": "https://github.com/navid-m/chip8emu",
+    "description": "Article URL: https://github.com/navid-m/chip8emu Comments URL: https://news.ycombinator.com/item?id=47826852 Points: 53 # Comments: 13",
+    "published": "Sun, 19 Apr 2026 19:21:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Scientific datasets are riddled with copy-paste errors",
+    "link": "https://www.sciencedetective.org/scientific-datasets-are-riddled-with-copy-paste-errors/",
+    "description": "Article URL: https://www.sciencedetective.org/scientific-datasets-are-riddled-with-copy-paste-errors/ Comments URL: https://news.ycombinator.com/item?id=47826834 Points: 52 # Comments: 8",
+    "published": "Sun, 19 Apr 2026 19:18:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Six Levels of Dark Mode (2024)",
+    "link": "https://cssence.com/2024/six-levels-of-dark-mode/",
+    "description": "Article URL: https://cssence.com/2024/six-levels-of-dark-mode/ Comments URL: https://news.ycombinator.com/item?id=47826502 Points: 60 # Comments: 26",
+    "published": "Sun, 19 Apr 2026 18:36:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Faceoff – A terminal UI for following NHL games",
+    "link": "https://www.vincentgregoire.com/faceoff/",
+    "description": "Faceoff is a TUI app written in Python to follow live NHL games and browse standings and stats. I got the inspiration from Playball, a similar TUI app for MLB games that was featured on HN. The app was mostly vibe-coded with Claude Code, but not one-shot. I added features and fixed bugs by using it, as I spent way too much time in the terminal over the last few months. Try it out with `uvx faceoff` (requires uv). Comments URL: https://news.ycombinator.com/item?id=47826104 Points: 106 # Comments:",
+    "published": "Sun, 19 Apr 2026 17:44:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Bromine Chokepoint",
+    "link": "https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/",
+    "description": "Article URL: https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/ Comments URL: https://news.ycombinator.com/item?id=47826100 Points: 173 # Comments: 78",
+    "published": "Sun, 19 Apr 2026 17:44:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Turtle WoW classic server announces shutdown after Blizzard wins injunction",
+    "link": "https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/",
+    "description": "Article URL: https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/ Comments URL: https://news.ycombinator.com/item?id=47825160 Points: 155 # Comments: 124",
+    "published": "Sun, 19 Apr 2026 15:48:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Notion leaks email addresses of all editors of any public page",
+    "link": "https://twitter.com/weezerOSINT/status/2045849358462222720",
+    "description": "Article URL: https://twitter.com/weezerOSINT/status/2045849358462222720 Comments URL: https://news.ycombinator.com/item?id=47824945 Points: 340 # Comments: 120",
+    "published": "Sun, 19 Apr 2026 15:20:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Vercel April 2026 security incident",
+    "link": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+    "description": "https://vercel.com/kb/bulletin/vercel-april-2026-security-in... Comments URL: https://news.ycombinator.com/item?id=47824463 Points: 603 # Comments: 340",
+    "published": "Sun, 19 Apr 2026 14:14:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+    "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+    "description": "Article URL: https://simonwillison.net/2026/Apr/18/opus-system-prompt/ Comments URL: https://news.ycombinator.com/item?id=47823270 Points: 248 # Comments: 145",
+    "published": "Sun, 19 Apr 2026 10:36:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "SPEAKE(a)R: Turn Speakers to Microphones for Fun and Profit [pdf] (2017)",
+    "link": "https://www.usenix.org/system/files/conference/woot17/woot17-paper-guri.pdf",
+    "description": "Article URL: https://www.usenix.org/system/files/conference/woot17/woot17-paper-guri.pdf Comments URL: https://news.ycombinator.com/item?id=47822805 Points: 168 # Comments: 68",
+    "published": "Sun, 19 Apr 2026 08:45:48 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A Brief History of Fish Sauce",
+    "link": "https://www.legalnomads.com/fish-sauce/",
+    "description": "Article URL: https://www.legalnomads.com/fish-sauce/ Comments URL: https://news.ycombinator.com/item?id=47822734 Points: 114 # Comments: 51",
+    "published": "Sun, 19 Apr 2026 08:32:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The seven programming ur-languages (2022)",
+    "link": "https://madhadron.com/programming/seven_ur_languages.html",
+    "description": "Article URL: https://madhadron.com/programming/seven_ur_languages.html Comments URL: https://news.ycombinator.com/item?id=47822486 Points: 306 # Comments: 117",
+    "published": "Sun, 19 Apr 2026 07:38:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The RAM shortage could last years",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years",
+    "description": "Article URL: https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years Comments URL: https://news.ycombinator.com/item?id=47822414 Points: 230 # Comments: 245",
+    "published": "Sun, 19 Apr 2026 07:18:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

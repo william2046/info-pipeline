@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.21.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.0",
+    "description": "Hermes Agent ollama launch hermes Hermes learns with you, automatically creating skills to better serve your workflows. Great for research and engineering tasks. What's Changed Gemma 4 on MLX. Added support for running Gemma 4 via MLX on Apple Silicon, including a text-only MLX runtime for the model. The MLX backend also picked up mixed-precision quantization, better capability detection, and a batch of new op wrappers (Conv2d, Pad, activations, trig, masked SDPA, and RoPE-with-freqs). Hermes an",
+    "published": "2026-04-18T01:30:26Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.0-rc1",
+    "description": "cmd/launch: show WSL guidance on Windows instead of handing off ( #15637 )",
+    "published": "2026-04-17T00:18:04Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.0-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.0-rc0",
+    "description": "mlx: fix gemma4 cache to use logical view ( #15617 )",
+    "published": "2026-04-16T18:54:30Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.8",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.8-rc0",
+    "description": "What's Changed ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in #15483 gemma4: fix nothink case renderer by @drifkin in #15553 gemma4: fix compiler error on metal by @dhiltgen in #15550 gemma4: add nothink renderer tests by @drifkin in #15554 mlx: mixed-precision quant and capability detection improvements by @dhiltgen in #15409 mlx: add op wrappers for Conv2d, Pad, activations, trig, and masked SDPA by @dhiltgen in #14913 Revert \"gemma4: add nothink renderer tests\" by @drifkin in #15555 cgo",
+    "published": "2026-04-14T00:35:30Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.7",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.7",
+    "description": "What's Changed Fix quality of gemma:e2b and gemma:e4b when thinking is disabled ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in #15483 Full Changelog : v0.20.6...v0.20.7",
+    "published": "2026-04-14T01:40:41Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.7-rc1: Merge pull request #15561 from ollama/drifkin/backport",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.7-rc1",
+    "description": "backport gemma4 renderer changes",
+    "published": "2026-04-13T22:17:26Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.7-rc0: gemma4: add nothink renderer tests (#15554)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.7-rc0",
+    "description": "Meant to include in #15553",
+    "published": "2026-04-13T18:38:19Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.6",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.6",
+    "description": "What's Changed Gemma 4 tool calling ability is improved and updated to use Google's latest post-launch fixes Parallel tool calling improved for streaming responses Hermes agent Ollama integration guide is now available Ollama app is updated to fix image attachment errors New Contributors @matteocelani made their first contribution in #15272 Full Changelog : v0.20.5...v0.20.6",
+    "published": "2026-04-13T06:03:12Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.6-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.6-rc1",
+    "description": "gemma4: be less strict about whitespace before bare keys ( #15494 )",
+    "published": "2026-04-11T23:30:27Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.6-rc0: gemma4: update renderer to match new jinja template (#15490)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.6-rc0",
+    "description": "gemma4: update renderer to match new jinja template Google has updated their jinja template for gemma4, and so this change gives us parity with the new template. The parsing also slightly changed upstream, so we make a small change to our parser as well. I've also corrected a few probably existing edge cases, especially around type unions. The upstream output format is weird (a stringified array), but in practice the models seem to understand it well. gemma4: special case simple AnyOf s The upst",
+    "published": "2026-04-10T22:45:27Z",
+    "source": "Ollama Releases"
+  }
+]
