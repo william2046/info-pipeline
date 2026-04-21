@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8863",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8863",
+    "description": "ggml-cuda: flush legacy pool on OOM and retry ( #22155 ) ggml-cuda: flush legacy pool on OOM and retry Signed-off-by: 梁厚宏 2695316095@qq.com Address review comments: add explicit sync, update destructor, clean up MUSA macros Signed-off-by: 梁厚宏 2695316095@qq.com Signed-off-by: 梁厚宏 2695316095@qq.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) U",
+    "published": "2026-04-20T23:55:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8862",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8862",
+    "description": "mtmd: correct get_n_pos / get_decoder_pos ( #22175 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windo",
+    "published": "2026-04-20T23:25:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8861",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8861",
+    "description": "server : remove /api endpoints ( #22165 ) server : remove /api endpoints cont : remove /api/tags macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13)",
+    "published": "2026-04-20T21:29:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8860",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8860",
+    "description": "Tensor-parallel: Fix delayed AllReduce on Gemma-4 MoE ( #22129 ) Fix delayed AllReduce on Gemma-4 MoE Skip forward past nodes that don't consume the current one, and allow a chain of MULs. Check for all sources before skipping nodes Address review comments macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2",
+    "published": "2026-04-20T21:31:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8859",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8859",
+    "description": "TP: fix 0-sized tensor slices, AllReduce fallback ( #21808 ) TP: fix 0-sized tensor slices, AllReduce fallback fix layer structure <-> GPU count aliasing add missing std::fill fix CUDA device set, max ggml ctx size macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android a",
+    "published": "2026-04-20T21:24:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8858",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8858",
+    "description": "ggml-cpu: Optimized x86 and generic cpu q1_0 dot (follow up) ( #21636 ) Implemented optimized q1_0 dot for x86 and generic Removed redundant helper definition Removed two redundant instructions from AVX q1_0 dot Fixed inconsistency with fp16 conversion for generic q1_0 dot and deduplicated generic fallback Style cleanup around AVX q1_0 dot Replaced explicitly unrolled blocks with inner for loop for q1_0 Replaced scalar ARM q1_0 impl with new generic one macOS/iOS: macOS Apple Silicon (arm64) mac",
+    "published": "2026-04-20T21:05:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8857",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8857",
+    "description": "ggml-webgpu: updated matrix-vector multiplication ( #21738 ) merged properly, but slow q3_k and q5_k with u32 indexing Start on new mat-vec New format float paths working Working q4_0 Work on remaining legacy q-types port k-quants to new matvec remove old shader Remove old constants, format remove accidental file Co-authored-by: Neha Abbas nehaabbas@ReeseLevines-MacBook-Pro.local Co-authored-by: Reese Levine reeselevine1@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64",
+    "published": "2026-04-20T19:21:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8855",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8855",
+    "description": "fix: GLM-DSA crash in llama-tokenize when using vocab_only ( #22102 ) llama: fix crash in print_info for GLM-DSA when vocab_only is set addressed code review comments cont : simplify Co-authored-by: Georgi Gerganov ggerganov@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO",
+    "published": "2026-04-20T12:58:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8854",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8854",
+    "description": "server : refactor \"use checkpoint\" logic ( #22114 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Window",
+    "published": "2026-04-20T11:31:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8853",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8853",
+    "description": "[SYCL] Fix reorder MMVQ assert on unaligned vocab sizes ( #22035 ) [SYCL] Fix reorder MMVQ assert on unaligned vocab sizes The reorder mul_mat_vec_q dispatchers for Q4_0, Q8_0, Q4_K, and Q6_K asserted that block_num_y was a multiple of 16 subgroups. Models with a vocab size not divisible by 16 (for example HY-MT at 120818) aborted on model load when the output projection tripped the assert. I replaced the assert with padding: block_num_y now rounds up to a whole number of subgroup-sized workgrou",
+    "published": "2026-04-20T12:12:03Z",
+    "source": "llama.cpp Releases"
+  }
+]
