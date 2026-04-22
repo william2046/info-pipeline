@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8881",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8881",
+    "description": "hexagon: add support for FILL op ( #22198 ) Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13",
+    "published": "2026-04-22T02:46:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8880",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8880",
+    "description": "ggml-webgpu: reset CPU/GPU profiling time when freeing context ( #22050 ) Reset the CPU/GPU profiling time when freeing context. move GPU profiling time from global context to webgpu_context. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Win",
+    "published": "2026-04-22T02:33:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8878",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8878",
+    "description": "Hexagon: DAIG op ( #22195 ) hexagon: Add DIAG op hexagon: add HVX support and DMA double buffering hexagon: fix fatal error hexagon: remove as many pragma(s) as possible macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows",
+    "published": "2026-04-22T01:26:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8876",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8876",
+    "description": "spec : reset i_last when low acceptance streak occurs ( #22168 ) By resetting i_last to zero, we will include the current context when rebuilding the speculative map. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows ar",
+    "published": "2026-04-22T00:53:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8875",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8875",
+    "description": "mtmd: Add support for Reka Edge 2603 ( #21616 ) feat: (vocab) fix stray text appended in llama_decode_text Remove accidental concatenation of the full text string when formatting UNK_BYTE hex escapes. Only the closing \"]\" should be appended. feat(mtmd): add Yasa2 vision encoder support Add a Yasa2 (ConvNeXtV2-based) vision encoder for reka-edge: Register PROJECTOR_TYPE_YASA2 and tensor name definitions Add yasa2_block/yasa2_stage model structs Implement graph builder with ConvNeXt stages, GRN, a",
+    "published": "2026-04-21T23:31:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8874",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8874",
+    "description": "arg : add --spec-default ( #22223 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) Win",
+    "published": "2026-04-21T23:24:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8873",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8873",
+    "description": "openvino: driver setup, CI split, thread safety, and NPU optimizations ( #21944 ) Thread safety per request only Fix ROPE yarn case Fix sticky stateful config Use i4/i8 directly for symmetric quant Use weightless caching Add WeightlessCacheAttribute to reduce NPU memory usage Gelu tanh support ( #125 ) Imrope support ( #126 ) fix(openvino): explicit ov::Tensor frees in ggml_backend_openvino_free add GPU,NPU support in OV Dockerfile add build-openvino.yml ci Fix sticky stateful config add concurr",
+    "published": "2026-04-21T22:56:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8872",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8872",
+    "description": "vendor : update cpp-httplib to 0.43.1 ( #22143 ) vendor : update cpp-httplib to 0.43.0 vendor : update cpp-httplib to 0.43.0 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.",
+    "published": "2026-04-21T22:26:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8871",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8871",
+    "description": "metal : workaround macOS GPU interactivity watchdog ( #22216 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vul",
+    "published": "2026-04-21T20:19:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8870",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8870",
+    "description": "vulkan: Support F16 OP_FILL ( #22177 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) ",
+    "published": "2026-04-21T14:45:14Z",
+    "source": "llama.cpp Releases"
+  }
+]
