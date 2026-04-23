@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Borrow-checking without type-checking",
+    "link": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/",
+    "description": "Article URL: https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/ Comments URL: https://news.ycombinator.com/item?id=47871817 Points: 11 # Comments: 0",
+    "published": "Thu, 23 Apr 2026 02:55:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Flow Map Learning via Nongradient Vector Flow [pdf]",
+    "link": "https://openreview.net/pdf?id=C1bkDPqvDW",
+    "description": "Article URL: https://openreview.net/pdf?id=C1bkDPqvDW Comments URL: https://news.ycombinator.com/item?id=47871800 Points: 5 # Comments: 0",
+    "published": "Thu, 23 Apr 2026 02:52:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Tempest vs. Tempest: The Making and Remaking of Atari's Iconic Video Game",
+    "link": "https://tempest.homemade.systems",
+    "description": "Article URL: https://tempest.homemade.systems Comments URL: https://news.ycombinator.com/item?id=47871195 Points: 34 # Comments: 11",
+    "published": "Thu, 23 Apr 2026 01:02:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenAI's response to the Axios developer tool compromise",
+    "link": "https://openai.com/index/axios-developer-tool-compromise/",
+    "description": "Article URL: https://openai.com/index/axios-developer-tool-compromise/ Comments URL: https://news.ycombinator.com/item?id=47871077 Points: 39 # Comments: 13",
+    "published": "Thu, 23 Apr 2026 00:45:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Approximating Hyperbolic Tangent",
+    "link": "https://jtomschroeder.com/blog/approximating-tanh/",
+    "description": "Article URL: https://jtomschroeder.com/blog/approximating-tanh/ Comments URL: https://news.ycombinator.com/item?id=47870709 Points: 32 # Comments: 4",
+    "published": "Wed, 22 Apr 2026 23:46:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Bring your own Agent to MS Teams",
+    "link": "https://microsoft.github.io/teams-sdk/blog/bring-your-agent-to-teams/",
+    "description": "Article URL: https://microsoft.github.io/teams-sdk/blog/bring-your-agent-to-teams/ Comments URL: https://news.ycombinator.com/item?id=47870108 Points: 29 # Comments: 14",
+    "published": "Wed, 22 Apr 2026 22:25:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Neon King of New Orleans",
+    "link": "https://gardenandgun.com/new-orleans-neon-king",
+    "description": "Article URL: https://gardenandgun.com/new-orleans-neon-king Comments URL: https://news.ycombinator.com/item?id=47869496 Points: 44 # Comments: 6",
+    "published": "Wed, 22 Apr 2026 21:26:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Apple fixes bug that cops used to extract deleted chat messages from iPhones",
+    "link": "https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/",
+    "description": "Article URL: https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/ Comments URL: https://news.ycombinator.com/item?id=47868867 Points: 443 # Comments: 110",
+    "published": "Wed, 22 Apr 2026 20:27:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Illuminated Man: an unconventional portrait of JG Ballard",
+    "link": "https://www.theguardian.com/books/2026/apr/20/the-illuminated-man-by-christopher-priest-and-nina-allan-review-an-unconventional-portrait-of-jg-ballard",
+    "description": "Article URL: https://www.theguardian.com/books/2026/apr/20/the-illuminated-man-by-christopher-priest-and-nina-allan-review-an-unconventional-portrait-of-jg-ballard Comments URL: https://news.ycombinator.com/item?id=47868832 Points: 51 # Comments: 17",
+    "published": "Wed, 22 Apr 2026 20:24:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "New study compares growing corn for energy to solar production",
+    "link": "https://www.anthropocenemagazine.org/2025/04/new-study-compares-growing-corn-for-energy-to-solar-production-its-no-contest/",
+    "description": "Article URL: https://www.anthropocenemagazine.org/2025/04/new-study-compares-growing-corn-for-energy-to-solar-production-its-no-contest/ Comments URL: https://news.ycombinator.com/item?id=47868063 Points: 78 # Comments: 126",
+    "published": "Wed, 22 Apr 2026 19:21:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Website streamed live directly from a model",
+    "link": "https://flipbook.page/",
+    "description": "https://x.com/zan2434/status/2046982383430496444 ( https://xcancel.com/zan2434/status/2046982383430496444 ) Comments URL: https://news.ycombinator.com/item?id=47867048 Points: 195 # Comments: 63",
+    "published": "Wed, 22 Apr 2026 18:01:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Over-editing refers to a model modifying code beyond what is necessary",
+    "link": "https://nrehiew.github.io/blog/minimal_editing/",
+    "description": "Article URL: https://nrehiew.github.io/blog/minimal_editing/ Comments URL: https://news.ycombinator.com/item?id=47866913 Points: 319 # Comments: 180",
+    "published": "Wed, 22 Apr 2026 17:51:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Workspace Agents in ChatGPT",
+    "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+    "description": "Article URL: https://openai.com/index/introducing-workspace-agents-in-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=47866860 Points: 117 # Comments: 45",
+    "published": "Wed, 22 Apr 2026 17:47:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Parallel agents in Zed",
+    "link": "https://zed.dev/blog/parallel-agents",
+    "description": "Article URL: https://zed.dev/blog/parallel-agents Comments URL: https://news.ycombinator.com/item?id=47866750 Points: 191 # Comments: 107",
+    "published": "Wed, 22 Apr 2026 17:38:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "We found a stable Firefox identifier linking all your private Tor identities",
+    "link": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
+    "description": "Article URL: https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/ Comments URL: https://news.ycombinator.com/item?id=47866697 Points: 511 # Comments: 152",
+    "published": "Wed, 22 Apr 2026 17:35:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Alberta startup sells no-tech tractors for half price",
+    "link": "https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/",
+    "description": "Article URL: https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/ Comments URL: https://news.ycombinator.com/item?id=47865868 Points: 1467 # Comments: 500",
+    "published": "Wed, 22 Apr 2026 16:29:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Technical, cognitive, and intent debt",
+    "link": "https://martinfowler.com/fragments/2026-04-02.html",
+    "description": "Article URL: https://martinfowler.com/fragments/2026-04-02.html Comments URL: https://news.ycombinator.com/item?id=47865661 Points: 223 # Comments: 56",
+    "published": "Wed, 22 Apr 2026 16:11:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ping-pong robot beats top-level human players",
+    "link": "https://www.reuters.com/sports/ping-pong-robot-ace-makes-history-by-beating-top-level-human-players-2026-04-22/",
+    "description": "Article URL: https://www.reuters.com/sports/ping-pong-robot-ace-makes-history-by-beating-top-level-human-players-2026-04-22/ Comments URL: https://news.ycombinator.com/item?id=47864785 Points: 89 # Comments: 94",
+    "published": "Wed, 22 Apr 2026 15:13:48 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Scoring Show HN submissions for AI design patterns",
+    "link": "https://www.adriankrebs.ch/blog/design-slop/",
+    "description": "Article URL: https://www.adriankrebs.ch/blog/design-slop/ Comments URL: https://news.ycombinator.com/item?id=47864393 Points: 289 # Comments: 211",
+    "published": "Wed, 22 Apr 2026 14:44:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The handmade beauty of Machine Age data visualizations",
+    "link": "https://resobscura.substack.com/p/the-handmade-beauty-of-machine-age",
+    "description": "Article URL: https://resobscura.substack.com/p/the-handmade-beauty-of-machine-age Comments URL: https://news.ycombinator.com/item?id=47864011 Points: 19 # Comments: 1",
+    "published": "Wed, 22 Apr 2026 14:15:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

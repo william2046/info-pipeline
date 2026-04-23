@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8893",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8893",
+    "description": "HIP: flip GGML_HIP_GRAPHS to default on ( #22254 ) In #11362 hip graph was disabled by default as, at the time, its performance impact was negative. Due to improvements in rocm and our usage and construction of graphs this is no longer true, so lets change the default. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
+    "published": "2026-04-23T02:38:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8892",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8892",
+    "description": "[WebGPU] Implement async tensor api and event api ( #22099 ) Only run webgpu CI on my fork Implement set_tensor_async Implement synchronize api Implement event creation and deletion API Cleanup Cleanup Comment out jobs for local CI run Add webgpu only workflow Delete .github/workflows/build-webgpu.yml Cleanup Cleanup Update API with function handlers Run clang-format Replace one-shot buffer with a direct queue.WriteBuffer using the buffer context macOS/iOS: macOS Apple Silicon (arm64) macOS Appl",
+    "published": "2026-04-22T22:43:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8891",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8891",
+    "description": "ggml-webgpu: Add fused RMS_NORM + MUL ( #21983 ) fused rms_norm_mul + mul Add GGML_WEBGPU_DISABLE_FUSION for being able to disable kernel fusion. Decouple num_fused_ops from webgpu_context; misc cleanup Fix eps handling and remove disable_fusion. Fix not to use c++20 initializers. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vul",
+    "published": "2026-04-22T22:39:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8890",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8890",
+    "description": "chat: fix parallel_tool_calls default setting based on model capabilities, add tests for parallel tool calls and structured outputs ( #22217 ) chat: fix parallel_tool_calls default setting based on model capabilities, add tests for parallel tool calls and structured outputs Fix ty errors. Fix flake8 err macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vu",
+    "published": "2026-04-22T22:35:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8889",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8889",
+    "description": "speculative-simple : add checkpoint support ( #22227 ) speculative-simple : add checkpoint support cont : fix build macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Wi",
+    "published": "2026-04-22T22:22:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8888",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8888",
+    "description": "sycl: Improve mul_mat_id memory efficiency and add BF16 fast path ( #22119 ) sycl: size mul_mat_id staging buffers by routed rows Previously src1_contiguous/dst_contiguous in ggml_sycl_mul_mat_id were sized to ggml_nelements(src1/dst), which over-allocates when ne12 > 1 and can fail with UR_RESULT_ERROR_OUT_OF_HOST_MEMORY on Level Zero for MoE models (notably with --cpu-moe). Size them by the actual number of routed rows (ids->ne[1] * n_ids) instead. sycl: add bf16 mul_mat fast path via DNNL Whe",
+    "published": "2026-04-22T22:11:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8887",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8887",
+    "description": "mtmd: also support LLAMA_ROPE_TYPE_NONE ( #22242 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows",
+    "published": "2026-04-22T20:19:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8886",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8886",
+    "description": "server: ignore reasoning content from transcription api ( #21905 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 ",
+    "published": "2026-04-22T19:52:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8885",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8885",
+    "description": "mtmd, llama : Update HunyuanVL vision-language model support ( #22037 ) mtmd, llama : add HunyuanVL vision-language model support add LLM_ARCH_HUNYUAN_VL with M-RoPE (XD-RoPE) support add PROJECTOR_TYPE_HUNYUANVL with PatchMerger vision encoder add HunyuanVL-specific M-RoPE position encoding for image tokens add GGUF conversion for HunyuanVL vision and text models add smoke test in tools/mtmd/tests.sh fix: fix HunyuanVL XD-RoPE h/w section order fix: Remove redundant code convert : fix HunyuanOC",
+    "published": "2026-04-22T19:37:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8884",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8884",
+    "description": "common: Refactoring sampler parameters ( #20429 ) ( #22233 ) This change refactors the reasoning_budget_message parameter from the common params into the sampling parameters specifically. It also removes the reasoning_budget common parameter and standardizes on the existing reasoning_budget_tokens parameter in the sampling configuration. Issue: #20429 Original PR: #20297 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: ",
+    "published": "2026-04-22T16:21:02Z",
+    "source": "llama.cpp Releases"
+  }
+]

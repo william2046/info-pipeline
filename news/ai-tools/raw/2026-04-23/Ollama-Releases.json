@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.21.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.2-rc0",
+    "description": "What's Changed docs: Structured outputs and ollama cloud by @madflow in #15733 launch: use bundled OpenClaw ollama web search by @ParthSareen in #15757 New Contributors @madflow made their first contribution in #15733 Full Changelog : v0.21.1...v0.21.2-rc0",
+    "published": "2026-04-23T02:29:24Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.1",
+    "description": "What's Changed Kimi CLI You can now install and run the Kimi CLI through Ollama. ollama launch kimi --model kimi-k2.6:cloud Kimi CLI with Kimi K2.6 excels at long horizon agentic execution tasks through a multi-agent system. MLX runner adds logprobs support for compatible models Faster MLX sampling with fused top-P and top-K in a single sort pass, plus repeat penalties applied in the sampler Improved MLX prompt tokenization by moving tokenization into request handler goroutines Better MLX thread",
+    "published": "2026-04-22T18:32:50Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.1-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.1-rc1",
+    "description": "launch: replace kimi-k2.5 with k2.6 as top recommended model ( #15737 )",
+    "published": "2026-04-21T22:13:20Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.1-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.1-rc0",
+    "description": "server: apply format when think=false for gemma4 ( #15678 )",
+    "published": "2026-04-21T00:42:29Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.0",
+    "description": "Hermes Agent ollama launch hermes Hermes learns with you, automatically creating skills to better serve your workflows. Great for research and engineering tasks. What's Changed Gemma 4 on MLX. Added support for running Gemma 4 via MLX on Apple Silicon, including a text-only MLX runtime for the model. The MLX backend also picked up mixed-precision quantization, better capability detection, and a batch of new op wrappers (Conv2d, Pad, activations, trig, masked SDPA, and RoPE-with-freqs). Hermes an",
+    "published": "2026-04-18T01:30:26Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.0-rc1",
+    "description": "cmd/launch: show WSL guidance on Windows instead of handing off ( #15637 )",
+    "published": "2026-04-17T00:18:04Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.0-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.0-rc0",
+    "description": "mlx: fix gemma4 cache to use logical view ( #15617 )",
+    "published": "2026-04-16T18:54:30Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.8-rc0: Gemma4 on MLX (#15244)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.8-rc0",
+    "description": "gemma4: implement Gemma 4 model for MLX (text-only runtime) gemma4: two MoE + SWA prefill perf fixes Two performance optimizations in the gemma4 forward pass Memoize the sliding-window prefill mask across layers. Softmax only over the selected experts in Router.Forward. review comments",
+    "published": "2026-04-13T23:36:51Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.7",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.7",
+    "description": "What's Changed Fix quality of gemma:e2b and gemma:e4b when thinking is disabled ROCm: Update to ROCm 7.2.1 on Linux by @saman-amd in #15483 Full Changelog : v0.20.6...v0.20.7",
+    "published": "2026-04-14T01:40:41Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.20.7-rc1: Merge pull request #15561 from ollama/drifkin/backport",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.20.7-rc1",
+    "description": "backport gemma4 renderer changes",
+    "published": "2026-04-13T22:17:26Z",
+    "source": "Ollama Releases"
+  }
+]

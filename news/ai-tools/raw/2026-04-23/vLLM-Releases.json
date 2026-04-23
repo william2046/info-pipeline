@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.20.0: [CI] Automate Docker Hub release image publishing (#40415)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.20.0",
+    "description": "Replaces manual docker publish instructions in annotate-release.sh with a unified publish-release-images.sh script and corresponding Buildkite pipeline steps. The new script handles all image variants (CUDA 12.9, CUDA 13.0, Ubuntu 24.04, ROCm, and CPU), automating the pull, tag, push, and multi-arch manifest creation for Docker Hub releases. Co-Authored-By: Claude Opus 4.6 (1M context) noreply@anthropic.com Signed-off-by: khluu khluu000@gmail.com",
+    "published": "2026-04-22T23:15:59Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.20.0rc1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.20.0rc1",
+    "description": "Revert \"[Misc] Move pyav and soundfile to common requirements\" (#…",
+    "published": "2026-04-22T09:00:47Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.19.2rc0: [Bugfix] Fix k_proj's bias for GLM-ASR (#40160)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.19.2rc0",
+    "description": "Signed-off-by: Rishapveer Singh singhrishapveer@gmail.com",
+    "published": "2026-04-18T05:34:33Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.19.1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.19.1",
+    "description": "This is a patch release on top of v0.19.0 with Transformers v5.5.3 upgrade and bug fixes for Gemma4: Update to transformers v5 ( #30566 ) [Bugfix] Fix invalid JSON in Gemma 4 streaming tool calls by stripping partial delimiters ( #38992 ) [Bugfix][Frontend] Fix Gemma4 streaming HTML duplication after tool calls ( #38909 ) [Bugfix] Fix Gemma4 streaming tool call corruption for split boolean/number values ( #39114 ) [Tool] adjust_request to reasoning parser, and Gemma4 fixes ( #39027 ) [Gemma4] Su",
+    "published": "2026-04-21T00:46:27Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.19.1rc0: [Misc] Clean up Gemma4 implementation (#38872)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.19.1rc0",
+    "description": "Signed-off-by: Isotr0py mozf@mail2.sysu.edu.cn",
+    "published": "2026-04-03T05:47:02Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.19.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.19.0",
+    "description": "vLLM v0.19.0 Highlights This release features 448 commits from 197 contributors (54 new)! Gemma 4 support : Full Google Gemma 4 architecture support including MoE, multimodal, reasoning, and tool-use capabilities ( #38826 , #38847 ). Requires transformers>=5.5.0 . We recommend using pre-built docker image vllm/vllm-openai:gemma4 for out of box usage. Zero-bubble async scheduling + speculative decoding : Async scheduling now supports speculative decoding with zero-bubble overlap, significantly im",
+    "published": "2026-04-04T20:16:12Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.19.0rc1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.19.0rc1",
+    "description": "[Bugfix] Restrict TRTLLM attention to SM100, fixing GB300 (SM103) han…",
+    "published": "2026-04-01T19:11:03Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.19.0rc0: [Feat][v1] Simple yet General CPU KV Cache Offloading (#37160)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.19.0rc0",
+    "description": "Signed-off-by: Yifan Qiao yifanqiao@berkeley.edu Signed-off-by: Yifan Qiao yifanqiao@inferact.ai (cherry picked from commit 91e4521 )",
+    "published": "2026-04-01T08:03:14Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.18.2rc0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.18.2rc0",
+    "description": "[Fix] handle PaddleOCR-VL image processor max_pixels across Transform…",
+    "published": "2026-03-31T15:50:41Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.18.1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.18.1",
+    "description": "This is a patch release on top of v0.18.0 to address a few issues: Change default SM100 MLA prefill backend back to TRT-LLM ( #38562 ) Fix mock.patch resolution failure for standalone_compile.FakeTensorMode on Python <= 3.10 ( #37158 ) Disable monolithic TRTLLM MoE for Renormalize routing #37605 Pre-download missing FlashInfer headers in Docker build #38391 Fix DeepGemm E8M0 accuracy degradation for Qwen3.5 FP8 on Blackwell ( #38083 )",
+    "published": "2026-03-31T05:59:49Z",
+    "source": "vLLM Releases"
+  }
+]
