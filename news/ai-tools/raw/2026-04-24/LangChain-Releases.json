@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-openai==1.2.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.2.0",
+    "description": "Changes since langchain-openai==1.1.16 release(openai): 1.2.0 ( #36961 ) feat(openai): prevent silent streaming hangs in ChatOpenAI ( #36949 ) hotfix(ci): remove nobenchmark flag ( #36959 ) chore(partners): standardize integration test invocation ( #36958 )",
+    "published": "2026-04-23T00:43:46Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.2.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.2.0",
+    "description": "Changes since langchain-fireworks==1.1.0 release(fireworks): 1.2.0 ( #36978 ) fix(fireworks): honor max_retries ( #36973 ) feat(fireworks): populate usage_metadata on streaming ( #36977 ) fix(fireworks): swap undeployed Kimi K2 slug in integration tests ( #36975 ) hotfix(ci): remove nobenchmark flag ( #36959 ) chore(partners): standardize integration test invocation ( #36958 ) chore(model-profiles): refresh model profile data ( #36941 ) chore(deps): bump pytest to 9.0.3 ( #36801 ) chore: bump la",
+    "published": "2026-04-23T20:54:01Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.3.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.1",
+    "description": "Changes since langchain-core==1.3.0 release(core): 1.3.1 ( #36972 ) feat(core): allow _format_output to pass through list of ToolOutputMixin instances ( #36963 ) chore: bump nbconvert from 7.17.0 to 7.17.1 in /libs/core ( #36923 ) feat(core): Update inheritance behavior for tracer metadata for special keys ( #36900 ) chore: bump langsmith from 0.7.13 to 0.7.31 in /libs/core ( #36813 )",
+    "published": "2026-04-23T18:54:22Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.1.16",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.16",
+    "description": "Changes since langchain-openai==1.1.15 release(openai): 1.1.16 ( #36927 ) fix(openai): tolerate prompt_cache_retention drift in streaming ( #36925 )",
+    "published": "2026-04-21T19:26:40Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.1.15",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.15",
+    "description": "Changes since langchain-openai==1.1.14 release(openai): 1.1.15 ( #36901 ) fix(openai): accommodate dict response items in streaming ( #36899 ) fix(openai): infer azure chat profiles from model name ( #36858 ) chore(model-profiles): refresh model profile data ( #36864 )",
+    "published": "2026-04-20T19:57:23Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.3.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.0",
+    "description": "Changes since langchain-core==1.2.31 release(core): release 1.3.0 ( #36851 ) release(core): 1.3.0a3 ( #36829 ) chore(core): keep checkpoint_ns behavior in streaming metadata for backwards compat ( #36828 ) feat(core): Add chat model and LLM invocation params to traceable metadata ( #36771 ) fix(core): restore cloud metadata IPs and link-local range in SSRF policy ( #36816 ) chore(deps): bump pytest to 9.0.3 ( #36801 ) chore(core): harden private SSRF utilities ( #36768 ) fix(openai): handle cont",
+    "published": "2026-04-17T14:51:57Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.4.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.1",
+    "description": "Changes since langchain-anthropic==1.4.0 fix(anthropic): strip null encrypted_content from compaction blocks ( #36850 ) release(anthropic): 1.4.1 ( #36848 ) feat(anthropic): support opus 4.7 features ( #36847 ) chore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/anthropic ( #36803 ) chore(deps): bump pytest to 9.0.3 ( #36801 ) chore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/anthropic ( #36789 ) chore(model-profiles): refresh model profile data ( #36482 ) fix(core): fixed ty",
+    "published": "2026-04-17T14:26:31Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-text-splitters==1.1.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.2",
+    "description": "Changes since langchain-text-splitters==1.1.1 release(text-splitters): 1.1.2 ( #36822 ) fix(text-splitters): deprecate and use SSRF-safe transport in split_text_from_url ( #36821 ) chore: bump langsmith from 0.6.3 to 0.7.31 in /libs/text-splitters ( #36797 ) chore(deps): bump pytest to 9.0.3 ( #36801 ) chore: bump pytest from 9.0.2 to 9.0.3 in /libs/text-splitters ( #36714 ) chore: add comment explaining pygments>=2.20.0 ( #36570 ) release(core): 1.2.26 ( #36511 ) chore: pygments>=2.20.0 across ",
+    "published": "2026-04-16T14:20:56Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.1.14",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.14",
+    "description": "Changes since langchain-openai==1.1.13 release(openai): 1.1.14 ( #36820 ) fix(openai): use SSRF-safe transport for image token counting ( #36819 ) chore(deps): bump pytest to 9.0.3 ( #36801 ) chore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/openai ( #36795 ) chore: bump pillow from 12.1.1 to 12.2.0 in /libs/partners/openai ( #36777 )",
+    "published": "2026-04-16T14:55:44Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-huggingface==1.2.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.2.2",
+    "description": "Changes since langchain-huggingface==1.2.1 release(huggingface): 1.2.2 ( #36832 ) fix(huggingface): harden hostname validation and reject URLs in repo_id ( #36831 ) chore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/huggingface ( #36802 ) chore(deps): bump pytest to 9.0.3 ( #36801 ) chore: bump langsmith from 0.6.3 to 0.7.31 in /libs/partners/huggingface ( #36794 ) chore(model-profiles): refresh model profile data ( #36720 ) chore(model-profiles): refresh model profile data ( #36596 ) ",
+    "published": "2026-04-16T19:57:52Z",
+    "source": "LangChain Releases"
+  }
+]

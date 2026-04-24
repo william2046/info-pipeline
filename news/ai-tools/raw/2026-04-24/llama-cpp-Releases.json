@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8913",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8913",
+    "description": "fix(shader): handle the buffer aliasing for rms fuse ( #22266 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows ",
+    "published": "2026-04-24T03:01:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8912",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8912",
+    "description": "cli: Remove redundant local sampling variables ( #20429 ) ( #22264 ) This change implements the third requested change in issue 20429. Because defaults.sampling contains the reasoning budget token count and the reasoning budget message, it's not necessary to assign them to struct variables. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ",
+    "published": "2026-04-24T01:54:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8911",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8911",
+    "description": "hexagon: add support for basic and extended Op profiling ( #22269 ) hexagon: restore HTP_OPMASK_QUEUE hexagon: honor OPMASK_SKIP_COMPUTE in hmx-matmul hex-prof: restore op profiling hex-prof: enable PMU hexagon: simplify and improve op-queuing with full profiling support Add separate profile descriptors. hexagon: remove opsync and rename opmask into opstage opsync is no longer needed since the profiler is fully async now. opmask name was confusing and opstage is more accurate. hexagon: refactor ",
+    "published": "2026-04-24T01:21:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8909",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8909",
+    "description": "server : convert_anthropic_to_oai: also copy chat_template_kwargs ( #22154 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 ",
+    "published": "2026-04-24T00:26:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8908",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8908",
+    "description": "server: fix heap-buffer-overflow from negative n_discard (CVE-2026-21869) ( #22267 ) server: clamp n_discard to non-negative at JSON parse boundary (CVE-2026-21869) A negative n_discard from client JSON causes heap-buffer-overflow in update_slots() context-shift loop (CWE-787, CVSS 8.8). Clamp to 0 at ingress; n_discard=0 already triggers auto-discard (n_left/2). Ref: GHSA-8947-pfff-2f3c cont : cleaner cont : cleanerer cont : cleanest Co-authored-by: Georgi Gerganov ggerganov@gmail.com macOS/iOS",
+    "published": "2026-04-23T23:18:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8907",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8907",
+    "description": "vendor : update LibreSSL to 4.3.1 ( #22285 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CU",
+    "published": "2026-04-23T23:02:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8906",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8906",
+    "description": "server: (anthropic API) fix prefix caching ( #21793 ) When testing claude code against llama.cpp, I noticed that only n_past 18577 was used even when context was 60k or more. The log in llama-server says: slot update_slots: id 3 | task 10342 | old: ... ; cch= | defa0;You are slot update_slots: id 3 | task 10342 | new: ... ; cch= | 1c8b4; I observed that the cch value changed every time. Reading about that, the x-anthropic-billing-header system message seems to be specially handled inside of the ",
+    "published": "2026-04-23T23:15:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8905",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8905",
+    "description": "fix build number for sycl release ( #22283 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUD",
+    "published": "2026-04-23T21:40:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8902",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8902",
+    "description": "server: Enable transcriptions API for LFM2-Audio ( #22000 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 ",
+    "published": "2026-04-23T13:23:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8901",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8901",
+    "description": "metal : fix event synchronization ( #22260 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUD",
+    "published": "2026-04-23T11:01:56Z",
+    "source": "llama.cpp Releases"
+  }
+]
