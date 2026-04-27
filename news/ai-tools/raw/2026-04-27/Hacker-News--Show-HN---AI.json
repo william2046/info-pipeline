@@ -1,0 +1,142 @@
+[
+  {
+    "title": "The Prompt API",
+    "link": "https://developer.chrome.com/docs/ai/prompt-api",
+    "description": "Article URL: https://developer.chrome.com/docs/ai/prompt-api Comments URL: https://news.ycombinator.com/item?id=47917026 Points: 26 # Comments: 12",
+    "published": "Mon, 27 Apr 2026 02:18:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Notepad++ for Mac – Independent community port",
+    "link": "https://notepad-plus-plus-mac.org/",
+    "description": "Article URL: https://notepad-plus-plus-mac.org/ Comments URL: https://news.ycombinator.com/item?id=47916964 Points: 50 # Comments: 29",
+    "published": "Mon, 27 Apr 2026 02:06:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
+    "link": "https://github.com/evanklem/evanflow",
+    "description": "Article URL: https://github.com/evanklem/evanflow Comments URL: https://news.ycombinator.com/item?id=47916909 Points: 26 # Comments: 8",
+    "published": "Mon, 27 Apr 2026 01:56:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "TurboQuant: A First-Principles Walkthrough",
+    "link": "https://arkaung.github.io/interactive-turboquant/",
+    "description": "Article URL: https://arkaung.github.io/interactive-turboquant/ Comments URL: https://news.ycombinator.com/item?id=47916890 Points: 36 # Comments: 4",
+    "published": "Mon, 27 Apr 2026 01:54:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft",
+    "link": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
+    "description": "Article URL: https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c Comments URL: https://news.ycombinator.com/item?id=47916410 Points: 79 # Comments: 52",
+    "published": "Mon, 27 Apr 2026 00:34:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "FreeBSD Device Drivers Book",
+    "link": "https://github.com/ebrandi/FDD-book",
+    "description": "Article URL: https://github.com/ebrandi/FDD-book Comments URL: https://news.ycombinator.com/item?id=47915632 Points: 42 # Comments: 6",
+    "published": "Sun, 26 Apr 2026 22:53:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Butterflies are in decline across North America, a look at the Western Monarch",
+    "link": "https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/",
+    "description": "Article URL: https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/ Comments URL: https://news.ycombinator.com/item?id=47914677 Points: 166 # Comments: 52",
+    "published": "Sun, 26 Apr 2026 21:23:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: AI memory with biological decay (52% recall)",
+    "link": "https://github.com/sachitrafa/YourMemory",
+    "description": "Most RAG setups fail because they treat memory like a static filing cabinet. When every transient bug fix or abandoned rule is stored forever, the context window eventually chokes on noise, spiking token costs and degrading the agent's reasoning. This implementation experiments with a biological approach by using the Ebbinghaus forgetting curve to manage context as a living substrate. Memories are assigned a \"strength\" score where each recall reinforces the data and flattens its decay curve (spa",
+    "published": "Sun, 26 Apr 2026 20:58:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race",
+    "link": "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo",
+    "description": "https://www.letsrun.com/news/2026/04/15930-sabastian-sawe-sh... https://news.adidas.com/running/two-adidas-athletes-sabastia... Comments URL: https://news.ycombinator.com/item?id=47914350 Points: 304 # Comments: 215",
+    "published": "Sun, 26 Apr 2026 20:56:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I bought Friendster for $30k – Here's what I'm doing with it",
+    "link": "https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d",
+    "description": "Article URL: https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d Comments URL: https://news.ycombinator.com/item?id=47914165 Points: 541 # Comments: 292",
+    "published": "Sun, 26 Apr 2026 20:41:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "MoQ Boy",
+    "link": "https://moq.dev/blog/moq-boy/",
+    "description": "Article URL: https://moq.dev/blog/moq-boy/ Comments URL: https://news.ycombinator.com/item?id=47914161 Points: 46 # Comments: 5",
+    "published": "Sun, 26 Apr 2026 20:40:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Fast16: High-precision software sabotage 5 years before Stuxnet",
+    "link": "https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/",
+    "description": "Article URL: https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/ Comments URL: https://news.ycombinator.com/item?id=47913855 Points: 190 # Comments: 46",
+    "published": "Sun, 26 Apr 2026 20:18:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "AI should elevate your thinking, not replace it",
+    "link": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+    "description": "Article URL: https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/ Comments URL: https://news.ycombinator.com/item?id=47913650 Points: 337 # Comments: 266",
+    "published": "Sun, 26 Apr 2026 20:03:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Chernobyl wildlife forty years on",
+    "link": "https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on",
+    "description": "Article URL: https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on Comments URL: https://news.ycombinator.com/item?id=47913382 Points: 61 # Comments: 5",
+    "published": "Sun, 26 Apr 2026 19:42:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Visible Zorker: Zork 1",
+    "link": "https://eblong.com/infocom/visi/zork1/",
+    "description": "Article URL: https://eblong.com/infocom/visi/zork1/ Comments URL: https://news.ycombinator.com/item?id=47911644 Points: 118 # Comments: 21",
+    "published": "Sun, 26 Apr 2026 16:42:19 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "An AI agent deleted our production database. The agent's confession is below",
+    "link": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+    "description": "Article URL: https://twitter.com/lifeof_jer/status/2048103471019434248 Comments URL: https://news.ycombinator.com/item?id=47911524 Points: 545 # Comments: 688",
+    "published": "Sun, 26 Apr 2026 16:27:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Clay PCB Tutorial",
+    "link": "https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial",
+    "description": "Article URL: https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial Comments URL: https://news.ycombinator.com/item?id=47911350 Points: 205 # Comments: 126",
+    "published": "Sun, 26 Apr 2026 16:02:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Lessons from building multiplayer browsers",
+    "link": "https://www.alejandro.pe/writing/sail-muddy-lessons",
+    "description": "Article URL: https://www.alejandro.pe/writing/sail-muddy-lessons Comments URL: https://news.ycombinator.com/item?id=47910877 Points: 18 # Comments: 9",
+    "published": "Sun, 26 Apr 2026 14:59:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "SWE-bench Verified no longer measures frontier coding capabilities",
+    "link": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+    "description": "Article URL: https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/ Comments URL: https://news.ycombinator.com/item?id=47910388 Points: 268 # Comments: 151",
+    "published": "Sun, 26 Apr 2026 13:58:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The fastest Linux timestamps",
+    "link": "https://www.hmpcabral.com/2026/04/26/the-fastest-linux-timestamps/",
+    "description": "Article URL: https://www.hmpcabral.com/2026/04/26/the-fastest-linux-timestamps/ Comments URL: https://news.ycombinator.com/item?id=47909979 Points: 42 # Comments: 10",
+    "published": "Sun, 26 Apr 2026 13:00:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

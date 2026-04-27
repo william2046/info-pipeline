@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8941",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8941",
+    "description": "add performance-portable tuning for register-tile and subgroup matmul ( #22241 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 1",
+    "published": "2026-04-26T17:44:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8940",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8940",
+    "description": "Fix recurrent state serialization for partial reads and writes ( #22362 ) The previous code worked only for full tensor reads and writes and was hitting GGML_ASSERT(size == ggml_nbytes(tensor)); assert when tested with llama-server. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) ",
+    "published": "2026-04-26T13:24:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8937",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8937",
+    "description": "ggml-cpu : re-enable fast gelu_quick_f16 ( #22339 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13",
+    "published": "2026-04-26T09:29:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8936",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8936",
+    "description": "ggml-cpu: optimize avx2 q6_k ( #22345 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.",
+    "published": "2026-04-26T08:56:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8935",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8935",
+    "description": "opencl: add iq4_nl support ( #22272 ) opencl: add general support for iq4_nl opencl: add iq4_nl gemm/gemv for adreno opencl: pack 2 lut entries into a uint macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
+    "published": "2026-04-26T06:19:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8934",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8934",
+    "description": "hexagon: guard HMX clock request for v75+ platforms ( #22377 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x",
+    "published": "2026-04-26T03:07:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8933",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8933",
+    "description": "chat: fix handling of space in reasoning markers ( #22353 ) chat: fix handling of space in reasoning markers fix tests whitespace macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) W",
+    "published": "2026-04-25T21:20:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8931",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8931",
+    "description": "CUDA: reduce MMQ stream-k overhead ( #22298 ) CUDA: reduce MMQ stream-k overhead use 32 bit integers for kbc macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Wi",
+    "published": "2026-04-25T14:55:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8929",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8929",
+    "description": "llama-quant : default ftype param Q5_1 --> Q8_0 ( #20828 ) Change the default ftype in llama_model_quantize_params from LLAMA_FTYPE_MOSTLY_Q5_1 to LLAMA_FTYPE_MOSTLY_Q8_0 . In case some external program naively uses the default quantization params, we should probably default to a known-good type like Q8_0 rather than Q5_1, which is rather old. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm6",
+    "published": "2026-04-25T09:32:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8927",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8927",
+    "description": "[SYCL] Optimize Q4_0 mul_mat for Arc770, add scripts ( #22291 ) opt arc770 for Q4_0 add for Q4_0 update the script add help script for windows update guide fix format issue convert from dos to unix for format issue fix missed -sm parameter macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Ope",
+    "published": "2026-04-25T08:58:59Z",
+    "source": "llama.cpp Releases"
+  }
+]
