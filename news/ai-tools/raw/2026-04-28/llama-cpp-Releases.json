@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8953",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8953",
+    "description": "ggml-webgpu: add Q1_0 support ( #22374 ) add fast matmul matvec q1_0 kernel ggml-webgpu: drop redundant zero-fills in Q1_0 shmem init macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CP",
+    "published": "2026-04-28T00:24:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8952",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8952",
+    "description": "server: (router) Forward form-data to model server (Fixes #22044 ) ( #22118 ) This commit enables the router to forward form-data to model server. Fixes #22044 (enabling to use the /v1/audio/transcriptions in router mode) Applied the suggestion from Copilots first comment: using the non-throwing json::parse overload. Addressed Copilots third comment by extending the files representation to also include filename and content-type Addressed Copilots fourth comment by making the RNG thread_local Cha",
+    "published": "2026-04-27T22:52:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8951",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8951",
+    "description": "add fast mat-vec kernels for i-quants ( #22344 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) -",
+    "published": "2026-04-27T17:41:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8950",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8950",
+    "description": "Additional test for common/gemma4 : handle parsing edge cases ( #22420 ) Additional test for common/gemma4 : handle parsing edge cases Move tests to Gemma 4 test group macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
+    "published": "2026-04-27T17:24:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8949",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8949",
+    "description": "fix: rpc-server cache may not work in Windows environments ( #22394 ) fix: create directory and log cache file name. Remove GGML_LOG_INFO conditional compilation. Co-authored-by: kotaro kotaro.kusunoki@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32",
+    "published": "2026-04-27T16:51:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8948",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8948",
+    "description": "Fix type casting for unaccounted memory calculation ( #22424 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x",
+    "published": "2026-04-27T15:21:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8947",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8947",
+    "description": "download : prefer q8_0 when q4_k not available ( #22428 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (C",
+    "published": "2026-04-27T15:18:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8946",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8946",
+    "description": "model : remove duplicate wo_s scale after build_attn (Qwen3, LLaMA) ( #22421 ) Signed-off-by: Yash Nankani ynankani@nvidia.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Wind",
+    "published": "2026-04-27T10:07:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8944",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8944",
+    "description": "ggml : use 64 bytes aligned tile buffers ( #21058 ) Model Test t/s OLD t/s NEW Speedup qwen35 0.8B BF16 pp512 584.59 595.41 1.02 qwen35 0.8B BF16 tg128 52.23 52.82 1.01 qwen35 0.8B IQ2_M - 2.7 bpw pp512 260.64 261.70 1.00 qwen35 0.8B IQ2_M - 2.7 bpw tg128 81.17 80.89 1.00 qwen35 0.8B IQ2_XXS - 2.0625 bpw pp512 302.36 302.56 1.00 qwen35 0.8B IQ2_XXS - 2.0625 bpw tg128 84.93 85.12 1.00 qwen35 0.8B IQ3_XXS - 3.0625 bpw pp512 263.22 260.01 0.99 qwen35 0.8B IQ3_XXS - 3.0625 bpw tg128 80.29 78.94 0.98",
+    "published": "2026-04-27T09:17:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8943",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8943",
+    "description": "common: fix missing exports in llama-common ( #22340 ) common: refactor common/debug to move abort_on_nan into base_callback_data Passing bool abort_on_nan as template parameter for common_debug_cb_eval is unnecessary and creates an issue with LTO. It should just be a member of the base_callback_data instead. cont : cleanup common : use pimpl in debug.h to reduce header dependencies Move common_debug_cb_user_data's data members (std::regex, std::vector<uint8_t>) into a private impl struct in deb",
+    "published": "2026-04-27T05:57:19Z",
+    "source": "llama.cpp Releases"
+  }
+]
