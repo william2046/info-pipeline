@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8966",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8966",
+    "description": "ggml-cuda: add flash-attn support for DKQ=320/DV=256 with ncols2=32 (… ( #22286 ) ggml-cuda: add flash-attn support for DKQ=320/DV=256 with ncols2=32 (GQA=32) Adds MMA-f16 and tile kernel configs, dispatch logic, template instances, and tile .cu file for Mistral Small 4 (head sizes 320/256), restricting to ncols2=32 to support GQA ratio 32 only. Adding check to return BEST_FATTN_KERNEL_NONE in case GQA!=32 Apply suggestions from code review Address review comments Co-authored-by: Johannes Gäßler",
+    "published": "2026-04-28T20:37:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8964",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8964",
+    "description": "common : re-arm reasoning budget after DONE on new ( #22323 ) DONE state absorbs all tokens including a new start tag, causing any think blocks after the first to run unbudgeted. Observed on unsloth/Qwen3.6-27B-GGUF which interleaves multiple blocks per response. Fixed by advancing start_matcher in DONE branch and re-arming to COUNTING with a fresh budget on match. Adds regression test (test-reasoning-budget: test 6). macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI en",
+    "published": "2026-04-28T20:08:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8963",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8963",
+    "description": "vulkan: Coalesce Q4_K/Q5_K scale loads ( #21751 ) Some SPIR-V compilers (notably mesa) don't handle the current vulkan Q4_K/Q5_K scale load pattern in mul_mat particularly well. While reading three u8 s from the 12-byte scale array should (at least on some hardware) result in loading the full 12 bytes in a single LOAD followed by whatever extraction is needed, at least the ANV Intel driver really can't practically perform this optimization. mesa 's unsigned upper bound logic doesn't handle track",
+    "published": "2026-04-28T19:03:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8962",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8962",
+    "description": "ggml-webgpu: fix buffer aliasing for ssm_scan and refactor aliasing logic ( #22456 ) Refactor buffer aliasing to be part of shader lib decisions cleanup formatting macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
+    "published": "2026-04-28T19:05:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8960",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8960",
+    "description": "vulkan: add barrier after writetimestamp ( #21865 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13",
+    "published": "2026-04-28T18:24:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8958",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8958",
+    "description": "ggml : skip already registered backends and devices ( #22296 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CP",
+    "published": "2026-04-28T14:19:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8957",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8957",
+    "description": "ggml : revert to -lm linking instead of find_library ( #22355 ) ggml : revert to -lm linking instead of find_library find_library(MATH_LIBRARY m) was introduced recently, but it breaks CUDA compilation with GGML_STATIC. I could not find any valid use case where we would prefer find_library over the standard -lm approach. This commit is also meant to start a discussion if there is a valid reason to keep find_library(MATH_LIBRARY m) , we should clarify what problem it was solving and find an alter",
+    "published": "2026-04-28T14:00:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8956",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8956",
+    "description": "CANN: add new ops, optimize existing ops ( #21204 ) New operators: GGML_OP_SET: implement via aclnnInplaceCopy on target region GGML_OP_CUMSUM: implement via aclnnCumsum GGML_OP_FILL: implement via aclnnInplaceFillScalar GGML_OP_DIAG: implement via aclnnInplaceCopy on diagonal strides GGML_OP_TRI (lower/lower_diag/upper_diag/upper): implement via aclnnTril(-1/0) and aclnnTriu(0/1) with appropriate diagonal offsets GGML_OP_SOLVE_TRI: implement via aclnnTriangularSolve GGML_UNARY_OP_SOFTPLUS: impl",
+    "published": "2026-04-28T13:50:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8955",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8955",
+    "description": "spec : refactor params ( #22397 ) spec : refactor params cont : fix cont : rename \"sparam\" to \"sampling\" cont : add spec params category cont : add info about removed arguments cont : skip param length check for spec params cont : adapt server tests macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubunt",
+    "published": "2026-04-28T11:52:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8954",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8954",
+    "description": "server: use pos_next instead of n_tokens for m-rope ( #22439 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x",
+    "published": "2026-04-28T10:37:30Z",
+    "source": "llama.cpp Releases"
+  }
+]

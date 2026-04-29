@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.22.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.22.1-rc0",
+    "description": "What's Changed mlxrunner: batch the sampler across multiple sequences by @jessegross in #15736 tokenizer: fix multi-regex BPE offset handling by @dhiltgen in #15844 mlx: Support NVIDIA TensorRT Model Optimizer import by @dhiltgen in #15566 app/server: fix desktop app startup killing active ollama launch sessions by @hoyyeva in #15657 Model support for batching by @jessegross in #15814 New models by @dhiltgen in #15861 Full Changelog : v0.21.3-rc0...v0.22.1-rc0",
+    "published": "2026-04-28T20:30:57Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.22.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.22.0",
+    "description": "New models NVIDIA's Nemotron 3 Omni Poolside's first open-weight coding model - Laguna XS.2 Full Changelog : v0.21.2...v0.22.0",
+    "published": "2026-04-28T17:02:13Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.22.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.22.0-rc1",
+    "description": "update poolside doc",
+    "published": "2026-04-28T02:26:08Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.3-rc0",
+    "description": "What's Changed api: accept \"max\" as a think value by @ParthSareen in #15787 openai: map responses reasoning effort to think by @ParthSareen in #15789 Full Changelog : v0.21.2...v0.21.3-rc0",
+    "published": "2026-04-24T12:15:38Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.2",
+    "description": "What's Changed Improved reliability of the OpenClaw onboarding flow in ollama launch Recommended models in ollama launch now appear in a fixed, canonical order OpenClaw integration now bundles Ollama's web search plugin in OpenClaw New Contributors @madflow made their first contribution in #15733 Full Changelog: v0.21.1...v0.21.2",
+    "published": "2026-04-24T04:25:16Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.2-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.2-rc1",
+    "description": "launch: harden OpenClaw onboarding flow ( #15777 )",
+    "published": "2026-04-23T23:47:20Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.2-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.2-rc0",
+    "description": "launch: use bundled OpenClaw ollama web search ( #15757 )",
+    "published": "2026-04-22T23:34:19Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.1",
+    "description": "What's Changed Kimi CLI You can now install and run the Kimi CLI through Ollama. ollama launch kimi --model kimi-k2.6:cloud Kimi CLI with Kimi K2.6 excels at long horizon agentic execution tasks through a multi-agent system. MLX runner adds logprobs support for compatible models Faster MLX sampling with fused top-P and top-K in a single sort pass, plus repeat penalties applied in the sampler Improved MLX prompt tokenization by moving tokenization into request handler goroutines Better MLX thread",
+    "published": "2026-04-22T18:32:50Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.1-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.1-rc1",
+    "description": "launch: replace kimi-k2.5 with k2.6 as top recommended model ( #15737 )",
+    "published": "2026-04-21T22:13:20Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.1-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.1-rc0",
+    "description": "server: apply format when think=false for gemma4 ( #15678 )",
+    "published": "2026-04-21T00:42:29Z",
+    "source": "Ollama Releases"
+  }
+]
