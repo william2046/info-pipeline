@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-tests==1.1.7",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.7",
+    "description": "Changes since langchain-tests==1.1.6 release(standard-tests): 1.1.7 ( #37067 ) hotfix: bump min core versions ( #36996 ) feat(core): add content-block-centric streaming (v2) ( #36834 ) chore: bump langsmith from 0.6.3 to 0.7.31 in /libs/standard-tests ( #36799 ) chore(deps): bump pytest to 9.0.3 ( #36801 ) chore: bump pytest from 9.0.2 to 9.0.3 in /libs/standard-tests ( #36715 )",
+    "published": "2026-04-29T01:10:21Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-perplexity==1.2.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.2.0",
+    "description": "Changes since langchain-perplexity==1.1.0 release(perplexity): 1.2.0 ( #37091 ) feat(perplexity): add PerplexityEmbeddings ( #37082 ) chore(docs): update x handle references ( #37081 ) hotfix: bump min core versions ( #36996 ) feat(core): add content-block-centric streaming (v2) ( #36834 ) hotfix(ci): remove nobenchmark flag ( #36959 ) chore(partners): standardize integration test invocation ( #36958 ) chore(deps): bump pytest to 9.0.3 ( #36801 ) chore: bump langsmith from 0.6.3 to 0.7.31 in /li",
+    "published": "2026-04-29T21:58:15Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.2.16",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.16",
+    "description": "Changes since langchain==1.2.15 release(langchain): 1.2.16 ( #37085 ) chore(docs): update x handle references ( #37081 ) release(anthropic): 1.4.2 ( #37061 ) perf(langchain): stop inlining agent state into tool-dispatch Send s ( #36960 ) docs(langchain): correct import paths in agent middleware docstrings ( #36987 ) hotfix: bump min core versions ( #36996 ) release(openai): 1.2.1 ( #36995 ) feat(core): add content-block-centric streaming (v2) ( #36834 ) fix(fireworks): honor max_retries ( #36973",
+    "published": "2026-04-29T21:03:06Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.4.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.2",
+    "description": "Changes since langchain-anthropic==1.4.1 release(anthropic): 1.4.2 ( #37061 ) fix(anthropic): restore cache_control on non-direct subclasses ( #37057 ) hotfix: bump min core versions ( #36996 ) feat(core): add content-block-centric streaming (v2) ( #36834 ) hotfix(ci): remove nobenchmark flag ( #36959 ) chore(partners): standardize integration test invocation ( #36958 )",
+    "published": "2026-04-28T20:50:54Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.2.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.2.1",
+    "description": "Changes since langchain-openai==1.2.0 hotfix: bump min core versions ( #36996 ) release(openai): 1.2.1 ( #36995 ) fix(openai): add gpt-5.5 pro to Responses API check ( #36994 ) feat(core): add content-block-centric streaming (v2) ( #36834 ) chore(model-profiles): refresh model profile data ( #36982 )",
+    "published": "2026-04-24T19:46:59Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.3.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.2",
+    "description": "Changes since langchain-core==1.3.1 release(core): 1.3.2 ( #36990 ) feat(core): add content-block-centric streaming (v2) ( #36834 )",
+    "published": "2026-04-24T15:49:42Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.2.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.2.0",
+    "description": "Changes since langchain-openai==1.1.16 release(openai): 1.2.0 ( #36961 ) feat(openai): prevent silent streaming hangs in ChatOpenAI ( #36949 ) hotfix(ci): remove nobenchmark flag ( #36959 ) chore(partners): standardize integration test invocation ( #36958 )",
+    "published": "2026-04-23T00:43:46Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.2.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.2.0",
+    "description": "Changes since langchain-fireworks==1.1.0 release(fireworks): 1.2.0 ( #36978 ) fix(fireworks): honor max_retries ( #36973 ) feat(fireworks): populate usage_metadata on streaming ( #36977 ) fix(fireworks): swap undeployed Kimi K2 slug in integration tests ( #36975 ) hotfix(ci): remove nobenchmark flag ( #36959 ) chore(partners): standardize integration test invocation ( #36958 ) chore(model-profiles): refresh model profile data ( #36941 ) chore(deps): bump pytest to 9.0.3 ( #36801 ) chore: bump la",
+    "published": "2026-04-23T20:54:01Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.3.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.1",
+    "description": "Changes since langchain-core==1.3.0 release(core): 1.3.1 ( #36972 ) feat(core): allow _format_output to pass through list of ToolOutputMixin instances ( #36963 ) chore: bump nbconvert from 7.17.0 to 7.17.1 in /libs/core ( #36923 ) feat(core): Update inheritance behavior for tracer metadata for special keys ( #36900 ) chore: bump langsmith from 0.7.13 to 0.7.31 in /libs/core ( #36813 )",
+    "published": "2026-04-23T18:54:22Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.1.16",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.16",
+    "description": "Changes since langchain-openai==1.1.15 release(openai): 1.1.16 ( #36927 ) fix(openai): tolerate prompt_cache_retention drift in streaming ( #36925 )",
+    "published": "2026-04-21T19:26:40Z",
+    "source": "LangChain Releases"
+  }
+]

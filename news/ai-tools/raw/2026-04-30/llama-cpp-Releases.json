@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8981",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8981",
+    "description": "common : do not pass prompt tokens to reasoning budget sampler ( #22488 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLL",
+    "published": "2026-04-29T22:44:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8980",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8980",
+    "description": "hexagon: make vmem and buffer-size configurable ( #22487 ) hexagon: allow host to set max vmem size We use a sane default but it's helpful to allow for an override if needed. hexagon: add support for measuring vmem space and move pinned mmaping management to host hexagon: update vmem checks to use uint64 hexagon: bump op buffers to 16 (matches max mmaps) hexagon: bump default vmem to 3.2GB hexagon: add support for autodetecting vmem space and some logging cleanup in that area hexagon: fix whites",
+    "published": "2026-04-29T22:32:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8979",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8979",
+    "description": "CUDA: fuse SSM_CONV + ADD(bias) + SILU ( #22478 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) ",
+    "published": "2026-04-29T21:04:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8978",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8978",
+    "description": "spec : disacard last drafted token with low prob ( #22506 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 ",
+    "published": "2026-04-29T20:46:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8977",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8977",
+    "description": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) ",
+    "published": "2026-04-29T18:56:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8974",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8974",
+    "description": "ggml-cpu : disable tiled matmul on AIX to fix page boundary segfault ( #22293 ) ggml-cpu : disable tiled matmul on AIX to fix page boundary segfault vec_xst operations in the tiled path crash on AIX when writing near 4KB page boundaries due to strict memory protection. Fall back to mnpack implementation on AIX for stable execution. Signed-off-by: Shalini Salomi Bodapati Shalini.Salomi.Bodapati@ibm.com Update ggml/src/ggml-cpu/llamafile/sgemm.cpp Co-authored-by: Aaron Teo taronaeo@gmail.com Updat",
+    "published": "2026-04-29T17:53:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8973",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8973",
+    "description": "ggml-cuda: refactor fusion code ( #22468 ) ggml-cuda: refactor fusion code apply formatting + make env variable truthy macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm6",
+    "published": "2026-04-29T17:16:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8972",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8972",
+    "description": "ggml-cpu: cmake: append xsmtvdotii march for SpacemiT IME ( #22317 ) ggml-cpu: cmake: append xsmtvdotii march for SpacemiT IME When GGML_CPU_RISCV64_SPACEMIT=ON is set, ime1_kernels.cpp contains inline asm for the vmadot family which requires the xsmtvdotii custom extension.(problem can see in some blogs and make sure in K3 platform) The current CMakeLists does not include xsmtvdotii, so any toolchain that honours the explicit -march (tested with SpacemiT GCC 15.2) fails at the assembler stage: ",
+    "published": "2026-04-29T16:29:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8971",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8971",
+    "description": "ggml-webgpu: Fix bug in FlashAttention support check ( #22492 ) Fix flashattention support check for devices that don't support subgroups set path to none if kv_tile doesn't fit macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
+    "published": "2026-04-29T15:33:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8970",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8970",
+    "description": "common: Intentionally leak logger instance to fix hanging on Windows ( #22273 ) Changed to leak logger singleton to prevent hanging on Windows Fix comment Stopped using static vector Using std::vector will cause g_col to be released before the logger thread exits, causing the logger thread to touch freed memory causing a crash Change so all logs are output before exit Added debug logging added more logging Added logging Explicitly free logger to avoid hanging on Win Reverted to leak logger insta",
+    "published": "2026-04-29T14:16:37Z",
+    "source": "llama.cpp Releases"
+  }
+]
