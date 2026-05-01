@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8992",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8992",
+    "description": "Update llama-mmap to use ftello/fseeko ( #22497 ) Update llama-mmap to work with 32-bit wasm and >2GB models Update to gguf.cpp style macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CP",
+    "published": "2026-04-30T23:34:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8991",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8991",
+    "description": "common : check for null getpwuid in hf-cache ( #22550 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Wind",
+    "published": "2026-04-30T23:03:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8990",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8990",
+    "description": "vulkan: add get/set tensor 2d functions ( #22514 ) vulkan: add get/set_tensor_2d functions fix backend interface comments Update ggml/src/ggml-metal/ggml-metal.cpp Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x",
+    "published": "2026-04-30T18:03:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8989",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8989",
+    "description": "spec: fix argument typo ( #22552 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLL",
+    "published": "2026-04-30T18:10:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8987",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8987",
+    "description": "vendor : update cpp-httplib to 0.43.2 ( #22548 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64",
+    "published": "2026-04-30T14:51:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8986",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8986",
+    "description": "CUDA: fix tile FA kernel on Pascal ( #22541 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CU",
+    "published": "2026-04-30T13:02:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8984",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8984",
+    "description": "add fast matmul iquants ( #22504 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLL",
+    "published": "2026-04-30T10:37:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8983",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8983",
+    "description": "spec : fix draft model checkpoints ( #22521 ) spec : fix draft model checkpoints cont : clean-up cont : gate the ngram-mod reset warning behind verbose flag macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) W",
+    "published": "2026-04-30T09:23:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8982",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8982",
+    "description": "spec : fix vocab compat checks in spec example ( #22426 ) port #22358 PR to examples/speculative/speculative.cpp use vocab_[tgt,dft] instead of ctx_[tgt,dft] when logging on draft model / target model vocabulary mismatch Co-authored-by: Petros Sideris petros.sideris@nokia.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) ",
+    "published": "2026-04-30T08:55:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8981",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8981",
+    "description": "common : do not pass prompt tokens to reasoning budget sampler ( #22488 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLL",
+    "published": "2026-04-29T22:44:21Z",
+    "source": "llama.cpp Releases"
+  }
+]

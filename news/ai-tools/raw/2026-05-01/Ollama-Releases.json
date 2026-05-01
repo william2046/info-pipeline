@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.22.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.22.1",
+    "description": "What's Changed Updated the Gemma 4 renderer for thinking and tool calling improvements Model recommendations are now updated without updating Ollama Aligned the desktop app's launch page with ollama launch integrations Fixed the Poolside integration title in ollama launch Full Changelog : v0.22.0...v0.22.1",
+    "published": "2026-04-30T23:46:00Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.22.1-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.22.1-rc1",
+    "description": "renderers: update gemma4 renderer ( #15886 )",
+    "published": "2026-04-30T01:40:23Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.22.1-rc0: New models (#15861)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.22.1-rc0",
+    "description": "mlx: add laguna model support convert: support fp8 safetensors import Decode HF F8_E4M3 safetensors with block scale companions into GGUF-supported tensor types, and record which output tensors came from FP8 source weights. Use that source-precision metadata during create quantization: default FP8-sourced GGUFs to Q8_0, keep non-FP8 tensors at their original precision for Q8_0, and promote non-FP8 quantizable tensors to Q8_0 for Q4_K requests. ggml: add laguna model support server: preserve gene",
+    "published": "2026-04-28T18:50:12Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.22.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.22.0",
+    "description": "New models NVIDIA's Nemotron 3 Omni Poolside's first open-weight coding model - Laguna XS.2 Full Changelog : v0.21.2...v0.22.0",
+    "published": "2026-04-28T17:02:13Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.22.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.22.0-rc1",
+    "description": "update poolside doc",
+    "published": "2026-04-28T02:26:08Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.3-rc0",
+    "description": "What's Changed api: accept \"max\" as a think value by @ParthSareen in #15787 openai: map responses reasoning effort to think by @ParthSareen in #15789 Full Changelog : v0.21.2...v0.21.3-rc0",
+    "published": "2026-04-24T12:15:38Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.2",
+    "description": "What's Changed Improved reliability of the OpenClaw onboarding flow in ollama launch Recommended models in ollama launch now appear in a fixed, canonical order OpenClaw integration now bundles Ollama's web search plugin in OpenClaw New Contributors @madflow made their first contribution in #15733 Full Changelog: v0.21.1...v0.21.2",
+    "published": "2026-04-24T04:25:16Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.2-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.2-rc1",
+    "description": "launch: harden OpenClaw onboarding flow ( #15777 )",
+    "published": "2026-04-23T23:47:20Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.2-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.2-rc0",
+    "description": "launch: use bundled OpenClaw ollama web search ( #15757 )",
+    "published": "2026-04-22T23:34:19Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.21.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.21.1",
+    "description": "What's Changed Kimi CLI You can now install and run the Kimi CLI through Ollama. ollama launch kimi --model kimi-k2.6:cloud Kimi CLI with Kimi K2.6 excels at long horizon agentic execution tasks through a multi-agent system. MLX runner adds logprobs support for compatible models Faster MLX sampling with fused top-P and top-K in a single sort pass, plus repeat penalties applied in the sampler Improved MLX prompt tokenization by moving tokenization into request handler goroutines Better MLX thread",
+    "published": "2026-04-22T18:32:50Z",
+    "source": "Ollama Releases"
+  }
+]

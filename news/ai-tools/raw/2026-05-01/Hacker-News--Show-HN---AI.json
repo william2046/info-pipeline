@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Show HN: Winpodx – run Windows apps on Linux as native windows",
+    "link": "https://github.com/kernalix7/winpodx",
+    "description": "Article URL: https://github.com/kernalix7/winpodx Comments URL: https://news.ycombinator.com/item?id=47970690 Points: 41 # Comments: 24",
+    "published": "Fri, 01 May 2026 02:23:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenWarp",
+    "link": "https://openwarp.zerx.dev",
+    "description": "Article URL: https://openwarp.zerx.dev Comments URL: https://news.ycombinator.com/item?id=47970622 Points: 50 # Comments: 53",
+    "published": "Fri, 01 May 2026 02:10:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Hearts of the Super Nintendo",
+    "link": "https://fabiensanglard.net/snes_hearts/",
+    "description": "Article URL: https://fabiensanglard.net/snes_hearts/ Comments URL: https://news.ycombinator.com/item?id=47970578 Points: 11 # Comments: 2",
+    "published": "Fri, 01 May 2026 02:02:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "ClawIRC – IRC Chat for Agents",
+    "link": "https://clawirc.com/",
+    "description": "Article URL: https://clawirc.com/ Comments URL: https://news.ycombinator.com/item?id=47970089 Points: 6 # Comments: 0",
+    "published": "Fri, 01 May 2026 00:29:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Universal patterns emerge across 22 languages, mapping how vocabularies evolve",
+    "link": "https://phys.org/news/2026-04-universal-patterns-emerge-languages-vocabularies.html",
+    "description": "Article URL: https://phys.org/news/2026-04-universal-patterns-emerge-languages-vocabularies.html Comments URL: https://news.ycombinator.com/item?id=47969522 Points: 15 # Comments: 1",
+    "published": "Thu, 30 Apr 2026 23:14:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "CPanel and WHM Authentication Bypass – CVE-2026-41940",
+    "link": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/",
+    "description": "Article URL: https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/ Comments URL: https://news.ycombinator.com/item?id=47969288 Points: 63 # Comments: 19",
+    "published": "Thu, 30 Apr 2026 22:48:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Snowball Earth may hide a far stranger climate cycle than anyone expected",
+    "link": "https://sciencex.com/news/2026-04-snowball-earth-stranger-climate.html",
+    "description": "Article URL: https://sciencex.com/news/2026-04-snowball-earth-stranger-climate.html Comments URL: https://news.ycombinator.com/item?id=47968982 Points: 54 # Comments: 6",
+    "published": "Thu, 30 Apr 2026 22:18:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Can I disable all data collection from my vehicle?",
+    "link": "https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle",
+    "description": "Article URL: https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle Comments URL: https://news.ycombinator.com/item?id=47967786 Points: 553 # Comments: 213",
+    "published": "Thu, 30 Apr 2026 20:27:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Vercel’s pricing page",
+    "link": "https://theupsellgame.com/",
+    "description": "Article URL: https://theupsellgame.com/ Comments URL: https://news.ycombinator.com/item?id=47967508 Points: 147 # Comments: 38",
+    "published": "Thu, 30 Apr 2026 20:02:35 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Follow-up to Carrot disclosure: Forgejo",
+    "link": "https://dustri.org/b/follow-up-to-carrot-disclosure-forgejo.html",
+    "description": "Article URL: https://dustri.org/b/follow-up-to-carrot-disclosure-forgejo.html Comments URL: https://news.ycombinator.com/item?id=47967069 Points: 53 # Comments: 7",
+    "published": "Thu, 30 Apr 2026 19:22:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Does Postgres Scale?",
+    "link": "https://www.dbos.dev/blog/benchmarking-workflow-execution-scalability-on-postgres",
+    "description": "Article URL: https://www.dbos.dev/blog/benchmarking-workflow-execution-scalability-on-postgres Comments URL: https://news.ycombinator.com/item?id=47966625 Points: 106 # Comments: 50",
+    "published": "Thu, 30 Apr 2026 18:45:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Full-Text Search with DuckDB",
+    "link": "https://peterdohertys.website/blog-posts/full-text-search-w-duckdb.html",
+    "description": "Article URL: https://peterdohertys.website/blog-posts/full-text-search-w-duckdb.html Comments URL: https://news.ycombinator.com/item?id=47966254 Points: 108 # Comments: 26",
+    "published": "Thu, 30 Apr 2026 18:14:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I built a Game Boy emulator in F#",
+    "link": "https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/",
+    "description": "Article URL: https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/ Comments URL: https://news.ycombinator.com/item?id=47965503 Points: 241 # Comments: 52",
+    "published": "Thu, 30 Apr 2026 17:14:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "For Linux kernel vulnerabilities, there is no heads-up to distributions",
+    "link": "https://www.openwall.com/lists/oss-security/2026/04/30/10",
+    "description": "Recent: Copy Fail - https://news.ycombinator.com/item?id=47952181 - April 2026 (466 comments) Comments URL: https://news.ycombinator.com/item?id=47965108 Points: 418 # Comments: 324",
+    "published": "Thu, 30 Apr 2026 16:43:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "How Mark Klein told the EFF about Room 641A [book excerpt]",
+    "link": "https://thereader.mitpress.mit.edu/the-whistleblower-who-uncovered-the-nsas-big-brother-machine/",
+    "description": "Article URL: https://thereader.mitpress.mit.edu/the-whistleblower-who-uncovered-the-nsas-big-brother-machine/ Comments URL: https://news.ycombinator.com/item?id=47965060 Points: 479 # Comments: 156",
+    "published": "Thu, 30 Apr 2026 16:41:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library",
+    "link": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/",
+    "description": "Article URL: https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/ Comments URL: https://news.ycombinator.com/item?id=47964617 Points: 349 # Comments: 121",
+    "published": "Thu, 30 Apr 2026 16:09:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Spain's parliament will act against massive IP blockages by LaLiga",
+    "link": "https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/",
+    "description": "Article URL: https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/ Comments URL: https://news.ycombinator.com/item?id=47964034 Points: 431 # Comments: 176",
+    "published": "Thu, 30 Apr 2026 15:31:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Honker – Durable queues, streams, pub/sub, and cron scheduler in a SQLite file",
+    "link": "https://honker.dev/",
+    "description": "Article URL: https://honker.dev/ Comments URL: https://news.ycombinator.com/item?id=47963316 Points: 187 # Comments: 52",
+    "published": "Thu, 30 Apr 2026 14:43:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Claude Code refuses requests or charges extra if your commits mention \"OpenClaw\"",
+    "link": "https://twitter.com/theo/status/2049645973350363168",
+    "description": "https://xcancel.com/theo/status/2049645973350363168 Comments URL: https://news.ycombinator.com/item?id=47963204 Points: 1029 # Comments: 573",
+    "published": "Thu, 30 Apr 2026 14:36:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "How an oil refinery works",
+    "link": "https://www.construction-physics.com/p/how-an-oil-refinery-works",
+    "description": "Article URL: https://www.construction-physics.com/p/how-an-oil-refinery-works Comments URL: https://news.ycombinator.com/item?id=47962548 Points: 363 # Comments: 113",
+    "published": "Thu, 30 Apr 2026 13:54:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
