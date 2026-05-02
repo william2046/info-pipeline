@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b8999",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8999",
+    "description": "llama-quant : fix --tensor-type when default qtype is overriden ( #22572 ) fix #22544 (my fault!) Credit to @Anai-Guo , ref #22559 - since that one was closed due to the new contributor policy I am taking the liberty of re-submitting that PR here. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu ",
+    "published": "2026-05-01T20:34:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8998",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8998",
+    "description": "hexagon: enable non-contiguous row tensor support for unary ops ( #22574 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DL",
+    "published": "2026-05-01T20:10:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8996",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8996",
+    "description": "ggml-webgpu: Fix vectorized handling in mul-mat and mul-mat-id ( #22578 ) Fix vectorized condition of mul-mat-fast pipeline and add vectorized variant to mul-mat-id Apply suggestion from @CISC Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
+    "published": "2026-05-01T16:39:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8995",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8995",
+    "description": "vulkan: Support asymmetric FA in coopmat2 path ( #21753 ) vulkan: Support asymmetric FA in coopmat2 path There has been some recent interest/experimentation with mixed quantization types for FA. I had originally designed the cm2 FA shader with this in mind (because I didn't realize it wasn't supported at the time!), this change adds the missing pieces and enables it. Also support Q1_0 since people have been trying that out (seems crazy, but who knows). We should be able to do similar things in t",
+    "published": "2026-05-01T16:11:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8994",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8994",
+    "description": "ggml-webgpu: add the upscale shader ( #22419 ) shader(upscale): add the upscale shader with nearest, bilinear and bicubic implementations shader(upscale): use macro macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64",
+    "published": "2026-05-01T06:23:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8992",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8992",
+    "description": "Update llama-mmap to use ftello/fseeko ( #22497 ) Update llama-mmap to work with 32-bit wasm and >2GB models Update to gguf.cpp style macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CP",
+    "published": "2026-04-30T23:34:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8991",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8991",
+    "description": "common : check for null getpwuid in hf-cache ( #22550 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Wind",
+    "published": "2026-04-30T23:03:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8990",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8990",
+    "description": "vulkan: add get/set tensor 2d functions ( #22514 ) vulkan: add get/set_tensor_2d functions fix backend interface comments Update ggml/src/ggml-metal/ggml-metal.cpp Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x",
+    "published": "2026-04-30T18:03:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8989",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8989",
+    "description": "spec: fix argument typo ( #22552 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLL",
+    "published": "2026-04-30T18:10:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b8987",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b8987",
+    "description": "vendor : update cpp-httplib to 0.43.2 ( #22548 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64",
+    "published": "2026-04-30T14:51:20Z",
+    "source": "llama.cpp Releases"
+  }
+]
