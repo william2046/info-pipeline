@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-classic==1.0.5",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.0.5",
+    "description": "Changes since langchain-classic==1.0.4 release(langchain-classic): 1.0.5 ( #37165 ) refactor(langchain-classic): retarget deprecations to create_agent , other chores ( #37164 ) chore(langchain,langchain-classic): uncomment optional deps ( #37163 ) chore: bump types-pyyaml from 6.0.12.20250915 to 6.0.12.20260408 in /libs/langchain ( #37130 ) chore: bump types-pytz from 2026.1.1.20260304 to 2026.1.1.20260408 in /libs/langchain ( #37131 ) chore: bump notebook from 7.4.5 to 7.5.6 in /libs/langchain ",
+    "published": "2026-05-03T17:32:23Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.4.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.3",
+    "description": "Changes since langchain-anthropic==1.4.2 release(anthropic): 1.4.3 ( #37166 ) refactor(langchain-classic): retarget deprecations to create_agent , other chores ( #37164 ) chore(docs): update x handle references ( #37081 ) fix(anthropic): guard httpx finalizers ( #37064 )",
+    "published": "2026-05-03T17:33:44Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openrouter==0.2.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.3",
+    "description": "Changes since langchain-openrouter==0.2.2 release(openrouter): 0.2.3 ( #37146 ) fix(openrouter): merge fragmented reasoning_details in streaming ( #36401 )",
+    "published": "2026-05-01T21:59:57Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openrouter==0.2.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.2",
+    "description": "Changes since langchain-openrouter==0.2.1 release(openrouter): 0.2.2 ( #37139 ) feat(openrouter): session_id and trace fields ( #37137 ) chore(docs): update x handle references ( #37081 ) chore(model-profiles): refresh model profile data ( #37074 ) chore(model-profiles): refresh model profile data ( #37051 ) chore(model-profiles): refresh model profile data ( #37015 ) chore(model-profiles): refresh model profile data ( #37005 ) hotfix: bump min core versions ( #36996 ) feat(core): add content-bl",
+    "published": "2026-05-01T18:22:05Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-mistralai==1.1.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.3",
+    "description": "Changes since langchain-mistralai==1.1.2 release(mistralai): 1.1.3 ( #37145 ) feat(mistralai): add image input support for human messages ( #37112 ) chore(model-profiles): refresh model profile data ( #37122 ) chore(docs): update x handle references ( #37081 ) hotfix: bump min core versions ( #36996 ) feat(core): add content-block-centric streaming (v2) ( #36834 ) ci(infra): add pytest-xdist to partner test groups ( #36988 ) hotfix(ci): remove nobenchmark flag ( #36959 ) chore(partners): standar",
+    "published": "2026-05-01T21:11:18Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.3.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.3.0",
+    "description": "Changes since langchain-fireworks==1.2.1 release(fireworks): 1.3.0 ( #37144 ) feat(fireworks): service_tier init kwarg on ChatFireworks ( #37143 ) chore(model-profiles): refresh model profile data ( #37122 )",
+    "published": "2026-05-01T20:46:43Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.4.0a2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0a2",
+    "description": "Initial release release(core): 1.4.0a2 ( #37134 ) refactor(core): unwind _AsyncEventsResult hybrid for astream_events ( #37133 ) release(core): 1.4.0a1 ( #37132 ) Merge remote-tracking branch 'origin/master' into v1.4 feat(core): stream_events(version='v3') protocol ( #37111 ) fix(core): preserve structured inputs on tool runs in tracers ( #37108 ) release(perplexity): 1.2.0 ( #37091 ) chore(docs): update x handle references ( #37081 ) fix(core): make removal optional in warn_deprecated ( #37056",
+    "published": "2026-05-01T15:02:35Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.4.0a1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0a1",
+    "description": "Initial release release(core): 1.4.0a1 ( #37132 ) Merge remote-tracking branch 'origin/master' into v1.4 feat(core): stream_events(version='v3') protocol ( #37111 ) fix(core): preserve structured inputs on tool runs in tracers ( #37108 ) release(perplexity): 1.2.0 ( #37091 ) chore(docs): update x handle references ( #37081 ) fix(core): make removal optional in warn_deprecated ( #37056 ) fix(core): validate batch_size in _batch and _abatch to prevent infinite loop ( #36663 ) chore(core): mark str",
+    "published": "2026-05-01T13:40:15Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.0a1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.0a1",
+    "description": "Initial release release(langchain): 1.3.0a1 ( #37140 ) feat(langchain): wire stream_events(version='v3') into create_agent ( #37136 ) Merge remote-tracking branch 'origin/master' into v1.4 feat(core): stream_events(version='v3') protocol ( #37111 ) release(fireworks): 1.2.1 ( #37113 ) release(langchain): 1.2.17 ( #37110 ) feat(langchain): add respond decision to HITL middleware ( #37095 ) release(langchain): 1.2.16 ( #37085 ) chore(docs): update x handle references ( #37081 ) release(anthropic):",
+    "published": "2026-05-01T19:19:36Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.2.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.2.1",
+    "description": "Changes since langchain-fireworks==1.2.0 release(fireworks): 1.2.1 ( #37113 ) fix(fireworks): translate canonical multimodal content blocks for chat completions ( #37090 ) chore: bump aiohttp from 3.13.4 to 3.13.5 in /libs/partners/fireworks ( #37106 ) chore: bump requests from 2.33.0 to 2.33.1 in /libs/partners/fireworks ( #37107 ) chore(docs): update x handle references ( #37081 ) chore(model-profiles): refresh model profile data ( #37074 ) hotfix: bump min core versions ( #36996 ) feat(core):",
+    "published": "2026-04-30T21:52:20Z",
+    "source": "LangChain Releases"
+  }
+]
