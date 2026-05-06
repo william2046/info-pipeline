@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.20.1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1",
+    "description": "vLLM v0.20.1 This is a patch release on top of v0.20.0 primarily focused on DeepSeek V4 stabilization and performance improvements , along with several important bug fixes. DeepSeek V4 Base model support ( #41006 ). Multi-stream pre-attention GEMM ( #41061 ), configurable pre-attn GEMM knob ( #41443 ), and tuned default VLLM_MULTI_STREAM_GEMM_TOKEN_THRESHOLD ( #41526 ). BF16 and MXFP8 all-to-all support for FlashInfer one-sided communication ( #40960 ). PTX cvt instruction for faster FP32->FP4 c",
+    "published": "2026-05-04T10:36:59Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.20.2rc0: [MRV2] Add shutdown() method (#41297)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.20.2rc0",
+    "description": "Signed-off-by: Woosuk Kwon woosuk@inferact.ai",
+    "published": "2026-05-03T04:06:30Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.20.1rc0: Add system_fingerprint field to OpenAI-compatible API responses (#40537)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1rc0",
+    "description": "Co-authored-by: Claude noreply@anthropic.com",
+    "published": "2026-04-27T08:17:52Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.20.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.20.0",
+    "description": "vLLM v0.20.0 Highlights This release features 752 commits from 320 contributors (123 new)! DeepSeek V4 : Initial DeepSeek V4 support landed ( #40860 ), with DSML token-leakage fix in DSV4/3.2 ( #40806 ), DSA + MTP IMA fix ( #40772 ), and a silu clamp limit on the shared expert ( #40950 ). CUDA 13.0 default : Default CUDA wheel on PyPI and vllm/vllm-openai:v0.20.0 image switched to CUDA 13.0; architecture lists and build-args cleaned up ( #39878 ), and CUDA bumped to 13.0.2 to match PyTorch 2.11.",
+    "published": "2026-04-27T21:20:28Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.20.0rc1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.20.0rc1",
+    "description": "Revert \"[Misc] Move pyav and soundfile to common requirements\" (#…",
+    "published": "2026-04-22T09:00:47Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.19.2rc0: [Bugfix] Fix k_proj's bias for GLM-ASR (#40160)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.19.2rc0",
+    "description": "Signed-off-by: Rishapveer Singh singhrishapveer@gmail.com",
+    "published": "2026-04-18T05:34:33Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.19.1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.19.1",
+    "description": "This is a patch release on top of v0.19.0 with Transformers v5.5.3 upgrade and bug fixes for Gemma4: Update to transformers v5 ( #30566 ) [Bugfix] Fix invalid JSON in Gemma 4 streaming tool calls by stripping partial delimiters ( #38992 ) [Bugfix][Frontend] Fix Gemma4 streaming HTML duplication after tool calls ( #38909 ) [Bugfix] Fix Gemma4 streaming tool call corruption for split boolean/number values ( #39114 ) [Tool] adjust_request to reasoning parser, and Gemma4 fixes ( #39027 ) [Gemma4] Su",
+    "published": "2026-04-21T00:46:27Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.19.1rc0: [Misc] Clean up Gemma4 implementation (#38872)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.19.1rc0",
+    "description": "Signed-off-by: Isotr0py mozf@mail2.sysu.edu.cn",
+    "published": "2026-04-03T05:47:02Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.19.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.19.0",
+    "description": "vLLM v0.19.0 Highlights This release features 448 commits from 197 contributors (54 new)! Gemma 4 support : Full Google Gemma 4 architecture support including MoE, multimodal, reasoning, and tool-use capabilities ( #38826 , #38847 ). Requires transformers>=5.5.0 . We recommend using pre-built docker image vllm/vllm-openai:gemma4 for out of box usage. Zero-bubble async scheduling + speculative decoding : Async scheduling now supports speculative decoding with zero-bubble overlap, significantly im",
+    "published": "2026-04-04T20:16:12Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.19.0rc1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.19.0rc1",
+    "description": "[Bugfix] Restrict TRTLLM attention to SM100, fixing GB300 (SM103) han…",
+    "published": "2026-04-01T19:11:03Z",
+    "source": "vLLM Releases"
+  }
+]

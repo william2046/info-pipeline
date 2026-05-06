@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9037",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9037",
+    "description": "Hexagon: Process M-tail rows on HMX instead of HVX ( #22724 ) hex-mm: process m-tail rows on HMX instead of HVX hmx-mm: unroll and optimize padded activation loop Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL",
+    "published": "2026-05-05T20:46:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9033",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9033",
+    "description": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) ",
+    "published": "2026-05-05T14:19:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9031",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9031",
+    "description": "common : only load backends when required ( #22290 ) common : only load backends when required Signed-off-by: Adrien Gallouët angt@huggingface.co llama : call ggml_backend_load_all() directly from llama_backend_init() Signed-off-by: Adrien Gallouët angt@huggingface.co Add ggml_backend_load_all() where llama_backend_init() is not used Signed-off-by: Adrien Gallouët angt@huggingface.co Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (ar",
+    "published": "2026-05-05T14:07:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9030",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9030",
+    "description": "vendor : update cpp-httplib to 0.43.3 ( #22686 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) -",
+    "published": "2026-05-05T10:32:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9029: server : validate --tools CLI argument against known tool names (#22538)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9029",
+    "description": "Previously, unknown tool names passed via --tools were silently ignored. Now the server validates each tool name at startup and exits with an error if an unrecognized tool is specified, listing the available tools. Assisted-by: llama.cpp:local pi",
+    "published": "2026-05-05T03:35:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9028",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9028",
+    "description": "llama : add option to save memory in device buffers ( #22679 ) llama : add option to save memory in device buffers tests : extend llama-save-load-state macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
+    "published": "2026-05-05T06:34:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9026",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9026",
+    "description": "ggml : implement fast walsh-hadamard transform for kv rotation ( #21352 ) ( #22631 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CU",
+    "published": "2026-05-05T05:34:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9025",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9025",
+    "description": "kleidiai : update to v1.24.0 and use release archive ( #22549 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows ",
+    "published": "2026-05-04T21:51:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9023",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9023",
+    "description": "server: implement /models?reload=1 ( #21848 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CU",
+    "published": "2026-05-04T21:14:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9022",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9022",
+    "description": "examples: refactor diffusion generation ( #22590 ) examples: refactor diffusion generation renamed enum values macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) ",
+    "published": "2026-05-04T18:38:20Z",
+    "source": "llama.cpp Releases"
+  }
+]
