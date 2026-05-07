@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.30.0-rc3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc3",
+    "description": "ci: fix windows rocm build",
+    "published": "2026-05-07T03:01:09Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc2",
+    "description": "ci: fix windows llama-server build",
+    "published": "2026-05-07T02:38:05Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc1",
+    "description": "ci: fix windows MLX build",
+    "published": "2026-05-07T02:20:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc0",
+    "description": "refine implementation",
+    "published": "2026-05-07T00:26:05Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.23.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.23.1",
+    "description": "Gemma 4 MTP (Multi-token Processing) for the MLX runner Gemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks. ollama run gemma4:31b-coding-mtp-bf16 What's Changed Update MLX and MLX-C with threading fixes by @dhiltgen in #15845 go: bump to 1.26 by @ParthSareen in #15904 Add Gemma 4 MTP speculative decoding by @pdevine in #15980 Full Changelog : v0.23.0...v0.23.1",
+    "published": "2026-05-06T21:35:15Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.23.1-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.23.1-rc0",
+    "description": "ci: fix CI for MLX",
+    "published": "2026-05-05T14:36:28Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.23.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.23.0",
+    "description": "Claude Desktop Claude Desktop is now supported with Ollama Launch. Claude Cowork and Claude Code are supported within the Claude Desktop App. ollama launch claude-desktop Claude Cowork Claude Code Claude Code on the terminal can still be accessed through the CLI with: ollama launch claude Not supported yet Web Search (coming soon) Extensions What's Changed Launch Claude Desktop with ollama launch claude-desktop The Ollama app now surfaces featured models from server-driven recommendations Fixed ",
+    "published": "2026-05-04T01:32:41Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.23.0-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.23.0-rc0",
+    "description": "launch: claude app ( #15937 )",
+    "published": "2026-05-03T02:19:57Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.22.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.22.1",
+    "description": "What's Changed Updated the Gemma 4 renderer for thinking and tool calling improvements Model recommendations are now updated without updating Ollama Aligned the desktop app's launch page with ollama launch integrations Fixed the Poolside integration title in ollama launch Full Changelog : v0.22.0...v0.22.1",
+    "published": "2026-04-30T23:46:00Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.22.1-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.22.1-rc1",
+    "description": "renderers: update gemma4 renderer ( #15886 )",
+    "published": "2026-04-30T01:40:23Z",
+    "source": "Ollama Releases"
+  }
+]

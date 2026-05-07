@@ -1,0 +1,72 @@
+[
+  {
+    "title": "gguf-v0.19.0",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/gguf-v0.19.0",
+    "description": "Version 0.19.0 release",
+    "published": "2026-05-06T12:47:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9049",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9049",
+    "description": "mtmd : support MiniCPM-V 4.6 ( #22529 ) Support MiniCPM-V 4.6 in new branch Signed-off-by: tc-mb tianchi_cai@icloud.com fix code bug Signed-off-by: tc-mb tianchi_cai@icloud.com fix pre-commit Signed-off-by: tc-mb tianchi_cai@icloud.com fix convert Signed-off-by: tc-mb tianchi_cai@icloud.com rename clip_graph_minicpmv4_6 Signed-off-by: tc-mb tianchi_cai@icloud.com use new TYPE_MINICPMV4_6 Signed-off-by: tc-mb tianchi_cai@icloud.com use build_attn to allow flash attention support Signed-off-by: tc",
+    "published": "2026-05-06T21:44:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9048",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9048",
+    "description": "model : don't crash on unsupported architecture ( #22742 ) model: don't crash on unsupported architecture Update src/llama-model.cpp Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) ",
+    "published": "2026-05-06T18:04:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9047",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9047",
+    "description": "common: do not fit to unknown device memory ( #22614 ) common: do not fit to unknown device memory Signed-off-by: Florian Reinle f.reinle@otec.de common: preserve host fallback for non-GPU fit devices Signed-off-by: Florian Reinle f.reinle@otec.de common: keep unknown GPU fit memory at zero Signed-off-by: Florian Reinle f.reinle@otec.de Signed-off-by: Florian Reinle f.reinle@otec.de macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFrame",
+    "published": "2026-05-06T17:25:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9045",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9045",
+    "description": "mtmd: add granite-speech support (ibm-granite/granite-4.0-1b-speech) ( #22101 ) mtmd: add granite-speech support (ibm-granite/granite-4.0-1b-speech) Conformer encoder with Shaw relative position encoding, QFormer projector, log-mel spectrogram with frame stacking. Encoder uses GLU gating, folded batch norm, and SSM depthwise conv. QFormer compresses encoder output via windowed cross-attention (window=15, queries=3) into the LLM embedding space. Audio preprocessing: reflect-padded STFT, 80-bin me",
+    "published": "2026-05-06T13:35:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9041",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9041",
+    "description": "ggml-cpu: fuse RMS_NORM + MUL on CPU backend ( #22423 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUD",
+    "published": "2026-05-06T08:33:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9038",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9038",
+    "description": "ggml : use CL_DEVICE_GLOBAL_MEM_SIZE as memory estimate for OpenCL --fit ( #22688 ) ggml : report estimated OpenCL memory for --fit Signed-off-by: Florian Reinle f.reinle@otec.de ggml : estimated OpenCL memory backend integrated Signed-off-by: Florian Reinle f.reinle@otec.de Signed-off-by: Florian Reinle f.reinle@otec.de macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (C",
+    "published": "2026-05-06T05:59:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9037",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9037",
+    "description": "Hexagon: Process M-tail rows on HMX instead of HVX ( #22724 ) hex-mm: process m-tail rows on HMX instead of HVX hmx-mm: unroll and optimize padded activation loop Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL",
+    "published": "2026-05-05T20:46:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9033",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9033",
+    "description": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) ",
+    "published": "2026-05-05T14:19:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9031",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9031",
+    "description": "common : only load backends when required ( #22290 ) common : only load backends when required Signed-off-by: Adrien Gallouët angt@huggingface.co llama : call ggml_backend_load_all() directly from llama_backend_init() Signed-off-by: Adrien Gallouët angt@huggingface.co Add ggml_backend_load_all() where llama_backend_init() is not used Signed-off-by: Adrien Gallouët angt@huggingface.co Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (ar",
+    "published": "2026-05-05T14:07:29Z",
+    "source": "llama.cpp Releases"
+  }
+]
