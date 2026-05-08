@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-core==0.3.86",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D0.3.86",
+    "description": "Changes since langchain-core==0.3.85 release(core): 0.3.86 ( #37242 ) fix(core): backport path-traversal fix to v0.3 ( CVE-2026-34070 , GHSA-qh6h-p6c9-ff54 ) ( #37233 )",
+    "published": "2026-05-07T16:48:35Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-classic==1.0.7",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.0.7",
+    "description": "Changes since langchain-classic==1.0.6 release(langchain-classic): 1.0.7 ( #37240 ) chore(langchain-classic): deprecate hub, limit loads/dumps ( #37234 )",
+    "published": "2026-05-07T15:47:20Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==0.3.30",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D0.3.30",
+    "description": "Changes since langchain==0.3.29 release(langchain): release 0.3.30 ( #37241 ) chore(langchain): backport loads/dumps harden to v0.3 and deprecate hub ( #37239 )",
+    "published": "2026-05-07T15:57:13Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.0a2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.0a2",
+    "description": "Initial release release(langchain): 1.3.0a2 ( #37225 ) release(langchain): 1.3.0a2 ( #37224 ) fix(langchain): ordered schema resolution — list replaces set so state_schema wins ( #37223 ) release(langchain): 1.3.0a1 ( #37140 ) feat(langchain): wire stream_events(version='v3') into create_agent ( #37136 ) Merge remote-tracking branch 'origin/master' into v1.4 feat(core): stream_events(version='v3') protocol ( #37111 ) release(fireworks): 1.2.1 ( #37113 ) release(langchain): 1.2.17 ( #37110 ) feat",
+    "published": "2026-05-06T18:54:44Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-mistralai==1.1.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.4",
+    "description": "Changes since langchain-mistralai==1.1.3 release(mistralai): 1.1.4 ( #37191 ) fix(mistralai): strip non-wire keys from ToolMessage ( #37188 )",
+    "published": "2026-05-05T15:29:15Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.3.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.3.1",
+    "description": "Changes since langchain-fireworks==1.3.0 fix(fireworks): require api_key in FireworksEmbeddings ( #37193 ) release(fireworks): 1.3.1 ( #37189 ) fix(fireworks): strip non-wire keys from ToolMessage text content blocks ( #37187 )",
+    "published": "2026-05-05T15:43:37Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.3.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.3.3",
+    "description": "Changes since langchain-core==1.3.2 release(core): 1.3.3 ( #37198 ) fix(core): set deprecation since to 1.3.3 to match release ( #37200 ) fix(core, langchain): harden load() against untrusted manifests ( #37197 ) chore: bump notebook from 7.5.0 to 7.5.6 in /libs/core ( #37109 ) chore: bump types-pyyaml from 6.0.12.20250915 to 6.0.12.20260408 in /libs/core ( #37129 ) fix(core): preserve structured inputs on tool runs in tracers ( #37108 ) release(perplexity): 1.2.0 ( #37091 ) chore(docs): update ",
+    "published": "2026-05-05T19:02:53Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==0.3.85",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D0.3.85",
+    "description": "Changes since langchain-core==0.3.84 release(core): 0.3.85 ( #37205 ) fix(core, langchain): harden load() against untrusted manifests ( #37201 )",
+    "published": "2026-05-05T20:43:46Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-classic==1.0.6",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.0.6",
+    "description": "Changes since langchain-classic==1.0.5 release(langchain-classic): 1.0.6 ( #37211 ) chore: bump jupyter-server from 2.17.0 to 2.18.0 in /libs/langchain ( #37203 ) fix(langchain): restrict deserialization in langchain_classic.storage._lc_store ( #37208 ) fix(langchain): use langchain-classic version for hub.pull deprecation ( #37199 ) fix(core, langchain): harden load() against untrusted manifests ( #37197 )",
+    "published": "2026-05-05T21:02:41Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==0.3.29",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D0.3.29",
+    "description": "Changes since langchain==0.3.28 release(langchain): 0.3.29 ( #37212 ) fix(langchain): restrict deserialization in langchain.storage._lc_store ( #37209 ) fix(core, langchain): harden load() against untrusted manifests ( #37201 )",
+    "published": "2026-05-05T21:02:15Z",
+    "source": "LangChain Releases"
+  }
+]

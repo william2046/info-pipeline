@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.30.0-rc7",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc7",
+    "description": "disable openmp",
+    "published": "2026-05-08T02:23:28Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc6",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc6",
+    "description": "win: fix dependency gathering",
+    "published": "2026-05-07T22:59:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc5",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc5",
+    "description": "ci: fix windows dependencies",
+    "published": "2026-05-07T18:32:52Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc4: ci: windows mlx tuning",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc4",
+    "description": "Shorten long-tail on build, and get OllamaSetup.exe back under 2g limit",
+    "published": "2026-05-07T14:35:22Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc3",
+    "description": "ci: fix windows rocm build",
+    "published": "2026-05-07T03:01:09Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc2",
+    "description": "ci: fix windows llama-server build",
+    "published": "2026-05-07T02:38:05Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc1",
+    "description": "ci: fix windows MLX build",
+    "published": "2026-05-07T02:20:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc0",
+    "description": "refine implementation",
+    "published": "2026-05-07T00:26:05Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.23.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.23.2",
+    "description": "What's Changed ollama launch no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. Use ollama launch claude-desktop --restore to restore Claude Desktop to its normal state. /api/show responses are now cached, improving median latency by ~6.7x which will increase load speed for integrations like VS Code. Improved backup workflow when managing launch integrations Cleaner image generation layout in the MLX runner Full Changelog : v0.23.1...v0.23.2",
+    "published": "2026-05-08T02:48:13Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.23.2-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.23.2-rc0",
+    "description": "launch: disable Claude Desktop launch ( #16028 )",
+    "published": "2026-05-07T17:46:18Z",
+    "source": "Ollama Releases"
+  }
+]

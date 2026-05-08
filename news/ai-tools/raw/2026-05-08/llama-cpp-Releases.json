@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9066",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9066",
+    "description": "CUDA: batch out_prod inner loop with cublasSgemmStridedBatched ( #22651 ) CUDA: batch out_prod inner loop with cublasSgemmStridedBatched CUDA: batch out_prod inner loop with cublasSgemmStridedBatched CUDA: add cublasSgemmStridedBatched mapping for HIP and MUSA backends macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
+    "published": "2026-05-07T23:24:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9064",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9064",
+    "description": "llama : fix device state save/load ( #22805 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CU",
+    "published": "2026-05-07T22:26:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9063",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9063",
+    "description": "opencl: add opfilter regex for debugging ( #22782 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13",
+    "published": "2026-05-07T22:24:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9062",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9062",
+    "description": "common/chat : preserve media markers for typed-content templates ( #22634 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 D",
+    "published": "2026-05-07T21:18:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9061",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9061",
+    "description": "tests: add long-sequence cases and fix inputs for gated_delta_net ( #22794 ) tests : add long-seq + tail cases for gated_delta_net tests : realistic input ranges for gated_delta_net macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andro",
+    "published": "2026-05-07T20:52:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9060",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9060",
+    "description": "sycl: add FILL, CUMSUM, DIAG, SOLVE_TRI, SSM_SCAN, GATED_DELTA_NET ( #22149 ) sycl: add FILL, CUMSUM, DIAG, SOLVE_TRI, SSM_SCAN, GATED_DELTA_NET Signed-off-by: Chun Tao chun.tao@intel.com Fix abort during test-backend-ops Signed-off-by: Todd Malsbary todd.malsbary@intel.com Regenerate ops.md Signed-off-by: Todd Malsbary todd.malsbary@intel.com Add scope_dbg_print to newly added SYCL ops. Also add scope_dbg_print to existing ssm_conv op. Signed-off-by: Todd Malsbary todd.malsbary@intel.com Signed",
+    "published": "2026-05-07T18:37:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9058",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9058",
+    "description": "llama : remove unnecessary seq_id check during state restore ( #22797 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs ",
+    "published": "2026-05-07T15:41:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9057",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9057",
+    "description": "ggml-cpu: Optimized risc-v cpu q1_0 dot macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.",
+    "published": "2026-05-07T15:24:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9056",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9056",
+    "description": "mtmd: fix whisper audio tail truncation by exposing padded buffer to FFT ( #22770 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUD",
+    "published": "2026-05-07T15:24:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9055",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9055",
+    "description": "model: Add Mimo v2.5 model support ( #22493 ) add mimo-v2.5 support mimo-v2.5: fix modify_tensors row split mimi-v2.5: forgot add_attn_value_scale plumbing mimi-v2.5: fix tp dequant to detect tp rows mimo-v2.5: fix TP iteration to be descending mimo-v2.5: fix comment mimo-v2.5: retain fused qkv mimo-v2.5: missed the attn_value scale during merge mimo-v2.5: fused QKV needs contiguous for scaling attention value mimo-v2.5: move speech_embeddings. to TextModel filter_tensors Update src/llama-hparam",
+    "published": "2026-05-07T13:31:17Z",
+    "source": "llama.cpp Releases"
+  }
+]
