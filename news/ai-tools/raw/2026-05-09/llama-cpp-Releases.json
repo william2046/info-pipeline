@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9084",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9084",
+    "description": "hexagon: add HTP kernel for GGML_OP_GATED_DELTA_NET ( #22837 ) Implement the Gated Delta Net recurrence on HVX with: 4-row fused kernels for PP (prompt processing) path 8-row fused kernels for TG (token generation) path, reducing K/Q/gate vector reload overhead by 2x Separate PP/TG thread functions for I-cache isolation VTCM state scratchpad with DMA in/out for TG single-cycle access Vectorized gate exp via hvx_exp_f32 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI e",
+    "published": "2026-05-09T03:28:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9082",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9082",
+    "description": "Feature hexagon l2 norm ( #22816 ) L2_NORM Updates Addressed PR Comments ggml-hexagon: add L2_NORM HVX kernel for Hexagon backend hex-unary: remove supported_unary_nc since the outer loop is the same for all unary ops Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubunt",
+    "published": "2026-05-08T22:22:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9081",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9081",
+    "description": "common : do not wrap raw strings in schema parser for tagged parsers ( #22827 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12",
+    "published": "2026-05-08T22:19:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9080",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9080",
+    "description": "model : support Gemma4_26B_A4B_NVFP4 ( #22804 ) Gemma4_26B_A4B_NvFp4 hf checkpoint convert to gguf format fixes Signed-off-by: ynankani ynankani@nvidia.com Apply suggestions from code review Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com Address review comments Signed-off-by: ynankani ynankani@nvidia.com fix CRLF Signed-off-by: ynankani ynankani@nvidia.com Lint error fix Signed-off-by: ynankani ynankani@nvidia.com Signed-off-by: ynankani ynankani@nvidia.com Co-authored-by: Sigbjørn",
+    "published": "2026-05-08T21:08:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9079",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9079",
+    "description": "common : revert reasoning budget +inf logit bias ( #22740 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 ",
+    "published": "2026-05-08T20:25:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9077",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9077",
+    "description": "server: support Vertex AI compatible API ( #22545 ) server: support Vertex AI compatible API a bit safer support other AIP_* env var various fixes if AIP_MODE is unset, do nothing fix test case fix windows build macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32",
+    "published": "2026-05-08T19:30:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9076",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9076",
+    "description": "server: (router) expose child model info from router's /v1/models ( #22683 ) server: (router) expose child model info from router's /v1/models update docs macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
+    "published": "2026-05-08T18:55:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9075",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9075",
+    "description": "cuda: fuse snake activation (mul, sin, sqr, mul, add) ( #22667 ) cuda: fuse snake activation (mul, sin, sqr, mul, add) Add ggml_cuda_op_snake_fused with F32 / F16 / BF16 templates. The matcher recognizes the naive 5 op decomposition emitted by audio decoders (BigVGAN, Vocos) for snake activation y = x + sin(a*x)^2 * inv_b and rewrites it to a single elementwise kernel. Add test_snake_fuse comparing CPU naive vs CUDA fused across F32 / F16 / BF16. cuda: address review feedback from @am17an Use gg",
+    "published": "2026-05-08T17:39:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9073",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9073",
+    "description": "CUDA: lower-case PCI bus id, standardize for ggml ( #22820 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64",
+    "published": "2026-05-08T16:07:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9072",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9072",
+    "description": "vulkan: fix spv shadowing ( #22760 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 D",
+    "published": "2026-05-08T13:28:13Z",
+    "source": "llama.cpp Releases"
+  }
+]
