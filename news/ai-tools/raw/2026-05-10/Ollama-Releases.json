@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.30.0-rc11",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc11",
+    "description": "win: avoid spaces in compiler path",
+    "published": "2026-05-09T16:57:58Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc10",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc10",
+    "description": "win: fix arm64 cross-compile",
+    "published": "2026-05-09T16:39:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc9",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc9",
+    "description": "win: fix build",
+    "published": "2026-05-09T14:52:24Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc8: Merge remote-tracking branch 'upstream/main' into llama-runner-phase-0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc8",
+    "description": "Conflicts: envconfig/config.go integration/context_test.go integration/model_arch_test.go",
+    "published": "2026-05-08T23:00:29Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc7",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc7",
+    "description": "disable openmp",
+    "published": "2026-05-08T02:23:28Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc6",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc6",
+    "description": "win: fix dependency gathering",
+    "published": "2026-05-07T22:59:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc5",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc5",
+    "description": "ci: fix windows dependencies",
+    "published": "2026-05-07T18:32:52Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc4: ci: windows mlx tuning",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc4",
+    "description": "Shorten long-tail on build, and get OllamaSetup.exe back under 2g limit",
+    "published": "2026-05-07T14:35:22Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc3",
+    "description": "ci: fix windows rocm build",
+    "published": "2026-05-07T03:01:09Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc2",
+    "description": "ci: fix windows llama-server build",
+    "published": "2026-05-07T02:38:05Z",
+    "source": "Ollama Releases"
+  }
+]

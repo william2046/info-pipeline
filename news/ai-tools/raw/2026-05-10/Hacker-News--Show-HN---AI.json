@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Gemini API File Search is now multimodal",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+    "description": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/ Comments URL: https://news.ycombinator.com/item?id=48080702 Points: 18 # Comments: 2",
+    "published": "Sun, 10 May 2026 03:22:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
+    "link": "https://github.com/imtomt/ymawky",
+    "description": "This is ymawky, a static file web server for MacOS written entirely in ARM64 assembly. It supports GET, PUT, DELETE, HEAD, and OPTIONS requests, and supports Range: bytes=X-Y headers (which allows scrubbing for video streaming). It decodes percent-encoded URLs, strictly enforces docroot, serves custom error pages for any HTTP error response, supports directory listing, and has (some) mitigations against slowloris-like attacks. I’ve also written a more detailed writeup here: https://imtomt.github",
+    "published": "Sun, 10 May 2026 03:01:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Sparse Cholesky Elimination Tree",
+    "link": "https://www.reidatcheson.com/sparse/linear/cholesky/2026/04/09/etree.html",
+    "description": "Article URL: https://www.reidatcheson.com/sparse/linear/cholesky/2026/04/09/etree.html Comments URL: https://news.ycombinator.com/item?id=48080221 Points: 9 # Comments: 0",
+    "published": "Sun, 10 May 2026 01:52:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "France moves to break encrypted messaging",
+    "link": "https://reclaimthenet.org/france-moves-to-break-encrypted-messaging",
+    "description": "Article URL: https://reclaimthenet.org/france-moves-to-break-encrypted-messaging Comments URL: https://news.ycombinator.com/item?id=48078811 Points: 123 # Comments: 65",
+    "published": "Sat, 09 May 2026 22:14:35 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Rust but Lisp",
+    "link": "https://github.com/ThatXliner/rust-but-lisp",
+    "description": "Article URL: https://github.com/ThatXliner/rust-but-lisp Comments URL: https://news.ycombinator.com/item?id=48078575 Points: 105 # Comments: 55",
+    "published": "Sat, 09 May 2026 21:46:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Local privilege escalation via execve()",
+    "link": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc",
+    "description": "Article URL: https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc Comments URL: https://news.ycombinator.com/item?id=48077971 Points: 111 # Comments: 64",
+    "published": "Sat, 09 May 2026 20:31:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I caught the car",
+    "link": "https://undecidability.net/senior/",
+    "description": "Article URL: https://undecidability.net/senior/ Comments URL: https://news.ycombinator.com/item?id=48077966 Points: 43 # Comments: 54",
+    "published": "Sat, 09 May 2026 20:31:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Surfel-based global illumination on the web",
+    "link": "https://juretriglav.si/surfel-based-global-illumination-on-the-web/",
+    "description": "Article URL: https://juretriglav.si/surfel-based-global-illumination-on-the-web/ Comments URL: https://news.ycombinator.com/item?id=48077395 Points: 32 # Comments: 0",
+    "published": "Sat, 09 May 2026 19:09:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Meta's embrace of AI is making its employees miserable",
+    "link": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+    "description": "Article URL: https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html Comments URL: https://news.ycombinator.com/item?id=48077126 Points: 341 # Comments: 340",
+    "published": "Sat, 09 May 2026 18:33:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
+    "link": "https://github.com/nooga/let-go",
+    "description": "Let-go is a Clojure-like language (~90% compatible with JVM Clojure) written in pure Go. It ships as a ~10MB static binary and cold boots in ~7ms - that's about 50x faster than JVM and 3x faster than Babashka. It has decent throughput on algorithmic workloads - within ballpark of the GraalVM-backed sci. I started this project in 2021 as an elaborate practical joke: I wanted to have an excuse for writing Clojure while pretending to write Go. Jokes aside, it turned out to be pretty decent: it feel",
+    "published": "Sat, 09 May 2026 17:52:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Zed Editor Theme-Builder",
+    "link": "https://zed.dev/theme-builder",
+    "description": "Article URL: https://zed.dev/theme-builder Comments URL: https://news.ycombinator.com/item?id=48076651 Points: 174 # Comments: 49",
+    "published": "Sat, 09 May 2026 17:30:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
+    "link": "https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/",
+    "description": "Article URL: https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/ Comments URL: https://news.ycombinator.com/item?id=48076465 Points: 114 # Comments: 65",
+    "published": "Sat, 09 May 2026 17:06:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I’ve banned query strings",
+    "link": "https://chrismorgan.info/no-query-strings",
+    "description": "Related: https://susam.net/no-query-strings.html Comments URL: https://news.ycombinator.com/item?id=48076173 Points: 316 # Comments: 180",
+    "published": "Sat, 09 May 2026 16:28:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Distributing Mac software is increasing my cortisol levels",
+    "link": "https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels",
+    "description": "Article URL: https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels Comments URL: https://news.ycombinator.com/item?id=48075366 Points: 234 # Comments: 163",
+    "published": "Sat, 09 May 2026 14:40:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The hypocrisy of cyberlibertarianism",
+    "link": "https://matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism/",
+    "description": "Article URL: https://matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism/ Comments URL: https://news.ycombinator.com/item?id=48074952 Points: 287 # Comments: 250",
+    "published": "Sat, 09 May 2026 13:48:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Internet Archive Switzerland",
+    "link": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/",
+    "description": "https://internetarchive.ch/ Comments URL: https://news.ycombinator.com/item?id=48074265 Points: 568 # Comments: 87",
+    "published": "Sat, 09 May 2026 12:00:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
+    "link": "https://twitter.com/jarredsumner/status/2053047748191232310",
+    "description": "https://xunroll.com/thread/2053047748191232310 Recent and related: Zig → Rust porting guide - https://news.ycombinator.com/item?id=48016880 - May 2026 (540 comments) Comments URL: https://news.ycombinator.com/item?id=48073680 Points: 470 # Comments: 447",
+    "published": "Sat, 09 May 2026 10:12:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "LLMs corrupt your documents when you delegate",
+    "link": "https://arxiv.org/abs/2604.15597",
+    "description": "Article URL: https://arxiv.org/abs/2604.15597 Comments URL: https://news.ycombinator.com/item?id=48073246 Points: 376 # Comments: 146",
+    "published": "Sat, 09 May 2026 08:44:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "EU Parliamentary Research Service calls VPNs \"a loophole that needs closing\"",
+    "link": "https://cyberinsider.com/eu-calls-vpns-a-loophole-that-needs-closing-in-age-verification-push/",
+    "description": "Article URL: https://cyberinsider.com/eu-calls-vpns-a-loophole-that-needs-closing-in-age-verification-push/ Comments URL: https://news.ycombinator.com/item?id=48072190 Points: 444 # Comments: 292",
+    "published": "Sat, 09 May 2026 05:52:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Using Claude Code: The unreasonable effectiveness of HTML",
+    "link": "https://twitter.com/trq212/status/2052809885763747935",
+    "description": "Examples: https://thariqs.github.io/html-effectiveness/ Related: https://simonwillison.net/2026/May/8/unreasonable-effectiven... Comments URL: https://news.ycombinator.com/item?id=48071940 Points: 430 # Comments: 247",
+    "published": "Sat, 09 May 2026 04:53:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
