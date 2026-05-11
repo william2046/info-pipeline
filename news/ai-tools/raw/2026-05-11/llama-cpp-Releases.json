@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9101",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9101",
+    "description": "server : print warning when HTTP timeout exceeded ( #22907 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64",
+    "published": "2026-05-10T20:29:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9100",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9100",
+    "description": "backend sampling: support returning post-sampling probs ( #22622 ) server: Never return 0.0 post-sampling probabilities backend sampling: support returning post-sampling probs macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
+    "published": "2026-05-10T20:09:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9099",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9099",
+    "description": "vendor : update cpp-httplib to 0.43.4 ( #22888 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) -",
+    "published": "2026-05-10T19:34:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9097",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9097",
+    "description": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) ",
+    "published": "2026-05-10T17:16:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9095",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9095",
+    "description": "internal AllReduce kernel for CUDA provider ( #22299 ) ggml-cuda: add internal AllReduce provider for tensor parallelism Introduces a NCCL-free AllReduce implementation for LLAMA_SPLIT_MODE_TENSOR using a single-phase CUDA kernel that pipelines D2H copy, cross-GPU handshake via pinned-memory volatile flags, and the reduction in one kernel launch per GPU. New files: ggml/src/ggml-cuda/comm.cuh — ggml_cuda_allreduce_provider enum ggml/src/ggml-cuda/allreduce.cuh — pipeline API declarations ggml/sr",
+    "published": "2026-05-10T09:45:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9094",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9094",
+    "description": "model : fix model type check for granite/llama3 and deepseek2/glm4.7 lite ( #22870 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CU",
+    "published": "2026-05-10T08:49:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9093",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9093",
+    "description": "model : add sarvam_moe architecture support ( #20275 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA",
+    "published": "2026-05-09T21:04:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9090",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9090",
+    "description": "cmake : update BoringSSL to 0.20260508.0 ( #22839 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13",
+    "published": "2026-05-09T12:47:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9089",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9089",
+    "description": "SYCL: reduce allocation overhead during flash attention ( #22732 ) SYCL: reduce allocation overhead during flash attention tidy up whitespace add a note about the flag move ggml_sycl_fattn_* into fattn-buffers.hpp refactor implementation into fattn-buffers.cpp move new_fattn_kv_buffers back into ggml-sycl.cpp macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x",
+    "published": "2026-05-09T11:05:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9088",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9088",
+    "description": "[SYCL] Add BF16 support to GET_ROWS operation ( #21391 ) Add GGML_TYPE_BF16 to the SYCL backend's GET_ROWS operation, both in supports_op and in the kernel dispatch. This fixes a performance regression where models using BF16 embedding tensors (e.g., Gemma4's per_layer_token_embd.weight) fall back to CPU for the GET_ROWS op, causing a full GPU-to-CPU tensor transfer every token. The fix reuses the existing get_rows_sycl_float template with sycl::ext::oneapi::bfloat16, matching the pattern alread",
+    "published": "2026-05-09T10:44:24Z",
+    "source": "llama.cpp Releases"
+  }
+]
