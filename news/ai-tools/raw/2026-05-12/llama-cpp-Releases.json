@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9113",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9113",
+    "description": "opencl: add q4_1 MoE for Adreno ( #22856 ) Q4_1 MoE CLC pass sanity check remove unnecessary code opencl: remove unnecessary asserts and reformat opencl: fix supports_op for q4_1 moe q4_1 moe is supported by Adreno with certain shapes Co-authored-by: Li He lih@qti.qualcomm.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan)",
+    "published": "2026-05-11T23:56:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9112",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9112",
+    "description": "CUDA: handle OW > 65535 in im2col (2D and 3D) ( #22944 ) im2col_cuda and im2col_3d_cuda both dispatch with block_nums.y = OW . CUDA caps grid Y at 65535. Conv1d encoders on raw 16 kHz audio with T > 65535 (~ 4 s) trip the limit -- e.g. SEANet at 11 s lands at OW = 176000 -- and the launch returns invalid configuration argument . Clamp block_nums.y to MIN(OW, MAX_GRIDDIM_Y) and loop inside the kernel with stride MAX_GRIDDIM_Y . Same in-kernel stride pattern already used for the z axis ( MAX_GRIDD",
+    "published": "2026-05-11T23:26:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9110",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9110",
+    "description": "docs: fix metrics endpoint description in server README ( #22879 ) docs: fix metrics endpoint description in server README Required model query parameter for router mode described. Removed metrics: llamacpp:kv_cache_usage_ratio llamacpp:kv_cache_tokens Added metrics: llamacpp:prompt_seconds_total llamacpp:tokens_predicted_seconds_total llamacpp:n_decode_total llamacpp:n_busy_slots_per_decode server: fix metrics type for n_busy_slots_per_decode metric macOS/iOS: macOS Apple Silicon (arm64) macOS ",
+    "published": "2026-05-11T21:28:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9109",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9109",
+    "description": "spec : parallel drafting support ( #22838 ) spec : refactor spec : drop support for incompatible vocabs spec : update common_speculative_init() cont : pass seq_id cont : dedup ctx_seq_rm_type server : sketch the ctx_dft decode loop server : draft prompt cache and checkpoints server : improve ctx names server, spec : transition to unified spec context cont : sync main and drft contexts cont : async drft eval when possible cont : handle non-ckpt models cont : pass correct n_past for drafting cont ",
+    "published": "2026-05-11T21:14:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9106",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9106",
+    "description": "vulkan: Support asymmetric FA in scalar/mmq/coopmat1 paths ( #22589 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Wi",
+    "published": "2026-05-11T13:28:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9105",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9105",
+    "description": "CUDA: directly include cuda/iterator ( #22936 ) Before, we relied on a transient import from cub/cub.cuh , which is bad practice to do as cub may not always expose cuda/iterator macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
+    "published": "2026-05-11T13:26:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9103",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9103",
+    "description": "vendor : update cpp-httplib to 0.44.0 ( #22919 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) -",
+    "published": "2026-05-11T11:48:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9102",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9102",
+    "description": "[SYCL] Add OP im2col_3d ( #22903 ) add im2col_3d format code update the ops.md macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.",
+    "published": "2026-05-11T06:17:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9101",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9101",
+    "description": "server : print warning when HTTP timeout exceeded ( #22907 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64",
+    "published": "2026-05-10T20:29:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9100",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9100",
+    "description": "backend sampling: support returning post-sampling probs ( #22622 ) server: Never return 0.0 post-sampling probabilities backend sampling: support returning post-sampling probs macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: An",
+    "published": "2026-05-10T20:09:11Z",
+    "source": "llama.cpp Releases"
+  }
+]

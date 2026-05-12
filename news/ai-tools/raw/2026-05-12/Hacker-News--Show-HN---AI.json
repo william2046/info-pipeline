@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Why Everyone's Picking Up a PSP Again in 2026",
+    "link": "https://gardinerbryant.com/psp-in-2026/",
+    "description": "Article URL: https://gardinerbryant.com/psp-in-2026/ Comments URL: https://news.ycombinator.com/item?id=48103529 Points: 3 # Comments: 0",
+    "published": "Tue, 12 May 2026 02:33:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Software Internals Book Club",
+    "link": "https://eatonphil.com/bookclub.html",
+    "description": "Article URL: https://eatonphil.com/bookclub.html Comments URL: https://news.ycombinator.com/item?id=48103511 Points: 24 # Comments: 6",
+    "published": "Tue, 12 May 2026 02:28:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Fake building: Claude wrote 3k lines instead of import pywikibot",
+    "link": "https://fireflysentinel.github.io/posts/fake-building-claude-3000-lines/",
+    "description": "Article URL: https://fireflysentinel.github.io/posts/fake-building-claude-3000-lines/ Comments URL: https://news.ycombinator.com/item?id=48103459 Points: 37 # Comments: 27",
+    "published": "Tue, 12 May 2026 02:22:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Claude Platform on AWS",
+    "link": "https://claude.com/blog/claude-platform-on-aws",
+    "description": "Article URL: https://claude.com/blog/claude-platform-on-aws Comments URL: https://news.ycombinator.com/item?id=48103042 Points: 60 # Comments: 34",
+    "published": "Tue, 12 May 2026 01:24:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "They Live (1988) inspired Adblocker",
+    "link": "https://github.com/davmlaw/they_live_adblocker",
+    "description": "Article URL: https://github.com/davmlaw/they_live_adblocker Comments URL: https://news.ycombinator.com/item?id=48102700 Points: 56 # Comments: 5",
+    "published": "Tue, 12 May 2026 00:37:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Safe-install – safer NPM installs with trusted build dependencies",
+    "link": "https://www.npmjs.com/package/@gkiely/safe-install",
+    "description": "In light of the ongoing npm supply chain compromises, I built safe-install: https://www.npmjs.com/package/@gkiely/safe-install It brings a couple of protections I wanted from npm but are not built in. Similar to Bun’s trusted dependencies, it lets you disable install scripts by default and define a list of dependencies that are allowed to run build/install scripts: https://bun.com/docs/guides/install/trusted It also supports blocking exotic sub-dependencies, similar to pnpm’s `blockExoticSubdeps",
+    "published": "Tue, 12 May 2026 00:30:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Griffin PowerMate driver for modern macOS",
+    "link": "https://github.com/jameslockman/Griffin-PowerMate-Driver",
+    "description": "Article URL: https://github.com/jameslockman/Griffin-PowerMate-Driver Comments URL: https://news.ycombinator.com/item?id=48100970 Points: 56 # Comments: 19",
+    "published": "Mon, 11 May 2026 21:35:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Postmortem: TanStack npm supply-chain compromise",
+    "link": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+    "description": "https://github.com/TanStack/router/issues/7383 Comments URL: https://news.ycombinator.com/item?id=48100706 Points: 625 # Comments: 238",
+    "published": "Mon, 11 May 2026 21:08:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I let AI build a tool to help me figure out what was waking me up at night",
+    "link": "https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/",
+    "description": "Article URL: https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/ Comments URL: https://news.ycombinator.com/item?id=48100662 Points: 110 # Comments: 115",
+    "published": "Mon, 11 May 2026 21:04:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Interaction Models",
+    "link": "https://thinkingmachines.ai/blog/interaction-models/",
+    "description": "Article URL: https://thinkingmachines.ai/blog/interaction-models/ Comments URL: https://news.ycombinator.com/item?id=48100524 Points: 130 # Comments: 18",
+    "published": "Mon, 11 May 2026 20:53:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "GitLab announces workforce reduction and end of their CREDIT values",
+    "link": "https://about.gitlab.com/blog/gitlab-act-2/",
+    "description": "Article URL: https://about.gitlab.com/blog/gitlab-act-2/ Comments URL: https://news.ycombinator.com/item?id=48100500 Points: 386 # Comments: 392",
+    "published": "Mon, 11 May 2026 20:51:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "If AI writes your code, why use Python?",
+    "link": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+    "description": "Article URL: https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055 Comments URL: https://news.ycombinator.com/item?id=48100433 Points: 275 # Comments: 277",
+    "published": "Mon, 11 May 2026 20:45:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: OpenGravity – A zero-install, BYOK vanilla JS clone of Antigravity",
+    "link": "https://github.com/ab-613/opengravity",
+    "description": "Hi. I’m a high school student studying for my GCSEs. I was using Google Antigravity heavily for my side projects, but I kept hitting the usage limits, and getting random \"agent terminated\" errors. So I decided to try build my own version of the IDE. I love the UI, so I copied it as accurately as possible, and then hooked up some logic into it, including the INCREDIBLY finicky webcontainer api. I tried to keep it super lightweight, no build steps, or dependencies, and now that its open source, I'",
+    "published": "Mon, 11 May 2026 20:23:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Library for fast mapping of Java records to native memory",
+    "link": "https://github.com/mamba-studio/TypedMemory",
+    "description": "Article URL: https://github.com/mamba-studio/TypedMemory Comments URL: https://news.ycombinator.com/item?id=48099616 Points: 118 # Comments: 26",
+    "published": "Mon, 11 May 2026 19:33:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
+    "link": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+    "description": "Article URL: https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage Comments URL: https://news.ycombinator.com/item?id=48098261 Points: 273 # Comments: 53",
+    "published": "Mon, 11 May 2026 17:53:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Bild AI (YC W25) Is Hiring Founding Product Engineers",
+    "link": "https://bild.ai/jobs",
+    "description": "Article URL: https://bild.ai/jobs Comments URL: https://news.ycombinator.com/item?id=48098122 Points: 0 # Comments: 0",
+    "published": "Mon, 11 May 2026 17:43:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Interfaze: A new model architecture built for high accuracy at scale",
+    "link": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+    "description": "Article URL: https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale Comments URL: https://news.ycombinator.com/item?id=48097078 Points: 120 # Comments: 31",
+    "published": "Mon, 11 May 2026 16:22:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "CUDA-oxide: Nvidia's official Rust to CUDA compiler",
+    "link": "https://nvlabs.github.io/cuda-oxide/index.html",
+    "description": "Article URL: https://nvlabs.github.io/cuda-oxide/index.html Comments URL: https://news.ycombinator.com/item?id=48096692 Points: 377 # Comments: 108",
+    "published": "Mon, 11 May 2026 15:55:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Google says criminal hackers used AI to find a major software flaw",
+    "link": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+    "description": "Unlocked: https://www.nytimes.com/2026/05/11/us/politics/google-hacker... , https://archive.ph/I4Ui5 https://apnews.com/article/google-ai-cybersecurity-exploitat... https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker... Comments URL: https://news.ycombinator.com/item?id=48094641 Points: 138 # Comments: 108",
+    "published": "Mon, 11 May 2026 13:20:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ratty – A terminal emulator with inline 3D graphics",
+    "link": "https://ratty-term.org/",
+    "description": "Article URL: https://ratty-term.org/ Comments URL: https://news.ycombinator.com/item?id=48093100 Points: 623 # Comments: 206",
+    "published": "Mon, 11 May 2026 10:13:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

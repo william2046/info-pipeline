@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.30.0-rc15",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc15",
+    "description": "vulkan: add windows iGPU detection",
+    "published": "2026-05-12T00:21:06Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc14: Merge remote-tracking branch 'upstream/main' into llama-runner-phase-0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc14",
+    "description": "Conflicts: .github/workflows/test.yaml",
+    "published": "2026-05-11T20:27:29Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc13",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc13",
+    "description": "llama.cpp update",
+    "published": "2026-05-11T17:47:22Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.23.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.23.3-rc1",
+    "description": "What's Changed mlx: refined model push behavior by @dhiltgen in #15431 test: integration test hardening by @dhiltgen in #13532 app: harden update flows by @dhiltgen in #16100 Full Changelog : v0.23.2...v0.23.3-rc0",
+    "published": "2026-05-12T03:48:08Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.23.3-rc0: app: harden update flows (#16100)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.23.3-rc0",
+    "description": "app: harden update flows This hardens the windows update flows and adds a new opt-in and CI triggered unit test to verify Mac/Windows updates with verification. test: harden unit tests for OLLAMA_MODELS being set app: harden updater",
+    "published": "2026-05-11T19:24:01Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc12",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc12",
+    "description": "lint fixes",
+    "published": "2026-05-10T21:10:09Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc11",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc11",
+    "description": "win: avoid spaces in compiler path",
+    "published": "2026-05-09T16:57:58Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc10",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc10",
+    "description": "win: fix arm64 cross-compile",
+    "published": "2026-05-09T16:39:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc9",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc9",
+    "description": "win: fix build",
+    "published": "2026-05-09T14:52:24Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc8: Merge remote-tracking branch 'upstream/main' into llama-runner-phase-0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc8",
+    "description": "Conflicts: envconfig/config.go integration/context_test.go integration/model_arch_test.go",
+    "published": "2026-05-08T23:00:29Z",
+    "source": "Ollama Releases"
+  }
+]
