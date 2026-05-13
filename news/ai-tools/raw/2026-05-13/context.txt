@@ -1,0 +1,399 @@
+[1] 来源: OpenAI Blog
+标题: How finance teams use Codex
+链接: https://openai.com/academy/how-finance-teams-use-codex
+摘要: See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.
+
+[2] 来源: OpenAI Blog
+标题: How NVIDIA engineers and researchers build with Codex
+链接: https://openai.com/index/nvidia
+摘要: Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.
+
+[3] 来源: OpenAI Blog
+标题: What Parameter Golf taught us about AI-assisted research
+链接: https://openai.com/index/what-parameter-golf-taught-us
+摘要: Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.
+
+[4] 来源: OpenAI Blog
+标题: AutoScout24 scales engineering with AI-powered workflows
+链接: https://openai.com/index/autoscout24
+摘要: Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.
+
+[5] 来源: OpenAI Blog
+标题: How ChatGPT adoption broadened in early 2026
+链接: https://openai.com/signals/research/2026q1-update
+摘要: ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.
+
+[6] 来源: OpenAI Blog
+标题: How enterprises are scaling AI
+链接: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai
+摘要: How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.
+
+[7] 来源: OpenAI Blog
+标题: OpenAI Campus Network: Student club interest form
+链接: https://openai.com/index/openai-campus-network-student-club-interest-form
+摘要: Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.
+
+[8] 来源: OpenAI Blog
+标题: OpenAI launches DeployCo to help businesses build around intelligence
+链接: https://openai.com/index/openai-launches-the-deployment-company
+摘要: OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.
+
+[9] 来源: OpenAI Blog
+标题: Running Codex safely at OpenAI
+链接: https://openai.com/index/running-codex-safely
+摘要: How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.
+
+[10] 来源: OpenAI Blog
+标题: Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber
+链接: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber
+摘要: OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.
+
+[11] 来源: OpenAI Blog
+标题: Parloa builds service agents customers want to talk to
+链接: https://openai.com/index/parloa
+摘要: Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.
+
+[12] 来源: OpenAI Blog
+标题: Advancing voice intelligence with new models in the API
+链接: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api
+摘要: Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.
+
+[13] 来源: OpenAI Blog
+标题: Introducing Trusted Contact in ChatGPT
+链接: https://openai.com/index/introducing-trusted-contact-in-chatgpt
+摘要: Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.
+
+[14] 来源: OpenAI Blog
+标题: Testing ads in ChatGPT
+链接: https://openai.com/index/testing-ads-in-chatgpt
+摘要: OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.
+
+[15] 来源: OpenAI Blog
+标题: Simplex rethinks software development with Codex
+链接: https://openai.com/index/simplex
+摘要: Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.
+
+[16] 来源: OpenAI Blog
+标题: How ChatGPT learns about the world while protecting privacy
+链接: https://openai.com/index/how-chatgpt-protects-privacy
+摘要: Learn how ChatGPT safeguards your privacy, reduces personal data in training, and gives you control over whether your conversations improve AI models.
+
+[17] 来源: OpenAI Blog
+标题: Introducing ChatGPT Futures: Class of 2026
+链接: https://openai.com/index/introducing-chatgpt-futures-class-of-2026
+摘要: Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT.
+
+[18] 来源: OpenAI Blog
+标题: Singular Bank helps bankers move fast with ChatGPT and Codex
+链接: https://openai.com/index/singular-bank
+摘要: Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.
+
+[19] 来源: OpenAI Blog
+标题: How frontier firms are pulling ahead
+链接: https://openai.com/index/introducing-b2b-signals
+摘要: OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.
+
+[20] 来源: OpenAI Blog
+标题: Uber uses OpenAI to help people earn smarter and book faster
+链接: https://openai.com/index/uber
+摘要: Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.
+
+[21] 来源: OpenAI Blog
+标题: Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)
+链接: https://openai.com/index/mrc-supercomputer-networking
+摘要: OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.
+
+[22] 来源: OpenAI Blog
+标题: GPT-5.5 Instant: smarter, clearer, and more personalized
+链接: https://openai.com/index/gpt-5-5-instant
+摘要: GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.
+
+[23] 来源: OpenAI Blog
+标题: GPT-5.5 Instant System Card
+链接: https://openai.com/index/gpt-5-5-instant-system-card
+摘要: 
+
+[24] 来源: OpenAI Blog
+标题: New ways to buy ChatGPT ads
+链接: https://openai.com/index/new-ways-to-buy-chatgpt-ads
+摘要: OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.
+
+[25] 来源: OpenAI Blog
+标题: Advancing youth safety and wellbeing in EMEA
+链接: https://openai.com/index/advancing-youth-safety-in-emea
+摘要: Explore OpenAI’s European Youth Safety Blueprint and EMEA Youth & Wellbeing Grants, advancing safe, responsible AI for teens, families, and educators.
+
+[26] 来源: OpenAI Blog
+标题: OpenAI and PwC collaborate to reimagine the office of the CFO
+链接: https://openai.com/index/openai-pwc-finance-collaboration
+摘要: OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.
+
+[27] 来源: OpenAI Blog
+标题: How OpenAI delivers low-latency voice AI at scale
+链接: https://openai.com/index/delivering-low-latency-voice-ai-at-scale
+摘要: How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.
+
+[28] 来源: OpenAI Blog
+标题: Introducing Advanced Account Security
+链接: https://openai.com/index/advanced-account-security
+摘要: Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.
+
+[29] 来源: OpenAI Blog
+标题: Where the goblins came from
+链接: https://openai.com/index/where-the-goblins-came-from
+摘要: How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.
+
+[30] 来源: OpenAI Blog
+标题: Building the compute infrastructure for the Intelligence Age
+链接: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age
+摘要: OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.
+
+[31] 来源: OpenAI Blog
+标题: Cybersecurity in the Intelligence Age
+链接: https://openai.com/index/cybersecurity-in-the-intelligence-age
+摘要: OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.
+
+[32] 来源: OpenAI Blog
+标题: OpenAI models, Codex, and Managed Agents come to AWS
+链接: https://openai.com/index/openai-on-aws
+摘要: OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.
+
+[33] 来源: OpenAI Blog
+标题: Our commitment to community safety
+链接: https://openai.com/index/our-commitment-to-community-safety
+摘要: Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.
+
+[34] 来源: OpenAI Blog
+标题: OpenAI available at FedRAMP Moderate
+链接: https://openai.com/index/openai-available-at-fedramp-moderate
+摘要: OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.
+
+[35] 来源: OpenAI Blog
+标题: The next phase of the Microsoft OpenAI partnership
+链接: https://openai.com/index/next-phase-of-microsoft-partnership
+摘要: OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.
+
+[36] 来源: OpenAI Blog
+标题: An open-source spec for orchestration: Symphony
+链接: https://openai.com/index/open-source-codex-orchestration-symphony
+摘要: Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.
+
+[37] 来源: OpenAI Blog
+标题: Choco automates food distribution with AI agents
+链接: https://openai.com/index/choco
+摘要: How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.
+
+[38] 来源: OpenAI Blog
+标题: Our principles
+链接: https://openai.com/index/our-principles
+摘要: Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.
+
+[39] 来源: OpenAI Blog
+标题: Introducing GPT-5.5
+链接: https://openai.com/index/introducing-gpt-5-5
+摘要: Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.
+
+[40] 来源: OpenAI Blog
+标题: GPT-5.5 System Card
+链接: https://openai.com/index/gpt-5-5-system-card
+摘要: 
+
+[41] 来源: OpenAI Blog
+标题: Plugins and skills
+链接: https://openai.com/academy/codex-plugins-and-skills
+摘要: Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.
+
+[42] 来源: OpenAI Blog
+标题: Top 10 uses for Codex at work
+链接: https://openai.com/academy/top-10-use-cases-codex-for-work
+摘要: Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.
+
+[43] 来源: OpenAI Blog
+标题: Automations
+链接: https://openai.com/academy/codex-automations
+摘要: Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.
+
+[44] 来源: OpenAI Blog
+标题: What is Codex?
+链接: https://openai.com/academy/what-is-codex
+摘要: Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.
+
+[45] 来源: OpenAI Blog
+标题: How to get started with Codex
+链接: https://openai.com/academy/codex-how-to-start
+摘要: Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.
+
+[46] 来源: OpenAI Blog
+标题: Codex settings
+链接: https://openai.com/academy/codex-settings
+摘要: Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.
+
+[47] 来源: OpenAI Blog
+标题: Working with Codex
+链接: https://openai.com/academy/working-with-codex
+摘要: Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.
+
+[48] 来源: OpenAI Blog
+标题: GPT-5.5 Bio Bug Bounty
+链接: https://openai.com/index/gpt-5-5-bio-bug-bounty
+摘要: Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.
+
+[49] 来源: OpenAI Blog
+标题: Making ChatGPT better for clinicians
+链接: https://openai.com/index/making-chatgpt-better-for-clinicians
+摘要: OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.
+
+[50] 来源: OpenAI Blog
+标题: Introducing workspace agents in ChatGPT
+链接: https://openai.com/index/introducing-workspace-agents-in-chatgpt
+摘要: Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.
+
+[51] 来源: OpenAI Blog
+标题: Speeding up agentic workflows with WebSockets in the Responses API
+链接: https://openai.com/index/speeding-up-agentic-workflows-with-websockets
+摘要: A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.
+
+[52] 来源: OpenAI Blog
+标题: Workspace agents
+链接: https://openai.com/academy/workspace-agents
+摘要: Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.
+
+[53] 来源: OpenAI Blog
+标题: Introducing OpenAI Privacy Filter
+链接: https://openai.com/index/introducing-openai-privacy-filter
+摘要: OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy
+
+[54] 来源: OpenAI Blog
+标题: Introducing ChatGPT Images 2.0
+链接: https://openai.com/index/introducing-chatgpt-images-2-0
+摘要: ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.
+
+[55] 来源: OpenAI Blog
+标题: Scaling Codex to enterprises worldwide
+链接: https://openai.com/index/scaling-codex-to-enterprises-worldwide
+摘要: OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.
+
+[56] 来源: OpenAI Blog
+标题: OpenAI helps Hyatt advance AI among colleagues
+链接: https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise
+摘要: Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.
+
+[57] 来源: OpenAI Blog
+标题: Codex for (almost) everything
+链接: https://openai.com/index/codex-for-almost-everything
+摘要: The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.
+
+[58] 来源: OpenAI Blog
+标题: Introducing GPT-Rosalind for life sciences research
+链接: https://openai.com/index/introducing-gpt-rosalind
+摘要: OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.
+
+[59] 来源: OpenAI Blog
+标题: Accelerating the cyber defense ecosystem that protects us all
+链接: https://openai.com/index/accelerating-cyber-defense-ecosystem
+摘要: Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.
+
+[60] 来源: OpenAI Blog
+标题: The next evolution of the Agents SDK
+链接: https://openai.com/index/the-next-evolution-of-the-agents-sdk
+摘要: OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.
+
+[61] 来源: OpenAI Blog
+标题: Trusted access for the next era of cyber defense
+链接: https://openai.com/index/scaling-trusted-access-for-cyber-defense
+摘要: OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.
+
+[62] 来源: OpenAI Blog
+标题: Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI
+链接: https://openai.com/index/cloudflare-openai-agent-cloud
+摘要: Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.
+
+[63] 来源: OpenAI Blog
+标题: Using custom GPTs
+链接: https://openai.com/academy/custom-gpts
+摘要: Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.
+
+[64] 来源: OpenAI Blog
+标题: ChatGPT for research
+链接: https://openai.com/academy/research
+摘要: Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.
+
+[65] 来源: OpenAI Blog
+标题: Brainstorming with ChatGPT
+链接: https://openai.com/academy/brainstorming
+摘要: Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.
+
+[66] 来源: OpenAI Blog
+标题: Writing with ChatGPT
+链接: https://openai.com/academy/writing
+摘要: Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.
+
+[67] 来源: OpenAI Blog
+标题: Responsible and safe use of AI
+链接: https://openai.com/academy/responsible-and-safe-use
+摘要: Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.
+
+[68] 来源: OpenAI Blog
+标题: Research with ChatGPT
+链接: https://openai.com/academy/search-and-deep-research
+摘要: Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.
+
+[69] 来源: OpenAI Blog
+标题: ChatGPT for managers
+链接: https://openai.com/academy/managers
+摘要: Learn how managers use ChatGPT to prepare for conversations, write clear feedback, stay organized, and improve team effectiveness.
+
+[70] 来源: OpenAI Blog
+标题: Creating images with ChatGPT
+链接: https://openai.com/academy/image-generation
+摘要: Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes.
+
+[71] 来源: OpenAI Blog
+标题: Financial services
+链接: https://openai.com/academy/financial-services
+摘要: Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.
+
+[72] 来源: OpenAI Blog
+标题: Applications of AI at OpenAI
+链接: https://openai.com/academy/applications-of-ai
+摘要: Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.
+
+[73] 来源: OpenAI Blog
+标题: ChatGPT for sales teams
+链接: https://openai.com/academy/sales
+摘要: Learn how sales teams use ChatGPT to research accounts, personalize outreach, manage deals, and improve pipeline and conversion.
+
+[74] 来源: OpenAI Blog
+标题: ChatGPT for finance teams
+链接: https://openai.com/academy/finance
+摘要: Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.
+
+[75] 来源: OpenAI Blog
+标题: Prompting fundamentals
+链接: https://openai.com/academy/prompting
+摘要: Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT.
+
+[76] 来源: OpenAI Blog
+标题: ChatGPT for customer success teams
+链接: https://openai.com/academy/customer-success
+摘要: Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.
+
+[77] 来源: OpenAI Blog
+标题: Using skills
+链接: https://openai.com/academy/skills
+摘要: Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.
+
+[78] 来源: OpenAI Blog
+标题: Personalizing ChatGPT
+链接: https://openai.com/academy/personalization
+摘要: Learn how to personalize ChatGPT using custom instructions and memory to get more relevant, consistent, and tailored responses.
+
+[79] 来源: OpenAI Blog
+标题: Working with files in ChatGPT
+链接: https://openai.com/academy/working-with-files
+摘要: Learn how to upload and work with files in ChatGPT to analyze data, summarize documents, and generate content from PDFs, spreadsheets, and more.
+
+[80] 来源: OpenAI Blog
+标题: ChatGPT for marketing teams
+链接: https://openai.com/academy/marketing
+摘要: Learn how marketing teams use ChatGPT to plan campaigns, generate content, analyze performance, and move from ideas to execution faster.

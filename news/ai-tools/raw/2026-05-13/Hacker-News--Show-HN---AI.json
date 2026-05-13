@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Starship V3",
+    "link": "https://www.spacex.com/updates#starship-v3",
+    "description": "Article URL: https://www.spacex.com/updates#starship-v3 Comments URL: https://news.ycombinator.com/item?id=48116781 Points: 158 # Comments: 131",
+    "published": "Wed, 13 May 2026 01:29:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "My graduation cap runs Rust",
+    "link": "https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/",
+    "description": "Article URL: https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/ Comments URL: https://news.ycombinator.com/item?id=48116207 Points: 107 # Comments: 29",
+    "published": "Wed, 13 May 2026 00:04:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
+    "link": "https://blog.cloudflare.com/quic-death-spiral-fix/",
+    "description": "Article URL: https://blog.cloudflare.com/quic-death-spiral-fix/ Comments URL: https://news.ycombinator.com/item?id=48116064 Points: 40 # Comments: 1",
+    "published": "Tue, 12 May 2026 23:46:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Kraftwerk's radical 1976 track",
+    "link": "https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem",
+    "description": "Article URL: https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem Comments URL: https://news.ycombinator.com/item?id=48115823 Points: 97 # Comments: 34",
+    "published": "Tue, 12 May 2026 23:13:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Tell NYT, Atlantic, USA Today to keep Wayback Machine",
+    "link": "https://www.savethearchive.com/newsleaders/",
+    "description": "Article URL: https://www.savethearchive.com/newsleaders/ Comments URL: https://news.ycombinator.com/item?id=48115807 Points: 230 # Comments: 55",
+    "published": "Tue, 12 May 2026 23:11:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Restore full BambuNetwork support for Bambu Lab printers",
+    "link": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
+    "description": "Article URL: https://github.com/FULU-Foundation/OrcaSlicer-bambulab Comments URL: https://news.ycombinator.com/item?id=48115127 Points: 273 # Comments: 115",
+    "published": "Tue, 12 May 2026 21:55:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "EFF to 4th Circuit: Electronic Device Searches at the Border Require a Warrant",
+    "link": "https://www.eff.org/deeplinks/2026/05/eff-fourth-circuit-electronic-device-searches-border-require-warrant",
+    "description": "Article URL: https://www.eff.org/deeplinks/2026/05/eff-fourth-circuit-electronic-device-searches-border-require-warrant Comments URL: https://news.ycombinator.com/item?id=48115059 Points: 148 # Comments: 19",
+    "published": "Tue, 12 May 2026 21:48:24 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Scrcpy v4.0",
+    "link": "https://github.com/Genymobile/scrcpy/releases/tag/v4.0",
+    "description": "Article URL: https://github.com/Genymobile/scrcpy/releases/tag/v4.0 Comments URL: https://news.ycombinator.com/item?id=48114356 Points: 70 # Comments: 9",
+    "published": "Tue, 12 May 2026 20:50:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "How to make your text look futuristic (2016)",
+    "link": "https://typesetinthefuture.com/2016/02/18/futuristic/",
+    "description": "Article URL: https://typesetinthefuture.com/2016/02/18/futuristic/ Comments URL: https://news.ycombinator.com/item?id=48113895 Points: 263 # Comments: 32",
+    "published": "Tue, 12 May 2026 20:16:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
+    "link": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
+    "description": "Article URL: https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html Comments URL: https://news.ycombinator.com/item?id=48112042 Points: 271 # Comments: 124",
+    "published": "Tue, 12 May 2026 18:12:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+    "link": "https://github.com/cactus-compute/needle",
+    "description": "Hey HN, Henry here from Cactus. We open-sourced Needle, a 26M parameter function-calling (tool use) model. It runs at 6000 tok/s prefill and 1200 tok/s decode on consumer devices. We were always frustrated by the little effort made towards building agentic models that run on budget phones, so we conducted investigations that led to an observation: agentic experiences are built upon tool calling, and massive models are overkill for it. Tool calling is fundamentally retrieval-and-assembly (match q",
+    "published": "Tue, 12 May 2026 18:03:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Quack: The DuckDB Client-Server Protocol",
+    "link": "https://duckdb.org/2026/05/12/quack-remote-protocol",
+    "description": "Article URL: https://duckdb.org/2026/05/12/quack-remote-protocol Comments URL: https://news.ycombinator.com/item?id=48111765 Points: 225 # Comments: 49",
+    "published": "Tue, 12 May 2026 17:54:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Dead.Letter (CVE-2026-45185) – How XBOW found an unauthenticated RCE on Exim",
+    "link": "https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim",
+    "description": "Article URL: https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim Comments URL: https://news.ycombinator.com/item?id=48111748 Points: 66 # Comments: 39",
+    "published": "Tue, 12 May 2026 17:52:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Reimagining the mouse pointer for the AI era",
+    "link": "https://deepmind.google/blog/ai-pointer/",
+    "description": "Article URL: https://deepmind.google/blog/ai-pointer/ Comments URL: https://news.ycombinator.com/item?id=48111581 Points: 170 # Comments: 140",
+    "published": "Tue, 12 May 2026 17:40:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Googlebook",
+    "link": "https://googlebook.google/",
+    "description": "https://www.reddit.com/r/Android/comments/1tb8xls/introducin... Comments URL: https://news.ycombinator.com/item?id=48111545 Points: 671 # Comments: 1140",
+    "published": "Tue, 12 May 2026 17:37:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Agentic interface for mainframes and COBOL",
+    "link": "https://www.hypercubic.ai/hopper",
+    "description": "Hi HN, we’re Sai and Aayush, and we’re building Hypercubic ( https://www.hypercubic.ai/ ), bringing AI tools to the mainframe and COBOL world. (We did a Launch HN last year: https://news.ycombinator.com/item?id=45877517 .) Today we’re launching Hopper, an agentic development environment for mainframes. You can download it here: https://www.hypercubic.ai/hopper , and you can also request access and immediately get a mainframe user account to play with. There's also a video runthrough at https://w",
+    "published": "Tue, 12 May 2026 17:10:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Gigacatalyst – Extend your SaaS with an embedded AI builder",
+    "link": "https://news.ycombinator.com/item?id=48110593",
+    "description": "Hi HN, I’m Namanyay from Gigacatalyst (link: https://gigacatalyst.com/ ). Gigacatalyst allows sales, CS, and users to build one-off features, so your SaaS can support long-tail customer workflows and engineers aren’t pulled away from the roadmap. When you sell software to large businesses, you realize that each customer needs their own workflow and features. Traditionally, this either means long engineering roadmaps or the customers end up using workarounds. But what if everyone could build thei",
+    "published": "Tue, 12 May 2026 16:32:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Future of Obsidian Plugins",
+    "link": "https://obsidian.md/blog/future-of-plugins/",
+    "description": "Article URL: https://obsidian.md/blog/future-of-plugins/ Comments URL: https://news.ycombinator.com/item?id=48109970 Points: 329 # Comments: 133",
+    "published": "Tue, 12 May 2026 15:45:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Voker (YC S24) – Analytics for AI Agents",
+    "link": "https://voker.ai",
+    "description": "Hey HN, we're Alex and Tyler, co-founders of Voker.ai ( https://voker.ai/ ), an agent analytics platform for AI product teams. Voker gives full visibility into what users are asking of your agents, and whether your agents are delivering, without having to dig through logs. Our main product is a lightweight SDK that is LLM stack agnostic and purpose-built for agent products. ( https://app.voker.ai/docs ) Agent Engineers and AI product teams don’t have the right level of visibility into agent perf",
+    "published": "Tue, 12 May 2026 15:45:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Why senior developers fail to communicate their expertise",
+    "link": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
+    "description": "Article URL: https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise Comments URL: https://news.ycombinator.com/item?id=48109460 Points: 446 # Comments: 198",
+    "published": "Tue, 12 May 2026 15:08:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

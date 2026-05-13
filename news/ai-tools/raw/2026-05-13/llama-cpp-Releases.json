@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9128",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9128",
+    "description": "hexagon: eliminate scalar VTCM loads via HVX splat helpers ( #22993 ) hexagon: add hvx_vec_repl helpers and use those for splat-from-vtcm usecase hmx-mm: optimize per-group scale handling hmx-fa: optimize slope load from vtcm hmx-fa: use aligned access where possible in hmx-utils hexagon: add hvx_vec_repl_2x_f16 helper and consolidate repl helpers Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel",
+    "published": "2026-05-13T02:27:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9127",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9127",
+    "description": "opencl: add opt-in Adreno xmem F16xF32 GEMM for prefill ( #22755 ) ggml-opencl: add Adreno xmem F16xF32 GEMM for prefill ggml-opencl: address Adreno xmem review comments ggml-opencl: align xmem gemm kernel naming Co-authored-by: Your Name your@email.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) U",
+    "published": "2026-05-12T22:31:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9124",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9124",
+    "description": "mtmd, server, common: expose modalities to /v1/models ( #22952 ) mtmd, server, common: expose modalities to /v1/models fix build rename to mtmd_caps macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: ",
+    "published": "2026-05-12T19:20:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9123",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9123",
+    "description": "ggml-webgpu: Enables running gpt-oss-20b ( #22906 ) Enable to run gpt-oss-20b and refactor mulmat-q disable test-backend-ops in ubuntu-24-webgpu macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Wind",
+    "published": "2026-05-12T19:10:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9122",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9122",
+    "description": "ggml-webgpu: address precision issues for multimodal ( #22808 ) fix(mixed-types): use f32 for precision and update the shared memory calculation logic for f32 fix(unary): correct the gelu, gelu quick and gelu erf functions fix(flash-attn-tile): fix the hardcode v type fix(flash_attn): fix tile path fix: pass editorconfig and address the type conflicts fix: remove reduant pipeline keys fix: remove inline min/max group size functions and revert the flash attn path order fix: use clamp to avoid NaN",
+    "published": "2026-05-12T18:41:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9119",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9119",
+    "description": "vulkan: Fix Windows performance regression on Intel GPU BF16 workloads for Xe2 and newer ( #22461 ) refactor Use l_warptile only when coopamt is available for BF16 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
+    "published": "2026-05-12T15:51:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9118",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9118",
+    "description": "vulkan: Check shared memory size for mmq shaders ( #22693 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 ",
+    "published": "2026-05-12T14:24:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9116",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9116",
+    "description": "mtmd: add MiMo v2.5 vision ( #22883 ) mimo-v2.5: vision support mimo-v2.5: use fused qkv for vision mimi-v2.5: fix f16 vision overflow mimo-v2.5: comment cleanups mimo-v2.5: Flash doesn't have mmproj more cleanup remember to use filter_tensors mimo-v2.5: fix trailing whitespace macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
+    "published": "2026-05-12T12:48:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9115: convert : add split() to LoraTorchTensor in LoRA converter (#22832)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9115",
+    "description": "convert : add split() method to LoraTorchTensor Fix python type-check Fix flake8 Lint fix: handle positional dim arg in torch.split dispatch Fix type-check again Fix type-checks Remove unit test per reviewers feedback work around ty deficiency Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com",
+    "published": "2026-05-12T05:17:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9114",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9114",
+    "description": "metal : promote mul_mv/mul_mm batch divisors to function constants ( #22711 ) metal : promote mul_mv/mul_mm batch divisors to function constants metal : take op directly in get_pipeline_mul_mv_ext macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (S",
+    "published": "2026-05-12T07:49:36Z",
+    "source": "llama.cpp Releases"
+  }
+]
