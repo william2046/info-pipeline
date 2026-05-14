@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.24.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.24.0-rc0",
+    "description": "What's Changed mlx: add memory trace logging by @dhiltgen in #16131 launch: codex app integration by @ParthSareen in #16120 Full Changelog : v0.23.4...v0.24.0-rc0",
+    "published": "2026-05-14T02:24:24Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc15",
+    "description": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or degradation Known issues: laguna-xs.2 is not supported yet on this pre-release llama3.2-vision is not s",
+    "published": "2026-05-13T16:52:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.23.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.23.4",
+    "description": "What's Changed ollama launch opencode now supports vision models with image inputs Fixed formatting of Claude tool results when using local image paths Full Changelog : v0.23.3...v0.23.4",
+    "published": "2026-05-13T23:50:49Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.23.4-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.23.4-rc0",
+    "description": "launch/opencode: add image modalities for vision models ( #15922 )",
+    "published": "2026-05-12T19:51:46Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc14: Merge remote-tracking branch 'upstream/main' into llama-runner-phase-0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc14",
+    "description": "Conflicts: .github/workflows/test.yaml",
+    "published": "2026-05-11T20:27:29Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc13",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc13",
+    "description": "llama.cpp update",
+    "published": "2026-05-11T17:47:22Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.23.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.23.3",
+    "description": "What's Changed mlx: refined model push behavior by @dhiltgen in #15431 test: integration test hardening by @dhiltgen in #13532 app: harden update flows by @dhiltgen in #16100 mlx: update the imagegen runner for mlx thread affinity by @pdevine in #16096 mlx: avoid status timeout during inference by @dhiltgen in #16086 mlx: fix macOS 26 target leakage in v3 metallib by @dhiltgen in #16053 Full Changelog : v0.23.2...v0.23.3",
+    "published": "2026-05-13T00:47:23Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.23.3-rc1: mlx: fix macOS 26 target leakage in v3 metallib (#16053)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.23.3-rc1",
+    "description": "MLX compiles the AIR objects with the requested -mmacosx-version-min, but its final metallib step invokes metal instead of metallib. With the macOS 26 SDK, that can stamp the Metal v3 library with a macOS 26 deployment target. Relink the generated AIR files with metallib before install until this is fixed upstream.",
+    "published": "2026-05-11T23:37:57Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.23.3-rc0: app: harden update flows (#16100)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.23.3-rc0",
+    "description": "app: harden update flows This hardens the windows update flows and adds a new opt-in and CI triggered unit test to verify Mac/Windows updates with verification. test: harden unit tests for OLLAMA_MODELS being set app: harden updater",
+    "published": "2026-05-11T19:24:01Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc12",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc12",
+    "description": "lint fixes",
+    "published": "2026-05-10T21:10:09Z",
+    "source": "Ollama Releases"
+  }
+]
