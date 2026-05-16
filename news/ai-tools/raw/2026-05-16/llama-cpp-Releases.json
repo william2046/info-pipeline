@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9174",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9174",
+    "description": "ui: Restructure repo to use tools/ui folder and ui / UI / llama-ui / LLAMA_UI naming ( #23064 ) webui: Move static build output from tools/server/public to build/ui directory refactor: Move to tools/ui refactor: rename CMake variables and preprocessor defines Rename LLAMA_BUILD_WEBUI -> LLAMA_BUILD_UI (old kept as deprecated) Rename LLAMA_USE_PREBUILT_WEBUI -> LLAMA_USE_PREBUILT_UI (old kept as deprecated) Backward compat: old vars auto-forward to new ones with DEPRECATION warning Rename interna",
+    "published": "2026-05-16T02:23:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9173",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9173",
+    "description": "ci : fix release symlinks ( #23119 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 D",
+    "published": "2026-05-15T23:49:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9172",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9172",
+    "description": "webui: Use lowercase hash for HF checksum check ( #23107 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (",
+    "published": "2026-05-15T22:41:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9169",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9169",
+    "description": "mtmd: add chunks and fix preproc for qwen3a ( #23073 ) mtmd: add chunks and fix preproc for qwen3a add attn_mask limit mtmd_chunk size (avoid blow up memory) correct audio tokens re-order the set_input case remove attn_mask macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x6",
+    "published": "2026-05-15T21:31:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9165",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9165",
+    "description": "ci : fix transform of top . entry in release archive ( #23080 ) fix transform of top . entry in release archive simplify macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows ar",
+    "published": "2026-05-15T13:12:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9163",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9163",
+    "description": "reasoning-budget: clone should do a deep-copy ( #23095 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CU",
+    "published": "2026-05-15T12:35:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9161",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9161",
+    "description": "Support for Codex CLI by skipping unsupported Responses tools ( #23041 ) Support for Codex CLI by skipping unsupported Responses tools Warn on skipped Responses tools and preserve gpt-oss apply_patch rejection Revert gpt-oss apply_patch special handling macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) U",
+    "published": "2026-05-15T11:52:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9159",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9159",
+    "description": "ggml-hexagon: cpy: add contiguous fast-path in reshape copy ( #23076 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs W",
+    "published": "2026-05-15T01:49:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9158",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9158",
+    "description": "HIP: RDNA3 mma FA, faster AMD transpose, tune AMD ( #22880 ) Adds RDNA3 support to the CUDA mma FA kernel. To make the RDNA3 tensor cores work with the FP16 accumulation for VKQ the tiles they need to be 32 logical units long in direction of the attention head; for head sizes 80 and 112 that are not exactly divided by 32 the regular length of 16 with FP32 accumulation is used instead. The longer tiles also enable more efficient transposition for a warp size of 32 which is why it's also used for ",
+    "published": "2026-05-14T23:25:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9156",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9156",
+    "description": "ggml-webgpu: Enable NVIDIA self-hosted CI ( #22976 ) Enabel nvidia ci for webgpu Address precision issues fix placement Relax more set_rows and div Try relaxing all f16 formatting and naming Add comment explaining max_nmse_err logic Added comment referencing pull request for clarification. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu a",
+    "published": "2026-05-14T22:44:12Z",
+    "source": "llama.cpp Releases"
+  }
+]
