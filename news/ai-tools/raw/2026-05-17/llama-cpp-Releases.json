@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9190",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9190",
+    "description": "server: (router) alloc tmp buffer on heap ( #23159 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 1",
+    "published": "2026-05-16T23:46:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9189",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9189",
+    "description": "server: skip device enumeration in router mode to avoid creating CUDA primary context ( #23137 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (C",
+    "published": "2026-05-16T21:22:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9186",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9186",
+    "description": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) ",
+    "published": "2026-05-16T19:24:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9181",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9181",
+    "description": "vendor : update cpp-httplib to 0.45.0 ( #23103 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) -",
+    "published": "2026-05-16T17:08:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9180",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9180",
+    "description": "llama + spec: MTP Support ( #22673 ) spec: support MTP fix batch size rename files cont : simplify ( #7 ) MTP: clean-up ( #9 ) MTP: clean-up review: use llama_context_type instead of llama_graph_type review: remove llama_model_has_mtp review: fix convert issues convert: fix pycheck review: formatting use mtp- for identifying mtp models convert: fix mtp conversion mtp -> draft-mtp remove unused llama_arch add need_embd in speculative llama: allow partial seq_rm for GDN models for speculative deco",
+    "published": "2026-05-16T16:49:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9174",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9174",
+    "description": "ui: Restructure repo to use tools/ui folder and ui / UI / llama-ui / LLAMA_UI naming ( #23064 ) webui: Move static build output from tools/server/public to build/ui directory refactor: Move to tools/ui refactor: rename CMake variables and preprocessor defines Rename LLAMA_BUILD_WEBUI -> LLAMA_BUILD_UI (old kept as deprecated) Rename LLAMA_USE_PREBUILT_WEBUI -> LLAMA_USE_PREBUILT_UI (old kept as deprecated) Backward compat: old vars auto-forward to new ones with DEPRECATION warning Rename interna",
+    "published": "2026-05-16T02:23:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9173",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9173",
+    "description": "ci : fix release symlinks ( #23119 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 D",
+    "published": "2026-05-15T23:49:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9172",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9172",
+    "description": "webui: Use lowercase hash for HF checksum check ( #23107 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (",
+    "published": "2026-05-15T22:41:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9169",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9169",
+    "description": "mtmd: add chunks and fix preproc for qwen3a ( #23073 ) mtmd: add chunks and fix preproc for qwen3a add attn_mask limit mtmd_chunk size (avoid blow up memory) correct audio tokens re-order the set_input case remove attn_mask macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x6",
+    "published": "2026-05-15T21:31:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9165",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9165",
+    "description": "ci : fix transform of top . entry in release archive ( #23080 ) fix transform of top . entry in release archive simplify macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows ar",
+    "published": "2026-05-15T13:12:14Z",
+    "source": "llama.cpp Releases"
+  }
+]
