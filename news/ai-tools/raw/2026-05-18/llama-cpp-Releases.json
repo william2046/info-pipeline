@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9204",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9204",
+    "description": "feat: Support d_conv=15 for ssm-conv.cu ( #23017 ) Branch: ModalityConditionalAdapters AI-usage: none Signed-off-by: Gabe Goodhart ghart@us.ibm.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: W",
+    "published": "2026-05-18T00:44:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9203",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9203",
+    "description": "cmake : fix LLAMA_BUILD_UI logic ( #23190 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA",
+    "published": "2026-05-18T00:20:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9202",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9202",
+    "description": "cmake : do not install conversion script ( #23204 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13",
+    "published": "2026-05-17T23:14:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9200",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9200",
+    "description": "llama: avoid copying logits during prompt decode in MTP ( #23198 ) llama: avoid copying logits during prompt decode in MTP review: update comment llama-graph: call set_output for t_h_pre_norm macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL F",
+    "published": "2026-05-17T22:56:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9198",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9198",
+    "description": "ggml-vulkan/CMakeLists: add a check for SPIRV-Headers ( #22009 ) ci/run: set explicit SPIR-V Headers search path for macOS vulkan CI For whatever reason, the files are under additional sub-path vulkan/ under the cmake directory, which does not match either current LunarG macOS Vulkan SDK structure ( lib/cmake/SPIRV-Headers ), nor what gets installed when you run the cmake build+install for SPIRV-Headers itself on at least Linux ( share/cmake/SPIRV-Headers ). This allows for SPIRV-Headers to be f",
+    "published": "2026-05-17T19:14:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9197",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9197",
+    "description": "vulkan: add cpy bf16 -> f32 pipelines ( #22677 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) -",
+    "published": "2026-05-17T19:12:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9196",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9196",
+    "description": "vulkan: Support unaligned tensors for ROPE ( #22637 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA ",
+    "published": "2026-05-17T16:50:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9194",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9194",
+    "description": "vulkan: fuse SSM_CONV + BIAS + SILU ( #22653 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - C",
+    "published": "2026-05-17T16:08:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9193",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9193",
+    "description": "server : honor --embd-normalize CLI arg ( #23125 ) The --embd-normalize flag was registered only for the embedding and debug examples, so llama-server rejected it and the /embedding handler used a hard-coded default of 2 (L2). Add LLAMA_EXAMPLE_SERVER to the flag's example set and read params.embd_normalize as the handler's default. The per-request \"embd_normalize\" body field continues to override. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (",
+    "published": "2026-05-17T14:12:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9192",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9192",
+    "description": "ngram : reduce noisy logs ( #23185 ) ngram : reduce noisy logs ngram : reduce noisy logs macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) ",
+    "published": "2026-05-17T13:23:15Z",
+    "source": "llama.cpp Releases"
+  }
+]
