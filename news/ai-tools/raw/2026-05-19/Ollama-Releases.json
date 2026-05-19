@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.30.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc20",
+    "description": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or degradation Known issues: laguna-xs.2 is not supported yet on this pre-release llama3.2-vision is not s",
+    "published": "2026-05-18T18:29:29Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc19",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc19",
+    "description": "missing file",
+    "published": "2026-05-18T14:57:14Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc18",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc18",
+    "description": "version bump",
+    "published": "2026-05-18T14:33:08Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.25.0-rc0: ci: speed up release builds (#15982)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.25.0-rc0",
+    "description": "ci: speed up release builds This should help speed things up for release. It also will help speed up local developer builds a little. ci: dedup linux build steps and optimize review comments",
+    "published": "2026-05-15T21:53:15Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc17",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc17",
+    "description": "ci and lint fixes",
+    "published": "2026-05-14T23:23:25Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc16",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc16",
+    "description": "tune batch size for better performance",
+    "published": "2026-05-14T19:55:42Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.24.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
+    "description": "Codex App Ollama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality. ollama launch codex-app Built-in browser Codex can load local servers and sites in its built-in browser, enabling you to directly annotate on the page to request changes. Review mode Review code inside the app, leave comments, and iterate without leaving your workspace. Choosing a model For difficult coding and agenti",
+    "published": "2026-05-15T16:59:01Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.24.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.24.0-rc1",
+    "description": "launch: codex app restarts ( #16155 )",
+    "published": "2026-05-14T19:08:13Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.24.0-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.24.0-rc0",
+    "description": "launch: codex app integration ( #16120 )",
+    "published": "2026-05-14T00:11:52Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc15",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc15",
+    "description": "vulkan: add windows iGPU detection",
+    "published": "2026-05-12T00:21:06Z",
+    "source": "Ollama Releases"
+  }
+]

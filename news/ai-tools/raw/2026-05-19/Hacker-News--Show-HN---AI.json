@@ -1,0 +1,142 @@
+[
+  {
+    "title": "PyTorch Landscape",
+    "link": "https://pytorch.landscape2.io",
+    "description": "Article URL: https://pytorch.landscape2.io Comments URL: https://news.ycombinator.com/item?id=48189178 Points: 3 # Comments: 0",
+    "published": "Tue, 19 May 2026 04:29:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Apple Silicon costs more than OpenRouter",
+    "link": "https://twitter.com/rohan_sood15/status/2056585919805714777",
+    "description": "Article URL: https://twitter.com/rohan_sood15/status/2056585919805714777 Comments URL: https://news.ycombinator.com/item?id=48189026 Points: 8 # Comments: 0",
+    "published": "Tue, 19 May 2026 04:01:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Peter Neumann has died",
+    "link": "https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html",
+    "description": "Article URL: https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html Comments URL: https://news.ycombinator.com/item?id=48188787 Points: 3 # Comments: 0",
+    "published": "Tue, 19 May 2026 03:17:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Sieve – scans Cursor/Claude chat history for leaked API keys",
+    "link": "https://apps.apple.com/us/app/sieve-secret-scanner/id6767409365?mt=12",
+    "description": "Background: I was using Cursor to set up an OpenAI integration.The agent read my .env file, added the key to the config, and everything worked. What I didn't think about: that key was now sitting in a plaintext SQLite database at ~/Library/ApplicationSupport/Cursor/User/workspaceStorage/.. AI coding tools (Cursor, Claude Code, Copilot, Cline) routinely read .env files as part of normal operation. Every secret they touch gets embedded in their local transcript/state files — unencrypted, outside .",
+    "published": "Tue, 19 May 2026 03:06:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Peter Salus has died",
+    "link": "https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html",
+    "description": "Article URL: https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html Comments URL: https://news.ycombinator.com/item?id=48188665 Points: 85 # Comments: 8",
+    "published": "Tue, 19 May 2026 02:56:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "War game exposed U.S. vulnerability to low-tech warfare",
+    "link": "https://nsarchive.gwu.edu/news/2024-11-01/rigged-war-game-exposed-us-vulnerability-low-tech-warfare",
+    "description": "Article URL: https://nsarchive.gwu.edu/news/2024-11-01/rigged-war-game-exposed-us-vulnerability-low-tech-warfare Comments URL: https://news.ycombinator.com/item?id=48188506 Points: 25 # Comments: 14",
+    "published": "Tue, 19 May 2026 02:25:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The last six months in LLMs in five minutes",
+    "link": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+    "description": "Article URL: https://simonwillison.net/2026/May/19/5-minute-llms/ Comments URL: https://news.ycombinator.com/item?id=48188183 Points: 117 # Comments: 43",
+    "published": "Tue, 19 May 2026 01:30:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+    "link": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+    "description": "Article URL: https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html Comments URL: https://news.ycombinator.com/item?id=48187201 Points: 154 # Comments: 93",
+    "published": "Mon, 18 May 2026 23:18:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Click (2016)",
+    "link": "https://clickclickclick.click/",
+    "description": "Article URL: https://clickclickclick.click/ Comments URL: https://news.ycombinator.com/item?id=48187054 Points: 237 # Comments: 57",
+    "published": "Mon, 18 May 2026 23:03:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Alignment pretraining: AI discourse creates self-fulfilling (mis)alignment",
+    "link": "https://arxiv.org/abs/2601.10160",
+    "description": "Article URL: https://arxiv.org/abs/2601.10160 Comments URL: https://news.ycombinator.com/item?id=48185938 Points: 38 # Comments: 15",
+    "published": "Mon, 18 May 2026 21:29:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The FBI Wants to Buy Nationwide Access to License Plate Readers",
+    "link": "https://www.404media.co/the-fbi-wants-to-buy-nationwide-access-to-license-plate-readers/",
+    "description": "Article URL: https://www.404media.co/the-fbi-wants-to-buy-nationwide-access-to-license-plate-readers/ Comments URL: https://news.ycombinator.com/item?id=48184350 Points: 256 # Comments: 102",
+    "published": "Mon, 18 May 2026 19:28:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Hyperpolyglot Lisp: Common Lisp, Racket, Clojure, Emacs Lisp",
+    "link": "https://hyperpolyglot.org/lisp",
+    "description": "Article URL: https://hyperpolyglot.org/lisp Comments URL: https://news.ycombinator.com/item?id=48184322 Points: 145 # Comments: 34",
+    "published": "Mon, 18 May 2026 19:27:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Agora-1: The Multi-Agent World Model",
+    "link": "https://odyssey.ml/introducing-agora-1",
+    "description": "Article URL: https://odyssey.ml/introducing-agora-1 Comments URL: https://news.ycombinator.com/item?id=48183748 Points: 93 # Comments: 18",
+    "published": "Mon, 18 May 2026 18:43:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "We let AIs run radio stations",
+    "link": "https://andonlabs.com/blog/andon-fm",
+    "description": "Hey HN! I'm Lukas from Andon Labs. We let AIs run companies without humans in the loop and report to the public on what can go wrong. Previously, we've done experiments in retail (vending machines, stores, and cafes), but we just launched one in the media sector. We gave four AI agents all the tools they need to both broadcast radio shows live and handle all the business side of running a media company. The agents' revenue is so far terrible (you can try to strike a sponsor deal with them if you",
+    "published": "Mon, 18 May 2026 18:12:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+    "link": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+    "description": "Article URL: https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/ Comments URL: https://news.ycombinator.com/item?id=48182754 Points: 863 # Comments: 435",
+    "published": "Mon, 18 May 2026 17:38:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Anthropic acquires Stainless",
+    "link": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "description": "Article URL: https://www.anthropic.com/news/anthropic-acquires-stainless Comments URL: https://news.ycombinator.com/item?id=48182281 Points: 398 # Comments: 274",
+    "published": "Mon, 18 May 2026 17:01:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: InsForge – Open-source Heroku for coding agents",
+    "link": "https://github.com/InsForge/InsForge",
+    "description": "Hi HN, I'm Hang, cofounder of InsForge (YC P26). InsForge is an open-source Heroku for AI coding agents: a backend platform designed for coding agents to deploy, operate, and debug end-to-end. Open source under Apache 2.0 ( https://github.com/InsForge/InsForge ). Quick demo here ( https://youtu.be/7Bax5qz0IfM ). We started InsForge because we just wanted our Claude Code to handle all the backend / infra stuff for us, instead of us jumping between dashboards doing manual config, or copy paste log",
+    "published": "Mon, 18 May 2026 15:40:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
+    "link": "https://archestra.ai/blog/only-responsible-ai",
+    "description": "Article URL: https://archestra.ai/blog/only-responsible-ai Comments URL: https://news.ycombinator.com/item?id=48181125 Points: 444 # Comments: 200",
+    "published": "Mon, 18 May 2026 15:24:19 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Project Glasswing: what Mythos showed us",
+    "link": "https://blog.cloudflare.com/cyber-frontier-models/",
+    "description": "Article URL: https://blog.cloudflare.com/cyber-frontier-models/ Comments URL: https://news.ycombinator.com/item?id=48179732 Points: 303 # Comments: 116",
+    "published": "Mon, 18 May 2026 13:37:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Files.md – Open-source alternative to Obsidian",
+    "link": "https://github.com/zakirullin/files.md",
+    "description": "Article URL: https://github.com/zakirullin/files.md Comments URL: https://news.ycombinator.com/item?id=48179677 Points: 591 # Comments: 293",
+    "published": "Mon, 18 May 2026 13:33:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
