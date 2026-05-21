@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9263",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9263",
+    "description": "mtmd, model : merge HunyuanOCR into HunyuanVL and fix OCR vision precision ( #23329 ) HunyuanOCR shares the same HF arch and vision layout as HunyuanVL butwas split into a separate path that skipped the +0.1 bilinear sampler used by the HF reference. Collapse OCR into the HUNYUANVL projector + HUNYUAN_VL text arch macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubu",
+    "published": "2026-05-21T04:15:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9260",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9260",
+    "description": "opencl: refactor backend initilization ( #23318 ) opencl: refactor initialization opencl: refactor GPU identification opencl: rename for consistency opencl: cache global mem size in dev_ctx opencl: adjust log level opencl: load argsort and flash_attn kernels in supports_op argsort kernel must be built for supports_op for querying the max workgroups flash_attn kernel has many variants, only load them when needed macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) ",
+    "published": "2026-05-21T03:20:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9259",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9259",
+    "description": "common/speculative : fix nullptr crash in get_devices_str ( #23386 ) ggml_backend_dev_by_name always appends a nullptr sentinel to the devices vector. Skipping nullptr entries prevents assertion failure in ggml_backend_dev_name. Assisted-by: llama.cpp:local pi macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm",
+    "published": "2026-05-21T02:53:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9258",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9258",
+    "description": "mtmd : DeepSeek-OCR image processing fixes, img_tool::resize padding refactor ( #23345 ) mtmd : deepseek-ocr fixes, improvements and refactoring image processing changes to achieve full parity with Pillow (reference impl) SAM mask casting only when flash-attn is on SAM refactor (build_sam() extracted so deepseek-ocr-2 can reuse it) llama-chat changes to fix server/WebUI issue (new media_markers_first()) adapted test-chat-template and added test cases for deepseek-ocr changed regression test for ",
+    "published": "2026-05-21T02:47:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9257",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9257",
+    "description": "vulkan: optimize operations in the IM2COL shader ( #22685 ) vulkan: optimize operations in the IM2COL shader Add comments and improve the code formatting macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wind",
+    "published": "2026-05-21T02:28:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9255",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9255",
+    "description": "hexagon: HMX quantized matmul rework ( #23368 ) hmx-mm: update debug logging in hmx-mm hmx-mm: update dequant logic to use HVX_vector_x2/4 hmx-mm: remove non-pipelined version of the quantize matmul It seems that we don't reall need non-pipelined version hmx-mm: use activation depth mode and update naming Co-authored-by: Kim-Chyan Gan kgan@qti.qualcomm.com hex-mm: minor hmx matmul naming updates hmx-mm: remove unused vars snapdragon: scripts bump default ubatch-size to 1K hexagon: combine HMX an",
+    "published": "2026-05-21T02:28:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9254",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9254",
+    "description": "Programmatic Dependent Launch (PDL) for more performance on newer NVIDIA GPUs (Hopper+) ( #22522 ) Adds initial PDL setup. Adds PDL barriers based on simple heuristic: place \"sync\" before first input pointer access, and \"launch\" after last write, e.g. to tensors like dst. Further optimization pass of the first half of kernels Optimized PDL barriers for the second batch of kernels Further refinements after rebase. Moves pdl logic to separate function, removes some whitespace Strips post-hoc PDL l",
+    "published": "2026-05-20T21:40:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9253",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9253",
+    "description": "app : introduce the llama unified executable ( #23296 ) app : introduce the llama unified executable Signed-off-by: Adrien Gallouët angt@huggingface.co Use serve for server Signed-off-by: Adrien Gallouët angt@huggingface.co Hide completion and bench, add help command Signed-off-by: Adrien Gallouët angt@huggingface.co Remove STATIC Signed-off-by: Adrien Gallouët angt@huggingface.co Use -impl targets instead of -lib Signed-off-by: Adrien Gallouët angt@huggingface.co Revert \"Remove STATIC\" This rev",
+    "published": "2026-05-20T16:37:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9251",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9251",
+    "description": "mtmd: fit_params now take into account mmproj ( #21489 ) mtmd: fit_params now take into account mmproj rename alloc_compute_meta to reserve_compute_meta rm unused functions add ggml_backend_dev_t support add debug log macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYC",
+    "published": "2026-05-20T15:33:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9247",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9247",
+    "description": "metal : optimize pad + cpy ( #23354 ) metal : optimize pad metal : optinmize cpy cont : better row packing in threadgroup macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows a",
+    "published": "2026-05-20T12:11:34Z",
+    "source": "llama.cpp Releases"
+  }
+]
