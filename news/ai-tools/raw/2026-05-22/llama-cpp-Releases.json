@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9279",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9279",
+    "description": "vulkan: fuse snake activation (mul, sin, sqr, mul, add) ( #22855 ) vulkan: fuse snake activation (mul, sin, sqr, mul, add) Add snake.comp shader with F32 / F16 / BF16 pipelines and ggml_vk_snake_dispatch_fused. The matcher recognizes the naive 5 op decomposition emitted by audio decoders (BigVGAN, Vocos) for snake activation y = x + sin(a*x)^2 * inv_b and rewrites it to a single elementwise kernel. test_snake_fuse from the CUDA PR now also compares CPU naive vs Vulkan fused across F32 / F16 / BF",
+    "published": "2026-05-22T01:53:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9277",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9277",
+    "description": "tests : move save-load-state from examples to tests ( #23336 ) tests : move save-load-state from examples to tests Move examples/save-load-state/ to tests/test-save-load-state.cpp Remove subdirectory reference from examples/CMakeLists.txt Add test to tests/CMakeLists.txt as a model test Remove CODEOWNERS entry for removed example directory Assisted-by: llama.cpp:local pi cont : update ci macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XC",
+    "published": "2026-05-22T01:30:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9276",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9276",
+    "description": "server: expose prompt token counts in /slots endpoint ( #23454 ) Add n_prompt_tokens, n_prompt_tokens_processed, and n_prompt_tokens_cache to the /slots JSON response. These fields are already tracked internally but were not exposed, making it impossible for clients to monitor prompt evaluation progress during processing. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (",
+    "published": "2026-05-22T00:50:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9275",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9275",
+    "description": "metal : optimize concat kernel and fix set kernel threads ( #23411 ) metal : fix GGML_OP_SET kernel threads tests : extend test_cpy to support different src/dst shapes Extend test_cpy to support different source and destination tensor shapes for CPY operations (reshaping), where the total number of elements must match. Renamed ne -> ne_src, added ne_dst parameter (default: use src shape) Added 50 new reshaping test cases covering 1D<->2D<->3D<->4D conversions Tests exercise 1024 boundary, small ",
+    "published": "2026-05-21T23:04:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9274",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9274",
+    "description": "server : free draft/MTP resources on sleep to fix VRAM leak ( #23461 ) The destroy() function in server_context_impl only cleaned up the main model and context (via llama_init.reset()) but did not free the speculative decoder (spec), draft context (ctx_dft), or draft model (model_dft). For MTP (Multi-Token Prediction) models, ctx_dft holds GPU-allocated resources (KV cache, compute buffers) that are not freed when entering the sleeping state. On each sleep/resume cycle, new resources are allocat",
+    "published": "2026-05-21T21:54:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9273",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9273",
+    "description": "server: re-inject subcommand when router spawns children under unified binary ( #23442 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) ",
+    "published": "2026-05-21T21:29:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9272",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9272",
+    "description": "app : add batched-bench, fit-params, quantize & perplexity ( #23459 ) app : add batched-bench, fit-params, quantize & perplexity Signed-off-by: Adrien Gallouët angt@huggingface.co Add missing main.cpp Signed-off-by: Adrien Gallouët angt@huggingface.co Add EOL Signed-off-by: Adrien Gallouët angt@huggingface.co Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (",
+    "published": "2026-05-21T20:57:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9271",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9271",
+    "description": "mtp: use inp_out_ids for skipping logit computation ( #23433 ) when doing a follow-up decode for the draft model, we were always doing the logit computation even though it is not required. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16",
+    "published": "2026-05-21T20:23:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9270",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9270",
+    "description": "vocab : add Carbon-3B (HybridDNATokenizer) support ( #23410 ) vocab : add Carbon-3B (HybridDNATokenizer) support Adds a new BPE pre-type LLAMA_VOCAB_PRE_TYPE_CARBON for the HybridDNATokenizer used by HuggingFaceBio/Carbon-{500M,3B,8B}. The base BPE is Qwen3-4B-Base's; what differs is that text inside ... regions is chunked into fixed 6-mers (right-padded with 'A' on the trailing partial), and any base outside ACGT maps to . src/llama-vocab.{h,cpp}: new pre-type, dispatched from llm_tokenizer_bpe",
+    "published": "2026-05-21T19:53:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9267",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9267",
+    "description": "ggml : Check the right iface method before using the fallback 2d get ( #23306 ) Probably no backends implement only one of 2d get/set, but this might be annoying for some future backend developer trying to add 2d get/set. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 ",
+    "published": "2026-05-21T17:20:43Z",
+    "source": "llama.cpp Releases"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-tests==1.1.9",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.9",
+    "description": "Changes since langchain-tests==1.1.8 release(standard-tests): 1.1.9 ( #37609 ) test(standard-tests): allow extra content blocks in streaming assertions ( #37592 ) chore: bump idna from 3.11 to 3.15 in /libs/standard-tests ( #37536 ) chore: bump the minor-and-patch group across 3 directories with 15 updates ( #37515 ) ci(infra): harden Dependabot version-bound preservation ( #37510 )",
+    "published": "2026-05-21T18:24:27Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.2.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.2.2",
+    "description": "Changes since langchain-openai==1.2.1 release(openai): 1.2.2 ( #37617 ) chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 ) test(openai): unbreak audio chat and Azure embedding integration tests ( #37589 ) fix(openai): guard httpx finalizers ( #37570 ) chore: bump langsmith from 0.8.4 to 0.8.5 in /libs/partners/openai ( #37549 ) chore: bump idna from 3.11 to 3.15 in /libs/partners/openai ( #37548 ) ci(infra): harden Dependabot version-bound preservation ( #37510 ) test(standard-tests): ",
+    "published": "2026-05-21T22:08:45Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.4.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.1",
+    "description": "Changes since langchain-fireworks==1.4.0 release(fireworks): 1.4.1 ( #37603 ) fix(fireworks): retry on bare APIConnectionError , default max_retries=2 ( #37602 ) test(fireworks): stabilize integration tests with rate limiting and retries ( #37590 )",
+    "published": "2026-05-21T06:38:55Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.4.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.0",
+    "description": "Changes since langchain-fireworks==1.3.1 release(fireworks): 1.4.0 ( #37582 ) feat(fireworks): migrate to fireworks-ai 1.x SDK ( #37581 ) chore(model-profiles): refresh model profile data ( #37574 ) chore: bump idna from 3.10 to 3.15 in /libs/partners/fireworks ( #37527 ) ci(infra): harden Dependabot version-bound preservation ( #37510 ) fix(fireworks): raise ContextOverflowError on prompt-too-long ( #37458 ) chore: bump langsmith from 0.7.31 to 0.8.0 in /libs/partners/fireworks ( #37404 ) chore",
+    "published": "2026-05-20T21:57:13Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-tests==1.1.8",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.8",
+    "description": "Changes since langchain-tests==1.1.7 hotfix(standard-tests): set langchain-core version bounds ( #37509 ) hotfix: bump lockfiles ( #37508 ) release(standard-tests): 1.1.8 ( #37507 ) test(standard-tests): assert ls_model_name honors per-call model override ( #37504 ) chore(core,langchain,openai): refresh stale OpenAI model references ( #37487 ) chore: bump langsmith from 0.7.31 to 0.8.0 in /libs/standard-tests ( #37381 ) chore(infra): merge v1.4 into master ( #37350 ) chore: bump urllib3 from 2.6",
+    "published": "2026-05-18T21:33:45Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.1",
+    "description": "Changes since langchain==1.3.0 release(langchain): 1.3.1 ( #37454 ) fix(langchain): alias Bedrock providers in summarization token check ( #37453 )",
+    "published": "2026-05-15T18:15:13Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.0",
+    "description": "This release adds support for version=\"v3\" in stream_events / astream_events for langchain agents. Refer to the event streaming guide for details.",
+    "published": "2026-05-12T14:47:15Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.4.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0",
+    "description": "Changes since langchain-core==0.3.86 chore(infra): merge v1.4 into master ( #37350 ) chore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/core ( #37329 ) fix(core): avoid eager pydantic.v1 import in @deprecated ( #37308 ) chore: bump mistune from 3.1.4 to 3.2.1 in /libs/core ( #37237 ) chore: bump jupyter-server from 2.17.0 to 2.18.0 in /libs/core ( #37204 ) release(core): 1.3.3 ( #37198 ) fix(core): set deprecation since to 1.3.3 to match release ( #37200 ) fix(core, langchain): harden load() again",
+    "published": "2026-05-11T18:42:53Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.2.18",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.18",
+    "description": "Changes since langchain==1.2.17 release(langchain): 1.2.18 ( #37250 ) revert: feat(langchain): ls_agent_type tag on create_agent calls ( #37249 ) chore(langchain-classic): deprecate hub, limit loads/dumps ( #37234 ) refactor(langchain-classic): retarget deprecations to create_agent , other chores ( #37164 ) chore(langchain,langchain-classic): uncomment optional deps ( #37163 ) release(fireworks): 1.2.1 ( #37113 )",
+    "published": "2026-05-08T13:59:43Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==0.3.86",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D0.3.86",
+    "description": "Changes since langchain-core==0.3.85 release(core): 0.3.86 ( #37242 ) fix(core): backport path-traversal fix to v0.3 ( CVE-2026-34070 , GHSA-qh6h-p6c9-ff54 ) ( #37233 )",
+    "published": "2026-05-07T16:48:35Z",
+    "source": "LangChain Releases"
+  }
+]

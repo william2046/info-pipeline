@@ -1,0 +1,142 @@
+[
+  {
+    "title": "SpaceX not the behemoth everyone thought",
+    "link": "https://www.axios.com/2026/05/21/spacex-ipo-musk-ai",
+    "description": "Article URL: https://www.axios.com/2026/05/21/spacex-ipo-musk-ai Comments URL: https://news.ycombinator.com/item?id=48231815 Points: 31 # Comments: 5",
+    "published": "Fri, 22 May 2026 04:03:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Spec-Driven Development Workflow for Claude Code",
+    "link": "https://news.ycombinator.com/item?id=48231575",
+    "description": "Spec Driven Development approach allows to squeeze more from coding agents thanks to few strong concepts: - decomposition across two dimensions. first you generate specs in multiple steps (requirements, code analysis, design), than you split task into multiple subtasks and implement them one by one - you clear context between every step - after spec generation and after subtask implementation. this helps keep cost low and context clear and focused which boost performance - specs written to disk ",
+    "published": "Fri, 22 May 2026 03:17:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Coins Stream",
+    "link": "https://coins.stream",
+    "description": "Article URL: https://coins.stream Comments URL: https://news.ycombinator.com/item?id=48231256 Points: 7 # Comments: 3",
+    "published": "Fri, 22 May 2026 02:25:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+    "link": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
+    "description": "Article URL: https://qz.com/samsung-chip-workers-bonus-ai-profits-052126 Comments URL: https://news.ycombinator.com/item?id=48230892 Points: 153 # Comments: 78",
+    "published": "Fri, 22 May 2026 01:30:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The IBM-ification of Google?",
+    "link": "https://zeroshot.bearblog.dev/google-is-shattering-under-its-own-weight-the-ibm-ification-of-google/",
+    "description": "Article URL: https://zeroshot.bearblog.dev/google-is-shattering-under-its-own-weight-the-ibm-ification-of-google/ Comments URL: https://news.ycombinator.com/item?id=48230049 Points: 137 # Comments: 108",
+    "published": "Thu, 21 May 2026 23:30:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Uv is fantastic, but its package management UX is a mess",
+    "link": "https://www.loopwerk.io/articles/2026/uv-ux-mess/",
+    "description": "Article URL: https://www.loopwerk.io/articles/2026/uv-ux-mess/ Comments URL: https://news.ycombinator.com/item?id=48228788 Points: 127 # Comments: 75",
+    "published": "Thu, 21 May 2026 20:56:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
+    "link": "https://arxiv.org/abs/2605.12460",
+    "description": "Article URL: https://arxiv.org/abs/2605.12460 Comments URL: https://news.ycombinator.com/item?id=48227923 Points: 81 # Comments: 6",
+    "published": "Thu, 21 May 2026 19:37:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Using Kagi Search with Low Vision",
+    "link": "https://veroniiiica.com/using-kagi-search-with-low-vision/",
+    "description": "Article URL: https://veroniiiica.com/using-kagi-search-with-low-vision/ Comments URL: https://news.ycombinator.com/item?id=48227860 Points: 167 # Comments: 40",
+    "published": "Thu, 21 May 2026 19:32:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
+    "link": "https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/",
+    "description": "Article URL: https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/ Comments URL: https://news.ycombinator.com/item?id=48227397 Points: 212 # Comments: 113",
+    "published": "Thu, 21 May 2026 18:54:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "BBEdit 16",
+    "link": "https://www.barebones.com/products/bbedit/bbedit16.html",
+    "description": "Article URL: https://www.barebones.com/products/bbedit/bbedit16.html Comments URL: https://news.ycombinator.com/item?id=48226944 Points: 294 # Comments: 86",
+    "published": "Thu, 21 May 2026 18:21:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Seattle Shield, an intelligence-sharing network operated by the Seattle police",
+    "link": "https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance/",
+    "description": "Article URL: https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance/ Comments URL: https://news.ycombinator.com/item?id=48226588 Points: 437 # Comments: 170",
+    "published": "Thu, 21 May 2026 17:55:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "ParadeDB (YC S23) Is Hiring Distributed Systems/Platform Engineers",
+    "link": "https://news.ycombinator.com/item?id=48225852",
+    "description": "Comments URL: https://news.ycombinator.com/item?id=48225852 Points: 0 # Comments: 0",
+    "published": "Thu, 21 May 2026 17:00:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "News outlets are limiting the Internet Archive’s access to their journalism",
+    "link": "https://www.niemanlab.org/2026/05/more-than-340-local-news-outlets-are-limiting-the-internet-archives-access-to-their-journalism/",
+    "description": "Article URL: https://www.niemanlab.org/2026/05/more-than-340-local-news-outlets-are-limiting-the-internet-archives-access-to-their-journalism/ Comments URL: https://news.ycombinator.com/item?id=48225838 Points: 247 # Comments: 84",
+    "published": "Thu, 21 May 2026 16:59:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Agent.email – sign up via curl, claim with a human OTP",
+    "link": "https://news.ycombinator.com/item?id=48225596",
+    "description": "Hi HN! We're Haakam, Michael, and Adi from AgentMail- a ycs25 company. We give AI agents their own email inboxes. Recently, we ran an experiment called Agent.Email. It's a signup flow designed specifically for AI agents instead of humans. The inspiration came from a few comments we received when we did our seed launch a few months back. They all came from the very apt observation that agents not being able to sign up to a product made for agents without human credentials was ironic and unideal. ",
+    "published": "Thu, 21 May 2026 16:42:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Waymo pauses Atlanta service as its robotaxis keep driving into floods",
+    "link": "https://techcrunch.com/2026/05/21/waymo-pauses-atlanta-service-as-its-robotaxis-keep-driving-into-floods/",
+    "description": "Article URL: https://techcrunch.com/2026/05/21/waymo-pauses-atlanta-service-as-its-robotaxis-keep-driving-into-floods/ Comments URL: https://news.ycombinator.com/item?id=48225426 Points: 282 # Comments: 345",
+    "published": "Thu, 21 May 2026 16:30:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Spotify will start reserving concert tickets for fans",
+    "link": "https://www.hollywoodreporter.com/music/music-industry-news/spotify-will-start-reserving-concert-tickets-for-superfans-1236603106/",
+    "description": "Article URL: https://www.hollywoodreporter.com/music/music-industry-news/spotify-will-start-reserving-concert-tickets-for-superfans-1236603106/ Comments URL: https://news.ycombinator.com/item?id=48225357 Points: 124 # Comments: 248",
+    "published": "Thu, 21 May 2026 16:26:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Project Hail Mary – Stellar Navigation Chart",
+    "link": "https://valhovey.github.io/gaia-mary/",
+    "description": "Article URL: https://valhovey.github.io/gaia-mary/ Comments URL: https://news.ycombinator.com/item?id=48225297 Points: 711 # Comments: 166",
+    "published": "Thu, 21 May 2026 16:23:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+    "link": "https://www.runtm.com/",
+    "description": "Hey HN, We're Gus and Carlos from Runtime ( https://runtm.com ). We're building infra that lets your whole team (including non-engineers) ship with Claude Code, Codex, and other agents without engineering having to handhold every session. After Mentum (YC S21) was acquired, I personally shipped 4 full-stack products in 3 months using coding agents. When I tried to roll the same workflow out to the rest of the team, it fell apart: Most PRs were unmergeable slop - Every repo required an engineer d",
+    "published": "Thu, 21 May 2026 16:07:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Freenet, a peer-to-peer platform for decentralized apps",
+    "link": "https://freenet.org/",
+    "description": "For the past 5 years or so I've been working on a ground-up redesign of Freenet, my peer-to-peer project from the early 2000s (now renamed Hyphanet). The new Freenet has been up and running since December along with some early applications like River[1], our decentralized group chat and Delta - a decentralized CMS. Users have already started to build their own apps on Freenet including games, and we have some interesting apps in development like Atlas, a search/recommendation engine. Architectur",
+    "published": "Thu, 21 May 2026 14:34:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Indexing a year of video locally on a 2021 MacBook with Gemma4-31B (50GB swap)",
+    "link": "https://blog.simbastack.com/indexed-a-year-of-video-locally/",
+    "description": "Article URL: https://blog.simbastack.com/indexed-a-year-of-video-locally/ Comments URL: https://news.ycombinator.com/item?id=48222733 Points: 328 # Comments: 98",
+    "published": "Thu, 21 May 2026 14:01:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
