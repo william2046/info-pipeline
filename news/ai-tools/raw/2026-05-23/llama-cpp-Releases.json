@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9294",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9294",
+    "description": "opencl: generalize Adreno MoE kernels on M ( #23449 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA ",
+    "published": "2026-05-23T01:51:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9292",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9292",
+    "description": "perplexity : fix integer overflow ( #23496 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 ",
+    "published": "2026-05-22T22:19:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9291",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9291",
+    "description": "SYCL: improve MoE prefill throughput ( #23142 ) change k_copy_src1_to_contiguous so that uses a precomputed contiguous mapping where all rows \"owned\" by an expert are in one slice with a know starts and ends switch the O(n_as * n_routed_rows) contraption to a counting sort-based procedure with O(n_as + n_routed_rows) complexity macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s",
+    "published": "2026-05-22T22:19:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9290",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9290",
+    "description": "sycl : Level Zero detection in ggml_sycl_init ( #23097 ) [SYCL] Centralize Level Zero detection in ggml_sycl_init use the same wording get back the warning macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
+    "published": "2026-05-22T22:14:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9289",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9289",
+    "description": "SYCL : gated_delta_net K>1 ( #23174 ) sycl_gated_delta_net K>1 editor_config macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 ",
+    "published": "2026-05-22T21:38:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9286",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9286",
+    "description": "ggml-zendnn : add Q8_0 quantization support ( #23414 ) ggml-zendnn : add Q8_0 quantization support ggml-zendnn : sync with latest ZenDNN ggml-zendnn : address review comments for Q8_0 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) And",
+    "published": "2026-05-22T20:56:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9285",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9285",
+    "description": "cmake : build router app only during standalone builds ( #23521 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm",
+    "published": "2026-05-22T19:48:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9284",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9284",
+    "description": "vocab : fix HybridDNA tokenizer ( #23466 ) vocab : mark hybriddna k-mers to avoid BPE token collisions improved loop Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
+    "published": "2026-05-22T15:14:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9283",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9283",
+    "description": "cmake : add install() for impl libraries + fix apple builds ( #23511 ) pi : update ci : fix ios build ci : fix andoroid ci : fix apple builds cmake : add install() for impl libraries Add install(TARGETS LIBRARY) for all -impl libraries that were changed from STATIC to shared (controlled by BUILD_SHARED_LIBS) in commit bb28c1f . Without this, cmake --install fails to copy the shared libraries, causing runtime errors like: llama-server: error while loading shared libraries: libllama-server-impl.so",
+    "published": "2026-05-22T13:45:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9282",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9282",
+    "description": "CUDA: fix PDL CC check for JIT compilation ( #23471 )",
+    "published": "2026-05-21T21:35:29Z",
+    "source": "llama.cpp Releases"
+  }
+]
