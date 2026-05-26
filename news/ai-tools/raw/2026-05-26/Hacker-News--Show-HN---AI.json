@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Motorola phones have started hijacking the Amazon app to insert affiliate codes",
+    "link": "https://9to5google.com/2026/05/25/motorola-amazon-app-hijacking-behavior/",
+    "description": "Article URL: https://9to5google.com/2026/05/25/motorola-amazon-app-hijacking-behavior/ Comments URL: https://news.ycombinator.com/item?id=48274794 Points: 18 # Comments: 5",
+    "published": "Tue, 26 May 2026 03:56:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Earthion: A New Mega Drive-Style Shoot-Em-Up",
+    "link": "https://earthiongame.com/",
+    "description": "Article URL: https://earthiongame.com/ Comments URL: https://news.ycombinator.com/item?id=48274711 Points: 7 # Comments: 0",
+    "published": "Tue, 26 May 2026 03:42:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Why the Smart Home Bubble Popped",
+    "link": "https://hackaday.com/2026/05/21/why-the-smart-home-bubble-popped/",
+    "description": "Article URL: https://hackaday.com/2026/05/21/why-the-smart-home-bubble-popped/ Comments URL: https://news.ycombinator.com/item?id=48274667 Points: 19 # Comments: 22",
+    "published": "Tue, 26 May 2026 03:35:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Does Anybody Actually Like React?",
+    "link": "https://jsx.lol",
+    "description": "Article URL: https://jsx.lol Comments URL: https://news.ycombinator.com/item?id=48274077 Points: 103 # Comments: 125",
+    "published": "Tue, 26 May 2026 01:55:15 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Designing for and against the manufactured normalcy field (2012)",
+    "link": "https://www.urbanhonking.com/ideasfordozens/2012/06/24/designing-for-and-against-the-manufactured-normalcy-field/index.html",
+    "description": "Article URL: https://www.urbanhonking.com/ideasfordozens/2012/06/24/designing-for-and-against-the-manufactured-normalcy-field/index.html Comments URL: https://news.ycombinator.com/item?id=48273597 Points: 14 # Comments: 5",
+    "published": "Tue, 26 May 2026 00:36:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "CVE-2026-28952: Apple macOS 26.5 Kernel Vuln found by Claude",
+    "link": "https://support.apple.com/en-us/127115",
+    "description": "Article URL: https://support.apple.com/en-us/127115 Comments URL: https://news.ycombinator.com/item?id=48273169 Points: 103 # Comments: 43",
+    "published": "Mon, 25 May 2026 23:40:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Performance of Rust Language [pdf]",
+    "link": "https://github.com/yugr/rust-slides/",
+    "description": "Article URL: https://github.com/yugr/rust-slides/ Comments URL: https://news.ycombinator.com/item?id=48273147 Points: 36 # Comments: 19",
+    "published": "Mon, 25 May 2026 23:37:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Nobody cracks open a programming book anymore",
+    "link": "https://unix.foo/posts/nobody-cracks-open-a-programming-book/",
+    "description": "Article URL: https://unix.foo/posts/nobody-cracks-open-a-programming-book/ Comments URL: https://news.ycombinator.com/item?id=48273030 Points: 140 # Comments: 158",
+    "published": "Mon, 25 May 2026 23:21:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Using AI to write better code more slowly",
+    "link": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+    "description": "Article URL: https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/ Comments URL: https://news.ycombinator.com/item?id=48272984 Points: 328 # Comments: 128",
+    "published": "Mon, 25 May 2026 23:16:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "How Shamir's Secret Sharing Works",
+    "link": "https://ente.com/blog/how-shamirs-secret-sharing-works/",
+    "description": "Article URL: https://ente.com/blog/how-shamirs-secret-sharing-works/ Comments URL: https://news.ycombinator.com/item?id=48272715 Points: 118 # Comments: 11",
+    "published": "Mon, 25 May 2026 22:37:24 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Taking a walk may lead to more creativity than sitting, study finds (2014)",
+    "link": "https://www.apa.org/news/press/releases/2014/04/creativity-walk",
+    "description": "Article URL: https://www.apa.org/news/press/releases/2014/04/creativity-walk Comments URL: https://news.ycombinator.com/item?id=48272670 Points: 164 # Comments: 57",
+    "published": "Mon, 25 May 2026 22:30:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: OpenBrief – Local-first video downloader/summarizer",
+    "link": "https://github.com/tantara/openbrief",
+    "description": "OpenBrief is basically a GUI for yt-dlp with some AI on top — paste a link, it downloads locally, and transcription and voice generation run with local AI on your machine. Summaries and chat over the transcript use an LLM, which is bring-your-own-key for now. It's open source and free. Comments URL: https://news.ycombinator.com/item?id=48272393 Points: 38 # Comments: 5",
+    "published": "Mon, 25 May 2026 21:50:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Microsoft Copilot Cowork Exfiltrates Files",
+    "link": "https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files",
+    "description": "Article URL: https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files Comments URL: https://news.ycombinator.com/item?id=48272354 Points: 208 # Comments: 44",
+    "published": "Mon, 25 May 2026 21:45:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ferrari Luce",
+    "link": "https://www.ferrari.com/en-EN/auto/ferrari-luce",
+    "description": "https://www.topgear.com/car-news/electric/its-finally-here-m... Comments URL: https://news.ycombinator.com/item?id=48271629 Points: 133 # Comments: 295",
+    "published": "Mon, 25 May 2026 21:00:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Hacker News front page as a site",
+    "link": "https://thefrontpage.dev/",
+    "description": "Article URL: https://thefrontpage.dev/ Comments URL: https://news.ycombinator.com/item?id=48271127 Points: 174 # Comments: 60",
+    "published": "Mon, 25 May 2026 20:12:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
+    "link": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
+    "description": "Article URL: https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910 Comments URL: https://news.ycombinator.com/item?id=48270770 Points: 207 # Comments: 104",
+    "published": "Mon, 25 May 2026 19:37:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "California moves to exempt Linux from its age-verification law after backlash",
+    "link": "https://www.tomshardware.com/software/linux/california-moves-to-exempt-linux-from-its-upcoming-age-verification-law-after-backlash-over-forcing-operating-systems-to-collect-users-ages-amendment-proposed-by-the-same-lawmaker-who-wrote-the-original-law",
+    "description": "Article URL: https://www.tomshardware.com/software/linux/california-moves-to-exempt-linux-from-its-upcoming-age-verification-law-after-backlash-over-forcing-operating-systems-to-collect-users-ages-amendment-proposed-by-the-same-lawmaker-who-wrote-the-original-law Comments URL: https://news.ycombinator.com/item?id=48269961 Points: 753 # Comments: 330",
+    "published": "Mon, 25 May 2026 18:19:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
+    "link": "https://jobs.ashbyhq.com/workweave",
+    "description": "Article URL: https://jobs.ashbyhq.com/workweave Comments URL: https://news.ycombinator.com/item?id=48269937 Points: 0 # Comments: 0",
+    "published": "Mon, 25 May 2026 18:18:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Exit IP VPN servers mitigation rollout",
+    "link": "https://mullvad.net/en/help/exit-ip-vpn-servers-mitigation-rollout",
+    "description": "Article URL: https://mullvad.net/en/help/exit-ip-vpn-servers-mitigation-rollout Comments URL: https://news.ycombinator.com/item?id=48269580 Points: 305 # Comments: 57",
+    "published": "Mon, 25 May 2026 17:45:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "RentFlow (YC S24) Is Hiring",
+    "link": "https://www.ycombinator.com/companies/rentflow/jobs/V2yneIE-senior-ai-ml-lead",
+    "description": "Article URL: https://www.ycombinator.com/companies/rentflow/jobs/V2yneIE-senior-ai-ml-lead Comments URL: https://news.ycombinator.com/item?id=48269041 Points: 0 # Comments: 0",
+    "published": "Mon, 25 May 2026 17:00:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

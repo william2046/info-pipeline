@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9330",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9330",
+    "description": "model: tag ffn_latent as MUL_MAT to fix buft probe ( #23664 ) ffn_latent_down/up are declared GGML_OP_MUL in LLM_TENSOR_INFOS but nemotron-h feeds them through ggml_mul_mat. The loader buft probe asks the backend about the declared op, so it tested an elementwise MUL on a q8_0 weight. That used to return true unconditionally and the weight stayed on GPU by luck. Once supports_op told the truth, the probe got a no and the loader pushed the weight and its matmul to CPU, splitting the graph. Taggin",
+    "published": "2026-05-26T02:49:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9329",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9329",
+    "description": "CUDA: add fast walsh-hadamard transform ( #23615 ) CUDA: add fast walsh-hadamard transform review: add unrolls + change size_t -> int warp size 64 Co-authored-by: Johannes Gäßler johannesg@5d6.de macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SY",
+    "published": "2026-05-26T02:02:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9326",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9326",
+    "description": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) ",
+    "published": "2026-05-26T00:33:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9320",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9320",
+    "description": "TP: fix ggml context size calculation ( #22616 ) TP: fix ggml context size calculation, memory leak move split state cache back into the context revert to constant ggml context size for cgraphs increase headroom for statically allocated tensors remove obsolete include macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x",
+    "published": "2026-05-26T00:00:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9319",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9319",
+    "description": "ggml: gguf_init_from_callback and gguf_init_from_buffer ( #22341 ) ggml: implement gguf_init_from_buffer test: gguf_init_from_buffer fix: memory breakdown for a model loaded with no_alloc from a file is consistent with being loaded from a buffer fix: use GGML_UNUSED Co-authored-by: Copilot copilot@github.com fix: remove total_size from gguf_reader fix: file offset calculation, rename offset to data_offset Co-authored-by: Copilot copilot@github.com refactor: extract model loader bug fixes to anot",
+    "published": "2026-05-25T23:09:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9318",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9318",
+    "description": "server: MTP layer kv-cache should respect draft type ctk ( #23646 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Wind",
+    "published": "2026-05-25T20:27:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9315",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9315",
+    "description": "llama : document that only one on-device state can be saved per sequence ( #23520 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUD",
+    "published": "2026-05-25T18:40:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9313",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9313",
+    "description": "ggml : Parallelize quant LUT init ( #23595 ) Use OpenMP to parallelize iq2xs_init_impl and iq3xs_init_impl. Move the OpenMP detection from ggml-cpu to ggml-base. Update OpenMP dependencies in ggml-config.cmake.in. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
+    "published": "2026-05-25T17:14:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9311",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9311",
+    "description": "vendor : update cpp-httplib to 0.45.1 ( #23639 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) -",
+    "published": "2026-05-25T15:57:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9310",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9310",
+    "description": "server: fix checkpoints creation ( #22929 ) common : add common_chat_split_by_role cont : fix spans to reach end of message server: fix checkpoints creation extract message_spans from chat templates find the prompt token position before the latest user message split prompt batching at that position create a context checkpoint before the latest user input avoid periodic mid-prompt checkpoints when that position is known handle multimodal prompts when mapping text/template positions to server prom",
+    "published": "2026-05-25T11:52:47Z",
+    "source": "llama.cpp Releases"
+  }
+]
