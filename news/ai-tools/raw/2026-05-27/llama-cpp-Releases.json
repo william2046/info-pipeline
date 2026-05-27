@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9352",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9352",
+    "description": "ggml-zendnn : fixed naming of matmul function ( #20964 ) ggml-zendnn: fixed naming of matmul function ggml-zendnn: fixed naming of mul_mat_id function ggml-zendnn: fixed print in mul_mat_id Co-authored-by: plotnikov.v10 plotnikov.v10@wb.ru macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Ope",
+    "published": "2026-05-26T23:49:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9351",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9351",
+    "description": "macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) Windows x64 (SYCL) DISABLE",
+    "published": "2026-05-26T19:56:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9341: convert : support Gemma4ForCausalLM architecture (#23682)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9341",
+    "description": "convert : support Gemma4ForCausalLM architecture ( #23674 ) fix indent Co-authored-by: Oleg Afonin your.email@example.com Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com",
+    "published": "2026-05-26T05:00:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9334",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9334",
+    "description": "CUDA: missing PDL sync for FWHT, better fallback ( #23690 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 D",
+    "published": "2026-05-26T09:02:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9333",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9333",
+    "description": "metal : add apple device id ( #23566 ) Co-authored-by: lvyichen lvyichen@stepfun.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x6",
+    "published": "2026-05-26T06:14:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9331",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9331",
+    "description": "ci : reduce PR jobs by matching backend paths ( #23675 ) ci : disable SYCL f16 builds ci : extract android and hip into separate workflows ci : move webgpu to separate workflow ci : move the rpc to a separate workflow ci : extract s309x and ppcl jobs ci : extract opencl job into a separate workflow macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan)",
+    "published": "2026-05-26T05:11:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9330",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9330",
+    "description": "model: tag ffn_latent as MUL_MAT to fix buft probe ( #23664 ) ffn_latent_down/up are declared GGML_OP_MUL in LLM_TENSOR_INFOS but nemotron-h feeds them through ggml_mul_mat. The loader buft probe asks the backend about the declared op, so it tested an elementwise MUL on a q8_0 weight. That used to return true unconditionally and the weight stayed on GPU by luck. Once supports_op told the truth, the probe got a no and the loader pushed the weight and its matmul to CPU, splitting the graph. Taggin",
+    "published": "2026-05-26T02:49:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9329",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9329",
+    "description": "CUDA: add fast walsh-hadamard transform ( #23615 ) CUDA: add fast walsh-hadamard transform review: add unrolls + change size_t -> int warp size 64 Co-authored-by: Johannes Gäßler johannesg@5d6.de macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SY",
+    "published": "2026-05-26T02:02:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9326",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9326",
+    "description": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.1 DLLs Windows x64 (Vulkan) ",
+    "published": "2026-05-26T00:33:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9320",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9320",
+    "description": "TP: fix ggml context size calculation ( #22616 ) TP: fix ggml context size calculation, memory leak move split state cache back into the context revert to constant ggml context size for cgraphs increase headroom for statically allocated tensors remove obsolete include macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x",
+    "published": "2026-05-26T00:00:20Z",
+    "source": "llama.cpp Releases"
+  }
+]
