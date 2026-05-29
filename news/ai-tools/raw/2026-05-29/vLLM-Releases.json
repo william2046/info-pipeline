@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.22.0rc3: [BugFix] Fix hard-coded timeout for multi-API-server startup (#43768)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0rc3",
+    "description": "Signed-off-by: Vadim Gimpelson vadim.gimpelson@gmail.com Co-authored-by: Nick Hill nickhill123@gmail.com",
+    "published": "2026-05-28T07:11:54Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.0rc2: Fix early CUDA init (#43791)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0rc2",
+    "description": "Signed-off-by: Harry Mellor 19981378+hmellor@users.noreply.github.com (cherry picked from commit 41688e2 )",
+    "published": "2026-05-27T21:20:37Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.0rc1: [MRV2][BugFix] Fix KV connector handling in spec decode case (#43719)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0rc1",
+    "description": "Signed-off-by: Nick Hill nickhill123@gmail.com Co-authored-by: Wentao Ye 44945378+yewentao256@users.noreply.github.com (cherry picked from commit 8c94938 )",
+    "published": "2026-05-27T07:37:22Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.21.1rc0: [ROCm][CI] Stage B gating (#42025)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.21.1rc0",
+    "description": "Signed-off-by: Andreas Karatzas akaratza@amd.com",
+    "published": "2026-05-15T08:49:27Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.21.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
+    "description": "Highlights This release features 367 commits from 202 contributors (49 new)! Transformers v4 deprecated : This release formally deprecates transformers v4 support ( #40389 ). Users should migrate to transformers v5. C++20 build requirement : vLLM now requires a C++20-compatible compiler for compatibility with PyTorch ( #40380 ). This is a breaking build change . KV Offload + Hybrid Memory Allocator (HMA) : The KV offloading subsystem now integrates with the Hybrid Memory Allocator, including sch",
+    "published": "2026-05-15T08:54:45Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.21.0rc3",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0rc3",
+    "description": "[MLA Attention Backend] Add TOKENSPEED_MLA backend for DSR1/Kimi K25 …",
+    "published": "2026-05-14T07:59:51Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.21.0rc2",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0rc2",
+    "description": "[Bugfix] Install nvidia-cutlass-dsl[cu13] extra on CUDA 13 platforms …",
+    "published": "2026-05-13T09:03:17Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.21.0rc1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0rc1",
+    "description": "[Build] Build bundled DeepGEMM _C per-Python so the wheel imports o…",
+    "published": "2026-05-12T21:57:17Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.20.2",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.20.2",
+    "description": "vLLM v0.20.2 Highlights This release features 6 commits from 6 contributors (0 new)! This is a small patch release with bug fixes for DeepSeek V4, gpt-oss, and Qwen3-VL Bug Fixes DeepSeek V4 sparse attention : Re-enable the persistent topk path on Hopper and ensure the memset kernel runs at CUDA graph capture time regardless of max_seq_len , fixing the MTP=1 hang on DeepSeek V4 ( #41665 , revert of #41605 ). DeepSeek V4 KV cache : Fixed a \"failure to allocate KV blocks\" error in the V1 engine KV",
+    "published": "2026-05-10T07:39:12Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.20.1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1",
+    "description": "vLLM v0.20.1 This is a patch release on top of v0.20.0 primarily focused on DeepSeek V4 stabilization and performance improvements , along with several important bug fixes. DeepSeek V4 Base model support ( #41006 ). Multi-stream pre-attention GEMM ( #41061 ), configurable pre-attn GEMM knob ( #41443 ), and tuned default VLLM_MULTI_STREAM_GEMM_TOKEN_THRESHOLD ( #41526 ). BF16 and MXFP8 all-to-all support for FlashInfer one-sided communication ( #40960 ). PTX cvt instruction for faster FP32->FP4 c",
+    "published": "2026-05-04T10:36:59Z",
+    "source": "vLLM Releases"
+  }
+]
