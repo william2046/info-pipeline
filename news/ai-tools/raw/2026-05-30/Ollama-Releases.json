@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.30.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc31",
+    "description": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple Silicon. While in pre-release we'd love feedback on: Performance improvements or degradation Errors or crashes that did not previously occur Memory utilization improvements or degradation Known issues: laguna-xs.2 is not yet supported on Windows/Linux. llama3.2-vision is not yet",
+    "published": "2026-05-29T16:09:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc30",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc30",
+    "description": "version bump",
+    "published": "2026-05-29T14:32:50Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc29",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc29",
+    "description": "review comments",
+    "published": "2026-05-28T18:37:15Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc28",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc28",
+    "description": "add OLLAMA_IGPU_ENABLE and largely disable iGPUs by default",
+    "published": "2026-05-27T16:40:36Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc27",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc27",
+    "description": "ci: windows path workaround for CPU build",
+    "published": "2026-05-27T00:17:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc26: Merge remote-tracking branch 'upstream/main' into llama-runner-phase-0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc26",
+    "description": "Conflicts: server/images.go server/images_test.go",
+    "published": "2026-05-26T23:41:33Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc25",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc25",
+    "description": "ci: fix WoA cross-compile",
+    "published": "2026-05-25T15:34:24Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc24",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc24",
+    "description": "version bump",
+    "published": "2026-05-24T15:46:00Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc23",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc23",
+    "description": "lint fix",
+    "published": "2026-05-22T16:39:01Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc22",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc22",
+    "description": "version bump",
+    "published": "2026-05-21T14:40:36Z",
+    "source": "Ollama Releases"
+  }
+]

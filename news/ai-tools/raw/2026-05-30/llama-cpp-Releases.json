@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9415",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9415",
+    "description": "download: add option to skip_download ( #23059 ) download: add option to skip_download fix fix 2 if file doesn't exist, respect skip_download flag macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows",
+    "published": "2026-05-29T23:38:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9414",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9414",
+    "description": "mtmd: Add DeepSeekOCR 2 Support ( #20975 ) mtmd: DeepSeek-OCR 2 support, with multi-tile dynamic resolution introduced clip_image_f32::add_viewsep address PR review drop redundant ggml_cpy ops in both deepseekocr versions build drop no-op ggml_cont in build_sam assert num_image_tokens deepseekocr2 view_seperator as (1, n_embd) at conversion (for both versions) drop redundant ggml_reshape_2d Update tools/mtmd/models/deepseekocr2.cpp Co-authored-by: Xuan-Son Nguyen thichthat@gmail.com Co-authored-",
+    "published": "2026-05-29T21:03:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9413",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9413",
+    "description": "CUDA: Check PTX version on host side to guard PDL dispatch ( #23530 ) CUDA: Check PTX version on host side to guard PDL dispatch Checking on __CUDA_ARCH_LIST__ alone is insufficient for JIT, as this variable doesn't differentiate between compiling for say sm_90, sm_90a or sm_90f (so forward-jittable PTX vs. arch/family-specific PTX). Thus, one can have a bug when compiling with DCMAKE_CUDA_ARCHITECTURES=\"89;90a\" , where current code would wrongly dispatch to PDL on sm_90/sm_120 in forward-JIT mo",
+    "published": "2026-05-29T18:43:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9412",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9412",
+    "description": "server: bump timeout to 3600s ( #23842 ) server: bump timeout to 3600s nits: change wording macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - ",
+    "published": "2026-05-29T16:22:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9411",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9411",
+    "description": "model : support for DeepseekV32ForCausalLM with generic DeepSeek Sparse Attention (DSA) implementation ( #23346 ) llama : support DeepSeek V3.2 model family (with DSA lightning indexer) convert : handle DeepseekV32ForCausalLM architecture ggml : support for f16 GGML_OP_FILL memory : separate hparams argument in llama_kv_cache constructor memory : add llama_kv_cache_dsa memory (KV cache + lightning indexer cache) llama : support for LLM_ARCH_DEEPSEEK32 model : llama_model_deepseek32 implementatio",
+    "published": "2026-05-29T15:32:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9410",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9410",
+    "description": "llama: use f16 mask for FA to save VRAM ( #23764 ) llama: use f16 mask for FA review: add llama_cast + formatting simplify macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64",
+    "published": "2026-05-29T14:42:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9409",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9409",
+    "description": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Windows x64 (Vulkan) Windo",
+    "published": "2026-05-29T13:49:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9406",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9406",
+    "description": "llama: add llm_graph_input_mtp ( #23643 ) llama: add llm_graph_input_mtp rename input_mtp -> input_token_embd add TODO about mtmd embedding cont : clean-up Co-authored-by: Georgi Gerganov ggerganov@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL",
+    "published": "2026-05-29T13:00:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9405",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9405",
+    "description": "app : move licences to llama-app ( #23824 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12)",
+    "published": "2026-05-29T12:10:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9404",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9404",
+    "description": "cuda : disables launch_fattn PDL enrollment due to compiler bug ( #23825 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Wi",
+    "published": "2026-05-29T11:21:15Z",
+    "source": "llama.cpp Releases"
+  }
+]
