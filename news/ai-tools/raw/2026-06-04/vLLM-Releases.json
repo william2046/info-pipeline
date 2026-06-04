@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.22.1rc2: fix: resolve CUTLASS fmin compatibility for DeepSeek-V4 init",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1rc2",
+    "description": "Signed-off-by: khluu khluu000@gmail.com",
+    "published": "2026-06-04T00:11:47Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.1rc1: [docker] Stop using extra-index-url for flashinfer-jit-cache (#44366)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1rc1",
+    "description": "Signed-off-by: Kevin H. Luu khluu000@gmail.com",
+    "published": "2026-06-03T02:02:03Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.1rc0: [CI] Make Model Executor test hangs fail fast with a traceback (#43971)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1rc0",
+    "description": "Signed-off-by: khluu khluu000@gmail.com Co-authored-by: Claude noreply@anthropic.com",
+    "published": "2026-05-29T18:58:25Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0",
+    "description": "Highlights This release features 459 commits from 230 contributors (63 new)! DeepSeek V4 maturity : DeepSeek V4 received a major hardening pass this cycle — the model was reorganized into a dedicated vllm/models/deepseek_v4/ package ( #43004 , #43039 , #43073 , #43077 , #43149 ), gained NVFP4 fused MoE support ( #42209 ), full + piecewise CUDA graph ( #42604 ), and MTP speculative decoding ( #43385 ). A large set of fused kernels (MegaMoE, mhc , Q-norm, indexer, sparse MLA) and ROCm parity fixes",
+    "published": "2026-06-02T18:14:39Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.0rc3: [BugFix] Fix hard-coded timeout for multi-API-server startup (#43768)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0rc3",
+    "description": "Signed-off-by: Vadim Gimpelson vadim.gimpelson@gmail.com Co-authored-by: Nick Hill nickhill123@gmail.com",
+    "published": "2026-05-28T07:11:54Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.0rc2: Fix early CUDA init (#43791)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0rc2",
+    "description": "Signed-off-by: Harry Mellor 19981378+hmellor@users.noreply.github.com (cherry picked from commit 41688e2 )",
+    "published": "2026-05-27T21:20:37Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.0rc1: [MRV2][BugFix] Fix KV connector handling in spec decode case (#43719)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0rc1",
+    "description": "Signed-off-by: Nick Hill nickhill123@gmail.com Co-authored-by: Wentao Ye 44945378+yewentao256@users.noreply.github.com (cherry picked from commit 8c94938 )",
+    "published": "2026-05-27T07:37:22Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.21.1rc0: [ROCm][CI] Stage B gating (#42025)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.21.1rc0",
+    "description": "Signed-off-by: Andreas Karatzas akaratza@amd.com",
+    "published": "2026-05-15T08:49:27Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.21.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
+    "description": "Highlights This release features 367 commits from 202 contributors (49 new)! Transformers v4 deprecated : This release formally deprecates transformers v4 support ( #40389 ). Users should migrate to transformers v5. C++20 build requirement : vLLM now requires a C++20-compatible compiler for compatibility with PyTorch ( #40380 ). This is a breaking build change . KV Offload + Hybrid Memory Allocator (HMA) : The KV offloading subsystem now integrates with the Hybrid Memory Allocator, including sch",
+    "published": "2026-05-15T08:54:45Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.21.0rc3",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0rc3",
+    "description": "[MLA Attention Backend] Add TOKENSPEED_MLA backend for DSR1/Kimi K25 …",
+    "published": "2026-05-14T07:59:51Z",
+    "source": "vLLM Releases"
+  }
+]

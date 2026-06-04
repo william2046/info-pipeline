@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.30.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.4",
+    "description": "What's Changed llama.cpp version update by @dhiltgen in #16463 Kill llama-server during Windows cleanup by @dhiltgen in #16458 Known Issues gemma4:12b crash with floating point exception Full Changelog : v0.30.3...v0.30.4",
+    "published": "2026-06-04T01:08:55Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.4-rc1: llama-server: fix gemma4 patch wiring (#16477)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.4-rc1",
+    "description": "This will fix the \"clip.cpp:4399: Unknown projector type\" crash.",
+    "published": "2026-06-03T21:41:03Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.4-rc0: Kill llama-server during Windows cleanup (#16458)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.4-rc0",
+    "description": "Windows installer and app cleanup could leave llama-server.exe running when ollama.exe was killed directly, so cleanup now includes llama-server.exe and taskkill /T.",
+    "published": "2026-06-03T17:25:12Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.3",
+    "description": "What's Changed models: add support for gemma4-12b by @pdevine in #16457 Full Changelog : v0.30.2...v0.30.3",
+    "published": "2026-06-03T16:39:44Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.2",
+    "description": "What's Changed feat(launch): show and auto-install Cline CLI by @hoyyeva in #16402 log template details to aid troubleshooting by @dhiltgen in #16403 cmd/launch: add Qwen code integration by @hoyyeva in #15900 launch: fix opencode local model limits by @dhiltgen in #16425 llm: include cached prompt tokens in llama-server counts by @dhiltgen in #16428 Harden app markdown URL handling by @dhiltgen in #16380 discover: allow Radeon 8060S iGPU by default by @dhiltgen in #16429 llm: detect llama-serve",
+    "published": "2026-06-03T02:54:30Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.2-rc0: fix laguna patch build breakage (#16445)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.2-rc0",
+    "description": "Follow up to #16396 Fix kernel template instantiation so the symbols are exported in the library.",
+    "published": "2026-06-02T23:35:19Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.1: llm: ignore llama-server SSE ping comments (#16443)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.1",
+    "description": "llama.cpp b9478 added a default 30s SSE ping that emits colon-only comment frames (\":\\n\\n\") while streamed requests are idle; Ollama treated non-data SSE lines as JSON, so skip SSE comments in completion and chat streams.",
+    "published": "2026-06-02T22:40:14Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.1-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.1-rc0",
+    "description": "launch: isolate Codex launch configuration ( #16437 )",
+    "published": "2026-06-02T19:10:46Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0",
+    "description": "Ollama 0.30 is now available, with improved compatibility and performance using llama.cpp . This augments the MLX engine on Apple Silicon, bringing support to a wider range of hardware. This release brings support for a wider range of models, including GGUF-based models from Hugging Face and your own fine-tuned models along with faster performance on NVIDIA hardware. Known issues: laguna-xs.2 is not yet supported on Windows/Linux. llama3.2-vision is not yet supported nomic-embed-text now convert",
+    "published": "2026-06-02T00:32:00Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.0-rc32: llama-server followups (#16353)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc32",
+    "description": "llama-server followups Misc fixes for #16031 Add back dropped ROCm build flag for multi-GPU support on windows Fix amdhip64_*.dll version detection for \"latest\" selection Fix embeddings API for consistent normalize behavior with prior versions ci: set up for automated llama.cpp update testing reduce batch for fa-disabled, and constrained vram mlx: fix v3 load bug on m5 Imagegen was incorrectly loading v3 first. This DRYs out the loading code so imagegen gets the same new v4/v3 selection logic. f",
+    "published": "2026-06-01T17:44:21Z",
+    "source": "Ollama Releases"
+  }
+]

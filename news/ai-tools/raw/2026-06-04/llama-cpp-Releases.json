@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9501: tests : refactor test-save-load-state to accept token input (#24073)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9501",
+    "description": "tests : refactor test-save-load-state to accept token input Default prompt is now empty; when not provided, generate n_batch random tokens (useful for models without a tokenizer) Tokenization happens once upfront; pass token vector to test functions generate_tokens prints token IDs instead of decoded pieces Use llama_model_get_vocab / llama_vocab_n_tokens API Upgrade log level from LOG_TRC to LOG_INF for visibility Assisted-by: llama.cpp:local pi cont : use llama_tokens alias",
+    "published": "2026-06-04T05:06:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9498",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9498",
+    "description": "ggml-cpu: extend RVV quantization vec dot to higher VLENs ( #22754 ) ggml-cpu: add rvv 512b,1024b impls for iq4_xs ggml-cpu: refactor; add rvv 512b, 1024b impls for q6_K, i-quants ggml-cpu: refactor; add 512 and 1024 implementations of tq3_s, iq3_xxs, iq2_s, iq2_xs, iq2_xxs improve iq2_xs impl for rvv 256 Co-authored-by: Rehan Qasim rehan.qasim@10xengineers.ai Co-authored-by: taimur-10x taimur.ahmad@10xengineers.ai Co-authored-by: Rehan Qasim rehan.qasim@10xengineers.ai macOS/iOS: macOS Apple Si",
+    "published": "2026-06-04T05:43:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9496",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9496",
+    "description": "mtmd: fix Gemma 4 unified FPE ( #24088 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DL",
+    "published": "2026-06-03T20:25:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9495",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9495",
+    "description": "qwen35: use post-norm hidden state for MTP ( #24025 ) qwen35: use post-norm hidden state for MTP rename pre_norm to nextn fix step35 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Win",
+    "published": "2026-06-03T18:14:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9494",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9494",
+    "description": "mtmd: enable non-causal vision for gemma 4 unified ( #24082 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CU",
+    "published": "2026-06-03T17:37:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9493",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9493",
+    "description": "mtmd, model: allow skip build_vit() ( #24077 ) add model nits macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CU",
+    "published": "2026-06-03T15:45:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9491",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9491",
+    "description": "Avoid PDL race conditions by disabling restrict when PDL is used ( #24030 ) Removes restrict from PDL kernel headers due to incompatibility with PDL. Adds preprocessor directives based on arch in kernel body to add restrict to retain performance on older architectures. Simplifies new restrict usage via macro Add hopper to PDL restrict fix. Co-authored-by: Oliver Simons osimons@nvidia.com Co-authored-by: Oliver Simons osimons@nvidia.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (",
+    "published": "2026-06-03T14:17:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9490",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9490",
+    "description": "ggml-cpu: use runtime SVE width in FWHT ( #24059 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CU",
+    "published": "2026-06-03T11:48:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9489",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9489",
+    "description": "cuda: reserve space for quantize kv-cache at startup ( #23907 ) cuda: reserve space for quantize kv-cache at startup address review comments remove forward decl Co-authored-by: Johannes Gäßler johannesg@5d6.de remove assert in ggml-cuda.cu Co-authored-by: Johannes Gäßler johannesg@5d6.de Co-authored-by: Johannes Gäßler johannesg@5d6.de macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm",
+    "published": "2026-06-03T11:23:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9488",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9488",
+    "description": "tests : add support for qwen3 SSM archs ( #24031 ) tests : add support for qwen3 SSM archs arch : add LLM_KV_ATTENTION_RECURRENT_LAYERS cont : naming + TODOs macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windo",
+    "published": "2026-06-03T07:49:49Z",
+    "source": "llama.cpp Releases"
+  }
+]
