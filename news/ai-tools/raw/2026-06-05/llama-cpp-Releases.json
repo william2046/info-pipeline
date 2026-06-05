@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9518",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9518",
+    "description": "server : disable on-device spec checkpoints ( #24108 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) ",
+    "published": "2026-06-04T17:15:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9515",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9515",
+    "description": "Move duplicated imatrix code into single common imatrix-loader.cpp ( #22445 ) Deduplicate imatrix loading code Add back LLAMA_TRACE, early exit on quantize missing metadata macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android ar",
+    "published": "2026-06-04T16:20:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9512",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9512",
+    "description": "return filter to save memory ( #24125 ) Co-authored-by: lvyichen lvyichen@stepfun.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 1",
+    "published": "2026-06-04T15:15:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9510",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9510",
+    "description": "ggml: vectorize ggml_vec_dot_q4_1_q8_1 with WASM SIMD128 ( #22209 ) ggml: vectorize ggml_vec_dot_q4_1_q8_1 with WASM SIMD128 Optimize the inner loop of ggml_vec_dot_q4_1_q8_1_generic using WASM SIMD128 intrinsics, gated behind #ifdef wasm_simd128 so non-wasm builds are completely unaffected. Approach: single wasm_v128_load covers all 32 packed 4-bit weights nibbles unpacked via AND/SHR into two u8x16 registers widened to i16 before multiply (WASM SIMD has no i8*i8 instruction) 4x wasm_i32x4_dot_",
+    "published": "2026-06-04T14:46:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9509",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9509",
+    "description": "server: avoid unnecessary checkpoint restore when new tokens are present ( #24110 ) server: avoid unnecessary checkpoint restore when new tokens are present The pos_min_thold calculation unconditionally subtracts 1 to ensure at least one token is evaluated for logits when no new tokens exist. However, when the request contains new tokens beyond the cached prefix, this -1 is overly conservative and may trigger an unnecessary checkpoint restore. Conditionally apply the -1 only when n_past >= task.",
+    "published": "2026-06-04T13:55:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9505",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9505",
+    "description": "server : add header to tools/server/server-http.h ( #24089 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUD",
+    "published": "2026-06-04T11:33:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9504",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9504",
+    "description": "cmake: skip cvector-generator and export-lora when CPU backend is disabled ( #24053 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 1",
+    "published": "2026-06-04T10:59:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9503",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9503",
+    "description": "fix(mtmd): handle Gemma 4 audio projector embedding size ( #24091 ) mtmd: handle Gemma 4 audio projector embedding size rm projection_dim from clip_n_mmproj_embd Co-authored-by: Xuan Son Nguyen son@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 ",
+    "published": "2026-06-04T10:15:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9501: tests : refactor test-save-load-state to accept token input (#24073)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9501",
+    "description": "tests : refactor test-save-load-state to accept token input Default prompt is now empty; when not provided, generate n_batch random tokens (useful for models without a tokenizer) Tokenization happens once upfront; pass token vector to test functions generate_tokens prints token IDs instead of decoded pieces Use llama_model_get_vocab / llama_vocab_n_tokens API Upgrade log level from LOG_TRC to LOG_INF for visibility Assisted-by: llama.cpp:local pi cont : use llama_tokens alias",
+    "published": "2026-06-04T05:06:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9500",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9500",
+    "description": "metal : reduce rset heartbeat from 500ms -> 5ms ( #24074 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA ",
+    "published": "2026-06-04T06:35:42Z",
+    "source": "llama.cpp Releases"
+  }
+]
