@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9537",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9537",
+    "description": "context : fix off-by-one comparisons to n_gpu_layers ( #24208 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (",
+    "published": "2026-06-06T04:35:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9536",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9536",
+    "description": "opencl: improve get_rows, cpy, concat and q6_k flat gemv ( #24160 ) opencl: allow multiple workgroups for large rows opencl: improve small cpy opencl: packed concat for small input opencl: tweak flat q6_K gemv, increase N_DST and remap threads macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ub",
+    "published": "2026-06-05T21:10:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9535",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9535",
+    "description": "common/chat : unify and fix LFM2/LFM2.5 tool parser ( #24178 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (C",
+    "published": "2026-06-05T20:07:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9534",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9534",
+    "description": "vulkan: add fwht support for Intel with shmem reduction ( #23964 ) vulkan: add fwht support for Intel with shmem reduction don't use N as workgroup size disable subgroup shuffle on MoltenVK AMD disable fwht shader on Intel Windows due to driver bug macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.",
+    "published": "2026-06-05T18:17:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9533",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9533",
+    "description": "model: fix build failed ( #24193 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Win",
+    "published": "2026-06-05T17:29:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9531",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9531",
+    "description": "TP: round up granularity to 128 ( #24180 ) TP: round up granularity to 128 remove assert macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUD",
+    "published": "2026-06-05T16:47:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9530",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9530",
+    "description": "cli: fix model params not propagated ( #23893 ) Fixes #23847 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUD",
+    "published": "2026-06-05T16:09:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9529",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9529",
+    "description": "model : fix llama_model::n_gpu_layers() ( #24188 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CU",
+    "published": "2026-06-05T14:43:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9528",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9528",
+    "description": "ui: run npm install when package-lock.json is newer than node_modules ( #24171 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 D",
+    "published": "2026-06-05T13:19:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9524",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9524",
+    "description": "minor : fix lint issues ( #24165 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Win",
+    "published": "2026-06-05T09:19:14Z",
+    "source": "llama.cpp Releases"
+  }
+]
