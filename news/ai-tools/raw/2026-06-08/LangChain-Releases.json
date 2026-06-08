@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-perplexity==1.3.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.3.2",
+    "description": "Changes since langchain-perplexity==1.3.1 release(perplexity): 1.3.2 ( #37925 ) fix(perplexity): serialize ToolMessage and AIMessage.tool_calls ( #37911 )",
+    "published": "2026-06-05T19:21:01Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.4.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.1",
+    "description": "Changes since langchain-core==1.4.0 release(core): 1.4.1 ( #37922 ) fix(core): remove Bedrock prevalidation from load ( #37909 ) docs(core): expand and link ModelProfile docstrings ( #37904 ) release(anthropic): 1.4.4 ( #37757 ) chore(core): bump uuid-utils to 0.16.0 ( #37699 ) chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 ) release(standard-tests): 1.1.9 ( #37609 ) chore: bump idna from 3.11 to 3.15 in /libs/core ( #37539 ) ci(infra): harden Dependabot version-bound preservation ( ",
+    "published": "2026-06-05T14:51:58Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-deepseek==1.1.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.0",
+    "description": "Changes since langchain-deepseek==1.0.1 chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 ) chore: bump idna from 3.10 to 3.15 in /libs/partners/deepseek ( #37560 ) ci(infra): harden Dependabot version-bound preservation ( #37510 ) chore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/partners/deepseek ( #37341 ) chore: bump langchain-core from 1.3.2 to 1.3.3 in /libs/partners/deepseek ( #37282 ) chore: bump langsmith from 0.7.31 to 0.8.3 in /libs/partners/deepseek ( #37283 ) chore(docs): up",
+    "published": "2026-06-03T19:07:27Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.4",
+    "description": "Changes since langchain==1.3.3 release(langchain): 1.3.4 ( #37861 ) fix(langchain): improve HITL rejection guidance ( #37859 )",
+    "published": "2026-06-02T20:05:04Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.3",
+    "description": "Changes since langchain==1.3.2 release(langchain): 1.3.3 ( #37843 ) chore(langchain): bump langgraph to 1.2.4 ( #37857 ) chore(langchain): loosen langgraph dep range ( #37855 ) feat(langchain): project subagent runs onto typed run.subagents channel ( #37739 ) feat(langchain): add interrupt_mode and when predicate to HumanInTheLoopMiddleware ( #37579 )",
+    "published": "2026-06-02T18:20:22Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.4.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.4",
+    "description": "Changes since langchain-anthropic==1.4.3 release(anthropic): 1.4.4 ( #37757 ) fix(anthropic): normalize cross-provider tool-call IDs ( #37756 ) test(anthropic): retry integration tests on transient failures ( #37697 ) chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 ) chore: bump langsmith from 0.8.3 to 0.8.5 in /libs/partners/anthropic ( #37564 ) chore: bump idna from 3.11 to 3.15 in /libs/partners/anthropic ( #37565 ) ci(infra): harden Dependabot version-bound preservation ( #37510 )",
+    "published": "2026-05-28T20:20:39Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-perplexity==1.3.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.3.1",
+    "description": "Changes since langchain-perplexity==1.3.0 release(perplexity): 1.3.1 ( #37720 ) chore(perplexity): bump perplexityai to 0.34.1 ( #37710 )",
+    "published": "2026-05-27T20:45:42Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-perplexity==1.3.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.3.0",
+    "description": "Changes since langchain-perplexity==1.2.0 release(perplexity): 1.3.0 ( #37707 ) feat(perplexity): use_responses_api flag on ChatPerplexity ( #37359 ) chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 ) chore: bump langsmith from 0.8.4 to 0.8.5 in /libs/partners/perplexity ( #37545 ) chore: bump idna from 3.10 to 3.15 in /libs/partners/perplexity ( #37544 ) ci(infra): harden Dependabot version-bound preservation ( #37510 ) chore: bump langsmith from 0.8.0 to 0.8.4 in /libs/partners/perpl",
+    "published": "2026-05-27T00:22:23Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.4.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.2",
+    "description": "Changes since langchain-fireworks==1.4.1 release(fireworks): 1.4.2 ( #37715 ) fix(fireworks): strip non-wire keys from all content parts before serialization ( #37714 ) chore(model-profiles): refresh model profile data ( #37650 ) chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 )",
+    "published": "2026-05-27T18:10:23Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.2",
+    "description": "Changes since langchain==1.3.1 chore(langchain): bump to 1.3.2, require langgraph>=1.2.2 ( #37703 ) fix(langchain): land final answer in last AIMessage for TodoListMiddleware ( #37643 ) feat(langchain): redact streamed PII in flight on PIIMiddleware ( #37616 ) chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 ) release(standard-tests): 1.1.9 ( #37609 ) feat(langchain): register stream transformers on middleware ( #37591 ) chore: bump idna from 3.11 to 3.15 in /libs/langchain_v1 ( #37534",
+    "published": "2026-05-26T18:18:15Z",
+    "source": "LangChain Releases"
+  }
+]

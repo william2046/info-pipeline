@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9553",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9553",
+    "description": "common : relax sampler name matching ( #23744 ) common : relax sampler name matching Currently, in some cases, the alternative names for samplers (like top-k and min-p instead of the canonical top_k and min_p ) are not always recognized by the common_sampler_types_from_names function in common/sampling.cpp . This PR changes the signature of this function to remove the bool allow_alt_names flag, and removes all occurences of the flag from call sites. Therefore, the function will now always match ",
+    "published": "2026-06-07T21:11:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9551",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9551",
+    "description": "kv-cache : avoid kv cells copies ( #24277 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3",
+    "published": "2026-06-07T19:28:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9550",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9550",
+    "description": "kv-cache: follow the source cache size when sharing cells ( #24267 ) A fitted target context can end up smaller than the draft default, the oversized assistant views then overflow the shared K/V tensors and trip the ggml_view_4d size assert during graph reserve. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubunt",
+    "published": "2026-06-07T15:57:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9549",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9549",
+    "description": "llama : add Gemma4 MTP ( #23398 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Wind",
+    "published": "2026-06-07T13:40:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9548",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9548",
+    "description": "spec : fix vocab compatibility check ( #24256 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA ",
+    "published": "2026-06-07T12:11:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9547",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9547",
+    "description": "arg: Skip mmproj download when user supplied mmproj ( #24239 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (C",
+    "published": "2026-06-07T09:40:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9544",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9544",
+    "description": "common/chat : fix LFM2/LFM2.5 reasoning round-trip and leak ( #24234 ) common/chat : fix LFM2 reasoning round-trip and stray leak Gate by reasoning format and whether the template supports macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED And",
+    "published": "2026-06-06T21:21:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9543",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9543",
+    "description": "mtmd: support \"frame merge\" for qwen-vl-based models ( #21858 ) feat: add video support for Qwen3.5 various clean up revise the design fix llava-uhd case nits nits 2 Co-authored-by: andrewmd5 1297077+andrewmd5@users.noreply.github.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 ",
+    "published": "2026-06-06T19:50:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9542",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9542",
+    "description": "completion : remove useless statics ( #24226 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA ",
+    "published": "2026-06-06T10:48:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9541",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9541",
+    "description": "completion : fix format specifier in LOG_INF ( #24213 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x",
+    "published": "2026-06-06T09:56:11Z",
+    "source": "llama.cpp Releases"
+  }
+]
