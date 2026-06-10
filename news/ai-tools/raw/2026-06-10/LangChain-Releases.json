@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-groq==1.1.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.1.3",
+    "description": "Changes since langchain-groq==1.1.2 release(groq): 1.1.3 ( #38009 ) hotfix(openai): min core dep ( #37990 ) test(langchain,partners): disable pytest-benchmark under xdist to silence PytestBenchmarkWarning ( #37901 ) chore(model-profiles): refresh model profile data ( #37726 ) chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 ) chore: bump idna from 3.10 to 3.15 in /libs/partners/groq ( #37556 ) ci(infra): harden Dependabot version-bound preservation ( #37510 ) chore: bump langsmith from",
+    "published": "2026-06-10T04:16:24Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.6",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.6",
+    "description": "Changes since langchain==1.3.5 release(langchain): 1.3.6 ( #38001 ) fix(langchain): preserve summarization trigger compatibility ( #38000 )",
+    "published": "2026-06-10T00:53:20Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-perplexity==1.4.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.0",
+    "description": "Changes since langchain-perplexity==1.3.2 release(perplexity): 1.4.0 ( #37993 ) feat(perplexity): bind_tools and Responses-API tool round-trip ( #37934 ) hotfix(openai): min core dep ( #37990 )",
+    "published": "2026-06-09T21:22:05Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.3.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.0",
+    "description": "Changes since langchain-openai==1.2.2 hotfix(openai): min core dep ( #37990 ) release(openai): 1.3.0 ( #37989 ) feat(openai): support apply_patch built-in tool ( #37157 ) chore(model-profiles): refresh model profile data ( #37973 ) test(langchain,partners): disable pytest-benchmark under xdist to silence PytestBenchmarkWarning ( #37901 ) chore(model-profiles): refresh model profile data ( #37895 )",
+    "published": "2026-06-09T20:40:40Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.4.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.3",
+    "description": "Changes since langchain-core==1.4.2 release(core): 1.4.3 ( #37991 ) feat(openai): support apply_patch built-in tool ( #37157 )",
+    "published": "2026-06-09T20:32:10Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.5",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.5",
+    "description": "Changes since langchain==1.3.4 release(langchain): 1.3.5 ( #37998 ) feat(langchain): port AND-capable trigger conditions to SummarizationMiddleware ( #34576 ) hotfix(openai): min core dep ( #37990 ) feat(openai): support apply_patch built-in tool ( #37157 ) chore: bump pyarrow from 21.0.0 to 23.0.1 in /libs/langchain_v1 ( #37930 ) chore: bump dependencies ( #37892 ) chore: bump aiohttp from 3.13.4 to 3.14.0 in /libs/langchain_v1 ( #37888 )",
+    "published": "2026-06-10T00:15:35Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.4.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.2",
+    "description": "Changes since langchain-core==1.4.1 release(core): 1.4.2 ( #37968 ) feat(core): deprecate problematic dict() method ( #31685 )",
+    "published": "2026-06-08T18:19:52Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-perplexity==1.3.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.3.2",
+    "description": "Changes since langchain-perplexity==1.3.1 release(perplexity): 1.3.2 ( #37925 ) fix(perplexity): serialize ToolMessage and AIMessage.tool_calls ( #37911 )",
+    "published": "2026-06-05T19:21:01Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.4.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.1",
+    "description": "Changes since langchain-core==1.4.0 release(core): 1.4.1 ( #37922 ) fix(core): remove Bedrock prevalidation from load ( #37909 ) docs(core): expand and link ModelProfile docstrings ( #37904 ) release(anthropic): 1.4.4 ( #37757 ) chore(core): bump uuid-utils to 0.16.0 ( #37699 ) chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 ) release(standard-tests): 1.1.9 ( #37609 ) chore: bump idna from 3.11 to 3.15 in /libs/core ( #37539 ) ci(infra): harden Dependabot version-bound preservation ( ",
+    "published": "2026-06-05T14:51:58Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-deepseek==1.1.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.0",
+    "description": "Changes since langchain-deepseek==1.0.1 chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 ) chore: bump idna from 3.10 to 3.15 in /libs/partners/deepseek ( #37560 ) ci(infra): harden Dependabot version-bound preservation ( #37510 ) chore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/partners/deepseek ( #37341 ) chore: bump langchain-core from 1.3.2 to 1.3.3 in /libs/partners/deepseek ( #37282 ) chore: bump langsmith from 0.7.31 to 0.8.3 in /libs/partners/deepseek ( #37283 ) chore(docs): up",
+    "published": "2026-06-03T19:07:27Z",
+    "source": "LangChain Releases"
+  }
+]

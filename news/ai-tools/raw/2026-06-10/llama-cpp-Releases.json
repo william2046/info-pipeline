@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9585",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9585",
+    "description": "graph: Fix granite speech model inference by applying embedding scale when deepstack is not used ( #24357 ) llama-graph : apply embedding scale when deepstack is not used nits: remove non-existant hunyuan-vl from the tests apply suggestion from @gabe-l-hart Co-authored-by: Xuan Son Nguyen son@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) U",
+    "published": "2026-06-09T18:16:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9584",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9584",
+    "description": "ci : fix windows release ( #24369 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3 DLLs Wi",
+    "published": "2026-06-09T17:08:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9581",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9581",
+    "description": "vulkan: reduce iq1 shared memory usage for mul_mm ( #24287 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUD",
+    "published": "2026-06-09T13:45:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9580",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9580",
+    "description": "vulkan: add v_dot2_f32_f16 support in matrix-matrix multiplication and Flash Attention ( #24123 ) vulkan: add support for valve fp16 dot2 extension use macro for dot2 path choice properly check for the feature add dot_product abstraction to reduce preprocessor branching macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
+    "published": "2026-06-09T13:09:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9578",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9578",
+    "description": "mtmd: refactor video subproc handling ( #24316 ) mtmd: refactor video subproc handling Update tools/mtmd/mtmd-helper.cpp Co-authored-by: Mikko Juola mikjuo@gmail.com Co-authored-by: Mikko Juola mikjuo@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (S",
+    "published": "2026-06-09T12:42:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9577",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9577",
+    "description": "server: log prompts to directory ( #22031 ) server: log prompts to directory Add --log-prompts-dir to write each prompt to a separate text file in the specified directory. Apply suggestion from @ngxson Co-authored-by: Xuan-Son Nguyen thichthat@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (RO",
+    "published": "2026-06-09T12:11:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9575",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9575",
+    "description": "ggml : add GGML_OP_COL2IM_1D ( #24206 ) cpu: add GGML_OP_COL2IM_1D Add the overlap-add (scatter-add) step of a 1D transposed convolution. A ConvTranspose1d factorizes as a GEMM followed by col2im: a weight pre-permuted to [IC, K OC] is contracted against the [IC, T_in] input with mul_mat to produce a column matrix [K OC, T_in], and col2im_1d scatters those columns back into the [T_out, OC] signal, with T_out = (T_in - 1) s0 + K - 2 p0. Keeping the contraction as a plain mul_mat leaves the heavy ",
+    "published": "2026-06-09T11:43:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9574",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9574",
+    "description": "server : do not clear slots without unified KV cache ( #24190 ) Always export idle slots to RAM Without this, a slot's VRAM cache may not be written to RAM. If this slot happens to be busy then later on, this triggers needless preprocessing in another slot. cont : clean-up Co-authored-by: Christoph Weiss weiss@wsoptics.de Co-authored-by: Georgi Gerganov ggerganov@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramew",
+    "published": "2026-06-09T09:11:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9573",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9573",
+    "description": "models : fix plamo2 attention_key/value_length regression ( #24317 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows ",
+    "published": "2026-06-09T08:41:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9572",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9572",
+    "description": "ggml-cpu : fix rms_norm_back wrong output under in-place aliasing ( #24305 ) ggml-cpu : fix rms_norm_back wrong output under in-place aliasing cont : clean-up comment Co-authored-by: Georgi Gerganov ggerganov@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubunt",
+    "published": "2026-06-09T08:08:03Z",
+    "source": "llama.cpp Releases"
+  }
+]
