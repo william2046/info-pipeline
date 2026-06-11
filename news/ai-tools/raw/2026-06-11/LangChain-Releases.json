@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-model-profiles==0.0.6",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-model-profiles%3D%3D0.0.6",
+    "description": "Changes since langchain-model-profiles==0.0.5 release(model-profiles): 0.0.6 ( #38057 ) feat(standard-tests): validate tool call chunks during streaming ( #34707 ) hotfix(core): bump lockfile(s) ( #38032 ) release(langchain): 1.3.7 ( #38024 ) release(langchain): 1.3.6 ( #38001 ) release(langchain): 1.3.5 ( #37998 ) hotfix(openai): min core dep ( #37990 ) chore: bump idna from 3.11 to 3.15 in /libs/model-profiles ( #37538 ) chore: bump the minor-and-patch group across 3 directories with 15 update",
+    "published": "2026-06-11T03:07:01Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.4.5",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.5",
+    "description": "Changes since langchain-core==1.4.4 release(core): 1.4.5 ( #38056 ) feat(standard-tests): validate tool call chunks during streaming ( #34707 ) fix(core): async tracer on_chat_model_start fallback in sync context ( #35233 ) fix(langchain): tighten structured output model fallbacks ( #38042 )",
+    "published": "2026-06-11T02:58:12Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-mistralai==1.1.5",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.5",
+    "description": "Changes since langchain-mistralai==1.1.4 release(mistralai): 1.1.5 ( #38038 ) fix(core): support content block tokens in callbacks ( #34739 ) hotfix(openai): min core dep ( #37990 ) chore(model-profiles): refresh model profile data ( #37916 ) test(langchain,partners): disable pytest-benchmark under xdist to silence PytestBenchmarkWarning ( #37901 ) chore(model-profiles): refresh model profile data ( #37870 ) chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 ) test(mistralai): stabilize ",
+    "published": "2026-06-10T21:53:40Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-groq==1.1.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.1.3",
+    "description": "Changes since langchain-groq==1.1.2 release(groq): 1.1.3 ( #38009 ) hotfix(openai): min core dep ( #37990 ) test(langchain,partners): disable pytest-benchmark under xdist to silence PytestBenchmarkWarning ( #37901 ) chore(model-profiles): refresh model profile data ( #37726 ) chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 ) chore: bump idna from 3.10 to 3.15 in /libs/partners/groq ( #37556 ) ci(infra): harden Dependabot version-bound preservation ( #37510 ) chore: bump langsmith from",
+    "published": "2026-06-10T04:16:24Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.4.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.4",
+    "description": "Changes since langchain-core==1.4.3 hotfix(core): bump lockfile(s) ( #38032 ) release(core): 1.4.4 ( #38031 ) fix(core): support content block tokens in callbacks ( #34739 ) chore(core): improve typing of Runnable __or__ ( #34530 ) chore(core): fix some any generics ( #34545 ) fix(core): accept sequence tool error content ( #38005 ) fix(core): type structured tool error handler output ( #38003 ) docs(core): document multimodal handling in get_buffer_string ( #37994 )",
+    "published": "2026-06-10T21:24:22Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-classic==1.0.8",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.0.8",
+    "description": "Changes since langchain-classic==1.0.7 release(langchain-classic): 1.0.8 ( #38033 ) hotfix(core): bump lockfile(s) ( #38032 ) fix(core): support content block tokens in callbacks ( #34739 ) chore(core): improve typing of Runnable __or__ ( #34530 ) hotfix(openai): min core dep ( #37990 ) chore: bump pyarrow from 21.0.0 to 23.0.1 in /libs/langchain ( #37929 ) chore: bump starlette from 0.49.1 to 1.0.1 in /libs/langchain ( #37899 ) test(langchain,partners): disable pytest-benchmark under xdist to s",
+    "published": "2026-06-10T21:28:11Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.4.5",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.5",
+    "description": "Changes since langchain-anthropic==1.4.4 release(anthropic): 1.4.5 ( #38036 ) fix(core): support content block tokens in callbacks ( #34739 ) chore(model-profiles): refresh model profile data ( #38012 ) hotfix(openai): min core dep ( #37990 ) test(langchain,partners): disable pytest-benchmark under xdist to silence PytestBenchmarkWarning ( #37901 ) chore(model-profiles): refresh model profile data ( #37895 ) chore(model-profiles): refresh model profile data ( #37771 )",
+    "published": "2026-06-10T21:41:28Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.7",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.7",
+    "description": "Changes since langchain==1.3.6 release(langchain): 1.3.7 ( #38024 ) style(langchain): add ruff rules ARG ( #34435 ) feat(langchain): add ProviderToolSearchMiddleware ( #37969 ) chore(langchain): activate mypy warn_return_any ( #34249 ) test(langchain): mark legacy trigger view for 2.0 removal ( #38002 )",
+    "published": "2026-06-10T18:20:55Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.6",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.6",
+    "description": "Changes since langchain==1.3.5 release(langchain): 1.3.6 ( #38001 ) fix(langchain): preserve summarization trigger compatibility ( #38000 )",
+    "published": "2026-06-10T00:53:20Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-perplexity==1.4.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.0",
+    "description": "Changes since langchain-perplexity==1.3.2 release(perplexity): 1.4.0 ( #37993 ) feat(perplexity): bind_tools and Responses-API tool round-trip ( #37934 ) hotfix(openai): min core dep ( #37990 )",
+    "published": "2026-06-09T21:22:05Z",
+    "source": "LangChain Releases"
+  }
+]
