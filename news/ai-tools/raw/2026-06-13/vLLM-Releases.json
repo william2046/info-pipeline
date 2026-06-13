@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.23.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
+    "description": "vLLM v0.23.0 Release Notes Please note that Minimax M3 is not yet supported in this version. Please follow vLLM recipe for usage guides for M3. Highlights This release features 408 commits from 200 contributors (63 new)! DeepSeek-V4 matures across backends : Following its introduction in v0.22.0, DeepSeek-V4 received another large hardening and optimization pass. Its sparse MLA metadata is now decoupled from DeepSeek-V3.2 ( #44699 ), it gained a TRTLLM-gen attention kernel ( #43827 ), EPLB suppo",
+    "published": "2026-06-12T23:33:08Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.23.0rc2: [Docker] Fix CUTLASS DSL cu13 install order in Dockerfile (#45204)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0rc2",
+    "description": "Signed-off-by: Mohammad Miadh Angkad 176301910+mmangkad@users.noreply.github.com (cherry picked from commit 40e065e )",
+    "published": "2026-06-11T23:24:31Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1",
+    "description": "Highlights This release features 8 commits from 6 contributors (1 new)! v0.22.1 is a patch release on top of v0.22.0 with targeted bug fixes plus a couple of additions: new model support for JetBrains' Mellum v2, zentorch-accelerated quantized linear inference on AMD Zen CPUs, and fixes for multi-node Ray data-parallel serving, DeepSeek-V4 initialization, and a few model-loading regressions. Model Support New model: JetBrains' Mellum v2 , an open-weights Mixture-of-Experts code-generation model ",
+    "published": "2026-06-05T10:18:46Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.1rc2: fix: resolve CUTLASS fmin compatibility for DeepSeek-V4 init",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1rc2",
+    "description": "Signed-off-by: khluu khluu000@gmail.com",
+    "published": "2026-06-04T00:11:47Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.1rc1: [docker] Stop using extra-index-url for flashinfer-jit-cache (#44366)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1rc1",
+    "description": "Signed-off-by: Kevin H. Luu khluu000@gmail.com",
+    "published": "2026-06-03T02:02:03Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.1rc0: [CI] Make Model Executor test hangs fail fast with a traceback (#43971)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1rc0",
+    "description": "Signed-off-by: khluu khluu000@gmail.com Co-authored-by: Claude noreply@anthropic.com",
+    "published": "2026-05-29T18:58:25Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0",
+    "description": "Highlights This release features 459 commits from 230 contributors (63 new)! DeepSeek V4 maturity : DeepSeek V4 received a major hardening pass this cycle — the model was reorganized into a dedicated vllm/models/deepseek_v4/ package ( #43004 , #43039 , #43073 , #43077 , #43149 ), gained NVFP4 fused MoE support ( #42209 ), full + piecewise CUDA graph ( #42604 ), and MTP speculative decoding ( #43385 ). A large set of fused kernels (MegaMoE, mhc , Q-norm, indexer, sparse MLA) and ROCm parity fixes",
+    "published": "2026-06-02T18:14:39Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.0rc3: [BugFix] Fix hard-coded timeout for multi-API-server startup (#43768)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0rc3",
+    "description": "Signed-off-by: Vadim Gimpelson vadim.gimpelson@gmail.com Co-authored-by: Nick Hill nickhill123@gmail.com",
+    "published": "2026-05-28T07:11:54Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.0rc2: Fix early CUDA init (#43791)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0rc2",
+    "description": "Signed-off-by: Harry Mellor 19981378+hmellor@users.noreply.github.com (cherry picked from commit 41688e2 )",
+    "published": "2026-05-27T21:20:37Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.22.0rc1: [MRV2][BugFix] Fix KV connector handling in spec decode case (#43719)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0rc1",
+    "description": "Signed-off-by: Nick Hill nickhill123@gmail.com Co-authored-by: Wentao Ye 44945378+yewentao256@users.noreply.github.com (cherry picked from commit 8c94938 )",
+    "published": "2026-05-27T07:37:22Z",
+    "source": "vLLM Releases"
+  }
+]
