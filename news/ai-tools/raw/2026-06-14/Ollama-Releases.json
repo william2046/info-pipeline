@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.30.8",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.8",
+    "description": "What's Changed Fixed ollama launch selecting the wrong provider in some cases Improved prompt caching by decoupling it from context shift for better KV cache reuse More stable MLX inference with hardened linear and embedding layers MLX runner now creates snapshots during prompt processing and speculative decoding for improved reliability Improved recurrent model support with per-boundary states from the gated-delta kernels Full Changelog : v0.30.7...v0.30.8",
+    "published": "2026-06-12T19:57:22Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.8-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.8-rc0",
+    "description": "launch: Fix launch provider drift ( #16683 )",
+    "published": "2026-06-12T00:21:46Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.7",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.7",
+    "description": "Ollama Launch now supports Hermes Desktop, a native desktop interface for the Hermes agent. Run it alongside your Hermes agent to get a visual interface for managing conversations, integrations, and messaging apps. ollama launch hermes-desktop What's Changed Hermes Desktop is now available via ollama launch hermes-desktop with native Windows configuration path support OpenAI-compatible API models list now aligns with available model tags Added documentation describing the llama.cpp update proces",
+    "published": "2026-06-08T20:18:26Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.7-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.7-rc1",
+    "description": "openai: align models list with tags ( #16556 )",
+    "published": "2026-06-06T00:59:05Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.7-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.7-rc0",
+    "description": "launch: use native Windows Hermes config path ( #16558 )",
+    "published": "2026-06-06T00:29:19Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.6",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.6",
+    "description": "New models Gemma 4 QAT weights : the Gemma 4 family is now optimized with Quantization-Aware Training (QAT) to dramatically reduce memory requirements and maximize on-device performance. Look for the tags ending in -qat : gemma4:e2b-it-qat gemma4:e4b-it-qat gemma4:12b-it-qat gemma4:26b-a4b-it-qat gemma4:31b-it-qat What's Changed ollama launch omp now integrates with Oh My Pi , an AI coding agent with IDE integration MLX embedding layers now use NVFP4 global scale for improved quantization on App",
+    "published": "2026-06-07T00:12:11Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.6-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.6-rc0",
+    "description": "launch: oh-my-pi ( #16410 )",
+    "published": "2026-06-05T00:49:49Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.5",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.5",
+    "description": "What's Changed Fixed the gemma4:12b floating point exception crash on x86, CUDA, Linux, and Windows systems. ollama launch hermes-desktop now launches Hermes Desktop and can skip rebuilding when a packaged desktop app is already installed. ollama launch hermes now supports native Windows installs through the Hermes PowerShell installer. Added Cline CLI integration docs. Full Changelog : v0.30.4...v0.30.5",
+    "published": "2026-06-07T00:09:50Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.5-rc0: llama.cpp version update (#16511)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.5-rc0",
+    "description": "Bump llama.cpp to b9509, which includes the upstream Gemma 4 12B multimodal projector fixes for the n_head=0 divide-by-zero crash seen on x86/CUDA/Linux/Windows. Fixes #16479 Fixes #16489 Fixes #16491 Fixes #16492 Fixes #16495",
+    "published": "2026-06-04T15:20:57Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.4",
+    "description": "New models Nemotron-3-Ultra : NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows. What's Changed Fixed multimodal models not using GPU on the llama.cpp backend can now use Metal GPU offload on Apple Silicon, improving multimodal performance on supported Macs. ollama create --experimental now respects REQUIRES in Modelfiles for MLX-based models. ollama launch codex now cleans up old conflicting Codex profile config before launching. ollama launch pi no",
+    "published": "2026-06-07T00:10:26Z",
+    "source": "Ollama Releases"
+  }
+]
