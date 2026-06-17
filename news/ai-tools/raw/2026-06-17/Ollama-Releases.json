@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.30.9",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.9",
+    "description": "What's Changed Support for Cohere2Moe architecture Fixed LFM2 parser/render for cases where thinking was not emitted Fixed issue where ollama launch claude and other coding agent or assistant use cases would only output one token Ollama will now return an error if a single message is larger than the current context window Full Changelog : v0.30.8...v0.30.9-rc1",
+    "published": "2026-06-17T00:25:33Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.9-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc2",
+    "description": "llm: context shift allow shiftable prompts ( #16764 )",
+    "published": "2026-06-16T19:55:52Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.9-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc1",
+    "description": "server: context shift for context windows larger than 8k, add error w…",
+    "published": "2026-06-15T18:36:50Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.9-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc0",
+    "description": "llama: update llama.cpp to b9637 ( #16609 )",
+    "published": "2026-06-15T03:05:08Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.8",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.8",
+    "description": "What's Changed Fixed ollama launch selecting the wrong provider in some cases Improved prompt caching by decoupling it from context shift for better KV cache reuse More stable MLX inference with hardened linear and embedding layers MLX runner now creates snapshots during prompt processing and speculative decoding for improved reliability Improved recurrent model support with per-boundary states from the gated-delta kernels Full Changelog : v0.30.7...v0.30.8",
+    "published": "2026-06-12T19:57:22Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.8-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.8-rc0",
+    "description": "launch: Fix launch provider drift ( #16683 )",
+    "published": "2026-06-12T00:21:46Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.7",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.7",
+    "description": "Ollama Launch now supports Hermes Desktop, a native desktop interface for the Hermes agent. Run it alongside your Hermes agent to get a visual interface for managing conversations, integrations, and messaging apps. ollama launch hermes-desktop What's Changed Hermes Desktop is now available via ollama launch hermes-desktop with native Windows configuration path support OpenAI-compatible API models list now aligns with available model tags Added documentation describing the llama.cpp update proces",
+    "published": "2026-06-08T20:18:26Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.7-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.7-rc1",
+    "description": "openai: align models list with tags ( #16556 )",
+    "published": "2026-06-06T00:59:05Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.7-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.7-rc0",
+    "description": "launch: use native Windows Hermes config path ( #16558 )",
+    "published": "2026-06-06T00:29:19Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.6",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.6",
+    "description": "New models Gemma 4 QAT weights : the Gemma 4 family is now optimized with Quantization-Aware Training (QAT) to dramatically reduce memory requirements and maximize on-device performance. Look for the tags ending in -qat : gemma4:e2b-it-qat gemma4:e4b-it-qat gemma4:12b-it-qat gemma4:26b-a4b-it-qat gemma4:31b-it-qat What's Changed ollama launch omp now integrates with Oh My Pi , an AI coding agent with IDE integration MLX embedding layers now use NVFP4 global scale for improved quantization on App",
+    "published": "2026-06-07T00:12:11Z",
+    "source": "Ollama Releases"
+  }
+]

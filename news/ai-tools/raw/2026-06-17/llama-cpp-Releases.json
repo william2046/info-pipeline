@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9672",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9672",
+    "description": "vendor : update BoringSSL to 0.20260616.0 ( #24693 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x6",
+    "published": "2026-06-16T18:56:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9670",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9670",
+    "description": "Fix and restrict NVFP4 edge-cases in llama-graph ( #24331 ) Move post-GEMM MUL required for dequant b4 lora and bias add see #23484 : For lora, I would presume we want fully dequantized values before doing the residuals, but this depends on how the LORAs were generated. Literature tells me LORA happens post-mul but pre-bias add #8332 For ModelOPT, bias-add should happen on fully-dequantized values Restrict build_ffn for NVFP4 to supported combinations macOS/iOS: macOS Apple Silicon (arm64) macOS",
+    "published": "2026-06-16T13:13:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9669",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9669",
+    "description": "spec: add backend sampling support for eagle3 ( #24655 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Window",
+    "published": "2026-06-16T12:27:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9668",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9668",
+    "description": "vulkan: prefer host-visible memory buffers on UMA devices ( #22930 ) implement UMA host-visible memory update based on 0cc4m's suggestion macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Wi",
+    "published": "2026-06-16T11:50:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9667",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9667",
+    "description": "vulkan: Support gated_delta_net with S_v=16 ( #24581 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows ",
+    "published": "2026-06-16T11:12:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9665",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9665",
+    "description": "bench : add --offline ( #24511 ) bench : add --offline Signed-off-by: Adrien Gallouët angt@huggingface.co Add default Signed-off-by: Adrien Gallouët angt@huggingface.co Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubun",
+    "published": "2026-06-16T10:13:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9664",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9664",
+    "description": "sycl: support reordered Q4_K/Q5_K/Q6_K MoE MUL_MAT_ID ( #24452 ) sycl: support reordered Q4_K and Q5_K MoE MUL_MAT_ID Extend reordered-weight handling to fused MoE MUL_MAT_ID for Q4_K and Q5_K expert tensors and add Q5_K reordered DMMV coverage. Unsupported 3D reorder cases now fall back instead of aborting. sycl: extend MoE reorder to Q6_K mul_mat_id macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 ",
+    "published": "2026-06-16T08:11:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9663",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9663",
+    "description": "[SYCL] Support OP EXPM1, support all UT cases of FLOOR, TRUNC, ROUND ( #24363 ) support OP EXPM1, support all UT cases of FLOOR, TRUNC, ROUND fix conflict rebase, support new UT case of repeat, concat macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) ",
+    "published": "2026-06-16T06:14:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9661",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9661",
+    "description": "vulkan: add col2im_1d op ( #24425 ) vulkan: add GGML_OP_COL2IM_1D, follow-up to the CPU op vulkan: col2im_1d bounded gather loop instead of full-K scan with modulo vulkan: col2im_1d address review from @jeffbolznv vulkan: col2im_1d return nullptr for unsupported types, address review from @0cc4m macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (V",
+    "published": "2026-06-16T05:08:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9660",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9660",
+    "description": "chat : fix LFM2 tool-call parsing double-escaping ( #24667 ) Add escape test cases chat : fix LFM2 tool-call parsing double-escaping macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows",
+    "published": "2026-06-15T22:06:49Z",
+    "source": "llama.cpp Releases"
+  }
+]
