@@ -1,0 +1,399 @@
+[1] 来源: Google AI Blog
+标题: New research shows how AMIE, our medical AI, could help manage health conditions.
+链接: https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/
+摘要: Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.
+
+[2] 来源: Google AI Blog
+标题: We’re strengthening our presence in Alabama through new investments and community support.
+链接: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/
+摘要: Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…
+
+[3] 来源: Google AI Blog
+标题: The latest AI news we announced in May 2026
+链接: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/
+摘要: May AI recap
+
+[4] 来源: Google AI Blog
+标题: 5 ways Google Search can level up your thrift and vintage shopping
+链接: https://blog.google/products-and-platforms/products/search/thrifting-tips/
+摘要: A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele
+
+[5] 来源: Google AI Blog
+标题: How we used Gemini to build Google I/O 2026
+链接: https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/
+摘要: A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.
+
+[6] 来源: Google AI Blog
+标题: Take our I/O 2026 quiz, vibe coded in Google AI Studio.
+链接: https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/
+摘要: We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.
+
+[7] 来源: Google AI Blog
+标题: 9 demos of Gemini Omni and Gemini 3.5 in action
+链接: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/
+摘要: Gemini Omni & Gemini 3.5 hero
+
+[8] 来源: Google AI Blog
+标题: Check out real-life AI prototypes from the Futures Lab.
+链接: https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/
+摘要: University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.
+
+[9] 来源: Google AI Blog
+标题: Catch up on 12 major I/O 2026 moments
+链接: https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/
+摘要: The colorful I/O logo against a black background, surrounded by stills from the I/O keynote
+
+[10] 来源: Google AI Blog
+标题: Catch up on the Dialogues stage at Google I/O 2026.
+链接: https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/
+摘要: Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage
+
+[11] 来源: Google AI Blog
+标题: We’re announcing new community investments in Missouri.
+链接: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/
+摘要: We’re helping build the state’s next-generation workforce and investing in energy programs.
+
+[12] 来源: Google AI Blog
+标题: 100 things we announced at I/O 2026
+链接: https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/
+摘要: Image with the words "Ready, Set, I/O" and a colorful Gemini logo
+
+[13] 来源: Google AI Blog
+标题: A new experiment brings better group meetings to Google Beam
+链接: https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/
+摘要: A small group meeting featuring two in-room participants and three participants on-screen.
+
+[14] 来源: Google AI Blog
+标题: How AI Mode is changing the way people search in the U.S.
+链接: https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/
+摘要: A graphic features the text "How people are using AI Mode in the U.S." surrounded by colorful, stylized illustrations of a pencil, planet, banana, gift box, cursor, gamepad, and lipstick on a light blue background.
+
+[15] 来源: Google AI Blog
+标题: New ways to create and get things done in Google Workspace
+链接: https://blog.google/products-and-platforms/products/workspace/workspace-updates/
+摘要: Google Workspace
+
+[16] 来源: Google AI Blog
+标题: I/O 2026: Welcome to the agentic Gemini era
+链接: https://blog.google/innovation-and-ai/sundar-pichai-io-2026/
+摘要: a series of colorful icons representing Google I/O against a black background
+
+[17] 来源: Google AI Blog
+标题: Gemini 3.5: frontier intelligence with action
+链接: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/
+摘要: Gemini 3.5 text and multi-colored star icon on an abstract blue background.
+
+[18] 来源: Google AI Blog
+标题: A new era for AI Search
+链接: https://blog.google/products-and-platforms/products/search/search-io-2026/
+摘要: Text that reads "The best of a search engine with the best of AI"
+
+[19] 来源: Google AI Blog
+标题: Everything new in our Google AI subscriptions, fresh from I/O 2026
+链接: https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/
+摘要: The image shows colorful icons. The copy reads: More magic in one plan. More power, more perks, same price.
+
+[20] 来源: Hacker News (Show HN + AI)
+标题: SteamOS Linux 3.8 released as stable
+链接: https://store.steampowered.com/news/app/1675200/view/697641379212298072
+摘要: Article URL: https://store.steampowered.com/news/app/1675200/view/697641379212298072 Comments URL: https://news.ycombinator.com/item?id=48580686 Points: 43 # Comments: 1
+
+[21] 来源: Hacker News (Show HN + AI)
+标题: Local Qwen isn't a worse Opus, it's a different tool
+链接: https://blog.alexellis.io/local-ai-is-not-opus/
+摘要: Article URL: https://blog.alexellis.io/local-ai-is-not-opus/ Comments URL: https://news.ycombinator.com/item?id=48580209 Points: 76 # Comments: 28
+
+[22] 来源: Hacker News (Show HN + AI)
+标题: Midjourney Medical
+链接: https://www.midjourney.com/medical/blogpost
+摘要: https://www.midjourney.com/medical Video: https://x.com/midjourney/status/2067422898407837797 Comments URL: https://news.ycombinator.com/item?id=48579650 Points: 420 # Comments: 325
+
+[23] 来源: Hacker News (Show HN + AI)
+标题: Loreline – Tools for writing interactive fiction
+链接: https://loreline.app/en/
+摘要: Article URL: https://loreline.app/en/ Comments URL: https://news.ycombinator.com/item?id=48576395 Points: 114 # Comments: 15
+
+[24] 来源: Hacker News (Show HN + AI)
+标题: Launch HN: Adam (YC W25) – Open-Source AI CAD
+链接: https://github.com/Adam-CAD/CADAM
+摘要: Hey HN! I'm Zach from Adam ( https://adam.new/ ). We're building AI agents for mechanical CAD software. We’ve built the company on two fundamental beliefs: - AI will be the primary medium for creating mechanical designs just like it is in software today. - The best paradigm for CAD generation is to 
+
+[25] 来源: Hacker News (Show HN + AI)
+标题: Lore – Open source version control system designed for scalability
+链接: https://lore.org/
+摘要: Article URL: https://lore.org/ Comments URL: https://news.ycombinator.com/item?id=48571081 Points: 1071 # Comments: 568
+
+[26] 来源: Hacker News (Show HN + AI)
+标题: Why thinking out loud with someone beats thinking alone
+链接: https://www.thesignalist.io/s/the-dialogue-dividend/
+摘要: Article URL: https://www.thesignalist.io/s/the-dialogue-dividend/ Comments URL: https://news.ycombinator.com/item?id=48569894 Points: 221 # Comments: 98
+
+[27] 来源: Product Hunt
+标题: Tyto by ai-coustics
+链接: https://www.producthunt.com/products/tyto
+摘要: Audio insight that predicts voice AI performance Discussion | Link
+
+[28] 来源: Product Hunt
+标题: Framer 3.0
+链接: https://www.producthunt.com/products/framer
+摘要: With Agents, Branching, Community, and an all-new design Discussion | Link
+
+[29] 来源: Product Hunt
+标题: Deep Work Plan
+链接: https://www.producthunt.com/products/deep-work-plan
+摘要: Models matter. Context matters more. Give your agent a plan. Discussion | Link
+
+[30] 来源: Product Hunt
+标题: Tapfree for Chrome
+链接: https://www.producthunt.com/products/tapfree-for-android-2
+摘要: Voice dictation that adapts to what’s on your screen Discussion | Link
+
+[31] 来源: Product Hunt
+标题: PaneFlow
+链接: https://www.producthunt.com/products/paneflow
+摘要: Let AI agents build real animated slideshows Discussion | Link
+
+[32] 来源: Product Hunt
+标题: Daemons by Charlie Labs
+链接: https://www.producthunt.com/products/daemons-by-charlie-labs
+摘要: Keep PRs, issues, CI, and docs moving with AI agents Discussion | Link
+
+[33] 来源: Product Hunt
+标题: Swytchcode CLI
+链接: https://www.producthunt.com/products/swytchcode
+摘要: Give agents reliable access to 2,000+ APIs w/ durable state Discussion | Link
+
+[34] 来源: Product Hunt
+标题: Redactify
+链接: https://www.producthunt.com/products/redactify
+摘要: Automated profanity censoring for video & audio Discussion | Link
+
+[35] 来源: Product Hunt
+标题: Polygram Coding Agent
+链接: https://www.producthunt.com/products/polygram-4
+摘要: AI-native coding assistant that helps developers in any IDE Discussion | Link
+
+[36] 来源: Product Hunt
+标题: Wolfram Language 15
+链接: https://www.producthunt.com/products/wolfram-mathematica
+摘要: Computational language built for humans and AI agents Discussion | Link
+
+[37] 来源: Product Hunt
+标题: MCP 2000
+链接: https://www.producthunt.com/products/mcp-2000
+摘要: AI Drum Machine MPC in your browser Discussion | Link
+
+[38] 来源: Product Hunt
+标题: Locus Founder
+链接: https://www.producthunt.com/products/locus-founder
+摘要: Text an AI agent and it builds + runs your business Discussion | Link
+
+[39] 来源: Product Hunt
+标题: ClipDone
+链接: https://www.producthunt.com/products/clipdone
+摘要: Automatic short-form video editing Discussion | Link
+
+[40] 来源: Product Hunt
+标题: Wilson
+链接: https://www.producthunt.com/products/wilson-3
+摘要: AI coworker in Slack that builds reports, work tools, + more Discussion | Link
+
+[41] 来源: Product Hunt
+标题: idmly
+链接: https://www.producthunt.com/products/idmly
+摘要: Turn any HTML/CSS design into an editable InDesign file Discussion | Link
+
+[42] 来源: Product Hunt
+标题: memi
+链接: https://www.producthunt.com/products/memoire
+摘要: The AI agent harness for product design teams Discussion | Link
+
+[43] 来源: Product Hunt
+标题: SolonGate
+链接: https://www.producthunt.com/products/solongate
+摘要: Zero-trust security gateway for AI agents Discussion | Link
+
+[44] 来源: Product Hunt
+标题: Spanly
+链接: https://www.producthunt.com/products/spanly
+摘要: See what AI agents do inside your MCP server Discussion | Link
+
+[45] 来源: Product Hunt
+标题: Athena Desktop
+链接: https://www.producthunt.com/products/athena-desktop
+摘要: A local command room for AI coding agents. Discussion | Link
+
+[46] 来源: Product Hunt
+标题: Eidentic
+链接: https://www.producthunt.com/products/eidentic
+摘要: The TypeScript SDK for AI agents with self-improving memory Discussion | Link
+
+[47] 来源: Product Hunt
+标题: TimedSubs
+链接: https://www.producthunt.com/products/timedsubs
+摘要: Script-first subtitle timing for voiceover videos Discussion | Link
+
+[48] 来源: Ollama Releases
+标题: v0.30.10-rc1
+链接: https://github.com/ollama/ollama/releases/tag/v0.30.10-rc1
+摘要: ci: pin darwin release xcode ( #16788 )
+
+[49] 来源: Ollama Releases
+标题: v0.30.9
+链接: https://github.com/ollama/ollama/releases/tag/v0.30.9
+摘要: What's Changed Support for Cohere2Moe architecture Fixed LFM2 parser/render for cases where thinking was not emitted Fixed issue where ollama launch claude and other coding agent or assistant use cases would only output one token Ollama will now return an error if a single message is larger than the
+
+[50] 来源: Ollama Releases
+标题: v0.30.9-rc2
+链接: https://github.com/ollama/ollama/releases/tag/v0.30.9-rc2
+摘要: llm: context shift allow shiftable prompts ( #16764 )
+
+[51] 来源: Ollama Releases
+标题: v0.30.8
+链接: https://github.com/ollama/ollama/releases/tag/v0.30.8
+摘要: What's Changed Fixed ollama launch selecting the wrong provider in some cases Improved prompt caching by decoupling it from context shift for better KV cache reuse More stable MLX inference with hardened linear and embedding layers MLX runner now creates snapshots during prompt processing and specul
+
+[52] 来源: Ollama Releases
+标题: v0.30.8-rc0
+链接: https://github.com/ollama/ollama/releases/tag/v0.30.8-rc0
+摘要: launch: Fix launch provider drift ( #16683 )
+
+[53] 来源: Ollama Releases
+标题: v0.30.7
+链接: https://github.com/ollama/ollama/releases/tag/v0.30.7
+摘要: Ollama Launch now supports Hermes Desktop, a native desktop interface for the Hermes agent. Run it alongside your Hermes agent to get a visual interface for managing conversations, integrations, and messaging apps. ollama launch hermes-desktop What's Changed Hermes Desktop is now available via ollam
+
+[54] 来源: vLLM Releases
+标题: v0.23.0
+链接: https://github.com/vllm-project/vllm/releases/tag/v0.23.0
+摘要: vLLM v0.23.0 Release Notes Please note that Minimax M3 is not yet supported in this version. Please follow vLLM recipe for usage guides for M3. Highlights This release features 408 commits from 200 contributors (63 new)! DeepSeek-V4 matures across backends : Following its introduction in v0.22.0, De
+
+[55] 来源: vLLM Releases
+标题: v0.22.1
+链接: https://github.com/vllm-project/vllm/releases/tag/v0.22.1
+摘要: Highlights This release features 8 commits from 6 contributors (1 new)! v0.22.1 is a patch release on top of v0.22.0 with targeted bug fixes plus a couple of additions: new model support for JetBrains' Mellum v2, zentorch-accelerated quantized linear inference on AMD Zen CPUs, and fixes for multi-no
+
+[56] 来源: vLLM Releases
+标题: v0.22.1rc0: [CI] Make Model Executor test hangs fail fast with a traceback (#43971)
+链接: https://github.com/vllm-project/vllm/releases/tag/v0.22.1rc0
+摘要: Signed-off-by: khluu khluu000@gmail.com Co-authored-by: Claude noreply@anthropic.com
+
+[57] 来源: vLLM Releases
+标题: v0.22.0
+链接: https://github.com/vllm-project/vllm/releases/tag/v0.22.0
+摘要: Highlights This release features 459 commits from 230 contributors (63 new)! DeepSeek V4 maturity : DeepSeek V4 received a major hardening pass this cycle — the model was reorganized into a dedicated vllm/models/deepseek_v4/ package ( #43004 , #43039 , #43073 , #43077 , #43149 ), gained NVFP4 fused 
+
+[58] 来源: LangChain Releases
+标题: langchain-openai==1.3.2
+链接: https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.2
+摘要: Changes since langchain-openai==1.3.1 release(openai): 1.3.2 ( #38130 )
+
+[59] 来源: LangChain Releases
+标题: langchain-openai==1.3.1
+链接: https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.1
+摘要: Changes since langchain-openai==1.3.0 docs: refresh README installation and resources ( #38119 ) test(core,langchain): update tests for explicit deserialization allowlists ( #38118 ) release(core): 1.4.7 ( #38111 ) fix(core,partners): rename package version trace metadata ( #38110 ) style(core,langc
+
+[60] 来源: LangChain Releases
+标题: langchain-core==1.4.7
+链接: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.7
+摘要: Changes since langchain-core==1.4.6 chore: bump tornado from 6.5.5 to 6.5.6 in /libs/core ( #38115 ) release(core): 1.4.7 ( #38111 ) fix(core,partners): rename package version trace metadata ( #38110 ) fix(core): fix Pydantic v1 support in tools/runnable ( #33698 ) style(core,langchain,langchain-cla
+
+[61] 来源: LangChain Releases
+标题: langchain-anthropic==1.4.6
+链接: https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.6
+摘要: Changes since langchain-anthropic==1.4.5 release(anthropic): 1.4.6 ( #38105 ) fix(langchain,anthropic): confine file-search results and tighten anthropic allowed_prefixes ( #38106 ) release(core): 1.4.6 ( #38061 ) feat(core,partners): add package version tracking to tracing metadata ( #35295 ) chore
+
+[62] 来源: LangChain Releases
+标题: langchain==1.3.9
+链接: https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.9
+摘要: Changes since langchain==1.3.8 release(anthropic): 1.4.6 ( #38105 ) release(langchain): 1.3.9 ( #38104 ) fix(langchain,anthropic): confine file-search results and tighten anthropic allowed_prefixes ( #38106 )
+
+[63] 来源: LangChain Releases
+标题: langchain==1.3.8
+链接: https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.8
+摘要: Changes since langchain==1.3.7 release(langchain): 1.3.8 ( #38096 ) style(core,langchain,langchain-classic,partners): replace double backticks in docstrings ( #38095 ) release(core): 1.4.6 ( #38061 ) chore(langchain): add overloads to create_agent ( #34309 ) chore(infra): bump mypy to 2.1 and unify 
+
+[64] 来源: LangChain Releases
+标题: langchain-model-profiles==0.0.6
+链接: https://github.com/langchain-ai/langchain/releases/tag/langchain-model-profiles%3D%3D0.0.6
+摘要: Changes since langchain-model-profiles==0.0.5 release(model-profiles): 0.0.6 ( #38057 ) feat(standard-tests): validate tool call chunks during streaming ( #34707 ) hotfix(core): bump lockfile(s) ( #38032 ) release(langchain): 1.3.7 ( #38024 ) release(langchain): 1.3.6 ( #38001 ) release(langchain): 
+
+[65] 来源: LangChain Releases
+标题: langchain-core==1.4.6
+链接: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.6
+摘要: Changes since langchain-core==1.4.5 release(core): 1.4.6 ( #38061 ) feat(core,partners): add package version tracking to tracing metadata ( #35295 ) fix(core,openai): normalize v1 streamed tool calls ( #35983 ) chore(infra): bump mypy to 2.1 and unify type-check config across the monorepo ( #36470 )
+
+[66] 来源: LangChain Releases
+标题: langchain-core==1.4.5
+链接: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.5
+摘要: Changes since langchain-core==1.4.4 release(core): 1.4.5 ( #38056 ) feat(standard-tests): validate tool call chunks during streaming ( #34707 ) fix(core): async tracer on_chat_model_start fallback in sync context ( #35233 ) fix(langchain): tighten structured output model fallbacks ( #38042 )
+
+[67] 来源: LangChain Releases
+标题: langchain-mistralai==1.1.5
+链接: https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.5
+摘要: Changes since langchain-mistralai==1.1.4 release(mistralai): 1.1.5 ( #38038 ) fix(core): support content block tokens in callbacks ( #34739 ) hotfix(openai): min core dep ( #37990 ) chore(model-profiles): refresh model profile data ( #37916 ) test(langchain,partners): disable pytest-benchmark under 
+
+[68] 来源: llama.cpp Releases
+标题: b9691
+链接: https://github.com/ggml-org/llama.cpp/releases/tag/b9691
+摘要: ggml-cpu: Conditionally enable power11 backend based on compiler support ( #24687 ) ggml: Conditionally enable power11 backend based on compiler support Guard POWER11 backend creation behind a compiler flag check for -mcpu=power11. This avoids build failures on current GCC/Clang toolchains while pre
+
+[69] 来源: llama.cpp Releases
+标题: b9686
+链接: https://github.com/ggml-org/llama.cpp/releases/tag/b9686
+摘要: spec: fix segfault error on long prompts for eagle3 ( #24707 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubunt
+
+[70] 来源: llama.cpp Releases
+标题: b9685
+链接: https://github.com/ggml-org/llama.cpp/releases/tag/b9685
+摘要: [SYCL] add dev2dev memcpy by SYCL API ( #24476 ) add dev2dev memcpy by SYCL API mv GGML_SYCL_DEV2DEV_MEMCPY to runntime table update the detect method for p2p comm fix the erro created during fix confilct Co-authored-by: Neo Zhang macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kl
+
+[71] 来源: TechCrunch AI
+标题: How to turn off AI in your Google Docs
+链接: https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/
+摘要: Here's what you need to do to get those pesky "write with Gemini" pop-ups to go away.
+
+[72] 来源: TechCrunch AI
+标题: NEA’s Tiffany Luck says enterprises are still figuring out their AI ROI
+链接: https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/
+摘要: Tokenmaxxing was the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far as it would go. Then the bill came due. Uber reportedly blew through its annual AI budget in a few months, some companies cut Claude licenses for parts of their org, and Me
+
+[73] 来源: TechCrunch AI
+标题: World leaders want American AI. They just don’t want America to be able to turn it off.
+链接: https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/
+摘要: French President Macron and Indian PM Modi raised alarms at the G7 summit that the U.S. could cut off access to American AI overnight — a fear the Anthropic blackout just made real.
+
+[74] 来源: TechCrunch AI
+标题: Anthropic becomes first AI startup to join the Frontier carbon removal coalition
+链接: https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/
+摘要: Anthropic has joined the Frontier coalition, which received another $915M in pledges to fund carbon removal projects.
+
+[75] 来源: TechCrunch AI
+标题: Social media’s next evolution: user-controlled algorithms
+链接: https://techcrunch.com/2026/06/17/social-medias-next-evolution-user-controlled-algorithms/
+摘要: Social media feeds are becoming more customizable as platforms like Threads, Instagram, and TikTok introduce tools that let users directly influence the algorithms powering their recommendations.
+
+[76] 来源: TechCrunch AI
+标题: NEA’s Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning
+链接: https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/
+摘要: Tokenmaxxing was the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far as it would go. Then the bill came due. Uber reportedly blew through its annual AI budget in a few months, some companies cut Claude licenses for parts of their org, and Me
+
+[77] 来源: TechCrunch AI
+标题: World model maker Odyssey nabs $1.45B valuation backed by Amazon and other big names
+链接: https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/
+摘要: World models are the next big thing in AI beyond LLMs and, with this round, Odyssey has cemented itself as one of the startups to watch.
+
+[78] 来源: TechCrunch AI
+标题: Google bets on Gemini to reinvent the smart home speaker
+链接: https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/
+摘要: Google is betting generative AI can breathe new life into the smart speaker. The company's new $99.99 Google Home Speaker replaces the rigid commands of the Google Assistant era with more conversational Gemini interactions.
+
+[79] 来源: TechCrunch AI
+标题: Collecting robot training data is dirty, unglamorous work. Some AI labs are already paying XDOF to do it.
+链接: https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/
+摘要: If physical AI is going to match the accomplishments of LLMs, there's a data problem that needs to be solved.
+
+[80] 来源: TechCrunch AI
+标题: Pinterest launches an experimental AI shopping app called ‘Ask Pinterest’
+链接: https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/
+摘要: Pinterest has launched 'Ask Pinterest,' an experimental AI-powered shopping app that lets users seek recommendations and inspiration through a conversational interface.

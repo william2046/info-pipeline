@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9692",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9692",
+    "description": "mtmd: llava_uhd should no longer use batch dim ( #24732 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windo",
+    "published": "2026-06-17T21:29:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9691",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9691",
+    "description": "ggml-cpu: Conditionally enable power11 backend based on compiler support ( #24687 ) ggml: Conditionally enable power11 backend based on compiler support Guard POWER11 backend creation behind a compiler flag check for -mcpu=power11. This avoids build failures on current GCC/Clang toolchains while preserving forward compatibility once POWER11 support becomes available. Update CMakeLists.txt ggml-cpu: Use -mcpu=power10 for P10 and P11 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm6",
+    "published": "2026-06-17T20:56:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9690",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9690",
+    "description": "metal : implement rope_back operator ( #24725 ) Reuse existing rope kernels with a function constant to toggle forward/backward rotation, avoiding duplicate kernel code. Assisted-by: pi:llama.cpp/Qwen3.6-27B macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL",
+    "published": "2026-06-17T20:01:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9689",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9689",
+    "description": "metal : add f16 and bf16 support for concat operator ( #24724 ) metal : add f16 and bf16 support for concat operator Extend the Metal backend concat operator to support f16 and bf16 tensor types in addition to the existing f32 and i32 support. Template kernel_concat on type T with specializations for float, half, bfloat, and int Add type-specific pipeline getter ggml_metal_library_get_pipeline_concat() Update device support check to allow f16 unconditionally and bf16 when device supports bfloat1",
+    "published": "2026-06-17T19:33:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9688",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9688",
+    "description": "server: (router) add model management API ( #23976 ) wip server: (router) add SSE realtime updates API nits wip add download API add download api update docs add delete endpoint fix std::terminate fix crash fix 2 add tests nits macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVI",
+    "published": "2026-06-17T18:56:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9687",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9687",
+    "description": "llama : skip main_gpu validation when no devices are available ( #23405 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA",
+    "published": "2026-06-17T18:26:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9686",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9686",
+    "description": "spec: fix segfault error on long prompts for eagle3 ( #24707 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs ",
+    "published": "2026-06-17T17:33:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9685",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9685",
+    "description": "[SYCL] add dev2dev memcpy by SYCL API ( #24476 ) add dev2dev memcpy by SYCL API mv GGML_SYCL_DEV2DEV_MEMCPY to runntime table update the detect method for p2p comm fix the erro created during fix confilct Co-authored-by: Neo Zhang macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Ope",
+    "published": "2026-06-17T17:02:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9684",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9684",
+    "description": "[SYCL] Add conv_3d ( #24691 ) add conv_3d optimize update ops.md restore test script rm unused code rm copyright notes macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Win",
+    "published": "2026-06-17T16:28:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9682",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9682",
+    "description": "vulkan: record actual memory properties during buffer creation ( #24326 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA",
+    "published": "2026-06-17T13:34:49Z",
+    "source": "llama.cpp Releases"
+  }
+]
