@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Many Let's Encrypt renewals had errors today",
+    "link": "https://letsencrypt.status.io/#2026",
+    "description": "Article URL: https://letsencrypt.status.io/#2026 Comments URL: https://news.ycombinator.com/item?id=48594715 Points: 113 # Comments: 65",
+    "published": "Fri, 19 Jun 2026 04:18:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ice Water Drowning Survival After 147-Minute Submersion and Hypothermic Arrest",
+    "link": "https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885",
+    "description": "Article URL: https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885 Comments URL: https://news.ycombinator.com/item?id=48594592 Points: 84 # Comments: 24",
+    "published": "Fri, 19 Jun 2026 03:50:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Datasette Apps: Host custom HTML applications inside Datasette",
+    "link": "https://simonwillison.net/2026/Jun/18/datasette-apps/",
+    "description": "Article URL: https://simonwillison.net/2026/Jun/18/datasette-apps/ Comments URL: https://news.ycombinator.com/item?id=48593731 Points: 58 # Comments: 18",
+    "published": "Fri, 19 Jun 2026 01:06:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Flexport (YC W14) Is Hiring in Indonesia, India, and Thailand",
+    "link": "https://www.flexport.com/company/careers/",
+    "description": "Article URL: https://www.flexport.com/company/careers/ Comments URL: https://news.ycombinator.com/item?id=48593694 Points: 0 # Comments: 0",
+    "published": "Fri, 19 Jun 2026 01:01:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Zero-Touch OAuth for MCP",
+    "link": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+    "description": "Article URL: https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/ Comments URL: https://news.ycombinator.com/item?id=48592163 Points: 165 # Comments: 61",
+    "published": "Thu, 18 Jun 2026 21:54:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Are You in the Weights?",
+    "link": "https://www.intheweights.com/",
+    "description": "With more traffic moving off-web and into LLMs, I got curious about what traces we leave \"in the weights\". My design partner and I built a site in the past few weeks that checks recognition across frontier and small models. It queries many of them in parallel, clusters the responses, and tells you how strongly they recognize you. Happy to answer any questions here! Comments URL: https://news.ycombinator.com/item?id=48591348 Points: 296 # Comments: 158",
+    "published": "Thu, 18 Jun 2026 20:49:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Zork name origin got an update on Wikipedia",
+    "link": "https://www.dpolakovic.space/blogs/zork-part2#update",
+    "description": "Article URL: https://www.dpolakovic.space/blogs/zork-part2#update Comments URL: https://news.ycombinator.com/item?id=48591066 Points: 77 # Comments: 12",
+    "published": "Thu, 18 Jun 2026 20:27:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M",
+    "link": "https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/",
+    "description": "https://web.archive.org/web/20260618212028/https://www.thatp... https://archive.ph/I4zjA Comments URL: https://news.ycombinator.com/item?id=48589501 Points: 310 # Comments: 154",
+    "published": "Thu, 18 Jun 2026 18:31:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Token Compression Illusion: Why I'm Skeptical of RTK",
+    "link": "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/",
+    "description": "Article URL: https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/ Comments URL: https://news.ycombinator.com/item?id=48588755 Points: 96 # Comments: 99",
+    "published": "Thu, 18 Jun 2026 17:37:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Building a robotics research setup that lives next to my desk",
+    "link": "https://dfdxlabs.com/research/2026/robotics-setup/",
+    "description": "Quick framing, since the post is long: I did robotic manipulation research at OpenAI from 2017–2020, and the tabletop setup back then cost roughly 10x this one and took a team to run. This project is me testing whether a single person can now do meaningful work on the same class of problems: starting with physical and software setup. A few decisions I'm least settled on, and would love some pushback/feedback on: - single arm vs. bimanual (I went single for cost/space, knowing it rules out things",
+    "published": "Thu, 18 Jun 2026 14:51:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
+    "link": "https://tester.army",
+    "description": "Hey HN - we’re Oskar, Szymon, and Piotr, and we’re building TesterArmy ( https://tester.army ). TesterArmy is an agentic testing platform that runs end-to-end checks before deployment and in production. Instead of wasting hours on manual testing or maintaining static scripts, we let you specify your tests in natural language and handle everything in between. We've built the platform fully around agents. Our agent will reliably execute the tests, but your coding agent can manage everything in our",
+    "published": "Thu, 18 Jun 2026 14:49:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ubiquiti: Enterprise NAS, Built on ZFS",
+    "link": "https://blog.ui.com/article/introducing-enterprise-nas",
+    "description": "Article URL: https://blog.ui.com/article/introducing-enterprise-nas Comments URL: https://news.ycombinator.com/item?id=48585866 Points: 312 # Comments: 269",
+    "published": "Thu, 18 Jun 2026 14:24:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Swiss parliament lifts ban on new nuclear power plants",
+    "link": "https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html",
+    "description": "Article URL: https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html Comments URL: https://news.ycombinator.com/item?id=48585746 Points: 740 # Comments: 648",
+    "published": "Thu, 18 Jun 2026 14:17:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts",
+    "link": "https://gerrymandle.cc/",
+    "description": "Article URL: https://gerrymandle.cc/ Comments URL: https://news.ycombinator.com/item?id=48585739 Points: 164 # Comments: 68",
+    "published": "Thu, 18 Jun 2026 14:16:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Talos – Open-source WASM interpreter for Lean",
+    "link": "https://github.com/cajal-technologies/talos",
+    "description": "At Cajal (YC W26) we’re excited to share Talos ( https://github.com/cajal-technologies/talos ), an open source framework for formal verification of WebAssembly modules in Lean. AI is now writing tons of the code that gets pushed to production. As code generation gets cheaper, verification becomes the bottleneck. We believe in a future where every piece of software comes with a mathematical proof that it does what its author intended - in doing so, eliminating many classes of exploits. Talos is p",
+    "published": "Thu, 18 Jun 2026 13:10:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "How Alberta Eradicated Rats",
+    "link": "https://worksinprogress.co/issue/albertas-war-on-rats/",
+    "description": "Article URL: https://worksinprogress.co/issue/albertas-war-on-rats/ Comments URL: https://news.ycombinator.com/item?id=48584709 Points: 161 # Comments: 114",
+    "published": "Thu, 18 Jun 2026 13:05:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "W Social, public institutions and the theater of European digital sovereignty",
+    "link": "https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/",
+    "description": "Article URL: https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/ Comments URL: https://news.ycombinator.com/item?id=48584497 Points: 195 # Comments: 127",
+    "published": "Thu, 18 Jun 2026 12:46:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I found 10k GitHub repositories distributing Trojan malware",
+    "link": "https://orchidfiles.com/github-repositories-distributing-malware/",
+    "description": "Article URL: https://orchidfiles.com/github-repositories-distributing-malware/ Comments URL: https://news.ycombinator.com/item?id=48583928 Points: 741 # Comments: 179",
+    "published": "Thu, 18 Jun 2026 11:45:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Modos Color Monitor Pushes E-Paper Displays Further",
+    "link": "https://spectrum.ieee.org/modos-e-paper-monitor",
+    "description": "Article URL: https://spectrum.ieee.org/modos-e-paper-monitor Comments URL: https://news.ycombinator.com/item?id=48583897 Points: 255 # Comments: 67",
+    "published": "Thu, 18 Jun 2026 11:41:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
+    "link": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/",
+    "description": "Article URL: https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/ Comments URL: https://news.ycombinator.com/item?id=48583606 Points: 349 # Comments: 49",
+    "published": "Thu, 18 Jun 2026 11:04:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
