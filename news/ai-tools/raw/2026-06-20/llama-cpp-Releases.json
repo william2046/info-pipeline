@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9733",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9733",
+    "description": "ggml-webgpu: add adapter toggles for F16 on Vulkan + NVIDIA macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Win",
+    "published": "2026-06-20T00:17:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9732",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9732",
+    "description": "server: refactor child --> router communication ( #24821 ) server: refactor child --> router communication fix wakeup case add docs improve update_status() nits macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+    "published": "2026-06-19T23:45:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9731",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9731",
+    "description": "server : optimize get_token_probabilities ( #24796 ) Use std::partial_sort to order only the requested top-n tokens instead of the full vocabulary logprobs sort: vocab=128000 n_top=0 iters=100 full sort: 8555.6 us/op partial sort: 704.3 us/op Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulk",
+    "published": "2026-06-19T21:56:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9730",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9730",
+    "description": "mtmd, arg: fix utf8 handling on windows ( #24779 ) mtmd, arg: fix utf8 handling on windows also fix ggml_fopen fix build fail also fix CLI macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: W",
+    "published": "2026-06-19T21:20:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9729",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9729",
+    "description": "server: remove all internal mentions about \"webui\" ( #24817 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs W",
+    "published": "2026-06-19T20:49:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9728",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9728",
+    "description": "arg: Add comment line support to --api-key-file ( #23168 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Wind",
+    "published": "2026-06-19T16:20:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9727",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9727",
+    "description": "vendor : update cpp-httplib to 0.48.0 ( #24787 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (C",
+    "published": "2026-06-19T15:47:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9726",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9726",
+    "description": "server: add --agent arg, remove redundant webui naming compat ( #24801 ) server: add --agent arg, remove redundant webui naming compat corrent env fix the test llama-gen-docs nits: wordings macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
+    "published": "2026-06-19T15:17:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9725: docker : build the UI (#24794)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9725",
+    "description": "docker : build the UI cont : use existing APP_VERSION",
+    "published": "2026-06-19T13:32:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9724",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9724",
+    "description": "mtmd: several bug fixes ( #24784 ) mtmd: several bug fixes fix build fix gemma4ua add sanity check in get_u32() fix build (2) area() avoid overflow macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) W",
+    "published": "2026-06-19T11:42:01Z",
+    "source": "llama.cpp Releases"
+  }
+]
