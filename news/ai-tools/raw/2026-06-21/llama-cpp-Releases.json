@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9744",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9744",
+    "description": "common/peg : refactor until gbnf grammar generation ( #24839 ) common/peg : refactor until gbnf grammar into an ac automaton cont : add a test with multiple strings cont : pad state with 0s so rules line up cont : clean up comments cont : use set everywhere cont : inline state num string padding cont : add a ref to PR cont : fix regression in server-tools.cpp macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubu",
+    "published": "2026-06-21T02:47:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9743",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9743",
+    "description": "common/json-schema-to-grammar : align spacing rules with parsers ( #24835 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adre",
+    "published": "2026-06-20T23:10:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9742",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9742",
+    "description": "fix(hexagon): use padded stride for ssm-conv weights ( #24470 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows ",
+    "published": "2026-06-20T22:33:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9741",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9741",
+    "description": "llama : use LLM_KV for quantization_version & file_type ( #24802 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Wind",
+    "published": "2026-06-20T18:42:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9740",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9740",
+    "description": "arg: try fixing test-args-parser randomly fails ( #24826 ) arg: try fixing test-args-parser randomly fails return ref try triggering the workflow exception wrapper wip test test 2 arg: guard win32 utf8 argv override make_utf8_argv rebuilds argv from GetCommandLineW to fix utf8 handling of non ascii arguments on windows. the override runs unconditionally inside common_params_parse, so it also clobbers a programmatic argv passed by a caller. test-arg-parser builds a synthetic argv but then sees th",
+    "published": "2026-06-20T18:15:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9739",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9739",
+    "description": "release: add missing link for win opencl adreno arm64 ( #24809 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows",
+    "published": "2026-06-20T15:30:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9738",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9738",
+    "description": "server: avoid forwarding auth headers in CORS proxy ( #24373 ) server: avoid forwarding auth headers in CORS proxy format fix test fix e2e test Co-authored-by: Xuan Son Nguyen son@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu",
+    "published": "2026-06-20T14:08:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9737",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9737",
+    "description": "docker : prebuild web UI for s390x build [no release] ( #24829 )",
+    "published": "2026-06-20T10:54:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9736",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9736",
+    "description": "model : glm-dsa load DSA indexer tensors as optional ( #24770 ) GLM-5.2 ships the DSA \"lightning indexer\" on only a subset of layers (the \"full\" layers; others omit it), but the GLM_DSA loader created the five indexer tensors on every layer as required, so loading any GLM-5.2 GGUF failed with e.g. missing tensor 'blk.3.indexer.k_norm.weight' . GLM_DSA's graph is llama_model_deepseek2::graph (plain MLA) and does not use the indexer tensors (indexer runtime not yet implemented), so they are loaded",
+    "published": "2026-06-20T12:01:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9735",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9735",
+    "description": "ggml : optimize AMX ( #24806 ) Flatten the partition over n_batch * M so every thread participates in the quantization | CPU | Model | Test | t/s OLD | t/s NEW | Speedup | |:--------------------------------|:------------------------------|:-------|----------:|----------:|----------:| | Intel(R) Xeon(R) Platinum 8488C | qwen35 0.8B IQ4_NL - 4.5 bpw | pp512 | 730.71 | 779.86 | 1.07 | | Intel(R) Xeon(R) Platinum 8488C | qwen35 0.8B IQ4_NL - 4.5 bpw | tg128 | 87.88 | 86.79 | 0.99 | | Intel(R) Xeon(R",
+    "published": "2026-06-20T11:35:07Z",
+    "source": "llama.cpp Releases"
+  }
+]
