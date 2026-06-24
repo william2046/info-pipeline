@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9776",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9776",
+    "description": "vulkan: Apply bias before softmax in FA, to avoid overflow ( #24909 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Wi",
+    "published": "2026-06-24T04:01:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9775",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9775",
+    "description": "server : check draft context creation error ( #24922 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA",
+    "published": "2026-06-23T16:49:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9774",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9774",
+    "description": "vulkan: support all backend tests for SQR/SQRT/SIN/COS/CLAMP/LEAKY_RELU/NORM ( #24582 ) vulkan: make SQR/SQRT/SIN/COS/CLAMP/LEAKY_RELU use unary.comp vulkan: make NORM support noncontig add noncontiguous row test cases for norm/l2_norm, handle this in the CPU backend and l2_norm.comp fix supports_op for cuda and webgpu macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s",
+    "published": "2026-06-23T16:18:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9773",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9773",
+    "description": "vulkan: Support GET_ROWS_BACK ( #24883 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12",
+    "published": "2026-06-23T15:45:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9771",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9771",
+    "description": "vulkan: make mul_mm ALIGNED a spec constant ( #24689 ) This trims down some of the shader variant explosion and reduces binary size. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows",
+    "published": "2026-06-23T13:29:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9770",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9770",
+    "description": "server: fix remote preset handling, add test ( #24938 ) server: add test for remote preset fix remote preset handling fix fix test macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x",
+    "published": "2026-06-23T12:27:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9769",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9769",
+    "description": "vulkan: link ggml-cpu when GGML_VULKAN_CHECK_RESULTS / RUN_TESTS are enabled ( #24444 ) The result-checking and test debug paths in ggml-vulkan.cpp call ggml_graph_compute_with_ctx() to compute a CPU reference graph, but that symbol is defined in ggml-cpu, which ggml-vulkan does not link. Enabling -DGGML_VULKAN_CHECK_RESULTS=ON (or -DGGML_VULKAN_RUN_TESTS=ON) therefore fails to link with an unresolved external (e.g. LNK2019 on MSVC, undefined reference on GCC/Clang). This regressed after ggml-cp",
+    "published": "2026-06-23T11:45:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9768",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9768",
+    "description": "model: Granite Speech Plus ( #24818 ) feat: Add conversion support for Granite Speech Plus Branch: GraniteSpeechPlus AI-usage: full (Bob, OpenCode + Qwen3.6-35b) Signed-off-by: Gabe Goodhart ghart@us.ibm.com feat: Extend granite_speech to support plus multi-layer concatenation Branch: GraniteSpeechPlus AI-usage: draft (Bob, OpenCode + Qwen3.6-35b) Signed-off-by: Gabe Goodhart ghart@us.ibm.com fix(conversion): Fix plural naming for feature_layers for audio Branch: GraniteSpeechPlus AI-usage: none",
+    "published": "2026-06-23T10:50:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9767",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9767",
+    "description": "ggml-webgpu: improve MTP inference by using mat-vec path for small batches ( #24811 ) ggml-webgpu: improve small batches decoding Add barrier to the NUM_COLS loop in mul-mat-vec macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) ",
+    "published": "2026-06-23T09:00:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9765",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9765",
+    "description": "server: improve user message detection and create checkpoints at ever…",
+    "published": "2026-06-23T05:27:28Z",
+    "source": "llama.cpp Releases"
+  }
+]

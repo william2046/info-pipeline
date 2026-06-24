@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Sakana Fugu: a multi-agent system delivered as one model",
+    "link": "https://github.com/SakanaAI/fugu",
+    "description": "Article URL: https://github.com/SakanaAI/fugu Comments URL: https://news.ycombinator.com/item?id=48654765 Points: 6 # Comments: 1",
+    "published": "Wed, 24 Jun 2026 03:31:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
+    "link": "https://gitlab.com/baiyibai/pico-usb-wifi",
+    "description": "Article URL: https://gitlab.com/baiyibai/pico-usb-wifi Comments URL: https://news.ycombinator.com/item?id=48654676 Points: 17 # Comments: 3",
+    "published": "Wed, 24 Jun 2026 03:17:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Teensy Executable Revisited",
+    "link": "https://www.muppetlabs.com/~breadbox/software/tiny/revisit.html",
+    "description": "Article URL: https://www.muppetlabs.com/~breadbox/software/tiny/revisit.html Comments URL: https://news.ycombinator.com/item?id=48654411 Points: 12 # Comments: 0",
+    "published": "Wed, 24 Jun 2026 02:30:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The war on terror primed America for autocracy",
+    "link": "https://www.economist.com/by-invitation/2026/06/02/how-the-war-on-terror-primed-america-for-autocracy",
+    "description": "https://archive.is/CBCZM Comments URL: https://news.ycombinator.com/item?id=48654367 Points: 119 # Comments: 83",
+    "published": "Wed, 24 Jun 2026 02:23:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Qwen-AgentWorld: Language World Models for General Agents",
+    "link": "https://arxiv.org/abs/2606.24597",
+    "description": "Article URL: https://arxiv.org/abs/2606.24597 Comments URL: https://news.ycombinator.com/item?id=48654351 Points: 19 # Comments: 2",
+    "published": "Wed, 24 Jun 2026 02:21:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "DiffusionBench: Towards Holistic Evaluation of Generative Diffusion Transformers",
+    "link": "https://github.com/End2End-Diffusion/diffusion-bench",
+    "description": "Article URL: https://github.com/End2End-Diffusion/diffusion-bench Comments URL: https://news.ycombinator.com/item?id=48654274 Points: 17 # Comments: 0",
+    "published": "Wed, 24 Jun 2026 02:12:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Meta Pauses Employee-Tracking Program Following Internal Data Leak",
+    "link": "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
+    "description": "Article URL: https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/ Comments URL: https://news.ycombinator.com/item?id=48653575 Points: 142 # Comments: 66",
+    "published": "Wed, 24 Jun 2026 00:28:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Vulnerability reports are not special anymore",
+    "link": "https://words.filippo.io/vuln-reports/",
+    "description": "Article URL: https://words.filippo.io/vuln-reports/ Comments URL: https://news.ycombinator.com/item?id=48653216 Points: 155 # Comments: 69",
+    "published": "Tue, 23 Jun 2026 23:42:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Extreme Heat conference cancelled due to extreme heat warning",
+    "link": "https://www.lse.ac.uk/granthaminstitute/events/extreme-heat-improving-governance-and-strengthening-action-around-the-world/",
+    "description": "Article URL: https://www.lse.ac.uk/granthaminstitute/events/extreme-heat-improving-governance-and-strengthening-action-around-the-world/ Comments URL: https://news.ycombinator.com/item?id=48653060 Points: 267 # Comments: 210",
+    "published": "Tue, 23 Jun 2026 23:26:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Jerry's Map",
+    "link": "http://www.jerrysmap.com/the-map",
+    "description": "https://www.openculture.com/2026/06/this-man-has-been-drawin... Comments URL: https://news.ycombinator.com/item?id=48649435 Points: 378 # Comments: 49",
+    "published": "Tue, 23 Jun 2026 18:40:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: RLM-based local debugger for AI agent traces",
+    "link": "https://github.com/context-labs/halo",
+    "description": "We built HALO (Hierarchal Agent Loop Optimizer), an open-source tool for debugging and optimizing AI agents using their execution traces. It’s a loop. Run your agent, feed the traces to HALO, get the report, apply the fixes, then re-run your agent. HALO takes in OTEL compliant traces from AI agents using tracing frameworks such as Langfuse, Arize/OpenInference, or even just plain JSONL. It uses an RLM (Recursive Language Model) to more efficiently break trace analysis into smaller subproblems in",
+    "published": "Tue, 23 Jun 2026 18:21:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Fired by Google for creating the Google workspace CLI",
+    "link": "https://twitter.com/JPoehnelt/status/2069482265953087602",
+    "description": "https://xcancel.com/JPoehnelt/status/2069482265953087602 Comments URL: https://news.ycombinator.com/item?id=48649011 Points: 372 # Comments: 241",
+    "published": "Tue, 23 Jun 2026 18:13:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "In memory of the man who put red and green squiggles under words",
+    "link": "https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451",
+    "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451 Comments URL: https://news.ycombinator.com/item?id=48648959 Points: 237 # Comments: 26",
+    "published": "Tue, 23 Jun 2026 18:10:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Swift Package Index joins Apple",
+    "link": "https://swiftpackageindex.com/blog/swift-package-index-joins-apple",
+    "description": "Article URL: https://swiftpackageindex.com/blog/swift-package-index-joins-apple Comments URL: https://news.ycombinator.com/item?id=48648779 Points: 190 # Comments: 58",
+    "published": "Tue, 23 Jun 2026 18:00:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "FUTO Swipe – A new swipe typing model",
+    "link": "https://swipe.futo.tech/",
+    "description": "Article URL: https://swipe.futo.tech/ Comments URL: https://news.ycombinator.com/item?id=48648619 Points: 382 # Comments: 112",
+    "published": "Tue, 23 Jun 2026 17:50:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The worthlessness of Vitamin D is mildly exaggerated",
+    "link": "https://dynomight.net/vitamin-d/",
+    "description": "Article URL: https://dynomight.net/vitamin-d/ Comments URL: https://news.ycombinator.com/item?id=48647486 Points: 241 # Comments: 169",
+    "published": "Tue, 23 Jun 2026 16:30:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
+    "link": "https://tikz.dev/editor/",
+    "description": "Hi all! TikZ is a widely-used LaTeX package for drawing figures in papers. It uses commands like \\draw[->] (0,0) -- (1,2); to draw lines, shapes, text, etc. Academics usually code up their figures by hand, so there is lots of twiddling around with the coordinates and recompiling until things look nice. I guess it’s a bit like SVG, but it’s more code than markup, for example it has loops with \\foreach. I built an open-source WYSIWYG TikZ editor (available for web and desktop) that allows you to e",
+    "published": "Tue, 23 Jun 2026 14:24:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Low-Tech AI of Elden Ring",
+    "link": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
+    "description": "Article URL: https://nega.tv/posts/low-tech-ai-of-elden-ring.html Comments URL: https://news.ycombinator.com/item?id=48643489 Points: 127 # Comments: 60",
+    "published": "Tue, 23 Jun 2026 11:40:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Coming Loop",
+    "link": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+    "description": "Article URL: https://lucumr.pocoo.org/2026/6/23/the-coming-loop/ Comments URL: https://news.ycombinator.com/item?id=48643180 Points: 362 # Comments: 254",
+    "published": "Tue, 23 Jun 2026 11:06:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Five monitors on a Commodore 128 [video]",
+    "link": "https://www.youtube.com/watch?v=ul5hC3PY1Yg",
+    "description": "Article URL: https://www.youtube.com/watch?v=ul5hC3PY1Yg Comments URL: https://news.ycombinator.com/item?id=48634187 Points: 113 # Comments: 21",
+    "published": "Mon, 22 Jun 2026 18:39:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
