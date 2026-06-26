@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9803",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9803",
+    "description": "opencl: flush profiling batch at shutdown for incomplete batches ( #25016 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adre",
+    "published": "2026-06-26T02:28:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9802",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9802",
+    "description": "macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13) - CUDA 13.3",
+    "published": "2026-06-25T22:50:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9789",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9789",
+    "description": "quant : fix quantizing moe with mtp ( #24986 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - C",
+    "published": "2026-06-25T09:23:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9788",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9788",
+    "description": "sycl : support --split-mode tensor ( #24152 ) Sycl tp stage1 ( #1 ) SYCL: tensor parallelism (--split-mode tensor) for dual-GPU Adds the comm_init/comm_free/comm_allreduce_tensor trio that the meta-backend queries via get_proc_address to enable backend-specific all-reduce, mirroring the pattern used by ggml-cuda.cu. For N=2 (the common dual-GPU case) implements a degenerate ring all-reduce with two size-branched paths: Small (nelem < 32768): FP32 direct memcpy + per-device ADD kernel chained via",
+    "published": "2026-06-25T08:47:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9787",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9787",
+    "description": "sycl : fix the failed UT cases of conv_3d ( #24900 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 1",
+    "published": "2026-06-25T06:09:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9786",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9786",
+    "description": "opencl: support non-contig rows in norm ( #24965 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12)",
+    "published": "2026-06-25T03:02:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9785",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9785",
+    "description": "chat: harden caps check ( #24973 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLL",
+    "published": "2026-06-25T01:23:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9784",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9784",
+    "description": "hexagon: MUL_MAT and MUL_MAT_ID rework : 32x32 tiled weight repack, kernel-params, cached graphs ( #24954 ) hex-mm: new weight layout and fusion updates hvx-mm: unroll the new tiled vec_dots to optimize hvx register util hex-mm: optimize dyn.quant format for q8_0 and q8_1 to reduce overhead in vec_dots. hvx-mm: parallel quantizer per block for large rows hvx-mm: simplify and futher optimize dyn.quant and vec_dots hvx-mm: keep intermediate per tile accumulators in fp16 hmx-mm: optimize weight deq",
+    "published": "2026-06-24T19:57:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9782",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9782",
+    "description": "common: remove unused json-partial ( #24968 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CU",
+    "published": "2026-06-24T16:46:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9781",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9781",
+    "description": "vulkan: allow reducing the graph submission batches to avoid timeouts ( #24872 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL",
+    "published": "2026-06-24T15:03:42Z",
+    "source": "llama.cpp Releases"
+  }
+]
