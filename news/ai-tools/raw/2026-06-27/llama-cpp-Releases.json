@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9821",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9821",
+    "description": "app : allow --version, --licenses & --help ( #25054 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CP",
+    "published": "2026-06-26T21:57:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9820",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9820",
+    "description": "sched : reintroduce less synchronizations during split compute ( #20793 ) CUDA: Improve performance via less synchronizations between token ( #17795 ) Adds CPU-to-CUDA copy capability to ggml_backend_cuda_cpy_tensor_async() Adds function to relax sync requirements between input copies on supported backends (CUDA for now) Exchanges synchronous copy with async copy function. Adds macro guards to allow compilation in non-CUDA builds Reworked backend detection in ggml-backend.cpp to avoid linking co",
+    "published": "2026-06-26T18:37:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9817",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9817",
+    "description": "openvino: Update to OV 2026.2.1, self-contained release packages, operator improvements ( #24974 ) Update to OV 2026.2.1, Make OV release packages self-contained Update to OV 2026.2.1, Make OV release packages self-contained OpenVINO Backend: Remove compute_op_type hardcoded sets ( #222 ) OpenVINO Backend: Remove compute_op_type hardcoded sets revert get_op_type removal OpenVINO backend: enable softmax with sink input OpenVINO backend: opt mul_mat_id convert process for large size OpenVINO backe",
+    "published": "2026-06-26T17:29:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9816",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9816",
+    "description": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13)",
+    "published": "2026-06-26T16:50:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9814",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9814",
+    "description": "vulkan: opt mul_mat_vecq for mi50 ( #22933 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUD",
+    "published": "2026-06-26T16:16:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9813",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9813",
+    "description": "vulkan: add INTEL_XE1 arch enum and enable coopmat1 on Intel Xe-LPG Plus ( #24404 ) vulkan: add INTEL_PRE_XE2 arch enum and enable coopmat1 on Intel Xe-LPG Plus (1/3, Xe1-ARLH) Co-authored-by: Xia, Jie jie.xia@intel.com Co-authored-by: Liu, Russell russell.liu@intel.com Address comments of bf16 and trailing whitespace Rename INTEL_PRE_XE2 to INTEL_XE1 and remove driver workaround Add Windows driver check Co-authored-by: Xia, Jie jie.xia@intel.com Co-authored-by: Liu, Russell russell.liu@intel.co",
+    "published": "2026-06-26T15:40:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9811",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9811",
+    "description": "vulkan: Workaround compiler bug in conv2d coopmat2 path ( #24924 ) vulkan: Workaround compiler bug in conv2d coopmat2 path apply same workaround to CONV_3D Apply suggestion from @jeffbolznv macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 ",
+    "published": "2026-06-26T13:06:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9810",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9810",
+    "description": "CUDA: add cublasSgemmBatched mapping for HIP/MUSA vendor headers ( #25033 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adre",
+    "published": "2026-06-26T11:46:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9804",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9804",
+    "description": "mamba2: remove hardcoded 2x expansion factor and invalid d_inner % d_state check ( #23082 ) mamba2: remove hardcoded 2x expansion factor, support any expand value mamba2: remove invalid d_inner %% d_state check (unrelated parameters) Update convert_hf_to_gguf.py: make expand optional with default 2 Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@scala.com mamba2: apply expand fix to refactored conversion/mamba.py also check for mamba_expand Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@s",
+    "published": "2026-06-26T07:17:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9803",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9803",
+    "description": "opencl: flush profiling batch at shutdown for incomplete batches ( #25016 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adre",
+    "published": "2026-06-26T02:28:20Z",
+    "source": "llama.cpp Releases"
+  }
+]
