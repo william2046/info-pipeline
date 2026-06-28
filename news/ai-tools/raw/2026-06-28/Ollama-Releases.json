@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.30.11",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.11",
+    "description": "What's Changed launch: add thinking capability detection to opencode by @hoyyeva in #15434 launch: auto-install Claude Code by @hoyyeva in #16802 launch: auto-install opencode when missing by @hoyyeva in #16806 discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in #16669 mlxrunner: unify and tune speculative decoding by @jessegross in #16791 launch/codex: detect model drift when Codex App UI switches by @BruceMacD in #16864 llama: add sm_86 architec",
+    "published": "2026-06-26T19:46:28Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.11-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc1",
+    "description": "parser/renderer: add Ornith 9B renderer/parser support ( #16920 )",
+    "published": "2026-06-26T06:18:47Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.11-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc0",
+    "description": "llama.cpp version update ( #16548 )",
+    "published": "2026-06-24T21:03:12Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.10",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.10",
+    "description": "What's Changed Command A and North family models now run on Apple Silicon with the MLX engine Updated the underlying llama.cpp engine to build 9672 Fixed build artifacts for MLX Full Changelog : v0.30.9...v0.30.10",
+    "published": "2026-06-18T04:26:41Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.10-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.10-rc1",
+    "description": "ci: pin darwin release xcode ( #16788 )",
+    "published": "2026-06-17T20:01:10Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.10-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.10-rc0",
+    "description": "llama: update llama.cpp to b9672 ( #16775 )",
+    "published": "2026-06-17T06:15:52Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.9",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.9",
+    "description": "What's Changed Support for Cohere2Moe architecture Fixed LFM2 parser/render for cases where thinking was not emitted Fixed issue where ollama launch claude and other coding agent or assistant use cases would only output one token Ollama will now return an error if a single message is larger than the current context window Full Changelog : v0.30.8...v0.30.9-rc1",
+    "published": "2026-06-17T00:25:33Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.9-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc2",
+    "description": "llm: context shift allow shiftable prompts ( #16764 )",
+    "published": "2026-06-16T19:55:52Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.9-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc1",
+    "description": "server: context shift for context windows larger than 8k, add error w…",
+    "published": "2026-06-15T18:36:50Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.9-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.9-rc0",
+    "description": "llama: update llama.cpp to b9637 ( #16609 )",
+    "published": "2026-06-15T03:05:08Z",
+    "source": "Ollama Releases"
+  }
+]

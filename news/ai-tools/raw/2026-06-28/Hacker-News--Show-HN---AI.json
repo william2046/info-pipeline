@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+    "link": "https://github.com/itsthelore/wayfinder-router",
+    "description": "Article URL: https://github.com/itsthelore/wayfinder-router Comments URL: https://news.ycombinator.com/item?id=48704373 Points: 7 # Comments: 0",
+    "published": "Sun, 28 Jun 2026 04:31:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ford hired AI and sacked humans. It backfired badly",
+    "link": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+    "description": "Article URL: https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html Comments URL: https://news.ycombinator.com/item?id=48703968 Points: 65 # Comments: 38",
+    "published": "Sun, 28 Jun 2026 03:09:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Marfa Public Radio Puts You to Sleep",
+    "link": "https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep",
+    "description": "Article URL: https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep Comments URL: https://news.ycombinator.com/item?id=48703759 Points: 94 # Comments: 28",
+    "published": "Sun, 28 Jun 2026 02:23:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Feds Killed Polestar and Spared Volvo. That Should Terrify You",
+    "link": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
+    "description": "Article URL: https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you Comments URL: https://news.ycombinator.com/item?id=48703613 Points: 71 # Comments: 43",
+    "published": "Sun, 28 Jun 2026 01:55:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Response to AI slop is from Robin Williams",
+    "link": "https://jayacunzo.com/blog/your-move-chief",
+    "description": "Article URL: https://jayacunzo.com/blog/your-move-chief Comments URL: https://news.ycombinator.com/item?id=48703452 Points: 126 # Comments: 72",
+    "published": "Sun, 28 Jun 2026 01:28:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C",
+    "link": "https://decomp-academy.dev",
+    "description": "Over the past few months I've been heavily involved in the decompilation community. I've been hands-on decompiling a beloved game from my childhood (Star Fox Adventures). I started this journey with zero prior decomp experience—and to make things worse I had never really touched C nor assembly either. Learning how to decompile was challenging. It's difficult to find any good learning resources for it and any open-source projects for this are inactive and/or contain little actual learning materia",
+    "published": "Sun, 28 Jun 2026 01:21:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "AMD Strix Halo RDMA Cluster Setup Guide",
+    "link": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
+    "description": "Article URL: https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md Comments URL: https://news.ycombinator.com/item?id=48703258 Points: 77 # Comments: 11",
+    "published": "Sun, 28 Jun 2026 00:46:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "WAL-RUS: a Rust Rewrite of WAL-G for PostgreSQL Backups",
+    "link": "https://clickhouse.com/blog/walrus-postgres-backups-in-rust",
+    "description": "Article URL: https://clickhouse.com/blog/walrus-postgres-backups-in-rust Comments URL: https://news.ycombinator.com/item?id=48702848 Points: 31 # Comments: 1",
+    "published": "Sat, 27 Jun 2026 23:32:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Choosing a Public DNS Resolver",
+    "link": "https://evilbit.de/dns-resolver-guide.html",
+    "description": "Article URL: https://evilbit.de/dns-resolver-guide.html Comments URL: https://news.ycombinator.com/item?id=48702273 Points: 101 # Comments: 31",
+    "published": "Sat, 27 Jun 2026 22:11:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "What Ozempic does to the gut-brain axis",
+    "link": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
+    "description": "Article URL: https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis Comments URL: https://news.ycombinator.com/item?id=48701984 Points: 123 # Comments: 277",
+    "published": "Sat, 27 Jun 2026 21:34:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Enhancing X11 Application Security with LXC",
+    "link": "https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/",
+    "description": "Article URL: https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/ Comments URL: https://news.ycombinator.com/item?id=48701936 Points: 55 # Comments: 17",
+    "published": "Sat, 27 Jun 2026 21:27:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "IP Crawl: Living atlas of open webcams discovered on the public internet",
+    "link": "https://ipcrawl.com/",
+    "description": "Article URL: https://ipcrawl.com/ Comments URL: https://news.ycombinator.com/item?id=48700834 Points: 271 # Comments: 134",
+    "published": "Sat, 27 Jun 2026 19:09:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Turn your site into a place people can bump into each other",
+    "link": "https://cauenapier.com/blog/townsquare_release/",
+    "description": "Related: Show HN: TownSquare, a tiny presence layer for websites - https://news.ycombinator.com/item?id=48608570 - June 2026 (166 comments) Comments URL: https://news.ycombinator.com/item?id=48699928 Points: 184 # Comments: 82",
+    "published": "Sat, 27 Jun 2026 17:11:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Supabase (YC S20) Is Hiring for Multigres",
+    "link": "https://jobs.ashbyhq.com/supabase/2e718684-4f75-4a99-8d6b-3b6bd44e4228",
+    "description": "Article URL: https://jobs.ashbyhq.com/supabase/2e718684-4f75-4a99-8d6b-3b6bd44e4228 Comments URL: https://news.ycombinator.com/item?id=48699842 Points: 0 # Comments: 0",
+    "published": "Sat, 27 Jun 2026 17:00:15 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+    "link": "https://github.com/bikini/exploitarium",
+    "description": "Article URL: https://github.com/bikini/exploitarium Comments URL: https://news.ycombinator.com/item?id=48698617 Points: 726 # Comments: 285",
+    "published": "Sat, 27 Jun 2026 14:31:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Post-Mythos Cybersecurity: Keep calm and carry on",
+    "link": "https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/",
+    "description": "Article URL: https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/ Comments URL: https://news.ycombinator.com/item?id=48698559 Points: 140 # Comments: 47",
+    "published": "Sat, 27 Jun 2026 14:23:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Suspicious Discontinuities (2020)",
+    "link": "https://danluu.com/discontinuities/",
+    "description": "Article URL: https://danluu.com/discontinuities/ Comments URL: https://news.ycombinator.com/item?id=48698151 Points: 224 # Comments: 70",
+    "published": "Sat, 27 Jun 2026 13:32:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Asian AI startups launch Mythos-like models",
+    "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+    "description": "Article URL: https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/ Comments URL: https://news.ycombinator.com/item?id=48697958 Points: 189 # Comments: 145",
+    "published": "Sat, 27 Jun 2026 13:10:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenRA",
+    "link": "https://www.openra.net/",
+    "description": "Article URL: https://www.openra.net/ Comments URL: https://news.ycombinator.com/item?id=48697560 Points: 626 # Comments: 123",
+    "published": "Sat, 27 Jun 2026 12:10:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Nox Metals (YC S25) Is Hiring SWE",
+    "link": "https://www.ycombinator.com/companies/nox-metals/jobs/M1f1enD-software-engineer",
+    "description": "Article URL: https://www.ycombinator.com/companies/nox-metals/jobs/M1f1enD-software-engineer Comments URL: https://news.ycombinator.com/item?id=48697504 Points: 0 # Comments: 0",
+    "published": "Sat, 27 Jun 2026 12:01:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
