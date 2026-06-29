@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9837",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9837",
+    "description": "jinja, chat: add --reasoning-preserve flag ( #25105 ) jinja, chat: add --reasoning-preserve flag correct help message macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Wind",
+    "published": "2026-06-29T00:07:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9835",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9835",
+    "description": "ui: fix stop and reasoning skip in single-model mode ( #25084 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows ",
+    "published": "2026-06-28T19:38:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9833",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9833",
+    "description": "chat : implement minicpm5 parser ( #24889 ) Add minicpm5 tool call parser Refactor MiniCPM5 PEG parser per review feedback Fix jinja min/max API to match Jinja2 modify by review MiniCPM5: use autoparser for XML tool calls and fix grammar preserved-token triggers MiniCPM5: fix streaming tool-arg placeholder and remove alt XML markers skip min/max attribute tests in -py mode test-jinja: use real expected output for min/max attribute tests MiniCPM5: revert shared mapper and history fallbacks per re",
+    "published": "2026-06-28T15:34:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9832",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9832",
+    "description": "jinja: add --dump-prog for debugging ( #25086 ) jinja: add --dump-prog for debugging Update common/jinja/runtime.cpp Co-authored-by: Sigbjørn Skjæret 1629204+CISC@users.noreply.github.com Co-authored-by: Sigbjørn Skjæret 1629204+CISC@users.noreply.github.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6",
+    "published": "2026-06-28T14:20:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9831",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9831",
+    "description": "spec : add DFlash support ( #22105 ) spec: add DFlash v2 support dflash: support sliding window attention per layer_types docs: add dflash section Co-authored-by: Kashif Rasul kashif.rasul@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ub",
+    "published": "2026-06-28T13:40:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9830",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9830",
+    "description": "common : allow --offline in llama download ( #25091 ) Expose the existing --offline flag to llama download so a script can run it to check whether a model is already cached and ready to be served without touching the network. Also fix a latent use-after-free in the URL-task on_done callback: first_path is block-scoped and was captured by reference, but invoked after the block ends. Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm6",
+    "published": "2026-06-28T11:05:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9829",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9829",
+    "description": "logs : reduce v2 ( #25078 ) server : reduce logs cont : common cont : spec cont : CMN_ -> COM_ macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows",
+    "published": "2026-06-28T06:48:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9828",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9828",
+    "description": "opencl: flash attention improvement ( #25069 ) opencl: rework FA kernel for f16 and f32 opencl: flash-attention prefill prepass kernels flash_attn_kv_pad_f16 pads the tail KV tile to a BLOCK_N multiple flash_attn_mask_pad_f16 pads the matching mask tile flash_attn_blk_f16 classifies each KV tile per query block as fully masked / mixed / fully unmasked, so the main kernel can skip fully-masked tiles and the mask lookup for fully-unmasked ones opencl: FA kernels for q4_0 and q8_0 opencl: set_rows ",
+    "published": "2026-06-27T23:21:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9827",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9827",
+    "description": "[CUDA] Added a cudaMemcpy2DAsync fast path to ggml_cuda_cpy ( #25057 ) [CUDA] Added a cudaMemcpy2DAsync fast path to ggml_cuda_cpy Add a CUDA ggml_cpy fast path for same-type, same-shape strided copies that are just 2D pitched block copies. When tensors are not fully contiguous but each row is contiguous, it now uses cudaMemcpy2DAsync instead of the slow element-wise scalar copy kernel. This fixes the GDN recurrent snapshot update with -np 4, where rollback slots are separated by cache stride ga",
+    "published": "2026-06-27T12:50:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9826",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9826",
+    "description": "sycl : fix failed ut cases of norm ( #25044 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CU",
+    "published": "2026-06-27T11:02:21Z",
+    "source": "llama.cpp Releases"
+  }
+]
