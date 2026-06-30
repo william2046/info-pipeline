@@ -1,0 +1,142 @@
+[
+  {
+    "title": "300k-Year-Old Cave Site Explored in Northern Israel",
+    "link": "https://archaeology.org/news/2026/06/18/300000-year-old-cave-site-explored-in-northern-israel/",
+    "description": "Article URL: https://archaeology.org/news/2026/06/18/300000-year-old-cave-site-explored-in-northern-israel/ Comments URL: https://news.ycombinator.com/item?id=48728441 Points: 26 # Comments: 0",
+    "published": "Tue, 30 Jun 2026 04:18:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Exploring PDP-1 Lisp (1960)",
+    "link": "https://obsolescence.dev/pdp1-lisp-introduction.html",
+    "description": "Article URL: https://obsolescence.dev/pdp1-lisp-introduction.html Comments URL: https://news.ycombinator.com/item?id=48727323 Points: 36 # Comments: 16",
+    "published": "Tue, 30 Jun 2026 00:56:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Memory Safe Context Switching (longjmp, setjmp) in Fil-C",
+    "link": "https://fil-c.org/context_switches",
+    "description": "Article URL: https://fil-c.org/context_switches Comments URL: https://news.ycombinator.com/item?id=48727177 Points: 64 # Comments: 21",
+    "published": "Tue, 30 Jun 2026 00:38:19 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active",
+    "link": "https://longcat.chat/blog/longcat-2.0/",
+    "description": "Article URL: https://longcat.chat/blog/longcat-2.0/ Comments URL: https://news.ycombinator.com/item?id=48727116 Points: 61 # Comments: 17",
+    "published": "Tue, 30 Jun 2026 00:30:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
+    "link": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
+    "description": "Article URL: https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/ Comments URL: https://news.ycombinator.com/item?id=48726102 Points: 176 # Comments: 100",
+    "published": "Mon, 29 Jun 2026 22:21:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Scientists find molecular-level evidence for two structures in liquid water",
+    "link": "https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html",
+    "description": "https://www.nature.com/articles/s41567-026-03301-8 Comments URL: https://news.ycombinator.com/item?id=48726073 Points: 91 # Comments: 42",
+    "published": "Mon, 29 Jun 2026 22:18:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": ".self: A new top-level domain designed to support self-hosting",
+    "link": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+    "description": "Article URL: https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/ Comments URL: https://news.ycombinator.com/item?id=48724230 Points: 403 # Comments: 226",
+    "published": "Mon, 29 Jun 2026 19:49:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+    "link": "https://github.com/deepreinforce-ai/Ornith-1",
+    "description": "Article URL: https://github.com/deepreinforce-ai/Ornith-1 Comments URL: https://news.ycombinator.com/item?id=48722052 Points: 178 # Comments: 35",
+    "published": "Mon, 29 Jun 2026 17:16:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Qwen 3.6 27B is the sweet spot for local development",
+    "link": "https://quesma.com/blog/qwen-36-is-awesome/",
+    "description": "Article URL: https://quesma.com/blog/qwen-36-is-awesome/ Comments URL: https://news.ycombinator.com/item?id=48721903 Points: 731 # Comments: 548",
+    "published": "Mon, 29 Jun 2026 17:05:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "US Supreme Court rules geofence warrants require constitutional protections",
+    "link": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision",
+    "description": "Article URL: https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision Comments URL: https://news.ycombinator.com/item?id=48720924 Points: 493 # Comments: 227",
+    "published": "Mon, 29 Jun 2026 15:54:24 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A native graphical shell for SSH",
+    "link": "https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html",
+    "description": "Article URL: https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html Comments URL: https://news.ycombinator.com/item?id=48720758 Points: 267 # Comments: 138",
+    "published": "Mon, 29 Jun 2026 15:42:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter",
+    "link": "https://humphri.es/blog/WATaBoy/",
+    "description": "Article URL: https://humphri.es/blog/WATaBoy/ Comments URL: https://news.ycombinator.com/item?id=48720190 Points: 193 # Comments: 30",
+    "published": "Mon, 29 Jun 2026 15:02:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Linux for the Sega MegaDrive",
+    "link": "https://github.com/LinuxMD/linuxmd",
+    "description": "https://hackaday.com/2026/06/29/its-linux-on-a-sega-megadriv... Comments URL: https://news.ycombinator.com/item?id=48720186 Points: 39 # Comments: 6",
+    "published": "Mon, 29 Jun 2026 15:01:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Working With AI: A concrete example",
+    "link": "https://htmx.org/essays/working-with-ai/",
+    "description": "Article URL: https://htmx.org/essays/working-with-ai/ Comments URL: https://news.ycombinator.com/item?id=48720064 Points: 115 # Comments: 39",
+    "published": "Mon, 29 Jun 2026 14:53:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Rocketlab acquires Iridium",
+    "link": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
+    "description": "Article URL: https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully Comments URL: https://news.ycombinator.com/item?id=48719485 Points: 387 # Comments: 249",
+    "published": "Mon, 29 Jun 2026 14:09:24 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "What happens when you run a CUDA kernel?",
+    "link": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
+    "description": "Article URL: https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/ Comments URL: https://news.ycombinator.com/item?id=48718863 Points: 230 # Comments: 28",
+    "published": "Mon, 29 Jun 2026 13:11:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Sandia National Labs SA3000 8085 CPU",
+    "link": "https://www.cpushack.com/2026/06/03/sandia-national-labs-sa3000-8085-cpu/",
+    "description": "Article URL: https://www.cpushack.com/2026/06/03/sandia-national-labs-sa3000-8085-cpu/ Comments URL: https://news.ycombinator.com/item?id=48717287 Points: 168 # Comments: 43",
+    "published": "Mon, 29 Jun 2026 10:20:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "30-year sentence for transporting zines is a five-alarm fire for free speech",
+    "link": "https://theintercept.com/2026/06/26/daniel-sanchez-estrada-zines-prairieland-free-speech/",
+    "description": "Article URL: https://theintercept.com/2026/06/26/daniel-sanchez-estrada-zines-prairieland-free-speech/ Comments URL: https://news.ycombinator.com/item?id=48711981 Points: 446 # Comments: 264",
+    "published": "Sun, 28 Jun 2026 21:42:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ornith-1.0: Self-scaffolding LLMs for agentic coding",
+    "link": "https://deep-reinforce.com/ornith_1_0.html",
+    "description": "Article URL: https://deep-reinforce.com/ornith_1_0.html Comments URL: https://news.ycombinator.com/item?id=48709744 Points: 66 # Comments: 7",
+    "published": "Sun, 28 Jun 2026 17:58:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "One million passports leaked online",
+    "link": "https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal",
+    "description": "https://web.archive.org/web/20260617075233/https://www.theve... https://archive.ph/n2HnK Comments URL: https://news.ycombinator.com/item?id=48706389 Points: 194 # Comments: 110",
+    "published": "Sun, 28 Jun 2026 11:22:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

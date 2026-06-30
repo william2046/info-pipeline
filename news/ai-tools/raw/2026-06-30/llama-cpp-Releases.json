@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9843",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9843",
+    "description": "Revert \"sched : reintroduce less synchronizations during split compute ( #20793 )\" ( #25138 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows ",
+    "published": "2026-06-30T01:19:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9842",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9842",
+    "description": "common : dedup preset and cached model entries in /v1/models ( #25131 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU)",
+    "published": "2026-06-29T16:20:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9840",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9840",
+    "description": "DeepSeek V4 ( #24162 ) convert: add dsv4 conversion add basic setup add llm_graph_input_dsv4 add save-load state add sinkhorn eps - correction by @fairydreaming add rope fix cleanup dead code fix bugs support pro model: added by @fairydreaming remove redundant V cache Chat template remove debugging leftovers Add mechanism for inlining templates based on architecture s/deepseek-v4-flash/deepseek4/g s/deepseek-v4-flash/deepseek4/g continued enable graph reuse enable FA fix test llama archs rename ",
+    "published": "2026-06-29T10:27:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9839",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9839",
+    "description": "tools/ui: restore Tailwind scanning in ignored worktrees ( #24879 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Wind",
+    "published": "2026-06-29T09:47:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9838",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9838",
+    "description": "common : remove unused regex-partial ( #25118 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - ",
+    "published": "2026-06-29T07:36:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9837",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9837",
+    "description": "jinja, chat: add --reasoning-preserve flag ( #25105 ) jinja, chat: add --reasoning-preserve flag correct help message macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Wind",
+    "published": "2026-06-29T00:07:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9835",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9835",
+    "description": "ui: fix stop and reasoning skip in single-model mode ( #25084 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows ",
+    "published": "2026-06-28T19:38:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9833",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9833",
+    "description": "chat : implement minicpm5 parser ( #24889 ) Add minicpm5 tool call parser Refactor MiniCPM5 PEG parser per review feedback Fix jinja min/max API to match Jinja2 modify by review MiniCPM5: use autoparser for XML tool calls and fix grammar preserved-token triggers MiniCPM5: fix streaming tool-arg placeholder and remove alt XML markers skip min/max attribute tests in -py mode test-jinja: use real expected output for min/max attribute tests MiniCPM5: revert shared mapper and history fallbacks per re",
+    "published": "2026-06-28T15:34:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9832",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9832",
+    "description": "jinja: add --dump-prog for debugging ( #25086 ) jinja: add --dump-prog for debugging Update common/jinja/runtime.cpp Co-authored-by: Sigbjørn Skjæret 1629204+CISC@users.noreply.github.com Co-authored-by: Sigbjørn Skjæret 1629204+CISC@users.noreply.github.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6",
+    "published": "2026-06-28T14:20:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9831",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9831",
+    "description": "spec : add DFlash support ( #22105 ) spec: add DFlash v2 support dflash: support sliding window attention per layer_types docs: add dflash section Co-authored-by: Kashif Rasul kashif.rasul@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ub",
+    "published": "2026-06-28T13:40:04Z",
+    "source": "llama.cpp Releases"
+  }
+]
