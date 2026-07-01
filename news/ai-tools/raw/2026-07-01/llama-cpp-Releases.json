@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9852",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9852",
+    "description": "opencl: initial q1_0 support ( #25160 ) opencl: general q1_0 support opencl: add Adreno GEMM/GEMV for q1_0 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (",
+    "published": "2026-07-01T05:13:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9851",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9851",
+    "description": "cuda : prevent integer truncation and overflow errors when using KQ mask strides in flash_attn_mask_to_KV_max kernel ( #24945 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP",
+    "published": "2026-06-30T19:37:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9850",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9850",
+    "description": "model : register t_layer_inp for qwen3next ( #25141 ) Fix input assignment in layer processing loop Fix DFLASH for qwen-coder-next add line break Added tensor for attention normalization in Qwen3 model. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32",
+    "published": "2026-06-30T16:55:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9849",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9849",
+    "description": "common,server: handle bracketed IPv6 literals in URL authority ( #25140 ) common,server: handle bracketed IPv6 literals in URL authority Parse the [host]:port form (RFC 3986) and bracket IPv6 hosts when formatting a URL authority: listening log, proxy Host header, proxy log, client rebuild. The per-request remote_addr stays bare. common: restore unsupported scheme throw in url parser Address @ngxson review: keep the explicit reject in port resolution so the block stays self-contained. Non-http(s",
+    "published": "2026-06-30T14:58:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9848",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9848",
+    "description": "CUDA: fix get_rows_back for tables with more than 65535 rows (grid-y clamp + stride) ( #25103 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Window",
+    "published": "2026-06-30T14:11:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9847",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9847",
+    "description": "CUDA: fix Gemma E4B MTP FlashAttention ( #25148 ) CUDA: fix Gemma E4B MTP FlashAttention remove unused template declaration macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU",
+    "published": "2026-06-30T13:18:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9846",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9846",
+    "description": "vulkan: roll bk loop in matmul for asahi linux ( #24663 ) vulkan: roll bk loop in matmul for asahi linux vulkan: fix inline comment vulkan: revert BK-loop unroll change vulkan: edit spirv directly for asahi roll bk loop vulkan: remove trailing whitespace at the end of comments macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
+    "published": "2026-06-30T11:04:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9844",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9844",
+    "description": "ggml-webgpu: add support for NVFP4 ( #25143 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CU",
+    "published": "2026-06-30T08:58:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9843",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9843",
+    "description": "Revert \"sched : reintroduce less synchronizations during split compute ( #20793 )\" ( #25138 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows ",
+    "published": "2026-06-30T01:19:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9842",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9842",
+    "description": "common : dedup preset and cached model entries in /v1/models ( #25131 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU)",
+    "published": "2026-06-29T16:20:29Z",
+    "source": "llama.cpp Releases"
+  }
+]
