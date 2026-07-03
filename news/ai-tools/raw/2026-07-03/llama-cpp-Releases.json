@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9860",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9860",
+    "description": "llama : add llama_model_ftype_name() ( #25134 ) llama : add llama_model_ftype_name() Expose the model file type (quantization) name, e.g. \"Q8_0\" or \"Q4_K - Medium\", through a new public C API. The returned pointer is valid for the lifetime of the model and nullptr when the model is invalid or the file type is unknown. Signed-off-by: Adrien Gallouët angt@huggingface.co Export enum Signed-off-by: Adrien Gallouët angt@huggingface.co s/llama_model_ftype_name/llama_ftype_name/ Signed-off-by: Adrien G",
+    "published": "2026-07-02T16:29:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9859",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9859",
+    "description": "opencl: allow loading precompiled binary kernels from library ( #23042 ) opencl: allow loading binary kernel opencl: add libdl.h ggml-backend-dl is in ggml, which depends backend libs, thus ggml-opencl cannot depend on ggml-backend-dl add libdl.h to break cyclic dep opencl: allow loading bin kernel lib opencl: load gemm_moe_mxfp4_f32_ns from kernel lib if available opencl: load q8_0 gemm from kernel lib opencl: load q4_0 moe gemm from kernel lib opencl: load q4_1 moe gemm from kernel lib opencl:",
+    "published": "2026-07-01T18:11:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9858",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9858",
+    "description": "common : use hf primary split as model path ( #25194 ) Fixes #25181 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Wind",
+    "published": "2026-07-01T17:11:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9857",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9857",
+    "description": "hexagon: flash attention rework (optimizations, accuracy improvements, etc) ( #25085 ) hex-mm: fold mm quant tasks into the main matmul threads hex-mm: minor formatting fixes hex-mm: cleanup is_quant checks in dma dispatch hex-mm: fix dst-spad alignment hex-mm: move fp kernels in the hvx-mm-kernels header hex-mm: fuse with ADD hex-fa: factor out ukernels into separate headers and unify the rest hex-fa: move kernel-params compute into the host hex-fa: refactor vtcm alloc for consistency hex-fa: a",
+    "published": "2026-07-01T14:42:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9856",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9856",
+    "description": "CUDA: consistent use of restrict + PDL for FA ( #25185 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CU",
+    "published": "2026-07-01T11:11:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9855",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9855",
+    "description": "ggml-cpu: add AVX2 optimization for nvfp4 dot product and use UE4M3 LUT ( #23961 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (Open",
+    "published": "2026-07-01T10:17:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9853",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9853",
+    "description": "ui: Remove PWA navigate fallback to prevent caching API endpoint requ…",
+    "published": "2026-07-01T05:32:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9852",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9852",
+    "description": "opencl: initial q1_0 support ( #25160 ) opencl: general q1_0 support opencl: add Adreno GEMM/GEMV for q1_0 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (",
+    "published": "2026-07-01T05:13:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9851",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9851",
+    "description": "cuda : prevent integer truncation and overflow errors when using KQ mask strides in flash_attn_mask_to_KV_max kernel ( #24945 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP",
+    "published": "2026-06-30T19:37:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9850",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9850",
+    "description": "model : register t_layer_inp for qwen3next ( #25141 ) Fix input assignment in layer processing loop Fix DFLASH for qwen-coder-next add line break Added tensor for attention normalization in Qwen3 model. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32",
+    "published": "2026-06-30T16:55:47Z",
+    "source": "llama.cpp Releases"
+  }
+]
