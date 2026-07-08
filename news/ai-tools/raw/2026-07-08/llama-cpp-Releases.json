@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9909",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9909",
+    "description": "server : add timings and progress to /responses API stream ( #25348 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Wi",
+    "published": "2026-07-08T03:34:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9908",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9908",
+    "description": "server: enforce prompt cache RAM limit ( #25070 ) Before this commit, --cache-ram was not a hard limit: The cache always kept at least one entry, even if that entry exceeded the RAM/token limits. Old entries were only evicted for the RAM/token limits after saving the new one, which could cause the cache to temporarily exceed the RAM/token limits even if individual entries were below the limit. Now, ensure that the RAM limit is strict with these changes: Skip saving state to cache if by itself it",
+    "published": "2026-07-08T02:55:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9907",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9907",
+    "description": "common : add missing include in common.h ( #25220 ) Signed-off-by: zhangrunda zhangrunda1234@outlook.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CP",
+    "published": "2026-07-08T02:24:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9906",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9906",
+    "description": "ggml-hip : add -fno-finite-math-only alongside -ffast-math ( #25373 ) -ffast-math implies -ffinite-math-only under ROCm/clang 22, which disables INFINITY/NaN and triggers -Wnan-infinity-disabled (errors under -Werror in CI). Re-enable infinity handling without dropping the rest of fast-math. Fixes #25361 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
+    "published": "2026-07-08T01:51:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9905",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9905",
+    "description": "llama: fix quantized kv-cache for dsv4 ( #25202 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) ",
+    "published": "2026-07-08T00:25:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9904",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9904",
+    "description": "[SYCL] fix unsupported UT cases of CONT & CPY ( #25231 ) fix unsupported UT cases of CONT & CPY update ops.md rm unused head file macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x6",
+    "published": "2026-07-07T23:50:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9902",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9902",
+    "description": "[SYCL] support OP cross_entropy_loss, cross_entropy_loss_back ( #25236 ) support OP cross_entropy_loss, cross_entropy_loss_back correct format issue macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) ",
+    "published": "2026-07-07T17:17:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9901",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9901",
+    "description": "sycl : set K_QUANTS_PER_ITERATION to 1 on DMMV path ( #25063 ) sycl: add supported types to ggml_sycl_supports_reorder_dmmv The reordered feature is implemented in ggml_sycl_op_dequantize_mul_mat_vec, but gated by ggml_sycl_supports_reorder_dmmv. This commit fixes the gate. Signed-off-by: Todd Malsbary todd.malsbary@intel.com sycl: set K_QUANTS_PER_ITERATION=1 to improve utilization When combined with opening the reorder gate, this improves GPU utilization on B70, giving a significant boost to t",
+    "published": "2026-07-07T16:43:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9899",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9899",
+    "description": "sycl : enhance argsort to support all UT cases ( #25125 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (C",
+    "published": "2026-07-07T15:20:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9898",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9898",
+    "description": "sycl : use sycl func to fix AOT double type issue ( #25081 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64",
+    "published": "2026-07-07T14:20:40Z",
+    "source": "llama.cpp Releases"
+  }
+]

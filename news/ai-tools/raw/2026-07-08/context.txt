@@ -1,0 +1,399 @@
+[1] 来源: OpenAI Blog
+标题: Australian Payments Plus moves faster with ChatGPT and Codex
+链接: https://openai.com/index/australian-payments-plus
+摘要: See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.
+
+[2] 来源: OpenAI Blog
+标题: MUFG aims to become AI-native with OpenAI
+链接: https://openai.com/index/mufg
+摘要: MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.
+
+[3] 来源: OpenAI Blog
+标题: How ChatGPT adoption has expanded
+链接: https://openai.com/index/how-chatgpt-adoption-has-expanded
+摘要: New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.
+
+[4] 来源: OpenAI Blog
+标题: Core dump epidemiology: fixing an 18-year-old bug
+链接: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug
+摘要: OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.
+
+[5] 来源: OpenAI Blog
+标题: Introducing GeneBench-Pro
+链接: https://openai.com/index/introducing-genebench-pro
+摘要: Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.
+
+[6] 来源: OpenAI Blog
+标题: Inside Genebench-Pro
+链接: https://openai.com/index/genebench-pro/case-studies
+摘要: 
+
+[7] 来源: OpenAI Blog
+标题: HP Inc. launches Frontier strategic partnership with OpenAI
+链接: https://openai.com/index/hp-frontier-partnership
+摘要: HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.
+
+[8] 来源: OpenAI Blog
+标题: Previewing GPT-5.6 Sol: a next-generation model
+链接: https://openai.com/index/previewing-gpt-5-6-sol
+摘要: OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.
+
+[9] 来源: OpenAI Blog
+标题: How agents are transforming work
+链接: https://openai.com/index/how-agents-are-transforming-work
+摘要: A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.
+
+[10] 来源: OpenAI Blog
+标题: OpenAI and Broadcom unveil LLM-optimized inference chip
+链接: https://openai.com/index/openai-broadcom-jalapeno-inference-chip
+摘要: OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.
+
+[11] 来源: OpenAI Blog
+标题: Helping build shared standards for advanced AI
+链接: https://openai.com/index/helping-build-shared-standards-for-advanced-ai
+摘要: OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.
+
+[12] 来源: OpenAI Blog
+标题: How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery
+链接: https://openai.com/index/gpt-5-immunology-mystery
+摘要: GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.
+
+[13] 来源: OpenAI Blog
+标题: How Omio is building the future of conversational travel
+链接: https://openai.com/index/omio
+摘要: Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.
+
+[14] 来源: OpenAI Blog
+标题: Daybreak: Tools for securing every organization in the world
+链接: https://openai.com/index/daybreak-securing-the-world
+摘要: OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.
+
+[15] 来源: OpenAI Blog
+标题: Patch the Planet: a Daybreak initiative to support open source maintainers
+链接: https://openai.com/index/patch-the-planet
+摘要: OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.
+
+[16] 来源: OpenAI Blog
+标题: Codex-maxxing for long-running work
+链接: https://openai.com/index/codex-maxxing-long-running-work
+摘要: Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.
+
+[17] 来源: OpenAI Blog
+标题: Samsung Electronics brings ChatGPT and Codex to employees
+链接: https://openai.com/index/samsung-electronics-chatgpt-codex-deployment
+摘要: Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.
+
+[18] 来源: OpenAI Blog
+标题: New usage analytics and updated spend controls for enterprises
+链接: https://openai.com/index/chatgpt-enterprise-spend-controls
+摘要: OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.
+
+[19] 来源: OpenAI Blog
+标题: Improving health intelligence in ChatGPT
+链接: https://openai.com/index/improving-health-intelligence-in-chatgpt
+摘要: Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.
+
+[20] 来源: OpenAI Blog
+标题: Using AI to help physicians diagnose rare genetic diseases affecting children
+链接: https://openai.com/index/diagnose-rare-childhood-diseases
+摘要: Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.
+
+[21] 来源: OpenAI Blog
+标题: A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry
+链接: https://openai.com/index/ai-chemist-improves-reaction
+摘要: OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.
+
+[22] 来源: OpenAI Blog
+标题: Introducing LifeSciBench
+链接: https://openai.com/index/introducing-life-sci-bench
+摘要: Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.
+
+[23] 来源: OpenAI Blog
+标题: Predicting model behavior before release by simulating deployment
+链接: https://openai.com/index/deployment-simulation
+摘要: OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.
+
+[24] 来源: OpenAI Blog
+标题: Introducing the OpenAI Partner Network
+链接: https://openai.com/index/introducing-openai-partner-network
+摘要: OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.
+
+[25] 来源: OpenAI Blog
+标题: New OpenAI Academy courses for the next era of work
+链接: https://openai.com/index/academy-courses-applying-ai-at-work
+摘要: OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.
+
+[26] 来源: OpenAI Blog
+标题: How Preply combines AI and human tutors to personalize learning
+链接: https://openai.com/index/preply
+摘要: Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.
+
+[27] 来源: OpenAI Blog
+标题: OpenAI to acquire Ona
+链接: https://openai.com/index/openai-to-acquire-ona
+摘要: OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.
+
+[28] 来源: OpenAI Blog
+标题: How an astrophysicist uses Codex to help simulate black holes
+链接: https://openai.com/index/using-codex-to-simulate-black-holes
+摘要: Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.
+
+[29] 来源: OpenAI Blog
+标题: BBVA puts AI at the core of banking with OpenAI
+链接: https://openai.com/index/bbva
+摘要: Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.
+
+[30] 来源: OpenAI Blog
+标题: Supporting Europe’s work in ensuring a trustworthy AI ecosystem
+链接: https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem
+摘要: OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.
+
+[31] 来源: OpenAI Blog
+标题: Access OpenAI models and Codex through your Oracle cloud commitment
+链接: https://openai.com/index/openai-on-oracle-cloud
+摘要: Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.
+
+[32] 来源: OpenAI Blog
+标题: PRC-linked influence operations are targeting AI debates in the US
+链接: https://openai.com/index/prc-linked-influence-operations-ai-debates
+摘要: A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.
+
+[33] 来源: OpenAI Blog
+标题: From data to decisions: how LSEG is scaling trusted AI
+链接: https://openai.com/index/lseg
+摘要: See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.
+
+[34] 来源: OpenAI Blog
+标题: How engineers at Nextdoor use Codex to build without limits
+链接: https://openai.com/index/nextdoor
+摘要: How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.
+
+[35] 来源: OpenAI Blog
+标题: What Codex unlocks for Notion
+链接: https://openai.com/index/notion
+摘要: How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.
+
+[36] 来源: OpenAI Blog
+标题: Industrial policy for the Intelligence Age
+链接: https://openai.com/index/industrial-policy-for-the-intelligence-age
+摘要: Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.
+
+[37] 来源: OpenAI Blog
+标题: Confidential submission of draft S-1 to the SEC
+链接: https://openai.com/index/openai-submits-confidential-s-1
+摘要: OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.
+
+[38] 来源: OpenAI Blog
+标题: Built to benefit everyone: our plan
+链接: https://openai.com/index/built-to-benefit-everyone-our-plan
+摘要: A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.
+
+[39] 来源: OpenAI Blog
+标题: How Endava is redesigning software delivery around AI agents
+链接: https://openai.com/index/endava-frontiers
+摘要: Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.
+
+[40] 来源: OpenAI Blog
+标题: Dreaming: Better memory for a more helpful ChatGPT
+链接: https://openai.com/index/chatgpt-memory-dreaming
+摘要: ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.
+
+[41] 来源: OpenAI Blog
+标题: Biodefense in the Intelligence Age
+链接: https://openai.com/index/biodefense-in-the-intelligence-age
+摘要: An action plan for AI-powered biological resilience
+
+[42] 来源: OpenAI Blog
+标题: Introducing new capabilities to GPT-Rosalind
+链接: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind
+摘要: GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.
+
+[43] 来源: OpenAI Blog
+标题: How Wasmer used Codex to build a Node.js runtime for the edge
+链接: https://openai.com/index/wasmer
+摘要: See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.
+
+[44] 来源: OpenAI Blog
+标题: A blueprint for democratic governance of frontier AI
+链接: https://openai.com/index/frontier-safety-blueprint
+摘要: OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.
+
+[45] 来源: OpenAI Blog
+标题: OpenAI public policy agenda
+链接: https://openai.com/index/public-policy-agenda
+摘要: OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.
+
+[46] 来源: OpenAI Blog
+标题: Travelers deploys AI-powered claims countrywide with OpenAI
+链接: https://openai.com/index/travelers
+摘要: Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.
+
+[47] 来源: OpenAI Blog
+标题: Codex for every role, tool, and workflow
+链接: https://openai.com/index/codex-for-every-role-tool-workflow
+摘要: Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.
+
+[48] 来源: OpenAI Blog
+标题: Advancing youth safety and opportunity through global leadership
+链接: https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership
+摘要: OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.
+
+[49] 来源: OpenAI Blog
+标题: Codex is becoming a productivity tool for everyone
+链接: https://openai.com/index/codex-for-knowledge-work
+摘要: The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.
+
+[50] 来源: OpenAI Blog
+标题: Our views on AI policy and political advocacy
+链接: https://openai.com/index/our-views-on-ai-policy-and-political-advocacy
+摘要: Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.
+
+[51] 来源: OpenAI Blog
+标题: OpenAI frontier models and Codex are now available on AWS
+链接: https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws
+摘要: OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.
+
+[52] 来源: OpenAI Blog
+标题: Boston Children’s uses AI to unlock new diagnoses
+链接: https://openai.com/index/boston-childrens-hospital
+摘要: Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.
+
+[53] 来源: OpenAI Blog
+标题: How Braintrust turns customer requests into code with Codex
+链接: https://openai.com/index/braintrust
+摘要: How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.
+
+[54] 来源: OpenAI Blog
+标题: Strengthening societal resilience with Rosalind Biodefense
+链接: https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense
+摘要: OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.
+
+[55] 来源: OpenAI Blog
+标题: A shared playbook for trustworthy third party evaluations
+链接: https://openai.com/index/trustworthy-third-party-evaluations-foundations
+摘要: OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.
+
+[56] 来源: OpenAI Blog
+标题: How Endava builds an agentic organization with Codex
+链接: https://openai.com/index/endava
+摘要: Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.
+
+[57] 来源: OpenAI Blog
+标题: OpenAI’s Frontier Governance Framework
+链接: https://openai.com/index/openai-frontier-governance-framework
+摘要: Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.
+
+[58] 来源: OpenAI Blog
+标题: Cisco and OpenAI redefine enterprise engineering with Codex
+链接: https://openai.com/index/cisco
+摘要: Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.
+
+[59] 来源: OpenAI Blog
+标题: Building self-improving tax agents with Codex
+链接: https://openai.com/index/building-self-improving-tax-agents-with-codex
+摘要: See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.
+
+[60] 来源: OpenAI Blog
+标题: Warp’s big bet on building open source with GPT-5.5
+链接: https://openai.com/index/warp
+摘要: Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.
+
+[61] 来源: OpenAI Blog
+标题: Election information and safeguards in 2026
+链接: https://openai.com/index/election-safeguards-2026
+摘要: Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency
+
+[62] 来源: OpenAI Blog
+标题: OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership
+链接: https://openai.com/index/grupo-folha-grupo-uol-partnership
+摘要: OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.
+
+[63] 来源: OpenAI Blog
+标题: How Virgin Atlantic ships faster with Codex
+链接: https://openai.com/index/virgin-atlantic
+摘要: How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.
+
+[64] 来源: OpenAI Blog
+标题: OpenAI named a Leader in enterprise coding agents by Gartner
+链接: https://openai.com/index/gartner-2026-agentic-coding-leader
+摘要: OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.
+
+[65] 来源: OpenAI Blog
+标题: AdventHealth advances whole-person care with OpenAI
+链接: https://openai.com/index/adventhealth
+摘要: AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.
+
+[66] 来源: OpenAI Blog
+标题: How Ramp engineers accelerate code review with Codex
+链接: https://openai.com/index/ramp
+摘要: How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.
+
+[67] 来源: OpenAI Blog
+标题: An OpenAI model has disproved a central conjecture in discrete geometry
+链接: https://openai.com/index/model-disproves-discrete-geometry-conjecture
+摘要: An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.
+
+[68] 来源: OpenAI Blog
+标题: The next phase of OpenAI’s Education for Countries
+链接: https://openai.com/index/the-next-phase-of-education-for-countries
+摘要: OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.
+
+[69] 来源: OpenAI Blog
+标题: Introducing OpenAI for Singapore
+链接: https://openai.com/index/introducing-openai-for-singapore
+摘要: OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.
+
+[70] 来源: OpenAI Blog
+标题: Advancing content provenance for a safer, more transparent AI ecosystem
+链接: https://openai.com/index/advancing-content-provenance
+摘要: OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.
+
+[71] 来源: OpenAI Blog
+标题: OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments
+链接: https://openai.com/index/dell-codex-enterprise-partnership
+摘要: OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.
+
+[72] 来源: OpenAI Blog
+标题: OpenAI and Malta partner to bring ChatGPT Plus to all citizens
+链接: https://openai.com/index/malta-chatgpt-plus-partnership
+摘要: OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.
+
+[73] 来源: OpenAI Blog
+标题: A new personal finance experience in ChatGPT
+链接: https://openai.com/index/personal-finance-chatgpt
+摘要: Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.
+
+[74] 来源: OpenAI Blog
+标题: How sales teams use Codex
+链接: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex
+摘要: See how sales teams can use ChatGPT Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.
+
+[75] 来源: OpenAI Blog
+标题: Databricks brings GPT-5.5 to enterprise agent workflows
+链接: https://openai.com/index/databricks
+摘要: Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.
+
+[76] 来源: OpenAI Blog
+标题: How data science teams use Codex
+链接: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex
+摘要: See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.
+
+[77] 来源: OpenAI Blog
+标题: How business operations teams use Codex
+链接: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex
+摘要: See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.
+
+[78] 来源: OpenAI Blog
+标题: Sea's View on the Future of Agentic Software Development with Codex
+链接: https://openai.com/index/sea-david-chen
+摘要: Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.
+
+[79] 来源: OpenAI Blog
+标题: Work with Codex from anywhere
+链接: https://openai.com/index/work-with-codex-from-anywhere
+摘要: Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.
+
+[80] 来源: OpenAI Blog
+标题: Helping ChatGPT better recognize context in sensitive conversations
+链接: https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations
+摘要: Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.
