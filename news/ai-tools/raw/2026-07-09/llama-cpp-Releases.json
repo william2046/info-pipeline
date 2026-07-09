@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9934",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9934",
+    "description": "ggml-webgpu: tune subgroup split (d_split) in flash_attn_vec ( #25418 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) ",
+    "published": "2026-07-09T00:20:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9933",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9933",
+    "description": "opencl: Q6_K GEMM/GEMV fix for ne01 of weights that are not multiples of 128. ( #25464 ) opencl: fix garbled output for Q6_K weights with ne01 % 128 != 0 on Adreno Observed with granite-3.1-3b-a800m-instruct, whose vocab is an odd number. Route Q6_K dense mul_mat with ne01 % 128 != 0 off the noshuffle path: decode (ne1==1) uses the correct flat GEMV and the matching GEMM (ne1>1) falls back to CPU (the flat convert has no verified small-batch GEMM kernel for these shapes). All standard hidden/FFN",
+    "published": "2026-07-08T23:24:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9932",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9932",
+    "description": "vulkan: disable FA mask_opt on GCN to improve performance ( #24362 ) vulkan: disable FA mask_opt on GCN to improve performance reenable mask opt over attention head size 256 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andr",
+    "published": "2026-07-08T21:47:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9931",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9931",
+    "description": "opencl: ragged-tile MoE prefill FP16 GEMM optimization (skip padded expert tiles) ( #25433 ) opencl: ragged-tile MoE prefill GEMM (skip padded expert tiles) The MoE prefill GEMM groups tokens into TILESIZE_N=32 per-expert tiles; at low tokens-per-expert most tiles are mostly padding. When a tile's upper 16 slots are all padding (router index 0xFFFFFFFF), skip the second dotx16_reduce8 half. Numerically identical (skipped lanes are padding). Applied to all eight *_f32_ns MoE GEMMs; default on, op",
+    "published": "2026-07-08T21:13:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9930",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9930",
+    "description": "llama-batch: fix allowed decreasing pos in a seq ( #25449 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 ",
+    "published": "2026-07-08T20:38:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9929",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9929",
+    "description": "vulkan: for small AMD GPUs, reduce submission threshold based on CU count ( #25240 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (Op",
+    "published": "2026-07-08T19:55:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9928",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9928",
+    "description": "hexagon: new vtcm layouts and improved pipelines for MUL_MAT, MUL_MAT_ID and FLASH_ATTN_EXT ( #25425 ) hex-fa: refactor kernel param compute to use common layout builder hmx: add explicit compiler barriers to make hmx funcs more robust hex-vtcm: more generic vtcm layout builder for mm and flash-attn kernels hex-hmx: unroll inner kernels hex-hmx: use inline asm instead of intrinsics to avoid compiler issues hex-hmx: define inline asm macros and simplify code hex-hmx: replace leftover intrinsics h",
+    "published": "2026-07-08T19:17:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9927",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9927",
+    "description": "cli : move to HTTP-based implementation ( #24948 ) cli: move to HTTP-based implementation wip working remote server ok cli support router mode Co-authored-by: Piotr Wilkin ilintar@gmail.com case: router with only one model Apply suggestions from code review Co-authored-by: Piotr Wilkin (ilintar) piotr.wilkin@syndatis.com remove outdated comment use destructor instead add ftype cli-view --> cli-ui pimpl no more json in header nits fixes also show model aliases Co-authored-by: Piotr Wilkin ilintar",
+    "published": "2026-07-08T18:30:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9925",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9925",
+    "description": "cuda : add support for f16->f16 GGML_OP_SET_ROWS ( #25367 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 ",
+    "published": "2026-07-08T16:59:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9924",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9924",
+    "description": "llama: refactor fused ops ( #24646 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 D",
+    "published": "2026-07-08T16:14:33Z",
+    "source": "llama.cpp Releases"
+  }
+]
