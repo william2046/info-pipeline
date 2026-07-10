@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9947",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9947",
+    "description": "cli: add --output option ( #25484 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DL",
+    "published": "2026-07-10T04:48:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9946",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9946",
+    "description": "hexagon: tiling, tracing and optimizations for unary ops ( #25474 ) hexagon: tile wide rows in pointwise unary ops to avoid VTCM overflow unary: reject permuted tensors for now (not used by models) hex-unary: replace divs with fastdiv hex-unary: add vtcm layout and host computed kernel params hex-unary: move fastdiv init into kernel params hex-unary: add specialized thread functions to improve generated code hex-unary: tracing instrumentation for unary ops hex-unary: factor out hvx kernels, stre",
+    "published": "2026-07-09T22:22:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9945",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9945",
+    "description": "server : move chat-template thinking probe inside the init try/catch ( #24093 ) A model whose chat template parses at init but fails parser generation at apply time (e.g. uses {% call %}) throws std::invalid_argument from common_chat_templates_support_enable_thinking(), which ran outside the try/catch guarding common_chat_templates_init(). The throw was uncaught and llama-cli aborted (SIGABRT) instead of failing to load. Moved the probe inside that try/catch so an apply-time error fails load the",
+    "published": "2026-07-09T21:48:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9941",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9941",
+    "description": "Only index by compile times + always multiply/add ( #25445 ) The first one avoids relying on compile to optimize local memory away, and the second is cheaper than issuing control flow statements macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu",
+    "published": "2026-07-09T20:19:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9940",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9940",
+    "description": "llama-bench : init params.offline ( #25476 ) Signed-off-by: Adrien Gallouët angt@huggingface.co macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Window",
+    "published": "2026-07-09T11:39:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9939",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9939",
+    "description": "metal : add CONV_2D_DW (depthwise convolution) support ( #21565 ) metal : add CONV_2D_DW (depthwise 2D convolution) support test : add perf cases for CONV_2D_DW metal : use 3D dispatch for CONV_2D_DW kernel metal : add channel-tiled CONV_2D_DW kernel for non-contiguous layouts metal : simplify CONV_2D_DW dispatch and trim comments metal : merge duplicate CONV_2D_DW pipeline getters tests : add F16 CONV2D_DW tests cpu : fix F16 kernel support for CONV_2D_DW tests : remove commented-out CONV_2D_DW",
+    "published": "2026-07-09T11:01:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9938",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9938",
+    "description": "ggml-hip: enable -funsafe-math-optimizations ( #24668 ) CUDA is compiled with fast math and AMD/HIP is not — this flag lets AMD use fast math too. We can't use -ffast-math: it implies -ffinite-math-only, which won't compile (ggml uses INFINITY for masking) and produces NaNs. -funsafe-math-optimizations gives the speedup without the NaN problems. Co-authored-by: Mark Caldwell mark@cloudhands.ai macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Int",
+    "published": "2026-07-09T10:10:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9937",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9937",
+    "description": "cuda: align snake fusion matcher with the other backends ( #25460 ) cuda: fix snake fusion type predicate, a and inv_b are F32 The matcher required a->type == x->type while launch_snake reads both as const float *, matching the CPU and Metal contract where a and inv_b stay F32. F16/BF16 chains never fused and fell back to the naive path, and a hypothetical all F16 chain would have read F16 bits as float. Aligns the predicate and the comment with ggml-cpu.c cuda: reject snake fusion on non-contig",
+    "published": "2026-07-09T08:31:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9936",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9936",
+    "description": "server : respect min-step when splitting prompt batches ( #25420 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windo",
+    "published": "2026-07-09T07:11:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9935",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9935",
+    "description": "hexagon: add VISION RoPE support ( #25216 ) hexagon: add VISION RoPE support hexagon: support RoPE on strided half-dim views for all modes hex-rope: decouple src0 DMA copy size from row stride hex-rope: support non-contiguous dst for RoPE hex-rope: fix dst spad pitch for non-contiguous dst macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan)",
+    "published": "2026-07-09T05:33:37Z",
+    "source": "llama.cpp Releases"
+  }
+]

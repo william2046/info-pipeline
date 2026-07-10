@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Ben Bernanke Joins Anthropic Oversight Trust",
+    "link": "https://www.anthropic.com/news/ben-bernanke",
+    "description": "Article URL: https://www.anthropic.com/news/ben-bernanke Comments URL: https://news.ycombinator.com/item?id=48855112 Points: 48 # Comments: 26",
+    "published": "Fri, 10 Jul 2026 02:39:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Build your own vulnerability harness",
+    "link": "https://blog.cloudflare.com/build-your-own-vulnerability-harness/",
+    "description": "Article URL: https://blog.cloudflare.com/build-your-own-vulnerability-harness/ Comments URL: https://news.ycombinator.com/item?id=48854681 Points: 23 # Comments: 10",
+    "published": "Fri, 10 Jul 2026 01:28:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Focus",
+    "link": "https://boz.com/articles/focus",
+    "description": "Article URL: https://boz.com/articles/focus Comments URL: https://news.ycombinator.com/item?id=48854363 Points: 84 # Comments: 44",
+    "published": "Fri, 10 Jul 2026 00:40:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Study: \"Mommy, do you love your phone more than me?\"",
+    "link": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1766665/full",
+    "description": "Article URL: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1766665/full Comments URL: https://news.ycombinator.com/item?id=48854247 Points: 38 # Comments: 11",
+    "published": "Fri, 10 Jul 2026 00:20:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Why American ambulance rides are so expensive",
+    "link": "https://davidoks.blog/p/why-american-ambulance-rides-are",
+    "description": "Article URL: https://davidoks.blog/p/why-american-ambulance-rides-are Comments URL: https://news.ycombinator.com/item?id=48853091 Points: 138 # Comments: 178",
+    "published": "Thu, 09 Jul 2026 22:15:56 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Building a real-time AI tutor for 5-year-olds",
+    "link": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
+    "description": "Hey HN! We've spent the good part of this past year building an AI tutor that teaches kids ages 4-9 reading, math, ESL and more. Getting an AI tutor to effectively teach a child turns out to be a really hard technical challenge, this took getting the underlying architecture right. Our tutor steers the UX in real-time and makes complex decisions on the fly. Doing both at conversation speed required us to replace the standard tool-use loop. We built our own tutor harness that utilizes a streaming ",
+    "published": "Thu, 09 Jul 2026 20:51:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Interview with Mitchell Hashimoto about Ghostty and Zig",
+    "link": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+    "description": "Article URL: https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/ Comments URL: https://news.ycombinator.com/item?id=48849292 Points: 168 # Comments: 72",
+    "published": "Thu, 09 Jul 2026 17:17:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "GPT-5.6",
+    "link": "https://openai.com/index/gpt-5-6/",
+    "description": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf https://developers.openai.com/api/docs/guides/latest-model https://x.com/levie/status/2075287443411222628 , https://xcancel.com/levie/status/2075287443411222628 Comments URL: https://news.ycombinator.com/item?id=48849066 Points: 1141 # Comments: 817",
+    "published": "Thu, 09 Jul 2026 17:04:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Wildcard (YC W25) Is Hiring a Founding Engineer",
+    "link": "https://www.ycombinator.com/companies/wildcard/jobs/ZSLVaaU-founding-engineer",
+    "description": "Article URL: https://www.ycombinator.com/companies/wildcard/jobs/ZSLVaaU-founding-engineer Comments URL: https://news.ycombinator.com/item?id=48849011 Points: 0 # Comments: 0",
+    "published": "Thu, 09 Jul 2026 17:00:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Context.dev (YC S26) – API to get structured data from any website",
+    "link": "https://www.context.dev",
+    "description": "Hi Hacker News, I’m Yahia. I built Context.dev ( https://www.context.dev/ ) to make it really easy to integrate web data into your products and agents. Here’s a demo video: https://www.tella.tv/video/build-faster-with-context-dev-api... Since it’s an API, here are the docs: https://docs.context.dev/quickstart . You can send us a URL and get back clean Markdown, rendered HTML, screenshots, extracted images, etc.. You can also send us a domain and get company or brand context: name, description, l",
+    "published": "Thu, 09 Jul 2026 15:28:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Hy3",
+    "link": "https://hy.tencent.com/research/hy3",
+    "description": "Article URL: https://hy.tencent.com/research/hy3 Comments URL: https://news.ycombinator.com/item?id=48847552 Points: 415 # Comments: 89",
+    "published": "Thu, 09 Jul 2026 15:27:48 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A possible future for Damn Interesting",
+    "link": "https://www.damninteresting.com/a-possible-future/",
+    "description": "Article URL: https://www.damninteresting.com/a-possible-future/ Comments URL: https://news.ycombinator.com/item?id=48847511 Points: 256 # Comments: 33",
+    "published": "Thu, 09 Jul 2026 15:25:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "TLS certificates for internal services done right",
+    "link": "https://tuxnet.dev/posts/tls-for-internal-services/",
+    "description": "Article URL: https://tuxnet.dev/posts/tls-for-internal-services/ Comments URL: https://news.ycombinator.com/item?id=48846995 Points: 140 # Comments: 99",
+    "published": "Thu, 09 Jul 2026 14:57:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "No leap second will be introduced at the end of December 2026",
+    "link": "https://datacenter.iers.org/data/latestVersion/bulletinC.txt",
+    "description": "Article URL: https://datacenter.iers.org/data/latestVersion/bulletinC.txt Comments URL: https://news.ycombinator.com/item?id=48846281 Points: 258 # Comments: 195",
+    "published": "Thu, 09 Jul 2026 14:16:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Muse Spark 1.1",
+    "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+    "description": "https://ai.meta.com/static-resource/muse-spark-1-1-evaluatio... [pdf] https://developer.meta.com/ai/resources/blog/build-with-muse... https://www.bloomberg.com/news/articles/2026-07-09/meta-star... , https://archive.is/3ccKa Comments URL: https://news.ycombinator.com/item?id=48846184 Points: 339 # Comments: 176",
+    "published": "Thu, 09 Jul 2026 14:10:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The glass backbone: Why the Army's logistics will break in the next war",
+    "link": "https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/",
+    "description": "Article URL: https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/ Comments URL: https://news.ycombinator.com/item?id=48845442 Points: 326 # Comments: 414",
+    "published": "Thu, 09 Jul 2026 13:24:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A road to Lisp: Why Lisp",
+    "link": "https://scotto.me/blog/2026-07-09-why-lisp/",
+    "description": "Article URL: https://scotto.me/blog/2026-07-09-why-lisp/ Comments URL: https://news.ycombinator.com/item?id=48845209 Points: 136 # Comments: 130",
+    "published": "Thu, 09 Jul 2026 13:06:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: 18 Words",
+    "link": "https://18words.com/",
+    "description": "Article URL: https://18words.com/ Comments URL: https://news.ycombinator.com/item?id=48845049 Points: 886 # Comments: 297",
+    "published": "Thu, 09 Jul 2026 12:48:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "TrueBiz (YC S22) – Senior Software Engineer – Remote (US) – Full-Time",
+    "link": "https://news.ycombinator.com/item?id=48844517",
+    "description": "Comments URL: https://news.ycombinator.com/item?id=48844517 Points: 0 # Comments: 0",
+    "published": "Thu, 09 Jul 2026 12:01:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "EU Parliament greenlights Chat Control 1.0",
+    "link": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
+    "description": "Article URL: https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/ Comments URL: https://news.ycombinator.com/item?id=48843923 Points: 1088 # Comments: 532",
+    "published": "Thu, 09 Jul 2026 11:03:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
