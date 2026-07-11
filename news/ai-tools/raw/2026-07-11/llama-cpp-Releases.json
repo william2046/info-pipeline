@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9957",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9957",
+    "description": "server: improve tools, remove apply_diff ( #25498 ) server: improve tools, remove apply_diff improve edit tool add tools_io abstraction add tools_io_basic fix build move utils to class member add const macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32)",
+    "published": "2026-07-10T20:19:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9956",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9956",
+    "description": "cli: fix crash on wrong server base url ( #25497 ) llama-cli: fix crash on wrong server base url by catching exceptions and graceful exit review: leaner catch group: json error and standard exception macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) U",
+    "published": "2026-07-10T19:48:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9952",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9952",
+    "description": "llama : make all KQ masks f16 if FA is used, remove zero attention bias, remove raw_k repeats in DeepSeek V4 ( #25370 ) llama : make all KQ masks (except the lightning indexer one) f16 if FA is used and remove zero attention bias in DeepSeek V4 llama : remove dead code that repeats unified raw_k cache for each stream in DeepSeek V4 - no longer needed as raw_k is always non-unified. Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (a",
+    "published": "2026-07-10T17:20:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9951",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9951",
+    "description": "ggml-et: Initial ET backend ( #24179 ) ggml-et: Add performance logging ggml-et: Quants helpers ggml-et: Add MUL_MAT kernel ggml-et: Add ROPE kernel ggml-et: Add RMS_NORM kernel ggml-et: Add GLU kernel ggml-et: Add SOFT_MAX kernel ggml-et: Add GET_ROWS kernel ggml-et: Add CONT kernel ggml-et: Add SET_ROWS kernel ggml-et: Add MUL_MAT_ID kernel ggml-et: Build et kernels as part of ggml ggml-et: Embed kernels with fs fallback ggml-et: Build fixes ggml-et: Add MUL_MAT F32xF32 op ggml_et: Add MUL_MAT",
+    "published": "2026-07-10T16:16:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9950",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9950",
+    "description": "llama-batch: add unit test ( #25471 ) llama-batch: add unit test fix win32 builds add not implemented assertion in unused methods remove unreachable code macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (",
+    "published": "2026-07-10T14:17:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9949",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9949",
+    "description": "opencl: cluster-parallel decode FA for Adreno ( #25473 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CU",
+    "published": "2026-07-10T10:39:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9948",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9948",
+    "description": "ggml : process data in smaller chunks in CUDA ggml_top_k() and ggml_argsort() to reduce temporary buffers memory usage ( #24776 ) ggml : process data in smaller chunks in CUDA ggml_top_k() implementation to reduce temporary buffers memory usage ggml : allocate tmp_dst only only once before the loop chore : whitespaces Co-authored-by: Georgi Gerganov ggerganov@gmail.com ggml : use chunked processing in both CUDA CUB top-k and argsort implementations chore : separate argsort_f32_i32_cuda_bitonic()",
+    "published": "2026-07-10T07:45:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9947",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9947",
+    "description": "cli: add --output option ( #25484 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DL",
+    "published": "2026-07-10T04:48:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9946",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9946",
+    "description": "hexagon: tiling, tracing and optimizations for unary ops ( #25474 ) hexagon: tile wide rows in pointwise unary ops to avoid VTCM overflow unary: reject permuted tensors for now (not used by models) hex-unary: replace divs with fastdiv hex-unary: add vtcm layout and host computed kernel params hex-unary: move fastdiv init into kernel params hex-unary: add specialized thread functions to improve generated code hex-unary: tracing instrumentation for unary ops hex-unary: factor out hvx kernels, stre",
+    "published": "2026-07-09T22:22:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9945",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9945",
+    "description": "server : move chat-template thinking probe inside the init try/catch ( #24093 ) A model whose chat template parses at init but fails parser generation at apply time (e.g. uses {% call %}) throws std::invalid_argument from common_chat_templates_support_enable_thinking(), which ran outside the try/catch guarding common_chat_templates_init(). The throw was uncaught and llama-cli aborted (SIGABRT) instead of failing to load. Moved the probe inside that try/catch so an apply-time error fails load the",
+    "published": "2026-07-09T21:48:58Z",
+    "source": "llama.cpp Releases"
+  }
+]
