@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.32.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.0-rc0",
+    "description": "What's Changed create: select the qwen3.5 parser and renderer for Qwen3.5/Next by @jessegross in #17078 launch: warn before old agent models by @ParthSareen in #17063 cmd: agent UI by @ParthSareen in #17017 Full Changelog : v0.31.2...v0.32.0-rc0",
+    "published": "2026-07-11T01:03:46Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.31.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.31.2",
+    "description": "What's Changed Enabled flash attention on older NVIDIA GPUs (compute capability 6.x) iGPU can now offload vision models with padding to fit available memory Fixed structured output for thinking models when thinking is disabled Hardened GGUF model creation ollama launch for Claude Code now disables telemetry by default Fixed loading models on paths with non-UTF-8 characters Updated the MLX and llama.cpp engines New Contributors @kevinpark1217 made their first contribution in #16949 Full Changelog",
+    "published": "2026-07-08T20:44:32Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.31.2-rc2: llm: allow iGPU mmproj offload with fit padding (#16996)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2",
+    "description": "llm: allow iGPU mmproj offload with fit padding llama.cpp's fit pass sizes text-model placement before the multimodal projector is loaded. Ollama had been avoiding that risk on non-Metal iGPUs by disabling projector offload entirely, which forces CLIP onto CPU on GB10 and Strix Halo even when the projector has ample memory available. Let integrated GPUs use the same projector-memory check as other GPUs. When projector offload is enabled, add the estimated projector memory plus the existing 1 GiB",
+    "published": "2026-07-07T22:28:42Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.31.2-rc1: create: harden GGUF create flows (#17062)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1",
+    "description": "create: harden GGUF create flows lint",
+    "published": "2026-07-06T23:20:20Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.31.2-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc0",
+    "description": "mlx: update to de7b4ed9 ( #17056 )",
+    "published": "2026-07-06T20:31:22Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.31.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.31.1",
+    "description": "Faster Gemma 4 on Apple Silicon Gemma 4 is now significantly faster in Ollama on Apple Silicon, generating tokens nearly 90% faster on average across a coding-agent benchmark by leveraging multi-token prediction (MTP). Ollama auto-tunes how many tokens to draft as it runs, so the speedup is on by default, requires no configuration, and does not change the model's output. What's Changed Tightened Gemma 4 MoE model loading in the MLX engine Updated the MLX engine to the latest version, including a",
+    "published": "2026-07-01T00:25:40Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.31.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.31.0",
+    "description": "launch: check for min version for hermes desktop ( #16912 )",
+    "published": "2026-06-29T18:50:11Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.12",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.12-rc0",
+    "description": "What's Changed tools: ignore braces inside JSON strings when detecting tool call end by @aditya-786 in #16937 mlx: bump dependency by @dhiltgen in #16935 llama.cpp update by @dhiltgen in #16960 New Contributors @aditya-786 made their first contribution in #16937 Full Changelog : v0.30.11...v0.30.12-rc0",
+    "published": "2026-06-29T17:45:08Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.11",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.11",
+    "description": "What's Changed launch: add thinking capability detection to opencode by @hoyyeva in #15434 launch: auto-install Claude Code by @hoyyeva in #16802 launch: auto-install opencode when missing by @hoyyeva in #16806 discover: fix inverted iGPU/dGPU Vulkan classification on Windows hybrid graphics by @Sahil170595 in #16669 mlxrunner: unify and tune speculative decoding by @jessegross in #16791 launch/codex: detect model drift when Codex App UI switches by @BruceMacD in #16864 llama: add sm_86 architec",
+    "published": "2026-06-26T19:46:28Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.30.11-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc1",
+    "description": "parser/renderer: add Ornith 9B renderer/parser support ( #16920 )",
+    "published": "2026-06-26T06:18:47Z",
+    "source": "Ollama Releases"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9968",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9968",
+    "description": "opencl: add int8 dp4 dense and MoE prefill optimization for Adreno GPUs ( #25537 ) opencl: add int8 dp4 dense and moe GEMM opencl: refactor Co-authored-by: Li He lih@qti.qualcomm.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL F",
+    "published": "2026-07-12T01:14:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9967",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9967",
+    "description": "server: accept null sampling params ( #25538 ) server: accept null sampling params Extend the schema validation to treat a null value as absent, so clients can send null on nullable params (temperature, top_p, ...) to request the server default. This matches the OpenAI spec and the json_value convention used elsewhere. Add has_field() to skip null in the field eval guards. has_field -> has_value​ macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS ",
+    "published": "2026-07-12T00:44:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9966",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9966",
+    "description": "llama : make tensor-split regex patterns static ( #24710 ) llama_meta_device_get_split_state() recompiled 29 std::regex on every call. In -sm tensor mode the callback runs once per tensor per token, so this dominated the decode thread in profiling. Mark them static const so they are compiled once. Kept inside the function (local statics are thread-safe since C++11). Patterns are literal and stateless, so behavior is unchanged. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kl",
+    "published": "2026-07-11T18:56:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9965",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9965",
+    "description": "hexagon: improve ARGSORT performance for small tensors ( #25512 ) hex-sort: add efficient bitomic sort in hvx regs up to 1024 elements hex-sort: fix inverted vrors hex-sort: specialize sort functions for the common cases hex-sort: add tracing and local context macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
+    "published": "2026-07-11T18:12:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9964",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9964",
+    "description": "arg: prevent duplicate spec model downloads ( #25527 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA",
+    "published": "2026-07-11T10:54:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9963",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9963",
+    "description": "mtmd: deepseek-ocr v1 multi-tile ( #24717 ) mtmd: deepseek-ocr v1 multi-tile dynamic resolution + unified image-preprocessors for both versions (ds-ocr v1 and v2) remove hacky API fuse row into a long image almost working adapt to new preprocessor api rm debugging printf improve mtmd: dsocr-tiles fixes ( #25481 ) ds-ocr img-preproc fuse_row tile-drop fix for multi rows and columns images mtmd drop the duplicate redundant img_end deepseekocr graph simplify CLS broadcast cleanup test-deepseek-ocr:",
+    "published": "2026-07-11T08:40:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9960",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9960",
+    "description": "server: remove loading.html ( #25500 ) server: remove loading.html apply ui changes macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (Ope",
+    "published": "2026-07-11T08:03:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9959",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9959",
+    "description": "sync : ggml macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13)",
+    "published": "2026-07-11T06:46:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9957",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9957",
+    "description": "server: improve tools, remove apply_diff ( #25498 ) server: improve tools, remove apply_diff improve edit tool add tools_io abstraction add tools_io_basic fix build move utils to class member add const macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32)",
+    "published": "2026-07-10T20:19:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9956",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9956",
+    "description": "cli: fix crash on wrong server base url ( #25497 ) llama-cli: fix crash on wrong server base url by catching exceptions and graceful exit review: leaner catch group: json error and standard exception macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) U",
+    "published": "2026-07-10T19:48:07Z",
+    "source": "llama.cpp Releases"
+  }
+]
