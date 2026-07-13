@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b9982",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9982",
+    "description": "server: honour per-request reasoning_budget_tokens in chat completions ( #23116 ) server: honour per-request reasoning_budget_tokens in chat completions The reasoning-budget block in oaicompat_chat_params_parse read only the server-level default (opt.reasoning_budget, typically -1) and the Anthropic-style alias thinking_budget_tokens, but never the canonical reasoning_budget_tokens field from the request body. Because the key was then written into llama_params before the generic body-copy loop r",
+    "published": "2026-07-13T01:30:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9981",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9981",
+    "description": "vendor : update cpp-httplib to 0.50.1 ( #25576 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) -",
+    "published": "2026-07-13T00:55:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9980",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9980",
+    "description": "server: Don't consider models with --no-mmproj-auto as multimodal ( #25590 ) If mmproj is explicitly disabled via the model preset or command-line parameters then the model won't be able to handle image/audio inputs and this shouldn't be declared as supported input modality on the /v1/models endpoint. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu ",
+    "published": "2026-07-13T00:08:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9979",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9979",
+    "description": "mtmd: fix silent prompt truncation on embedded NUL ( #25548 ) mtmd: fix silent prompt truncation on embedded NUL mtmd_input_text carried the prompt as a bare const char* with no length, so a NUL byte in message content cut the prompt at the tokenizer boundary and dropped every later message plus the assistant marker, with no log. Add an explicit text_len and thread it through, matching llama_tokenize and the text only path. cleanup Co-authored-by: Xuan Son Nguyen son@huggingface.co macOS/iOS: ma",
+    "published": "2026-07-12T23:38:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9978",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9978",
+    "description": "server : evict checkpoints within min-step of each other ( #25472 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Wind",
+    "published": "2026-07-12T21:34:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9977",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9977",
+    "description": "server : fix image blocks in tool_result being dropped during Anthropic OpenAI conversion ( #22536 ) server : fix image blocks in tool_result being dropped during Anthropic→OpenAI conversion server_chat_convert_anthropic_to_oai() silently discarded image blocks inside Anthropic tool_result content. This broke multimodal tool outputs (e.g. a tool that returns an image) because the model never received the image. When tool_result contains image blocks, convert them to OpenAI multimodal content par",
+    "published": "2026-07-12T16:19:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9976",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9976",
+    "description": "Fix conditional to display 'LLAMA_SPLIT_MODE_TENSOR not implemented for architecture' message ( #24926 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CP",
+    "published": "2026-07-12T15:24:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9975",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9975",
+    "description": "gguf : reject empty metadata keys ( #24917 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUD",
+    "published": "2026-07-12T14:50:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9974",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9974",
+    "description": "cuda: Don't crash when querying memory on device with no free memory. ( #25157 ) If a Cuda device has no or limited available memory, the actual call to cudaMemGetInfo() itself can cause a fatal crash due to a cuda out of memory error (there is not enough memory to actually query memory) This causes an issue because we query memory for all devices at startup even if the user isn't trying to use the device for inference. Fix this by making the error non-fatal and assigning zero total/free memory ",
+    "published": "2026-07-12T14:19:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b9973",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b9973",
+    "description": "DeepseekV4: clear cache only for seq rather than full ( #25521 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows",
+    "published": "2026-07-12T13:41:50Z",
+    "source": "llama.cpp Releases"
+  }
+]
