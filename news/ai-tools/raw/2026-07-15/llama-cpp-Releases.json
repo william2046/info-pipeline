@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10015",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10015",
+    "description": "opencl: do not use clCreateBufferWithProperties when targeting CL 2.x ( #25673 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL",
+    "published": "2026-07-15T03:26:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10012",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10012",
+    "description": "hexagon: fix hmx-queue signal enum-narrowing problem ( #25677 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows ",
+    "published": "2026-07-14T21:36:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10011",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10011",
+    "description": "server : refactor prompt cache state ownership ( #25649 ) server : clear checkpoints upon prompt clear server : move the prompt state data to the server_prompt_cache Assisted-by: pi:llama.cpp/Qwen3.6-27B server : handle batched slot being cleared macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2)",
+    "published": "2026-07-14T20:57:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10010",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10010",
+    "description": "server: add --cors-* options ( #25655 ) server: add --cors-* options add special \"localhost\" value add tests fix test add link to PR macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows",
+    "published": "2026-07-14T20:27:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10007",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10007",
+    "description": "opencl: fix a dp4a bug for devices where cl_khr_integer_dot_product is unavailable ( #25639 ) opencl: do not fail backend init on devices without cl_khr_integer_dot_product opencl: do not call dp4 kernels when dp is unavailable Co-authored-by: Li He lih@qti.qualcomm.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulka",
+    "published": "2026-07-14T19:44:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10005",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10005",
+    "description": "DeepseekV4: fix seq_rm ( #25588 ) DeepseekV4: fix seq_rm implement proper seq_cp create actual update context macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm6",
+    "published": "2026-07-14T18:59:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10004",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10004",
+    "description": "vulkan/cpu: Support f16 as SET_ROWS src. ( #25432 ) vulkan/cpu: Support f16 as SET_ROWS src. This adds full support for f16 SET_ROWS (equivalent to f32) to vulkan and CPU backends, and adds more backend tests. Set DenormPreserve 16 when supported, to try to fix failures on Intel tune error threshold update metal supports_op macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubu",
+    "published": "2026-07-14T18:18:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10003",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10003",
+    "description": "tokenize : align usage by using common args ( #25516 ) Migrate the tokenize tool to common_params_parse, replacing its hand-rolled argv parsing, Windows UTF-8 handling and file reading with the shared common helpers. Expose the model-sourcing flags (-m, -mu, -dr, -hf, -hff, --offline, HF_TOKEN) to LLAMA_EXAMPLE_TOKENIZE, and register --ids, --stdin, --no-bos, --no-parse-special and --show-count as common args. parse_special defaults to true for TOKENIZE to preserve the old behavior. Errors now g",
+    "published": "2026-07-14T17:44:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10002",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10002",
+    "description": "ggml : add a set of functions for checking contiguity of inner tensor dimensions ( #25650 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
+    "published": "2026-07-14T15:21:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10001",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10001",
+    "description": "tests: export-graph-ops: exit gracefully when called w/o arguments ( #25619 ) Fixes a segfault when test-export-graph-ops is called without any arguments. macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 ",
+    "published": "2026-07-14T12:47:51Z",
+    "source": "llama.cpp Releases"
+  }
+]
