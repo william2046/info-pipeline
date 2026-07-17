@@ -1,0 +1,142 @@
+[
+  {
+    "title": "GrapheneOS recommended for domestic abuse victims",
+    "link": "https://privacypros.com.au/privacy-hub/articles/dv-safe-phone-australia/",
+    "description": "Article URL: https://privacypros.com.au/privacy-hub/articles/dv-safe-phone-australia/ Comments URL: https://news.ycombinator.com/item?id=48942454 Points: 10 # Comments: 2",
+    "published": "Fri, 17 Jul 2026 01:36:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "M 3.9 Experimental Explosion – 147 Km ENE of Ponce Inlet, Florida",
+    "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t13l/executive",
+    "description": "Article URL: https://earthquake.usgs.gov/earthquakes/eventpage/us7000t13l/executive Comments URL: https://news.ycombinator.com/item?id=48942125 Points: 42 # Comments: 12",
+    "published": "Fri, 17 Jul 2026 00:45:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Human-in-the-Loop Is Tired",
+    "link": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired",
+    "description": "Article URL: https://pydantic.dev/articles/the-human-in-the-loop-is-tired Comments URL: https://news.ycombinator.com/item?id=48942000 Points: 56 # Comments: 31",
+    "published": "Fri, 17 Jul 2026 00:21:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Lingbot-map: A 3D foundation model for reconstructing scenes from streaming data",
+    "link": "https://github.com/Robbyant/lingbot-map",
+    "description": "Article URL: https://github.com/Robbyant/lingbot-map Comments URL: https://news.ycombinator.com/item?id=48941908 Points: 7 # Comments: 0",
+    "published": "Fri, 17 Jul 2026 00:07:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Mojibake – A low-level Unicode library written in C",
+    "link": "https://mojibake.zaerl.com/",
+    "description": "I've written Mojibake because I don't like the other Unicode libraries for Unicode support. It consists of only two amalgamation files: mojibake.h and mojibake.c. I've added all the most important Unicode algorithms, such as normalization, case conversion, segmentation, bidirectional text, collation, confusable, and others. I regularly test it in these OSes: Linux, macOS, FreeBSD, OpenBSD, NetBSD, and Windows 11. You can find a WASM demo on that site of all the public API functions and the docum",
+    "published": "Thu, 16 Jul 2026 22:29:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Little Book of Reinforcement Learning",
+    "link": "https://github.com/alxndrTL/little-book-rl/",
+    "description": "Article URL: https://github.com/alxndrTL/little-book-rl/ Comments URL: https://news.ycombinator.com/item?id=48941104 Points: 74 # Comments: 10",
+    "published": "Thu, 16 Jul 2026 22:27:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "CVE-2026-25089: FortiSandbox unauthenticated command injection added to CISA KEV",
+    "link": "https://hellorecon.com/blog/cve-2026-25089",
+    "description": "Article URL: https://hellorecon.com/blog/cve-2026-25089 Comments URL: https://news.ycombinator.com/item?id=48940895 Points: 28 # Comments: 0",
+    "published": "Thu, 16 Jul 2026 22:07:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "'Likweli': A new monkey species discovered in the Congo Basin",
+    "link": "https://news.yale.edu/2026/07/15/meet-likweli-new-monkey-species-discovered-congo-basin",
+    "description": "Article URL: https://news.yale.edu/2026/07/15/meet-likweli-new-monkey-species-discovered-congo-basin Comments URL: https://news.ycombinator.com/item?id=48940833 Points: 57 # Comments: 8",
+    "published": "Thu, 16 Jul 2026 22:00:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
+    "link": "https://arxiv.org/abs/2607.12395",
+    "description": "Article URL: https://arxiv.org/abs/2607.12395 Comments URL: https://news.ycombinator.com/item?id=48940603 Points: 40 # Comments: 14",
+    "published": "Thu, 16 Jul 2026 21:38:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Mathematics of Data Science",
+    "link": "https://arxiv.org/abs/2607.11938",
+    "description": "Article URL: https://arxiv.org/abs/2607.11938 Comments URL: https://news.ycombinator.com/item?id=48939896 Points: 114 # Comments: 3",
+    "published": "Thu, 16 Jul 2026 20:38:48 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Helium escaping from atmosphere of nearby rocky exoplanet in a habitable zone",
+    "link": "https://www.science.org/doi/10.1126/science.aea9708",
+    "description": "Article URL: https://www.science.org/doi/10.1126/science.aea9708 Comments URL: https://news.ycombinator.com/item?id=48939742 Points: 80 # Comments: 17",
+    "published": "Thu, 16 Jul 2026 20:24:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "LM Studio Bionic: the AI agent for open models",
+    "link": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+    "description": "Article URL: https://lmstudio.ai/blog/introducing-lm-studio-bionic Comments URL: https://news.ycombinator.com/item?id=48939662 Points: 181 # Comments: 67",
+    "published": "Thu, 16 Jul 2026 20:18:15 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
+    "link": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
+    "description": "Article URL: https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6 Comments URL: https://news.ycombinator.com/item?id=48939524 Points: 171 # Comments: 189",
+    "published": "Thu, 16 Jul 2026 20:03:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "CD sales growth outpaced vinyl in the first half of 2026",
+    "link": "https://consequence.net/2026/07/the-cd-revival-is-getting-hard-to-ignore/",
+    "description": "Article URL: https://consequence.net/2026/07/the-cd-revival-is-getting-hard-to-ignore/ Comments URL: https://news.ycombinator.com/item?id=48937398 Points: 73 # Comments: 84",
+    "published": "Thu, 16 Jul 2026 17:19:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Adaptional (YC S25) Is Hiring",
+    "link": "https://www.ycombinator.com/companies/adaptional/jobs",
+    "description": "Article URL: https://www.ycombinator.com/companies/adaptional/jobs Comments URL: https://news.ycombinator.com/item?id=48937125 Points: 0 # Comments: 0",
+    "published": "Thu, 16 Jul 2026 17:00:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
+    "link": "https://blog.lyc8503.net/en/post/llm-classifier/",
+    "description": "Article URL: https://blog.lyc8503.net/en/post/llm-classifier/ Comments URL: https://news.ycombinator.com/item?id=48936880 Points: 167 # Comments: 114",
+    "published": "Thu, 16 Jul 2026 16:41:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Decoy Font",
+    "link": "https://www.mixfont.com/experiments/decoy-font",
+    "description": "Article URL: https://www.mixfont.com/experiments/decoy-font Comments URL: https://news.ycombinator.com/item?id=48936584 Points: 447 # Comments: 108",
+    "published": "Thu, 16 Jul 2026 16:18:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "NotebookLM is now Gemini Notebook",
+    "link": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+    "description": "Article URL: https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/ Comments URL: https://news.ycombinator.com/item?id=48936451 Points: 266 # Comments: 135",
+    "published": "Thu, 16 Jul 2026 16:08:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Microsoft Comic Chat is now open source",
+    "link": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
+    "description": "Article URL: https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/ Comments URL: https://news.ycombinator.com/item?id=48936426 Points: 581 # Comments: 126",
+    "published": "Thu, 16 Jul 2026 16:06:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Immersive Linear Algebra Book with Interactive Figures (2015)",
+    "link": "https://immersivemath.com/ila/",
+    "description": "Article URL: https://immersivemath.com/ila/ Comments URL: https://news.ycombinator.com/item?id=48935951 Points: 180 # Comments: 26",
+    "published": "Thu, 16 Jul 2026 15:32:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

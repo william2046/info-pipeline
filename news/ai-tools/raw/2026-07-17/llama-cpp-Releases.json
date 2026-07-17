@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10054",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10054",
+    "description": "docs: added a note about using OpenCl with Adreno 810 ( #25786 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows ar",
+    "published": "2026-07-17T00:30:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10052",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10052",
+    "description": "hexagon: L2 cache handling rework (dirty bit tracking with lazy flushing) and more MUL_MAT updates ( #25762 ) hex-mm: fix artificial limit in the solver that restricted number of act-prep threads hex-mm: fix warning hex-prof: do not apply --top to the timeline report hmx-mm: add suport for tiled act-processing to better distribute hvx work hex-l2: add tracing for l2flush events workqueue: redo the legacy workpool api to match hmx-queue and dma-queue hmx-mm: fix f32 activation buffer alignmnet fo",
+    "published": "2026-07-16T21:25:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10051",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10051",
+    "description": "kleidiai: Add SME vs SME2 distinction in kernel dispatch ( #25478 ) The current integration treats SME as a single capability (CPU_FEATURE_SME) with no distinction between SME(v1) and SME2. The kernels dispatched under CPU_FEATURE_SME use SME2-specific instructions, making dispatch incorrect on SME(v1)-only hardware. We introduce build-time and runtime distinction between SME and SME2, and wire SME(v1) and SME2 kernels based on actual hardware support. Website: https://llama.app macOS/iOS: macOS",
+    "published": "2026-07-16T20:51:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10050",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10050",
+    "description": "vulkan: when using transfer queue for async copies, sync on event_wait to avoid race ( #25229 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU)",
+    "published": "2026-07-16T20:10:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10048",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10048",
+    "description": "TP: fix Phi3, Bert, Plamo2/3, ChatGLM ( #25536 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adre",
+    "published": "2026-07-16T19:24:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10047",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10047",
+    "description": "vendor: update BoringSSL to 0.20260713.0 ( #25624 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL A",
+    "published": "2026-07-16T18:46:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10046",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10046",
+    "description": "tests: actually exercise test-recurrent-state-rollback ( #25758 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows a",
+    "published": "2026-07-16T17:08:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10045",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10045",
+    "description": "server : allow text-only slot save/restore with mtmd ( #25076 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm",
+    "published": "2026-07-16T16:11:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10043",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10043",
+    "description": "CUDA: Support CUDA Virtual Devices ( #25228 ) support cuda virtual devices disable NCCL path when virtual devices are used label virtual devices in description; add GPUx2 server CI jobs code refactor Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVIN",
+    "published": "2026-07-16T14:04:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10042",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10042",
+    "description": "Enable CUDA graphs on volta+turing ( #25749 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno)",
+    "published": "2026-07-16T11:24:52Z",
+    "source": "llama.cpp Releases"
+  }
+]
