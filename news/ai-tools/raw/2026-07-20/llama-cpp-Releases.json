@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10068",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10068",
+    "description": "model: rotate injected K/V cache for DFlash ( #25823 ) dflash: rotate injected K/V cache when using K/V quantization Update src/models/dflash.cpp Co-authored-by: Georgi Gerganov ggerganov@gmail.com clearer format remove trailing whitespace Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s39",
+    "published": "2026-07-18T13:38:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10067",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10067",
+    "description": "llama-quant : exclude i32 ffn_gate_tid2eid routing table from quantization ( #25787 ) DeepSeek-V4's ffn_gate_tid2eid tensor is an i32 token-id -> expert-id index table, not weights. It was never added to the name-based exclusion list alongside ffn_gate_inp.weight, so llama-quantize tries to quantize it and fails since i32 cannot convert to a float type. Fixes #25754 Signed-off-by: Yash Raj Pandey yashpn62@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Sil",
+    "published": "2026-07-18T12:14:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10066",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10066",
+    "description": "opencl: load and use kernel_gemm_moe_q6_k_f32_ns from bin kernel lib ( #25797 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (",
+    "published": "2026-07-17T23:14:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10064",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10064",
+    "description": "opencl: transpose q4_K noshuffle scales for coalesced reads ( #25805 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Wind",
+    "published": "2026-07-17T15:42:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10063",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10063",
+    "description": "sync : ggml Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4",
+    "published": "2026-07-17T15:00:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10061",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10061",
+    "description": "tests : initialize all tensors in test_dsv4_hc to avoid NaNs in sentinel tensors ( #25822 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andro",
+    "published": "2026-07-17T14:20:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10059",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10059",
+    "description": "ggml-blas: default hadamard mul_mat to cpu routine ( #25710 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows",
+    "published": "2026-07-17T12:24:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10058",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10058",
+    "description": "vulkan: Support Q2_0 ( #25430 ) vulkan: Support Q2_0 The backend perf tests for mat-vec-mul weren't very good at first (worse than q2_k), doubling the rows per workgroup made a big difference. reorder resolve merge conflict, adjust err threshold for f16->q2_0 set_rows Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vu",
+    "published": "2026-07-17T11:45:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10057",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10057",
+    "description": "sycl: fix row calculation when K_QUANTS_PER_ITERATION is 1 ( #25690 ) sycl: fix incorrect row calculation when K_QUANTS_PER_ITERATION=1 Signed-off-by: Todd Malsbary todd.malsbary@intel.com sycl: use K_QUANTS_PER_ITERATION for non-reordered Q5_K kernel This is the only Q5_K kernel that was not using KQPI. Signed-off-by: Todd Malsbary todd.malsbary@intel.com sycl: add missing second half processing to reordered q5_k Error found while running GGML_SYCL_PRIORITIZE_DMMV=1 build/bin/test-backend-ops t",
+    "published": "2026-07-17T10:24:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10056",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10056",
+    "description": "opencl: add ABS op ( #25115 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CU",
+    "published": "2026-07-17T08:34:56Z",
+    "source": "llama.cpp Releases"
+  }
+]
