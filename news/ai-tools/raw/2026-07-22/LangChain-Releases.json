@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-xai==1.3.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.3.0",
+    "description": "Changes since langchain-xai==1.2.2 release(xai): 1.3.0 ( #38984 ) feat(core): add reasoning_effort as a standard chat model parameter ( #38887 ) fix: patch Dependabot dependency vulnerabilities ( #38853 ) chore: bump langsmith from 0.9.5 to 0.10.2 in /libs/partners/xai ( #38832 ) chore(deps): refresh lockfiles ( #38746 ) chore(model-profiles): refresh model profile data ( #38739 ) chore: bump langsmith from 0.8.18 to 0.9.5 in /libs/partners/xai ( #38598 ) chore: bump pytest from 9.1.0 to 9.1.1 i",
+    "published": "2026-07-21T16:15:45Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.4.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.0",
+    "description": "Changes since langchain-openai==1.3.5 release(openai): 1.4.0 ( #38983 ) chore: bump pillow from 12.2.0 to 12.3.0 in /libs/partners/openai ( #38999 ) feat(core): add reasoning_effort as a standard chat model parameter ( #38887 ) chore(model-profiles): refresh model profile data ( #38797 )",
+    "published": "2026-07-21T16:09:41Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.5.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.0",
+    "description": "Changes since langchain-fireworks==1.4.4 release(fireworks): 1.5.0 ( #38986 ) feat(core): add reasoning_effort as a standard chat model parameter ( #38887 ) chore: bump langsmith from 0.10.2 to 0.10.6 in /libs/partners/fireworks ( #38914 ) fix: patch Dependabot dependency vulnerabilities ( #38853 ) chore: bump langsmith from 0.9.5 to 0.10.2 in /libs/partners/fireworks ( #38830 )",
+    "published": "2026-07-21T16:16:19Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.5.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.0",
+    "description": "Changes since langchain-anthropic==1.4.8 release(anthropic): 1.5.0 ( #38985 ) feat(core): add reasoning_effort as a standard chat model parameter ( #38887 ) fix(anthropic): add advisor_ prefix to builtin tool recognition ( #38686 ) chore(deps): refresh lockfiles ( #38746 ) chore(model-profiles): refresh model profile data ( #38689 ) chore(model-profiles): refresh model profile data ( #38663 ) chore: bump the minor-and-patch group across 3 directories with 11 updates ( #38587 ) chore(anthropic): ",
+    "published": "2026-07-21T18:17:28Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.5.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.0",
+    "description": "Changes since langchain-core==1.4.9 release(core): 1.5.0 ( #38978 ) feat(core): add reasoning_effort as a standard chat model parameter ( #38887 ) chore: bump soupsieve from 2.8 to 2.8.4 in /libs/core ( #38750 ) chore: bump mistune from 3.2.1 to 3.3.0 in /libs/core ( #38783 )",
+    "published": "2026-07-21T03:37:40Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.14",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.14",
+    "description": "Changes since langchain==1.3.13 release(langchain): 1.3.14 ( #38883 ) fix(langchain): only retry retryable exceptions in ToolRetryMiddleware ( #38845 ) feat(langchain): ToolErrorMiddleware ( #38781 )",
+    "published": "2026-07-16T13:28:37Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.3.5",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.5",
+    "description": "Changes since langchain-openai==1.3.4 release(openai): 1.3.5 ( #38785 ) feat(openai): support explicit prompt caching ( #38762 ) chore(model-profiles): refresh model profile data ( #38774 )",
+    "published": "2026-07-10T18:58:48Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.13",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.13",
+    "description": "Changes since langchain==1.3.12 release(langchain): 1.3.13 ( #38787 ) feat(langchain): add meta extra and support langchain-meta in init_chat_model ( #38786 ) feat(openai): support explicit prompt caching ( #38762 ) chore(deps): refresh lockfiles ( #38746 )",
+    "published": "2026-07-10T23:06:21Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.4.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.4",
+    "description": "Changes since langchain-fireworks==1.4.3 release(fireworks): 1.4.4 ( #38753 ) fix(fireworks): report cached prompt token usage ( #38751 ) chore(deps): refresh lockfiles ( #38746 ) chore(model-profiles): refresh model profile data ( #38663 ) chore: bump pytest from 9.1.0 to 9.1.1 in /libs/partners/fireworks ( #38594 ) chore: bump langsmith from 0.8.18 to 0.9.5 in /libs/partners/fireworks ( #38595 ) docs(fireworks): clarify prompt-cache session affinity guidance ( #38522 ) test(fireworks): cover r",
+    "published": "2026-07-09T17:56:51Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.3.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.4",
+    "description": "Changes since langchain-openai==1.3.3 release(openai): 1.3.4 ( #38731 ) fix(openai): suppress Pydantic serializer warning on structured output parsed field ( #37727 ) test(openai): skip Codex VCR tests before cassette setup ( #38690 ) chore: bump the minor-and-patch group across 3 directories with 11 updates ( #38587 ) chore: bump langgraph-checkpoint from 4.1.0 to 4.1.1 in /libs/partners/openai ( #38476 ) fix(core): use asyncio.get_running_loop() in async contexts ( #38157 ) test(openai): clari",
+    "published": "2026-07-08T23:00:10Z",
+    "source": "LangChain Releases"
+  }
+]

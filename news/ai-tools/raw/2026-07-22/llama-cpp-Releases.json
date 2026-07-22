@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10079",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10079",
+    "description": "server : properly handle null llama_context ( #25868 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Wind",
+    "published": "2026-07-22T02:05:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10078",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10078",
+    "description": "vulkan: Refactor vk_queue to use per-instance mutexes and unique handles ( #23570 ) Refactor vk_queue to use per-instance mutexes and unique handles integrates VK_KHR_internally_synchronized_queues, abstracting the queue submission into a polymorphic interface that completely bypasses host-side mutex locking when driver-side synchronization is supported fix compilation error fix duplicate pNext chain for VkPhysicalDeviceInternallySynchronizedQueuesFeaturesKHR add fallback defines for VK_KHR_inte",
+    "published": "2026-07-21T22:40:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10077",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10077",
+    "description": "ggml-openvino: Add GGML_BACKEND_DL_IMPL invocation for OpenVINO backend ( #25795 ) This adds the missing GGML_BACKEND_DL_IMPL() macro invocation, that other backends have. Fixes #25586 for me Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubunt",
+    "published": "2026-07-21T21:55:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10076",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10076",
+    "description": "CUDA: vectorize same-type get_rows with int4 copy ( #25929 ) k_get_rows_float did a scalar one-element-per-thread copy and recomputed the row-invariant work (index load, fast_div_modulo, src/dst row pointers) for every element. Hoist that out of the per-element loop, and add a vectorized path (k_get_rows_float_vec) that copies one int4 (16 B) per thread for the contiguous same-type (no-cast) case. The vectorized path is gated at compile time (is_same<src0_t, dst_t>) and at runtime on 16-byte ali",
+    "published": "2026-07-21T15:54:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10075",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10075",
+    "description": "hexagon: add CLAMP op ( #25934 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 ",
+    "published": "2026-07-20T23:49:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10069",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10069",
+    "description": "opencl: Support broadcast for Adreno MUL_MAT and honor view_offs for Adreno Q8_0 MUL_MAT for llama-server multi-stream ( #25910 ) opencl: handle broadcast for adreno gemm/gemv_noshuffle opencl: honor view_offs for adreno noshuffle gemm/gemv opencl: general GEMM/GEMV support broadcast opencl: remove unnecessary tests opencl: remove unnecessary comments Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ",
+    "published": "2026-07-20T06:31:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10068",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10068",
+    "description": "model: rotate injected K/V cache for DFlash ( #25823 ) dflash: rotate injected K/V cache when using K/V quantization Update src/models/dflash.cpp Co-authored-by: Georgi Gerganov ggerganov@gmail.com clearer format remove trailing whitespace Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s39",
+    "published": "2026-07-18T13:38:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10067",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10067",
+    "description": "llama-quant : exclude i32 ffn_gate_tid2eid routing table from quantization ( #25787 ) DeepSeek-V4's ffn_gate_tid2eid tensor is an i32 token-id -> expert-id index table, not weights. It was never added to the name-based exclusion list alongside ffn_gate_inp.weight, so llama-quantize tries to quantize it and fails since i32 cannot convert to a float type. Fixes #25754 Signed-off-by: Yash Raj Pandey yashpn62@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Sil",
+    "published": "2026-07-18T12:14:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10066",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10066",
+    "description": "opencl: load and use kernel_gemm_moe_q6_k_f32_ns from bin kernel lib ( #25797 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (",
+    "published": "2026-07-17T23:14:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10064",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10064",
+    "description": "opencl: transpose q4_K noshuffle scales for coalesced reads ( #25805 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Wind",
+    "published": "2026-07-17T15:42:16Z",
+    "source": "llama.cpp Releases"
+  }
+]
