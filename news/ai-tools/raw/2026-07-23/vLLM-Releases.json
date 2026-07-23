@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.25.1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.25.1",
+    "description": "vLLM v0.25.1 Highlights This release features 2 commits from 2 contributors (1 new)! v0.25.1 is a patch release containing two targeted bug fixes on top of v0.25.0. Bug Fixes Avoid blocking model launching when no system FFmpeg is available for TorchCodec ( #47888 ). Previously import torchcodec raised a RuntimeError at import time when system FFmpeg was missing, which blocked startup (e.g. vllm serve Qwen/Qwen3-VL-2B-Instruct ) even when TorchCodec was not in use. The error is now deferred to r",
+    "published": "2026-07-14T08:58:07Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.25.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0",
+    "description": "vLLM v0.25.0 Release Notes Highlights This release features 558 commits from 232 contributors (64 new)! Model Runner V2 is now the default for all dense models ( #44443 ). Building on quantized-model support from the previous release, MRv2 is now the standard execution path, with new support for EVS ( #46535 ), realtime embeddings ( #46762 ), prefix caching for Mamba hybrid models ( #42406 ), multimodal-prefix bidirectional attention ( #46942 ), and dynamic speculative decoding compatible with f",
+    "published": "2026-07-11T20:06:44Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.25.0rc3",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0rc3",
+    "description": "[P/D][Bugfix] Fix PD async KV load lookahead handling for MTP spec de…",
+    "published": "2026-07-09T10:24:39Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.25.0rc2",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0rc2",
+    "description": "Fix embed scaling + CUDA graphs in Transformers modelling backend ( #4 …",
+    "published": "2026-07-09T04:12:19Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.25.0rc1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0rc1",
+    "description": "[CPU][Bugfix] Fix flaky ShortConv prefill test on ARM (uninitialized …",
+    "published": "2026-07-08T01:20:30Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.24.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.24.0",
+    "description": "vLLM v0.24.0 Release Notes Highlights This release features 571 commits from 256 contributors (77 new)! MiniMax-M3 : Added support for the new MiniMax-M3 model ( #45381 ), with a fast follow-on of BF16/FP8 indexer via MSA ( #45892 ), MXFP4 support ( #45896 ), FP8 sparse GQA ( #45744 ), and extensive AMD/ROCm tuning — mxfp8 MoE/linear on gfx950 ( #45725 ), fp8_per_channel for bf16 weights on MI300X ( #45854 ), FP8 KV-cache fix ( #45720 ), and packed-modules mapping ( #45794 ). A MiniMax-M2 perf r",
+    "published": "2026-06-30T01:19:02Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.24.0rc2: Fix P/D with DP Supervisor (#46628)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.24.0rc2",
+    "description": "Signed-off-by: Robert Shaw 114415538+robertgshaw2-redhat@users.noreply.github.com (cherry picked from commit c5e3c40 )",
+    "published": "2026-06-25T20:15:20Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.24.0rc1: [CI/Build] Fix topk histogram build on SM75 (#46550)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.24.0rc1",
+    "description": "Signed-off-by: Mohammad Miadh Angkad 176301910+mmangkad@users.noreply.github.com (cherry picked from commit 191826e )",
+    "published": "2026-06-24T08:01:53Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.23.1rc0: [Bugfix][CI] Update Dockerfile dependency graph PNG (#45602)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.23.1rc0",
+    "description": "Signed-off-by: sfeng33 4florafeng@gmail.com",
+    "published": "2026-06-15T02:35:24Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.23.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
+    "description": "vLLM v0.23.0 Release Notes Please note that Minimax M3 is not yet supported in this version. Please follow vLLM recipe for usage guides for M3. Highlights This release features 408 commits from 200 contributors (63 new)! DeepSeek-V4 matures across backends : Following its introduction in v0.22.0, DeepSeek-V4 received another large hardening and optimization pass. Its sparse MLA metadata is now decoupled from DeepSeek-V3.2 ( #44699 ), it gained a TRTLLM-gen attention kernel ( #43827 ), EPLB suppo",
+    "published": "2026-06-15T05:27:20Z",
+    "source": "vLLM Releases"
+  }
+]
