@@ -1,0 +1,142 @@
+[
+  {
+    "title": "The Corporate Creep of Plex: Why it may be time to move to Jellyfin",
+    "link": "https://reprodev.com/the-corporate-creep-of-plex-why-it-may-be-time-to-move-to-jellyfin-and-the-open-source-reality/",
+    "description": "Article URL: https://reprodev.com/the-corporate-creep-of-plex-why-it-may-be-time-to-move-to-jellyfin-and-the-open-source-reality/ Comments URL: https://news.ycombinator.com/item?id=49030547 Points: 30 # Comments: 20",
+    "published": "Fri, 24 Jul 2026 02:18:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Police Removed Prominent Scientists from the ADA Meeting. Researchers Respond",
+    "link": "https://www.the-scientist.com/police-removed-prominent-scientists-from-the-ada-meeting-researchers-respond-74607",
+    "description": "Article URL: https://www.the-scientist.com/police-removed-prominent-scientists-from-the-ada-meeting-researchers-respond-74607 Comments URL: https://news.ycombinator.com/item?id=49030474 Points: 38 # Comments: 13",
+    "published": "Fri, 24 Jul 2026 02:06:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Visual 6502",
+    "link": "http://visual6502.org/JSSim/index.html",
+    "description": "Article URL: http://visual6502.org/JSSim/index.html Comments URL: https://news.ycombinator.com/item?id=49029538 Points: 69 # Comments: 20",
+    "published": "Thu, 23 Jul 2026 23:36:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A taxonomy of omnicidal futures involving artificial intelligence (2025)",
+    "link": "https://arxiv.org/abs/2507.09369",
+    "description": "Article URL: https://arxiv.org/abs/2507.09369 Comments URL: https://news.ycombinator.com/item?id=49029133 Points: 65 # Comments: 51",
+    "published": "Thu, 23 Jul 2026 22:51:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "98.css",
+    "link": "https://jdan.github.io/98.css/#status-bar",
+    "description": "Article URL: https://jdan.github.io/98.css/#status-bar Comments URL: https://news.ycombinator.com/item?id=49028927 Points: 329 # Comments: 71",
+    "published": "Thu, 23 Jul 2026 22:30:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Mourning Dan Williams",
+    "link": "https://lwn.net/Articles/1084545/",
+    "description": "Article URL: https://lwn.net/Articles/1084545/ Comments URL: https://news.ycombinator.com/item?id=49027052 Points: 42 # Comments: 0",
+    "published": "Thu, 23 Jul 2026 19:46:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
+    "link": "https://news.ycombinator.com/item?id=49026810",
+    "description": "I’ve been building Echo ( https://echo.tracerml.ai/ ), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task. It started with a simple experiment. I took a group of models, including GLM-5.2, Kimi K2.7 and others, and ran them on the same evaluations. Then I measured what would happen if, for each problem, you somehow knew in advance which models would be useful and how their outputs should be combined. That hypo",
+    "published": "Thu, 23 Jul 2026 19:26:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Building on ATProto",
+    "link": "https://lukekanies.com/writing/building-on-atproto/",
+    "description": "Article URL: https://lukekanies.com/writing/building-on-atproto/ Comments URL: https://news.ycombinator.com/item?id=49025984 Points: 137 # Comments: 66",
+    "published": "Thu, 23 Jul 2026 18:23:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A solid-state “atomic channel” for separating rare earth elements",
+    "link": "https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements",
+    "description": "Article URL: https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements Comments URL: https://news.ycombinator.com/item?id=49025831 Points: 78 # Comments: 22",
+    "published": "Thu, 23 Jul 2026 18:13:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Claude-thermos keeps your Claude session warm for you",
+    "link": "https://github.com/izeigerman/claude-thermos",
+    "description": "Article URL: https://github.com/izeigerman/claude-thermos Comments URL: https://news.ycombinator.com/item?id=49024882 Points: 87 # Comments: 72",
+    "published": "Thu, 23 Jul 2026 17:06:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "What happened to TheNumbers.com",
+    "link": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+    "description": "Article URL: https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all Comments URL: https://news.ycombinator.com/item?id=49024691 Points: 315 # Comments: 140",
+    "published": "Thu, 23 Jul 2026 16:53:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The arguments against open source AI are bad",
+    "link": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+    "description": "Article URL: https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/ Comments URL: https://news.ycombinator.com/item?id=49024643 Points: 224 # Comments: 157",
+    "published": "Thu, 23 Jul 2026 16:49:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents",
+    "link": "https://news.ycombinator.com/item?id=49024620",
+    "description": "Hi Hacker News, I'm Louis. I built Screenpipe ( https://screenpipe.com ), an app that records your screen and audio locally (only!), and gives AI agents a searchable memory of what you've seen, said, and heard. This makes it easier to automate your repetitive tasks, turn them into SOPs (Standard Operating Procedure) and so on. I made a HN-style demo video at https://www.tella.tv/video/build-your-ai-second-brain-with-s... and there’s a marketing video at https://www.youtube.com/watch?v=c1jV6E9pyu",
+    "published": "Thu, 23 Jul 2026 16:48:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+    "link": "https://github.com/onecli/onecli",
+    "description": "hey HN, Jonathan and Guy here, creators of OneCLI ( https://onecli.sh/ ). OneCLI is an open source vault for AI Agents. Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent's world, this is not the case, as you don't know what happens with the secret after it's delivered to the agent, or where it was saved. Or maybe someone even manipulated them to hand them over... From that",
+    "published": "Thu, 23 Jul 2026 15:42:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Why Software Factories Fail (or: harness engineering is not enough)",
+    "link": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
+    "description": "Article URL: https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md Comments URL: https://news.ycombinator.com/item?id=49023019 Points: 218 # Comments: 170",
+    "published": "Thu, 23 Jul 2026 15:18:48 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+    "link": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+    "description": "https://littletech.org/ https://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0... Comments URL: https://news.ycombinator.com/item?id=49023016 Points: 783 # Comments: 692",
+    "published": "Thu, 23 Jul 2026 15:18:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+    "link": "https://github.com/palmier-io/palmier-pro",
+    "description": "Hi HN, we are Marcos and Harrison, cofounders of Palmier ( https://palmier.io ). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos: - Making some AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4 - Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8 - Cutting long form clips into shorts: https://www.youtube.com/watch?v=PR66eN2ouuQ We built Palmier Pro ",
+    "published": "Thu, 23 Jul 2026 15:11:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Learn WebGPU for C++",
+    "link": "https://eliemichel.github.io/LearnWebGPU/",
+    "description": "Article URL: https://eliemichel.github.io/LearnWebGPU/ Comments URL: https://news.ycombinator.com/item?id=49022663 Points: 92 # Comments: 12",
+    "published": "Thu, 23 Jul 2026 14:55:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Learn OpenGL, extensive tutorial resource for learning Modern OpenGL",
+    "link": "https://learnopengl.com/",
+    "description": "Article URL: https://learnopengl.com/ Comments URL: https://news.ycombinator.com/item?id=49022634 Points: 201 # Comments: 104",
+    "published": "Thu, 23 Jul 2026 14:53:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Writing by hand is good for your brain",
+    "link": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+    "description": "Article URL: https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your Comments URL: https://news.ycombinator.com/item?id=49022152 Points: 1058 # Comments: 504",
+    "published": "Thu, 23 Jul 2026 14:24:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

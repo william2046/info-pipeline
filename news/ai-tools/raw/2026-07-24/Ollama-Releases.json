@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.32.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.3",
+    "description": "What's Changed Fixed model downloads that stall before sending data. Improved integrations: restored Claude Code Channels, fixed Anthropic thinking streams, and made Hermes Desktop respect --force-build . Expanded GPU support with CUDA on Windows ARM64, B200 support through CUDA 12, and lower memory use on Linux CUDA/ROCm iGPUs. Added chat, thinking, and tool calling support for Laguna 2.1 models, including a Metal inference fix. Fixed GLM tool calls being silently dropped at the end of generati",
+    "published": "2026-07-23T16:46:16Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.3-rc0: model: align Laguna with upstream llama.cpp (#17335)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0",
+    "description": "Update llama.cpp to pick up upstream Laguna implementation and remove Ollama's local Laguna implementation. Retain a narrow Metal-only scaling workaround for routed-MoE prompt overflow. Translate older Ollama GGUF attention-gate and SWA metadata names so existing models continue to load.",
+    "published": "2026-07-23T00:09:18Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.2",
+    "description": "Withdrawn, please use 0.32.3 or newer",
+    "published": "2026-07-23T16:47:25Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.2-rc3: test: revamp integration test entrpoints (#16560)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc3",
+    "description": "This refactors the existing integration tests into 3 priumary groups: fast, release, and library. It also refines some of the release tests to drop some of the older models and pick up newer models, while retaining the broad coverage in the library group.",
+    "published": "2026-07-21T23:06:38Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.2-rc2: CI: fix missing CUDA v13.4 sub-package (#17288)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc2",
+    "description": "Needed for cross-compiling WoA",
+    "published": "2026-07-21T19:25:10Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.2-rc1: server: detect download stalls before the first byte (#17259)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc1",
+    "description": "server: detect download stalls before the first byte server: keep stall timeout out of download API",
+    "published": "2026-07-21T18:28:19Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.2-rc0: cuda: add CC 10.0 for linux in CUDA v12 (#17025)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0",
+    "description": "Add compute capability 10.0 to the Linux CUDA v12 preset so B200-class devices can use the cuda_v12 backend with drivers that do not meet the CUDA v13 minimum. Fixes #12583",
+    "published": "2026-07-20T20:09:36Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.1",
+    "description": "What's Changed Improved Gemma 4 tool calling and multi-turn reasoning, including more reliable tool-response continuations Fixed a recurrent MLX model cache leak that could increase memory use across requests, and improved cache snapshot performance MLX text model loading now respects OLLAMA_LOAD_TIMEOUT Agent web search and fetch now tell users to run ollama signin when authentication is required The interactive agent now receives the current working directory for better project context Fixed o",
+    "published": "2026-07-16T18:49:37Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.1-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.1-rc0",
+    "description": "cmd: put current working dir in the system prompt ( #17188 )",
+    "published": "2026-07-15T19:10:28Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.0",
+    "description": "What's Changed New interactive agent experience: running ollama now launches an agent to help you code and delegate work ❯ ollama Ollama 0.32.0 ▸ Chat, Code, & Work (glm-5.2:cloud) Chat with models, code, search the web, and delegate real work Renamed the Codex App integration to ChatGPT: use ollama launch chatgpt (and --restore to return to your usual ChatGPT profile) Simplified integration selection: the ollama launch menu now only offers the most popular integrations (other integrations can b",
+    "published": "2026-07-14T00:05:12Z",
+    "source": "Ollama Releases"
+  }
+]

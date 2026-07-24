@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10103",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10103",
+    "description": "metal : add f16 type support to leaky relu ( #25981 )",
+    "published": "2026-07-23T03:45:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10099",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10099",
+    "description": "CUDA: Improve NVFP4 W4A4 activation quantization ( #25730 ) Squash history before conflict-resolution during rebase on master WIP commit Add 32-byte loads, restore per-block amax Use nvfp4x4 intrinsic when available Fuse per-channel amax and quantization kernels Do pointer arithmetic only once on x Remove unnecessary ternary in the load We assert on host side that ne00 is 64-aligned Add back scale-search, but optimize it with intrinsics Code cleanup Make scale in MMQ-epilogue NVFP4-specific/rest",
+    "published": "2026-07-23T23:35:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10098",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10098",
+    "description": "hexagon: activation ops update ( #25974 ) hex-geglu: optimized all-in-one geglu microkernel hex-geglu: enable non-contiguous src and strided DMA hex-act: enable non-contiguous srs and strided DMA for rest of ACT ops hex-act: generalize GLU per-thread functions via DEFINE_GLU_PER_THREAD macro hexagon: move UNARY_SILU and UNARY_GELU to unary-ops hex-act: replace the generic ops_context scratchpad usage with a local htp_vtcm_layout computation per act op. Co-authored-by: Max Krasnyansky maxk@qti.qu",
+    "published": "2026-07-23T20:13:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10094",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10094",
+    "description": "common: infer the speculative type from the draft repo sidecars ( #25989 ) With -hfd pointing to a repo that ships mtp-/dflash-/eagle3- sidecars and no --spec-type given, the draft resolved to a full model while the sidecar was the intended draft. When the speculative types are still at their default, discover the sidecars of the draft repo, pick the first available following the existing mtp > dflash > eagle3 priority, and set the corresponding type, so this now works without any extra flag: ll",
+    "published": "2026-07-23T18:29:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10093",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10093",
+    "description": "Fix DeepSeek4 crafted template ( #25414 ) chat: fix DS4 template to explicitly follow reference behavior Support DeepSeekv4 flag ( drop_reasoning ). fix: hook DS3.2 parser for DS4 as well fix: add tool result reordering fix: post-merge Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubunt",
+    "published": "2026-07-23T17:21:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10092",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10092",
+    "description": "ggml: enable PowerPC backend variants on AIX ( #25983 ) ggml: enable PowerPC backend variants on AIX Allow the PowerPC CPU backend variants to be built on AIX by extending the platform check in the CMake configuration. This reuses the existing PowerPC backend implementations without changing their behavior. Also fix a missing semicolon in the PowerPC Q0 matmul implementation. Fix missing semicolon in sgemm.cpp Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon ",
+    "published": "2026-07-23T05:32:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10091",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10091",
+    "description": "ci : fix SYCL package shared library lookup ( #25987 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenC",
+    "published": "2026-07-22T21:13:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10090",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10090",
+    "description": "webgpu : add CONV_2D_DW (depthwise conv2d) kernel ( #25847 ) webgpu : add CONV_2D_DW (depthwise conv2d) kernel Implement GGML_OP_CONV_2D_DW for the WebGPU backend, ported from the Vulkan backend's conv2d_dw.comp. Assisted-by: Claude Opus-4.8 Remove unnecessary comments in webgpu support update supported ops tables, triggered by adding webgpu CONV_2D_DW Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XC",
+    "published": "2026-07-22T20:25:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10089",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10089",
+    "description": "cuda: GET_ROWS quants ( #25962 ) cuda: add k-quant support to GET_ROWS Device-side embedding lookups require GET_ROWS to handle the k-quants used by common GGUF recipes (Q4_K_M stores token_embd as q6_K). Without it the backend rejects the op and the scheduler falls back to the host, copying the full embedding matrix back on every token in single-device graphs. Factor the super-block dequantizers out of the dequantize_block kernels in convert.cu into shared device functions in dequantize.cuh and",
+    "published": "2026-07-22T19:47:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10088",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10088",
+    "description": "llama-arch: fix DeepSeek4 APE tensor op ( #25945 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Ad",
+    "published": "2026-07-22T16:20:06Z",
+    "source": "llama.cpp Releases"
+  }
+]

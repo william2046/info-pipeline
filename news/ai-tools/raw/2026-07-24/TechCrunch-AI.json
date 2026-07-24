@@ -1,0 +1,142 @@
+[
+  {
+    "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+    "link": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+    "description": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
+    "published": "Fri, 24 Jul 2026 01:00:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+    "link": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+    "description": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
+    "published": "Thu, 23 Jul 2026 20:33:02 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Anthropic updates Claude voice mode with more capable models",
+    "link": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+    "description": "Claude's new voice model will let you reschedule your meeting or draft an email.",
+    "published": "Thu, 23 Jul 2026 19:00:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+    "link": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+    "description": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
+    "published": "Thu, 23 Jul 2026 18:38:34 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Runway launches AI model router as generative media gets crowded",
+    "link": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+    "description": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
+    "published": "Thu, 23 Jul 2026 17:07:35 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "OpenAI makes ChatGPT Health available to all US users",
+    "link": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+    "description": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
+    "published": "Thu, 23 Jul 2026 17:00:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+    "link": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+    "description": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
+    "published": "Thu, 23 Jul 2026 16:28:50 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Nvidia is sending GPUs to the moon",
+    "link": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
+    "description": "If there's a place in the universe without GPUs, Nvidia is sending them there.",
+    "published": "Thu, 23 Jul 2026 15:00:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+    "link": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+    "description": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+    "published": "Thu, 23 Jul 2026 15:00:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Google’s Gemini nears billion-user milestone",
+    "link": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+    "description": "Gemini had over 750 million monthly users in February.",
+    "published": "Thu, 23 Jul 2026 14:52:44 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
+    "link": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
+    "description": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.",
+    "published": "Thu, 23 Jul 2026 11:00:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
+    "link": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
+    "description": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
+    "published": "Thu, 23 Jul 2026 06:09:13 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
+    "link": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+    "description": "After IBM's stock crashed last week on warnings of poor mainframe sales, the CEO explained that AI wrecked corporate hardware budget, temporarily.",
+    "published": "Wed, 22 Jul 2026 23:47:54 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Google justifies its massive AI spending with a booming cloud business",
+    "link": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+    "description": "Google's cloud business is thriving, as companies adopting its AI and AI infrastructure services help the tech giant to report record profits.",
+    "published": "Wed, 22 Jul 2026 22:01:52 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
+    "link": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+    "description": "The episode has also intensified a broader debate in Washington over the influx of Chinese open models.",
+    "published": "Wed, 22 Jul 2026 20:49:03 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+    "link": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+    "description": "OpenAI made a mistake setting up what it called a “highly isolated” testing environment and sandbox. According to cybersecurity experts, that human mistake is what made the AI-powered attack on Hugging Face possible.",
+    "published": "Wed, 22 Jul 2026 19:11:46 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
+    "link": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+    "description": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
+    "published": "Wed, 22 Jul 2026 18:50:44 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Yope raises $12.3M to build a private social network without algorithms or ads",
+    "link": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
+    "description": "Yope, a fast-growing social app focused on private groups of friends and family, has raised $12.3 million in seed funding. Instead of chasing creators and algorithmic feeds, the startup is betting that the future of social networking lies in small, private communities powered by messaging, photo sharing, and AI features designed to strengthen real-world relationships.",
+    "published": "Wed, 22 Jul 2026 18:13:58 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Monday.com lays off hundreds to focus on AI",
+    "link": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
+    "description": "The company said it is reducing its headcount by 20%, or about 630 staff, to \"support a leaner, more focused operating model\" as it focuses on its AI Work Platform.",
+    "published": "Wed, 22 Jul 2026 17:54:14 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
+    "link": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+    "description": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
+    "published": "Wed, 22 Jul 2026 16:24:08 +0000",
+    "source": "TechCrunch AI"
+  }
+]
