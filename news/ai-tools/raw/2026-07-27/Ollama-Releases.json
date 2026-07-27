@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.32.5",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.5-rc0",
+    "description": "What's Changed mlx update by @dhiltgen in #17397 Full Changelog : v0.32.4...v0.32.5-rc0",
+    "published": "2026-07-27T01:25:40Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.4",
+    "description": "What's Changed Support Laguna on Apple GPUs via the MLX engine Quantize draft-model output heads at the requested type when creating speculative-decoding drafts. Fixed Qwen3 MoE decoding for differently-quantized experts, plus faster packed gate/up projection (~4–9% on M5 Max). Full Changelog : v0.32.3...v0.32.4",
+    "published": "2026-07-25T18:26:49Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.4-rc0: model: add Laguna MLX support (#17237)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0",
+    "description": "model: add Laguna MLX support Add Laguna XS 2, XS 2.1, and S 2.1 support to the MLX model and create paths. Read the source config to apply one quantization policy across dense and routed MoE layers. Keep the tied output head and router at source precision, quantize supported attention and expert projections, selectively promote sensitive expert down projections, and emit per-tensor metadata for mixed quantization blobs. Correct dense expert loading, BF16 source-layout handling, expert global-sc",
+    "published": "2026-07-25T01:24:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.3",
+    "description": "What's Changed Fixed model downloads that stall before sending data. Improved integrations: restored Claude Code Channels, fixed Anthropic thinking streams, and made Hermes Desktop respect --force-build . Expanded GPU support with CUDA on Windows ARM64, B200 support through CUDA 12, and lower memory use on Linux CUDA/ROCm iGPUs. Added chat, thinking, and tool calling support for Laguna 2.1 models, including a Metal inference fix. Fixed GLM tool calls being silently dropped at the end of generati",
+    "published": "2026-07-23T16:46:16Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.3-rc0: model: align Laguna with upstream llama.cpp (#17335)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0",
+    "description": "Update llama.cpp to pick up upstream Laguna implementation and remove Ollama's local Laguna implementation. Retain a narrow Metal-only scaling workaround for routed-MoE prompt overflow. Translate older Ollama GGUF attention-gate and SWA metadata names so existing models continue to load.",
+    "published": "2026-07-23T00:09:18Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.2",
+    "description": "Withdrawn, please use 0.32.3 or newer",
+    "published": "2026-07-23T16:47:25Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.2-rc3: test: revamp integration test entrpoints (#16560)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc3",
+    "description": "This refactors the existing integration tests into 3 priumary groups: fast, release, and library. It also refines some of the release tests to drop some of the older models and pick up newer models, while retaining the broad coverage in the library group.",
+    "published": "2026-07-21T23:06:38Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.2-rc2: CI: fix missing CUDA v13.4 sub-package (#17288)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc2",
+    "description": "Needed for cross-compiling WoA",
+    "published": "2026-07-21T19:25:10Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.2-rc1: server: detect download stalls before the first byte (#17259)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc1",
+    "description": "server: detect download stalls before the first byte server: keep stall timeout out of download API",
+    "published": "2026-07-21T18:28:19Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.2-rc0: cuda: add CC 10.0 for linux in CUDA v12 (#17025)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0",
+    "description": "Add compute capability 10.0 to the Linux CUDA v12 preset so B200-class devices can use the cuda_v12 backend with drivers that do not meet the CUDA v13 minimum. Fixes #12583",
+    "published": "2026-07-20T20:09:36Z",
+    "source": "Ollama Releases"
+  }
+]
