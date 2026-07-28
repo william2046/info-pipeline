@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10156",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10156",
+    "description": "Disable -ffast-math on HIP ( #25495 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows",
+    "published": "2026-07-28T00:42:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10155",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10155",
+    "description": "mtmd: support MiMo-V2.5 audio input (RVQ-based model) ( #26190 ) gguf converter for mimo audio fix conv cpp impl nits nits 2 Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CP",
+    "published": "2026-07-27T22:01:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10154",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10154",
+    "description": "common : add common_print_available_devices() ( #26170 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windo",
+    "published": "2026-07-27T17:01:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10153",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10153",
+    "description": "model: Add support for Nanbeige4.2 ( #25994 ) support nanbeige4.2 model fix fix flake8 Lint check fix loop bound check and drop redundant head_dim Co-authored-by: root lizongqiang@kanzhun.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubunt",
+    "published": "2026-07-27T15:58:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10152",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10152",
+    "description": "fit : count nextn (MTP) blocks in n_gpu_layers so front layers stay on GPU ( #26177 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows a",
+    "published": "2026-07-27T14:15:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10151",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10151",
+    "description": "sycl(build): parallelize ocloc invocations ( #25903 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL",
+    "published": "2026-07-27T13:26:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10150",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10150",
+    "description": "ggml : adjust logic for offloading ops to weight's backend ( #25832 ) ggml : adjust logic for offloading ops to weight's backend llama : dsv4 graph fixes Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP1",
+    "published": "2026-07-27T12:47:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10149",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10149",
+    "description": "tests : remove unnecessary sync in test-save-load-state ( #26166 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows ",
+    "published": "2026-07-27T11:47:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10148",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10148",
+    "description": "common: fix explicit -md precedence over draft sidecar resolution ( #26165 ) common: fix explicit -md precedence over draft sidecar resolution Follow-up of #25955 , an explicit --model-draft file given with -hfd was silently overridden by the sidecar resolution of the draft repo, and its path was never resolved to a local file. An explicit draft file selection now disables the sidecar resolution, so the manual CLI configuration wins over the automatic one. common: apply the -hfd tag to the sidec",
+    "published": "2026-07-27T11:16:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10146",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10146",
+    "description": "ggml-cpu: Enable BF16 tiled gemm optimization on PowerPC ( #26068 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows",
+    "published": "2026-07-27T10:16:21Z",
+    "source": "llama.cpp Releases"
+  }
+]
