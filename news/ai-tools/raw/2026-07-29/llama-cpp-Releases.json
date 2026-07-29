@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10173",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10173",
+    "description": "model: Add Laguna-S-2.1 LLM_TYPE ( #26233 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) W",
+    "published": "2026-07-28T20:06:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10172",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10172",
+    "description": "ggml-webgpu: Fix some binding alias issues to support all archs, fix recurrent-state-rollback test ( #25931 ) Add overlap glu variant to support all archs, fix recurrent-state-rollback test format Fix all arch overlapped ranges format diagnose bus error on apple ci More testing more testing more targeted testing Fix bug in alignment for > 4gb buffer offsets Fix bug in view offsets Try avoiding multi_buffers not fixed yet, more logging :( Handle edge case in set_rows Try looking at view source Sk",
+    "published": "2026-07-28T19:29:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10171",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10171",
+    "description": "opencl: skip the Adreno KQ/KQV image kernels for multi-stream batches ( #26189 ) The Adreno KQ/KQV image1d kernels (ggml_cl_mul_mat_kq_kqv_adreno) ignore dim 3 entirely: the sub-buffer covers only nb02*ne02 bytes and the kernel receives no ne03/ne13/nb03/nb13 arguments. With the unified KV cache, multi-sequence batches (e.g. llama-perplexity with its default -b 2048, n_seq=4, or a multi-slot llama-server) present KQ/KQV as 4D tensors with ne3 = n_stream, so every stream past the first reads the ",
+    "published": "2026-07-28T18:55:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10167",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10167",
+    "description": "server: abstract llama_memory calls to common_memory ( #26221 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm",
+    "published": "2026-07-28T17:04:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10166",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10166",
+    "description": "ggml : set output of view src ( #25729 ) llama-graph: set_outputs to t->view_src change set_output to GGML_ASSERT about views not being outputs sampler : avoid views in outputs cont : fix dist sampler cont : consistent logits handling ggml : set output of view src graph : simplify set_outputs() cont : cleanup Co-authored-by: Gaurav Garg gaugarg@nvidia.com Co-authored-by: Georgi Gerganov ggerganov@gmail.com Co-authored-by: Gaurav Garg gaugarg@nvidia.com Website: https://llama.app macOS/iOS: macOS",
+    "published": "2026-07-28T16:17:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10165",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10165",
+    "description": "vulkan: add iq4_nl support back to FA ( #24585 ) vulkan: add iq4_nl support back to FA I was originally concerned about wasting shared memory on the LUT, but it's small and unlikely to matter in practice. Also support q1_0 for non-coopmat2. Fixes #23681 remove q1_0 FA support Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu",
+    "published": "2026-07-28T15:31:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10164",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10164",
+    "description": "ggml-cuda: add chunked SSD matmul for Mamba-2 prefill acceleration ( #22675 ) ggml-cuda: add chunked SSD matmul for Mamba-2 prefill acceleration cuda: added SSD CICD fixes for CUDA / HIP / MUSA / MSVC. ggml-cuda: review comments fixed. ggml-cuda: Fuse M matrix materialization into pre_matmul kernel and enabled test. ggml-cuda: test updates and fixes ggml-cuda: test updates to remove hardcoding of tensor initialise data limits. ggml-cuda: ssd minor review comment fixed. ggml-cuda: ssd minor CICD ",
+    "published": "2026-07-28T14:30:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10159",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10159",
+    "description": "ggml-metal: FWHT kernel for metal backend ( #25924 ) metal fwht wip shape guard and formatting formatting Formatting and typos Co-authored-by: YiChen Lv 63285796+forforever73@users.noreply.github.com fix narrowing issue Co-authored-by: YiChen Lv 63285796+forforever73@users.noreply.github.com cont : minor style Co-authored-by: YiChen Lv 63285796+forforever73@users.noreply.github.com Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm6",
+    "published": "2026-07-28T11:45:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10158",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10158",
+    "description": "spec: add eagle3-v3 support for gpt-oss model ( #25794 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (Ope",
+    "published": "2026-07-28T08:56:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10156",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10156",
+    "description": "Disable -ffast-math on HIP ( #25495 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows",
+    "published": "2026-07-28T00:42:48Z",
+    "source": "llama.cpp Releases"
+  }
+]

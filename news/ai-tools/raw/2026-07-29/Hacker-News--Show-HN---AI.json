@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Hooray for the Sockets Interface",
+    "link": "https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/",
+    "description": "Article URL: https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/ Comments URL: https://news.ycombinator.com/item?id=49092754 Points: 10 # Comments: 5",
+    "published": "Wed, 29 Jul 2026 02:25:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Lean4 Datalog DSL Based on Google Zanzibar for AI Projects",
+    "link": "https://github.com/jagg-ix/zil-lean",
+    "description": "Google Zanzibar datalog lang lets you describe concepts and express how they are related. I generalize it to DSL you can use on Lean4 (and other languages) this lets you represent a knowledge base you can construct, store and evaluate, have it under git and improve without big engines or relaying on external infrastructure. Comments URL: https://news.ycombinator.com/item?id=49092730 Points: 6 # Comments: 0",
+    "published": "Wed, 29 Jul 2026 02:22:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
+    "link": "https://learnvector.ai/",
+    "description": "Article URL: https://learnvector.ai/ Comments URL: https://news.ycombinator.com/item?id=49092499 Points: 74 # Comments: 41",
+    "published": "Wed, 29 Jul 2026 01:49:19 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Multiple Mouse Cursors in Wayland",
+    "link": "https://blinry.org/multi-seat-wayland/",
+    "description": "Article URL: https://blinry.org/multi-seat-wayland/ Comments URL: https://news.ycombinator.com/item?id=49092112 Points: 40 # Comments: 17",
+    "published": "Wed, 29 Jul 2026 00:59:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Lightweight Spring Boot Monitoring Without Prometheus and Grafana",
+    "link": "https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html",
+    "description": "Article URL: https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html Comments URL: https://news.ycombinator.com/item?id=49091895 Points: 16 # Comments: 2",
+    "published": "Wed, 29 Jul 2026 00:32:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Difference Between a Button and a Link",
+    "link": "https://unplannedobsolescence.com/blog/buttons-vs-links/",
+    "description": "Article URL: https://unplannedobsolescence.com/blog/buttons-vs-links/ Comments URL: https://news.ycombinator.com/item?id=49091738 Points: 48 # Comments: 28",
+    "published": "Wed, 29 Jul 2026 00:12:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Hubble: Open-source notetaking app for you and your agents",
+    "link": "https://www.hubble.md/",
+    "description": "Article URL: https://www.hubble.md/ Comments URL: https://news.ycombinator.com/item?id=49091730 Points: 65 # Comments: 12",
+    "published": "Wed, 29 Jul 2026 00:11:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Manim (3Blue1Brown's animation engine) in the browser via WebGPU",
+    "link": "https://studio.academa.ai/",
+    "description": "Grant Sanderson (3Blue1Brown) created Manim, the Python library he uses to make the math animations in his videos. We reimplemented Manim with the same Python API, but the implementation underneath is Rust, connected to Python through PyO3. The Rust code uses wgpu, so rendering happens on the GPU. To run it in the browser, we compiled the Rust parts to WebAssembly so the PyO3 extension loads in Pyodide. In the browser, wgpu targets the WebGPU API, so animations render in real time on your GPU th",
+    "published": "Wed, 29 Jul 2026 00:07:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "ReFrame – The EPaper Camera",
+    "link": "https://reframe.camera/",
+    "description": "Article URL: https://reframe.camera/ Comments URL: https://news.ycombinator.com/item?id=49091379 Points: 59 # Comments: 14",
+    "published": "Tue, 28 Jul 2026 23:27:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
+    "link": "https://github.com/twalichiewicz/HNewhere",
+    "description": "HN is great for the links people share, but a big part of the value I get comes from reading the discussion around them. I realized I was always opening the article in one tab and the comments in another, constantly switching back and forth. I figured there was probably a simpler way, so I threw together this userscript to merge the two. 1. Clicking a link from Hacker News opens the article with a side panel containing the discussion. It doesn't require your credentials, is resizable, and is eas",
+    "published": "Tue, 28 Jul 2026 22:09:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Half-Life ported to Mac OS 9",
+    "link": "https://mac-classic.com/news/half-life-ported-to-mac-os-9/",
+    "description": "Article URL: https://mac-classic.com/news/half-life-ported-to-mac-os-9/ Comments URL: https://news.ycombinator.com/item?id=49089814 Points: 185 # Comments: 88",
+    "published": "Tue, 28 Jul 2026 20:58:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Codex Security",
+    "link": "https://github.com/openai/codex-security",
+    "description": "Article URL: https://github.com/openai/codex-security Comments URL: https://news.ycombinator.com/item?id=49089755 Points: 398 # Comments: 125",
+    "published": "Tue, 28 Jul 2026 20:52:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Pacing the frontier",
+    "link": "https://www.pacingthefrontier.com/",
+    "description": "Article URL: https://www.pacingthefrontier.com/ Comments URL: https://news.ycombinator.com/item?id=49089240 Points: 104 # Comments: 101",
+    "published": "Tue, 28 Jul 2026 20:09:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The iPhone Upgrade Program is being replaced by Apple Upgrade",
+    "link": "https://www.apple.com/shop/iphone/iphone-upgrade-program",
+    "description": "https://www.apple.com/shop/apple-upgrade Comments URL: https://news.ycombinator.com/item?id=49087306 Points: 151 # Comments: 290",
+    "published": "Tue, 28 Jul 2026 17:37:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Discovering Cryptographic Weaknesses with Claude",
+    "link": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+    "description": "Article URL: https://www.anthropic.com/research/discovering-cryptographic-weaknesses Comments URL: https://news.ycombinator.com/item?id=49087091 Points: 192 # Comments: 132",
+    "published": "Tue, 28 Jul 2026 17:22:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Steel Bank Common Lisp version 2.6.7",
+    "link": "https://sbcl.org/all-news.html?2.6.7",
+    "description": "Article URL: https://sbcl.org/all-news.html?2.6.7 Comments URL: https://news.ycombinator.com/item?id=49086971 Points: 211 # Comments: 87",
+    "published": "Tue, 28 Jul 2026 17:11:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Substack writers, you need a website",
+    "link": "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/",
+    "description": "Article URL: https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/ Comments URL: https://news.ycombinator.com/item?id=49086788 Points: 455 # Comments: 219",
+    "published": "Tue, 28 Jul 2026 16:58:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Delayed Gratification – Proud to Be 'Last to Breaking News'",
+    "link": "https://www.slow-journalism.com/",
+    "description": "Article URL: https://www.slow-journalism.com/ Comments URL: https://news.ycombinator.com/item?id=49085731 Points: 255 # Comments: 149",
+    "published": "Tue, 28 Jul 2026 15:50:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Kimi K3 Architecture Overview and Notes",
+    "link": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html",
+    "description": "Article URL: https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html Comments URL: https://news.ycombinator.com/item?id=49085698 Points: 345 # Comments: 54",
+    "published": "Tue, 28 Jul 2026 15:48:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Zig's Incremental Compilation Internals",
+    "link": "https://mlugg.co.uk/posts/incremental-compilation-internals/",
+    "description": "Article URL: https://mlugg.co.uk/posts/incremental-compilation-internals/ Comments URL: https://news.ycombinator.com/item?id=49085666 Points: 209 # Comments: 143",
+    "published": "Tue, 28 Jul 2026 15:46:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
