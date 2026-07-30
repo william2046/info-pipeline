@@ -1,0 +1,142 @@
+[
+  {
+    "title": "NSF pilots 4-year PhDs with industry research placements",
+    "link": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four",
+    "description": "Article URL: https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four Comments URL: https://news.ycombinator.com/item?id=49105642 Points: 34 # Comments: 12",
+    "published": "Thu, 30 Jul 2026 02:55:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Kuna: Decompiler Development in the Age of Coding Agents",
+    "link": "https://noelo.org/blog/kuna-release/",
+    "description": "Article URL: https://noelo.org/blog/kuna-release/ Comments URL: https://news.ycombinator.com/item?id=49105563 Points: 6 # Comments: 0",
+    "published": "Thu, 30 Jul 2026 02:41:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Flume Water Monitor 915 MHz Security Is Pretty Good",
+    "link": "https://waveformsecurity.com/blog/flume/",
+    "description": "Article URL: https://waveformsecurity.com/blog/flume/ Comments URL: https://news.ycombinator.com/item?id=49105136 Points: 19 # Comments: 13",
+    "published": "Thu, 30 Jul 2026 01:27:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Logic for Programmers by Hillel Wayne",
+    "link": "https://logicforprogrammers.com/",
+    "description": "Article URL: https://logicforprogrammers.com/ Comments URL: https://news.ycombinator.com/item?id=49104937 Points: 19 # Comments: 0",
+    "published": "Thu, 30 Jul 2026 00:51:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: A local merge queue for parallel Claude Code agents",
+    "link": "https://github.com/funador/claude-code-merge-queue",
+    "description": "I have been pushing up to 90 commits a day on a MacBook Air via 4-5 parallel agents. As you can imagine when all the agents try to build, test and run dev servers on an 8GB machine it is the fast lane to a force quit and restart. I also did not want to pay the CI minutes on 90 pushes a day. So I designed a local merge queue to have all commits land one at a time and fully tested. Hopefully this helps other folks with more modest machines. Appreciate any feedback. Comments URL: https://news.ycomb",
+    "published": "Thu, 30 Jul 2026 00:20:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Productivity Mirage",
+    "link": "https://frantic.im/mirage/",
+    "description": "Article URL: https://frantic.im/mirage/ Comments URL: https://news.ycombinator.com/item?id=49104335 Points: 80 # Comments: 19",
+    "published": "Wed, 29 Jul 2026 23:18:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Man and the Computer by John G. Kemeny (1972 book by the co-creator of BASIC)",
+    "link": "https://archive.org/details/mancomputerbyjoh0000john",
+    "description": "Article URL: https://archive.org/details/mancomputerbyjoh0000john Comments URL: https://news.ycombinator.com/item?id=49104140 Points: 29 # Comments: 10",
+    "published": "Wed, 29 Jul 2026 22:53:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "LLM Honeypot",
+    "link": "https://llm2human.pages.dev/",
+    "description": "Article URL: https://llm2human.pages.dev/ Comments URL: https://news.ycombinator.com/item?id=49104117 Points: 97 # Comments: 40",
+    "published": "Wed, 29 Jul 2026 22:51:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "AI's top startups are barely publishing their research",
+    "link": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+    "description": "Article URL: https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research Comments URL: https://news.ycombinator.com/item?id=49103285 Points: 273 # Comments: 154",
+    "published": "Wed, 29 Jul 2026 21:25:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Cold Email",
+    "link": "https://zachholman.com/posts/cold-email",
+    "description": "Article URL: https://zachholman.com/posts/cold-email Comments URL: https://news.ycombinator.com/item?id=49103089 Points: 117 # Comments: 44",
+    "published": "Wed, 29 Jul 2026 21:06:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "SalesPatriot (YC W25) Is Hiring FDEs",
+    "link": "https://www.ycombinator.com/companies/salespatriot/jobs/M46X6YX-forward-deployed-engineer",
+    "description": "Article URL: https://www.ycombinator.com/companies/salespatriot/jobs/M46X6YX-forward-deployed-engineer Comments URL: https://news.ycombinator.com/item?id=49103026 Points: 0 # Comments: 0",
+    "published": "Wed, 29 Jul 2026 21:01:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The coolest use for the Vision Pro",
+    "link": "https://christianselig.com/2026/07/vision-pro-house/",
+    "description": "Article URL: https://christianselig.com/2026/07/vision-pro-house/ Comments URL: https://news.ycombinator.com/item?id=49102774 Points: 456 # Comments: 201",
+    "published": "Wed, 29 Jul 2026 20:39:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A Trampoline",
+    "link": "https://dogdogfish.com/blog/2026/07/29/a-trampoline/",
+    "description": "Article URL: https://dogdogfish.com/blog/2026/07/29/a-trampoline/ Comments URL: https://news.ycombinator.com/item?id=49102425 Points: 77 # Comments: 44",
+    "published": "Wed, 29 Jul 2026 20:14:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Kimi K3-256k",
+    "link": "https://www.kimi.com/code/docs/en/kimi-code/models",
+    "description": "Article URL: https://www.kimi.com/code/docs/en/kimi-code/models Comments URL: https://news.ycombinator.com/item?id=49101852 Points: 364 # Comments: 110",
+    "published": "Wed, 29 Jul 2026 19:25:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Commodification of Intelligence: Good, Bad, and Ugly Circular AI Deals",
+    "link": "https://www.emergingtrajectories.com/lh/commodification-and-circularity/",
+    "description": "Article URL: https://www.emergingtrajectories.com/lh/commodification-and-circularity/ Comments URL: https://news.ycombinator.com/item?id=49101529 Points: 63 # Comments: 34",
+    "published": "Wed, 29 Jul 2026 18:57:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Turning a dumb AC unit smart (without losing my security deposit)",
+    "link": "https://prilik.com/blog/post/automating-ac-nyc/",
+    "description": "Article URL: https://prilik.com/blog/post/automating-ac-nyc/ Comments URL: https://news.ycombinator.com/item?id=49101198 Points: 123 # Comments: 96",
+    "published": "Wed, 29 Jul 2026 18:28:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "PgDog (YC P25) Is Hiring",
+    "link": "https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer",
+    "description": "Article URL: https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer Comments URL: https://news.ycombinator.com/item?id=49100056 Points: 0 # Comments: 0",
+    "published": "Wed, 29 Jul 2026 17:01:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: CheapFoodMap – A map of good meals under $10",
+    "link": "https://cheapfoodmap.com/",
+    "description": "I was recently laid off after 18 years, and gave myself 100 days to build soething useful in public. CheapFoodMap is a crowdsourced map of meal under $10, excluding franchises, local good eats only. It's inspried by 거지맵 (Begger's Map) a Korean crowdsourced map students use to find cheap eats. Ocverage is heaviest in Texas, since I live in Dallas, but have 1200 meals across 15 US cities. Seed data came from Google Review, 4.2 star or higher with at least 500 reviews, and verified price under $10 ",
+    "published": "Wed, 29 Jul 2026 16:59:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Some thoughts about Anthropic's new cryptanalysis results",
+    "link": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
+    "description": "Article URL: https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/ Comments URL: https://news.ycombinator.com/item?id=49099804 Points: 117 # Comments: 63",
+    "published": "Wed, 29 Jul 2026 16:42:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Keychron announces first open-source firmware for gaming mice",
+    "link": "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice",
+    "description": "Article URL: https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice Comments URL: https://news.ycombinator.com/item?id=49099715 Points: 309 # Comments: 118",
+    "published": "Wed, 29 Jul 2026 16:36:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

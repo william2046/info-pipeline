@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10182",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10182",
+    "description": "llama: move suppress_tokens handling to common/sampling ( #26276 ) llama: move suppress_tokens handling to common/sampling address security issues rm has_logit_bias Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x6",
+    "published": "2026-07-29T17:03:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10181",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10181",
+    "description": "ggml-cuda : disable MMQ on devices with less than 48 KiB shared memory ( #26141 ) ggml_cuda_should_use_mmq() selects MMQ purely from the quantization type. The current MMQ configurations are designed and maintained against a minimum of 48 KiB per-block shared memory, the limit provided by NVIDIA Pascal GPUs and later. On devices that report less, no supported MMQ tile fits and mul_mat_q_switch_J() aborts when every tile size exceeds the device's per-block shared memory budget. Disable MMQ when s",
+    "published": "2026-07-29T15:11:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10180",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10180",
+    "description": "sycl: contiguous fast path + 32-bit index math for unary elementwise ops ( #25946 ) sycl: contiguous fast path + 32-bit index math for unary elementwise ops sycl: use fastdiv for elementwise index math Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenV",
+    "published": "2026-07-29T14:35:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10179",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10179",
+    "description": "vendor: update BoringSSL to 0.20260728.0 ( #26241 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL A",
+    "published": "2026-07-29T13:52:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10178",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10178",
+    "description": "server : add trace logging for slot similarity checking ( #26271 ) Adds trace logging in server-context.cpp for slot similarity checking during prompt cache slot selection, including skip reasons and similarity calculation details. Assisted-by: llama.cpp:Qwen3.6-27B Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulk",
+    "published": "2026-07-29T13:03:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10176",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10176",
+    "description": "RPC: add tensor_memset ( #25912 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64",
+    "published": "2026-07-29T08:52:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10175",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10175",
+    "description": "add rdna3.5, and 3 to mmq configs so they can be tuned independently. ( #26199 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 ",
+    "published": "2026-07-29T08:07:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10174",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10174",
+    "description": "model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) ( #25980 ) model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2) Adds GLM-5.2 NextN/MTP as a --spec-type draft-mtp target: nextn tensor loading via the qwen35moe/step35-style presence probe, a graph_mtp builder (enorm/hnorm/eh_proj + dense MLA + sigmoid-gated MoE with shared expert + shared head with fallbacks, _s scale tensors passed for NVFP4), t_h_nextn extraction in the trunk graph, and MTP-context KV s",
+    "published": "2026-07-29T07:17:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10173",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10173",
+    "description": "model: Add Laguna-S-2.1 LLM_TYPE ( #26233 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) W",
+    "published": "2026-07-28T20:06:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10172",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10172",
+    "description": "ggml-webgpu: Fix some binding alias issues to support all archs, fix recurrent-state-rollback test ( #25931 ) Add overlap glu variant to support all archs, fix recurrent-state-rollback test format Fix all arch overlapped ranges format diagnose bus error on apple ci More testing more testing more targeted testing Fix bug in alignment for > 4gb buffer offsets Fix bug in view offsets Try avoiding multi_buffers not fixed yet, more logging :( Handle edge case in set_rows Try looking at view source Sk",
+    "published": "2026-07-28T19:29:10Z",
+    "source": "llama.cpp Releases"
+  }
+]
