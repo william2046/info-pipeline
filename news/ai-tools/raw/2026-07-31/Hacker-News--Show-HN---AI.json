@@ -1,0 +1,142 @@
+[
+  {
+    "title": "The bond market isn't buying what Fed Chair Warsh is selling",
+    "link": "https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/",
+    "description": "Article URL: https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/ Comments URL: https://news.ycombinator.com/item?id=49118696 Points: 27 # Comments: 0",
+    "published": "Fri, 31 Jul 2026 03:32:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A California aquifer may have crossed the point of no return",
+    "link": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
+    "description": "Article URL: https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return Comments URL: https://news.ycombinator.com/item?id=49118663 Points: 47 # Comments: 22",
+    "published": "Fri, 31 Jul 2026 03:27:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Religion of Speed",
+    "link": "https://graybeard.ing/the-religion-of-speed/",
+    "description": "Article URL: https://graybeard.ing/the-religion-of-speed/ Comments URL: https://news.ycombinator.com/item?id=49117284 Points: 40 # Comments: 10",
+    "published": "Thu, 30 Jul 2026 23:43:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The AI Aesthetic",
+    "link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+    "description": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 185 # Comments: 99",
+    "published": "Thu, 30 Jul 2026 23:22:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+    "link": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+    "description": "Article URL: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals Comments URL: https://news.ycombinator.com/item?id=49116922 Points: 129 # Comments: 92",
+    "published": "Thu, 30 Jul 2026 23:00:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I flagged two research papers for fake authors and both were accepted as orals",
+    "link": "https://geospatialml.com/posts/reviewing-ai-slop/",
+    "description": "Article URL: https://geospatialml.com/posts/reviewing-ai-slop/ Comments URL: https://news.ycombinator.com/item?id=49116721 Points: 121 # Comments: 55",
+    "published": "Thu, 30 Jul 2026 22:33:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Rune 1.1: adds Python, an Emacs editor, a symbol index and is now free",
+    "link": "https://rune.build/blog/rune-1-1-release",
+    "description": "Article URL: https://rune.build/blog/rune-1-1-release Comments URL: https://news.ycombinator.com/item?id=49116272 Points: 57 # Comments: 18",
+    "published": "Thu, 30 Jul 2026 21:47:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Saber-toothed cats became inbred–and struggled to move–before they went extinct",
+    "link": "https://www.science.org/content/article/saber-toothed-cats-became-inbred-and-struggled-move-they-went-extinct",
+    "description": "Article URL: https://www.science.org/content/article/saber-toothed-cats-became-inbred-and-struggled-move-they-went-extinct Comments URL: https://news.ycombinator.com/item?id=49116074 Points: 36 # Comments: 14",
+    "published": "Thu, 30 Jul 2026 21:31:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
+    "link": "https://github.com/AminBlg/SimpleEnglish",
+    "description": "Article URL: https://github.com/AminBlg/SimpleEnglish Comments URL: https://news.ycombinator.com/item?id=49114639 Points: 241 # Comments: 86",
+    "published": "Thu, 30 Jul 2026 19:34:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "UEFA and its national associations will not participate in FIFA competitions",
+    "link": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
+    "description": "Article URL: https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/ Comments URL: https://news.ycombinator.com/item?id=49113929 Points: 854 # Comments: 476",
+    "published": "Thu, 30 Jul 2026 18:40:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+    "link": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+    "description": "We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the 20B open weights. With V4 as the teacher though, we realized it would be timely to measure if the censorship characteristic of it transferred to the distilled version of the base model. tl;dr it didn't, the teacher answe",
+    "published": "Thu, 30 Jul 2026 18:13:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "CodePen 2.0",
+    "link": "https://chriscoyier.net/2026/07/30/codepen-2-0/",
+    "description": "Article URL: https://chriscoyier.net/2026/07/30/codepen-2-0/ Comments URL: https://news.ycombinator.com/item?id=49113338 Points: 143 # Comments: 43",
+    "published": "Thu, 30 Jul 2026 17:52:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
+    "link": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
+    "description": "Article URL: https://www.bottlenecklabs.com/blog/autonomously-run-businesses Comments URL: https://news.ycombinator.com/item?id=49113059 Points: 321 # Comments: 195",
+    "published": "Thu, 30 Jul 2026 17:31:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Advancing the price-performance frontier with GPT‑5.6",
+    "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+    "description": "Article URL: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/ Comments URL: https://news.ycombinator.com/item?id=49112867 Points: 528 # Comments: 342",
+    "published": "Thu, 30 Jul 2026 17:15:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Read this before you buy that TV streaming stick",
+    "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+    "description": "Article URL: https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/ Comments URL: https://news.ycombinator.com/item?id=49112744 Points: 616 # Comments: 363",
+    "published": "Thu, 30 Jul 2026 17:04:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Rise Reforming (YC S26) Is Hiring",
+    "link": "https://www.ycombinator.com/companies/rise-reforming/jobs/wJ9Q9nv-senior-chemical-process-engineer",
+    "description": "Article URL: https://www.ycombinator.com/companies/rise-reforming/jobs/wJ9Q9nv-senior-chemical-process-engineer Comments URL: https://news.ycombinator.com/item?id=49112683 Points: 0 # Comments: 0",
+    "published": "Thu, 30 Jul 2026 17:00:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Stacked PRs are now live on GitHub",
+    "link": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+    "description": "Article URL: https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/ Comments URL: https://news.ycombinator.com/item?id=49112232 Points: 517 # Comments: 176",
+    "published": "Thu, 30 Jul 2026 16:26:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Physicists Solve a Muon Mystery. Now, Old Results Don't Add Up",
+    "link": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/",
+    "description": "Article URL: https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/ Comments URL: https://news.ycombinator.com/item?id=49111305 Points: 189 # Comments: 109",
+    "published": "Thu, 30 Jul 2026 15:22:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+    "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+    "description": "Article URL: https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/ Comments URL: https://news.ycombinator.com/item?id=49111237 Points: 501 # Comments: 401",
+    "published": "Thu, 30 Jul 2026 15:15:48 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Economic Benefit of Refactoring",
+    "link": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
+    "description": "Article URL: https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html Comments URL: https://news.ycombinator.com/item?id=49111176 Points: 212 # Comments: 87",
+    "published": "Thu, 30 Jul 2026 15:10:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10199",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10199",
+    "description": "server: support inp embd to generate next token ( #26313 ) server: support embd for sampled token fix ~server_batch() Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wind",
+    "published": "2026-07-30T20:34:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10198",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10198",
+    "description": "vulkan: Support quantized concat ( #25684 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) W",
+    "published": "2026-07-30T19:39:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10197",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10197",
+    "description": "Test support for alternative conv layout ( #25617 ) add bool cwhn = true to conv_2d test cases add layout check at graph building time extend layout checks for conv2d.cu kernel in CPU back-end kernel needs to be stored contiguously to prevent test failures with cwhn=1 trim white space do op support check in vulkan backend fix CI failure and vulkan run-time assert failure by introducing new graph build-time check in ggml_backend_vk_device_supports_op add additional check in support_op function fo",
+    "published": "2026-07-30T19:07:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10196",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10196",
+    "description": "llama-context : sync pending async copies before clearing embd_seq ( #25676 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CP",
+    "published": "2026-07-30T18:30:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10195",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10195",
+    "description": "tests : avoid building get-model.cpp many times ( #26317 ) tests : remove get-model.cpp tests : fix quant type selection Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) W",
+    "published": "2026-07-30T17:25:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10194",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10194",
+    "description": "ggml-cuda: Allow transpose-free gemmv computation ( #26171 ) When matrix's weights are shaped 1xK is leverage a transpose-free computation to use mat_mul_vec_f. Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (S",
+    "published": "2026-07-30T15:02:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10192",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10192",
+    "description": "sync : ggml Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4",
+    "published": "2026-07-30T13:46:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10189",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10189",
+    "description": "Remove custom cpu op from the M3 graph, express with stock ops ( #26297 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) W",
+    "published": "2026-07-30T09:35:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10188",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10188",
+    "description": "metal: fix memory unwire if model is freed without any GPU operations ( #26082 ) metal: fix memory leak if model is freed without any GPU operations metal: run dummy work only if residency sets are used metal: wrap function in #if defined metal: measure system-wide wired memory in test metal: always build regression test Co-authored-by: YiChen Lv 63285796+forforever73@users.noreply.github.com Co-authored-by: YiChen Lv 63285796+forforever73@users.noreply.github.com Website: https://llama.app macO",
+    "published": "2026-07-30T08:59:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10186",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10186",
+    "description": "ggml : Fix issue with kleidiai ci and stringop overflow warning ( #26277 ) Signed-off-by: Jonathan Clohessy Jonathan.Clohessy@arm.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+    "published": "2026-07-30T07:37:42Z",
+    "source": "llama.cpp Releases"
+  }
+]
