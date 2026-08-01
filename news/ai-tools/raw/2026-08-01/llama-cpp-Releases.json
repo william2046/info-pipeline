@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10216",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10216",
+    "description": "vulkan: add POOL_1D op ( #25431 ) vulkan : add pool1d push constants and pipeline field Declared data structures needed for POOL1D OP, which are the vk_op_pool1d_push_constants struct and pipeline_pool1d_f32 field. vulkan : add pool1d compute shader Added pool1d.comp for Vulkan backend mirroring the existing pool2d shader. vulkan : add full GGML_OP_POOL_1D support Added pipeline creation and op dispatch for 1D pooling in the Vulkan backend. vulkan : fix pool1d shader logic Registered pool1d_f32 ",
+    "published": "2026-07-31T22:06:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10215",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10215",
+    "description": "vulkan: Introduce driver version check for Windows Intel GPU to mitigate crashing ( #25192 ) Removed crash guard for Intel Crash fixed from driver 32.0.101.8860 Added driver version check for windows Change to convert from driverVersion rather than string No need to use signed Refactor allow GPU other than Xe2+ adjusted function body position Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework ",
+    "published": "2026-07-31T21:33:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10214",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10214",
+    "description": "mtmd: add n_embd_head ( #26342 ) Co-authored-by: Daniel Han unslothai@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (",
+    "published": "2026-07-31T20:47:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10213",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10213",
+    "description": "Support rotated kv cache quant ( #26180 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Win",
+    "published": "2026-07-31T20:12:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10212",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10212",
+    "description": "llama : load MTP tensors only if they are really used ( #26296 ) llama : load MTP tensors only if they are really used llama : skip loading MTP (if not used) in remaining models that support MTP Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (",
+    "published": "2026-07-31T19:27:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10211",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10211",
+    "description": "vulkan: update vulkan sdk to 1.4.357.0 ( #26303 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adr",
+    "published": "2026-07-31T18:53:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10210",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10210",
+    "description": "server: correct accepted tokens when need draft token replay ( #26320 ) spec: correct accepted tokens when need draft token replay cont : naming Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) ",
+    "published": "2026-07-31T18:11:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10209",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10209",
+    "description": "cuda: extract Q2_0 elements via __byte_perm ( #25603 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenC",
+    "published": "2026-07-31T17:30:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10208",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10208",
+    "description": "SYCL: add oneMKL GEMM flash attention for XMX-accelerated prompt proc… ( #25025 ) SYCL: add oneMKL GEMM flash attention for XMX-accelerated prompt processing fattn-mkl: fix interleaved dst layout in normalize kernel Fix mkl_fa_normalize_head: use interleaved dst layout ((query * n_q_heads + head) * DV) matching TILE's flash_attn_combine_results. Previously used dense head-major layout which wrote head outputs to wrong addresses, corrupting attention for all models except Qwen3.6-27B (where GQA=6",
+    "published": "2026-07-31T16:05:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10207",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10207",
+    "description": "[SYCL] support the missed types in cpy ( #26005 ) support the missed types in cpy use correct funct rm unused code Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows",
+    "published": "2026-07-31T15:14:55Z",
+    "source": "llama.cpp Releases"
+  }
+]
