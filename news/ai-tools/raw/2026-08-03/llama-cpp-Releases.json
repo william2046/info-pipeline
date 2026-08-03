@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10235",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10235",
+    "description": "metal : add SILU_BACK ( #25982 ) feat(silu_back): implemented silu_back op for f32 fix(silu_back): removed redundant asserts in ggml-metal-ops.cpp function ggml_metal_op_silu_back. Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL",
+    "published": "2026-08-02T21:04:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10234",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10234",
+    "description": "metal : add F16 support for bin ops ( #26465 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno",
+    "published": "2026-08-02T20:19:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10233",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10233",
+    "description": "opencl: limit local workgroup size for GLU operation ( #26383 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm",
+    "published": "2026-08-02T19:40:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10232",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10232",
+    "description": "metal: implement DeepSeek V4 hyper-connections ( #26459 ) Implement GGML_OP_DSV4_HC_COMB, GGML_OP_DSV4_HC_PRE, and GGML_OP_DSV4_HC_POST with SIMDgroup register and shuffle optimized kernels. Add Metal dispatch and support plumbing and test the production Sinkhorn iteration count and embedding width. Assisted-by: Codex Co-authored-by: Thiago Padilha thiago@padilha.cc Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Inte",
+    "published": "2026-08-02T18:59:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10231",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10231",
+    "description": "common: support the DSpark sidecar resolution ( #26458 ) The dspark- files resolve like the other speculative sidecars: the -hfd tag applies to them, a requested sidecar resolves without a full model at the tag, and an explicit -md selection disables the discovery. When no type is requested, dspark outranks dflash in the auto-selection since its sidecar carries the extra Markov head. Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) D",
+    "published": "2026-08-02T18:15:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10229",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10229",
+    "description": "opencl: bugfix increment ref_count in ggml_backend_opencl_init() ( #26162 ) Incrementing ref_count at the beginning is important later in the free() method of the ggml_backend_opencl_context at program end. If we do not increment the ref_count , the result would be -1 here, and consequently, the profiling data would not be flushed and written. ( #ifdef GGML_OPENCL_PROFILING ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED ",
+    "published": "2026-08-02T14:33:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10228",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10228",
+    "description": "DeepseekV4 MTP + DSpark ( #25784 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x6",
+    "published": "2026-08-02T13:30:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10227",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10227",
+    "description": "chat : add qwen3 specialized parser ( #26252 ) Add tagged thinking tool parser chat : refactor and add permute helper cont : add support for <tool_call> omission cont : update tool delimiters cont : add comment for qwen3-coder cont : fix trigger pattern for <function Co-authored-by: Bart de Boer bart.deboer@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ub",
+    "published": "2026-08-02T09:45:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10226",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10226",
+    "description": "sycl: fix classification of iGPUs ( #26105 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) ",
+    "published": "2026-08-02T08:16:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10225",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10225",
+    "description": "model : load MiMo V2 MTP tensors only if used ( #26412 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (Ope",
+    "published": "2026-08-02T08:32:05Z",
+    "source": "llama.cpp Releases"
+  }
+]
