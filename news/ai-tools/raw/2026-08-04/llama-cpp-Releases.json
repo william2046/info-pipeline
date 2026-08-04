@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10252",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10252",
+    "description": "vendor : update BoringSSL to 0.20260803.0 ( #26523 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL ",
+    "published": "2026-08-04T03:49:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10251",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10251",
+    "description": "model : support MTP in GLM-4.7-Flash ( #24868 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adren",
+    "published": "2026-08-04T03:08:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10250",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10250",
+    "description": "tests: add model resolution test on synthetic repo listings ( #26172 ) tests: add model resolution test on synthetic repo listings Include download.cpp and arg.cpp inside a namespace with hf_cache monkey patched to serve hardcoded listings, so the resolution and the model handler assembly are tested end-to-end through the real CLI parsing, without modifying the tested code and without network access. Covers the primary, shard, mmproj, sidecar and preset resolution on layouts mimicking real vendo",
+    "published": "2026-08-04T02:07:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10249",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10249",
+    "description": "server: add get_info tool ( #26522 ) server: add get_info tool fix --rpc in docs server: harden get_info probe result handling Report the OS as unknown when the probe process fails to spawn or times out, so the diagnostic text from run() is never returned as an OS name. Strip the probe output on both ends, which also drops the blank line that ver prints before the version on Windows. Name the output and timeout limits, and report an unreadable working directory as unknown instead of an empty str",
+    "published": "2026-08-04T01:38:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10248",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10248",
+    "description": "vocab : validate default special token ids ( #26506 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL",
+    "published": "2026-08-04T01:03:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10247",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10247",
+    "description": "ggml: use dynamic allocation for split graph inputs ( #22789 ) ggml: use dynamic allocation for split graph inputs Replace fixed-size GGML_SCHED_MAX_SPLIT_INPUTS arrays with dynamically allocated buffers in the backend scheduler. This fixes crashes when loading wide MoE models (Gemma 4, Qwen MoE, Mixtral, DeepSeek) on multi-backend setups where graph splits exceed 30 input tensors. split->inputs: dynamic array with grow-on-demand sched->graph_inputs: dynamic array with grow-on-demand graph_size ",
+    "published": "2026-08-04T00:28:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10246",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10246",
+    "description": "opencl: route large q6_K lm_head to the flat GEMV ( #26427 ) add a direct size condition for large weights; the original dimension condition is insufficient -- q6_K lm_head for gemma-4 E2B has [1536, 262144], which is big enough to slowdown gemv_noshuffle but does not satisfy the dimension condition (ne0 >= 2048) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu",
+    "published": "2026-08-03T23:40:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10245",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10245",
+    "description": "graph : fix unused input tensors in minimax m3 graph ( #26519 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm",
+    "published": "2026-08-03T23:00:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10244",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10244",
+    "description": "model: M3: Move MSA into a new memory implementation ( #26338 ) Move MSA logic from llama-kv-cache into llama-kv-cache-msa cont : minor cont : ws fix Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenV",
+    "published": "2026-08-03T22:15:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10243",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10243",
+    "description": "llama : allocate indexer cache only in \"full\" indexer layers ( #26474 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
+    "published": "2026-08-03T20:12:30Z",
+    "source": "llama.cpp Releases"
+  }
+]
