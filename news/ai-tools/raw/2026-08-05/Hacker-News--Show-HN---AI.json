@@ -1,0 +1,142 @@
+[
+  {
+    "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted",
+    "link": "https://www.asiae.co.kr/en/article/2026080416131786841",
+    "description": "Article URL: https://www.asiae.co.kr/en/article/2026080416131786841 Comments URL: https://news.ycombinator.com/item?id=49177554 Points: 26 # Comments: 13",
+    "published": "Wed, 05 Aug 2026 01:34:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice",
+    "link": "https://arxiv.org/abs/2603.04221",
+    "description": "Article URL: https://arxiv.org/abs/2603.04221 Comments URL: https://news.ycombinator.com/item?id=49176983 Points: 39 # Comments: 25",
+    "published": "Wed, 05 Aug 2026 00:10:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Bugtraq Is Back",
+    "link": "https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/",
+    "description": "Article URL: https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/ Comments URL: https://news.ycombinator.com/item?id=49176947 Points: 29 # Comments: 6",
+    "published": "Wed, 05 Aug 2026 00:05:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Flowise Is Shutting Down",
+    "link": "https://flowiseai.com/sunset",
+    "description": "Article URL: https://flowiseai.com/sunset Comments URL: https://news.ycombinator.com/item?id=49176920 Points: 26 # Comments: 14",
+    "published": "Wed, 05 Aug 2026 00:02:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Eight Myths on Software Engineering and GenAI",
+    "link": "https://queue.acm.org/detail.cfm?id=3807963",
+    "description": "Article URL: https://queue.acm.org/detail.cfm?id=3807963 Comments URL: https://news.ycombinator.com/item?id=49176830 Points: 110 # Comments: 72",
+    "published": "Tue, 04 Aug 2026 23:50:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay",
+    "link": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/",
+    "description": "Article URL: https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/ Comments URL: https://news.ycombinator.com/item?id=49176697 Points: 59 # Comments: 7",
+    "published": "Tue, 04 Aug 2026 23:31:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "FIPS 140-3 is not a security guarantee, and auditors know it",
+    "link": "https://808bits.com/articles/fips-140-3-not-a-security-guarantee/",
+    "description": "Article URL: https://808bits.com/articles/fips-140-3-not-a-security-guarantee/ Comments URL: https://news.ycombinator.com/item?id=49176634 Points: 34 # Comments: 19",
+    "published": "Tue, 04 Aug 2026 23:21:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "libexpat now funded by the City of Munich for up to 6 months",
+    "link": "https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/",
+    "description": "Article URL: https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/ Comments URL: https://news.ycombinator.com/item?id=49176606 Points: 176 # Comments: 20",
+    "published": "Tue, 04 Aug 2026 23:18:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: SIMD Viterbi Decoder in Rust",
+    "link": "https://github.com/brian-armstrong/fec",
+    "description": "I wrote libcorrect in C in 2016 and wanted to revisit it in Rust. Instead of doing just a direct conversion, I went down the rabbit hole of making Rust's std::simd work for me. I ended up with a templated, generic Viterbi decoder for convolutional codes that dispatches the decode at runtime depending on which instruction sets are available. For small rates and orders, the entire decode lives in registers. Larger codes work through memory but take advantage of some acceleration structures. I also",
+    "published": "Tue, 04 Aug 2026 22:37:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "We finally learned to center a div, then browsers added sidebars",
+    "link": "https://seg6.space/posts/center-div/",
+    "description": "Article URL: https://seg6.space/posts/center-div/ Comments URL: https://news.ycombinator.com/item?id=49176055 Points: 79 # Comments: 69",
+    "published": "Tue, 04 Aug 2026 22:24:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Pi's Minimalism Is Its Advantage",
+    "link": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
+    "description": "Article URL: https://earendil.com/posts/pi-autoresearch-and-databricks/ Comments URL: https://news.ycombinator.com/item?id=49176038 Points: 169 # Comments: 62",
+    "published": "Tue, 04 Aug 2026 22:22:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "DuckDB – Data power tools for your laptop, now in Clojure (2023)",
+    "link": "https://techascent.com/blog/just-ducking-around.html",
+    "description": "Article URL: https://techascent.com/blog/just-ducking-around.html Comments URL: https://news.ycombinator.com/item?id=49175924 Points: 65 # Comments: 6",
+    "published": "Tue, 04 Aug 2026 22:09:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
+    "link": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
+    "description": "https://www.interpol.int/Media/Documents/Publications/Cyberc... Comments URL: https://news.ycombinator.com/item?id=49175826 Points: 161 # Comments: 119",
+    "published": "Tue, 04 Aug 2026 22:01:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Cloudflare Wallets: the programmable wallet for the agentic Internet",
+    "link": "https://blog.cloudflare.com/wallets/",
+    "description": "Article URL: https://blog.cloudflare.com/wallets/ Comments URL: https://news.ycombinator.com/item?id=49175461 Points: 32 # Comments: 10",
+    "published": "Tue, 04 Aug 2026 21:31:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I am retiring from fulltime writing (& pseudonymity) to launch Guardian Angel",
+    "link": "https://twitter.com/gwern/status/2084739205071343837",
+    "description": "https://twitter.com/willdepue/status/2084750925013434768 , https://xcancel.com/willdepue/status/2084750925013434768 https://gwern.net/guardian-angel Comments URL: https://news.ycombinator.com/item?id=49174900 Points: 212 # Comments: 129",
+    "published": "Tue, 04 Aug 2026 20:48:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Oxide Computer raises $445M (SEC Form D)",
+    "link": "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
+    "description": "Article URL: https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml Comments URL: https://news.ycombinator.com/item?id=49174407 Points: 215 # Comments: 107",
+    "published": "Tue, 04 Aug 2026 20:13:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Maple-Preview – ternary 20B MoE running at 120 tok/s on a iPhone",
+    "link": "https://deepgrove.ai/maple-preview",
+    "description": "Article URL: https://deepgrove.ai/maple-preview Comments URL: https://news.ycombinator.com/item?id=49173984 Points: 74 # Comments: 21",
+    "published": "Tue, 04 Aug 2026 19:44:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
+    "link": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
+    "description": "Article URL: https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/ Comments URL: https://news.ycombinator.com/item?id=49173165 Points: 1081 # Comments: 58",
+    "published": "Tue, 04 Aug 2026 18:51:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Waymo in Dallas",
+    "link": "https://waymo.com/blog/shorts/dallas-open-to-all/",
+    "description": "Article URL: https://waymo.com/blog/shorts/dallas-open-to-all/ Comments URL: https://news.ycombinator.com/item?id=49172836 Points: 268 # Comments: 415",
+    "published": "Tue, 04 Aug 2026 18:29:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Truemetrics (YC S23) Is Hiring in Berlin – GTM Lead",
+    "link": "https://www.ycombinator.com/companies/truemetrics/jobs/bIQQ7tP-founding-gtm-lead",
+    "description": "Article URL: https://www.ycombinator.com/companies/truemetrics/jobs/bIQQ7tP-founding-gtm-lead Comments URL: https://news.ycombinator.com/item?id=49171650 Points: 0 # Comments: 0",
+    "published": "Tue, 04 Aug 2026 17:00:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

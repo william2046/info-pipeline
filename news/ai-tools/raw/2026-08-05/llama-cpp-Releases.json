@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10276",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10276",
+    "description": "Prefer npm ci over install for security ( #26601 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Ad",
+    "published": "2026-08-05T00:23:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10275",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10275",
+    "description": "server: decode Windows OEM output to UTF-8 in built-in tools ( #26597 ) a child process writes in the OEM code page, which is not UTF-8 on a western Windows install, so accented output reaches the JSON layer as invalid bytes and gets replaced there, silently losing the characters run() spawns without a console, so the child never inherits the console code page and GetOEMCP is the one that applies decode with MB_ERR_INVALID_CHARS so a wrong code page returns the text untouched instead of emitting",
+    "published": "2026-08-04T23:50:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10274",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10274",
+    "description": "mtmd: correcting duplicate empty audio chunks for short inputs ( #26536 ) correcting duplicate empty audio chunks for short inputs tests.sh code restored Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP1",
+    "published": "2026-08-04T23:14:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10273",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10273",
+    "description": "sampler : remove \"full-context windows\" from history-based samplers ( #26524 ) Resolve -1 to 1024 instead of ctx-len for samplers Because of backend-sampling we initialize samplers before the complete llama_context is there. Therefore, we cannot infer the resolved context length yet at the time we construct the samplers. Shared default of 64 for history-based samplers, remove context_size Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabl",
+    "published": "2026-08-04T20:33:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10271",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10271",
+    "description": "ui: CWD for agent ( #26518 ) server : extend file_glob_search for UI pickers ui : add per-conversation working directory with picker ui : add path navigation and search scope to cwd picker Treat path-like queries (starting with / or ~) as directory navigation instead of glob-matching the whole query: search the parent for the last segment, and descend into an exactly-typed directory by listing its children. Show the effective search scope in the footer and auto-search on open so the current dire",
+    "published": "2026-08-04T18:56:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10270",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10270",
+    "description": "mtmd: support Qwen3-TTS (note: breaking change to llama-tts binary) ( #26254 ) convert text model main model load ok convert encoder ok speaker encoder loading ok speaker enc graph adapt vocab for backbone (with some tricks) add suppress_tokens poc new mtmd gen api convert code_predictor to gguf load gen_code model ok add clip_encode wire up code gen cgraph init version Co-authored-by: Pascal admin@serveurperso.com code2wav convert to gguf code2wav graph ok wire up in/out (wip) subgraph wire up ",
+    "published": "2026-08-04T18:06:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10269",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10269",
+    "description": "models : fix dflash wo_a reshape on load ( #26577 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL A",
+    "published": "2026-08-04T17:24:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10268",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10268",
+    "description": "ci: fix pre-built binaries no longer working on macOS 15 and below ( #26375 ) ci: fix pre-built binaries no longer working on macOS 15 and below ci: add macOS deployment target to disabled KleidiAI build Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (Ope",
+    "published": "2026-08-04T16:40:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10267",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10267",
+    "description": "speculative : refactor enabled configs common_speculative_init ( #26510 ) This commit contains a suggestion to reduce some code duplication in common_speculative_init when adding the enabled speculative decoding configurations. No tests were added but the existing server tests still passes with this change: $ ./tests.sh unit/test_speculative.py -v -x Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFr",
+    "published": "2026-08-04T15:56:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10265",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10265",
+    "description": "sync : ggml Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4",
+    "published": "2026-08-04T15:17:23Z",
+    "source": "llama.cpp Releases"
+  }
+]
