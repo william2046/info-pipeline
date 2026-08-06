@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-anthropic==1.5.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.4",
+    "description": "Changes since langchain-anthropic==1.5.3 release(anthropic): 1.5.4 ( #39277 ) fix(anthropic): handle tool schemas with unsupported top-level composition ( #39273 ) chore: bump the minor-and-patch group across 3 directories with 7 updates ( #39187 ) fix(anthropic): preserve caller tool_choice ( #39206 ) feat(anthropic): add user_profile_id convenience attribute ( #39148 )",
+    "published": "2026-08-05T19:03:35Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.5.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.3",
+    "description": "Changes since langchain-core==1.5.2 release(core): 1.5.3 ( #39145 ) fix(core): fall back to LANGSMITH_API_KEY for gateway ( #39115 )",
+    "published": "2026-07-30T14:56:11Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.5.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.2",
+    "description": "Changes since langchain-core==1.5.1 release(core): 1.5.2 ( #39108 ) fix(core): handle empty string in gateway env vars ( #39107 ) chore: bump setuptools from 82.0.0 to 83.0.0 in /libs/core ( #39032 ) chore: bump jupyterlab from 4.5.9 to 4.5.10 in /libs/core ( #39033 ) chore: bump setuptools from 80.9.0 to 83.0.0 in /libs/text-splitters ( #39029 )",
+    "published": "2026-07-28T16:39:05Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.5.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.3",
+    "description": "Changes since langchain-anthropic==1.5.2 release(anthropic): 1.5.3 ( #39109 ) fix(anthropic): preserve empty thinking field in signature_delta streaming ( #38765 ) fix(anthropic): strip unsupported fields from system message content blocks ( #39101 )",
+    "published": "2026-07-28T17:03:16Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.5.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.2",
+    "description": "Changes since langchain-fireworks==1.5.1 release(fireworks): 1.5.2 ( #39093 ) chore(model-profiles): refresh model profile data ( #39092 ) chore(model-profiles): refresh model profile data ( #39084 ) chore(model-profiles): refresh model profile data ( #39050 )",
+    "published": "2026-07-27T16:59:57Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.5.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.2",
+    "description": "Changes since langchain-anthropic==1.5.1 release(anthropic): 1.5.2 ( #39056 ) feat(anthropic): add Claude Opus 5 support ( #39054 )",
+    "published": "2026-07-24T19:08:23Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.4.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.1",
+    "description": "Changes since langchain-openai==1.4.0 release(openai): 1.4.1 ( #39045 ) feat(anthropic,fireworks,openai): support langsmith gateway through env var ( #38742 ) fix(openai): correct gpt-5.3-chat-latest profile ( #39009 )",
+    "published": "2026-07-23T20:31:30Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.5.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.1",
+    "description": "Changes since langchain-fireworks==1.5.0 release(fireworks): 1.5.1 ( #39044 ) feat(anthropic,fireworks,openai): support langsmith gateway through env var ( #38742 )",
+    "published": "2026-07-23T20:28:43Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.5.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.1",
+    "description": "Changes since langchain-core==1.5.0 release(core): 1.5.1 ( #39042 ) feat(anthropic,fireworks,openai): support langsmith gateway through env var ( #38742 ) fix(core): use tool_call_schema cache for BaseTool token counting in count_tokens_approximately ( #39020 )",
+    "published": "2026-07-23T20:13:37Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.5.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.1",
+    "description": "Changes since langchain-anthropic==1.5.0 release(anthropic): 1.5.1 ( #39043 ) feat(anthropic,fireworks,openai): support langsmith gateway through env var ( #38742 ) fix(anthropic): enable structured output for Claude Opus 4.8 ( #39021 )",
+    "published": "2026-07-23T20:23:18Z",
+    "source": "LangChain Releases"
+  }
+]

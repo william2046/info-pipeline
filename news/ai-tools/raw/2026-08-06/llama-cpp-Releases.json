@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10290",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10290",
+    "description": "mtmd/ggml: add ggml_build_forward_order ( #26649 ) ggml: add ggml_build_forward_order ggml_build_forward_expand marks the tensor and all its ancestors for compute, so using it as a pure ordering hint (keeping q, k and v together) defeats ggml_build_forward_select: the unselected branch is forced to run with inputs that were never uploaded. In the mtmd audio graph this makes GEN_WAV calls execute the GEN_CODE branch with a stale inp_code0, hitting the get_rows bound assert on CPU. Add ggml_build_",
+    "published": "2026-08-06T01:35:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10289",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10289",
+    "description": "server: harden the file_glob_search directory walk ( #26626 ) server: don't walk Windows junctions in file_glob_search std::filesystem reports a junction as a plain directory, so the symlink guard misses it and a junction pointing back at an ancestor is walked until the path length gives out read the reparse tag and treat a symlink and a mount point as links, leaving any other reparse point walkable so cloud placeholders and dedup stubs still get searched look junk directory names up case insens",
+    "published": "2026-08-05T20:09:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10288",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10288",
+    "description": "tests: re-enable MiniMax M3 in test-llama-archs ( #26633 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (O",
+    "published": "2026-08-05T17:42:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10287",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10287",
+    "description": "mtmd: Unlimited-OCR fix max_tiles, setting in converter ( #25614 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows ",
+    "published": "2026-08-05T17:06:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10286",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10286",
+    "description": "grammar : degrade max repetition >= 2000 to unbounded ( #26613 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows ar",
+    "published": "2026-08-05T16:24:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10285",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10285",
+    "description": "mtmd: support multi-row batching for deepseek-ocr ( #26154 ) mtmd: support multi-row batching for deepseek-ocr mtmd: weave deepseek-ocr rows in one shot instead of per row ( #26615 ) Co-authored-by: Saba Fallah sabafallah@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x6",
+    "published": "2026-08-05T15:22:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10284",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10284",
+    "description": "fit: Fix memory allocation for MTP layers ( #26605 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL ",
+    "published": "2026-08-05T14:39:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10282",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10282",
+    "description": "server: Adding spec-decode counters to /metrics endpoint ( #26389 ) server: add spec-decode counters to /metrics endpoint server: fixed review comments and now aligned param names exactly with vLLM. Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO",
+    "published": "2026-08-05T13:51:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10280",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10280",
+    "description": "vendor : apply patches for subprocess.h ( #26606 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Ad",
+    "published": "2026-08-05T11:36:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10278",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10278",
+    "description": "build : remove GGML_METAL_USE_BF16 from all build scripts ( #26604 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Window",
+    "published": "2026-08-05T10:18:10Z",
+    "source": "llama.cpp Releases"
+  }
+]
