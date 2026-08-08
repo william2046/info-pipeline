@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10326",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10326",
+    "description": "tts: account for the vocoder pass in the timings line ( #26733 ) get_output runs the waveform work the pipeline defers to it, from a single trailing window to a full pass depending on the model. Measuring it keeps the reported total and the audio to process ratio honest. Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 ",
+    "published": "2026-08-07T21:25:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10322",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10322",
+    "description": "sycl: coalesce the ssm_conv window loads ( #26612 ) test-backend-ops perf -o SSM_CONV on an Arc Pro B70, interleaved A/B against master, 6 reps, us/run: ne_a=[515,3328,1,1] ne_b=[4,3328,1,1] n_t=512 97.68 -> 52.95 1.85x ne_a=[937,8192,1,1] ne_b=[4,8192,1,1] n_t=934 516.16 -> 276.13 1.87x ne_a=[4,3328,1,1] ne_b=[4,3328,1,1] n_t=1 2.73 -> 2.71 flat llama-bench on qwen35 27B Q4_K - Medium (48 of its 64 blocks run ssm_conv), -ngl 99 -fa 1 -ctk f16 -ctv f16, interleaved passes of r=3: -b 2048 -ub 204",
+    "published": "2026-08-07T19:53:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10321",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10321",
+    "description": "metal : fix NORM/RMS_NORM for row lengths that leave a partial simdgroup ( #26708 ) ggml_metal_op_norm sized the threadgroup with nth = std::min(nth, args.ne00_t) , which can leave nth not a multiple of the simdgroup size. The kernels finish their row reduction with a cross-simdgroup step where each lane of the last simdgroup reads one per-simdgroup partial sum out of shmem_f32: if (tiisg == 0) { shmem_f32[sgitg] = sumf; } threadgroup_barrier(mem_flags::mem_threadgroup); sumf = shmem_f32[tiisg];",
+    "published": "2026-08-07T19:09:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10319",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10319",
+    "description": "mtmd: fix longest_edge ignoring min/max pixels ( #26638 ) mtmd: fix longest_edge ignoring min/max pixels nits Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Win",
+    "published": "2026-08-07T18:09:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10318",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10318",
+    "description": "sync : ggml Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) - CUDA 12.4",
+    "published": "2026-08-07T17:37:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10313",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10313",
+    "description": "server: (router) add LRU scheduler ( #26572 ) add lru_sched handle coalescing (req leaves waiting queue) add tests fix stream case address review comments Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP",
+    "published": "2026-08-07T17:00:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10312",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10312",
+    "description": "server: (router) do not evict busy models ( #26567 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL ",
+    "published": "2026-08-07T16:25:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10311",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10311",
+    "description": "mtmd: stop feeding the text stream again during Qwen3-TTS generation ( #26706 ) The reference implementation has two mutually exclusive prompt layouts. In non streaming mode the prefill carries the whole utterance text plus tts_eos summed with codec_pad, and the trailing text hidden collapses to a single tts_pad row. In streaming mode the prefill carries only the first text token and the trailing rows stream the rest of the text followed by tts_eos. The pipeline built the non streaming prefill b",
+    "published": "2026-08-07T15:46:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10310",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10310",
+    "description": "ggml : add aarch64 HWCAP fallbacks and fix fp16 variant detection ( #25554 ) ggml : add fallback definitions for missing aarch64 HWCAP bits ggml : require HWCAP_ASIMDHP for the aarch64 fp16 cpu variants Also rename has_fp16_va to has_fp16, the field gates the whole FEAT_FP16 extension, scalar and vector half-precision arithmetic together. Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linu",
+    "published": "2026-08-07T15:00:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10308",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10308",
+    "description": "Mitigate crashing issue on Windows MSYS2 UCRT64 environment (GCC 16.1.0) ( #26555 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm",
+    "published": "2026-08-07T14:07:35Z",
+    "source": "llama.cpp Releases"
+  }
+]
