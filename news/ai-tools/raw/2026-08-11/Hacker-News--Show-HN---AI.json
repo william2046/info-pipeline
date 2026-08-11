@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Recycle – Floppydisks",
+    "link": "https://www.floppydisk.com/recycle",
+    "description": "Article URL: https://www.floppydisk.com/recycle Comments URL: https://news.ycombinator.com/item?id=49252462 Points: 4 # Comments: 0",
+    "published": "Tue, 11 Aug 2026 02:01:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Antirez/h3.c: MiniMax H3 inference engine for Mac computers",
+    "link": "https://github.com/antirez/h3.c",
+    "description": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 27 # Comments: 2",
+    "published": "Tue, 11 Aug 2026 01:22:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Chicken Scheme 6.0",
+    "link": "https://code.call-cc.org/releases/6.0.0/NEWS",
+    "description": "Article URL: https://code.call-cc.org/releases/6.0.0/NEWS Comments URL: https://news.ycombinator.com/item?id=49251702 Points: 67 # Comments: 6",
+    "published": "Tue, 11 Aug 2026 00:24:15 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The UK's War on Anonymity Has Come to America",
+    "link": "https://www.effort.news/uk-lobby",
+    "description": "Article URL: https://www.effort.news/uk-lobby Comments URL: https://news.ycombinator.com/item?id=49251411 Points: 271 # Comments: 181",
+    "published": "Mon, 10 Aug 2026 23:45:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Scroll through all 43252003274489856000 Rubik's Cube states",
+    "link": "https://everycube.alen.is/",
+    "description": "Article URL: https://everycube.alen.is/ Comments URL: https://news.ycombinator.com/item?id=49251179 Points: 88 # Comments: 20",
+    "published": "Mon, 10 Aug 2026 23:16:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "World Train Map – 1247 train routes around the world",
+    "link": "https://worldtrainmap.com/",
+    "description": "Article URL: https://worldtrainmap.com/ Comments URL: https://news.ycombinator.com/item?id=49250894 Points: 55 # Comments: 21",
+    "published": "Mon, 10 Aug 2026 22:42:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Confessions of a Long-Distance Sailor",
+    "link": "https://arachnoid.com/lutusp/sailbook.html",
+    "description": "Article URL: https://arachnoid.com/lutusp/sailbook.html Comments URL: https://news.ycombinator.com/item?id=49249555 Points: 70 # Comments: 16",
+    "published": "Mon, 10 Aug 2026 20:52:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Stop Killing Games: It's time to sue Sony, join us",
+    "link": "https://www.massaschadeconsument.nl/collectieve-acties/playstation/",
+    "description": "Article URL: https://www.massaschadeconsument.nl/collectieve-acties/playstation/ Comments URL: https://news.ycombinator.com/item?id=49249481 Points: 193 # Comments: 84",
+    "published": "Mon, 10 Aug 2026 20:47:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Rust SIMD on the GPU",
+    "link": "https://www.vectorware.com/blog/simd-on-gpu/",
+    "description": "Article URL: https://www.vectorware.com/blog/simd-on-gpu/ Comments URL: https://news.ycombinator.com/item?id=49247477 Points: 136 # Comments: 62",
+    "published": "Mon, 10 Aug 2026 18:12:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+    "link": "https://cactuscompute.com/needle",
+    "description": "Hey HN, Henry from Cactus here! We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release Needle 2. The whole model is a single 14MB binary that runs a full session in 28MB of RAM; 45m parameters at 2bit compression. Needle hits 500 tokens/sec decode speed on a Raspberry Pi 5, sits betwee",
+    "published": "Mon, 10 Aug 2026 17:22:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
+    "link": "https://www.stoaexchange.com",
+    "description": "Hi HN, we’re Eren, Berat and Kaan. We’re building Stoa ( https://www.stoaexchange.com ), a marketplace for new and used GPUs and AI servers. GPUs are the collateral in the data center buildout. Today, financing terms mostly depend on the offtaker, meaning the company that has committed to use the compute. If that company is a hyperscaler, the financing can look investment grade. If it’s a smaller cloud or startup, terms get expensive fast, even with the same hardware as collateral. The lender’s ",
+    "published": "Mon, 10 Aug 2026 16:35:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "What's the best programming language for coding agents?",
+    "link": "http://danluu.com/pl-tokens/",
+    "description": "Related: Which programming languages are most token-efficient? - https://news.ycombinator.com/item?id=46582728 - Jan 2026 (91 comments) Comments URL: https://news.ycombinator.com/item?id=49245936 Points: 75 # Comments: 58",
+    "published": "Mon, 10 Aug 2026 16:28:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Exploiting System Management Mode with a very long interrupt",
+    "link": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
+    "description": "Article URL: https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii Comments URL: https://news.ycombinator.com/item?id=49245491 Points: 134 # Comments: 45",
+    "published": "Mon, 10 Aug 2026 16:03:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Letter to Governor Abbott on responsible AI infrastructure in Texas",
+    "link": "https://openai.com/index/responsible-ai-infrastructure-texas/",
+    "description": "Article URL: https://openai.com/index/responsible-ai-infrastructure-texas/ Comments URL: https://news.ycombinator.com/item?id=49244308 Points: 98 # Comments: 177",
+    "published": "Mon, 10 Aug 2026 14:38:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Exploring Claude/GPT Knowledge Cutoffs and Pre-Training Timelines",
+    "link": "https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs",
+    "description": "Article URL: https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs Comments URL: https://news.ycombinator.com/item?id=49244085 Points: 111 # Comments: 14",
+    "published": "Mon, 10 Aug 2026 14:20:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Open-Source Greptile Alternative",
+    "link": "https://github.com/Juror-AI/juror",
+    "description": "Article URL: https://github.com/Juror-AI/juror Comments URL: https://news.ycombinator.com/item?id=49244029 Points: 6 # Comments: 1",
+    "published": "Mon, 10 Aug 2026 14:17:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+    "link": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+    "description": "https://archive.is/20LOJ https://www.meta.com/thefutureisforeveryone/ Comments URL: https://news.ycombinator.com/item?id=49243880 Points: 395 # Comments: 391",
+    "published": "Mon, 10 Aug 2026 14:06:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Humanising LLM Outputs Is Dumb",
+    "link": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+    "description": "Article URL: https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb Comments URL: https://news.ycombinator.com/item?id=49243474 Points: 164 # Comments: 95",
+    "published": "Mon, 10 Aug 2026 13:35:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "50k Boat Names",
+    "link": "https://www.beautifulpublicdata.com/boat-names/",
+    "description": "Article URL: https://www.beautifulpublicdata.com/boat-names/ Comments URL: https://news.ycombinator.com/item?id=49243029 Points: 163 # Comments: 106",
+    "published": "Mon, 10 Aug 2026 12:58:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Squeak 6.1",
+    "link": "https://squeak.org/release_notes/6.1/",
+    "description": "Article URL: https://squeak.org/release_notes/6.1/ Comments URL: https://news.ycombinator.com/item?id=49242653 Points: 230 # Comments: 116",
+    "published": "Mon, 10 Aug 2026 12:15:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10356",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10356",
+    "description": "ci : target ROCm 7.14 for build and release ( #25775 ) Switch ROCm from 7.2.1 to 7.14 ROCm 7.14 is the first production release using TheRock build system. It can be installed using multi-arch deliverables from wheels, debs, rpms, tarballs or runfiles. Adjust ROCm targets for Linux and Windows to use this instead. ci: switch all other Windows ROCm jobs to ROCm 7.14 wheels Move the shared windows-setup-rocm composite action from the HIP SDK PRO Edition installer to the multi-arch ROCm wheels (roc",
+    "published": "2026-08-11T02:47:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10355",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10355",
+    "description": "llama : support multi-output backend sampling ( #25532 ) Enable backend sampling with token speculation Clamp the mask sum before converting it into the sampled index Add a numeric context parameter declaring the maximum outputs one sequence More fixes Don't reuse memory for output views. Match dist between CPU and GPU Fix CPU and backend sampling mismatches Simpify some of the changes Fix tests on Vulkan More test fixes Rebase changes Rebase and address review comments Address review comments A",
+    "published": "2026-08-10T23:17:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10354",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10354",
+    "description": "ggml-cpu : fix CPU affinity mask being ignored on Android ( #26838 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Window",
+    "published": "2026-08-10T22:40:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10353",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10353",
+    "description": "ggml : require contiguous src for ROLL on CUDA and Metal ( #25928 ) ggml_roll only asserts nb[0] == ggml_type_size, so a permuted src is a valid input, but the CUDA and Metal roll kernels index by ne alone and never read the nb strides. A non-contiguous src therefore produced silently wrong results. Neither backend declared a contiguity requirement in supports_op, so the scheduler did not fall back to the CPU implementation, which does handle strides correctly. Add the requirement to both backen",
+    "published": "2026-08-10T22:02:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10344",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10344",
+    "description": "model: add MTP support for Nemotron model ( #26725 ) model: add MTP support for Nemotron Nano model model: add mtp_flags for nemotron model address review comments Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64",
+    "published": "2026-08-10T16:25:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10343",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10343",
+    "description": "vendor : update cpp-httplib to 0.53.0 ( #26821 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adre",
+    "published": "2026-08-10T15:25:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10342",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10342",
+    "description": "model : Granite-Switch Architecture ( #25107 ) granite-switch: add llama.cpp backend (POC, CPU) New \"granite-switch\" architecture: a dense, all-attention Granite-4.1 model with N embedded LoRA adapters selected per-token by control tokens. gguf-py schema (arch, KV keys, stacked LoRA tensor names) + writer helpers conversion/granite.py: GraniteSwitchModel converter (stacks N adapters + zero base slot into per-projection A/B tensors; emits switch metadata) C++ arch registration (llama-arch.{h,cpp}",
+    "published": "2026-08-10T12:49:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10338",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10338",
+    "description": "model-saver : fix expert shared/chunk FFN length key clobber ( #26693 ) The saver called add_kv with LLM_KV_EXPERT_SHARED_FEED_FORWARD_LENGTH twice, the second time passing n_ff_chexp. gguf_set_val_u32 removes-then-appends, so the second call clobbers the first: the saved shared_feed_forward_length ends up as n_ff_chexp (0 for every arch except GroveMoE), and expert_chunk_feed_forward_length is never written at all. So a save->load roundtrip of any MoE model with a shared expert loses n_ff_shexp",
+    "published": "2026-08-10T10:53:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10336",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10336",
+    "description": "ggml-webgpu : refactor several wgsl files and simplify flash_attn wgsl. ( #26134 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm6",
+    "published": "2026-08-10T08:19:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10335",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10335",
+    "description": "ui: degrade the working directory picker when file search is off ( #26 …",
+    "published": "2026-08-09T19:20:23Z",
+    "source": "llama.cpp Releases"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.32.8",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.8-rc0",
+    "description": "What's Changed Add Muse Glimmer support for NVIDIA, AMD, and additional platforms Full Changelog : v0.32.7...v0.32.8-rc0",
+    "published": "2026-08-10T23:49:29Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.7",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.7",
+    "description": "Muse Glimmer Note: Muse Glimmer is currently available via initial support via Ollama's MLX engine on Apple Silicon. Additional support and optimizations for Apple Silicon, NVIDIA, AMD, and other platforms will be available in the coming days. Muse Glimmer , Meta's newest open model and the first released by Meta Superintelligence Labs, is now available on Ollama. It's a 30B multimodal model purpose-built for agent workloads that run locally. With Ollama, you can now use Muse Glimmer to power co",
+    "published": "2026-08-10T11:13:46Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.6",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.6",
+    "description": "What's Changed Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically /v1/chat/completions streaming now matches OpenAI's wire format: role only on the first chunk, finish_reason on its own chunk, and usage in a separate chunk with stream_options.include_usage . Truncated OpenAI responses now report finish_reason: \"length\" instead of \"tool_calls\" . ollama run kimi-k3 now offers kimi-k3:cloud for cloud-only models that publish no defau",
+    "published": "2026-08-05T19:46:52Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.6-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0",
+    "description": "llama.cpp update ( #17545 )",
+    "published": "2026-08-04T16:51:52Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.5",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.5",
+    "description": "What's Changed Fixed an MLX Metal bug that could reduce output quality for NVFP4 models, particularly Laguna. Full Changelog : v0.32.4...v0.32.5",
+    "published": "2026-07-27T20:45:08Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.5-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.5-rc0",
+    "description": "mlx update ( #17397 )",
+    "published": "2026-07-26T23:59:47Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.4",
+    "description": "What's Changed Support Laguna on Apple GPUs via the MLX engine Quantize draft-model output heads at the requested type when creating speculative-decoding drafts. Fixed Qwen3 MoE decoding for differently-quantized experts, plus faster packed gate/up projection (~4–9% on M5 Max). Full Changelog : v0.32.3...v0.32.4",
+    "published": "2026-07-25T18:26:49Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.4-rc0: model: add Laguna MLX support (#17237)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0",
+    "description": "model: add Laguna MLX support Add Laguna XS 2, XS 2.1, and S 2.1 support to the MLX model and create paths. Read the source config to apply one quantization policy across dense and routed MoE layers. Keep the tied output head and router at source precision, quantize supported attention and expert projections, selectively promote sensitive expert down projections, and emit per-tensor metadata for mixed quantization blobs. Correct dense expert loading, BF16 source-layout handling, expert global-sc",
+    "published": "2026-07-25T01:24:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.3",
+    "description": "What's Changed Fixed model downloads that stall before sending data. Improved integrations: restored Claude Code Channels, fixed Anthropic thinking streams, and made Hermes Desktop respect --force-build . Expanded GPU support with CUDA on Windows ARM64, B200 support through CUDA 12, and lower memory use on Linux CUDA/ROCm iGPUs. Added chat, thinking, and tool calling support for Laguna 2.1 models, including a Metal inference fix. Fixed GLM tool calls being silently dropped at the end of generati",
+    "published": "2026-07-23T16:46:16Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.3-rc0: model: align Laguna with upstream llama.cpp (#17335)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0",
+    "description": "Update llama.cpp to pick up upstream Laguna implementation and remove Ollama's local Laguna implementation. Retain a narrow Metal-only scaling workaround for routed-MoE prompt overflow. Translate older Ollama GGUF attention-gate and SWA metadata names so existing models continue to load.",
+    "published": "2026-07-23T00:09:18Z",
+    "source": "Ollama Releases"
+  }
+]
