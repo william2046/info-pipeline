@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10362",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10362",
+    "description": "tests : disable backend sampler hip multi output ( #26878 ) test-backend-sampler: skip multi_output_sampling_chain on HIP The new multi_output_sampling_chain test uses top_k, whose backend probs path needs CUB (unavailable on HIP), so sampled_probs is null and the test aborts. Add it to the existing HIP skip list alongside the other TOP_K tests. ci: keep gpu-rocm logs in a per-run dir keyed by GitHub run id The self-hosted gpu-rocm runner can't upload logs to Azure blob (egress firewalled), so a",
+    "published": "2026-08-11T22:59:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10361",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10361",
+    "description": "model : fix SWA not being enabled for EXAONE 4.5 ( #26848 ) model : fix SWA not being enabled for EXAONE 4.5 load_arch_hparams tests hparams.n_layer() == 64 before LLM_KV_NEXTN_PREDICT_LAYERS has been read. n_layer() returns n_layer_all - n_layer_nextn and n_layer_nextn defaults to 0, so a GGUF carrying the MTP head (block_count=65, nextn=1) evaluates to 65 and the whole SWA block is skipped. The model type switch further down in the same function reads 64, because by then the key has been loade",
+    "published": "2026-08-11T17:14:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10360",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10360",
+    "description": "common/peg : suppress incomplete escape sequences ( #26780 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64",
+    "published": "2026-08-11T13:19:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10359",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10359",
+    "description": "ggml-webgpu: fix CI errors from #25025 and #25262 ( #26566 ) test new flash_attn test rebase and fix to disable subgrou matrices when max_kv_tile == 0 delete log output Add i32 support to cpy and enables the all ops test restore the non target ci tests comment out of TODO of build-cpu.yml fix format Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) U",
+    "published": "2026-08-11T10:51:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10358",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10358",
+    "description": "Address review comment of PR 25532 ( #26852 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno",
+    "published": "2026-08-11T09:06:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10357",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10357",
+    "description": "opencl: transpose the K tile in local memory for FA prefill kernels ( #26428 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (",
+    "published": "2026-08-11T05:19:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10356",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10356",
+    "description": "ci : target ROCm 7.14 for build and release ( #25775 ) Switch ROCm from 7.2.1 to 7.14 ROCm 7.14 is the first production release using TheRock build system. It can be installed using multi-arch deliverables from wheels, debs, rpms, tarballs or runfiles. Adjust ROCm targets for Linux and Windows to use this instead. ci: switch all other Windows ROCm jobs to ROCm 7.14 wheels Move the shared windows-setup-rocm composite action from the HIP SDK PRO Edition installer to the multi-arch ROCm wheels (roc",
+    "published": "2026-08-11T02:47:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10355",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10355",
+    "description": "llama : support multi-output backend sampling ( #25532 ) Enable backend sampling with token speculation Clamp the mask sum before converting it into the sampled index Add a numeric context parameter declaring the maximum outputs one sequence More fixes Don't reuse memory for output views. Match dist between CPU and GPU Fix CPU and backend sampling mismatches Simpify some of the changes Fix tests on Vulkan More test fixes Rebase changes Rebase and address review comments Address review comments A",
+    "published": "2026-08-10T23:17:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10354",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10354",
+    "description": "ggml-cpu : fix CPU affinity mask being ignored on Android ( #26838 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Window",
+    "published": "2026-08-10T22:40:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10353",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10353",
+    "description": "ggml : require contiguous src for ROLL on CUDA and Metal ( #25928 ) ggml_roll only asserts nb[0] == ggml_type_size, so a permuted src is a valid input, but the CUDA and Metal roll kernels index by ne alone and never read the nb strides. A non-contiguous src therefore produced silently wrong results. Neither backend declared a contiguity requirement in supports_op, so the scheduler did not fall back to the CPU implementation, which does handle strides correctly. Add the requirement to both backen",
+    "published": "2026-08-10T22:02:53Z",
+    "source": "llama.cpp Releases"
+  }
+]
