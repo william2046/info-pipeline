@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10380: chat : fix muse-glimmer detection of tool calls after EOM (#26879)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10380",
+    "description": "chat : fix muse-glimmer swallowing a trailing tool call into content Muse Glimmer routinely answers the user and calls a tool in a single generation. The template terminates a message with <|eom|> when more messages follow in the same turn and <|eot|> only at the end of the turn, so the answer is closed by <|eom|> and the call opens a fresh header: <prose><|eom|><|start|>assistant to=<tool><|message|><atem:function_calls>... The final-message rule read content with until(\"<|eot|>\"), which assume",
+    "published": "2026-08-11T20:15:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10375",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10375",
+    "description": "chat : tighten bare function parsing for Qwen models ( #26793 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows ar",
+    "published": "2026-08-12T12:20:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10373",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10373",
+    "description": "imatrix.cpp: Move finite check and only check touched experts ( #26861 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) W",
+    "published": "2026-08-12T09:24:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10369",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10369",
+    "description": "mtmd: support pocket-tts ( #26871 ) adapt the api text model ok working impl, need verify and clean up mtmd: build the pocket-tts transposed convolutions as GEMM + col2im ggml_conv_transpose_1d has no grouped mode, so the depthwise upsample was built as one convolution and one concat per channel, which floods the graph with small nodes and makes kernel launches dominate the decoder. Fold both cases into the column form the seanet decoder already needs: the general case reshapes the kernel to [IC",
+    "published": "2026-08-12T04:54:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10362",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10362",
+    "description": "tests : disable backend sampler hip multi output ( #26878 ) test-backend-sampler: skip multi_output_sampling_chain on HIP The new multi_output_sampling_chain test uses top_k, whose backend probs path needs CUB (unavailable on HIP), so sampled_probs is null and the test aborts. Add it to the existing HIP skip list alongside the other TOP_K tests. ci: keep gpu-rocm logs in a per-run dir keyed by GitHub run id The self-hosted gpu-rocm runner can't upload logs to Azure blob (egress firewalled), so a",
+    "published": "2026-08-11T22:59:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10361",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10361",
+    "description": "model : fix SWA not being enabled for EXAONE 4.5 ( #26848 ) model : fix SWA not being enabled for EXAONE 4.5 load_arch_hparams tests hparams.n_layer() == 64 before LLM_KV_NEXTN_PREDICT_LAYERS has been read. n_layer() returns n_layer_all - n_layer_nextn and n_layer_nextn defaults to 0, so a GGUF carrying the MTP head (block_count=65, nextn=1) evaluates to 65 and the whole SWA block is skipped. The model type switch further down in the same function reads 64, because by then the key has been loade",
+    "published": "2026-08-11T17:14:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10360",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10360",
+    "description": "common/peg : suppress incomplete escape sequences ( #26780 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64",
+    "published": "2026-08-11T13:19:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10359",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10359",
+    "description": "ggml-webgpu: fix CI errors from #25025 and #25262 ( #26566 ) test new flash_attn test rebase and fix to disable subgrou matrices when max_kv_tile == 0 delete log output Add i32 support to cpy and enables the all ops test restore the non target ci tests comment out of TODO of build-cpu.yml fix format Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) U",
+    "published": "2026-08-11T10:51:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10358",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10358",
+    "description": "Address review comment of PR 25532 ( #26852 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno",
+    "published": "2026-08-11T09:06:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10357",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10357",
+    "description": "opencl: transpose the K tile in local memory for FA prefill kernels ( #26428 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (",
+    "published": "2026-08-11T05:19:30Z",
+    "source": "llama.cpp Releases"
+  }
+]
