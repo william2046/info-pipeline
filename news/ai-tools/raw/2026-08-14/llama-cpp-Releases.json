@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10423",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10423",
+    "description": "common: apply CPU parameters across tools ( #27026 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm6",
+    "published": "2026-08-13T22:45:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10419",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10419",
+    "description": "OpenVINO: Qwen3.5, memory optimization, and test-recurrent-state-rollback ( #26952 ) OpenVINO backend: 1) enable gpt-oss moe on OV bk; 2) enable mxfp4 support OpenVINO backend: disable TOPK_MOE op test OpenVINO Backend: Add op FILL support OpenVINO backend: enable set rows with multi dims fix the name missmatch in setrow + view OpenVINO backend: enable op GGML_UNARY_OP_SIGMOID OpenVINO Backend: enable SQR & SQRT OpenVINO backend: 1) ensure unique node names for OpenVINO; 2) add org_src to record",
+    "published": "2026-08-13T22:13:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10418",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10418",
+    "description": "[SYCL] Support host pinned mem to improve SYCL Host-to-Device Memory Access ( #26789 ) support host pinned mem, ggml_backend_sycl_host_buffer_type_get_max_size, fix the thread-safe issue Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) ",
+    "published": "2026-08-13T21:38:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10417",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10417",
+    "description": "chat : fix LFM2 tool call arg name prefix ambiguity ( #26960 ) Assisted-by: Claude Opus 5 Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (",
+    "published": "2026-08-13T20:51:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10416",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10416",
+    "description": "server : serve index.html with no-cache ( #27006 ) index.html was served with max-age=31536000, immutable like the hashed assets, but its name is stable while its contents change every build, so a cached copy pins the UI to an old build. It now revalidates via its existing ETag, which keeps the 304 for unchanged builds. Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU)",
+    "published": "2026-08-13T20:08:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10415",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10415",
+    "description": "spec : auto-detect mtp draft model type ( #27005 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 ",
+    "published": "2026-08-13T19:30:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10414",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10414",
+    "description": "metal : add TQ2_0 support ( #26980 ) metal: add TQ2_0 support Add support for the GGML_TYPE_TQ2_0 (ternary, 2 bits per element) type in the Metal backend. Assisted-by: llama.cpp:DeepSeek-v4-Flash-0731 cont : optimize mul_mv kernel float ops over integer ops precalculate sums hoist coef out of the inner loop contiguous y loads llama.cpp:DeepSeek-v4-Flash-0731 Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) ",
+    "published": "2026-08-13T18:42:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10413",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10413",
+    "description": "common : auto-detect spec type from draft GGUF metadata ( #26814 ) common : auto-detect spec type from draft GGUF metadata When -md loads a local draft model without --spec-type, the sidecar inference in common_models_handler_apply only checks HF repo sidecars and misses local files. The draft model loads into VRAM but speculative decoding never activates (types stays NONE). Read general.architecture from the draft GGUF header and map: dflash + markov_w1.weight tensor -> draft-dspark dflash with",
+    "published": "2026-08-13T18:00:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10412",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10412",
+    "description": "spec: enable backend sampling for both dflash & dspark ( #26958 ) dflash: enable backend sampling for both dflash & dspark enable p_min > 0 in backend sampling and add guard cont : add TODO Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan)",
+    "published": "2026-08-13T17:18:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10411",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10411",
+    "description": "ggml-cpu/ops: vectorize flash-attention V-cache F16 to F32 conversion ( #26947 ) Co-authored-by: jinzihao jinzihao.jzh@alibaba-inc.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
+    "published": "2026-08-13T16:37:59Z",
+    "source": "llama.cpp Releases"
+  }
+]
