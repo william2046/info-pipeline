@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10435",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10435",
+    "description": "jinja : fix quadratic cost in gather_string_parts ( #27034 ) jinja : fix quadratic cost in gather_string_parts fix some comments remove test Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) ",
+    "published": "2026-08-14T22:29:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10434",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10434",
+    "description": "chat : pass reasoning_effort to template chat: add reasoning_effort to common_chat_templates_inputs Store OpenAI Chat Completions reasoning_effort and make it available to jinja templates (with model specific translations where required). Assisted-by: llama.cpp:Muse-Glimmer-30B server : fixup reading reasoning effort from body server_chat_convert_responses_to_chatcmpl already handles conversion of Responses API reasoning.effort to reasoning_effort chat : expose reasoning effort Assisted-by: Clau",
+    "published": "2026-08-14T19:24:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10433",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10433",
+    "description": "sync : ggml Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenCL Adreno) Windows x64 (CUDA 12) -",
+    "published": "2026-08-14T18:21:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10431",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10431",
+    "description": "ggml : recurrent state rollback for ggml_ssm_scan ( #26623 ) Initial changes for Recurrent state rollback for nemotron for cpu and cuda Removing CPU RS rollback. Will enable it in subsequent PRs addition of test case Removing assert and calling runtime API to check if op is supported removing extra API and updating the call sites for K replace static cuda detection to runtime fused_op api address review comments and fallback when SSM rollback not supprted Adding changes for supporting RS-rollbac",
+    "published": "2026-08-14T17:44:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10430",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10430",
+    "description": "llama : allow virtual igpu devices ( #26953 ) llama : allow virtual igpu devices cont : better comment Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: ",
+    "published": "2026-08-14T12:59:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10429",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10429",
+    "description": "server: allow accessing /metrics and /slots during llama_decode() ( #27041 ) server_queue::worker call llama_decode inside yield_to_queue also handle process_mtmd_chunk clean up nits rm test Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVI",
+    "published": "2026-08-14T12:15:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10428",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10428",
+    "description": "tests : replace personal home directory paths with generic placeholders ( #27043 ) Scrub developer-specific /home// paths from example docs and test fixtures so they don't leak into the tree. examples/test-cmake/README.md: /home/danbev/... -> /path/to/llama.cpp/... tests/test-chat.cpp: /home/jarvis/... -> /home/user/... (input and expected string kept identical so the parser test still passes) Co-authored-by: Jim Wu ywu@xilinx.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64)",
+    "published": "2026-08-14T09:08:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10427",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10427",
+    "description": "sycl: fuse mul_mat(gate) + mul_mat(up) + GLU for q4_K dense FFN ( #26779 ) Measured on Arc Pro B70 (Battlemage, Level Zero), llama-bench -r 20, two interleaved rounds, tg128: qwen2.5-3B-Instruct Q4_K_M 154.18 -> 158.53 t/s +2.8% gemma-2-2b-it Q4_K_M 162.45 -> 165.62 t/s +2.0% llama-batched-bench on qwen2.5-3B, S_TG by batch size: B=1 142.72 -> 147.57 t/s +3.4% B=2 243.72 -> 268.26 t/s +10.1% B=4 359.58 -> 398.02 t/s +10.7% B=8 449.75 -> 505.63 t/s +12.4% Website: https://llama.app macOS/iOS: mac",
+    "published": "2026-08-14T08:15:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10426",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10426",
+    "description": "ggml: force single thread on wasi ( #25686 ) Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows arm64 (OpenC",
+    "published": "2026-08-14T07:30:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10425",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10425",
+    "description": "sycl: fuse the gated-delta-net state writeback cpy ( #26643 ) Port of #23940 . Arc Pro B70, Qwen 3.6 27B Q4_K - Medium (48 of its 64 blocks run gated_delta_net), -ngl 99 -fa 1 -ctk f16 -ctv f16 -b 2048 -ub 2048, interleaved A/B passes of r=3: tg128 23.91 / 23.90 / 23.90 -> 24.19 / 24.17 / 24.20 +1.2% tg128 (rebuild) 23.81 / 23.81 -> 24.09 / 24.10 +1.2% pp2048 1050.8 / 1053.9 -> 1053.8 / 1054.5 flat 2 seqs, tg128 32.73 / 32.75 -> 33.11 / 33.10 +1.1% Website: https://llama.app macOS/iOS: macOS App",
+    "published": "2026-08-14T06:52:58Z",
+    "source": "llama.cpp Releases"
+  }
+]
