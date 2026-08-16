@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.27.2rc0: [Spec Decode] DSpark confidence-scheduled verification (#47808)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.27.2rc0",
+    "description": "Signed-off-by: Lucas Wilkinson lwilkins@redhat.com Signed-off-by: Lucas Wilkinson LucasWilkinson@users.noreply.github.com Signed-off-by: Benjamin Chislett chislett.ben@gmail.com Signed-off-by: Lucas Wilkinson wilkinson.lucas@gmail.com Signed-off-by: Nick Hill nickhill123@gmail.com Co-authored-by: OpenAI Codex codex@openai.com Co-authored-by: Claude Opus 5 (1M context) noreply@anthropic.com Co-authored-by: Benjamin Chislett chislett.ben@gmail.com Co-authored-by: mergify[bot] <37929162+mergify[bot",
+    "published": "2026-08-12T19:27:48Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.27.1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.27.1",
+    "description": "This is a patch release on top of v0.27.0. Support quantized DSpark Markov heads ( #50424 )",
+    "published": "2026-08-11T10:49:10Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.27.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.27.0",
+    "description": "vLLM v0.27.0 Release Notes Highlights This release features 561 commits from 242 contributors (64 new)! Kimi K3 support with a full stack landing in one release: core model files and kernels ( #50089 , #50000 ), Python ( #50093 ) and Rust ( #50104 ) frontends, AttnRes kernels ( #50090 ), DeepGEMM support ( #50458 ), compressed-tensors quantized checkpoints ( #50500 ), DSpark AR fusion ( #50242 ), and an option to shard the shared expert instead of replicating it ( #50656 ). More new models : Qwe",
+    "published": "2026-08-10T21:18:11Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.27.0rc2",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.27.0rc2",
+    "description": "v0.27.0rc2",
+    "published": "2026-08-09T09:57:05Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.27.0rc1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.27.0rc1",
+    "description": "v0.27.0rc1",
+    "published": "2026-08-07T00:36:54Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.26.1rc0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.26.1rc0",
+    "description": "[CI][ROCm] Fix test_ocp_mx_wikitext_correctness reference value ( #4 …",
+    "published": "2026-07-27T21:47:07Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.26.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
+    "description": "vLLM v0.26.0 Release Notes Highlights This release features 411 commits from 212 contributors (61 new)! New Inkling model family with a full support stack: base modeling ( #48799 ), piecewise CUDA graph support ( #48822 ), Hopper FA4 relative attention ( #48858 ), MTP=1 speculative decoding ( #48869 ), LoRA ( #48884 ), and standard ModelOpt NVFP4 quantization ( #48990 ). DeepSeek-V4 performance push across vendors: a specialized routing kernel (2.94% E2E TPOT, #48660 ), fused_topk_bias (1.5–2x k",
+    "published": "2026-07-27T06:52:36Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.26.0rc1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0rc1",
+    "description": "v0.26.0rc1",
+    "published": "2026-07-23T18:55:37Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.25.1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.25.1",
+    "description": "vLLM v0.25.1 Highlights This release features 2 commits from 2 contributors (1 new)! v0.25.1 is a patch release containing two targeted bug fixes on top of v0.25.0. Bug Fixes Avoid blocking model launching when no system FFmpeg is available for TorchCodec ( #47888 ). Previously import torchcodec raised a RuntimeError at import time when system FFmpeg was missing, which blocked startup (e.g. vllm serve Qwen/Qwen3-VL-2B-Instruct ) even when TorchCodec was not in use. The error is now deferred to r",
+    "published": "2026-07-14T08:58:07Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.25.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0",
+    "description": "vLLM v0.25.0 Release Notes Highlights This release features 558 commits from 232 contributors (64 new)! Model Runner V2 is now the default for all dense models ( #44443 ). Building on quantized-model support from the previous release, MRv2 is now the standard execution path, with new support for EVS ( #46535 ), realtime embeddings ( #46762 ), prefix caching for Mamba hybrid models ( #42406 ), multimodal-prefix bidirectional attention ( #46942 ), and dynamic speculative decoding compatible with f",
+    "published": "2026-07-11T20:06:44Z",
+    "source": "vLLM Releases"
+  }
+]
