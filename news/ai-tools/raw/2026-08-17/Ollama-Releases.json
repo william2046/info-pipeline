@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.32.14",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.14",
+    "description": "What's Changed llm: transcode WebP images for llama-server renderers/qwen: tolerate non-leading system messages Full Changelog : v0.32.13...v0.32.14",
+    "published": "2026-08-16T17:41:11Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.14-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.14-rc0",
+    "description": "mlx update ( #17761 )",
+    "published": "2026-08-15T18:56:40Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.13",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.13",
+    "description": "What's Changed qwen3.8: support developer instructions Full Changelog : v0.32.12...v0.32.13",
+    "published": "2026-08-14T19:18:00Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.12",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
+    "description": "Qwen 3.8 27B This release adds the support of Qwen 3.8 27B . Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks. ollama run qwen3.8:27b For Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents. ollama run qwen3.8:27b-mlx",
+    "published": "2026-08-15T04:30:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.11",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.11",
+    "description": "What's Changed ollama launch dsh now supports DeepSeek Harness, DeepSeek's open-source agent harness ollama launch muse now supports Muse Code , Meta's agentic coding CLI The OpenAI-compatible Responses API now supports web search Muse Glimmer template updates Full Changelog : v0.32.10...v0.32.11",
+    "published": "2026-08-14T06:37:49Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.10",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.10",
+    "description": "What's Changed Models that don't set a repeat_penalty now default to 1.0 (off) instead of 1.1, matching other engines and speeding up speculative decoding; set a per-model parameter if an older model repeats itself. Faster prefill on NVFP4 MLX models with a global scale, about 7–8% on Qwen3.6 and Muse Glimmer. Fixed blob verification being skipped when an OCI manifest's config and layer share a digest. New Contributors @vigneshakaviki made their first contribution in #15504 Full Changelog : v0.3",
+    "published": "2026-08-13T18:32:55Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.10-rc1: mlx: avoid pulling MLX models when MLX is missing (#17710)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.10-rc1",
+    "description": "As we look to bring Linux and Windows MLX support online, instead of blocking downloads at the registry to avoid users wasting time downloading a model they can't run, shift the logic to the local side which knows if MLX is present or not.",
+    "published": "2026-08-12T21:42:17Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.10-rc0: nn: speed up prefill on double-scale nvfp4 models",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.10-rc0",
+    "description": "ModelOpt checkpoints apply a float32 global scale to every projection output on top of the per-group quantization scales. Running the multiply and the cast back to the activation dtype as separate eager ops costs an extra kernel launch and a materialized intermediate per projection. Compile the multiply and cast into one kernel. On an M5 Max (medians of order-swapped A/B runs against main; greedy outputs byte-identical): qwen3.6:27b prefill 703 -> 769 t/s +7.9% muse-glimmer:30b prefill 790 -> 84",
+    "published": "2026-08-12T20:25:33Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.9",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.9",
+    "description": "NVIDIA Nemotron 3.5 Lightning NVIDIA Nemotron 3.5 Lightning is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for that execution layer of always-on agents. It is designed for harnesses like OpenClaw and Hermes Agent – all supported by the NVIDIA NemoClaw open source security and management stack for running always-on AI agents. ollama run nemotron-3.5-lightning What's Changed Added the Nemotron 3 architecture Handle boundary condition in Muse Glimmer function calling ",
+    "published": "2026-08-11T13:24:14Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.8",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.8",
+    "description": "Muse Glimmer Muse Glimmer is now available on all platforms. Muse Glimmer can power coding agent applications such as Claude Code, Codex, Pi and more, as well as long-running personal assistants such as OpenClaw and Hermes. Ollama's MLX engine provides state-of-the-art performance on Apple Silicon for this model, with support for DFlash and image input as of Ollama 0.32.7. To download and run Muse Glimmer locally: ollama run muse-glimmer To run Muse Glimmer with Claude Code, download Ollama and ",
+    "published": "2026-08-11T06:39:00Z",
+    "source": "Ollama Releases"
+  }
+]
