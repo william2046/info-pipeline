@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.1.1",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.1",
+    "description": "Release v0.1.1",
+    "published": "2026-08-17T14:08:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "v0.1.0",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.0",
+    "description": "Release v0.1.0",
+    "published": "2026-08-17T09:08:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "tmp-testing-0",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/tmp-testing-0",
+    "description": "ci : make release workflows use a deply key",
+    "published": "2026-08-17T06:58:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10472",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10472",
+    "description": "cuda : skip UMA override for HIP builds ( #27083 ) AMD APUs report accurate memory via hipMemGetInfo. Using MemAvailable over-promises on small-carveout systems. fixes #18159 Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (",
+    "published": "2026-08-17T17:18:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10470",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10470",
+    "description": "ci : push release tag explicitly in release.yml ( #27261 ) Add a \"Create and push git tag\" step to the release job, right before the \"Create release\" step. The tag is created with git tag and pushed with the deploy key already configured by the Clone step, instead of relying on the Releases API (action-create-release) to create it as a side effect. The tag is lightweight, matching all existing b release tags. The step is idempotent: if the tag already exists (e.g. on a re-run), creation and push",
+    "published": "2026-08-17T14:01:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10456",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10456",
+    "description": "sycl: fix thread/block count in quantized cpy kernel launches ( #27160 ) Adjusts the thread/block count to be proportional to the size of the quant, reducing under/over subscription. Largest perf improvement is the q4_0 -> f32 path, with, on a Arc 70, throughput goes from 20.21 GB/s to 158.19 GB/s The rest of the quants are flat in performance uplift. Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCF",
+    "published": "2026-08-17T06:31:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10455",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10455",
+    "description": "[SYCL] support OP OPT_STEP_ADAMW, OPT_STEP_SGD ( #25268 ) fix conflict fix conflict of ops.md fix conflict of ops.md update the ops.md Co-authored-by: Neo Zhang Jianyu jianyu.zhang@intel.com Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVI",
+    "published": "2026-08-17T05:49:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10454: ci : fix dry-run reporting in make-release job [no ci] (#27167)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10454",
+    "description": "This commit fixes the reporting in the make-release CI job when --dry-run is used. It will currently incorrectly report that all checks pass even if there are steps that fail. Refs: #26839 (comment)",
+    "published": "2026-08-16T12:53:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10453",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10453",
+    "description": "model : remove some ggml_concat ( #27176 ) Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x",
+    "published": "2026-08-16T12:55:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10452",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10452",
+    "description": "chat: refactor handling supports_string_content / supports_typed_content ( #27130 ) better supports_string_content cap detect test: add \"skip\" messages_inp_normalizer Website: https://llama.app macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP3",
+    "published": "2026-08-16T11:23:15Z",
+    "source": "llama.cpp Releases"
+  }
+]
