@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.32.15",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.15",
+    "description": "What's Changed Add a model metadata cache to reduce Ollama’s per-request overhead New Contributors @gaugarg-nv made their first contribution in #17752 Full Changelog : v0.32.14...v0.32.15-rc1",
+    "published": "2026-08-20T00:49:25Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.15-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc2",
+    "description": "app: add desktop onboarding flow ( #17853 )",
+    "published": "2026-08-19T22:40:16Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.15-rc1: ci: plumb temporary MLX patch through to docker stages (#17874)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1",
+    "description": "Follow up to #17850",
+    "published": "2026-08-19T15:33:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.15-rc0: mlx update (#17850)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc0",
+    "description": "Temporarily carry ml-explore/mlx-c#127",
+    "published": "2026-08-19T14:15:11Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.14",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.14",
+    "description": "What's Changed llm: transcode WebP images for llama-server renderers/qwen: tolerate non-leading system messages Full Changelog : v0.32.13...v0.32.14",
+    "published": "2026-08-16T17:41:11Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.14-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.14-rc0",
+    "description": "mlx update ( #17761 )",
+    "published": "2026-08-15T18:56:40Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.13",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.13",
+    "description": "What's Changed qwen3.8: support developer instructions Full Changelog : v0.32.12...v0.32.13",
+    "published": "2026-08-14T19:18:00Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.12",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
+    "description": "Qwen 3.8 27B This release adds the support of Qwen 3.8 27B . Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks. ollama run qwen3.8:27b For Apple Silicon devices, Ollama has in particular optimized for maximum performance and output quality suitable for repeated tasks and coding agents. ollama run qwen3.8:27b-mlx",
+    "published": "2026-08-15T04:30:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.11",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.11",
+    "description": "What's Changed ollama launch dsh now supports DeepSeek Harness, DeepSeek's open-source agent harness ollama launch muse now supports Muse Code , Meta's agentic coding CLI The OpenAI-compatible Responses API now supports web search Muse Glimmer template updates Full Changelog : v0.32.10...v0.32.11",
+    "published": "2026-08-14T06:37:49Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.10",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.10",
+    "description": "What's Changed Models that don't set a repeat_penalty now default to 1.0 (off) instead of 1.1, matching other engines and speeding up speculative decoding; set a per-model parameter if an older model repeats itself. Faster prefill on NVFP4 MLX models with a global scale, about 7–8% on Qwen3.6 and Muse Glimmer. Fixed blob verification being skipped when an OCI manifest's config and layer share a digest. New Contributors @vigneshakaviki made their first contribution in #15504 Full Changelog : v0.3",
+    "published": "2026-08-13T18:32:55Z",
+    "source": "Ollama Releases"
+  }
+]
