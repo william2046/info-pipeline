@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-fireworks==1.6.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.0",
+    "description": "Changes since langchain-fireworks==1.5.2 release(fireworks): 1.6.0 ( #39810 ) feat(fireworks): add document reranking ( #39732 ) fix(fireworks): filter invalid tool calls from v1 content ( #39805 ) feat(core): add standard model exception types ( #39538 ) chore(model-profiles): refresh model profile data ( #39646 ) fix(fireworks): avoid repeated service_tier [closes #39619 ] ( #39620 ) chore: bump langsmith from 0.10.6 to 0.10.16 in /libs/partners/fireworks ( #39279 ) chore: bump aiohttp from 3.",
+    "published": "2026-08-20T17:47:20Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.6.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.6.1",
+    "description": "Changes since langchain-anthropic==1.6.0 release(anthropic): 1.6.1 ( #39804 ) fix(anthropic): filter invalid tool calls from v1 content ( #39803 )",
+    "published": "2026-08-20T14:06:51Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.16",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.16",
+    "description": "Changes since langchain==1.3.15 release(langchain): 1.3.16 ( #39806 ) feat(core): add standard model exception types ( #39538 ) feat(langchain): support custom token_counter in ContextEditingMiddleware ( #39754 ) fix(langchain): re-raise non-retryable exceptions in ModelRetryMiddleware ( #38960 ) chore(langchain): update docs on error handling for json schema ( #39632 ) fix(langchain): preserve final repeated schema ordering ( #39284 )",
+    "published": "2026-08-20T14:35:32Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.6.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.0",
+    "description": "Changes since langchain-openai==1.5.2 release(openai): 1.6.0 ( #39762 ) feat(core): add standard model exception types ( #39538 ) fix(openai): raise clear error on unexpected response type in _create_chat_result ( #39731 )",
+    "published": "2026-08-19T21:45:04Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.0",
+    "description": "Changes since langchain-core==1.5.6 release(core): 1.6.0 ( #39760 ) fix(core): resolve postponed annotations in StructuredTool._injected_args_keys ( #39602 ) feat(core): add standard model exception types ( #39538 ) fix(core): allow deserializing RunnablePick ( #39753 ) fix(core): make convert_to_openai_function handle callables and non-dict mappings ( #39750 ) fix(core): make subprocess and temporary file tests portable on Windows ( #39664 ) fix(core): fail fast when tool schemas can't resolve ",
+    "published": "2026-08-19T15:55:59Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.6.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.6.0",
+    "description": "Changes since langchain-anthropic==1.5.6 release(anthropic): 1.6.0 ( #39763 ) feat(core): add standard model exception types ( #39538 ) fix(anthropic): exclude sibling directories from grep search scope ( #39681 ) chore(infra): support langsmith gateway in CI ( #39651 )",
+    "published": "2026-08-19T21:39:56Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.5.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2",
+    "description": "Changes since langchain-openai==1.5.1 release(openai): 1.5.2 ( #39719 ) fix(openai): preserve reasoning item boundaries ( #39278 ) release(openai): 1.5.2a1 ( #39709 ) feat(openai): extract gateway metadata from response headers when available ( #39706 ) chore(openai): update snapshots ( #39657 ) fix(openai): support o-series models in get_num_tokens_from_messages ( #38710 )",
+    "published": "2026-08-18T17:38:13Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.5.2a1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2a1",
+    "description": "Initial release release(openai): 1.5.2a1 ( #39709 ) feat(openai): extract gateway metadata from response headers when available ( #39706 ) chore(openai): update snapshots ( #39657 ) fix(openai): support o-series models in get_num_tokens_from_messages ( #38710 ) release(openai): 1.5.1 ( #39653 ) fix(openai): preserve streamed encrypted reasoning ( #39635 ) chore(infra): support langsmith gateway in CI ( #39651 ) release(openai): 1.5.0 ( #39629 ) feat(openai): support openai 3.0 SDK ( #39613 ) cho",
+    "published": "2026-08-18T01:51:40Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.5.6",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.6",
+    "description": "Changes since langchain-core==1.5.5 chore(core): release 1.5.6 ( #39704 ) feat(core): incorporate gateway metadata to traces ( #39703 )",
+    "published": "2026-08-17T21:26:48Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openrouter==0.2.8",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.8",
+    "description": "Changes since langchain-openrouter==0.2.7 release(openrouter): 0.2.8 ( #39658 ) chore(model-profiles): refresh model profile data ( #39646 ) chore(model-profiles): refresh model profile data ( #39625 ) fix(openrouter): preserve cost metadata in usage chunks ( #39338 ) chore(model-profiles): refresh model profile data ( #39609 ) chore(model-profiles): refresh model profile data ( #39579 ) chore(model-profiles): refresh model profile data ( #39430 ) chore(model-profiles): refresh model profile dat",
+    "published": "2026-08-14T19:03:47Z",
+    "source": "LangChain Releases"
+  }
+]

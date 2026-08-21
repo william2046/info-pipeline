@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10536",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10536",
+    "description": "server: (router) lazy-load startup_models after main setup ( #27424 ) server: (router) lazy-load startup_models after main setup only allow is_first_load to populate it nits nits 2 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42025993 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu a",
+    "published": "2026-08-21T02:05:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10534",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10534",
+    "description": "CUDA: adding switch points per HW and quant type to tune the mvq->MMQ decode crossover ( #26079 ) CUDA: runtime GGML_CUDA_MMVQ_MAX to tune the mvq->MMQ decode crossover Add a runtime override of the mul_mat_vec_q -> MMQ batch crossover (default MMVQ_MAX_BATCH_SIZE). Lowering it routes batches above the threshold from the CUDA-core vector kernel to the int8 MMQ tensor-core path, which is faster once quantized decode becomes compute-bound at B>1 (measured +23-41% at B=8 on RTX 5090 for Q4_K dense,",
+    "published": "2026-08-21T01:43:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10533",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10533",
+    "description": "common : gracefully fallback on unsupported regex patterns in JSON schema ( #26939 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42018860 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubunt",
+    "published": "2026-08-21T01:08:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10532",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10532",
+    "description": "metal : dequantize quantized KV to F16 before flash attention ( #27390 ) metal: dequantize q8_0 KV to f16 before flash attention Add a preprocessing pass for GGML_OP_FLASH_ATTN_EXT on the Metal backend: when the KV cache is quantized (Q8_0 for now), dequantize K and V into a contiguous F16 scratch buffer and run the existing F16 flash attention kernels on it, instead of the in-kernel dequantization path. new kernel kernel_flash_attn_ext_dequant_to_f16<block_t, QK, deq_t4x4>: one thread per quant",
+    "published": "2026-08-21T00:44:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10531",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10531",
+    "description": "Revert \"tensor-split meta backend fixes ( #26502 )\" ( #27433 ) This reverts commit d59d455 . Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42012577 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP3",
+    "published": "2026-08-21T00:21:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10524",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10524",
+    "description": "opencl: make the MoE expert scatter deterministic ( #26464 )",
+    "published": "2026-08-20T03:40:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10520",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10520",
+    "description": "ggml-cpu: gate __fp16 on __ARM_FP16_FORMAT_IEEE ( #26860 ) ggml-cpu: gate __fp16 on __ARM_FP16_FORMAT_IEEE __ARM_NEON only signals NEON availability. The __fp16 type also needs the IEEE half format, implied on AArch64 but selected with -mfp16-format=ieee on 32 bit Arm, where the compiler otherwise rejects the type. The guard keeps every toolchain that provides the type on the same code and sends that one configuration to the generic lookup path. ggml-cpu: gate the NEON+FMA block on __ARM_FP16_FO",
+    "published": "2026-08-20T21:05:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10519",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10519",
+    "description": "server: refactor sleep handling, allow access /metrics during sleep ( #27376 ) add cached responses refactor on_sleeping_state allow accessing metrics during sleep metrics task should not reset timer updated docs fix fix get_res_model_info add test fix a race condition split metrics and slots tasks / results should_reset_buckets Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/41972694 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, K",
+    "published": "2026-08-20T20:33:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10517",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10517",
+    "description": "vulkan : dequant q8_0 KV once in coopmat1 ( #25494 ) vulkan : dequant q8_0 KV once in coopmat1 Assisted-by: Claude (Opus 4.8) vulkan : fall back instead of aborting when FA scratch exceeds maxStorageBufferRange vulkan : require KV-cache layout in FA dequant path Assisted-by: Claude (Opus 4.8) vulkan : skip FA dequant path on coopmat2 Assisted-by: Claude (Opus 4.8) tests : add contiguously-allocated quant K/V FA tests Assisted-by: Claude (Opus 4.8) vulkan : trim comments vulkan : tighten permutat",
+    "published": "2026-08-20T17:45:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10516",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10516",
+    "description": "vulkan: add null checks in ggml_vk_queue_command_pools_cleanup ( #27353 ) Guard against null queue pointers. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/41873046 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubun",
+    "published": "2026-08-20T13:22:33Z",
+    "source": "llama.cpp Releases"
+  }
+]
