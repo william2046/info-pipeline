@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10588",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10588",
+    "description": "common: json.h: fix clang lto ( #27575 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42368523 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
+    "published": "2026-08-22T23:42:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10587",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10587",
+    "description": "vulkan : added the PAD_REFLECT_1D operation ( #26586 ) vulkan : added PAD_REFLECT_1D operation Implemented the GGML_OP_PAD_REFLECT_1D operation for the Vulkan backend Changes: pad_reflect_1d.comp: implemented the GLSL compute shader with reflection logic vulkan-shaders-gen.cpp: register the shader for SPIR-V compilation ggml-vulkan.cpp: pushed constants struct, pipeline creation, supports_op, dispatch function, compute switch and debug validation Tested the PAD_REFLECT_1D on Intel Iris Xe (Vulka",
+    "published": "2026-08-22T20:13:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10586",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10586",
+    "description": "mtmd: use ggml_rope_set_offset ( #27521 ) mtmd: use ggml_rope_set_offset add comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42334609 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SY",
+    "published": "2026-08-22T16:05:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10585",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10585",
+    "description": "common: add json.h abstraction ( #27511 ) add common/json migrate common adapt jinja migrate server big wip migrate tests wip revert some excessive changes wip wip 2 revert redundant changes fix server crash various fixes fix ci harden a bit clean up rm json-shim add some comments rm redundant decl Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42332655 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS",
+    "published": "2026-08-22T15:42:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10584",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10584",
+    "description": "fit: also take into account n_streams ( #27496 ) fit: also take into account n_streams server: make the draft context follow the target context With a non-unified KV cache the target context now holds n_ctx_train tokens per sequence, while the draft context was still created with n_ctx = 0 and fell back to n_ctx_train / n_streams per sequence. A slot filled beyond that point makes the draft batch fail to decode, and the server answers 500 on the request. The draft context now takes its size from",
+    "published": "2026-08-22T15:07:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10582",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10582",
+    "description": "ci : Restore ROCm job for Ubuntu ( #27399 ) Revert \"ci : disable ubuntu-rocm ( #26969 )\" This reverts commit 9558fa4 . ci: set ccache compiler_check=content for ROCm build The ROCm toolchain is pip-installed fresh on every run, so the clang binary's mtime changes each time. With ccache's default compiler_check=mtime that invalidates the whole cache and warm builds only reached ~70% hits. Hash the compiler contents instead so the cache survives toolchain reinstalls. Update ccache size to 1GB We'r",
+    "published": "2026-08-22T12:59:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10581",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10581",
+    "description": "model : support DSpark for bailingmoe3 ( #27508 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42309942 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) DISABLED Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+    "published": "2026-08-22T10:14:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10580",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10580",
+    "description": "mtmd: support dots3-note vision+audio ( #27524 ) text: conversion init impl mtmd: conversion impl mtmd cpp Update gguf-py/gguf/tensor_mapping.py Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42307518 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFram",
+    "published": "2026-08-22T09:35:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10578",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10578",
+    "description": "ggml: optimize concat op by replacing per-element memcpy with row-level memcpy ( #24575 ) ggml: optimize concat op by replacing per-element memcpy with row-level memcpy ggml: fix concat offsets for row-level copies ggml: add concat row contiguity asserts ggml: move concat block size asserts ggml: remove redundant concat asserts Update ggml/src/ggml-cpu/ops.cpp Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Websi",
+    "published": "2026-08-22T09:12:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10577",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10577",
+    "description": "common : fix draft-mtp with embeddings ( #26352 , #27299 ) ( #27400 ) common: fix draft-mtp with embeddings ( #26352 ) --whitespace Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42302233 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 ",
+    "published": "2026-08-22T08:15:13Z",
+    "source": "llama.cpp Releases"
+  }
+]
