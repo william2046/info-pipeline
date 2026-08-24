@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10603",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10603",
+    "description": "model : support MTP in GLM-4.5-Air ( #26534 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42447665 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) W",
+    "published": "2026-08-23T18:47:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10599",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10599",
+    "description": "test: move tools/parser to tests ( #27548 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42442638 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
+    "published": "2026-08-23T17:41:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10598",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10598",
+    "description": "mtmd: use pillow-accurate algo, correct resize_algo for all models ( #27594 ) mtmd: use pillow-accurate resize algo, correct resize_algo for all models speed optimization Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42440726 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulk",
+    "published": "2026-08-23T17:18:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10595",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10595",
+    "description": "server : add LLAMA_SERVER_SLOTS_N_DIFF ( #27600 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42423433 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CP",
+    "published": "2026-08-23T13:45:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10594",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10594",
+    "description": "common : skip device_info loop if it's not going to be printed ( #26692 ) The device_info loop iterates over the discovered devices and gets the available and total memory counts. With the CUDA backend (and possibly others too) this requires creating a GPU context, which, in case of CUDA, results in a 550 MB VRAM allocation. For this information to be used in any way, the log verbosity must be set to LOG_LEVEL_TRACE. If it's not, including in the default configuration, the contexts get created, ",
+    "published": "2026-08-23T13:23:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10593",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10593",
+    "description": "DeepseekV4: fix rollback with multi-seq ( #26756 ) DeepseekV4: fix rollback with multi-seq fix model loading make pending rollback single use only clear cache for seq_id for full load add assert for compress ratio make graph topology static pass true instead of flags in clear_compressed cont : clean-up + TODOs Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42415702 macOS/iOS: macOS Apple Silicon (arm",
+    "published": "2026-08-23T11:41:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10590",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10590",
+    "description": "vendor : update subprocess.h ( #27409 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42402532 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows",
+    "published": "2026-08-23T08:22:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10589",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10589",
+    "description": "cuda : add POOL_1D support ( #27573 ) cuda : add POOL_1D support fix: add missing trailing newline for editorconfig compliance Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42401257 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenV",
+    "published": "2026-08-23T08:00:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10588",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10588",
+    "description": "common: json.h: fix clang lto ( #27575 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42368523 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
+    "published": "2026-08-22T23:42:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10587",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10587",
+    "description": "vulkan : added the PAD_REFLECT_1D operation ( #26586 ) vulkan : added PAD_REFLECT_1D operation Implemented the GGML_OP_PAD_REFLECT_1D operation for the Vulkan backend Changes: pad_reflect_1d.comp: implemented the GLSL compute shader with reflection logic vulkan-shaders-gen.cpp: register the shader for SPIR-V compilation ggml-vulkan.cpp: pushed constants struct, pipeline creation, supports_op, dispatch function, compute switch and debug validation Tested the PAD_REFLECT_1D on Intel Iris Xe (Vulka",
+    "published": "2026-08-22T20:13:41Z",
+    "source": "llama.cpp Releases"
+  }
+]
