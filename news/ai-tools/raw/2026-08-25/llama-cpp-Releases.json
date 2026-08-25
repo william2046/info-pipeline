@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10615",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10615",
+    "description": "metal : per-device tuned (Q, NE) for flash-attn vec ( #26570 ) metal : per-device tuned (Q, NE) for flash-attn vec ( #25750 ) rebase Q-generic FA vec body from 01dc936 ( #23114 ) add 53 f16 (Q,NE) flash-attn vec instantiations (vec 80 -> 133) add FA vec (Q,NE) tuning table + dispatch wiring + SMEM cap fallback add FA vec (Q,NE) perf sweep fill tuning result fold family table into a per-family representative SKU refactor tuning result format extend FA vec tuning to quantized KV caches sync fa vec",
+    "published": "2026-08-24T21:54:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10614",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10614",
+    "description": "metal: per-op source split + parallel compile ( #26561 ) metal : per-op source split + parallel compile ( #24021 ) preliminary extract common header op source split split metallib into 8 libs && load in parallel derive kernel->library routing from functionNames x-macro lib list + underscore filenames, dedup QK_NL, MRC fixes op source split 8 to 20 improve robustness of source fallback clean up change bool -> atomic_bool only prepend headers that source actually includes no semaphore, use GCD glo",
+    "published": "2026-08-24T21:25:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10612",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10612",
+    "description": "tests : disable DOTS3NOTE arch test for WebGPU ( #27654 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42591112 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64",
+    "published": "2026-08-24T13:43:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10610",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10610",
+    "description": "ggml : shorten virtual device naming in CUDA and Metal ( #27608 ) ggml : shorten virtual device naming in CUDA and Metal Assisted-by: llama.cpp:DeepSeek-V4-Flash-0731 ggml-metal : build device description at init Assisted-by: llama.cpp:DeepSeek-V4-Flash-0731 cont : naming Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42585632 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewor",
+    "published": "2026-08-24T13:18:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10608",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10608",
+    "description": "mtmd: video: fix moov atom at the end of file ( #27596 ) mtmd: video: fix moov at the end of file Co-authored-by: rkfg rkfg@rkfg.me fix SIGPIPE windows: handle broken pipe case Co-authored-by: rkfg rkfg@rkfg.me Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42581317 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU",
+    "published": "2026-08-24T12:56:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10606",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10606",
+    "description": "ggml : fix ggml_clamp ( #27644 ) ggml : fix ggml_clamp cont : update ggml-alloc Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42576162 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP",
+    "published": "2026-08-24T12:33:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10605",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10605",
+    "description": "mamba2 : Flatten in/out projections to dispatch GEMM instead of GEMV ( #27513 ) mamba2 : flatten mamba2 in/out projections to dispatch gemm instead of gemv mamba2 : remove redundant output reshape Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42533776 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (",
+    "published": "2026-08-24T08:59:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10604",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10604",
+    "description": "Deepseek 4: -sm tensor ( #26490 ) DSV4: sm tensor set coarser granularity for head splits fix dspark add model saving for dsv4 + allow dflash to return on specific device add comment about dsv4 seq_rm simplify add shared expert delayed allreduce remove special test for dsv4 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42515961 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramew",
+    "published": "2026-08-24T07:18:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10603",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10603",
+    "description": "model : support MTP in GLM-4.5-Air ( #26534 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42447665 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) W",
+    "published": "2026-08-23T18:47:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10599",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10599",
+    "description": "test: move tools/parser to tests ( #27548 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/42442638 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Win",
+    "published": "2026-08-23T17:41:07Z",
+    "source": "llama.cpp Releases"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.33.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
+    "description": "What's Changed Claude Desktop Turn individual Ollama models on or off for use in Claude, directly from the menu bar Choose from your available Ollama models from within Claude; cloud models appear only when you're signed in A new Apps view manages app integrations with copyable commands Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every restore point it crossed, so retries resume ",
+    "published": "2026-08-23T19:19:20Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc1",
+    "description": "app: sign model recommendation endpoint ( #17919 )",
+    "published": "2026-08-22T00:21:00Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.0-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc0",
+    "description": "app: claude model management ( #17915 )",
+    "published": "2026-08-21T22:04:58Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.15",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.15",
+    "description": "What's Changed New desktop onboarding flow on first launch Caches resolved model metadata between requests, cutting time-to-first-token by roughly half (TTFT dropped from ~995 ms to ~524 ms in benchmarks) Fixes a bug where chat and generate could wedge after a mid-stream parser error Qwen 3.8 system messages are now normalized so non-leading system messages are handled consistently MLX and llama.cpp dependency updates New Contributors @gaugarg-nv made their first contribution in #17752 Full Chan",
+    "published": "2026-08-20T18:47:06Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.15-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc2",
+    "description": "app: add desktop onboarding flow ( #17853 )",
+    "published": "2026-08-19T22:40:16Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.15-rc1: ci: plumb temporary MLX patch through to docker stages (#17874)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1",
+    "description": "Follow up to #17850",
+    "published": "2026-08-19T15:33:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.15-rc0: mlx update (#17850)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc0",
+    "description": "Temporarily carry ml-explore/mlx-c#127",
+    "published": "2026-08-19T14:15:11Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.14",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.14",
+    "description": "What's Changed llm: transcode WebP images for llama-server renderers/qwen: tolerate non-leading system messages Full Changelog : v0.32.13...v0.32.14",
+    "published": "2026-08-16T17:41:11Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.14-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.14-rc0",
+    "description": "mlx update ( #17761 )",
+    "published": "2026-08-15T18:56:40Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.32.13",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.32.13",
+    "description": "What's Changed qwen3.8: support developer instructions Full Changelog : v0.32.12...v0.32.13",
+    "published": "2026-08-14T19:18:00Z",
+    "source": "Ollama Releases"
+  }
+]
