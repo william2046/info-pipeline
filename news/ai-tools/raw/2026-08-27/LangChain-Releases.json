@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain==1.3.17",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.17",
+    "description": "Changes since langchain==1.3.16 release(langchain): 1.3.17 ( #39893 ) fix(langchain): frame custom HITL rejection reasons ( #39773 ) chore(deps): bump minor and patch dependencies ( #39869 )",
+    "published": "2026-08-25T02:40:54Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-perplexity==1.4.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.1",
+    "description": "Changes since langchain-perplexity==1.4.0 release(perplexity): 1.4.1 ( #39826 ) fix(perplexity): include type=\"message\" on Responses input items ( #39774 ) fix(perplexity): preserve caller extra_body ( #39203 ) chore: bump pillow from 12.2.0 to 12.3.0 in /libs/partners/perplexity ( #38991 ) chore(deps): refresh lockfiles ( #38746 ) fix(perplexity): use supported Responses API model ( #38337 ) chore: bump vcrpy from 8.1.1 to 8.2.1 in /libs/partners/perplexity ( #38290 ) chore: bump langsmith from",
+    "published": "2026-08-21T14:08:47Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.6.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.0",
+    "description": "Changes since langchain-fireworks==1.5.2 release(fireworks): 1.6.0 ( #39810 ) feat(fireworks): add document reranking ( #39732 ) fix(fireworks): filter invalid tool calls from v1 content ( #39805 ) feat(core): add standard model exception types ( #39538 ) chore(model-profiles): refresh model profile data ( #39646 ) fix(fireworks): avoid repeated service_tier [closes #39619 ] ( #39620 ) chore: bump langsmith from 0.10.6 to 0.10.16 in /libs/partners/fireworks ( #39279 ) chore: bump aiohttp from 3.",
+    "published": "2026-08-20T17:47:20Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.6.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.6.1",
+    "description": "Changes since langchain-anthropic==1.6.0 release(anthropic): 1.6.1 ( #39804 ) fix(anthropic): filter invalid tool calls from v1 content ( #39803 )",
+    "published": "2026-08-20T14:06:51Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.16",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.16",
+    "description": "Changes since langchain==1.3.15 release(langchain): 1.3.16 ( #39806 ) feat(core): add standard model exception types ( #39538 ) feat(langchain): support custom token_counter in ContextEditingMiddleware ( #39754 ) fix(langchain): re-raise non-retryable exceptions in ModelRetryMiddleware ( #38960 ) chore(langchain): update docs on error handling for json schema ( #39632 ) fix(langchain): preserve final repeated schema ordering ( #39284 )",
+    "published": "2026-08-20T14:35:32Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.6.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.0",
+    "description": "Changes since langchain-openai==1.5.2 release(openai): 1.6.0 ( #39762 ) feat(core): add standard model exception types ( #39538 ) fix(openai): raise clear error on unexpected response type in _create_chat_result ( #39731 )",
+    "published": "2026-08-19T21:45:04Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.0",
+    "description": "Changes since langchain-core==1.5.6 release(core): 1.6.0 ( #39760 ) fix(core): resolve postponed annotations in StructuredTool._injected_args_keys ( #39602 ) feat(core): add standard model exception types ( #39538 ) fix(core): allow deserializing RunnablePick ( #39753 ) fix(core): make convert_to_openai_function handle callables and non-dict mappings ( #39750 ) fix(core): make subprocess and temporary file tests portable on Windows ( #39664 ) fix(core): fail fast when tool schemas can't resolve ",
+    "published": "2026-08-19T15:55:59Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.6.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.6.0",
+    "description": "Changes since langchain-anthropic==1.5.6 release(anthropic): 1.6.0 ( #39763 ) feat(core): add standard model exception types ( #39538 ) fix(anthropic): exclude sibling directories from grep search scope ( #39681 ) chore(infra): support langsmith gateway in CI ( #39651 )",
+    "published": "2026-08-19T21:39:56Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.5.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2",
+    "description": "Changes since langchain-openai==1.5.1 release(openai): 1.5.2 ( #39719 ) fix(openai): preserve reasoning item boundaries ( #39278 ) release(openai): 1.5.2a1 ( #39709 ) feat(openai): extract gateway metadata from response headers when available ( #39706 ) chore(openai): update snapshots ( #39657 ) fix(openai): support o-series models in get_num_tokens_from_messages ( #38710 )",
+    "published": "2026-08-18T17:38:13Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.5.2a1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2a1",
+    "description": "Initial release release(openai): 1.5.2a1 ( #39709 ) feat(openai): extract gateway metadata from response headers when available ( #39706 ) chore(openai): update snapshots ( #39657 ) fix(openai): support o-series models in get_num_tokens_from_messages ( #38710 ) release(openai): 1.5.1 ( #39653 ) fix(openai): preserve streamed encrypted reasoning ( #39635 ) chore(infra): support langsmith gateway in CI ( #39651 ) release(openai): 1.5.0 ( #39629 ) feat(openai): support openai 3.0 SDK ( #39613 ) cho",
+    "published": "2026-08-18T01:51:40Z",
+    "source": "LangChain Releases"
+  }
+]

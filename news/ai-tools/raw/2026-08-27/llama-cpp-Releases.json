@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10646",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10646",
+    "description": "metal : fix memory leaks due to missing autoreleasepools ( #27758 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43372015 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android:",
+    "published": "2026-08-27T10:48:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10645",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10645",
+    "description": "llama : add --n-cpu-ffn option ( #26622 ) common : dedupe --n-cpu-moe / --spec-draft-n-cpu-moe override loops common : add --n-cpu-ffn to CPU-offload dense FFN weights of first N layers common : generalize llm_ffn_block_regex over the FFN regex, drop TODO Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43362872 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x",
+    "published": "2026-08-27T10:04:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10644",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10644",
+    "description": "models : support nanbeige4.2-3B ( #27730 ) Co-authored-by: admin lizongqiang@kanzhun.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43308396 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64",
+    "published": "2026-08-27T05:24:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10643",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10643",
+    "description": "hexagon: support for multi-NPU devices (IQ9, IQ10) and fully asynchronous backend ( #26501 ) hexagon: use non-host bufs by default and make the backend fully async hex-hb: remove optional hostbuf support and fix async copy hex-unary: relax supported unary check hex-bufs: use same get_alignment for host bufs snapdragon: bump android_platform to 34 hex-rows: super hacky get/set rows for q8_0 hex-get-rows: fix q8_0 hex-get-rows: supprot for f16 and cleanup for q8_0 hex-get-rows: generic macros and ",
+    "published": "2026-08-27T02:16:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10642",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10642",
+    "description": "llama: add token ID tracking to KV cell ( #27762 ) kv: track token id rm get_prev_tokens, move it to the main pr nits add get_prev_tokens Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43245878 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu",
+    "published": "2026-08-26T22:02:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10639",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10639",
+    "description": "vulkan: warptiles currently assume warp sizes <= 64, clamp to work around larger warps ( #27726 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43173045 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) U",
+    "published": "2026-08-26T16:53:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10638",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10638",
+    "description": "Implemented vulkan cross_entropy_loss and cross_entropy_loss_back ( #27216 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43166320 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16)",
+    "published": "2026-08-26T16:11:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10636",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10636",
+    "description": "ci: Clean up UI builds from releases ( #27706 ) ci : inline UI version resolution into ui-build.yml ci : build UI once and reuse the artifact in release jobs Server jobs now extract the ui-build artifact into tools/ui/dist instead of npm-building the UI. Also removes the get-version job and the no-op -DHF_UI_VERSION flags. Assisted-by: pi:Kimi-K3 ui : disable the npm UI build by default (LLAMA_BUILD_UI=OFF) The flag now only controls building the UI from source via npm. The UI is still embedded ",
+    "published": "2026-08-26T12:46:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10635",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10635",
+    "description": "cuda: unblock mmq for MoE on sm_60 ( #26264 ) cuda: unblock mmq for MoE on sm_60 cuda: duplicate mmq-config-pascal for dp4a and older cuda: reduce occupancy on non-dp4a pascal for Q2_K, Q4_K, Q5_K, Q6_K Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43111280 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu",
+    "published": "2026-08-26T11:34:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10632",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10632",
+    "description": "ggml-metal: add chunked SSD MMA for Mamba-2 prefill optimization ( #26647 ) metal: WIP chunked SSD SSM_SCAN kernels for multi-token prefill metal: drop scalar SSD path; MMA + sequential tail drop WIP ssm scan test noise remove state_from_dst and rename CS and NSG constants remove unrelated added whitespace padding added clarity to mma_tokens calculation added clarity to use_mma bool checks added comments to metal ssd op constants for clarity reserve K tokens for sequential kernel rollback snapsh",
+    "published": "2026-08-26T09:31:33Z",
+    "source": "llama.cpp Releases"
+  }
+]
