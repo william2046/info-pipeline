@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10680: snapdragon: python SDK setup (Windows) (#27903)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10680",
+    "description": "port setup-build.ps1 to setup_sdk.py, to facilitate installation of Hexagon and OpenCL SDKs on Windows rename setup_sdk.py -> setup-sdk.py flake8 fix: print() -> logger.info() Co-authored-by: Kristopher Urquhart kurquhar@qti.qualcom.com",
+    "published": "2026-08-28T21:01:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10679",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10679",
+    "description": "bench: add --tensor-read-lazy ( #27881 ) bench: add --tensor-read-lazy rm the alias rename to LLAMA_LAZY_MODE_* Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43739963 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64",
+    "published": "2026-08-28T19:24:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10678",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10678",
+    "description": "model: qwen4exp: reduce number of graph splits ( #27880 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43734155 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
+    "published": "2026-08-28T18:53:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10677",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10677",
+    "description": "vulkan: fix missing view-alias dependencies in ggml_vk_graph_optimize ( #27812 ) vulkan: fix missing view-alias dependencies in ggml_vk_graph_optimize is_src_of doesn't treat two views of one tensor as dependent, so the optimizer reorders nodes across aliased reads and writes. Result: silently wrong tokens under greedy decoding, different output on every server start, and invalid speculative-decoding acceptance, with nothing logged. Hits Qwen3.8's recurrent state (and any model with view-aliased",
+    "published": "2026-08-28T18:29:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10676",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10676",
+    "description": "ggml : fix conv_transpose_2d for multiple batches ( #26132 ) ggml : fix conv_transpose_2d for multiple batches ggml_compute_forward_conv_transpose_2d_impl only computed the first batch (ne[3] of the destination); every batch after the first was left as zero. Both the src1 permutation and the main compute loop now iterate over the batch dimension, and the work buffer size in ggml_graph_plan is scaled by the src1 batch count so the extra permuted batches fit. A multi-batch test case is added to te",
+    "published": "2026-08-28T18:03:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10675",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10675",
+    "description": "Vulkan: add hoisting support for row IDs and expert count in shaders ( #26686 ) vulkan: add hoisting support for row IDs and expert count in shaders use hoisted row ids in coopmat2 vulkan: address review feedback on count_experts use vk_op_count_experts_push_constants instead of a raw uint vector apply the fastdiv trick to the ne00 div/mod in count_experts compute the per-expert offsets with subgroupExclusiveAdd when the device supports it, keeping the serial path as fallback document the data_d",
+    "published": "2026-08-28T15:50:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10673",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10673",
+    "description": "metal : add fa-vec tunings for M4 ( #27875 ) This adds fa_vec_tuned_table records for Apple M4 to ggml-metal-tuning.cpp. Includes F16, Q4_0, Q4_1, Q5_0, Q5_1, and Q8_0. (M4, 10 GPU Cores) Co-authored-by: Strongtut 8432058+Strongtut@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43677301 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu ",
+    "published": "2026-08-28T14:32:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10672",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10672",
+    "description": "OpenVINO: Update OV to 2026.3.1, whisper.cpp support, Qwen3.5 on NPU, and new ops ( #27843 ) OpenVINO Backend: Fuse IM2COL + MatMul convolution into OpenVINO convolution ci:ggml-ov: Skip recurrent state rollback tests ci:ggml-ov: Skip recurrent state rollback tests Update OPENVINO.md ggml-openvino : add env-var gated op support debugging Fix ggml_rope_set_offset case OpenVINO backend: Support Whisper.cpp Fix code style openvino : enable qwen35 on NPU Static shapes: get_graph_input_shape() left t",
+    "published": "2026-08-28T13:53:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10670",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10670",
+    "description": "sycl: use TILE for quantized KV decode on BMG ( #26689 ) Route quantized KV decode to TILE on Xe2 (BMG) only, keep VEC on other archs until validated there. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/43660247 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64",
+    "published": "2026-08-28T13:14:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10669",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10669",
+    "description": "sycl: bind the f16 KV cache in place for the oneDNN SDPA path ( #27468 ) Measured at a live KV length of 34816 (32768 depth plus one 2048 ubatch), on Qwen3.8 27B Q4_K_S: per tensor 4 * 34816 * 256 * 2 B = 71.3 MB staged per call K and V, so 2x = 142.6 MB traffic per call read once, write once = 285.2 MB traffic per ubatch 285.2 MB * 16 calls = 4.56 GB One ubatch is one ggml_cgraph submission (llama_context::process_ubatch -> graph_compute), so that 4.56 GB is the cost of a single 2048-token pref",
+    "published": "2026-08-28T12:45:55Z",
+    "source": "llama.cpp Releases"
+  }
+]
