@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.33.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.2",
+    "description": "What's Changed Ollama's app now follows the system appearance again, restoring dark mode support Fixed the macOS app to properly hand off to an already-running instance instead of starting a second one The Claude Desktop proxy no longer interrupts in-flight requests when the model catalog updates Full Changelog : v0.33.1...v0.33.2",
+    "published": "2026-08-28T20:58:12Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.2-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1",
+    "description": "app: list account cloud models for Claude ( #18077 )",
+    "published": "2026-08-27T20:22:11Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.2-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.2-rc0",
+    "description": "app: synchronize macOS app handoff ( #18056 )",
+    "published": "2026-08-27T06:15:54Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.1",
+    "description": "What's Changed MLX: Qwen3.8 Flash Next support cmake: make external compat patches idempotent MLX and llama.cpp update mlxrunner: add structured output support mlxrunner: avoid Metal GPU timeouts when loading models from slow storage New Contributors @pd95 made their first contribution in #17948 Full Changelog : v0.33.0...v0.33.1",
+    "published": "2026-08-26T23:54:05Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.1-rc1: linux: fix llama.cpp docker build (#18040)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc1",
+    "description": "Build context was missing the new cmake common utility.",
+    "published": "2026-08-26T17:21:21Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.1-rc0: MLX: Qwen3.8 Flash Next support (#18032)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc0",
+    "description": "MLX: Qwen3.8 Flash Next support review comments",
+    "published": "2026-08-26T15:05:59Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.0",
+    "description": "What's Changed Claude Desktop Developers can now easily configure Claude Desktop to seamlessly work with Ollama as a third-party gateway provider. Improved caching Fixed a hang where agent clients that cancel long prefills Prefill restore points are now trustworthy by construction: a cancelled prefill keeps every restore point it crossed, so retries resume where they stopped instead of restarting from scratch Resumed prefills no longer record restore points that fail to cover what they claim; on",
+    "published": "2026-08-26T02:09:34Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.0-rc4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc4",
+    "description": "proxy: preserve string content during image fallback ( #18002 )",
+    "published": "2026-08-25T22:03:57Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.0-rc3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc3",
+    "description": "app: add Claude Desktop model mappings ( #17979 )",
+    "published": "2026-08-25T02:43:47Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.0-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
+    "description": "app: prevent Apps title bar overlap ( #17925 )",
+    "published": "2026-08-22T01:48:22Z",
+    "source": "Ollama Releases"
+  }
+]

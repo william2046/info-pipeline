@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10712",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10712",
+    "description": "vulkan: top_k radix select for k >= 1024 for Qwen 3.8 Flash Next ( #28032 ) vulkan: add top-k radix sort shader for k >= 1024 add Qwen 3.8 Flash Next top-k tests add top-k qsa fusion clean up code Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44052683 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (",
+    "published": "2026-08-31T05:41:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10711",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10711",
+    "description": "hexagon: fix CPY fence bug ( #28033 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44046740 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: ",
+    "published": "2026-08-31T04:47:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10710",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10710",
+    "description": "metal : add remaining Q4_1/Q5_0/Q5_1 fa-vec tunings for M2 ( #28017 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44044108 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
+    "published": "2026-08-31T04:20:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10709",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10709",
+    "description": "rpc: avoid serializing buffers from other servers ( #26500 ) rpc: avoid serializing buffers from other servers Only include remote buffer pointers when the buffer belongs to the RPC dispatcher receiving the graph. Add a two-server regression test for cross-server tensor serialization. Assisted-by: Codex cont : add ref Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44040718 macOS/iOS: macOS Apple Sili",
+    "published": "2026-08-31T03:50:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10708",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10708",
+    "description": "ggml : fix ggml_backend_buft_get_alloc_size() guard ( #28038 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44038725 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Andr",
+    "published": "2026-08-31T03:27:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10707",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10707",
+    "description": "kv-cells: stop the sequence scan once all sequences are seen ( #28011 ) for_each_token_in tested all LLAMA_MAX_SEQ sequences for every used cell, while a cell almost always belongs to one. The scan now stops once the cell's own sequences have been seen. Same visit order, same callback arguments, so behaviour is unchanged. get_prev_tokens is the only caller, so this affects the n-gram path. RTX PRO 6000, Qwen3.8-Flash-Next UD-Q4_K_XL, fa on, warm runs: 55k context generation 56.3 -> 74.3 t/s 132k",
+    "published": "2026-08-31T03:04:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10706",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10706",
+    "description": "ggml: add SWIGLU_CLAMP ( #27930 ) ggml: add SWIGLU_CLAMP add vulkan shader Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44034152 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) A",
+    "published": "2026-08-31T02:40:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10705",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10705",
+    "description": "llama: improve TENSOR_READ_LAZY handling ( #27837 ) force lazy tensor on cpu if lazy is on llama: improve TENSOR_READ_LAZY handling Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44015138 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (",
+    "published": "2026-08-30T23:17:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10704",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10704",
+    "description": "CUDA: use the fast mm_ids_helper path for any n_expert_used ( #27978 ) The optimized path grouped warp lanes by token and required warp_size % n_expert_used == 0, with a single hardcoded exception padding 6 up to 8. Every other count fell back to the generic path, which walks the tokens one at a time with a warp reduction per token, for each of the n_expert blocks. The lane group only has to divide the warp, and the loop body already guards the padded lanes with iex < n_expert_used, so the paddi",
+    "published": "2026-08-30T22:55:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10703",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10703",
+    "description": "hip: tune rdna 3 mmq config ( #26284 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44012223 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows:",
+    "published": "2026-08-30T22:33:56Z",
+    "source": "llama.cpp Releases"
+  }
+]
