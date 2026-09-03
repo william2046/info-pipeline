@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10775",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10775",
+    "description": "mtmd: fix idefics3 preproc ( #28273 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44875193 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: ",
+    "published": "2026-09-03T02:18:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10774",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10774",
+    "description": "finetune: fix no KV cache ( #27199 ) training: fix no KV cache apply @ ggerganov suggestion Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44871971 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu ",
+    "published": "2026-09-03T01:54:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10773",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10773",
+    "description": "server : accept data: URLs for input_video and input_audio ( #27735 ) server : accept data: URLs for input_video and input_audio input_video and input_audio passed accept_base64_uri=false to handle_media(), so data: URLs got treated as raw base64 strings and failed later with a confusing media probe error ( #27724 ). pass true for these two content types the same way image_url already does, and allow video/audio mime types in the data: url check instead of image only. data URL validation now thr",
+    "published": "2026-09-03T01:27:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10772",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10772",
+    "description": "ggml-hexagon: add F16 support for unary ops ( #28228 ) Extend the HTP backend's F16 unary op coverage to include ABS on top of the existing NORM/RMS_NORM/L2_NORM/SCALE/CLAMP/SQR/SQRT set. Add hvx_abs_f16_{aa,au,ua,uu} + dispatcher in hvx-arith.h, mirroring the sqr_f16 kernel structure and using the existing hvx_vec_abs_f16() sign-bit-clear helper Add abs_f16() row-wise dispatch and DEFINE_UNARY_TASK_F16(unary_abs, ...) in unary-ops.c, wired into execute_op_unary()'s op_type/task_func switches Re",
+    "published": "2026-09-03T00:50:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10771",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10771",
+    "description": "mtmd: add mtmd_tokenize_from_parts() ( #28250 ) add mtmd_tokenize_from_parts use it in mtmd-cli move add_special to call level Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44860492 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenV",
+    "published": "2026-09-03T00:26:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10770",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10770",
+    "description": "metal : add fa-vec tunings for M3 ( #28236 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44857719 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
+    "published": "2026-09-03T00:02:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10769",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10769",
+    "description": "metal : fix memory query under low-memory conditions ( #27701 ) metal: Fix memory query under low-memory conditions Simply variable name Co-authored-by: Georgi Gerganov ggerganov@gmail.com Write it even shorter Co-authored-by: Niklas Wenzel dev@nikwen.de Co-authored-by: Georgi Gerganov ggerganov@gmail.com Co-authored-by: Niklas Wenzel dev@nikwen.de Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44854603 macOS/iOS: macOS Apple Silicon (arm64) macOS App",
+    "published": "2026-09-02T23:39:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10767",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10767",
+    "description": "Update ROCm to 10.0.0 release ( #27803 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44848715 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Window",
+    "published": "2026-09-02T23:00:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10766",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10766",
+    "description": "model: correctly support input vision for deepseek4 ( #28154 ) model: correctly support input vision for deepseek4 nits Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44819834 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ub",
+    "published": "2026-09-02T20:35:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10764",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10764",
+    "description": "ggml-cuda : remove unused vars ( #28235 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44811308 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.14) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu",
+    "published": "2026-09-02T19:59:49Z",
+    "source": "llama.cpp Releases"
+  }
+]
