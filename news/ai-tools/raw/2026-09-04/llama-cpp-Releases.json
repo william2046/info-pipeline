@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10796",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10796",
+    "description": "src : add n_expert_used_max function ( #28323 ) src : add n_expert_used_max function With Commit c61b98b (\"model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support ( #25444 )\") it is now possible for each layer to have a specific number of experts but there are a few checks that need to be updated to handle this upon model loading. For example: llama_model_load: error loading model: model has expert layers but no expert layers are used And later: /llama.cpp/src/llama-model-loader.cp",
+    "published": "2026-09-04T05:31:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10795",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10795",
+    "description": "sycl: fuse rms_norm+mul+add and add+add residual chains ( #27610 ) Fuse RMS_NORM+MUL+ADD and ADD+ADD under GGML_SYCL_ENABLE_FUSION. ADD+ADD uses the same binbcast indexing and type matrix as standalone add() (f32, f16, f16/f32, i32, i16, bf16, including broadcast and non-contiguous). Unsupported combinations fall back to two add() launches. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45161609 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silic",
+    "published": "2026-09-04T04:32:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10794",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10794",
+    "description": "SYCL: Refactor GGML_SYCL_ENABLE_MKL_FA to global var ( #26863 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45153754 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
+    "published": "2026-09-04T03:22:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10793",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10793",
+    "description": "llama: fix whole source code rebuilt on each new commit ( #28278 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45114012 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: ",
+    "published": "2026-09-03T22:19:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10792",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10792",
+    "description": "common/json-schema : fix GBNF grammar generation for empty object schemas ( #28279 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45102223 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SY",
+    "published": "2026-09-03T21:12:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10791",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10791",
+    "description": "opencl: quant lm_head / decode GEMV and medium-batch GEMM optimizations (speculative decoding/MTP) ( #26477 ) opencl: quant lm_head / decode GEMV and medium-batch GEMM optimizations opencl: guard q4_K/q6_K tiled_ns convert-kernel registration for non-Adreno build opencl: gate q4_K MUL_MAT+GLU fusion dispatch to Adreno opencl: require the noshuffle weight layout in the q4_K GLU fusion gate opencl: do not take the vectorized f16 mrow GEMV path on an unaligned row stride opencl: pass the new get_sc",
+    "published": "2026-09-03T20:24:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10790",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10790",
+    "description": "tune MMVQ to MMQ crossover for SM87 ( #28285 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45087167 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) ",
+    "published": "2026-09-03T19:54:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10786",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10786",
+    "description": "mtmd: propagate const to preproc class ( #28310 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44990064 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CP",
+    "published": "2026-09-03T12:45:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10785",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10785",
+    "description": "metal : add sparse FA ( #28098 ) metal : support n_kv_max sparse mask hint in flash attention vec kernel add kernel_flash_attn_ext_vec_idx: compacts finite mask entries into a per-row index list (Hillis-Steele scan, one threadgroup per row) extend vec FA kernel with optional sparse index gathering (FC slot 5) add host-side gate: sparse path when n_kv_max > 0, mask present, supported head sizes / KV types, n_kv_max <= 4096 new buffer region extra_idx for the index list pipeline getter extended wi",
+    "published": "2026-09-03T12:21:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10784",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10784",
+    "description": "metal : fix glu dispatch with ne00 = 1 ( #28306 ) metal : fix glu dispatch with ne00 = 1 tests : disable ill-defined tests Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/44977647 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO)",
+    "published": "2026-09-03T11:54:05Z",
+    "source": "llama.cpp Releases"
+  }
+]

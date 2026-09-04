@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-anthropic==1.7.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.1",
+    "description": "Changes since langchain-anthropic==1.7.0 release(anthropic): 1.7.1 ( #40181 ) perf(anthropic,langchain): omit middleware trace inputs ( #40098 ) feat(anthropic): add Claude Fable 5.1 support ( #40106 )",
+    "published": "2026-09-03T15:42:02Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0",
+    "description": "Changes since langchain==1.3.18 docs(langchain): runnable langchain.mcp examples ( #39976 ) feat(langchain): langchain.mcp namespace, MCPAdapter ( #39939 ) perf(anthropic,langchain): omit middleware trace inputs ( #40098 ) fix(langchain): include model destination in agent tool routing ( #38355 ) chore(langchain): bump vcrpy test dependency minimum to >=8.2.0 ( #39942 )",
+    "published": "2026-09-03T16:59:55Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.0a4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a4",
+    "description": "Initial release release(langchain): 1.4.0a4 test(langchain): cover mixed-era ClientGroup and group elicitation Update libs/langchain_v1/langchain/mcp/adapter.py fix(langchain): drive MCP elicitation via member session for fastmcp 4.0.1 fix(sdk): use latest fastmcp and rm reentrant impl cr cr refactor(langchain): inline MCP client arming into __init__ refactor(langchain): stamp an arm marker instead of introspecting the handler closure fix(langchain): gate MCP interrupt routing on the negotiated ",
+    "published": "2026-09-02T05:35:23Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.0a3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a3",
+    "description": "Third alpha of the 1.4.0 line. This release focuses on the new langchain.mcp namespace for adapting MCP servers into LangChain tools. langchain.mcp highlights MCPAdapter adapts any target fastmcp.Client accepts — a URL, a local script, an in-process server, an MCPConfig naming several servers, or a pre-built client — as well as a FastMCP ClientGroup for a fleet of servers behind one client. MCPAdapter.list_tools(*, cache_mode=\"use\") discovers and adapts tools, with optional client-side response ",
+    "published": "2026-09-01T17:22:31Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.0a2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a2",
+    "description": "Alpha preview of langchain.mcp — a first-party adapter that turns any MCP server into LangChain tools you can hand straight to create_agent . Connection handling is FastMCP 's, so its client features are available as-is rather than re-implemented behind a narrower interface. pip install \" langchain[mcp]==1.4.0a2 \" Connect MCPAdapter takes any target fastmcp.Client accepts — transport is inferred, so there is one entry point rather than one per protocol. from langchain . agents import create_agen",
+    "published": "2026-08-28T16:58:59Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.6.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.1",
+    "description": "Changes since langchain-fireworks==1.6.0 release(fireworks): 1.6.1 ( #39975 ) fix(fireworks): drop reasoning history blocks ( #39973 ) chore(model-profiles): refresh model profile data ( #39844 )",
+    "published": "2026-08-27T21:56:29Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.1",
+    "description": "Changes since langchain-core==1.6.0 revert: release(core): 1.6.2 ( #39971 ) release(core): 1.6.2 ( #39967 ) fix(core): shore up indexing in genai v1 streaming content ( #39964 ) fix(core): make StructuredTool JSON-serializable ( #39631 ) chore(deps): bump minor and patch dependencies ( #39869 ) release(core): 1.6.1 ( #39832 ) feat(core): propagate gateway information on error path ( #39829 )",
+    "published": "2026-08-27T19:31:36Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.7.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.0",
+    "description": "Changes since langchain-anthropic==1.6.1 release(anthropic): 1.7.0 ( #39963 ) feat(anthropic): support top-level param for skills via container ; updates thinking display mode ( #39962 ) feat(anthropic): support 1.0 sdk ( #39938 ) fix(anthropic): auto-append advisor-tool-2026-03-01 beta header for advisor_20260301 tool ( #39917 ) feat(anthropic): surface gateway response metadata ( #39809 )",
+    "published": "2026-08-27T15:24:18Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.0a1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a1",
+    "description": "Initial release fix(langchain): name the content type MCP conversion could not handle release(langchain): 1.4.0a1 test(langchain): skip MCP tests on a pydantic older than mcp supports test(langchain): drive MCP tests through FastMCP's own utilities fix(langchain/mcp): review edits ( #39974 ) Merge remote-tracking branch 'origin/master' into sydney-runkle/langchain/simplify-mcp-adapter fix(langchain): import assert_never from typing_extensions test(langchain): fix type errors in the MCP test suit",
+    "published": "2026-08-27T22:21:11Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.3.18",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.18",
+    "description": "Changes since langchain==1.3.17 release(langchain): 1.3.18 ( #39966 ) fix(langchain): preserve content-block shape in PIIMiddleware redaction ( #39894 ) fix(core): shore up indexing in genai v1 streaming content ( #39964 )",
+    "published": "2026-08-27T17:33:29Z",
+    "source": "LangChain Releases"
+  }
+]
