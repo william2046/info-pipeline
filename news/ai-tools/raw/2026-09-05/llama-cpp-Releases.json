@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.4.0",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.0",
+    "description": "Overview llama.cpp 0.4.0 adds initial Qwen3.8-Flash-Next and Nemotron-3-Puzzle support, on-demand tensor reading, per-slot server context limits, video input options, and a ggml update to 0.23.0 with major sparse flash attention and RDMA work. API changes Added llama_lazy_mode and lazy_mode ( #27794 ). Added max_buf_size to quantize params ( #27795 ). Bumped session/state versions for KV-cell token tracking ( #27762 ). Added mtmd_input_part and mtmd_tokenize_from_parts() ( #28250 ). Made mtmd_to",
+    "published": "2026-09-04T19:57:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10816",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10816",
+    "description": "metal : add remaining fa-vec tunings for M3 ( #28396 ) addition of m3 in fa_vec_tuned_table adding q4_0,q4_1,q5_0,q5_1 in ggml-metal-tuning Fix formatting in ggml-metal-tuning.cpp Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45337508 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
+    "published": "2026-09-04T20:00:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10814",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10814",
+    "description": "opencl: extend the elementwise and data‐movement op coverage ( #27633 ) opencl: add extended elementwise unary ops (sgn, step, elu, hardswish, hardsigmoid, floor, ceil, round, trunc) Adds nine GGML_UNARY_OP_* elementwise ops that were falling back to CPU on the OpenCL backend, following the same variant shape as the existing ABS op: f32, f32_4 (vec4), f16, f16_4 (vec4), and stride-addressed f32_nc / f16_nc for non-contiguous inputs. New kernels/unary_ext.cl (macro-generated), a shared ggml_cl_un",
+    "published": "2026-09-04T19:32:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10813",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10813",
+    "description": "opencl: add Adreno xmem SDPA path ( #26331 ) opencl: add Adreno xmem SDPA path Assisted-by: Codex Removed the Adreno-specific queue profiling override Clean up formatting 修复数值误差优化gqa/mask attn Assisted-by: Codex add env GGML_OPENCL_XMEM_SDPA Assisted-by: OpenAI Codex Co-authored-by: happyyzy happyyzy@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45326308 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
+    "published": "2026-09-04T19:05:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10809",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10809",
+    "description": "llama.cpp : bump version to 0.4.0 ( #28386 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45314398 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
+    "published": "2026-09-04T17:57:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10798",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10798",
+    "description": "common : make build info output stream configurable ( #28322 ) Let llama_print_build_info write to a caller-provided FILE* instead of hardcoding stderr. The parameter defaults to stderr so existing callers keep their current behavior. The version command in llama-app now passes stdout, so plain version output goes to stdout where users expect it. Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45278162",
+    "published": "2026-09-04T15:05:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10797",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10797",
+    "description": "ggml-cpu(s390x) : fix q5_1 uninitialized v_acc ( #28332 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45199911 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP3",
+    "published": "2026-09-04T08:38:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10796",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10796",
+    "description": "src : add n_expert_used_max function ( #28323 ) src : add n_expert_used_max function With Commit c61b98b (\"model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support ( #25444 )\") it is now possible for each layer to have a specific number of experts but there are a few checks that need to be updated to handle this upon model loading. For example: llama_model_load: error loading model: model has expert layers but no expert layers are used And later: /llama.cpp/src/llama-model-loader.cp",
+    "published": "2026-09-04T05:33:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10795",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10795",
+    "description": "sycl: fuse rms_norm+mul+add and add+add residual chains ( #27610 ) Fuse RMS_NORM+MUL+ADD and ADD+ADD under GGML_SYCL_ENABLE_FUSION. ADD+ADD uses the same binbcast indexing and type matrix as standalone add() (f32, f16, f16/f32, i32, i16, bf16, including broadcast and non-contiguous). Unsupported combinations fall back to two add() launches. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45161609 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silic",
+    "published": "2026-09-04T04:32:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10794",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10794",
+    "description": "SYCL: Refactor GGML_SYCL_ENABLE_MKL_FA to global var ( #26863 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45153754 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
+    "published": "2026-09-04T03:22:00Z",
+    "source": "llama.cpp Releases"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.34.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc1",
+    "description": "app: harden Codex desktop proxy handling ( #18244 )",
+    "published": "2026-09-05T00:48:55Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.0-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc0",
+    "description": "app: add Ollama to ChatGPT Desktop ( #18236 )",
+    "published": "2026-09-04T21:04:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.3",
+    "description": "What's Changed gemma4 now supports images and audio on MLX engine Report cached prompt tokens Honor GGUF model defined default parameters MLX, MLX-C, llama.cpp update New Contributors @marcelpetrick made their first contribution in #17579 Full Changelog : v0.33.2...v0.33.3",
+    "published": "2026-09-03T17:24:07Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.3-rc2: gemma4: image and audio input support",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc2",
+    "description": "Safetensors gemma4 imports served by the MLX engine now answer image and audio chats. Images run through both vision architectures: the transformer tower (26B, 31B, e-series) and the 12B's encoder-free unified embedder. Audio arrives through the same intake the ollama API already accepts for gemma4 GGUFs — WAV bytes in the images field, OpenAI input_audio parts, and /v1/audio/transcriptions uploads — with the e2b/e4b checkpoints running clips through their conformer audio encoder and the 12b uni",
+    "published": "2026-09-02T22:07:28Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.3-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc1",
+    "description": "llama.cpp: version bump b10760 ( #18199 )",
+    "published": "2026-09-02T16:46:04Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.3-rc0: llama.cpp: version bump b10729 (#18160)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0",
+    "description": "llama.cpp: version bump b10729 Regenerate the compat hooks patch for b10729: upstream removed the whole-tensor load_data_for read (last consumer was llama-quantize, which now reads slabs via load_data_range). Keep the existing hook surface (constructor, skip loops, load_all_data, mtmd/clip) unchanged and add maybe_load_text_tensor_range, which materializes a text load op's output once per tensor and serves the new (offset, size) slab reads from that cache. address comments",
+    "published": "2026-09-01T23:24:15Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.2",
+    "description": "What's Changed Ollama's app now follows the system appearance again, restoring dark mode support Fixed the macOS app to properly hand off to an already-running instance instead of starting a second one The Claude Desktop proxy no longer interrupts in-flight requests when the model catalog updates Full Changelog : v0.33.1...v0.33.2",
+    "published": "2026-08-28T20:58:12Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.2-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1",
+    "description": "app: list account cloud models for Claude ( #18077 )",
+    "published": "2026-08-27T20:22:11Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.2-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.2-rc0",
+    "description": "app: synchronize macOS app handoff ( #18056 )",
+    "published": "2026-08-27T06:15:54Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.1",
+    "description": "What's Changed MLX: Qwen3.8 Flash Next support cmake: make external compat patches idempotent MLX and llama.cpp update mlxrunner: add structured output support mlxrunner: avoid Metal GPU timeouts when loading models from slow storage New Contributors @pd95 made their first contribution in #17948 Full Changelog : v0.33.0...v0.33.1",
+    "published": "2026-08-26T23:54:05Z",
+    "source": "Ollama Releases"
+  }
+]
