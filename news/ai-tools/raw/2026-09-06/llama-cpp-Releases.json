@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10820",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10820",
+    "description": "Github: limit blank issues to maintainers ( #28435 )",
+    "published": "2026-09-05T20:42:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10819",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10819",
+    "description": "metal : fix memory leak in early return ( #28399 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45438612 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (C",
+    "published": "2026-09-05T10:38:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10818",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10818",
+    "description": "sycl : fix test-backend-ops CI break && restore Kronecker product FWHT support ( #28016 ) ( #28254 ) Reapply \"sycl : add Kronecker product FWHT support for sizes 384, 640, 768, 12…\" ( #28184 ) This reverts commit c845263 . tests : fix unused variable M in test-backend-ops tests: fix trailing space error and isolate kronecker tests for sycl backend only Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45435395 macOS/iOS: macOS Apple Silicon (arm64) macOS",
+    "published": "2026-09-05T09:58:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10817",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10817",
+    "description": "sycl: attribute device allocations by site (GGML_SYCL_MEMTRACE) ( #27631 ) define two new environment variables to better understand how much memory is being allocated, and when. This has been invaluable in inproving the --fit algorithm, and is likely to be useful when debugging other memory-related issues. -lv 4 will be required to enable the following: GGML_SYCL_MEMTRACE=1 will show per-site memory usage, updated whenever it increases by more than 64MiB. GGML_SYCL_MEMTRACE=2 will show every al",
+    "published": "2026-09-05T09:28:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "v0.4.0",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.0",
+    "description": "Overview llama.cpp 0.4.0 adds initial Qwen3.8-Flash-Next and Nemotron-3-Puzzle support, on-demand tensor reading, per-slot server context limits, video input options, and a ggml update to 0.23.0 with major sparse flash attention and RDMA work. API changes Added llama_lazy_mode and lazy_mode ( #27794 ). Added max_buf_size to quantize params ( #27795 ). Bumped session/state versions for KV-cell token tracking ( #27762 ). Added mtmd_input_part and mtmd_tokenize_from_parts() ( #28250 ). Made mtmd_to",
+    "published": "2026-09-04T19:57:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10816",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10816",
+    "description": "metal : add remaining fa-vec tunings for M3 ( #28396 ) addition of m3 in fa_vec_tuned_table adding q4_0,q4_1,q5_0,q5_1 in ggml-metal-tuning Fix formatting in ggml-metal-tuning.cpp Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45337508 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
+    "published": "2026-09-04T20:00:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10814",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10814",
+    "description": "opencl: extend the elementwise and data‐movement op coverage ( #27633 ) opencl: add extended elementwise unary ops (sgn, step, elu, hardswish, hardsigmoid, floor, ceil, round, trunc) Adds nine GGML_UNARY_OP_* elementwise ops that were falling back to CPU on the OpenCL backend, following the same variant shape as the existing ABS op: f32, f32_4 (vec4), f16, f16_4 (vec4), and stride-addressed f32_nc / f16_nc for non-contiguous inputs. New kernels/unary_ext.cl (macro-generated), a shared ggml_cl_un",
+    "published": "2026-09-04T19:32:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10813",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10813",
+    "description": "opencl: add Adreno xmem SDPA path ( #26331 ) opencl: add Adreno xmem SDPA path Assisted-by: Codex Removed the Adreno-specific queue profiling override Clean up formatting 修复数值误差优化gqa/mask attn Assisted-by: Codex add env GGML_OPENCL_XMEM_SDPA Assisted-by: OpenAI Codex Co-authored-by: happyyzy happyyzy@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45326308 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
+    "published": "2026-09-04T19:05:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10809",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10809",
+    "description": "llama.cpp : bump version to 0.4.0 ( #28386 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45314398 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
+    "published": "2026-09-04T17:57:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10798",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10798",
+    "description": "common : make build info output stream configurable ( #28322 ) Let llama_print_build_info write to a caller-provided FILE* instead of hardcoding stderr. The parameter defaults to stderr so existing callers keep their current behavior. The version command in llama-app now passes stdout, so plain version output goes to stdout where users expect it. Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45278162",
+    "published": "2026-09-04T15:05:15Z",
+    "source": "llama.cpp Releases"
+  }
+]
