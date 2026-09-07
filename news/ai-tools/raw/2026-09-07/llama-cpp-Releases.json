@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10831",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10831",
+    "description": "vulkan: add TQ1_0 support (mm, mat-vec, mat-vec-id, dequant, get_rows) ( #27765 ) vulkan: add TQ1_0 support (mm, mat-vec, dequant, get_rows) vulkan: pack TQ1_0 powers of 3 into a 32-bit constant Replaces the constant array with a packed 32-bit value (7 bits per entry, max 81 < 128) extracted with shift/mask, as suggested in review — avoids a constant array that may not be kept in registers. test-backend-ops on gfx1151: tq1_0 MUL_MAT 11/11, MUL_MAT_ID 6/6, GET_ROWS 4/4, unchanged. vulkan: address",
+    "published": "2026-09-07T05:21:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10830",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10830",
+    "description": "convert : add --fuse-qkv flag to fuse Q/K/V into QKV during HF-to-GGUF conversion ( #22780 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45621954 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu",
+    "published": "2026-09-06T23:30:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10829",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10829",
+    "description": "models : fix GDN normalization from max to rsqrt ( #28068 ) models: use flash-linear-attention's l2norm for gated delta net q/k The GDN q/k normalization is defined by flash-linear-attention as l2norm(x) = x * rsqrt(sum(x*x) + eps) with eps inside the root. Every GDN call site in the tree uses ggml_l2_norm instead, which is x / max(sqrt(sum(x*x)), eps), i.e. torch.nn.functional.normalize - its CUDA kernel cites that page. The clamp never engages at these magnitudes, so in practice llama.cpp norm",
+    "published": "2026-09-06T23:06:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10828",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10828",
+    "description": "[Model] Support for Spark2_5ForCausalLM implementation ( #27868 ) Add Spark3 Model rename spark3 -> spark2_5 Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: dongjiang dongjiang2010@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45615765 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubu",
+    "published": "2026-09-06T22:11:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10827",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10827",
+    "description": "opencl: properly choose weights pack for q4_K, q5_K mul_mat ( #28402 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45608946 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Andro",
+    "published": "2026-09-06T20:52:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10826",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10826",
+    "description": "cuda: fixes races in mmid and mmf ( #28475 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45586039 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Wi",
+    "published": "2026-09-06T16:42:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10825",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10825",
+    "description": "grammar : fix max repetition threshold ( #28469 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45568343 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CP",
+    "published": "2026-09-06T13:24:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10823",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10823",
+    "description": "common: add --log-jsonl ( #28437 ) common: add --log-jsonl rename unknown to none Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45560949 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL ",
+    "published": "2026-09-06T11:59:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10822",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10822",
+    "description": "ui : embed assets directly with CMake ( #28445 ) Remove the build-time C++ helper and external gzip dependency, simplifying cross-compilation. Keep the generated C++ in templates for readability and preserve fully embedded UI assets. Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45558658 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iO",
+    "published": "2026-09-06T11:32:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10821",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10821",
+    "description": "metal : add remaining fa-vec tunings for M2 Max ( #28458 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45551940 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+    "published": "2026-09-06T10:01:04Z",
+    "source": "llama.cpp Releases"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
+    "link": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
+    "description": "Article URL: https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9 Comments URL: https://news.ycombinator.com/item?id=49594189 Points: 4 # Comments: 2",
+    "published": "Mon, 07 Sep 2026 05:23:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Keep Our Servers Running: Your Recurring Donation Goes 3X This September",
+    "link": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
+    "description": "Article URL: https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/ Comments URL: https://news.ycombinator.com/item?id=49593563 Points: 139 # Comments: 33",
+    "published": "Mon, 07 Sep 2026 03:29:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Has anybody seen my keys? A key-hierarchy strategy for rack-level security",
+    "link": "https://rfd.shared.oxide.computer/rfd/0301",
+    "description": "Article URL: https://rfd.shared.oxide.computer/rfd/0301 Comments URL: https://news.ycombinator.com/item?id=49593066 Points: 7 # Comments: 0",
+    "published": "Mon, 07 Sep 2026 02:14:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: GET Together – A social network where you don't need POST to Post",
+    "link": "https://gettogether.dev",
+    "description": "Article URL: https://gettogether.dev Comments URL: https://news.ycombinator.com/item?id=49592840 Points: 26 # Comments: 10",
+    "published": "Mon, 07 Sep 2026 01:41:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server",
+    "link": "https://github.com/Staatsgeheim/MathKernel",
+    "description": "Article URL: https://github.com/Staatsgeheim/MathKernel Comments URL: https://news.ycombinator.com/item?id=49592366 Points: 24 # Comments: 5",
+    "published": "Mon, 07 Sep 2026 00:21:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Making a Python interpreter in 1024 bytes",
+    "link": "https://austinhenley.com/blog/python1024.html",
+    "description": "Article URL: https://austinhenley.com/blog/python1024.html Comments URL: https://news.ycombinator.com/item?id=49591876 Points: 158 # Comments: 61",
+    "published": "Sun, 06 Sep 2026 23:14:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Is mathematics about to enter the conservatory?",
+    "link": "https://mbmccoy.dev/posts/mathematical-conservatory/",
+    "description": "Article URL: https://mbmccoy.dev/posts/mathematical-conservatory/ Comments URL: https://news.ycombinator.com/item?id=49591793 Points: 27 # Comments: 45",
+    "published": "Sun, 06 Sep 2026 23:02:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Signing TLS handshakes inside a TPM",
+    "link": "https://bschaatsbergen.com/posts/go-tpm-tls/",
+    "description": "Article URL: https://bschaatsbergen.com/posts/go-tpm-tls/ Comments URL: https://news.ycombinator.com/item?id=49590946 Points: 13 # Comments: 4",
+    "published": "Sun, 06 Sep 2026 21:05:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Mador – Make any DOM reactive with a tiny 80-line Proxy state tuple",
+    "link": "https://github.com/marsbos/mador",
+    "description": "Article URL: https://github.com/marsbos/mador Comments URL: https://news.ycombinator.com/item?id=49590738 Points: 84 # Comments: 23",
+    "published": "Sun, 06 Sep 2026 20:45:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "It took a year to ship WebAssembly in Anubis",
+    "link": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
+    "description": "Article URL: https://anubis.techaro.lol/blog/2026/anubis-wasm/ Comments URL: https://news.ycombinator.com/item?id=49590611 Points: 205 # Comments: 108",
+    "published": "Sun, 06 Sep 2026 20:32:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Harnessing the Universal Geometry of Embeddings",
+    "link": "https://arxiv.org/abs/2505.12540",
+    "description": "Article URL: https://arxiv.org/abs/2505.12540 Comments URL: https://news.ycombinator.com/item?id=49590595 Points: 61 # Comments: 20",
+    "published": "Sun, 06 Sep 2026 20:31:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
+    "link": "https://grapheneos.social/@GrapheneOS/117225539756835649",
+    "description": "Article URL: https://grapheneos.social/@GrapheneOS/117225539756835649 Comments URL: https://news.ycombinator.com/item?id=49590512 Points: 238 # Comments: 180",
+    "published": "Sun, 06 Sep 2026 20:24:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Nitter and XCancel resume service after legal advice",
+    "link": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
+    "description": "https://github.com/zedeus/nitter https://xcancel.com/cdclegal https://nitter.net/ https://xcancel.com/ Comments URL: https://news.ycombinator.com/item?id=49588988 Points: 584 # Comments: 292",
+    "published": "Sun, 06 Sep 2026 17:49:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Opalite Health (YC W26) Is Hiring – Founding GTM",
+    "link": "https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm",
+    "description": "Article URL: https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm Comments URL: https://news.ycombinator.com/item?id=49588466 Points: 0 # Comments: 0",
+    "published": "Sun, 06 Sep 2026 17:00:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "An Alien Mind",
+    "link": "https://openai.com/index/an-alien-mind/",
+    "description": "Article URL: https://openai.com/index/an-alien-mind/ Comments URL: https://news.ycombinator.com/item?id=49588080 Points: 373 # Comments: 330",
+    "published": "Sun, 06 Sep 2026 16:27:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Research carried out using NetBSD",
+    "link": "https://www.netbsd.org/gallery/research.html",
+    "description": "Article URL: https://www.netbsd.org/gallery/research.html Comments URL: https://news.ycombinator.com/item?id=49587903 Points: 88 # Comments: 24",
+    "published": "Sun, 06 Sep 2026 16:10:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "NetBSD 9.5 released and EOL for NetBSD-9",
+    "link": "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and",
+    "description": "Article URL: https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and Comments URL: https://news.ycombinator.com/item?id=49587636 Points: 122 # Comments: 11",
+    "published": "Sun, 06 Sep 2026 15:44:24 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Research acceleration: The view inside OpenAI",
+    "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "description": "Article URL: https://openai.com/index/research-acceleration-view-inside-openai Comments URL: https://news.ycombinator.com/item?id=49587217 Points: 147 # Comments: 95",
+    "published": "Sun, 06 Sep 2026 15:08:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Asahi Linux on M3",
+    "link": "https://asahilinux.org/2026/09/m2-episode-1/",
+    "description": "https://www.phoronix.com/news/Asahi-Linux-Official-M3 Comments URL: https://news.ycombinator.com/item?id=49586698 Points: 397 # Comments: 239",
+    "published": "Sun, 06 Sep 2026 14:08:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+    "link": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+    "description": "Article URL: https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/ Comments URL: https://news.ycombinator.com/item?id=49585644 Points: 617 # Comments: 395",
+    "published": "Sun, 06 Sep 2026 11:56:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
