@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10853",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10853",
+    "description": "model : support Kimi-K3 recurrent-state rollback ( #28466 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45866131 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android",
+    "published": "2026-09-08T04:00:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10852",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10852",
+    "description": "hexagon: add RELU and LEAKY_RELU ops ( #28585 ) hexagon: add RELU op hexagon: add LEAKY_RELU op too Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45844223 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32)",
+    "published": "2026-09-08T00:42:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10850",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10850",
+    "description": "tests : initialize the L2_NORM batch array ( #28553 ) tests: bind the L2_NORM batch count to a local GCC cannot prove the loop fills norms up to the index read after it while the bound is a class member, so it reports a maybe uninitialized use. Reading the count once into a local restores the tracking. tests: initialize the L2_NORM batch array The read after the fill loop is only provably defined once the array carries an initializer, which GCC 12 requires on the aarch64 Release build where warn",
+    "published": "2026-09-07T20:05:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10844",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10844",
+    "description": "vulkan: add DeepSeek-V4 hyper-connection fused ops (DSV4_HC_COMB/PRE/POST) ( #26578 ) vulkan: add DeepSeek-V4 hyper-connection fused ops (DSV4_HC_COMB/PRE/POST) CUDA has these ops from the DeepSeek-V4 merge and Metal gained them in PR 26459. Vulkan was the last major backend running the unfused primitive chain. On DeepSeek-V4-Flash the unfused Sinkhorn comb chain alone takes about 32% of decode op time on gfx1151 (Strix Halo), spread over roughly 16k dispatches per token. dsv4_hc_comb runs the f",
+    "published": "2026-09-07T19:30:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10842",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10842",
+    "description": "ggml: add gfx90c HIP support ( #26454 ) ggml: add gfx90c HIP support ggml: make gfx90c HIP support compliant with specifications Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45803789 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (Ope",
+    "published": "2026-09-07T18:16:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10840",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10840",
+    "description": "CUDA: branchless Q4_K/Q5_K unpack to speed up mmvq, L2 prefetch on DGX Spark ( #26705 ) Update Q4_K and Q5_K to use branchless computation, which stops the scale unpack being re-executed for every column in mmvq, improving perf at batch sizes > 1 Gating the change off from DGX Spark due to no gain Adding prefetch gated to Spark, making branchless change in Q4_K and Q5_K general and modifying switch points based on latest perf data Guard the mmvq L2 prefetch against MUSA as well as HIP Define the",
+    "published": "2026-09-07T14:33:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10839",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10839",
+    "description": "vulkan: support type-aligned GET_ROWS ( #28253 ) vulkan: fall back to CPU for GET_ROWS with misaligned offsets The Vulkan GET_ROWS shader asserts when a tensor's backing-buffer offset plus view_offs is misaligned w.r.t. minStorageBufferOffsetAlignment (see init_pushconst_tensor_offsets). Previously this caused a hard crash on models using ggml_view + ggml_get_rows (e.g. Qwen3-TTS, Qwen3-VL). Return false from supports_op() in the misaligned case so the scheduler falls back to CPU, matching the e",
+    "published": "2026-09-07T11:16:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10837",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10837",
+    "description": "caps : recheck typed content if template checks for string ( #28511 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45690927 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Androi",
+    "published": "2026-09-07T08:37:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10835",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10835",
+    "description": "ggml-cuda: fix divergent barrier in f16 flash attention ( #27870 ) ggml-cuda: fix divergent barrier in f16 flash attention ggml-cuda: avoid duplicate metadata pointer setup Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45685123 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vu",
+    "published": "2026-09-07T08:11:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10834",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10834",
+    "description": "ggml: allow backend inputs to not create another split ( #28387 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/45674860 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: A",
+    "published": "2026-09-07T07:20:16Z",
+    "source": "llama.cpp Releases"
+  }
+]
