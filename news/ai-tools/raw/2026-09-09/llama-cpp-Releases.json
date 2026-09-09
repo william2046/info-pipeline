@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10869",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10869",
+    "description": "tests : use less threads for data initialization ( #28325 ) tests : use 1 thread for data initialization cont : scale threads with number of elements cont : adjust Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46152521 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubu",
+    "published": "2026-09-09T05:27:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10868",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10868",
+    "description": "Add IQ type handling for MoE ( #28476 ) Co-authored-by: cwriter cwriter@localhost Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46124981 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL ",
+    "published": "2026-09-09T02:03:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10867",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10867",
+    "description": "llama: disable lazy tensor loading by default on iGPUs ( #28326 ) llama: add lazy mode auto, fix iGPU regression revert changes except disabling lazy load on iGPUs in AUTO Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46033570 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vul",
+    "published": "2026-09-08T17:33:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10865",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10865",
+    "description": "Revert \"ggml-cuda : restore prop.integrated on HIP builds ( #24233 )\" ( #28604 ) This reverts commit c7d8722 . Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46002046 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 ",
+    "published": "2026-09-08T15:14:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10864",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10864",
+    "description": "server : apply checkpoint min-step eviction only when the checkpoint list is full ( #28302 ) The spacing eviction in create_checkpoint() keeps the oldest checkpoint and erases every later one within checkpoint_min_step of it. For prompts shorter than checkpoint_min_step this drops the checkpoint at n_tokens - 4 that the next request resumes from, so hybrid/recurrent models re-prefill from the previous checkpoint instead. Apply the spacing rule only once the list is at n_ctx_checkpoints, and repl",
+    "published": "2026-09-08T14:33:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10863",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10863",
+    "description": "metal : fix idle threads in mul_mv_iq3_xxs for ne00 < 1024 ( #28086 ) metal : fix half-idle simdgroup in kernel_mul_mv_iq3_xxs_f32 for ne00 < 1024 metal : keep N_R0_IQ3_XXS = 4, dispatch a separate 8-row split kernel for ne00/32 < 32 The plain kernel is unchanged from master (4 rows per simdgroup, one thread per chunk). The row-split mapping now lives in a separate kernel_mul_mv_iq3_xxs_f32_split instantiation with N_R0_IQ3_XXS_SPLIT = 8, and the host selects it only when ne00/32 < 32 and divide",
+    "published": "2026-09-08T14:01:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10859",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10859",
+    "description": "llama : add missing headers ( #28566 ) fix compile-error: add missing header Bug: #28557 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28559 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28560 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28561 Signed-off-by: Pepper Gray hello@peppergray.xyz fix compile-error: add missing header Bug: #28562 Signed-off-by: Pepp",
+    "published": "2026-09-08T12:36:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10858",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10858",
+    "description": "vulkan : fuse UNARY(GELU|SIGMOID|SILU|SOFTPLUS) + MUL ( #27220 ) vulkan : fuse UNARY(SIGMOID|SILU|SOFTPLUS) + MUL vulkan : fuse UNARY(SIGMOID|SILU|SOFTPLUS) + MUL implement fusion in unary.comp behind UNARY_MUL_FUSION ifdef, specialized pipelines per op instead of runtime branching fuse adjacent nodes only, ordering handled by graph_optimize drop runtime consumer scan and pending_unary_mul deferral vulkan : fuse UNARY(GELU|SIGMOID|SILU|SOFTPLUS) + MUL GELU: gelu_mul_f32/f16 pipelines registered,",
+    "published": "2026-09-08T12:08:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10857",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10857",
+    "description": "Fix Vulkan-Hpp handle usage on 32-bit targets. ( #22892 ) On 32-bit platforms, Vulkan non-dispatchable handles such as VkBuffer are represented as uint64_t, and Vulkan-Hpp disables implicit conversions for type safety. This exposes two issues in ggml-vulkan: vk::Buffer is streamed directly into std::ostream in debug/memory logs. vk::Buffer is cast to VkBuffer before being passed to Vulkan-Hpp CommandBuffer::copyBuffer APIs. Fix these by add the operator<< for vk::Buffer, and by passing vk::Buffe",
+    "published": "2026-09-08T11:38:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10856",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10856",
+    "description": "chat : split specialized parsers into common/parsers ( #27764 ) chat : split specialized parsers into common/parsers Move the 14 dedicated template parsers out of chat.cpp into one file each under common/parsers, mirroring the src/models split. chat.cpp keeps the template detection in common_chat_try_specialized_template() and drops from 3915 to 1513 lines. common/parsers/parsers.h holds the shared helpers and one declaration per parser. foreach_function/foreach_parameter become inline there sin",
+    "published": "2026-09-08T10:50:51Z",
+    "source": "llama.cpp Releases"
+  }
+]
