@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.34.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0",
+    "description": "Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction, and makes images work correctly through compacted responses. Full Changelog : v0.33.3...v0.34.0",
+    "published": "2026-09-09T23:51:59Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.0-rc5",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc5",
+    "description": "openai: support standalone named function outputs ( #18348 )",
+    "published": "2026-09-09T21:51:50Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.0-rc4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc4",
+    "description": "proxy: normalize namespaced commands in Full Access ( #18331 )",
+    "published": "2026-09-09T17:20:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.0-rc3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc3",
+    "description": "openai: accept plaintext-labeled Codex agent messages ( #18329 )",
+    "published": "2026-09-09T00:09:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.0-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc2",
+    "description": "openai: finalize responses at the web search limit ( #18328 )",
+    "published": "2026-09-08T23:27:20Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc1",
+    "description": "app: harden Codex desktop proxy handling ( #18244 )",
+    "published": "2026-09-05T00:48:55Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.0-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc0",
+    "description": "app: add Ollama to ChatGPT Desktop ( #18236 )",
+    "published": "2026-09-04T21:04:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.3",
+    "description": "What's Changed gemma4 now supports images and audio on MLX engine Report cached prompt tokens Honor GGUF model defined default parameters MLX, MLX-C, llama.cpp update New Contributors @marcelpetrick made their first contribution in #17579 Full Changelog : v0.33.2...v0.33.3",
+    "published": "2026-09-03T17:24:07Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.3-rc2: gemma4: image and audio input support",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc2",
+    "description": "Safetensors gemma4 imports served by the MLX engine now answer image and audio chats. Images run through both vision architectures: the transformer tower (26B, 31B, e-series) and the 12B's encoder-free unified embedder. Audio arrives through the same intake the ollama API already accepts for gemma4 GGUFs — WAV bytes in the images field, OpenAI input_audio parts, and /v1/audio/transcriptions uploads — with the e2b/e4b checkpoints running clips through their conformer audio encoder and the 12b uni",
+    "published": "2026-09-02T22:07:28Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.33.3-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc1",
+    "description": "llama.cpp: version bump b10760 ( #18199 )",
+    "published": "2026-09-02T16:46:04Z",
+    "source": "Ollama Releases"
+  }
+]

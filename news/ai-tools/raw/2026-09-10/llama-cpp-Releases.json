@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10884",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10884",
+    "description": "ci: fix sanitizer tests ( #28583 )",
+    "published": "2026-09-09T19:46:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10883",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10883",
+    "description": "vulkan: use spec constant for matrix matrix multiplication A-type ( #25773 ) vulkan: use spec constant for mul mat type_a vulkan: use map for mul_mm shapes cleanup fix indentation fix cm2 and shmem init fix cm2 spec constants fix cm2 bindings consolidate shmem tables and reduce size by type spec constant fix compiler warning fix missing Q2_0 type fix unused warning when integer dot glslc support is missing use minimal shmem size 8 instead of 1 to workaround cm2 compiler bug fix missing Q2_0 type",
+    "published": "2026-09-09T17:32:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10881",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10881",
+    "description": "vulkan: Convert FILL to distribute workgroups in 2D to avoid exceeding maxComputeWorkGroupCount ( #28592 ) divide workload to 2D This is to workaround FILL exceeding maxComputeWorkGroupCount for Intel GPUs on Qwen 3.8 flash next minor change Fixed comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46292448 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x",
+    "published": "2026-09-09T15:34:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10878",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10878",
+    "description": "llama : use int32_t for llama_sampler_chain_n return type ( #28631 ) Contributes to #4574 Co-authored-by: linsen linsen@insta360.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46258168 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 ",
+    "published": "2026-09-09T13:25:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10877",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10877",
+    "description": "CUDA: size routed MoE MMQ N-tiles from typical expert width on RDNA3 ( #28552 ) Recreated from #24546 Co-authored-by: Carl Philipp Klemm carl@uvos.xyz CUDA: pick MMQ tile size against ncols_opt set on the host side Assisted-by: Claude Fable 5.1 Claude-Session: https://claude.ai/code/session_011SYPfRhKoUpU3gMsGxq6go Co-authored-by: ravel7524 58877666+ravel7524@users.noreply.github.com Co-authored-by: Carl Philipp Klemm carl@uvos.xyz Website: https://llama.app Attestations: https://github.com/ggml",
+    "published": "2026-09-09T12:55:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10876",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10876",
+    "description": "CUDA: replace GGML_FA_ALL_QUANTS with GGML_FA_QUANTS, more control over what is compiled ( #28079 ) CUDA: add configurable FA quant combinations Assisted-by: Codex remove all flags but , add runtime fallback with warning for uncompiled combination Update docs/build.md Co-authored-by: Johannes Gäßler johannesg@5d6.de apply code review comments Co-authored-by: Johannes Gäßler johannesg@5d6.de Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46234963 macOS",
+    "published": "2026-09-09T11:47:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10875",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10875",
+    "description": "args: officially deprecate --mmap|mlock|dio ( #28334 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46228590 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) ",
+    "published": "2026-09-09T11:17:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10874",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10874",
+    "description": "model: fix granite3 moe unknown parameter count ( #28632 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46209804 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
+    "published": "2026-09-09T09:56:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10873",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10873",
+    "description": "mtmd: propagate video ID to bitmap ( #28601 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46201259 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) W",
+    "published": "2026-09-09T09:24:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10872",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10872",
+    "description": "jinja: treat a null left operand of in as a plain lookup ( #28620 ) Templates that default an optional variable to none and then test its membership in a map hit an error, while the same expression is a normal lookup returning false in Jinja. The undefined counterpart of this case was already handled just above. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46177710 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) ",
+    "published": "2026-09-09T07:47:26Z",
+    "source": "llama.cpp Releases"
+  }
+]
