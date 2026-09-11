@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10902",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10902",
+    "description": "opencl: add A8 Q4_0 mm binary kernel support ( #28268 )",
+    "published": "2026-09-10T18:25:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10901",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10901",
+    "description": "vulkan: use CPU writes in ggml_backend_vk_cpy_tensor_async if the context is idle ( #28618 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46709648 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu",
+    "published": "2026-09-10T22:42:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10900",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10900",
+    "description": "vulkan: use add_alloc_dep to enable topk_moe fusion for prefill ( #28422 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46661423 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) A",
+    "published": "2026-09-10T19:02:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10899",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10899",
+    "description": "vulkan: small M matrix optimizations for qwen ( #28457 ) vulkan: optimize m=1 mul_mat by swapping A/B vulkan: Improve small M perf Allow split_k with small M. Make small vs med tile selection (for coopmat2) depend on M, not just N. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46654773 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (C",
+    "published": "2026-09-10T18:35:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10897",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10897",
+    "description": "ci : Update WoA CUDA 13.4 release to use 13.4.1 GA redistributables ( #28687 ) Move Windows ARM64 CUDA 13.4 builds from the Developer Preview archives to the 13.4.1 GA redistributables Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46646402 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubun",
+    "published": "2026-09-10T18:01:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10896",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10896",
+    "description": "spec: fix failed to decode mtmd chunk with DFlash ( #28587 ) speculative: fix failed to decode mtmd chunk with DFlash When using DFlash w/ vision models, the drafter memory fails to allocate new tokens because images report a fixed offset. Stop copying them to allow the drafter to continue. address PR feedback limit M-RoPE skip to images only, allow audio to pass through. Clean up comments to align to the updated implementation Website: https://llama.app Attestations: https://github.com/ggml-org",
+    "published": "2026-09-10T15:45:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10894",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10894",
+    "description": "models: clean up some dead switch branches in old models ( #28669 ) Some of these if statements were copypastaed in a former refactor and never cleaned up to remove the cases that could never happen anymore. The only thing that's shared between these relatives anymore is llama_model_bert::graph::graph, so the rest of the code doesn't need the conditionals. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46582928 macOS/iOS: macOS Apple Silicon (arm64) m",
+    "published": "2026-09-10T13:54:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10893",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10893",
+    "description": "tests : increase tolerance for Add fusion tests ( #28691 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46565769 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ",
+    "published": "2026-09-10T12:43:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10892",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10892",
+    "description": "tests : drop SYCL special-casing in test-backend-ops.cpp ( #28688 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/46555010 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android:",
+    "published": "2026-09-10T11:56:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10891",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10891",
+    "description": "vulkan: fall back to shared-memory reduction for dmmv on PowerVR ( #28341 ) The Imagination proprietary Vulkan compiler returns VK_ERROR_UNKNOWN from vkCreateComputePipelines for every dequant mul_mat_vec shader built with the subgroup-only reduction that requires a subgroup size >= 16. That covers the k-quants, the i-quants, TQ2_0, MXFP4 and NVFP4. ggml rethrows, so the first generated token of any such model kills the process. Reproduced on a Pixel 11 Pro (PowerVR C-Series CXTP-48-1536 MC1, dr",
+    "published": "2026-09-10T11:27:49Z",
+    "source": "llama.cpp Releases"
+  }
+]
