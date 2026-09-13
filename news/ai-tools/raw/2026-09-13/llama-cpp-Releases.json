@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10937",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10937",
+    "description": "opencl: apply the noshuffle row-alignment rule to q4_K, q5_K and q8_0, not just q6_K ( #28575 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47132459 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubu",
+    "published": "2026-09-13T05:17:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10936",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10936",
+    "description": "chat : improve parsing of complex types in qwen3-coder ( #28742 ) chat : improve schema support in qwen3 parser cont : clean up grammar a bit Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47115321 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ub",
+    "published": "2026-09-13T01:09:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10935",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10935",
+    "description": "common: add LOG_JSON macro to log structured data ( #28586 ) add LOG_JSON macro fit: add demo LOG_JSON Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47112879 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP",
+    "published": "2026-09-13T00:41:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10934",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10934",
+    "description": "common : implement common_schema internal representation for JSON schemas ( #28736 ) common : implement common_schema types common : implement a json schema optimizer common : reduce optimizations common : refactor json-schema-to-grammar to use common_schema common : use common_trie common/schema : implement type/kind resolution cont : cleanup cont : remove common_chat_tool_parameters cont : simplify schema resolution cont : pass common_schema through the json-schema-to-grammar builder cont : cl",
+    "published": "2026-09-13T00:18:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10933",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10933",
+    "description": "jinja : support dot property integer literals ( #28817 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47107718 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android ar",
+    "published": "2026-09-12T23:37:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10932",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10932",
+    "description": "cmake: leave the timestamp out of precompiled headers on clang ( #28816 ) Clang stores the modification time of the precompiled header sources inside the header and refuses the header when they differ. A cached header restored from another checkout carries the timestamps of that checkout, so the build fails. The option covers the compilers ccache treats as MSVC while they are clang underneath, clang-cl and the Intel LLVM drivers. Website: https://llama.app Attestations: https://github.com/ggml-o",
+    "published": "2026-09-12T23:11:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10931",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10931",
+    "description": "ui : add cache ( #28802 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47065031 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16)",
+    "published": "2026-09-12T14:48:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10930",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10930",
+    "description": "server : allow model downloads at model limit fix issue #26809 ( #28530 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47055500 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) An",
+    "published": "2026-09-12T13:03:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10929",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10929",
+    "description": "ggml-cuda: hip add specific config table for AMD GCN ( #27841 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47052867 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: And",
+    "published": "2026-09-12T12:30:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10927",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10927",
+    "description": "vendor : update cpp-httplib to 0.56.0 ( #28787 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47045738 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU",
+    "published": "2026-09-12T10:59:16Z",
+    "source": "llama.cpp Releases"
+  }
+]
