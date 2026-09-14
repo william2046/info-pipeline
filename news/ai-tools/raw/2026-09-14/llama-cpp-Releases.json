@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10951",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10951",
+    "description": "common : move llama_n_rs_seq to before llama_decode ( #28749 ) This commit moves the llama_n_rs_seq function call to before the llama_decode call and returns directly if the check is true, removing the setting of res and the goto statement. The motivation for this change is to avoid the llama_decode call if it is not needed. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47247883 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
+    "published": "2026-09-14T04:06:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10950",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10950",
+    "description": "ggml-cuda: fallback to F32 on device without BF16 hardware acceleration ( #28846 ) ggml-cuda: fallback to F32 on device without BF16 hardware acceleration: (Nvidia >= AMPERE, AMD >= RDNA3 or = CDNA) apply logic to NVIDIA as well Co-authored-by: Johannes Gäßler johannesg@5d6.de Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47231488 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFra",
+    "published": "2026-09-14T01:39:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10948",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10948",
+    "description": "tests : exclude HY_V4 from WebGPU test-llama-archs tests ( #28855 ) Co-authored-by: Stanisław Szymczyk sszymczy@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47194535 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) ",
+    "published": "2026-09-13T19:10:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10947",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10947",
+    "description": "models : guard the expert FFN size fallback in nemotron-h against a zero divisor ( #28779 ) The NextN/MTP tail loop derives the expert FFN size as n_ff/n_expert_used when expert_feed_forward_length gives nothing for the layer. Both values come from per-layer arrays that legitimately hold 0 on layers that are not MoE, so a checkpoint whose predict layers hold 0 in both divides by zero and dies with SIGFPE at load time, with no error message. Report the malformed metadata instead. Website: https:/",
+    "published": "2026-09-13T18:45:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10946",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10946",
+    "description": "ggml-cpu(s390x): guard VXE-only repack helpers ( #28775 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47190488 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android a",
+    "published": "2026-09-13T18:21:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10944",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10944",
+    "description": "sycl : Fix get mem error ( #28227 ) fix for unsupport zes API optimize the code adjust the log level rm unused head files Update docs/backend/SYCL.md Co-authored-by: Titaniumtown titaniumtown@proton.me fix the error to detect level zero SDK/dev package, stop build after detect the error update the message fix the build error when missed to install level zero dev package rm GGML_SYCL_DEV_DEBUG, mv read env vars in all entry functions Co-authored-by: Neo Zhang Jianyu jianyu.zhang@intel.com Co-auth",
+    "published": "2026-09-13T16:14:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10941",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10941",
+    "description": "tests : reduce FA test sizes ( #28842 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47152933 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows",
+    "published": "2026-09-13T10:36:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10938",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10938",
+    "description": "vulkan: workaround NV queuesubmit driver bug ( #28830 ) There is a driver bug where two queues on the same VkDevice simultaneously submitting can break some internal synchronization. Until it's fixed, add a mutex around queuesubmit. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47138635 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (",
+    "published": "2026-09-13T06:46:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10937",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10937",
+    "description": "opencl: apply the noshuffle row-alignment rule to q4_K, q5_K and q8_0, not just q6_K ( #28575 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47132459 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubu",
+    "published": "2026-09-13T05:17:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10936",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10936",
+    "description": "chat : improve parsing of complex types in qwen3-coder ( #28742 ) chat : improve schema support in qwen3 parser cont : clean up grammar a bit Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47115321 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 10.0) Ub",
+    "published": "2026-09-13T01:09:20Z",
+    "source": "llama.cpp Releases"
+  }
+]
