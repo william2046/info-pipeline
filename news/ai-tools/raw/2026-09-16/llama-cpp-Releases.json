@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b10991",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10991",
+    "description": "hexagon: add back missing contiguous fast-path and hvx_copy_uu for each run ( #28886 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47775478 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libr",
+    "published": "2026-09-15T23:46:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10990",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10990",
+    "description": "hex-cpy: use dma if src and dst are contiguous ( #28906 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47770889 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) ",
+    "published": "2026-09-15T23:18:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10989",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10989",
+    "description": "HIP: Enable AllReduce for ROCm ( #27825 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47762387 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 libr",
+    "published": "2026-09-15T22:27:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10988",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10988",
+    "description": "opencl: choose the MoE expert matmul by batch size for speculative decoding/MTP ( #27637 ) opencl: gate the prebuilt q4_0 MoE GEMM on routing count opencl: stop writing zeros into the padded MoE activation slots opencl: rephrase claude's comments Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47713087 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x6",
+    "published": "2026-09-15T18:53:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10985",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10985",
+    "description": "rpc : hash-cache only weights ( #28789 ) rpc : hash-cache only weights ggml_backend_rpc_buffer_set_tensor and ggml_backend_rpc_set_tensor_async hashed every transfer above HASH_THRESHOLD and let rpc-server -c serve it from its file cache. The cache is meant for weights, but the activations ggml_backend_sched copies between backends took the same path: with a two-node split of Qwen3.8-Flash-Next every prefill ubatch above 10 MB was hashed, written to the worker's cache directory (1.4 TB after a d",
+    "published": "2026-09-15T14:25:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10984",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10984",
+    "description": "cuda: support row-contiguous SUM_ROWS ( #26308 ) cuda: support row-contiguous SUM_ROWS organize the code and add GGML_OP_MEAN to support row-contiguous tensors using the same shared kernel, and add a test to MEAN permute/slice Keep original comments and add if/else branch Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47632927 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramewor",
+    "published": "2026-09-15T13:46:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10983",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10983",
+    "description": "models : move build_arch_graph() after graph() template specialization ( #28934 ) Move build_arch_graph()'s function definitions after the graph and graph template specializations have been explicitly defined. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47624834 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU)",
+    "published": "2026-09-15T13:13:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10982",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10982",
+    "description": "vulkan: support sparse Flash Attention ( #28105 ) vulkan: add sparse Flash Attention support for DSV4/GLM tune implementation add tests avoid nondeterministic atomicAdd add cm2 decode vector support simplify logic and make variable names more consistent add cm2 f16vec4 binding for decode vector Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47615058 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Int",
+    "published": "2026-09-15T12:37:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10981",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10981",
+    "description": "OpenVINO: optimize stateful decode and GPU MoE inference ( #28638 ) exclude GPU/NPU failing POOL_2D case Fix pool case ggml-openvino: fix stateful decode for Gemma-4 per-layer-type head sizes ggml-openvino: fix MSVC narrowing error in permute ggml-openvino: classify sliding-window layers structurally on interleaved-SWA models ggml-openvino: add GGML_OPENVINO_REQUANT_KQUANT to select a 4-bit requant target ggml-openvino: add GGML_OPENVINO_SPILL_DIR to spill weight buffers to disk Stateful Perform",
+    "published": "2026-09-15T12:03:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b10980",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b10980",
+    "description": "opencl: add generic ssm_scan ( #28881 ) opencl: add generic ssm_scan opencl: fix whitespace Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47601188 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3",
+    "published": "2026-09-15T11:35:21Z",
+    "source": "llama.cpp Releases"
+  }
+]

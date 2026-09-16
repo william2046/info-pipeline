@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.34.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0",
+    "description": "What's Changed llama.cpp updates Full Changelog : v0.34.1...v0.34.2-rc0",
+    "published": "2026-09-15T21:21:07Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.1",
+    "description": "What's Changed MLX safetensors ollama create no longer experimental. GGUF model creation now requires using llama.cpp tooling for safetensor conversion and quantization. Improved MLX memory handling on Apple Silicon Runaway repeat token detection now requires 100 repeat tokens for reduced false positives (e.g. OCR) /api/tags is much faster on large model libraries (3.1 s → 294 ms cold in testing), and model capabilities are now reported consistently. Deprecated typical_p : it can no longer be se",
+    "published": "2026-09-15T20:10:42Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.1-rc2: API: Deprecate typical_p (#18448)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2",
+    "description": "Drop support for creating new models with typical_p parameters, while retaining support for existing GGUF models with the setting.",
+    "published": "2026-09-15T04:24:26Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.1-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc1",
+    "description": "mlx: add mlx patch to docker build context ( #18440 )",
+    "published": "2026-09-14T20:34:03Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.1-rc0: MLX: version bump (#18235)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc0",
+    "description": "MLX: version bump mlx: support ModelOpt global scales in MoE models address comments address comments",
+    "published": "2026-09-14T16:49:46Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0",
+    "description": "Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction. Full Changelog : v0.33.3...v0.34.0",
+    "published": "2026-09-10T06:18:35Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.0-rc5",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc5",
+    "description": "openai: support standalone named function outputs ( #18348 )",
+    "published": "2026-09-09T21:51:50Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.0-rc4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc4",
+    "description": "proxy: normalize namespaced commands in Full Access ( #18331 )",
+    "published": "2026-09-09T17:20:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.0-rc3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc3",
+    "description": "openai: accept plaintext-labeled Codex agent messages ( #18329 )",
+    "published": "2026-09-09T00:09:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.0-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc2",
+    "description": "openai: finalize responses at the web search limit ( #18328 )",
+    "published": "2026-09-08T23:27:20Z",
+    "source": "Ollama Releases"
+  }
+]
