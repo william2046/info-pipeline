@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11011",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11011",
+    "description": "[SYCL] Fix function signature for ggml_backend_sycl_split_buffer_type ( #28981 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48082811 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries ",
+    "published": "2026-09-17T02:50:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11010",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11010",
+    "description": "vulkan: work around NV bug with argsort_large.comp ( #28975 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48059150 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA ",
+    "published": "2026-09-17T00:05:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11009",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11009",
+    "description": "TP: fix split state and granularity for fused QKV gemma4, qwen35 ( #28965 ) model: calculate split states for attn_qkv from n_head * n_embd_head_k required for gemma4 with --fuse-qkv, where n_embd is 5376 but Q is 8192. model: handle fused full attention layers for qwen35/qwen35moe model: add TODO: [TAG_SPLIT_QGATE_QWEN] Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48008214 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI ",
+    "published": "2026-09-16T19:41:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11007",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11007",
+    "description": "Enable CUDA graph for MTP draft ( #28549 ) Improve CUDA graph usage for MTP Rename field Address review feedback Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47982528 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 ",
+    "published": "2026-09-16T17:49:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11006",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11006",
+    "description": "hexagon: Support for K-Quants Q4_K and Q6_K ( #28994 ) implement q6k/q4k kernels Squashed from: feat: implement q6k kernel hex-q6k: improve unpack accuracy hex-q4_k: add support for Q4_K kernels Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47977588 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU",
+    "published": "2026-09-16T17:22:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11005",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11005",
+    "description": "hexagon: accept the zeroed rope probe in supports_op ( #28995 ) llama probes weight placement with a rope where all params are 0, so rejecting n_dims == 0 or freq_base == 0 puts rope_freqs on the CPU. That splits the decode graph at every full-attention layer (gemma-4-E2B: 5 splits instead of 2). Assisted-by: Claude Opus 5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47971289 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiA",
+    "published": "2026-09-16T16:53:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11003",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11003",
+    "description": "model : add support for HrmTextForCausalLM (DFM Mimir 1B) ( #27625 ) model : add support for HrmTextForCausalLM (DFM Mimir 1B) HRM-Text runs two transformer stacks (low, high) in an alternating cycle over the same token stream. The low-cycle state z_l starts from a learned [n_embd] tensor and is broadcast over positions. conversion: new writer for the fused gqkv projection (order gate,q,k,v) remapped to llama.cpp q/k/v plus a separate sigmoid gate tensor loader: block_count = lps * h_cycles * (l",
+    "published": "2026-09-16T15:31:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11002",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11002",
+    "description": "CUDA/HIP: improve access patterns in im2col ( #28013 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/47937267 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - C",
+    "published": "2026-09-16T14:41:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11001",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11001",
+    "description": "spacemit : fix wrong transpose function for int16 data ( #25161 ) The sizeof(int16_t) branch in permute_transpose_impl calls rvv_transposed_s32_mn_to_nm instead of rvv_transposed_s16_mn_to_nm . This is a copy-paste bug from the sizeof(int32_t) branch above it. The s32 function uses 32-bit segment load/stores ( vssseg8e32.v ) on 16-bit data, reading 2x bytes per element and producing completely wrong transposition results -- 14 out of 16 positions are corrupted for a 4x4 int16 matrix. The correct",
+    "published": "2026-09-16T14:05:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11000",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11000",
+    "description": "rpc : invalidate cached compute graph when a referenced buffer is freed ( #24292 ) The server caches the most recent compute graph per device so that GRAPH_RECOMPUTE can re-execute it without resending tensor data. The cached graph nodes hold direct pointers to backend buffers that were live at graph_compute() time. If any of those buffers is later released via FREE_BUFFER, the next GRAPH_RECOMPUTE re-executes the cached graph through the dangling pointers (use-after-free). The bug is reachable ",
+    "published": "2026-09-16T13:10:45Z",
+    "source": "llama.cpp Releases"
+  }
+]
