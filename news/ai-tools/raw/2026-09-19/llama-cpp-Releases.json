@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11046",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11046",
+    "description": "opencl: add support for bin kernel flash_attn_f32_f16_bin ( #29046 ) opencl: add flash_attn_f32_f16_bin opencl: guarded prefill fa Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48577094 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 lib",
+    "published": "2026-09-18T23:58:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11045",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11045",
+    "description": "hexagon: add ROLL op support ( #29105 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48565469 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 librar",
+    "published": "2026-09-18T22:34:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11044",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11044",
+    "description": "hexagon: im2col update ( #29103 ) ggml-hexagon: accept 1D and padded IM2COL ops ggml-hexagon: make pure-DDR IM2COL kernel is_2D-aware ggml-hexagon: extend IM2COL DMA patch-embed fast path to 1D ggml-hexagon: add blocked-staging general IM2COL DMA kernel Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48558320 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64",
+    "published": "2026-09-18T21:55:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11043",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11043",
+    "description": "hexagon: HMX flash-attention head_dim padding (support DK=DV=72) ( #26539 ) Allow HMX flash-attention to run with head_dim not a multiple of 64 (e.g. SigLIP head_dim=72), by operating on DK/DV rounded up to 64 with zero-filled tail lanes. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48546365 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu a",
+    "published": "2026-09-18T20:50:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11042",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11042",
+    "description": "opencl: add bin kernel kernel_gemm_noshuffle_q6_k_f32_32b_trans_ila_a8_bin ( #28678 ) opencl: add A8 Q6_K non-MoE binary kernel opencl: fix layout compatibility Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48517412 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu",
+    "published": "2026-09-18T18:23:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11040",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11040",
+    "description": "ggml : check for allocation failures to prevent crashes ( #28149 ) ggml : check for allocation failures to prevent crashes wording Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48473967 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 lib",
+    "published": "2026-09-18T15:05:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11039",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11039",
+    "description": "Model-Saver: Write the SWA pattern, 15 more architectures roundtrip ( #29042 ) llama: read the SWA pattern as a period or a per-layer array Add llama_model_base::load_swa_pattern(), which reads sliding_window_pattern either as one flag per layer or as a period expanded by set_swa_pattern(), and use it in every loader that reads the key as a period. These loaders silently ignored an array and applied their default period, although the converters of olmo2, gemma3n and exaone4 write arrays. The pub",
+    "published": "2026-09-18T14:13:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11037",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11037",
+    "description": "ggml-webgpu: fix supports_op condition for GET_ROWS ( #28978 ) fix get_rows vec4 handling Add src strides checking to vec4_aligned of get_rows and the new test case. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48438627 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) U",
+    "published": "2026-09-18T12:16:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11036",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11036",
+    "description": "ggml : handle graph buffer reservation failure ( #26070 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48431150 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) ",
+    "published": "2026-09-18T11:37:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11035",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11035",
+    "description": "vulkan: add IQ3_S MMQ matmul kernels ( #28822 ) vulkan: add IQ3_S MMQ matmul kernels Make block_a_to_shmem do 2-byte loads (110 bytes is divisible by 2) Align the check, IQ3_S is also using K tile size Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48426453 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu ",
+    "published": "2026-09-18T11:07:28Z",
+    "source": "llama.cpp Releases"
+  }
+]

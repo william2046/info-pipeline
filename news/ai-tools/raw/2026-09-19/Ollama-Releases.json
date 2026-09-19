@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.34.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
+    "description": "What's Changed GET /api/show now advertises each model's thinking controls and default: curl http://localhost:11434/api/show -d ' {\"model\": \"glm-5.3-flash:cloud\"} ' { \"thinking\" : { \"values\" : [ \" low \" , \" high \" , \" max \" ], \"default\" : \" max \" } } Nemotron H vision models are now supported on Apple Silicon with MLX Ollama's macOS app will now no longer reopen windows you've closed when activating it Full Changelog : v0.34.2...v0.34.3-rc0",
+    "published": "2026-09-19T01:25:50Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.3-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc0",
+    "description": "api: expose model thinking levels and defaults ( #18473 )",
+    "published": "2026-09-18T21:10:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.2",
+    "description": "What's Changed Added first-run setup when running ollama , with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows. Added ollama://apps to open the desktop app’s Apps page directly on macOS and Windows. Fixed excessive memory growth during long generations with MLX speculative decoding. Updated llama.cpp. Full Changelog : v0.34.1...v0.34.2",
+    "published": "2026-09-17T23:04:24Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.2-rc3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc3",
+    "description": "cli: add first-run onboarding shared with the desktop app ( #18495 )",
+    "published": "2026-09-17T18:49:24Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.2-rc2: mlxrunner: Release freed KV buffers during speculative decode",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2",
+    "description": "The decode loop releases MLX's pool of freed buffers every 256 generated tokens, which is also how often the KV cache grows and drops its previous, smaller buffers. The check fires only when the token count lands exactly on a multiple of 256. Speculative decoding emits several tokens per round, so most rounds step over the boundary and the pool is never released. Each growth at a long context leaves several GB of buffers that no later allocation can reuse, so the runner's footprint keeps climbin",
+    "published": "2026-09-17T16:45:01Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.2-rc1: mlxrunner: lay out model by contract, checkpoint and construction",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1",
+    "description": "model is one package with three jobs: the contract between the runner and the architectures, the opened checkpoint, and building nn layers from checkpoint tensors. Its files did not say which was which. base.go carried the folded package's name over the interfaces and the registry, root.go held the safetensors header scan next to Root, and quant.go mixed the nvfp4 global-scale helpers with quant parameter resolution. base.go becomes model.go, named for what it holds. root.go keeps Root and Open;",
+    "published": "2026-09-16T21:06:08Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.2-rc0: llama.cpp: version bump b10969 (#18446)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0",
+    "description": "llama.cpp build changes resulted in duplicate symbols between libllama and libmtmd. This moves the compat patch into libllama with exported symbols.",
+    "published": "2026-09-15T20:13:31Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.1",
+    "description": "What's Changed MLX safetensors ollama create no longer experimental. GGUF model creation now requires using llama.cpp tooling for safetensor conversion and quantization. Improved MLX memory handling on Apple Silicon Runaway repeat token detection now requires 100 repeat tokens for reduced false positives (e.g. OCR) /api/tags is much faster on large model libraries (3.1 s → 294 ms cold in testing), and model capabilities are now reported consistently. Deprecated typical_p : it can no longer be se",
+    "published": "2026-09-15T20:10:42Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.1-rc2: API: Deprecate typical_p (#18448)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2",
+    "description": "Drop support for creating new models with typical_p parameters, while retaining support for existing GGUF models with the setting.",
+    "published": "2026-09-15T04:24:26Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.1-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc1",
+    "description": "mlx: add mlx patch to docker build context ( #18440 )",
+    "published": "2026-09-14T20:34:03Z",
+    "source": "Ollama Releases"
+  }
+]

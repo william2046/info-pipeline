@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain==1.4.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.2",
+    "description": "Changes since langchain==1.4.1 release(langchain): 1.4.2 ( #40621 ) fix(langchain): preserve model-generated tool calls in HITL tool call edits and add notice to ToolMessage ( #40463 )",
+    "published": "2026-09-18T17:31:27Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-typesafe==0.0.1a2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a2",
+    "description": "Initial release release(typesafe): bump to 0.0.1a2 ( #40576 ) feat(typesafe): experimental AutoModeMiddleware ( #40545 ) feat(typesafe): experimental ModelRouterMiddleware ( #40543 ) fix(typesafe): trace usage metadata ( #40570 ) feat(typesafe): TypeSafeClassifier ( #40542 )",
+    "published": "2026-09-17T22:24:59Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-typesafe==0.0.1a1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a1",
+    "description": "Initial release feat(typesafe): TypeSafeClassifier ( #40542 )",
+    "published": "2026-09-17T18:07:14Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.1",
+    "description": "Changes since langchain==1.4.0 release(langchain): 1.4.1 ( #40498 ) fix(langchain): preserve open MCP object arguments ( #40414 ) fix(langchain): correct InterruptOnConfig documentation ( #40140 )",
+    "published": "2026-09-16T17:07:04Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.3",
+    "description": "Changes since langchain-core==1.6.2 release(core): 1.6.3 ( #40407 ) feat(core): Allow model name and provider tracing metadata override based on gateway response ( #40406 ) test(core): cover the deprecated .text() access path ( #40243 ) docs(core): remove stale Args/Raises entries from FileCallbackHandler._write and ChatGeneration.set_text ( #40211 )",
+    "published": "2026-09-11T17:38:04Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.7.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.2",
+    "description": "Changes since langchain-anthropic==1.7.1 release(anthropic): 1.7.2 ( #40387 ) fix(anthropic): preserve invalid tool use blocks ( #40372 )",
+    "published": "2026-09-10T19:13:12Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.6.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.2",
+    "description": "Changes since langchain-openai==1.6.1 release(openai): 1.6.2 ( #40339 ) fix(openai): add GPT-6 Astra reasoning efforts ( #40330 ) chore(deps): bump httpx2 from 2.10.0 to 2.12.0 in /libs/partners/openai ( #40309 )",
+    "published": "2026-09-09T21:22:02Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.6.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.1",
+    "description": "Changes since langchain-openai==1.6.0 fix(openai): bump max_completion_tokens in cache breakpoint integration test ( #40284 ) release(openai): 1.6.1 ( #40268 ) chore(model-profiles): refresh model profile data ( #40217 ) fix(openai): support Azure AD auth with OpenAI 3.8 ( #40190 ) feat(openai): support async tools ( #40208 ) feat(openai): support configuration_update ( #40201 ) chore(model-profiles): refresh model profile data ( #40171 ) fix(openai): route gpt-5.6-sol to responses API ( #40133 ",
+    "published": "2026-09-08T14:20:42Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2",
+    "description": "Changes since langchain-core==1.6.1 release(core): 1.6.2 ( #40209 ) feat(openai): support async tools ( #40208 ) chore(deps): bump mistune from 3.3.0 to 3.3.3 in /libs/core ( #40150 ) chore(deps): bump tornado from 6.5.7 to 6.5.8 in /libs/core ( #40113 ) fix(core): avoid mutation in google-genai standard content ( #40023 ) fix(core): avoid mutation in bedrock converse standard content ( #40022 )",
+    "published": "2026-09-04T21:29:44Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.7.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.1",
+    "description": "Changes since langchain-anthropic==1.7.0 release(anthropic): 1.7.1 ( #40181 ) perf(anthropic,langchain): omit middleware trace inputs ( #40098 ) feat(anthropic): add Claude Fable 5.1 support ( #40106 )",
+    "published": "2026-09-03T15:42:02Z",
+    "source": "LangChain Releases"
+  }
+]
