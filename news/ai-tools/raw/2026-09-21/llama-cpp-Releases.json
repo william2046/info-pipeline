@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11065",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11065",
+    "description": "CUDA: tune FA for Gemma 4 on Ampere or newer ( #29152 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48802880 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - ",
+    "published": "2026-09-20T21:56:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11064",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11064",
+    "description": "metal : support arbitrary hc in dsv4_hc_pre ( #29169 ) the dsv4_hc_pre kernels hardcoded hc = 4 via a constexpr used with simd_shuffle, so the op was rejected by supports_op for any other hc and fell back to CPU. Kimi-K3 uses dsv4_hc_pre with hc equal to the number of banked checkpoints in the cross-layer residual stack, which grows with the layer index. pass n_hc as a function constant (FC_DSV4_HC) with per-n_hc pipeline variants, and loop over it in both pre kernels with direct loads add test-",
+    "published": "2026-09-20T15:23:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11063",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11063",
+    "description": "common/peg : handle invalid utf-8 sequences in the AST ( #29161 ) common/peg : handle invalid utf-8 sequences in the AST cont : return maximal subpart per Unicode recommendations cont : remove strict argument Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48751230 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) ",
+    "published": "2026-09-20T12:31:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11062",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11062",
+    "description": "CUDA: enable sparse fa for qwen4 ( #28770 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48739244 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 li",
+    "published": "2026-09-20T09:50:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11060",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11060",
+    "description": "fix(mamba) : make time-step projection input contiguous ( #28832 ) mamba : make time-step projection input contiguous Assisted-by: ChatGPT mamba : skip contiguous copy after normalization Assisted-by: ChatGPT Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48722326 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) ",
+    "published": "2026-09-20T06:09:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11059",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11059",
+    "description": "metal: add F16 input to the FWHT ( #29094 ) metal: add F16 input to the FWHT The Metal FWHT kernel accepts F32 input only. This change makes the source type a template parameter, so the kernel reads an F16 source directly instead of requiring a converted copy. The F32 instantiations are unchanged. The pipeline name now carries the source type, and supports_op accepts an F16 src1 for the Hadamard hint at the four sizes the kernels cover. Every other F16 src1 path still goes through ggml_metal_sup",
+    "published": "2026-09-20T05:44:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11058",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11058",
+    "description": "chat : fix gemma4 required tool grammar ( #29115 )",
+    "published": "2026-09-19T23:59:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11057",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11057",
+    "description": "chat : add dedicated Ling 3.0 (Bailing V3) parser ( #28682 ) chat: add dedicated Ling 3.0 (Bailing V3) parser Ling 3.0 Flash templates pre-open the think block in the generation prompt, so the model never emits an opening , and a tool call can arrive before any . The generated autoparser terminated reasoning only at the close tag, which classified such tool calls entirely as reasoning_content: clients received content=\"\" with no tool_calls and agent loops died as reasoning-only turns. Adds a spe",
+    "published": "2026-09-20T00:01:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11056",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11056",
+    "description": "hexagon: enable I32 GET_ROWS ( #29116 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48662388 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.3 librar",
+    "published": "2026-09-19T17:55:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11055",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11055",
+    "description": "hexagon: add support for GEGLU_QUICK ( #29114 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48660160 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.3 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.",
+    "published": "2026-09-19T17:25:55Z",
+    "source": "llama.cpp Releases"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.30.0rc2",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc2",
+    "description": "[Bugfix][NIXL] Avoid receive reports for notification-only requests (…",
+    "published": "2026-09-18T21:15:44Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.30.0rc1: [Bugfix] Isolate supplemental FlashInfer BF16 autotuning (#57285)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc1",
+    "description": "Signed-off-by: jiahanc 173873397+jiahanc@users.noreply.github.com Co-authored-by: OpenAI Codex codex@openai.com",
+    "published": "2026-09-17T10:37:53Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "proto-v0.3.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.3.0",
+    "description": "Release vllm-proto 0.3.0",
+    "published": "2026-09-17T03:47:02Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "proto-v0.2.0: vllm-proto 0.2.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.2.0",
+    "description": "Validated by PR #56538 CI at fa2a26f .",
+    "published": "2026-09-16T08:32:41Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.29.1rc0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.29.1rc0",
+    "description": "[watermarking] Dual-key gumbel-max watermarking for speculative decod…",
+    "published": "2026-09-12T18:42:01Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "proto-v0.1.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.1.0",
+    "description": "vllm-proto 0.1.0",
+    "published": "2026-09-11T08:30:05Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.29.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "description": "v0.29.0 Highlights This release features 594 commits from 277 contributors (91 new)! Model Runner V2 is now the default for all models ( #53183 ), completing the rollout that began with pooling models ( #48290 ). MRV2 also gained CUDA graph memory profiling for KV cache auto-sizing ( #53306 ), batch-sharded sampling that cuts per-step logits memory by 1/TP ( #50465 ), prompt embeds ( #42963 ), extract_hidden_states speculation ( #49811 ), padded FULL cudagraph dispatch for uniform decode under s",
+    "published": "2026-09-10T23:53:36Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.29.0rc6",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc6",
+    "description": "[Bugfix][Core] Apply dense prefix cache default to hybrid models ( #55 …",
+    "published": "2026-09-08T08:34:20Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.29.0rc5",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc5",
+    "description": "[Core] Default prefix_cache_retention_interval to dense for Mamba + E…",
+    "published": "2026-09-08T08:20:33Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.29.0rc4: [Bugfix] Avoid sync in TRT-LLM ragged prefill",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0rc4",
+    "description": "Generated-by: Codex codex@openai.com Signed-off-by: Codex codex@openai.com",
+    "published": "2026-09-04T22:58:29Z",
+    "source": "vLLM Releases"
+  }
+]
