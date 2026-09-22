@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11096",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11096",
+    "description": "ci : update Level Zero SDK to v1.33.1 and enable the L0/oneDNN CMake …",
+    "published": "2026-09-22T04:03:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11095",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11095",
+    "description": "hexagon: new HMX-optimized GATED_DELTA_NET ( #29199 ) hex-gdn: start putting together HMX support for GDN hex-gdn: working hmx but not-pipelined and slow for now hex-gdn: re-write vtcm layout handling and prep for pipelining hex-gdn: starting to pipeline hmx and dmas hex-gdn: add hvx threading for most pipeline stages hex-gdb: add detailed trace events hex-gdn: vectorize expfs and use aligned hvx reads/writes hex-gnd: vectorize the rest of expf hex-gdn: optimize tail processing (pad partial chun",
+    "published": "2026-09-22T01:37:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11094",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11094",
+    "description": "vendor : update cpp-httplib to 0.57.1 ( #29239 ) Signed-off-by: Adrien Gallouët adrien@gallouet.fr Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49092442 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CU",
+    "published": "2026-09-22T01:09:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11093",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11093",
+    "description": "metal : fix mask bounds in flash attention block pre-pass ( #29220 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49087452 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64",
+    "published": "2026-09-22T00:34:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11090",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11090",
+    "description": "cuda: fix sm_70 tile compilation error ( #29224 ) The 5-argument load_ldmatrix added in 1884824 only defines tile<16,8>, so the Volta tile<8,4> does not match. See #29222 for details. Building on 1884824 , generalize the tile shape of the 5-argument load_ldmatrix from <16,8> to <I,J>, so the non-swizzle branch forwards to the 3-argument loader for any shape. Local compilation and testing passed. Assisted-by: DeepSeek V4.1 Flash (OpenCode) Website: https://llama.app Attestations: https://github.c",
+    "published": "2026-09-21T23:33:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11081",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11081",
+    "description": "test-llama-archs : make tensor data stdev configurable and improve help ( #29133 ) test-llama-archs : make tensor data stdev configurable Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp test-llama-archs : expand usage and add examples Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp test-llama-archs : fail on unknown args and log usage Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp test-llama-archs : add test run summary Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp",
+    "published": "2026-09-21T19:54:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11080",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11080",
+    "description": "tests/test-backend-ops : allow regex entries in the -o filter ( #29204 ) tests/test-backend-ops : allow regex entries in the -o filter so far -o only accepted a comma separated list of exact op names or full test case strings. entries that are not plain op names are now treated as regexes matched against the op name (e.g. \"MUL_MAT.*\"), while plain names keep their exact-matching behavior so that \"-o ADD\" does not match ADD_EX etc. Assisted-by: pi:llama.cpp/Qwen3.8-27B cont : don't print the FA v",
+    "published": "2026-09-21T19:21:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11078",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11078",
+    "description": "args: add env vars for temperature, top-p, min-p and penalties ( #27380 ) Allow configuring --temp, --top-p, --min-p, --repeat-penalty, --presence-penalty and --frequency-penalty via LLAMA_ARG_* so llama-server can be fully controlled from an EnvironmentFile (e.g. systemd on Debian). Use llama-gen-docs to regenerate the readme files. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49020823 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm",
+    "published": "2026-09-21T18:52:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11077",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11077",
+    "description": "server : do not forward --api-key-file to router-spawned child instances ( #28938 ) In router mode, authentication belongs to the router. unset_reserved_args() already unset LLAMA_API_KEY, but did not unset LLAMA_ARG_API_KEY_FILE. When --api-key-file was passed, children re-validated against file keys only, causing clients using --api-key to 401 on chat completions ( #28820 ). In addition, router internal calls without auth headers (such as POST /v1/streams/lookup and DELETE /v1/stream) were sil",
+    "published": "2026-09-21T18:14:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11076",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11076",
+    "description": "tests : remove stale comment ( #29140 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/48998612 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 librar",
+    "published": "2026-09-21T17:16:47Z",
+    "source": "llama.cpp Releases"
+  }
+]
