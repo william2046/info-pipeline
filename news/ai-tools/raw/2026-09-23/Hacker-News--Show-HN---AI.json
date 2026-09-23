@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Data-only attacks are easier than you think (2024)",
+    "link": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
+    "description": "Article URL: https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think Comments URL: https://news.ycombinator.com/item?id=49811429 Points: 13 # Comments: 3",
+    "published": "Wed, 23 Sep 2026 03:49:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Transit rewards (Waymo pays you to take the train)",
+    "link": "https://waymo.com/blog/2026/09/transit-rewards/",
+    "description": "Article URL: https://waymo.com/blog/2026/09/transit-rewards/ Comments URL: https://news.ycombinator.com/item?id=49811065 Points: 60 # Comments: 39",
+    "published": "Wed, 23 Sep 2026 02:52:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The current balance of power in open models",
+    "link": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+    "description": "Article URL: https://www.interconnects.ai/p/the-current-balance-of-power-in-open Comments URL: https://news.ycombinator.com/item?id=49808816 Points: 65 # Comments: 21",
+    "published": "Tue, 22 Sep 2026 22:03:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+    "link": "https://foxscript.org/",
+    "description": "Visual FoxPro stopped at version 9 in 2007. A surprising amount of it is still running, in 32 bits, because rewriting a 20-year-old business app is how you lose the business. A customer wanted to keep milking their app for the foreseeable future, so here it is: the same language on a new runtime (Rust, compiled to wasm, checked against the real vfp9.exe), tables no longer stopped at 2 GB, the old 32-bit .fll add-ins still loading, and lambdas, JSON and an HTTP server bolted on for good measure. ",
+    "published": "Tue, 22 Sep 2026 21:00:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Native apps written in TypeScript and CSS",
+    "link": "https://github.com/geastack/examples",
+    "description": "Article URL: https://github.com/geastack/examples Comments URL: https://news.ycombinator.com/item?id=49807021 Points: 98 # Comments: 34",
+    "published": "Tue, 22 Sep 2026 19:42:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Obscura: VPN that can't log your activity",
+    "link": "https://obscura.com/#faq-technical",
+    "description": "Article URL: https://obscura.com/#faq-technical Comments URL: https://news.ycombinator.com/item?id=49807003 Points: 104 # Comments: 87",
+    "published": "Tue, 22 Sep 2026 19:40:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+    "link": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+    "description": "https://archive.ph/0V37g Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 532 # Comments: 259",
+    "published": "Tue, 22 Sep 2026 19:03:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "SAML: A fractal of bad design",
+    "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+    "description": "Article URL: https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/ Comments URL: https://news.ycombinator.com/item?id=49806335 Points: 196 # Comments: 121",
+    "published": "Tue, 22 Sep 2026 18:57:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Unreal Agent",
+    "link": "https://unreallabs.ai/blog/unreal-agent/",
+    "description": "https://github.com/unreallabsai/unreal-agent Comments URL: https://news.ycombinator.com/item?id=49805748 Points: 152 # Comments: 93",
+    "published": "Tue, 22 Sep 2026 18:15:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "GPT-6 Sol and Luna",
+    "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+    "description": "Article URL: https://openai.com/index/introducing-gpt-6-sol-and-luna/ Comments URL: https://news.ycombinator.com/item?id=49805509 Points: 1358 # Comments: 662",
+    "published": "Tue, 22 Sep 2026 18:00:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
+    "link": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+    "description": "https://archive.ph/96YBP Comments URL: https://news.ycombinator.com/item?id=49805278 Points: 509 # Comments: 360",
+    "published": "Tue, 22 Sep 2026 17:46:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+    "link": "https://artificialanalysis.ai/models/claude-opus-5-5",
+    "description": "Article URL: https://artificialanalysis.ai/models/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49804316 Points: 263 # Comments: 77",
+    "published": "Tue, 22 Sep 2026 16:51:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "WordPress: Unauthenticated path traversal leading to conditional RCE",
+    "link": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
+    "description": "Article URL: https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp Comments URL: https://news.ycombinator.com/item?id=49803959 Points: 171 # Comments: 90",
+    "published": "Tue, 22 Sep 2026 16:33:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Claude Opus 5.5",
+    "link": "https://www.anthropic.com/claude-opus-5-5",
+    "description": "Article URL: https://www.anthropic.com/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49803892 Points: 1370 # Comments: 870",
+    "published": "Tue, 22 Sep 2026 16:29:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "16-bit Intel 8088 chip (c. 1985)",
+    "link": "https://allpoetry.com/16-bit-Intel-8088-chip",
+    "description": "Article URL: https://allpoetry.com/16-bit-Intel-8088-chip Comments URL: https://news.ycombinator.com/item?id=49803635 Points: 114 # Comments: 14",
+    "published": "Tue, 22 Sep 2026 16:11:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenAI is well positioned to fast-follow Jev",
+    "link": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+    "description": "Article URL: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/ Comments URL: https://news.ycombinator.com/item?id=49802161 Points: 276 # Comments: 200",
+    "published": "Tue, 22 Sep 2026 14:42:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
+    "link": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
+    "description": "Article URL: https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy Comments URL: https://news.ycombinator.com/item?id=49801939 Points: 672 # Comments: 493",
+    "published": "Tue, 22 Sep 2026 14:30:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+    "link": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+    "description": "Article URL: https://www.cryptocellar.org/bgac/the-mvueh-break.html Comments URL: https://news.ycombinator.com/item?id=49801324 Points: 611 # Comments: 373",
+    "published": "Tue, 22 Sep 2026 13:52:15 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+    "link": "https://benchmarkheaven.com/jev-models",
+    "description": "Hi HN! I built JevBench because Jev kicks ass, and the world deserves to know how the serious open source and fake lookalike projects really perform in comparison. Jev-class models return bounded choices and probabilities instead of text, and are disruptively faster and cheaper than LLMs, while being similarly intelligent on the text input they operate on. JevBench allows looking at accuracy, latency and price all at once, in a weighted way - you can even configure the weighting. A full run asks",
+    "published": "Tue, 22 Sep 2026 13:01:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Training a model to identify AI web content from structure alone",
+    "link": "https://arxiv.org/abs/2609.15369",
+    "description": "Hey HN! We’re Vincent and Jochen from Sitefire ( https://sitefire.ai ). We have been working together for years, with backgrounds in RL/optimization at Stanford and software engineering from Technical University Munich (TUM). With Sitefire (YC W26), we help marketing teams get recommended by AI Search (ChatGPT, Google AI Overviews, AI Mode, Claude, etc.). Our software monitors prompts, sees which web pages get cited, and uses these insights to help marketing teams take action, e.g. create YouTub",
+    "published": "Tue, 22 Sep 2026 13:00:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

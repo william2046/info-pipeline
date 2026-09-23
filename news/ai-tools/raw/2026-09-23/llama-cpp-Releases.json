@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11118",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11118",
+    "description": "hex-dma: introduce direct-mapped DMA cache that is better suited for HVX FA mask handling ( #29282 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49404271 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - ",
+    "published": "2026-09-23T02:13:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11117",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11117",
+    "description": "HIP : optimize IQ2/IQ3 ( __vsub4 __vcmpne4 ) using SWAR ( #27962 ) HIP : use bit manipulation for __vcmpne4 HIP : use bit manipulation for __vsub4 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49401157 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12)",
+    "published": "2026-09-23T01:46:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11115",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11115",
+    "description": "opencl: add bin kernel kernel_gemm_noshuffle_q4_k_q8_1_dp4a_ila_a8_bin ( #29056 ) opencl: add A8 Q4_K non-MoE dp4a binary kernel opencl: rename binary kernel selection helpers Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49361383 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 ",
+    "published": "2026-09-22T21:52:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11114",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11114",
+    "description": "server: fix router eviction races with the existing queue ( #29217 ) server: route every model load through the queue A model loaded by the fast path has no queue entry, so tick() evicts it at its LOADED transition before its own request is proxied. Every load now joins the queue, whose entry protects the model until its waiters leave. server: do not admit requests into a stopping model A request for a model that is being stopped still sees it LOADED and is proxied into the dying child. Such a r",
+    "published": "2026-09-22T21:16:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11113",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11113",
+    "description": "server: do not pass log file to children ( #29212 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49344105 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA",
+    "published": "2026-09-22T20:44:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11112",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11112",
+    "description": "server: support input_image in function_call_output ( #20663 ) ( #22575 ) server: support input_image in function_call_output ( #20663 ) server: fix if statement spacing server: avoid repeated type lookup Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49330467 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubun",
+    "published": "2026-09-22T19:46:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11111",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11111",
+    "description": "vulkan: add Intel Xe flash attention optimization kernels (2/3, Xe-LPG Plus/Xe2/Xe3) ( #24406 ) vulkan : Intel FA kernel optimization for split k path vulkan : Host code update for Intel split k FA kernel path selection, fix A770 Linux op test failures vulkan : use symmetric coopMatMulAdd() in flash_attn_decode_phase_1 shader to resolve test op failre on A770 Linux with 26.2.3 mesa driver vulkan : fix editorconfig issue in flash_attn_decode_phase_2.comp Co-authored-by: Liu, Russell russell.liu@i",
+    "published": "2026-09-22T18:42:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11110",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11110",
+    "description": "mtmd: add various sanity checks ( #29276 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49308522 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 lib",
+    "published": "2026-09-22T18:15:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11109",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11109",
+    "description": "metal : gate mul_mm_id src1 rescale behind ggml_prec ( #29029 ) metal : gate mul_mm_id src1 rescale behind ggml_prec Assisted-by: Claude Fable 5.1 ggml-webgpu: reject MUL_MAT_ID when src1 precision is F32 cuda/vulkan: reject MUL_MAT_ID in supports_op when src1 prec is F32 fix supports_op to return false for failing backends when the specified src1 precision is f32 Assisted-by: Claude Fable 5.1 Co-authored-by: yomaytk yoshimura.masashi.frbs@gmail.com Website: https://llama.app Attestations: https",
+    "published": "2026-09-22T17:48:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11108",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11108",
+    "description": "ggml : IQ1_M build prefix sums once per block ( #28706 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49294443 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) -",
+    "published": "2026-09-22T17:19:54Z",
+    "source": "llama.cpp Releases"
+  }
+]
