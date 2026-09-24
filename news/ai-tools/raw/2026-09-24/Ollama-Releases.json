@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.34.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.4",
+    "description": "What's Changed Structured outputs on thinking models now apply in a single pass, making them faster and more reliable. Fixed intermittent \"model not found\" errors with a large local library Fixed the macOS app becoming unresponsive when checking if ChatGPT or Codex is running. Qwen 3.8 prompt processing is faster on Apple Silicon. Gemma 4 on Apple Silicon now picks the best image resolution per image, keeping more detail in high-resolution images. Updated llama.cpp, MLX, and XGrammar. Full Chang",
+    "published": "2026-09-24T04:45:43Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.4-rc1: mlxrunner: Update XGrammar to 0.2.7 for structured outputs",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc1",
+    "description": "We pick up schema fixes for typed dictionary values and short arrays.",
+    "published": "2026-09-23T23:36:46Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.4-rc0: mlx: speed up Qwen 3.8 prompt processing (#18550)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0",
+    "description": "mlx: speed up Qwen 3.8 prompt processing Use MLX's gated-delta kernel for long scans and fold dense MLP global scales into SwiGLU. address comments",
+    "published": "2026-09-23T00:53:23Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
+    "description": "What's Changed GET /api/show now advertises each model's thinking controls and default: Available in the CLI with: ollama show gemma4 thinking levels false, true default true Available in the API with: curl http://localhost:11434/api/show -d ' {\"model\": \"glm-5.3-flash:cloud\"} ' { \"thinking\" : { \"values\" : [ \" low \" , \" high \" , \" max \" ], \"default\" : \" max \" } } Also available on ollama.com directly for cloud models. Nemotron H vision models are now supported on Apple Silicon with MLX Ollama's m",
+    "published": "2026-09-22T20:42:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.3-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
+    "description": "server: allow registry cross-host redirects among allowlisted hosts (…",
+    "published": "2026-09-19T00:15:35Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.3-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc0",
+    "description": "api: expose model thinking levels and defaults ( #18473 )",
+    "published": "2026-09-18T21:10:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.2",
+    "description": "What's Changed Added first-run setup when running ollama , with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows. Added ollama://apps to open the desktop app’s Apps page directly on macOS and Windows. Fixed excessive memory growth during long generations with MLX speculative decoding. Updated llama.cpp. Full Changelog : v0.34.1...v0.34.2",
+    "published": "2026-09-17T23:04:24Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.2-rc3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc3",
+    "description": "cli: add first-run onboarding shared with the desktop app ( #18495 )",
+    "published": "2026-09-17T18:49:24Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.2-rc2: mlxrunner: Release freed KV buffers during speculative decode",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2",
+    "description": "The decode loop releases MLX's pool of freed buffers every 256 generated tokens, which is also how often the KV cache grows and drops its previous, smaller buffers. The check fires only when the token count lands exactly on a multiple of 256. Speculative decoding emits several tokens per round, so most rounds step over the boundary and the pool is never released. Each growth at a long context leaves several GB of buffers that no later allocation can reuse, so the runner's footprint keeps climbin",
+    "published": "2026-09-17T16:45:01Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.2-rc1: mlxrunner: lay out model by contract, checkpoint and construction",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1",
+    "description": "model is one package with three jobs: the contract between the runner and the architectures, the opened checkpoint, and building nn layers from checkpoint tensors. Its files did not say which was which. base.go carried the folded package's name over the interfaces and the registry, root.go held the safetensors header scan next to Root, and quant.go mixed the nvfp4 global-scale helpers with quant parameter resolution. base.go becomes model.go, named for what it holds. root.go keeps Root and Open;",
+    "published": "2026-09-16T21:06:08Z",
+    "source": "Ollama Releases"
+  }
+]

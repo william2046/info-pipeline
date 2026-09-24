@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-openai==1.6.5",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.5",
+    "description": "Changes since langchain-openai==1.6.4 release(openai): 1.6.5 ( #40787 ) fix(anthropic): add Opus 5.5 and GPT-6 profile augmentations ( #40785 ) feat(anthropic,openai): mid-conversation tool changes on SystemMessage ( #40758 )",
+    "published": "2026-09-23T15:31:54Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.7.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.4",
+    "description": "Changes since langchain-anthropic==1.7.3 chore(anthropic): fix integration test cassette ( #40790 ) release(anthropic): 1.7.4 ( #40786 ) fix(anthropic): add Opus 5.5 and GPT-6 profile augmentations ( #40785 ) feat(anthropic,openai): mid-conversation tool changes on SystemMessage ( #40758 )",
+    "published": "2026-09-23T17:56:05Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openrouter==0.2.9",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9",
+    "description": "Changes since langchain-openrouter==0.2.8 release(openrouter): 0.2.9 ( #40736 ) chore(model-profiles): refresh model profile data ( #40705 ) chore(model-profiles): refresh model profile data ( #40685 ) chore(model-profiles): refresh model profile data ( #40665 ) chore(deps): bump anyio from 4.13.0 to 4.14.2 in /libs/partners/openrouter ( #40627 ) chore(model-profiles): refresh model profile data ( #40600 ) chore(model-profiles): refresh model profile data ( #40541 ) chore(model-profiles): refres",
+    "published": "2026-09-22T04:16:13Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.6.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.4",
+    "description": "Changes since langchain-openai==1.6.3 release(openai): 1.6.4 ( #40775 ) chore(model-profiles): refresh openai model profile data ( #40774 )",
+    "published": "2026-09-22T22:37:11Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.6.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.2",
+    "description": "Changes since langchain-fireworks==1.6.1 fix(fireworks): use current completions model in LLM tests ( #40740 ) hotfix(fireworks): use available model in LLM tests ( #40737 ) release(fireworks): 1.6.2 ( #40735 ) chore(model-profiles): refresh model profile data ( #40665 ) chore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/fireworks ( #40639 ) chore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/fireworks ( #40587 ) chore(deps): bump langsmith from 0.12.1 to 0.12.6 in /libs",
+    "published": "2026-09-22T04:44:05Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-deepseek==1.1.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.1",
+    "description": "Changes since langchain-deepseek==1.1.0 fix(deepseek,infra): resolve compatible minimum OpenAI dependencies, bump min ver ( #40738 ) release(deepseek): 1.1.1 ( #40734 ) chore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/deepseek ( #40641 ) chore(model-profiles): refresh model profile data ( #40399 ) fix(deepseek): route strict mode to the beta endpoint ( #40249 ) chore(model-profiles): refresh model profile data ( #39906 ) chore(model-profiles): refresh model profile data ( #39844 )",
+    "published": "2026-09-22T04:30:12Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.7.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.3",
+    "description": "Changes since langchain-anthropic==1.7.2 release(anthropic): 1.7.3 ( #40773 ) chore(model-profiles): refresh anthropic model profile data ( #40772 ) fix(anthropic): auto-route with_structured_output to method=\"json_schema\" for fable and opus 5.5 ( #40766 ) chore(anthropic): update docs for Opus 5.5 ( #40765 ) feat(anthropic): send mid-conversation SystemMessage s in place ( #40622 ) chore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/anthropic ( #40643 )",
+    "published": "2026-09-22T22:08:15Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.6.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.3",
+    "description": "Changes since langchain-openai==1.6.2 release(openai): 1.6.3 ( #40719 ) fix(openai): expose inferred Responses API routing at initialization ( #40715 ) chore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/openai ( #40629 ) fix(openai): support GPT-6 request constraints ( #40443 )",
+    "published": "2026-09-21T18:32:46Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.4",
+    "description": "Changes since langchain-core==1.6.3 release(core): 1.6.4 ( #40718 ) chore(core): deprecate chat message history ( #40711 ) chore(deps): bump anyio from 4.12.0 to 4.14.2 in /libs/core ( #40634 ) chore(deps): bump soupsieve from 2.8.4 to 2.9 in /libs/core ( #40574 )",
+    "published": "2026-09-21T15:51:24Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-typesafe==0.0.1a3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a3",
+    "description": "Initial release release(typesafe): 0.0.1a3 ( #40693 ) feat(typesafe): make classifier questions invocation-scoped ( #40659 ) release(typesafe): bump to 0.0.1a2 ( #40576 ) feat(typesafe): experimental AutoModeMiddleware ( #40545 ) feat(typesafe): experimental ModelRouterMiddleware ( #40543 ) fix(typesafe): trace usage metadata ( #40570 ) feat(typesafe): TypeSafeClassifier ( #40542 )",
+    "published": "2026-09-20T18:54:55Z",
+    "source": "LangChain Releases"
+  }
+]

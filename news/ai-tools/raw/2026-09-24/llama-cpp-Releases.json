@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.5.0",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.5.0",
+    "description": "Overview This release focuses on backend performance and correctness, broader model coverage, and more robust server/router operation. It adds HRM-Text (DFM Mimir 1B) support, MiMo-V2.6 and HunyuanOCR conversion support, ggml 0.25.0 backend improvements, multi-address HTTP binding, image outputs from function calls, and several chat parser/UI fixes. Highlights Accelerate CUDA conv2d with implicit GEMM ( #29135 ) Add Metal MoE and SSM_CONV fusion optimizations ( #28948 ) Allow the server to bind ",
+    "published": "2026-09-23T20:50:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11151: convert : allow vision target for DFlash/Dspark (#29339)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11151",
+    "description": "Resolve the target arch with get_model_architecture so vision targets (e.g. Lfm2VlForConditionalGeneration) map to their text model for the vocab. Fix double rope reorder for LFM2/LFM2.5 DSpark drafters",
+    "published": "2026-09-23T23:16:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11149",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11149",
+    "description": "tests: add -b/--backend option to test-llama-archs for testing a specific backend ( #27372 ) tests: add backend option to test-llama-archs Update tests/test-llama-archs.cpp Co-authored-by: Johannes Gäßler johannesg@5d6.de remove extra space Co-authored-by: Johannes Gäßler johannesg@5d6.de Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49661383 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x6",
+    "published": "2026-09-23T20:59:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11147",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11147",
+    "description": "opencl: add A8 Q6_K non-MoE dp4a binary kernel ( #29057 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49630180 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) ",
+    "published": "2026-09-23T19:07:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11146",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11146",
+    "description": "llama.cpp : bump version to 0.5.0 ( #29333 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49623059 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 l",
+    "published": "2026-09-23T18:40:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11140",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11140",
+    "description": "CUDA: enable sparse-fa for dsv4 prefill (again) ( #29298 ) CUDA: enable sparse-fa for dsv4 prefill (again) CUDA: unroll the query loop of the sparse mask scan The query loop of flash_attn_mask_to_sparse_indices has a runtime trip count, which keeps the unrolled scan over the values of a lane from issuing its loads together. Template the kernel on ncols1 so the loop is bounded at compile time: batch one decodes compile to straight line code and the scan drops from 46 to 17 us at 49k columns on sp",
+    "published": "2026-09-23T17:42:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11139",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11139",
+    "description": "server: fix token counting API crash on sleep ( #29309 ) server: wake up sleeping server correctly server: wake up sleeping server correctly (local aliases removed) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49582694 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ub",
+    "published": "2026-09-23T16:14:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11138",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11138",
+    "description": "jinja : parse unary +/- before variables ( #29244 ) jinja : parse unary +/- before variables Lexer already emits unary_operator for -n / +n, and runtime executes unary -. Parse them at multiplicative precedence so slices like items[:-n] and GigaChat indent[:-indent_factor] work. jinja : keep filters/tests outside unary operands Unary +/- must bind only the primary/postfix operand so -n|abs is (-n)|abs, not -(n|abs). Add unary + and filter/test regression coverage. Signed-off-by: sinksilk 7859762",
+    "published": "2026-09-23T15:39:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11136",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11136",
+    "description": "server: accept OpenAI video_url content type and data: video URIs ( #27921 ) The OpenAI chat completions API specifies content part type \"video_url\" with a {\"url\": ...} object, and clients typically send data: URIs (e.g. data:video/mp4;base64,...). The llama-server only accepted the non-standard \"input_video\" type and rejected data: URIs for video (accept_base64_uri=false), so any OpenAI-conformant client failed with \"unsupported content[].type\" or \"Invalid uri format\". accept \"video_url\" as an ",
+    "published": "2026-09-23T14:46:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11135",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11135",
+    "description": "server: Dedup the draft HF model via dedup-cache-models ( #27934 ) server: Dedup the draft HF model via dedup-cache-models Fixes #27846 server: avoid capturing structured binding in lambda Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49545978 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) ",
+    "published": "2026-09-23T14:08:35Z",
+    "source": "llama.cpp Releases"
+  }
+]
