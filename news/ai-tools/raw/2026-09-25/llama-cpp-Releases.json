@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11176",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11176",
+    "description": "llama : fix tensor split for fused qkv with uneven K/V head sizes ( #2 …",
+    "published": "2026-09-25T03:15:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11175",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11175",
+    "description": "hexagon: add q5_k quant type support ( #29123 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50064037 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.",
+    "published": "2026-09-25T03:07:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11174",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11174",
+    "description": "hexagon: use DMA for contiguous dim1 CONCAT ( #29404 ) hexagon: use DMA for contiguous dim1 CONCAT Assisted-by: OpenCode hexagon: update CONCAT DMA for DMA64 Assisted-by: OpenCode Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50060105 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
+    "published": "2026-09-25T02:44:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11173",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11173",
+    "description": "metal : fix graph capture and handle empty graphs ( #29390 ) return early when the graph has no nodes drop the redundant reset of capture_compute: the decrement at the top of the function already transitions the counter from 0 to -1, so a capture happens exactly once hint at METAL_CAPTURE_ENABLED=1 in the capture error message pass capture_compute == 0 (not the raw counter) as use_capture to ggml_metal_op_init, so GPU debug-group markers are only emitted on the captured compute Assisted-by: pi:l",
+    "published": "2026-09-25T00:09:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11172",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11172",
+    "description": "metal : optimize sparse FA + clean-up ( #29377 ) metal : cache sparse FA indices in shared memory Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp metal : simplify shared memory size calculation Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp pi : update general metal : unroll sparse index load Assisted-by: pi:llama.cpp/DeepSeek-V4-Flash-Vision-Exp Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50026590 macOS/iOS: macOS Apple Silicon (arm",
+    "published": "2026-09-24T23:38:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11171",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11171",
+    "description": "sync : ggml ( #29396 ) ggml : bump version to 0.25.2 (ggml/1642) ggml : fix ubsan error in ggml_graph_nbytes (ggml/1644) ggml : bump version to 0.25.3 (ggml/1645) sync : ggml Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50020953 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (",
+    "published": "2026-09-24T23:10:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11170",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11170",
+    "description": "hexagon: handle multi-sequence in concat_2d ( #29344 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50014220 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - C",
+    "published": "2026-09-24T22:38:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11169",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11169",
+    "description": "llama-grammar: fix numeric truncation for token_id parsing ( #29382 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50007794 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm6",
+    "published": "2026-09-24T22:12:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11168",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11168",
+    "description": "hexagon: dynamic quantizer improvements ( #29395 ) hexagon: fix accuracy issue in Q8_0 N=1 MUL_MAT hex-quant: fix register spills hex-mm: use dma for all dyn.quant paths Co-authored-by: Aparna M P aparmp@qti.qualcomm.com hex-mm: remove obsolete run_quant_task hex-mm: update tracing to properly wrap the events hex-mm: use act for activation data in all paths hex-mm: use act_ instead of src1_ to avoid confusion in fused kernels hex-mm: remove/reroute the rest of the non-DMA act (aka src1) logic he",
+    "published": "2026-09-24T21:47:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11167",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11167",
+    "description": "hexagon: support I32 CPY and CONT ( #29379 ) Assisted-by: OpenCode Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/49994729 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (",
+    "published": "2026-09-24T21:16:35Z",
+    "source": "llama.cpp Releases"
+  }
+]
