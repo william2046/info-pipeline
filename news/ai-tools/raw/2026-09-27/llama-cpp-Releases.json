@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11206",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11206",
+    "description": "hexagon: support for backend sampler ( #29502 ) hex-topk: trying to improve/cleanup the pipeline hex-sampling: add STEP op hex-sampler: add SUM op hex-sampler: update CPY to support sampling cases hex-binary: add support for chunking to handle large logits hex-argmax: super basic version of ARGMAX hex-binary: support for scalars in extended buffers hex-binary: fix wrong indexing for dim 1 broadcasts across dim 2 slices hex-argsort: fix missing header hex-sampler: cleanup dma usage in the sampler",
+    "published": "2026-09-27T04:01:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11205",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11205",
+    "description": "cuda: support Nemotron 3 Puzzle state size 96 for ssm scan ( #28717 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50461180 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm6",
+    "published": "2026-09-26T21:03:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11203",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11203",
+    "description": "cuda: add F16 input to the FWHT ( #29096 ) cuda: add F16 input to the FWHT The CUDA FWHT accepts F32 input only. This makes the source type a template parameter, so the kernel reads an F16 source directly instead of requiring a converted copy. The F32 path is unchanged. supports_op accepts an F16 src1 against an F32 src0 for the Hadamard hint. Every other F16 src1 against a non-F16 src0 is still refused. ggml_cuda_op_mul_mat_use_fwht is the single predicate both supports_op and the dispatch call",
+    "published": "2026-09-26T20:37:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11202",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11202",
+    "description": "server : fix wake_fd warning on Windows ( #29479 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50455005 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) -",
+    "published": "2026-09-26T20:05:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11201",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11201",
+    "description": "Revert \"Change max context length for auto-fitting with unified KV ( #28849 )\" ( #29437 ) This reverts commit b04d4e5 . Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50433369 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubun",
+    "published": "2026-09-26T16:44:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11200",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11200",
+    "description": "jinja : implement sameas test ( #29448 ) implement sameas test add tests Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50397675 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu a",
+    "published": "2026-09-26T10:27:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11199",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11199",
+    "description": "jinja : fix compile error ( #29468 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50395469 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries",
+    "published": "2026-09-26T10:03:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11195",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11195",
+    "description": "ggml-cpu: tiled mul_mat for k-quants ( #27851 ) Added tiled mul_mat. For each mul_mat_one_chunk, quants are unpacked into (max) 256x256 tiles of int8, one routine per quent. Then microkernel computes 16x16 tiles before writing out 256x256 float reults to main memory. Tests/benches in tests/test-tiled-mulmat.cpp. 3-6x speed improvement for large matmul, break even at 4096x64 * 64x4096, 80% performance (net loss) for GEMV. Error rates trivial (order of 1-e04 max, 1-e05 rmse). Fixes for ARM/windows",
+    "published": "2026-09-26T08:29:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11194",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11194",
+    "description": "opencl: add A8 Q8_0 non-MoE dp4a binary kernel ( #29439 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50382689 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) ",
+    "published": "2026-09-26T07:43:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11193",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11193",
+    "description": "hexagon: find software divide calls using binary inspection tool ( #29449 ) hex-scripts: fix table alignment hex-scripts: find sw div calls using binary inspection tool Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50359675 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
+    "published": "2026-09-26T03:33:14Z",
+    "source": "llama.cpp Releases"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "title": "If we do not stop to help each other, what do we become?",
+    "link": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/",
+    "description": "Article URL: https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/ Comments URL: https://news.ycombinator.com/item?id=49863062 Points: 137 # Comments: 51",
+    "published": "Sun, 27 Sep 2026 03:20:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "What is the size of Yemen? (2024)",
+    "link": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
+    "description": "Article URL: https://theborys.substack.com/p/what-is-the-size-of-yemen Comments URL: https://news.ycombinator.com/item?id=49862809 Points: 91 # Comments: 15",
+    "published": "Sun, 27 Sep 2026 02:40:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenAI agents tried to bruteforce a UN website's API fields",
+    "link": "https://swarmcha.se/posts/openai-unctad",
+    "description": "Article URL: https://swarmcha.se/posts/openai-unctad Comments URL: https://news.ycombinator.com/item?id=49862299 Points: 45 # Comments: 28",
+    "published": "Sun, 27 Sep 2026 01:08:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Real-time feedback: My closing move in every interview",
+    "link": "https://mgrebler.substack.com/p/real-time-feedback-my-closing-move",
+    "description": "Article URL: https://mgrebler.substack.com/p/real-time-feedback-my-closing-move Comments URL: https://news.ycombinator.com/item?id=49862244 Points: 21 # Comments: 12",
+    "published": "Sun, 27 Sep 2026 01:01:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Welcome to the Medical Clinic at the Interplanetary Relay Station",
+    "link": "https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/",
+    "description": "Article URL: https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/ Comments URL: https://news.ycombinator.com/item?id=49860074 Points: 63 # Comments: 12",
+    "published": "Sat, 26 Sep 2026 20:08:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "DeepSeek Elastic Compute (DSec)",
+    "link": "https://arxiv.org/abs/2609.22978",
+    "description": "Article URL: https://arxiv.org/abs/2609.22978 Comments URL: https://news.ycombinator.com/item?id=49859112 Points: 213 # Comments: 68",
+    "published": "Sat, 26 Sep 2026 18:22:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC",
+    "link": "https://www.righto.com/2026/09/8087-tangent-cordic.html",
+    "description": "Article URL: https://www.righto.com/2026/09/8087-tangent-cordic.html Comments URL: https://news.ycombinator.com/item?id=49858676 Points: 65 # Comments: 8",
+    "published": "Sat, 26 Sep 2026 17:26:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+    "link": "https://github.com/reladraw/reladraw",
+    "description": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulate). I wanted to have the benefits of both, where you can define a diagram in a diagram language, but also retain a high degree of control over what the diagram looks like. I also wanted this to work w",
+    "published": "Sat, 26 Sep 2026 17:10:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Evolution of Vending Machines",
+    "link": "https://www.saturdayeveningpost.com/2026/09/from-holy-water-to-frozen-meals-the-evolution-of-vending-machines/",
+    "description": "Article URL: https://www.saturdayeveningpost.com/2026/09/from-holy-water-to-frozen-meals-the-evolution-of-vending-machines/ Comments URL: https://news.ycombinator.com/item?id=49858424 Points: 28 # Comments: 8",
+    "published": "Sat, 26 Sep 2026 17:01:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+    "link": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+    "description": "Article URL: https://tangled.org/yanndegat.tngl.sh/drawgent Comments URL: https://news.ycombinator.com/item?id=49857729 Points: 138 # Comments: 36",
+    "published": "Sat, 26 Sep 2026 15:56:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
+    "link": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+    "description": "We found an approach to get Jev-like properties from standard LLMs like GLM-5.3-Flash. The core idea is to craft the input prompt so that the first output token answers the question. This makes it possible to get a decision with a single forward pass. In the blog post, we describe the approach in detail for GLM-5.3-Flash and vLLM. We benchmark this setup against Jev and Laya. We find that our setup is on-par with Jev in terms of accuracy and speed and that it substantially outperforms Laya. Stil",
+    "published": "Sat, 26 Sep 2026 15:49:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Go Concurrency Distilled",
+    "link": "https://antonz.org/go-concurrency-distilled/",
+    "description": "Article URL: https://antonz.org/go-concurrency-distilled/ Comments URL: https://news.ycombinator.com/item?id=49856988 Points: 141 # Comments: 42",
+    "published": "Sat, 26 Sep 2026 14:34:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Improving site performance by shipping more CSS",
+    "link": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+    "description": "Article URL: https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/ Comments URL: https://news.ycombinator.com/item?id=49856193 Points: 8 # Comments: 1",
+    "published": "Sat, 26 Sep 2026 13:10:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "How to keep enjoying programming in a world of LLMs",
+    "link": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+    "description": "Article URL: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705 Comments URL: https://news.ycombinator.com/item?id=49854875 Points: 191 # Comments: 246",
+    "published": "Sat, 26 Sep 2026 09:41:58 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Fifteen years later, the Apple Cards origin story",
+    "link": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
+    "description": "Article URL: https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story Comments URL: https://news.ycombinator.com/item?id=49854693 Points: 380 # Comments: 94",
+    "published": "Sat, 26 Sep 2026 09:13:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "An agent used DNS to reach an external chatbot",
+    "link": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+    "description": "Article URL: https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/ Comments URL: https://news.ycombinator.com/item?id=49853137 Points: 64 # Comments: 64",
+    "published": "Sat, 26 Sep 2026 04:14:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Promising discoveries about the potential for life on one of Saturn’s icy moons",
+    "link": "https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html",
+    "description": "Article URL: https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html Comments URL: https://news.ycombinator.com/item?id=49852905 Points: 45 # Comments: 23",
+    "published": "Sat, 26 Sep 2026 03:23:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Generate fonts where every LLM token is the same width",
+    "link": "https://ampdot.mesh.host/token-space-fonts.html",
+    "description": "Article URL: https://ampdot.mesh.host/token-space-fonts.html Comments URL: https://news.ycombinator.com/item?id=49851883 Points: 47 # Comments: 11",
+    "published": "Sat, 26 Sep 2026 00:30:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Exploding variance of means of exponentials: least-squares to the rescue",
+    "link": "https://francisbach.com/spectral_log_density_estimation/",
+    "description": "Article URL: https://francisbach.com/spectral_log_density_estimation/ Comments URL: https://news.ycombinator.com/item?id=49850991 Points: 18 # Comments: 0",
+    "published": "Fri, 25 Sep 2026 22:48:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Snap Wants to be a State Actor??–Kansas v. Snap",
+    "link": "https://blog.ericgoldman.org/archives/2026/09/snap-wants-to-be-a-state-actor-kansas-v-snap.htm",
+    "description": "Article URL: https://blog.ericgoldman.org/archives/2026/09/snap-wants-to-be-a-state-actor-kansas-v-snap.htm Comments URL: https://news.ycombinator.com/item?id=49847247 Points: 39 # Comments: 8",
+    "published": "Fri, 25 Sep 2026 17:12:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
