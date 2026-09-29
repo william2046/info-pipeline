@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.31.0rc1: [CI/Build] Skip the snapshot runtime on CUDA 12.x images (#59118)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1",
+    "description": "Signed-off-by: khluu khluu000@gmail.com Co-authored-by: Claude Opus 5.5 noreply@anthropic.com (cherry picked from commit aedaba8 )",
+    "published": "2026-09-29T03:18:39Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.30.1rc0: [ROCm][CI] Add MI355 dense NVFP4 and MoRI kernel mirrors (#58281)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.30.1rc0",
+    "description": "Signed-off-by: Andreas Karatzas akaratza@amd.com Co-authored-by: OpenAI Codex noreply@openai.com",
+    "published": "2026-09-23T08:06:15Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.30.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+    "description": "v0.30.0 Highlights This release features 762 commits from 315 contributors (104 new)! New models : DeepSeek-V4.1-Flash ( #56214 , #56228 , #56208 ) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 ( #56893 ), DeepGEMM Mega-mHC ( #56962 ), and async Engram prefetch with Engram DP sharding ( #56512 ); DeepSeek-V4-Flash-Vision-Exp ( #54566 ), also on ROCm ( #55107 ) and with LoRA ( #55897 ); GLM-5.3-Flash ( #53906 ) with EPLB ( #55119 ); K2-Horizon ( #55063 ); Cohere Comp",
+    "published": "2026-09-22T05:20:54Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.30.0rc2",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc2",
+    "description": "[Bugfix][NIXL] Avoid receive reports for notification-only requests (…",
+    "published": "2026-09-18T21:15:44Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.30.0rc1: [Bugfix] Isolate supplemental FlashInfer BF16 autotuning (#57285)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0rc1",
+    "description": "Signed-off-by: jiahanc 173873397+jiahanc@users.noreply.github.com Co-authored-by: OpenAI Codex codex@openai.com",
+    "published": "2026-09-17T10:37:53Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "proto-v0.3.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.3.0",
+    "description": "Release vllm-proto 0.3.0",
+    "published": "2026-09-17T03:47:02Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "proto-v0.2.0: vllm-proto 0.2.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.2.0",
+    "description": "Validated by PR #56538 CI at fa2a26f .",
+    "published": "2026-09-16T08:32:41Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.29.1rc0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.29.1rc0",
+    "description": "[watermarking] Dual-key gumbel-max watermarking for speculative decod…",
+    "published": "2026-09-12T18:42:01Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "proto-v0.1.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.1.0",
+    "description": "vllm-proto 0.1.0",
+    "published": "2026-09-11T08:30:05Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.29.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+    "description": "v0.29.0 Highlights This release features 594 commits from 277 contributors (91 new)! Model Runner V2 is now the default for all models ( #53183 ), completing the rollout that began with pooling models ( #48290 ). MRV2 also gained CUDA graph memory profiling for KV cache auto-sizing ( #53306 ), batch-sharded sampling that cuts per-step logits memory by 1/TP ( #50465 ), prompt embeds ( #42963 ), extract_hidden_states speculation ( #49811 ), padded FULL cudagraph dispatch for uniform decode under s",
+    "published": "2026-09-10T23:53:36Z",
+    "source": "vLLM Releases"
+  }
+]

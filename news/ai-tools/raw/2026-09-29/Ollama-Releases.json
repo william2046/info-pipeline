@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.35.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.0",
+    "description": "Decision models Ollama now supports decision models through /v1/systemone , based on TypeSafe’s Jev API . Decision models return choices, probabilities, and scores instead of text. Use them for tasks such as ticket triage, model routing, and content classification. Available models: Nimble from Bespoke Labs Tev1 from Together AI ollama pull nimble Send context and one or more questions: curl http://localhost:11434/v1/systemone \\ -H ' Content-Type: application/json ' \\ -d ' { \"model\": \"nimble\", \"",
+    "published": "2026-09-29T01:54:15Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.35.0-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1",
+    "description": "mlx: bound pull stall retries and let the watchdog interrupt them ( #1 …",
+    "published": "2026-09-28T20:31:38Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.35.0-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc0",
+    "description": "feat: add System One scoring API ( #18606 )",
+    "published": "2026-09-28T20:21:01Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
+    "description": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 During the pre-release we will be testing and enabling additional models. Full Changelog : v0.34.4...v0.40.0-rc0",
+    "published": "2026-09-25T15:22:00Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.4",
+    "description": "What's Changed Structured outputs on thinking models now apply in a single pass, making them faster and more reliable. Fixed intermittent \"model not found\" errors with a large local library Fixed the macOS app becoming unresponsive when checking if ChatGPT or Codex is running. Qwen 3.8 prompt processing is faster on Apple Silicon. Gemma 4 on Apple Silicon now picks the best image resolution per image, keeping more detail in high-resolution images. Updated llama.cpp, MLX, and XGrammar. Full Chang",
+    "published": "2026-09-24T04:45:43Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.4-rc1: mlxrunner: Update XGrammar to 0.2.7 for structured outputs",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc1",
+    "description": "We pick up schema fixes for typed dictionary values and short arrays.",
+    "published": "2026-09-23T23:36:46Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.4-rc0: mlx: speed up Qwen 3.8 prompt processing (#18550)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0",
+    "description": "mlx: speed up Qwen 3.8 prompt processing Use MLX's gated-delta kernel for long scans and fold dense MLP global scales into SwiGLU. address comments",
+    "published": "2026-09-23T00:53:23Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
+    "description": "What's Changed GET /api/show now advertises each model's thinking controls and default: Available in the CLI with: ollama show gemma4 thinking levels false, true default true Available in the API with: curl http://localhost:11434/api/show -d ' {\"model\": \"glm-5.3-flash:cloud\"} ' { \"thinking\" : { \"values\" : [ \" low \" , \" high \" , \" max \" ], \"default\" : \" max \" } } Also available on ollama.com directly for cloud models. Nemotron H vision models are now supported on Apple Silicon with MLX Ollama's m",
+    "published": "2026-09-22T20:42:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.3-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
+    "description": "server: allow registry cross-host redirects among allowlisted hosts (…",
+    "published": "2026-09-19T00:15:35Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.34.3-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc0",
+    "description": "api: expose model thinking levels and defaults ( #18473 )",
+    "published": "2026-09-18T21:10:53Z",
+    "source": "Ollama Releases"
+  }
+]

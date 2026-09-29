@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11245",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11245",
+    "description": "common : use fs::path for cache dirs ( #29595 ) Avoid useless string conversions on Windows. No need for BSD or emscripten special cases. Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/51016898 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) ",
+    "published": "2026-09-29T06:16:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11243",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11243",
+    "description": "ci : update the oneAPI toolkit to 2026.1 ( #29273 ) ci : update the oneAPI toolkit to 2026.1 oneDNN is removed from Intel Deep Learning Essentials in 2026.0, so staying on the deep-learning-essentials path would silently lose oneDNN support when the toolkit version is updated. Switch both the Ubuntu and Windows CI jobs to the new unified Intel oneAPI Toolkit installer, which still includes oneDNN (until 2027.0) and keeps the component IDs unchanged for the Windows install script. Measured with t",
+    "published": "2026-09-29T03:00:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11242",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11242",
+    "description": "mtmd: fix GCC 15 stringop-overflow in decode_embd_batch ( #29607 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50949667 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (",
+    "published": "2026-09-28T23:53:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11240",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11240",
+    "description": "server : support typed content (vision/audio/video) input for /v1/embeddings endpoint ( #29556 ) server : support multimodal input for /v1/embeddings (Qwen3-VL-Embedding) Accept the OpenAI-style wrapped content array format for multimodal embedding requests. Each {\"content\": [...]} object is one input that produces one embedding; text parts are concatenated and image_url parts are decoded via handle_media then spliced with process_mtmd_prompt. The legacy formats (plain string, token arrays, mixe",
+    "published": "2026-09-28T22:30:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11239",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11239",
+    "description": "vulkan: include functional header ( #29597 ) Fixes the compile error: no template named 'function' in namespace 'std' Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50927029 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu",
+    "published": "2026-09-28T22:00:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11238",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11238",
+    "description": "models: pad on the left with ggml_pad_ext ( #29567 ) models: pad on the left with ggml_pad_ext The Parakeet, LFM2-Audio, Granite Speech and Gemma 4 audio encoders build a left padding as a right pad followed by a roll, and DFlash2 concatenates a zero filled block in front of the previous tokens. ggml_pad_ext does both in one node now that every backend supports a left padding. The Gemma 4 audio embeddings are bit identical. models: skip the DFlash2 taps that only read padding A tap at or past bl",
+    "published": "2026-09-28T21:31:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11237",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11237",
+    "description": "ggml-openvino: mark unaligned batch-stride views unsupported ( #29603 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50908876 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu ar",
+    "published": "2026-09-28T20:55:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11236",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11236",
+    "description": "batch: migrate speculative, mtmd and server to batch_ext ( #29385 ) adapt common add common_batch wip wip: spec cont common_speculative_process server_batch to use common_batch rm some stale calls Assisted-by: Claude Fable 5.1 migrate mtmd handle imrope, handle return val of add()/add_embd() add spec zeros vector add warning on zero fill path Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50870264 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Sil",
+    "published": "2026-09-28T18:35:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11235",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11235",
+    "description": "common : fix HF cache paths on Windows ( #29475 ) Supersedes #29158 Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50839831 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubunt",
+    "published": "2026-09-28T16:49:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11234",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11234",
+    "description": "webgpu: Handle unaligned writes in ggml_backend_webgpu_buffer_set_tensor ( #29471 ) Fix: Handle unaligned writes in ggml_backend_webgpu_buffer_set_tensor Clang formatting Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/50830975 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulk",
+    "published": "2026-09-28T16:16:46Z",
+    "source": "llama.cpp Releases"
+  }
+]
