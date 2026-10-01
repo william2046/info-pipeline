@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11312",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11312",
+    "description": "webgpu: fix SSM_SCAN binding aliasing ( #29750 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/51685637 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13",
+    "published": "2026-10-01T03:11:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11311",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11311",
+    "description": "ggml-opencl : replace alloca() with std::vector ( #29765 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/51681384 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CU",
+    "published": "2026-10-01T02:49:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11310",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11310",
+    "description": "cuda: guard the iq4_nl dequantize row kernel against short rows ( #29683 ) dequantize_block_iq4_nl writes QK_K values per block, but a row can be shorter than that (an IQ4_NL row is only guaranteed to be a multiple of QK4_NL). Threads whose 32-value sub-block starts at or past k currently read and write past the end of the row. Skip those sub-blocks; for rows that are a multiple of QK_K the check never fires. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestat",
+    "published": "2026-10-01T02:09:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11309",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11309",
+    "description": "Hexagon: optimize ALLREDUCE with support for safe scatter mode ( #29757 ) hex-allreduce: add support for safe scatter mode hex-allreduce: pare down excessive comments hex-allreduce: re-write to remove register spills Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/51669892 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework ",
+    "published": "2026-10-01T01:38:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11308",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11308",
+    "description": "args: fix cli download mmproj arg ( #28977 ) tests: add tests for cli download arg parsing args: fix cli download mmproj arg Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/51664692 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries",
+    "published": "2026-10-01T01:09:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11307",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11307",
+    "description": "llama : preserve original batch order for speculative decoding layer inputs ( #29019 ) llama: preserve original batch order for layer inputs Assisted-by: Codex tests: cover layer-input order across KV layouts Assisted-by: Codex tests: exercise layer-input ordering on CUDA devices Assisted-by: Codex llama: make layer input reordering compatible with tensor split Copy each microbatch tensor from offset zero and restore original row order after synchronization. Extend the layer-input regression to ",
+    "published": "2026-10-01T00:37:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11306",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11306",
+    "description": "test-llama-archs : toggle causal_attn to catch graph shape changes ( #29724 ) After the device decode, flip causal_attn off, decode n_ubatch/2 then n_ubatch tokens. Both have the same node count, so a shape that depends on the flag makes the second reallocate at an unchanged graph size, which aborts under GGML_SCHED_NO_REALLOC. Skipped for the encode archs. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/51649651 macOS/iOS: macOS Apple Silicon (arm64) ",
+    "published": "2026-09-30T23:36:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11304",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11304",
+    "description": "llama: properly handle KV on training ( #28520 ) llama: properly handle KV on training improve Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/51644581 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 1",
+    "published": "2026-09-30T23:08:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11303",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11303",
+    "description": "batch: migrate the rest of examples to llama_batch_ext ( #29601 ) migrate the rest test-thread-safety rm common_batch_staged Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/51638011 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries",
+    "published": "2026-09-30T22:40:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11302",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11302",
+    "description": "glm5-next: give dead indexer slots unique scatter rows ( #29745 ) The sparse indexer mask is built with a set_rows scatter. Padded pools, absent sequences and missing tail cells all pointed to the same n_kv sentinel row, and invisible pools picked by top_k to fill the selection overlap the tail cells of the token, so several CPU threads wrote the same element (ThreadSanitizer data race in the sanitize CI). Allocate the slot mask for both selection paths and route every dead slot to its own dump ",
+    "published": "2026-09-30T21:59:21Z",
+    "source": "llama.cpp Releases"
+  }
+]

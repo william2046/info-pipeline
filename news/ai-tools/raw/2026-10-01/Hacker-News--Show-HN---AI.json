@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Suits Are Better Tech Than Modern Clothes",
+    "link": "https://devz.cl/posts/the-lost-tech-in-contemporary-clothing/",
+    "description": "Article URL: https://devz.cl/posts/the-lost-tech-in-contemporary-clothing/ Comments URL: https://news.ycombinator.com/item?id=49918161 Points: 39 # Comments: 43",
+    "published": "Thu, 01 Oct 2026 05:48:56 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Fuck Android Developer Verification Program",
+    "link": "https://twitter.com/0xcrypto/status/2105515822643114182",
+    "description": "Article URL: https://twitter.com/0xcrypto/status/2105515822643114182 Comments URL: https://news.ycombinator.com/item?id=49917761 Points: 75 # Comments: 12",
+    "published": "Thu, 01 Oct 2026 04:32:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Is sandboxing sufficient to contain rogue agents?",
+    "link": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
+    "description": "Article URL: https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/ Comments URL: https://news.ycombinator.com/item?id=49917378 Points: 16 # Comments: 10",
+    "published": "Thu, 01 Oct 2026 03:27:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Yantra – an LALR(1) parser generator for C++",
+    "link": "https://github.com/TantrixAuto/yantra",
+    "description": "Yantra is a C++ parser generator: lexer, parser, and AST walker all generated from one tool. It builds the whole AST first, then walks it. Most LALR parser generators (Yacc, Bison, Lemon) run your semantic actions during parsing, as each rule reduces, bottom-up. That means at the time a rule's action runs, you don't yet know what its parent looks like. This pushes a lot of grammars toward hand-built AST classes and a separate walking pass whenever you need to look ahead into siblings or defer a ",
+    "published": "Thu, 01 Oct 2026 02:30:48 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "56k.rip – the 1996 dial-up internet experience",
+    "link": "https://56k.rip/",
+    "description": "Article URL: https://56k.rip/ Comments URL: https://news.ycombinator.com/item?id=49915126 Points: 143 # Comments: 73",
+    "published": "Wed, 30 Sep 2026 22:08:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The top secret URSALA, RAQUEL, and FARRAH satellites (2025)",
+    "link": "https://www.thespacereview.com/article/4951/1",
+    "description": "Article URL: https://www.thespacereview.com/article/4951/1 Comments URL: https://news.ycombinator.com/item?id=49915082 Points: 192 # Comments: 84",
+    "published": "Wed, 30 Sep 2026 22:03:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Functional Ultrasound Imaging (fUSI) from scratch",
+    "link": "https://www.neuroai.science/p/functional-ultrasound-imaging-from",
+    "description": "Article URL: https://www.neuroai.science/p/functional-ultrasound-imaging-from Comments URL: https://news.ycombinator.com/item?id=49913604 Points: 40 # Comments: 7",
+    "published": "Wed, 30 Sep 2026 20:06:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Gemini 4 Argon",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+    "description": "See also: Gemini 4 Argon (High): Intelligence, Performance and Price Analysis - https://news.ycombinator.com/item?id=49914236 Comments URL: https://news.ycombinator.com/item?id=49913571 Points: 1253 # Comments: 803",
+    "published": "Wed, 30 Sep 2026 20:04:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Halfspace experimental IDE for solid modeling with distance fields",
+    "link": "https://www.mattkeeter.com/projects/halfspace/",
+    "description": "Article URL: https://www.mattkeeter.com/projects/halfspace/ Comments URL: https://news.ycombinator.com/item?id=49913350 Points: 113 # Comments: 9",
+    "published": "Wed, 30 Sep 2026 19:44:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "EDG C++ front-end goes public",
+    "link": "https://edgcpp.org/#transition",
+    "description": "https://github.com/edgcpp/compiler Comments URL: https://news.ycombinator.com/item?id=49913192 Points: 200 # Comments: 89",
+    "published": "Wed, 30 Sep 2026 19:26:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Surprisingly complex waves reveal the brain's inner workings",
+    "link": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+    "description": "Article URL: https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/ Comments URL: https://news.ycombinator.com/item?id=49912955 Points: 165 # Comments: 53",
+    "published": "Wed, 30 Sep 2026 19:04:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Before pixels: Modular industrial dashboards",
+    "link": "https://unsung.aresluna.org/before-pixels-modular-industrial-dashboards/",
+    "description": "Article URL: https://unsung.aresluna.org/before-pixels-modular-industrial-dashboards/ Comments URL: https://news.ycombinator.com/item?id=49912792 Points: 97 # Comments: 16",
+    "published": "Wed, 30 Sep 2026 18:49:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
+    "link": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
+    "description": "Article URL: https://www.netlify.com/blog/edge-functions-firecracker-microvms/ Comments URL: https://news.ycombinator.com/item?id=49912444 Points: 150 # Comments: 57",
+    "published": "Wed, 30 Sep 2026 18:17:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "CHOMPI portable sampler instrument is now open-source (hardware and software)",
+    "link": "https://www.chompiclub.com/opensource",
+    "description": "Article URL: https://www.chompiclub.com/opensource Comments URL: https://news.ycombinator.com/item?id=49912048 Points: 73 # Comments: 14",
+    "published": "Wed, 30 Sep 2026 17:42:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+    "link": "https://github.com/magnitudedev/magnitude",
+    "description": "Hey HN, Anders and Tom here. We're building Magnitude, an inference engine for agents that optimizes itself to run as fast as possible on your hardware. It works on Mac, Linux, and Windows on any hardware and is up to 2x faster than llama.cpp. We're both software engineers and previously built an open source browser agent to 4k+ GH stars and 100k+ downloads. We increasingly wanted to run it on local models, but found that no inference engine worked for our use case. Inference engines today all m",
+    "published": "Wed, 30 Sep 2026 17:37:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Great Dirhombicosidodecahedron (\"Miller's Monster\")",
+    "link": "https://www.software3d.com/MillersMonster.php",
+    "description": "Article URL: https://www.software3d.com/MillersMonster.php Comments URL: https://news.ycombinator.com/item?id=49911534 Points: 61 # Comments: 5",
+    "published": "Wed, 30 Sep 2026 17:00:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Coltrane's Tone Circle",
+    "link": "https://jtomschroeder.com/blog/tone-circle/",
+    "description": "Article URL: https://jtomschroeder.com/blog/tone-circle/ Comments URL: https://news.ycombinator.com/item?id=49909908 Points: 48 # Comments: 16",
+    "published": "Wed, 30 Sep 2026 14:59:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "SDF Public Access Unix System ... est. 1987",
+    "link": "https://sdf.org/",
+    "description": "Article URL: https://sdf.org/ Comments URL: https://news.ycombinator.com/item?id=49909610 Points: 87 # Comments: 21",
+    "published": "Wed, 30 Sep 2026 14:36:02 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A brief history of the Bloomberg terminal",
+    "link": "https://spectrum.ieee.org/bloomberg-terminal",
+    "description": "Article URL: https://spectrum.ieee.org/bloomberg-terminal Comments URL: https://news.ycombinator.com/item?id=49909583 Points: 260 # Comments: 110",
+    "published": "Wed, 30 Sep 2026 14:34:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "What TLA+ can and can't check",
+    "link": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/",
+    "description": "Article URL: https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/ Comments URL: https://news.ycombinator.com/item?id=49909056 Points: 176 # Comments: 36",
+    "published": "Wed, 30 Sep 2026 13:57:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
