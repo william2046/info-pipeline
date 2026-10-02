@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11347: hexagon: install rebuilt HTP skels (#29828)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11347",
+    "description": "hexagon: install rebuilt HTP skels Assisted-by: OpenCode hexagon: fix HTP skel catalog dependencies Assisted-by: OpenCode",
+    "published": "2026-10-02T02:07:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11342",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11342",
+    "description": "common,rpc : fix cache dir creation through symlinks on buggy libstdc++ ( #29816 ) See https://gcc.gnu.org/bugzilla/show_bug.cgi?id=101510 Close #29759 Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52050509 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu",
+    "published": "2026-10-02T05:09:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11339",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11339",
+    "description": "llama : clamp kpool re-pool bound to existing pools ( #29805 ) tests : simplify function signature llama : clamp kpool re-pool bound to existing pools The n_tokens/kpool + n_seqs_unq bound on n_new_g overshoots when a batch fills the whole cache: n_ctx tokens complete exactly n_ctx/kpool pools, so the +1 pads new_pool_idxs/new_pool_rep one entry past n_pool_real. Graph reserve only covers n_pool_real entries, so the first full-context decode builds bigger tensors than reserved and ggml-alloc dem",
+    "published": "2026-10-02T04:32:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11338",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11338",
+    "description": "hexagon: shared strided DMA copy for CPY and CONCAT, any-dim CONCAT via DMA ( #29685 ) hexagon: shared strided DMA copy for CPY and CONCAT, any-dim CONCAT via DMA hex-cpy: various fixes on top of the concat optimizations Removed CONCAT_DMA_MIN_ROW logic, it was broken with 64-bit DMA. While it's kinda silly to use DMA for tiny stuff if that tensor gets mapped to an extended buffer the only way to read it is DMA. Added missing dma_queue_flush() calls. Added additional guards for conditions we don",
+    "published": "2026-10-02T04:07:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11337",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11337",
+    "description": "server: return HTTP 400 for invalid embedding requests ( #29060 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52037093 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (C",
+    "published": "2026-10-02T03:37:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11335",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11335",
+    "description": "cuda : route sm70 to the Turing MMVQ nwarps table ( #29753 ) cuda : route sm70 to the Turing MMVQ nwarps table Volta (sm_70) has no MMVQ parameter table of its own and falls through to GENERIC, which launches K-quant batch-1 decode (ncols_dst == 1) at nwarps=4. sm_70 shares TURING's tuning: the K-quant vec_dot prefers nwarps=2 there. Route sm_70 to the existing MMVQ_PARAMETERS_TURING table in both the device and the host table selector. Measured on one Tesla V100 32GB PCIe (PG500-216, driver 580",
+    "published": "2026-10-02T03:10:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11334",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11334",
+    "description": "metal : release temporary private transfer buffers ( #29777 ) metal : release temporary private transfer buffers Assisted-by: OpenAI Codex metal : fix order and formatting Co-authored-by: Niklas Wenzel dev@nikwen.de Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52026582 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x",
+    "published": "2026-10-02T02:37:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11333",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11333",
+    "description": "webgpu: add bfloat16 support for MUL_MAT/MUL_MAT_ID/GET_ROWS- #29358 ( #29358 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52019658 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries U",
+    "published": "2026-10-02T01:57:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11332",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11332",
+    "description": "llama : fix invalid assert in recurrent memory ( #29799 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52014664 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) ",
+    "published": "2026-10-02T01:24:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11331",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11331",
+    "description": "CUDA: Handle compute type for NVFP4 on cublass path ( #29173 ) CUDA: Handle compute type for NVFP4 on cublass path Signed-off-by: ynankani ynankani@nvidia.com Use BF16 compute type for quantized models if HW allows Signed-off-by: ynankani ynankani@nvidia.com Set acc prec to bf16 for nvfp4 as it needs atleast bf16 range Signed-off-by: ynankani ynankani@nvidia.com Update ggml/src/ggml-cuda/ggml-cuda.cu Co-authored-by: Johannes Gäßler johannesg@5d6.de preserve op_params for per-expert matmul Signed",
+    "published": "2026-10-02T00:51:34Z",
+    "source": "llama.cpp Releases"
+  }
+]
