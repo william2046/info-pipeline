@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-text-splitters==1.1.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.3",
+    "description": "Changes since langchain-text-splitters==1.1.2 release(text-splitters): 1.1.3 ( #41001 ) chore(deps): bump the minor-and-patch group across 3 directories with 4 updates ( #40969 ) chore(deps): bump tornado from 6.5.9 to 6.5.10 in /libs/text-splitters ( #40971 ) chore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/text-splitters ( #40938 ) chore(deps): bump tornado from 6.5.8 to 6.5.9 in /libs/text-splitters ( #40940 ) chore(deps): bump anyio from 4.14.2 to 4.15.1 in /libs/text-splitters ( #4064",
+    "published": "2026-10-02T15:46:51Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.6.7",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.7",
+    "description": "Changes since langchain-openai==1.6.6 release(openai): 1.6.7 ( #40933 ) chore(model-profiles): refresh model profile data ( #40924 ) test(openai): drop retired completions live tests ( #40910 ) chore(model-profiles): refresh model profile data ( #40869 ) feat(openai): discover Azure workload identity ( #40532 )",
+    "published": "2026-09-30T15:12:19Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.6",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.6",
+    "description": "Changes since langchain-core==1.6.5 release(core): 1.6.6 ( #40906 ) fix(anthropic): support Claude Sonnet 5.5 compatibility ( #40882 ) docs(core): fix docstring examples that don't run as copied ( #40815 )",
+    "published": "2026-09-29T14:53:13Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.7.5",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.5",
+    "description": "Changes since langchain-anthropic==1.7.4 release(anthropic): 1.7.5 ( #40912 ) fix(anthropic): support Claude Sonnet 5.5 compatibility ( #40882 ) fix(anthropic): serialize invalid tool calls as tool use on replay ( #40864 )",
+    "published": "2026-09-29T15:22:22Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.7.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0",
+    "description": "Changes since langchain-fireworks==1.6.3 hotfix(fireworks): replace unavailable integration test model ( #40890 ) release(fireworks): 1.7.0 ( #40889 ) feat(fireworks): add prompt caching middleware ( #38823 ) fix(fireworks): classify mid-stream read timeouts ( #40874 ) chore(model-profiles): refresh model profile data ( #40833 )",
+    "published": "2026-09-28T20:46:52Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3",
+    "description": "Changes since langchain==1.4.2 release(langchain): 1.4.3 ( #40888 ) fix(langchain): sanitize cache settings for fallback models ( #40886 ) feat(langchain): support Bedrock Mantle chat models in init_chat_model ( #40837 ) fix(langchain): recognize GPT-6 structured output without profiles ( #40844 ) docs(infra): fix AGENTS.md root setup guidance and package doc accuracy ( #40794 ) fix(langchain): repair invalid tool calls in create_agent ( #40530 ) chore(langchain): remove commented-out cohere ext",
+    "published": "2026-09-28T20:17:45Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.6.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.3",
+    "description": "Changes since langchain-fireworks==1.6.2 release(fireworks): 1.6.3 ( #40834 ) fix(fireworks): declare native PDF inputs unsupported ( #40814 ) fix(fireworks): preserve malformed tool arguments as diagnostic JSON ( #40818 ) chore(model-profiles): refresh model profile data ( #40804 )",
+    "published": "2026-09-25T12:57:40Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.5",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.5",
+    "description": "Changes since langchain-core==1.6.4 release(core): 1.6.5 ( #40816 ) fix(core): abbreviate long tool IDs in XML buffer strings ( #40792 )",
+    "published": "2026-09-24T18:11:24Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.6.6",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.6",
+    "description": "Changes since langchain-openai==1.6.5 release(openai): 1.6.6 ( #40800 ) fix(openai): raise on error events in stream path ( #40791 )",
+    "published": "2026-09-24T11:31:33Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.6.5",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.5",
+    "description": "Changes since langchain-openai==1.6.4 release(openai): 1.6.5 ( #40787 ) fix(anthropic): add Opus 5.5 and GPT-6 profile augmentations ( #40785 ) feat(anthropic,openai): mid-conversation tool changes on SystemMessage ( #40758 )",
+    "published": "2026-09-23T15:31:54Z",
+    "source": "LangChain Releases"
+  }
+]

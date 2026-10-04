@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11382",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11382",
+    "description": "webgpu: add f16 support to fill/set_rows ( #29897 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52497832 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA",
+    "published": "2026-10-04T00:37:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11381",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11381",
+    "description": "mtmd : fix deprecated strdup warning on Windows ( #29863 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52479259 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CU",
+    "published": "2026-10-03T21:35:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11380",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11380",
+    "description": "vendor : update cpp-httplib to 0.59.0 ( #29886 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52476117 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13",
+    "published": "2026-10-03T21:09:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11379",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11379",
+    "description": "server : fix laya abort by limiting n_batch to n_ubatch ( #29903 ) server : fix laya abort by limiting n_batch to n_ubatch Fixes #29902 Assisted-by: Claude fix(review) : rm tests, embeddings cond Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52435853 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (V",
+    "published": "2026-10-03T15:54:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11378",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11378",
+    "description": "common : add common_is_tty() helper and fix deprecated warnings on Windows ( #29860 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52429962 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12",
+    "published": "2026-10-03T15:02:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11377",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11377",
+    "description": "chat : honor json_schema in Ling 3.0 parser ( #29813 ) chat : honor json_schema in Ling 3.0 parser Ling 3.0 only built a grammar for tool calls and did not handle inputs.json_schema, so response_format requests were left unconstrained. Add an eager response-format grammar path with precedence over tools, following the existing parser patterns. Require before JSON when thinking is enabled and do not allow trailing prose after the JSON response. Fixes #29652 . Assisted-by: Claude Opus 5.5 chat : r",
+    "published": "2026-10-03T14:27:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11376",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11376",
+    "description": "ci: fix flaky ADD_ADD f16 by using the fused ADD tolerance ( #29904 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52418791 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm6",
+    "published": "2026-10-03T13:27:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11375",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11375",
+    "description": "graph: gather the recurrent states once so the reserve covers every split ( #29856 ) build_rs gathered the extra states (n_rs - n_seqs rows) with their own get_rows. The worst-case reserve has n_rs == n_seqs, so that node was sized at zero rows, and any ubatch whose cells are not contiguous forced a graph reallocation at an unchanged node count, which aborts under GGML_SCHED_NO_REALLOC. A single get_rows now gathers the n_rs states: the ubatch states and the extra states are views of it, and its",
+    "published": "2026-10-03T12:40:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11374",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11374",
+    "description": "ggml-openvino: update to 2026.4.1, optimize performance, expand ops, improve device listing. ( #29852 ) ggml-openvino : Qwen3.5 MoE perf ( #312 ) Squash of ravi9#312 : ggml-openvino: add detailed inference profiling (Yu, Zijun) ggml-openvino: use remote output tensors by default (Yu, Zijun) ggml-openvino: optimize single-sequence recurrent state (Yu, Zijun) opt1: remove recurrent reset for single sequence, opt2: direct gdn outputs (break parallel sequence) (Yu, Zijun) fix parallel sequences (Yu,",
+    "published": "2026-10-03T11:54:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11372",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11372",
+    "description": "qwen4exp : halve the indexer score memory ( #29825 ) qwen4exp : halve the indexer score memory The indexer scored all heads in one product and rectified a copy of it, so two [n_pool, n_idx_h, n_tokens] f32 tensors were live at once, the largest buffers of the graph at long context. Each head now gets its own product, rectified and summed in place into one [n_pool, n_tokens] score. qwen4exp: let the allocator reuse the indexer score buffers Address review from CISC: use plain ggml_add and ggml_re",
+    "published": "2026-10-03T11:28:05Z",
+    "source": "llama.cpp Releases"
+  }
+]
