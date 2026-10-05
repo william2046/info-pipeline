@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11404",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11404",
+    "description": "metal : few-row MMA mat-mul ( #29869 ) metal : few-row MMA mat-mul and batched copies for speculative decoding Speculative decoding verifies a few draft tokens per step. Without the tensor API, Metal ran these mat-muls with the mat-vec kernels, whose time grows with every src1 row, so DFlash2 decoding on an M3 Ultra was slower than serial decoding. add mat-mul kernels for 2..16 src1 rows on 8x8 simdgroup matrices: each weight is dequantized once for all rows, and the simdgroups of a threadgroup ",
+    "published": "2026-10-05T06:10:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11403",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11403",
+    "description": "CUDA: use MMVF for thin f16/bf16 mul_mat at small batch size ( #29633 ) CUDA: use MMVF for thin f16/bf16 mul_mat at small batch size Signed-off-by: ynankani ynankani@nvidia.com adjust kernel selection logic Signed-off-by: ynankani ynankani@nvidia.com Co-authored-by: Johannes Gäßler johannesg@5d6.de Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52714313 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS",
+    "published": "2026-10-05T05:24:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11402",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11402",
+    "description": "CUDA: prefer whole-tile FlashAttention scheduling for efficient two-stage kernels ( #29435 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52707115 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.",
+    "published": "2026-10-05T04:35:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11401",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11401",
+    "description": "log, server: self contained colors, split child commands from logs in router mode ( #29895 ) log, server: make router child lines carry their own colors The logger writes the color reset after the trailing newline, so the reset opens the next line. On the shared pipe of a router child it lands in front of the next state command, which the router then misses, and the line break that works around it shows up as an empty log line on every progress update. The reset now goes before the trailing newl",
+    "published": "2026-10-05T00:39:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11400",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11400",
+    "description": "llama: support both embd + raw tokens in batch ( #29622 ) llama: support both embd + raw tokens in batch add to test-llama-archs also check case llm_arch_supports_mixed_batch = false constant graph topology have dedicated input for mixed case rm set_tensor_backend is_embd --> type consolidate m-rope pos handling into one place nits Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52666476 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64",
+    "published": "2026-10-05T00:06:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11399",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11399",
+    "description": "CUDA: refactor swizzling code ( #29612 ) CUDA: refactor swizzling code fix templates/loop bounds Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52658795 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA",
+    "published": "2026-10-04T22:56:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11398",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11398",
+    "description": "ggml-cpu: support BF16/FP16/FP32 K tails in tinyBLAS on x86 ( #29806 ) ggml-cpu: vectorize BF16 K tails in tinyBLAS tests: Skip tinyBLAS when use_ref is enabled so CPU tests compare against the vec_dot path. ggml-cpu: vectorize tinyBLAS F16/F32 tails Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52638584 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (C",
+    "published": "2026-10-04T20:07:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11397",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11397",
+    "description": "cuda : move neu_padded to where it is used ( #29940 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52636582 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13",
+    "published": "2026-10-04T19:50:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11396",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11396",
+    "description": "ci : windows llvm build requires ninja multi-config ( #29959 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52619546 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA",
+    "published": "2026-10-04T17:49:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11395: ci : add windows arm64 vulkan release (#29954)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11395",
+    "description": "add windows vulkan arm64 release add link",
+    "published": "2026-10-04T16:46:15Z",
+    "source": "llama.cpp Releases"
+  }
+]
