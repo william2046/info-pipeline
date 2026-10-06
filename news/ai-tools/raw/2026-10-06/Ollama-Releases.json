@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.40.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5",
+    "description": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4 , qwen3.6 and qwen3.5 Decision models are now available on MLX as well: Nimble tev1 clef clef-flash We will continue testing and enabling additional models. Full Changelog : v0.34.4...v0.40.0-rc3",
+    "published": "2026-10-06T01:53:06Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc4: MLX: version bump (#18720)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc4",
+    "description": "MLX: version bump add scopes for unit tests to reduce memory usage",
+    "published": "2026-10-06T00:41:51Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc3: pull: allow RCs to pull matching min_version (#18790)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3",
+    "description": "Strip off pre-release from the version string so RCs can pull models for the same release.",
+    "published": "2026-10-04T23:15:37Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2",
+    "description": "Merge remote-tracking branch 'upstream/main' into release_v0.40.0",
+    "published": "2026-10-04T15:48:45Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc1: mlx: match publisher tokenizer semantics (#18779)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc1",
+    "description": "mlx: match publisher tokenizer semantics Honor pretokenizer stage order, split behavior, Unicode boundaries, added-token normalization, and ranked BPE merges. Handle empty added tokens and empty Metaspace input consistently. Add shared Go/Python reference cases using published tokenizers, pulling missing models directly and failing on errors, plus focused regressions for configuration precedence, byte fallback, and parallel encoding. address comments",
+    "published": "2026-10-04T14:45:15Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.35.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
+    "description": "Clef decision models Ollama now supports Clef and Clef Flash , Cloudflare's new open-source decision models, through /v1/systemone . Clef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly with it. curl http://localhost:11434/v1/systemone -d ' { \"model\": \"clef-flash\", \"state\": \"The user took this screenshot.\", \"images\": [\"<base64-encoded image>\"], \"questions\": { \"has_ollama\": {\"type\": \"noul\", \"instruction",
+    "published": "2026-10-02T18:28:37Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.35.1-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2",
+    "description": "ci: fix missing build context ( #18742 )",
+    "published": "2026-10-02T01:05:01Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.35.1-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc1",
+    "description": "models: add clef support ( #18741 )",
+    "published": "2026-10-01T22:52:04Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.35.1-rc0: create: support explicit model capabilities (#18708)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0",
+    "description": "Add CAPABILITY declarations to Modelfiles and an additive capabilities field to create requests. Preserve declarations across GGUF and safetensors creation, inheritance, and Modelfile export. Require decision capability before scheduling System One requests instead of matching Qwen architecture/renderer metadata. Retain main's GGUF-only scoring restriction until the separate MLX runtime work lands. Extracted from the capability foundation in 36d46a0 on system_one_mlx; MLX scoring and manifest-li",
+    "published": "2026-09-29T18:10:25Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.35.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.0",
+    "description": "Decision models Ollama now supports decision models through /v1/systemone , based on TypeSafe’s Jev API . Decision models return choices, probabilities, and scores instead of text. Use them for tasks such as ticket triage, model routing, and content classification. Available models: Nimble from Bespoke Labs Tev1 from Together AI ollama pull nimble Send context and one or more questions: curl http://localhost:11434/v1/systemone \\ -H ' Content-Type: application/json ' \\ -d ' { \"model\": \"nimble\", \"",
+    "published": "2026-09-29T23:56:54Z",
+    "source": "Ollama Releases"
+  }
+]

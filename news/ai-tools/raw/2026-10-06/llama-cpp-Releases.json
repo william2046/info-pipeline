@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11436: ggml-openvino: fix CI tests; fix GPU regressions. (#30037)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11436",
+    "description": "ggml-openvino: skip unselected graph branches and support DUP Upstream #29622 adds a mixed token/embd branch to every input embedding graph through ggml_build_forward_select(). Its nodes are not flagged for compute, but the backend translated them anyway, and the DUP in that branch was unsupported, so the scheduler split the graph and passed the embeddings across the split with a fixed token count. The first single-token decode then failed (test-thread-safety on CPU and GPU). Build the OV model ",
+    "published": "2026-10-06T06:57:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11435",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11435",
+    "description": "llama: fix k-pool scatter data race on shared sequences ( #29994 ) llama: re-pool each shared k-pool rep once With shared cells every pool is re-pooled, and since the pooled keys are always scattered, the pools a seq_cp shares between sequences wrote the same rep row from several scatter entries, a data race on the CPU backend. Mark each rep once: the sharing sequences read the same row through pool_cells. llama: assert whole-sequence seq_cp in the hybrid idx memory The recurrent state is always",
+    "published": "2026-10-06T06:18:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11434: hexagon: ssm-conv updates (#29971)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11434",
+    "description": "hexagon: ssm-conv double-buffered DMA for prefill and decode restructuring hex-ssm-conv: remove divs from loops and fix trace events hex-dma: improved SSM_CONV dma pipeline and streamlined dma_queue Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com",
+    "published": "2026-10-06T00:42:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "v0.6.0",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.6.0",
+    "description": "Overview llama.cpp v0.6.0 introduces the new llama_batch_ext extended batch API (with llama_process ) for mixed token/embedding inputs and MTP/deepstack state embeddings, adds support for the GLM-5.3-Flash (GLM5-Next) 320B hybrid model, the Clef decision model (text and vision) and MTP speculative decoding for Qwen4Exp, ships a new /v1/systemone server API for decision models (laya, julia-1, lev, openjev, kev, nimble), overhauls the Web UI with a Hugging Face Hub data layer and model download pi",
+    "published": "2026-10-05T16:58:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11433",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11433",
+    "description": "hexagon: add pool op support ( #29995 ) hexagon: add pool_2d support hexagon: add pool_1d support hex-pool: dma changes hex-pool: Optimize HTP pooling boundaries and DMA pipelining hex-pool: code cleanup and correctness fixes hex-pool: re-write the DMA pipeline hex-pool: pool chunking support hex-pool: remove/vectorize all scalar paths hex-pool: simplify chunk solver (no need for a loop) hex-pool: remove redundant checks Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llam",
+    "published": "2026-10-05T23:13:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11430",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11430",
+    "description": "hexagon: matmul and flash-atten scalability updates ( #29974 ) hexagon: head-parallel flash_attn partitioning for row-split multicore In row-split mode each core computes its output row shard of every MUL_MAT, but flash_attn was previously partitioning by Q tokens (flat qrow split) instead of by heads. This forced every core to read the full KV cache (all n_kv_heads), negating the memory bandwidth benefit of multicore on flash_attn. Change both HMX and HVX flash_attn kernels to partition by KV h",
+    "published": "2026-10-05T20:41:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11429",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11429",
+    "description": "llama.cpp : bump version to 0.6.0 ( #29997 ) llama.cpp : bump version to 0.6.0 scripts : update summary prompt (#0) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52904614 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x",
+    "published": "2026-10-05T16:57:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11425",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11425",
+    "description": "CUDA: make the alloc_deps check batch independent ( #29986 ) Fixes #29980 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52874307 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu ",
+    "published": "2026-10-05T15:21:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11424",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11424",
+    "description": "vulkan: fix Flash Attention shmem write out of bounds ( #29988 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/52864580 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CU",
+    "published": "2026-10-05T14:50:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11422: cuda: use the vector lightning indexer kernel on MUSA (#29990)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11422",
+    "description": "cuda: stage the lightning indexer queries in head passes for MUSA MUSA archs 21 and 22 cap static shared memory at 28 KB, and the tile kernel staged the queries of all four heads next to the key tile for 33 KB. The queries are now staged in passes of LIGHTNING_INDEXER_TILE_HEADS_PER_PASS heads: two on MUSA for 25 KB, four elsewhere where the single pass folds to the previous kernel. cuda: use the vector lightning indexer kernel on MUSA Address review from am17an: the tile kernel stays off MUSA, ",
+    "published": "2026-10-05T13:09:53Z",
+    "source": "llama.cpp Releases"
+  }
+]
