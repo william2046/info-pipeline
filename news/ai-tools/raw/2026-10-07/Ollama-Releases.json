@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.40.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
+    "description": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4 , qwen3.6 and qwen3.5 Decision models are now available on MLX as well: Nimble tev1 clef clef-flash MLX now has support for an embedding model: embeddinggemma-2 We will continue testing and enabling additional models. Full Changelog : v0.35.1..",
+    "published": "2026-10-06T18:47:10Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc6: model: add multimodal embeddings (#18820)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6",
+    "description": "Implements the EmbeddingGemma2Model architecture on the MLX runner: 24-layer bidirectional text encoder with PLE, shared gemma4 vision/audio towers, mean-pool + L2 output. /api/embed accepts per-item media via input dicts.",
+    "published": "2026-10-06T15:08:38Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc5",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5",
+    "description": "mlx: fix patch for recent mlx update ( #18812 )",
+    "published": "2026-10-06T01:15:59Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc4: MLX: version bump (#18720)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc4",
+    "description": "MLX: version bump add scopes for unit tests to reduce memory usage",
+    "published": "2026-10-06T00:41:51Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc3: pull: allow RCs to pull matching min_version (#18790)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3",
+    "description": "Strip off pre-release from the version string so RCs can pull models for the same release.",
+    "published": "2026-10-04T23:15:37Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2",
+    "description": "Merge remote-tracking branch 'upstream/main' into release_v0.40.0",
+    "published": "2026-10-04T15:48:45Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc1: mlx: match publisher tokenizer semantics (#18779)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc1",
+    "description": "mlx: match publisher tokenizer semantics Honor pretokenizer stage order, split behavior, Unicode boundaries, added-token normalization, and ranked BPE merges. Handle empty added tokens and empty Metaspace input consistently. Add shared Go/Python reference cases using published tokenizers, pulling missing models directly and failing on errors, plus focused regressions for configuration precedence, byte fallback, and parallel encoding. address comments",
+    "published": "2026-10-04T14:45:15Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.35.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
+    "description": "Clef decision models Ollama now supports Clef and Clef Flash , Cloudflare's new open-source decision models, through /v1/systemone . Clef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the text state, shared by all questions and scored jointly with it. curl http://localhost:11434/v1/systemone -d ' { \"model\": \"clef-flash\", \"state\": \"The user took this screenshot.\", \"images\": [\"<base64-encoded image>\"], \"questions\": { \"has_ollama\": {\"type\": \"noul\", \"instruction",
+    "published": "2026-10-02T18:28:37Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.35.1-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2",
+    "description": "ci: fix missing build context ( #18742 )",
+    "published": "2026-10-02T01:05:01Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.35.1-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc1",
+    "description": "models: add clef support ( #18741 )",
+    "published": "2026-10-01T22:52:04Z",
+    "source": "Ollama Releases"
+  }
+]

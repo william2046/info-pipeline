@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11461",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11461",
+    "description": "vulkan: fix amd iGPU slow checkpoint read ( #30049 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53465294 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUD",
+    "published": "2026-10-07T06:50:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11460",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11460",
+    "description": "sycl: add IQ3_S multi-column MMVQ ( #29500 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53455527 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 l",
+    "published": "2026-10-07T06:02:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11459",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11459",
+    "description": "ggml-webgpu: no dawn native features on wasi ( #27069 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53445261 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - ",
+    "published": "2026-10-07T05:02:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "backup/allozaur-ui-shell-polish: ui : polish the shell",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-shell-polish",
+    "description": "The secondary button gets its own look back and the chat add button its own light surface. Pressable elements get a pointer cursor again, the font rendering smooths on the app shell, the root layout resolves its props probe through the providers' api url, and the agent skills stay out of prettier's way. Assisted-by: pi:llama.cpp/DeepSeek-V4.1-Flash",
+    "published": "2026-10-06T07:07:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "backup/allozaur-ui-models-manager: test : give the switch test an open chat",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/backup%2Fallozaur-ui-models-manager",
+    "description": "The pane offers \"Use in this chat\" only when a chat is open, so without one the test looked for a button that was never there. Assisted-by: pi (zai-org/GLM-5.3-Flash)",
+    "published": "2026-10-06T07:07:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11458",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11458",
+    "description": "hexagon: CPY/CONCAT/CONT/DUP overhaul to use DMA/HVX for all cases (#…",
+    "published": "2026-10-06T22:24:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11457",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11457",
+    "description": "cuda : add BF16 support for XIELU ( #29955 ) The XIELU CUDA kernel template is already generic over the element type; only the F32/F16 type assertion and the else-if dispatch were missing. Add the nv_bfloat16 branch to the launcher, and drop the temporary supports_op gate in ggml-cuda.cu that rejected BF16+XIELU. test-backend-ops gains two BF16 cases ([10,5,4,3] and [512,16,1,1]). docs/ops/CUDA.csv and docs/ops.md are regenerated; the F32 xIELU row flips from no to yes as well, i.e. the previous",
+    "published": "2026-10-06T21:25:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11456",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11456",
+    "description": "ggml-cuda: use per-thread stream for buffer-init padding memset ( #28782 ) ggml-cuda: use per-thread stream for buffer-init padding memset ci : re-enable test-backend-ops -j for ROCm Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53340384 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu",
+    "published": "2026-10-06T21:09:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11455",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11455",
+    "description": "vocab : implement PLaMo-3 tokenizer pre-segmentation ( #30045 ) vocab : implement PLaMo-3 tokenizer pre-segmentation The PLaMo-3 tokenizer inserts hard boundaries before running the Unigram DP, around <|plamo:...|>-looking text, and around runs of at least 4 identical characters or 2 spaces. Without them llama.cpp tokenizes code indentation and repeated punctuation differently from the reference. Reproduce the two re.sub() passes in llm_tokenizer_plamo2 by encoding each segment independently. ad",
+    "published": "2026-10-06T20:43:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11454",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11454",
+    "description": "model : add K2 Horizon dense and MoVA support ( #29535 ) model: K2 Horizon gguf conversion code model: loading hparams and tensors in k2-horizon.cpp model: K2 Horizon compute graph model: K2 Horizon compute graph adjustment and registering tokenizers model: K2 Horizon chat template and accomodate safetensors naming unicode : add the K2-Horizon pre-tokenizer splitter The K2-Horizon regex had no arm in unicode_regex_split_custom and fell through to the general std::regex fallback, which fails two ",
+    "published": "2026-10-06T20:24:34Z",
+    "source": "llama.cpp Releases"
+  }
+]
