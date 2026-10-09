@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-openai==1.7.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.0",
+    "description": "Changes since langchain-openai==1.6.7 release(openai): 1.7.0 ( #41154 ) feat(openai): support decisions api ( #41125 ) chore(deps): bump langgraph-sdk from 0.4.4 to 0.4.6 in /libs/partners/openai ( #41096 ) chore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/partners/openai ( #41072 ) chore(deps): bump pyjwt from 2.15.0 to 2.15.1 in /libs/partners/openai ( #40951 ) chore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/openai ( #40952 )",
+    "published": "2026-10-08T16:07:55Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.9",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.9",
+    "description": "Changes since langchain-core==1.6.8 release(core): 1.6.9 ( #41160 ) feat(core): accept a callable in with_retry ( #41158 )",
+    "published": "2026-10-08T20:11:34Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.8",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.8",
+    "description": "Changes since langchain-core==1.6.7 release(core): 1.6.8 ( #41153 ) fix(core): harden scoped and compatible IPv6 SSRF checks ( #41151 )",
+    "published": "2026-10-08T15:41:25Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.4",
+    "description": "Changes since langchain==1.4.3 release(langchain): 1.4.4 ( #41163 ) fix(langchain): (SummarizationMiddleware) retry summary step on context overflow ( #41159 ) chore(deps): bump fsspec from 2026.6.0 to 2026.9.0 in /libs/langchain_v1 ( #41097 ) chore(deps): bump multidict from 6.7.0 to 6.9.1 in /libs/langchain_v1 ( #41075 ) chore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/langchain_v1 ( #41074 ) chore(deps): bump fsspec from 2025.10.0 to 2026.6.0 in /libs/langchain_v1 ( #41071 ) chore",
+    "published": "2026-10-08T22:14:24Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-huggingface==1.2.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.2.3",
+    "description": "Changes since langchain-huggingface==1.2.2 fix(huggingface): use a supported Scaleway model in streaming test ( #41095 ) chore(deps): bump langgraph-sdk from 0.4.4 to 0.4.6 in /libs/partners/huggingface ( #41098 ) chore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/partners/huggingface ( #41076 ) chore(deps): bump fsspec from 2026.6.0 to 2026.9.0 in /libs/partners/huggingface ( #41092 ) chore(deps): bump fsspec from 2025.9.0 to 2026.6.0 in /libs/partners/huggingface ( #41077 ) chore(hug",
+    "published": "2026-10-07T20:10:10Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.7.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.1",
+    "description": "Changes since langchain-fireworks==1.7.0 release(fireworks): 1.7.1 ( #41137 ) fix(fireworks): preserve reasoning in streaming and tool loops ( #41093 ) chore(deps): bump langgraph-sdk from 0.4.4 to 0.4.6 in /libs/partners/fireworks ( #41100 ) chore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/partners/fireworks ( #41078 ) chore(model-profiles): refresh model profile data ( #40974 )",
+    "published": "2026-10-07T20:24:37Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.7",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.7",
+    "description": "Changes since langchain-core==1.6.6 release(core): 1.6.7 ( #41087 ) fix(core): include openai redacted_content in v1 output for bedrock converse ( #41086 ) fix(core): python 3.14 hardening around inspect.signature ( #41059 ) chore(deps): bump notebook from 7.5.7 to 7.6.3 in /libs/core ( #41057 ) chore(deps): bump notebook from 7.5.6 to 7.5.7 in /libs/core ( #40992 ) chore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/core ( #40972 ) chore(deps): bump tornado from 6.5.8 to 6.5.9 in /libs/core ",
+    "published": "2026-10-06T15:47:10Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-text-splitters==1.1.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.3",
+    "description": "Changes since langchain-text-splitters==1.1.2 release(text-splitters): 1.1.3 ( #41001 ) chore(deps): bump the minor-and-patch group across 3 directories with 4 updates ( #40969 ) chore(deps): bump tornado from 6.5.9 to 6.5.10 in /libs/text-splitters ( #40971 ) chore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/text-splitters ( #40938 ) chore(deps): bump tornado from 6.5.8 to 6.5.9 in /libs/text-splitters ( #40940 ) chore(deps): bump anyio from 4.14.2 to 4.15.1 in /libs/text-splitters ( #4064",
+    "published": "2026-10-02T15:46:51Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.6.7",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.7",
+    "description": "Changes since langchain-openai==1.6.6 release(openai): 1.6.7 ( #40933 ) chore(model-profiles): refresh model profile data ( #40924 ) test(openai): drop retired completions live tests ( #40910 ) chore(model-profiles): refresh model profile data ( #40869 ) feat(openai): discover Azure workload identity ( #40532 )",
+    "published": "2026-09-30T15:12:19Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.6",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.6",
+    "description": "Changes since langchain-core==1.6.5 release(core): 1.6.6 ( #40906 ) fix(anthropic): support Claude Sonnet 5.5 compatibility ( #40882 ) docs(core): fix docstring examples that don't run as copied ( #40815 )",
+    "published": "2026-09-29T14:53:13Z",
+    "source": "LangChain Releases"
+  }
+]

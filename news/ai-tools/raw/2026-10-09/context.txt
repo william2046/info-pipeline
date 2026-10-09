@@ -1,0 +1,399 @@
+[1] 来源: OpenAI Blog
+标题: How Oracle turns days of work into minutes with ChatGPT and Codex
+链接: https://openai.com/index/oracle
+摘要: Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.
+
+[2] 来源: OpenAI Blog
+标题: Pollo AI turns creative ideas into campaigns with OpenAI
+链接: https://openai.com/index/pollo-ai
+摘要: With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.
+
+[3] 来源: OpenAI Blog
+标题: LegalOn halves Codex costs while maintaining development speed
+链接: https://openai.com/index/legalon-halves-codex-costs
+摘要: LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.
+
+[4] 来源: OpenAI Blog
+标题: Disrupting AI-enabled “false front” operations
+链接: https://openai.com/index/disrupting-ai-enabled-false-front-operations
+摘要: OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.
+
+[5] 来源: OpenAI Blog
+标题: Helping teens learn, plan, and shape the future of AI
+链接: https://openai.com/index/teens-learn-and-plan
+摘要: College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.
+
+[6] 来源: OpenAI Blog
+标题: Radisson Hotel Group brings hotel discovery into ChatGPT
+链接: https://openai.com/index/radisson
+摘要: Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.
+
+[7] 来源: OpenAI Blog
+标题: GPT-6 and Intelligent UI for everyone
+链接: https://openai.com/index/gpt-6-for-everyone
+摘要: GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.
+
+[8] 来源: OpenAI Blog
+标题: How Jump Trading is scaling quant research with ChatGPT
+链接: https://openai.com/index/jump-trading
+摘要: Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.
+
+[9] 来源: OpenAI Blog
+标题: Sharing AI progress in mathematics
+链接: https://openai.com/index/sharing-ai-progress-in-mathematics
+摘要: OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.
+
+[10] 来源: OpenAI Blog
+标题: Advancing computer use with Ironclad
+链接: https://openai.com/index/advancing-computer-use-with-ironclad
+摘要: Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.
+
+[11] 来源: OpenAI Blog
+标题: Atlassian and OpenAI expand partnership to turn enterprise knowledge into action
+链接: https://openai.com/index/atlassian-partnership
+摘要: Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.
+
+[12] 来源: OpenAI Blog
+标题: Our approach to EU text provenance rules
+链接: https://openai.com/index/eu-text-provenance
+摘要: How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.
+
+[13] 来源: OpenAI Blog
+标题: Building advertising for the way people use AI
+链接: https://openai.com/index/new-chatgpt-ads-format-and-measurement
+摘要: OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.
+
+[14] 来源: OpenAI Blog
+标题: A model guide for the GPT-6 family
+链接: https://openai.com/index/practical-guide-building-gpt-6
+摘要: Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.
+
+[15] 来源: OpenAI Blog
+标题: Chatham scales its capital markets expertise with OpenAI
+链接: https://openai.com/index/chatham-financial
+摘要: Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.
+
+[16] 来源: OpenAI Blog
+标题: The eternal complement
+链接: https://openai.com/index/the-eternal-complement
+摘要: Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.
+
+[17] 来源: OpenAI Blog
+标题: How Albertsons Companies is reimagining retail from the inside out
+链接: https://openai.com/index/albertsons-reimagining-retail
+摘要: Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.
+
+[18] 来源: OpenAI Blog
+标题: The Den frees up 10-15 hours a week to grow with ChatGPT Work
+链接: https://openai.com/index/the-den-family-social
+摘要: As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.
+
+[19] 来源: OpenAI Blog
+标题: Disrupting a coordinated model-distillation campaign
+链接: https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign
+摘要: Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.
+
+[20] 来源: OpenAI Blog
+标题: Helping small businesses put AI to work
+链接: https://openai.com/index/helping-small-businesses-put-ai-to-work
+摘要: OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.
+
+[21] 来源: OpenAI Blog
+标题: DevDay 2026 Recap
+链接: https://openai.com/index/devday-2026-recap
+摘要: Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.
+
+[22] 来源: OpenAI Blog
+标题: Introducing GPT-6.1 Sol
+链接: https://openai.com/index/introducing-gpt-6-1-sol
+摘要: Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.
+
+[23] 来源: OpenAI Blog
+标题: Introducing dots
+链接: https://openai.com/index/introducing-dots
+摘要: Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.
+
+[24] 来源: OpenAI Blog
+标题: How we will do better for Australia
+链接: https://openai.com/index/how-we-will-do-better-for-australia
+摘要: OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.
+
+[25] 来源: OpenAI Blog
+标题: Towards safety cases for frontier AI training
+链接: https://openai.com/index/towards-safety-cases-for-frontier-ai-training
+摘要: Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents
+
+[26] 来源: OpenAI Blog
+标题: The Lenfest Institute grows landmark program with expanded OpenAI support
+链接: https://openai.com/index/lenfest-ai-collaborative-expansion
+摘要: OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.
+
+[27] 来源: OpenAI Blog
+标题: Basis completes a tax workbook 2x faster with GPT-6 Astra
+链接: https://openai.com/index/basis-tax-workbook-with-astra
+摘要: GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.
+
+[28] 来源: OpenAI Blog
+标题: Are you a Codex Original?
+链接: https://openai.com/form/codex-originals
+摘要: We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.
+
+[29] 来源: OpenAI Blog
+标题: Proaction boosts sales 60% and saves 75+ hours with Codex
+链接: https://openai.com/index/proaction
+摘要: With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.
+
+[30] 来源: OpenAI Blog
+标题: Wayfair boosts catalog accuracy and support speed with OpenAI
+链接: https://openai.com/index/wayfair
+摘要: Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.
+
+[31] 来源: OpenAI Blog
+标题: Two years of OpenAI Academy
+链接: https://openai.com/index/two-years-of-openai-academy
+摘要: Marking two years of OpenAI Academy and bringing AI skills to even more communities.
+
+[32] 来源: OpenAI Blog
+标题: OpenAI extends cyber access to Ukraine for civilian defense
+链接: https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense
+摘要: OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.
+
+[33] 来源: OpenAI Blog
+标题: Harvey turns legal context into stronger drafts with GPT-6 Astra
+链接: https://openai.com/index/harvey-from-context-to-confidence-with-astra
+摘要: GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.
+
+[34] 来源: OpenAI Blog
+标题: Sam Altman’s remarks at the United Nations Security Council
+链接: https://openai.com/index/sam-altman-un-security-council-remarks
+摘要: OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.
+
+[35] 来源: OpenAI Blog
+标题: Ringg’s AI agents resolve up to 65% of customer calls with OpenAI
+链接: https://openai.com/index/ringg
+摘要: Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.
+
+[36] 来源: OpenAI Blog
+标题: How invideo improves color grading 3x with GPT‑6 Astra
+链接: https://openai.com/index/invideo-builds-with-gpt-6-astra
+摘要: With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.
+
+[37] 来源: OpenAI Blog
+标题: Introducing MentalHealthBench
+链接: https://openai.com/index/introducing-mentalhealthbench
+摘要: MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.
+
+[38] 来源: OpenAI Blog
+标题: ChatGPT Ads expands to Southeast Asia and Taiwan
+链接: https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan
+摘要: ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.
+
+[39] 来源: OpenAI Blog
+标题: Airbnb widens access to GPT-6 Astra and OpenAI frontier models
+链接: https://openai.com/index/airbnb-gpt-6-astra
+摘要: Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.
+
+[40] 来源: OpenAI Blog
+标题: Grab and OpenAI bring practical AI skills to Southeast Asia
+链接: https://openai.com/index/grab-openai-ai-skills-southeast-asia
+摘要: OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.
+
+[41] 来源: OpenAI Blog
+标题: Better prompt caching for GPT-6
+链接: https://openai.com/index/better-prompt-caching-for-gpt-6
+摘要: Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.
+
+[42] 来源: OpenAI Blog
+标题: Introducing GPT-6 Sol and Luna
+链接: https://openai.com/index/introducing-gpt-6-sol-and-luna
+摘要: Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.
+
+[43] 来源: OpenAI Blog
+标题: Parallel cut research time and cost in half with GPT‑6 Astra
+链接: https://openai.com/index/parallel-cuts-time-and-cost-with-astra
+摘要: GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.
+
+[44] 来源: OpenAI Blog
+标题: Priorities and principles for effective third party assessments
+链接: https://openai.com/index/priorities-principles-third-party-assessments
+摘要: OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.
+
+[45] 来源: OpenAI Blog
+标题: Higgsfield AI ships new video features in a day with GPT-6 Astra
+链接: https://openai.com/index/higgsfield-from-prompt-to-production-with-astra
+摘要: With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.
+
+[46] 来源: OpenAI Blog
+标题: Advisory Group on Mathematics and Artificial Intelligence
+链接: https://openai.com/index/advisory-group-on-mathematics-and-ai
+摘要: OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.
+
+[47] 来源: OpenAI Blog
+标题: Building standards for the next phase of AI
+链接: https://openai.com/index/building-standards-next-phase-ai
+摘要: OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.
+
+[48] 来源: OpenAI Blog
+标题: Expanding OpenAI Academy with new learning paths
+链接: https://openai.com/index/expanding-openai-academy-with-new-learning-paths
+摘要: Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.
+
+[49] 来源: OpenAI Blog
+标题: V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna
+链接: https://openai.com/index/v7
+摘要: Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.
+
+[50] 来源: OpenAI Blog
+标题: Introducing the Australian Youth Safety Blueprint
+链接: https://openai.com/index/australian-youth-safety-blueprint
+摘要: OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.
+
+[51] 来源: OpenAI Blog
+标题: How Cooley is accelerating IPO work with ChatGPT
+链接: https://openai.com/index/cooley-gopublic
+摘要: Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.
+
+[52] 来源: OpenAI Blog
+标题: Introducing Astra for Law
+链接: https://openai.com/index/astra-for-law
+摘要: OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.
+
+[53] 来源: OpenAI Blog
+标题: Helping older adults use AI in everyday life
+链接: https://openai.com/index/helping-older-adults-use-ai-in-everyday-life
+摘要: OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.
+
+[54] 来源: OpenAI Blog
+标题: Reimagining advertising with AI
+链接: https://openai.com/index/reimagining-advertising-with-ai
+摘要: Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.
+
+[55] 来源: OpenAI Blog
+标题: Hex turns complex analysis into visual reports with GPT‑6 Astra
+链接: https://openai.com/index/hex-gpt-6-astra
+摘要: GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.
+
+[56] 来源: OpenAI Blog
+标题: How to connect AI usage to business value
+链接: https://openai.com/index/how-to-connect-ai-usage-to-business-value
+摘要: Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.
+
+[57] 来源: OpenAI Blog
+标题: Our framework for reporting model misalignment
+链接: https://openai.com/index/model-misalignment-reporting-framework
+摘要: OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.
+
+[58] 来源: OpenAI Blog
+标题: How workers are unlocking new ways of working
+链接: https://openai.com/index/unlocking-new-ways-of-working
+摘要: New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.
+
+[59] 来源: OpenAI Blog
+标题: How Fyxer built an AI executive assistant people trust
+链接: https://openai.com/index/fyxer
+摘要: Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.
+
+[60] 来源: OpenAI Blog
+标题: Perplexity trusts GPT-6 Astra with end-to-end systems
+链接: https://openai.com/index/perplexity-improving-accuracy-with-astra
+摘要: Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.
+
+[61] 来源: OpenAI Blog
+标题: Rapidly scaling online storage to serve over 1 billion ChatGPT users
+链接: https://openai.com/index/scaling-storage-one-billion-users-part-one
+摘要: Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.
+
+[62] 来源: OpenAI Blog
+标题: Cognition helps Devin test its own work with GPT‑6 Astra
+链接: https://openai.com/index/cognition-devin-testing-with-astra
+摘要: GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.
+
+[63] 来源: OpenAI Blog
+标题: How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules
+链接: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
+摘要: César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.
+
+[64] 来源: OpenAI Blog
+标题: Now everyone can put data to work
+链接: https://openai.com/index/put-data-to-work
+摘要: Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.
+
+[65] 来源: OpenAI Blog
+标题: Introducing ChatGPT for Financial Services
+链接: https://openai.com/index/introducing-chatgpt-financial-services
+摘要: Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.
+
+[66] 来源: OpenAI Blog
+标题: Expanding AI access and cyber defense for federal, state, local, and tribal governments
+链接: https://openai.com/index/expanding-ai-access-us-government
+摘要: OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.
+
+[67] 来源: OpenAI Blog
+标题: Introducing the Agents API
+链接: https://openai.com/index/introducing-the-agents-api
+摘要: Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.
+
+[68] 来源: OpenAI Blog
+标题: Build more natural voice experiences with GPT‑Live‑1 in the API
+链接: https://openai.com/index/introducing-gpt-live-1-in-the-api
+摘要: GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.
+
+[69] 来源: OpenAI Blog
+标题: The AI policy window is open. We need to act.
+链接: https://openai.com/index/ai-policy-window
+摘要: Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.
+
+[70] 来源: OpenAI Blog
+标题: GPT-6 Astra: The next generation in intelligence for work
+链接: https://openai.com/index/gpt-6-astra-next-generation-work
+摘要: Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.
+
+[71] 来源: OpenAI Blog
+标题: Paul Christiano joins OpenAI Foundation Board
+链接: https://openai.com/index/paul-christiano-joins-openai-foundation-board
+摘要: Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.
+
+[72] 来源: OpenAI Blog
+标题: How GPT-5.6 Sol helps run quantum computing experiments
+链接: https://openai.com/index/codex-quantum-computing-experiments
+摘要: See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.
+
+[73] 来源: OpenAI Blog
+标题: The Work Now Within Reach
+链接: https://openai.com/index/the-work-now-within-reach
+摘要: Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.
+
+[74] 来源: OpenAI Blog
+标题: Introducing ChatGPT Images 2.5
+链接: https://openai.com/index/introducing-chatgpt-images-2-5
+摘要: ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.
+
+[75] 来源: OpenAI Blog
+标题: OpenAI expands initiatives to support journalism from classrooms to newsrooms
+链接: https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms
+摘要: OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.
+
+[76] 来源: OpenAI Blog
+标题: On the Navier–Stokes Millennium Prize Problem
+链接: https://openai.com/index/navier-stokes-solution
+摘要: We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.
+
+[77] 来源: OpenAI Blog
+标题: Funding grants for new research into AI and teen development
+链接: https://openai.com/index/teen-development-research-grants
+摘要: Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.
+
+[78] 来源: OpenAI Blog
+标题: 1Password increases engineering productivity 21% with Codex
+链接: https://openai.com/index/1password
+摘要: Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.
+
+[79] 来源: OpenAI Blog
+标题: Supporting independent journalism in Ukraine
+链接: https://openai.com/index/supporting-independent-journalism-in-ukraine
+摘要: OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.
+
+[80] 来源: OpenAI Blog
+标题: An Alien Mind
+链接: https://openai.com/index/an-alien-mind
+摘要: Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.

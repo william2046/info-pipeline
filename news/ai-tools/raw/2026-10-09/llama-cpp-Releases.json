@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11517: CUDA: pass src1 precision to host MMQ config helpers (#30168)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11517",
+    "description": "CUDA: pass src1 precision to host MMQ config helpers Signed-off-by: ynankani ynankani@nvidia.com make src1 prec explicit Signed-off-by: ynankani ynankani@nvidia.com Signed-off-by: ynankani ynankani@nvidia.com",
+    "published": "2026-10-09T06:32:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11516",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11516",
+    "description": "hexagon: fix IM2COL patch-embed DMA ring overflow ( #30189 ) hexagon: fix IM2COL patch-embed DMA ring overflow The exact-tiling (stride == kernel, no pad/dilation) IM2COL DMA kernel issues IC KH DDR->VTCM descriptors per output row without checking the return value of dma_queue_push(), and then pops IC KH times. The per-thread DMA ring holds 256 entries and a push into a full ring returns false and drops the transfer, so for IC*KH > 255 the remaining rows of the VTCM staging buffer were never wr",
+    "published": "2026-10-09T07:05:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11515",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11515",
+    "description": "sycl : Q5_K reorder-layout MMVQ and fused GLU ( #29375 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54173692 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) -",
+    "published": "2026-10-09T02:57:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11514",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11514",
+    "description": "Musa FWHT fix ( #30167 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54083178 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubuntu x64 ",
+    "published": "2026-10-08T20:17:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11513",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11513",
+    "description": "CUDA: improve top-k algorithm selection ( #28713 ) CUDA: radix top-k for large row counts Replaces CUB's per-row DeviceTopKKernel with a grid-over-rows radix select, gated on GGML_CUDA_TOPK_RADIX_MIN_ROWS. On qwen4exp at 34,816 tokens this cuts top-k from 1,671,253 launches / 5,761.8 ms to 2,329 / 941.8 ms. CUDA: select the TOP_K implementation by shape Replace the nrows/ncols special case with the decision boundary from #28547 (as implemented in #29278 ): bitonic for short rows, radix select fo",
+    "published": "2026-10-08T19:22:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11512",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11512",
+    "description": "model : fix DFlash output head sharing ( #30111 ) llama : fix DFlash output head sharing Assisted-by: Codex dflash : read tied output weights from GGUF metadata Assisted-by: Codex llama : share tied word embedding metadata Assisted-by: Codex llama : remove DFlash embedding head fallback Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54034429 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLE",
+    "published": "2026-10-08T17:42:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11511",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11511",
+    "description": "CUDA: fix MMQ out-of-bounds reads ( #29953 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54029251 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 l",
+    "published": "2026-10-08T17:27:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11510",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11510",
+    "description": "CUDA : looped PAD kernel for more than 65535 rows or slices ( #30147 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54006924 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm",
+    "published": "2026-10-08T16:20:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11509",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11509",
+    "description": "CUDA: fix CCCL version guard breaking on major version rollover ( #29453 ) CUDA: fix CCCL version guard breaking on major version rollover The guard compared the major and minor components independently: CCCL_MAJOR_VERSION >= 3 && CCCL_MINOR_VERSION >= 1 Minor resets to 0 whenever a new major series is cut, so on CCCL 4.x this evaluates as 4 >= 3 && 0 >= 1, i.e. false. STRIDED_ITERATOR_AVAILABLE stops being defined and argsort silently falls back to the init_offsets path. Nothing warns and the b",
+    "published": "2026-10-08T15:53:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11507",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11507",
+    "description": "llama: support MoE cache over multiple GPUs ( #30112 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/53988921 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - C",
+    "published": "2026-10-08T15:31:21Z",
+    "source": "llama.cpp Releases"
+  }
+]
