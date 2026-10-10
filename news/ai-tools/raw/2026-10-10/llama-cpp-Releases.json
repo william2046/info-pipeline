@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11541",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11541",
+    "description": "opencl: add bin kernels kernel_gemm_moe_q4_k_q8_1_dp4a_bin, kernel_ge…",
+    "published": "2026-10-10T04:02:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11540",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11540",
+    "description": "sycl : accelerate MXFP4 MoE with arithmetic decoding and weight reordering ( #29809 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54540406 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libra",
+    "published": "2026-10-10T03:30:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11539",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11539",
+    "description": "vendor: apply deep nested json patch from upstream ( #30253 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54488539 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA ",
+    "published": "2026-10-09T22:41:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11538",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11538",
+    "description": "CUDA: fix round issue, under MSVC the CPU and GPU agree ( #30229 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54453988 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (",
+    "published": "2026-10-09T20:14:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11537",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11537",
+    "description": "graph : reorder get_rows for embeddings ( #30160 ) graph : reorder get_rows for embeddings cont : fix gemma4 and improve input embedding construction logic cont : add TODO for lora cont : fix raw embeddings path gemma4 : avoid ple cast in embeddings path Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54446845 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x6",
+    "published": "2026-10-09T19:47:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11536: ui: Models Manager Follow-up Improvements (#30228)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11536",
+    "description": "common : read a GGUF's trained context from its metadata common_get_gguf_n_ctx_train opens only the file's metadata (no_alloc, like common_get_decision_type) and reads .context_length, so a caller can learn the trained context without loading the model. It accepts both u32 and u64 values and returns 0 when the file is missing, unreadable, invalid, or reports no context length. Assisted-by: pi:zai-org/GLM-5.3-Flash server : report the trained context in the models listing update_caps already reso",
+    "published": "2026-10-09T17:28:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11535",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11535",
+    "description": "llama-bench: respect -fitc if bigger than required benchmark size ( #28331 ) Assisted-By: opencode,llama.cpp,Qwen3.6-35B-A3B,Qwen3.8-27B Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54430110 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12",
+    "published": "2026-10-09T18:52:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11534",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11534",
+    "description": "CUDA: Remove redundant CUDA copies after SSM_SCAN ( #29807 ) CUDA: fuse copy of updated state snapshots into recurrent cache with ssm_scan CUDA: remove redundant cuda copies with K==1 (non spec-dec) scenario as well Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54424132 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x",
+    "published": "2026-10-09T18:32:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11533",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11533",
+    "description": "opencl: fix kernel compilation for a6x GPUs ( #30176 ) opencl: skip kernel_cpy_f32_f32_pack on A6X to avoid shader compiler crash The A6x compiler backend found in iot device with a623 (E031.50.31.01) cannot handle kernels with a large number of arguments. Skip this kernel for A6x to avoid compiler crash opencl: A6X constant-fold workaround for get_local_size in GEMV kernels opencl: add Adreno 623 to A6X GPU detection list Website: https://llama.app Attestations: https://github.com/ggml-org/llam",
+    "published": "2026-10-09T17:45:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11532",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11532",
+    "description": "model : use exact GELU for ModernBERT encoders ( #30108 ) model : use exact GELU for ModernBERT encoders Assisted-by: Codex model : keep tanh GELU aliases on ggml_geglu Assisted-by: Claude Opus 5.5 model : map gelu_python to ggml_geglu_erf Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54401986 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Li",
+    "published": "2026-10-09T17:16:57Z",
+    "source": "llama.cpp Releases"
+  }
+]

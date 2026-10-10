@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.40.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
+    "description": "Model upgrades Models downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp. To make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future release will remove these backups automatically. To remove backed up models now (requires jq ): curl -s localhost:11434/api/tags | jq -r ' .models[].name ' | while read -r m ; do ",
+    "published": "2026-10-09T03:37:30Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.2-rc0: server: hide duplicate and downgrade guards from list (#18874)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0",
+    "description": "When a legacy GGUF which requires our llama.cpp patch set is loaded, we do a lazy conversion on disk to make it llama.cpp compatible. To support downgrades, we temporarily hold both the new and old GGUFs and create a shadow v1 manifest tag to prevent the downgraded server from deleting the new blobs. Showing these in the list output is confusing to users and API consumers. The legacy copies will be removed in a future release to recover the disk space.",
+    "published": "2026-10-08T15:54:06Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.1",
+    "description": "What's Changed server: proxy cloud usage and balance APIs by @drifkin in #18829 llama: fix clef head reads past 2GiB on windows by @Gigrise in #18777 cmd: remove account step from CLI onboarding by @hoyyeva in #18826 manifest: avoid symlinks on Windows by @dhiltgen in #18852 docs: fix 6 dead links in README community integrations list by @aniketkrs in #18814 docs: fix broken download links in app README by @chenlichao in #18233 mlx: drop carried metal residency patch now that it is upstream by @",
+    "published": "2026-10-08T02:09:43Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.1-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.1-rc0",
+    "description": "mlx: drop carried metal residency patch now that it is upstream ( #18854 )",
+    "published": "2026-10-07T22:22:54Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
+    "description": "What's Changed Models run on MLX on Apple Silicon by default In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ollama pull qwen3.8 ollama run qwen3.8 Additional models include gemma4 , qwen3.6 and qwen3.5 Decision models are now available on MLX as well: Nimble tev1 clef clef-flash MLX now has support for an embedding model: embeddinggemma-2 We will continue testing and enabling additional models. Full Changelog : v0.35.1..",
+    "published": "2026-10-06T18:47:10Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc6: model: add multimodal embeddings (#18820)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6",
+    "description": "Implements the EmbeddingGemma2Model architecture on the MLX runner: 24-layer bidirectional text encoder with PLE, shared gemma4 vision/audio towers, mean-pool + L2 output. /api/embed accepts per-item media via input dicts.",
+    "published": "2026-10-06T15:08:38Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc5",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5",
+    "description": "mlx: fix patch for recent mlx update ( #18812 )",
+    "published": "2026-10-06T01:15:59Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc4: MLX: version bump (#18720)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc4",
+    "description": "MLX: version bump add scopes for unit tests to reduce memory usage",
+    "published": "2026-10-06T00:41:51Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc3: pull: allow RCs to pull matching min_version (#18790)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc3",
+    "description": "Strip off pre-release from the version string so RCs can pull models for the same release.",
+    "published": "2026-10-04T23:15:37Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.0-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2",
+    "description": "Merge remote-tracking branch 'upstream/main' into release_v0.40.0",
+    "published": "2026-10-04T15:48:45Z",
+    "source": "Ollama Releases"
+  }
+]
