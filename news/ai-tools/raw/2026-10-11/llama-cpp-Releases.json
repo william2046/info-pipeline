@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11552",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11552",
+    "description": "server: leave a busy slot untouched when a request pins it ( #30295 ) A request asking for a busy id_slot still ran the prompt cache update on that slot before being deferred. When the RAM cache held a better match, it was loaded into the slot while another request was still generating there, and that generation continued on the wrong context. The busy slot is now returned as is and the request waits for it. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestati",
+    "published": "2026-10-10T19:54:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11551",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11551",
+    "description": "model : support MiniCPM-V 4.7 ( #29416 ) mtmd : add MiniCPM-V 4.7 support Signed-off-by: tc-mb tianchi_cai@icloud.com model : allow mrope time from an extra position slot Signed-off-by: tc-mb tianchi_cai@icloud.com Update conversion/minicpm.py Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Slim down comments Signed-off-by: tc-mb tianchi_cai@icloud.com fix for \"do not hand-wrap comments\" Signed-off-by: tc-mb tianchi_cai@icloud.com fix ci Signed-off-by: tc-mb tianchi_cai@icloud.",
+    "published": "2026-10-10T19:13:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11550",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11550",
+    "description": "cmake(s390x): disable z17 target for unsupported compilers ( #30297 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54655455 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm6",
+    "published": "2026-10-10T18:33:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11549: args: add LLAMA_ARG_SLOT_SAVE_PATH env for --slot-save-path (#30272)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11549",
+    "description": "Allow configuring --slot-save-path via LLAMA_ARG_SLOT_SAVE_PATH so it can be set from an EnvironmentFile in a systemd unit file.",
+    "published": "2026-10-10T13:34:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11548: spec: properly handle mtmd input for mtp (#30257)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11548",
+    "description": "spec: properly handle mtmd input for mtp nits",
+    "published": "2026-10-10T09:22:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11547",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11547",
+    "description": "mtmd: add build_inp_attn_mask ( #30259 )",
+    "published": "2026-10-10T09:22:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11546",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11546",
+    "description": "cuda: always use MMVQ for MUL_MAT_ID on sm_60 ( #27828 )",
+    "published": "2026-10-10T06:15:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11545",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11545",
+    "description": "CUDA/HIP: fix race in flash_attn_ext_f16_process_tile when nbatch_com…",
+    "published": "2026-10-10T06:14:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11544: ggml-cpu: vectorize fp32 to fp16 conversion (#30157)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11544",
+    "description": "ggml-cpu(s390x): rename ulong to uint64_t sized types ggml-cpu(s390x): rm comment Signed-off-by: Aaron Teo aaron.teo1@ibm.com",
+    "published": "2026-10-10T06:08:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11543: vulkan: use 4 rows for NVIDIA MUL_MAT_ID MMVQ (#29274)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11543",
+    "description": "Keep the existing RDNA3/4 policy unchanged and update only rm_id to use 4 rows for NVIDIA except pre-Turing.",
+    "published": "2026-10-10T06:08:19Z",
+    "source": "llama.cpp Releases"
+  }
+]
