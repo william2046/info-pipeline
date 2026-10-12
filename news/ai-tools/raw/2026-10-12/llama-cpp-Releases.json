@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11564",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11564",
+    "description": "vulkan: use ternary expressions to avoid switch lowering for CM2 quant block size ( #30164 ) vulkan: specialize quant block size for CM2 matmul vulkan: use ternary expressions to avoid switch lowering for CM2 quant block size vulkan: clarify CM2 quant block size comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54952894 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework ",
+    "published": "2026-10-12T06:58:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11563",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11563",
+    "description": "ggml: Change default visibility of symbols to hidden ( #30014 ) See discussion in #29997 . This prevents a handful of internal symbols leaking via GGML_API. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54949054 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64",
+    "published": "2026-10-12T06:41:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11562",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11562",
+    "description": "vulkan: fix buffer logging on 32-bit platforms after source split ( #30326 ) Move the vk::Buffer stream operator to the shared header so it is visible to ggml-vulkan-debug.cpp. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54939218 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64",
+    "published": "2026-10-12T05:53:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11561",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11561",
+    "description": "hexagon: optimize q2_k bpw and activation ( #30035 )",
+    "published": "2026-10-12T03:52:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11560",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11560",
+    "description": "hexagon: add IM2COL_3D ( #30305 ) hexagon: add IM2COL_3D support Assisted-by: OpenCode hexagon: add DMA paths for IM2COL_3D Assisted-by: OpenCode hexagon: avoid scalar fp16 conversions in IM2COL Assisted-by: OpenCode remove in-loop spills in pre-v81 devices Assisted-by: OpenCode hex-im2col: re-write to use canonical dma dbl-buff pipeline, remove divs and very inefficient fp conversions hex-im2col: move kernel_params and vtcm layout precompute into the host hex-im2col: remove explicit tracking of",
+    "published": "2026-10-12T04:00:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11559",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11559",
+    "description": "opencl: improve fa, allow dk512 for gemma-4, improve dk64 ( #30266 ) opencl: enable Gemma-4 E4B GPU decode Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: extend Gemma-4 GPU decode to E2B Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: optimize DK64 GQA8 decode Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: optimize DK128 GQA4 decode Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Website: http",
+    "published": "2026-10-11T19:17:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11558",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11558",
+    "description": "opencl: fix image limit for q4_k dense bin kernels, q4_0 bcast and rms_norm ( #30310 ) opencl: fallback when Q4_K weight images exceed device limits Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: avoid incomplete subgroup in rms_norm opencl: refine conditions for dense bin kernels and fix bcast for q4_0 Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/lla",
+    "published": "2026-10-11T17:29:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11557",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11557",
+    "description": "rpc : turn GGML_RPC_DEBUG into a verbosity level and add logs ( #29544 ) rpc : turn GGML_RPC_DEBUG into a verbosity level and add logs GGML_RPC_DEBUG is now parsed as a number: 0/unset disables debug logs, 1-3 emit increasingly detailed output (events, per-command trace, transport detail). Non-numeric values fall back to 1. The duplicated env/macro blocks in ggml-rpc.cpp and transport.cpp are replaced by a shared log.h, which becomes the single choke point for all logging of the RPC backend: LOG",
+    "published": "2026-10-11T15:14:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11556",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11556",
+    "description": "model : support for Prism Bonsai 2 27B ( #29600 ) Runtime support for Prism Bonsai 2 27B Assisted-by: Claude Code address prism hadamard runtime feedback move hadamard tensors into method, define folded weight load_* hadamard fixes cont : clean-up conversion cleanup Assisted-by: Claude Code prism hadamard key and methods for converter Assisted-by: Claude Code address review bot feedback Assisted-by: Claude Code Co-authored-by: Georgi Gerganov ggerganov@gmail.com Website: https://llama.app Attest",
+    "published": "2026-10-11T13:34:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11555",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11555",
+    "description": "cpu: fix AVX2 CPUs not using F16C when available ( #30270 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/54796975 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13",
+    "published": "2026-10-11T13:13:56Z",
+    "source": "llama.cpp Releases"
+  }
+]

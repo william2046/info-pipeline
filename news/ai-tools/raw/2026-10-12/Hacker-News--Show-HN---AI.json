@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Type-safe HTML templating in Zig",
+    "link": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+    "description": "Article URL: https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html Comments URL: https://news.ycombinator.com/item?id=50051573 Points: 44 # Comments: 18",
+    "published": "Mon, 12 Oct 2026 05:02:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
+    "link": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
+    "description": "Article URL: https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/ Comments URL: https://news.ycombinator.com/item?id=50051530 Points: 51 # Comments: 31",
+    "published": "Mon, 12 Oct 2026 04:54:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Crest – an Arc-inspired open-source browser for Mac",
+    "link": "https://crestbrowser.com/",
+    "description": "Article URL: https://crestbrowser.com/ Comments URL: https://news.ycombinator.com/item?id=50051097 Points: 4 # Comments: 0",
+    "published": "Mon, 12 Oct 2026 03:37:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Doory – Open-Source Canva",
+    "link": "https://github.com/shaongitbd/doory",
+    "description": "Article URL: https://github.com/shaongitbd/doory Comments URL: https://news.ycombinator.com/item?id=50049872 Points: 78 # Comments: 18",
+    "published": "Mon, 12 Oct 2026 00:48:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Local Indexing to reduce tool calling and token usage",
+    "link": "https://tedhaley.ca/pensieve/",
+    "description": "Article URL: https://tedhaley.ca/pensieve/ Comments URL: https://news.ycombinator.com/item?id=50049508 Points: 59 # Comments: 13",
+    "published": "Mon, 12 Oct 2026 00:03:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "HashiCorp archives the Boundary open source repo",
+    "link": "https://github.com/hashicorp/boundary",
+    "description": "Article URL: https://github.com/hashicorp/boundary Comments URL: https://news.ycombinator.com/item?id=50049498 Points: 66 # Comments: 12",
+    "published": "Mon, 12 Oct 2026 00:02:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Whatever became of holography? (2011)",
+    "link": "https://www.americanscientist.org/article/whatever-became-of-holography",
+    "description": "Article URL: https://www.americanscientist.org/article/whatever-became-of-holography Comments URL: https://news.ycombinator.com/item?id=50049411 Points: 106 # Comments: 51",
+    "published": "Sun, 11 Oct 2026 23:50:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Illustration Beyond Proof",
+    "link": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/",
+    "description": "Article URL: https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/ Comments URL: https://news.ycombinator.com/item?id=50049133 Points: 55 # Comments: 0",
+    "published": "Sun, 11 Oct 2026 23:22:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "ClickHouse C – Talk to ClickHouse using its native binary protocol",
+    "link": "https://github.com/ClickHouse/clickhouse-c",
+    "description": "Article URL: https://github.com/ClickHouse/clickhouse-c Comments URL: https://news.ycombinator.com/item?id=50049003 Points: 31 # Comments: 1",
+    "published": "Sun, 11 Oct 2026 23:08:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Fingerprints are the new cookies",
+    "link": "https://royfish.dev/fingerprints-are-the-new-cookies",
+    "description": "Article URL: https://royfish.dev/fingerprints-are-the-new-cookies Comments URL: https://news.ycombinator.com/item?id=50048642 Points: 262 # Comments: 128",
+    "published": "Sun, 11 Oct 2026 22:33:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Google is illegaly cutting forest to build data centers",
+    "link": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
+    "description": "Article URL: https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment Comments URL: https://news.ycombinator.com/item?id=50048638 Points: 366 # Comments: 95",
+    "published": "Sun, 11 Oct 2026 22:33:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Recursive self-improvement through collective intelligence",
+    "link": "https://pub.sakana.ai/mass/",
+    "description": "Article URL: https://pub.sakana.ai/mass/ Comments URL: https://news.ycombinator.com/item?id=50048522 Points: 99 # Comments: 52",
+    "published": "Sun, 11 Oct 2026 22:22:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Shredding JSON columns gave Logfire up to 1000x faster queries",
+    "link": "https://pydantic.dev/articles/dynamic-shredding-2026-01-26",
+    "description": "Article URL: https://pydantic.dev/articles/dynamic-shredding-2026-01-26 Comments URL: https://news.ycombinator.com/item?id=50048490 Points: 18 # Comments: 11",
+    "published": "Sun, 11 Oct 2026 22:18:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Passkeys are a trap",
+    "link": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+    "description": "Article URL: https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them Comments URL: https://news.ycombinator.com/item?id=50048312 Points: 491 # Comments: 268",
+    "published": "Sun, 11 Oct 2026 21:59:48 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Tattoos you can turn on and off",
+    "link": "https://www.livescience.com/technology/cool-chemistry-trick-allows-new-tattoos-to-turn-on-and-off",
+    "description": "Article URL: https://www.livescience.com/technology/cool-chemistry-trick-allows-new-tattoos-to-turn-on-and-off Comments URL: https://news.ycombinator.com/item?id=50047802 Points: 48 # Comments: 20",
+    "published": "Sun, 11 Oct 2026 21:04:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The gap in shared understanding of LLM capability is widening",
+    "link": "https://twitter.com/karpathy/status/2109361546505966046",
+    "description": "Article URL: https://twitter.com/karpathy/status/2109361546505966046 Comments URL: https://news.ycombinator.com/item?id=50047422 Points: 396 # Comments: 555",
+    "published": "Sun, 11 Oct 2026 20:20:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Cartographers of North Korea (2019)",
+    "link": "https://cartographers-nk.wonyoung.so/",
+    "description": "Article URL: https://cartographers-nk.wonyoung.so/ Comments URL: https://news.ycombinator.com/item?id=50047091 Points: 231 # Comments: 39",
+    "published": "Sun, 11 Oct 2026 19:46:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "So, You’d Like To Sell Your Print Issues Of The Onion?",
+    "link": "https://theonion.com/archivehunt/",
+    "description": "Article URL: https://theonion.com/archivehunt/ Comments URL: https://news.ycombinator.com/item?id=50047055 Points: 301 # Comments: 46",
+    "published": "Sun, 11 Oct 2026 19:43:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Chapter 1 of \"Ways of Seeing\" by John Berger (1972)",
+    "link": "https://www.ways-of-seeing.com/ch1",
+    "description": "Article URL: https://www.ways-of-seeing.com/ch1 Comments URL: https://news.ycombinator.com/item?id=50046241 Points: 101 # Comments: 15",
+    "published": "Sun, 11 Oct 2026 18:26:24 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Total Annihilation, rebuilt for modern computers",
+    "link": "https://nanolathe.gg",
+    "description": "Article URL: https://nanolathe.gg Comments URL: https://news.ycombinator.com/item?id=50045984 Points: 450 # Comments: 187",
+    "published": "Sun, 11 Oct 2026 18:04:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
