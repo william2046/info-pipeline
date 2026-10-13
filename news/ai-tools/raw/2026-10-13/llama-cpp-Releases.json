@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11580",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11580",
+    "description": "hexagon: extend scalar DMA broadcasting support for binary ops ( #30245 ) tests: cover weighted scalar broadcasts Assisted-by: OpenCode ggml : support extended scalar DMA binary ops Assisted-by: OpenCode hex-binary: remove all non-dma paths hex-binary: add support for non-contig strides and cleanup dma preable a bit hex-binary: cleanup the gating and simplify dma retry hex-geglu-erf: add a gate for F32 only, we dont support F16 for this op tests: cover weighted repeat broadcast Assisted-by: Open",
+    "published": "2026-10-13T04:05:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11579",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11579",
+    "description": "ci : build OpenVINO releases with GGML_NATIVE=OFF and CPU backend var…",
+    "published": "2026-10-13T02:22:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11578",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11578",
+    "description": "ci: fix OpenVINO download links ( #30401 )",
+    "published": "2026-10-13T02:20:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11577",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11577",
+    "description": "model: fix vllm d3 multi seq case ( #30408 ) model: fix vllm d3 multi seq case add TODO Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55219202 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 lib",
+    "published": "2026-10-12T22:58:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11576",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11576",
+    "description": "graph: pad the KV dimension of the no-cache attention to 256 ( #30416 ) The no-cache path builds a [n_tokens, n_tokens] mask and passes K and V unpadded, so FLASH_ATTN_EXT sees K->ne[1] == n_tokens. The CUDA kernels for head size 512 require a multiple of FATTN_KQ_STRIDE, so the op falls back to the CPU for most lengths, and the -fa auto probe (1 token) disables flash attention for such models. Pad the mask like llama_kv_cache::get_n_kv and pad K and V with zeros up to the KV dimension of the ma",
+    "published": "2026-10-12T21:34:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11575",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11575",
+    "description": "metal: fix metal tensor kernel_mul_mm error for large tensor ( #28748 ) metal: fix metal tensor kernel_mul_mm error for large tensor Assisted-by: Codex Update ggml/src/ggml-metal/kernels/mul_mm.metal Co-authored-by: YiChen Lv 63285796+forforever73@users.noreply.github.com Co-authored-by: 向锡铭 xiangximing@xiangximings-MacBook-Air.local Co-authored-by: YiChen Lv 63285796+forforever73@users.noreply.github.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations",
+    "published": "2026-10-12T20:45:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11574",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11574",
+    "description": "hexagon: optimize CPY/CONCAT — round 3, short-rows edition ( #30341 ) hexagon: move the converting CPY in blocks of rows per DMA descriptor so short rows are not DMA-latency bound hex-cpy: cleanup cpy cursor handling hex-cpy-concat: introduce threaded dma/hvx gather-row helper Co-authored-by: Ruslan Karymov 67752306+karusrus@users.noreply.github.com hex-cpy: remove leftover rejections for extended buffers hex-cpy: relax the gate for fast-path hex-cpy: remove scalar divs and vtcm access and use e",
+    "published": "2026-10-12T15:16:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11573",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11573",
+    "description": "vulkan: pack FMA for f16 accumulation, no dot product op ( #29877 ) vulkan: pack FMA for f16 accumulation, no dot product op vulkan: dot_product packs two rows per f16 FMA vulkan: rename dot_product to dot_product_v2 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55086973 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390",
+    "published": "2026-10-12T14:51:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11572",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11572",
+    "description": "model: support vllm d3 models ( #30383 ) models: support pplx-decider vllm d2 update clarify naming rule stricter validation d3 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55078980 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librar",
+    "published": "2026-10-12T14:27:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11571",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11571",
+    "description": "model: support vllm decision 2 model ( #30378 ) models: support pplx-decider vllm d2 update clarify naming rule stricter validation fix ci rm redundant filter_tensors Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55070168 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) ",
+    "published": "2026-10-12T14:00:14Z",
+    "source": "llama.cpp Releases"
+  }
+]
