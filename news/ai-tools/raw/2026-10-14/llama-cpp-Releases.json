@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11612: unicode : add opt-in NFC normalization for Unigram tokenizers (#30390)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11612",
+    "description": "unicode : add opt-in NFC normalization for Unigram tokenizers Note: used help from Codex, Sol 6.1 Medium Fixing initial bot comments + linter error (using existing out instead of print) removed test_nfc_tokenizer",
+    "published": "2026-10-14T05:33:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11610",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11610",
+    "description": "Enable OpenSSL in FP32/FP16 SYCL builds to restore HF HTTPS downloads…",
+    "published": "2026-10-14T02:25:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11609",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11609",
+    "description": "webgpu: (Fix CI) fix mul_mat_id with duplicate expert ids ( #30451 ) Fix mm-id of webgpu in the case of ids duplication formatting fix comments to avoid breaking up sentences in comments Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55647479 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ub",
+    "published": "2026-10-14T00:55:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11608",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11608",
+    "description": "server : escape the special tokens without std::regex ( #30243 ) The d1-omni and kev prompts escape \"<|name|>\" in the request text with std::regex_replace. libstdc++ recurses for each char of the name, so a state of \"<|\" and 30000 letters overflows the stack of the HTTP thread and llama-server dies with SIGSEGV. server_decision_escape_special_tokens() writes the same text with a loop. test-server-component compares it with the regex on every string of up to 6 chars of \"<|>a-\". Website: https://l",
+    "published": "2026-10-14T00:38:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11607",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11607",
+    "description": "chat: replace output string with parts ( #30389 ) chat: replace output string with parts reserve first Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55639755 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) ",
+    "published": "2026-10-14T00:21:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11606",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11606",
+    "description": "ggml : simplify backend search path error handling ( #28367 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55616656 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 ",
+    "published": "2026-10-13T22:39:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11604",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11604",
+    "description": "kleidiai: add SME2 Q4_K and Q6_K matmul support ( #29219 ) Change-Id: Ib4aa4c9814c010f9cf084783cc80612e364f9a27 Change-Id: I406a6606c3fea51f8cd32331c1ed71466845d363 Change-Id: Ib4aa4c9814c010f9cf084783cc80612e364f9a27 Signed-off-by: Charles Xu charles.xu@arm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55612588 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: U",
+    "published": "2026-10-13T22:22:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11603",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11603",
+    "description": "vulkan: Optimize pool_2d when the pooling window is large ( #30119 ) When the window is larger than a subgroup, use a whole subgroup to compute each output. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55607759 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64",
+    "published": "2026-10-13T22:04:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11602",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11602",
+    "description": "meta: recreate all subgraphs when the arena is reallocated ( #30453 ) meta: recreate all subgraphs when the arena is reallocated chore: revert added test cases Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/55603876 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
+    "published": "2026-10-13T21:50:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11601",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11601",
+    "description": "hexagon: add configurable HTP DCVS/HMX power mode ( #30423 ) hexagon: add configurable HTP DCVS/HMX power mode hexagon: address PR review feedback (drop CLI flag, align QAIRT power modes, comment/log cleanup) hexagon: add --hex-power-mode flag to run.py Hooks GGML_HEXAGON_POWER_MODE into the unified run.py runner, following the existing --hex-nhvx pattern. The env var must be set before the process touches the Hexagon backend registry (see comment in ggml_hexagon_init), so this is exposed as a r",
+    "published": "2026-10-13T21:33:39Z",
+    "source": "llama.cpp Releases"
+  }
+]

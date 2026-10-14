@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Felix Rieseberg Homepage",
+    "link": "https://felixrieseberg.com/",
+    "description": "Article URL: https://felixrieseberg.com/ Comments URL: https://news.ycombinator.com/item?id=50082470 Points: 43 # Comments: 17",
+    "published": "Wed, 14 Oct 2026 04:42:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Is 'Attention' the Essence of Intelligence?",
+    "link": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
+    "description": "Article URL: https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/ Comments URL: https://news.ycombinator.com/item?id=50081930 Points: 43 # Comments: 25",
+    "published": "Wed, 14 Oct 2026 03:10:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I built a tool to track what AI leaders say and how their views change on video",
+    "link": "https://blumify.io/people",
+    "description": "Article URL: https://blumify.io/people Comments URL: https://news.ycombinator.com/item?id=50081151 Points: 64 # Comments: 41",
+    "published": "Wed, 14 Oct 2026 01:09:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Do Frameworks Matter Anymore?",
+    "link": "https://brookslybrand.com/posts/do-frameworks-matter-anymore/",
+    "description": "Article URL: https://brookslybrand.com/posts/do-frameworks-matter-anymore/ Comments URL: https://news.ycombinator.com/item?id=50081092 Points: 24 # Comments: 10",
+    "published": "Wed, 14 Oct 2026 01:01:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+    "link": "https://pulseos.finance",
+    "description": "Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs. I felt there are not enough consumer apps that run locally with no calls to the outside world that help us manage sensitive corners of our lives. This app in its local variant only downloads a couple of models and oc",
+    "published": "Tue, 13 Oct 2026 23:13:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Grace Hopper Celebration Cancelled",
+    "link": "https://anitab.org/press-release",
+    "description": "Article URL: https://anitab.org/press-release Comments URL: https://news.ycombinator.com/item?id=50080007 Points: 88 # Comments: 18",
+    "published": "Tue, 13 Oct 2026 22:46:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Recreational Programming",
+    "link": "https://www.cphiri.dev/presentations/recreational-programming",
+    "description": "Article URL: https://www.cphiri.dev/presentations/recreational-programming Comments URL: https://news.ycombinator.com/item?id=50079865 Points: 121 # Comments: 43",
+    "published": "Tue, 13 Oct 2026 22:33:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "AlphaNIST",
+    "link": "https://alpha-nist.github.io/",
+    "description": "Article URL: https://alpha-nist.github.io/ Comments URL: https://news.ycombinator.com/item?id=50079464 Points: 61 # Comments: 22",
+    "published": "Tue, 13 Oct 2026 21:57:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+    "link": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
+    "description": "Article URL: https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0 Comments URL: https://news.ycombinator.com/item?id=50078686 Points: 0 # Comments: 0",
+    "published": "Tue, 13 Oct 2026 21:01:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenAI engineer arrested in bugging of executive conference room",
+    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+    "description": "https://x.com/OpenAINewsroom/status/2110095403198849132 Comments URL: https://news.ycombinator.com/item?id=50078141 Points: 504 # Comments: 432",
+    "published": "Tue, 13 Oct 2026 20:23:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+    "link": "https://guitoro.com/",
+    "description": "Guitoro is a free browser guitar using recordings of real instruments. You can strum with your keyboard, mouse, or touchscreen, choose acoustic, classical, electric guitar or bass, and see chord fingering and each stroke. Song practice can be slowed to 20%, and there are free chord tools and tuners. No signup or download. 1 minute video demo: https://youtu.be/DtcluMLdSgs I would love feedback on how the strumming feels and sounds. Comments URL: https://news.ycombinator.com/item?id=50077020 Point",
+    "published": "Tue, 13 Oct 2026 19:11:48 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: XY Music Notation",
+    "link": "https://music.xy.dev/",
+    "description": "I've been playing around with a new kind of isomorphic music keyboard that uses a base-12 notation, and wanted some sheet music to learn some new music for it. The idea is to represent each note in 12-TET as a number, so N ∈ (0,1,2,3,4,5,6,7,8,9,X,Y). I used codex to build a music score rendering backend based on MuseScore with custom note heads that display the pitch class of each note. I've found it pretty helpful for learning how to play my own instrument, so wanted to share in case anyone el",
+    "published": "Tue, 13 Oct 2026 17:43:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: How random are you?",
+    "link": "https://lab.specr.net/rigged-draw/",
+    "description": "Article URL: https://lab.specr.net/rigged-draw/ Comments URL: https://news.ycombinator.com/item?id=50074909 Points: 119 # Comments: 63",
+    "published": "Tue, 13 Oct 2026 16:57:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Gemini 4 Argon",
+    "link": "https://deepmind.google/models/gemini/",
+    "description": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869 Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 1163 # Comments: 833",
+    "published": "Tue, 13 Oct 2026 16:03:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Redesigning source control at Anthropic",
+    "link": "https://www.anthropic.com/engineering/redesigning-source-control",
+    "description": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 659 # Comments: 631",
+    "published": "Tue, 13 Oct 2026 15:49:56 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+    "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+    "description": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 306 # Comments: 162",
+    "published": "Tue, 13 Oct 2026 15:25:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The United Kingdom generates less electricity per person than in the 1970s",
+    "link": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
+    "description": "Article URL: https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak Comments URL: https://news.ycombinator.com/item?id=50072994 Points: 261 # Comments: 356",
+    "published": "Tue, 13 Oct 2026 15:12:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Thunderbird for iOS",
+    "link": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+    "description": "Article URL: https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/ Comments URL: https://news.ycombinator.com/item?id=50072913 Points: 396 # Comments: 173",
+    "published": "Tue, 13 Oct 2026 15:07:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+    "link": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
+    "description": "https://www.apple.com/safari/switch/ Comments URL: https://news.ycombinator.com/item?id=50072286 Points: 240 # Comments: 392",
+    "published": "Tue, 13 Oct 2026 14:26:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "New Apple TV 4K",
+    "link": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+    "description": "Article URL: https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/ Comments URL: https://news.ycombinator.com/item?id=50071310 Points: 320 # Comments: 589",
+    "published": "Tue, 13 Oct 2026 13:21:35 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
