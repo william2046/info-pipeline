@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.40.5",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0",
+    "description": "What's Changed mlx: port the Metal custom kernels to CUDA by @dhiltgen in #18657 docs: model recs and language standardization by @anra8571 in #18981 openai: accept custom tool calls in Responses history by @hoyyeva in #18911 app: clarify cloud payment errors by @willietran in #18986 MLX: version bump by @dhiltgen in #18993 New Contributors @willietran made their first contribution in #18986 Full Changelog : v0.40.4...v0.40.5-rc0",
+    "published": "2026-10-14T19:45:22Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
+    "description": "Decision models in the CLI Decision models can now be used directly from the terminal with ollama run — ask yes/no questions, classify text into labels, or score against a rubric: ollama run nimble --ask \"Is a refund being requested?\" < ticket.txt What's Changed Kev decision models are now supported by the MLX runner on Apple silicon ollama launch can now be used with usage credits without upgrading to a paid plan ollama launch codex now includes locally installed Ollama models in its model pick",
+    "published": "2026-10-14T02:23:26Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.4-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc2",
+    "description": "launch: allow usage credits without upgrading ( #18985 )",
+    "published": "2026-10-13T21:23:05Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.4-rc1: Add Kev decision scoring to MLX (#18976)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc1",
+    "description": "Add Kev decision scoring to MLX Load Kev models with their FP32 decision head and release metadata. Support System One scoring with shared-state caching and Kev-specific limits. address comments",
+    "published": "2026-10-13T04:50:41Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.4-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0",
+    "description": "MLX, MLX-C: version bump ( #18956 )",
+    "published": "2026-10-12T18:01:37Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.3",
+    "description": "What's Changed ollama launch claude no longer shows a warning about Claude connectors by @hoyyeva in #18878 ollama launch codex no longer warns about service tiers by @hoyyeva in #18879 Paused background model upgrade for embedding and other request performance, by @jmorganca in #18908 Full Changelog : v0.40.2...v0.40.3",
+    "published": "2026-10-11T06:40:39Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.3-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.3-rc0",
+    "description": "server: skip local model compatibility migration ( #18908 )",
+    "published": "2026-10-09T17:36:11Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
+    "description": "Model upgrades Models downloaded with earlier versions of Ollama are upgraded in the background the first time you run them, for better performance and compatibility when running on llama.cpp. To make downgrading safe, Ollama keeps the original copy as a backup, so upgraded models are temporarily kept on disk. A future release will remove these backups automatically. To remove backed up models now (requires jq ): curl -s localhost:11434/api/tags | jq -r ' .models[].name ' | while read -r m ; do ",
+    "published": "2026-10-09T03:37:30Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.2-rc0: server: hide duplicate and downgrade guards from list (#18874)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0",
+    "description": "When a legacy GGUF which requires our llama.cpp patch set is loaded, we do a lazy conversion on disk to make it llama.cpp compatible. To support downgrades, we temporarily hold both the new and old GGUFs and create a shadow v1 manifest tag to prevent the downgraded server from deleting the new blobs. Showing these in the list output is confusing to users and API consumers. The legacy copies will be removed in a future release to recover the disk space.",
+    "published": "2026-10-08T15:54:06Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.1",
+    "description": "What's Changed server: proxy cloud usage and balance APIs by @drifkin in #18829 llama: fix clef head reads past 2GiB on windows by @Gigrise in #18777 cmd: remove account step from CLI onboarding by @hoyyeva in #18826 manifest: avoid symlinks on Windows by @dhiltgen in #18852 docs: fix 6 dead links in README community integrations list by @aniketkrs in #18814 docs: fix broken download links in app README by @chenlichao in #18233 mlx: drop carried metal residency patch now that it is upstream by @",
+    "published": "2026-10-08T02:09:43Z",
+    "source": "Ollama Releases"
+  }
+]

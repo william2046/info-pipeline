@@ -1,0 +1,142 @@
+[
+  {
+    "title": "An Apology",
+    "link": "https://www.elevationlab.com/blogs/news/an-apology",
+    "description": "Article URL: https://www.elevationlab.com/blogs/news/an-apology Comments URL: https://news.ycombinator.com/item?id=50099121 Points: 10 # Comments: 1",
+    "published": "Thu, 15 Oct 2026 04:23:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: My Terminal Themes Web App",
+    "link": "https://news.ycombinator.com/item?id=50098454",
+    "description": "Well, after 15 years of saying \"Someday I'll turn this into a web app,\" I finally did it! I've been maintaining a popular repo of terminal themes at https://github.com/mbadolato/iTerm2-Color-Schemes , and it was finally time to build the app with all the features I wanted! So, the next-gen version is live at https://terminalthemes.com ! It currently has over 800 themes, and provides downloads for close to 40 different formats (iTerm, Ghostty, Windows, and many more) It's free for everyone. An ac",
+    "published": "Thu, 15 Oct 2026 02:33:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Double Headed Stack Allocator",
+    "link": "https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/",
+    "description": "Article URL: https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/ Comments URL: https://news.ycombinator.com/item?id=50098274 Points: 34 # Comments: 8",
+    "published": "Thu, 15 Oct 2026 02:06:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+    "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+    "description": "Article URL: https://www.liquid.ai/blog/lfm2-5-24b-a2b Comments URL: https://news.ycombinator.com/item?id=50097369 Points: 129 # Comments: 34",
+    "published": "Wed, 14 Oct 2026 23:59:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Tiny Little Office",
+    "link": "https://tinylittleoffice.com/",
+    "description": "Article URL: https://tinylittleoffice.com/ Comments URL: https://news.ycombinator.com/item?id=50096142 Points: 255 # Comments: 35",
+    "published": "Wed, 14 Oct 2026 22:10:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+    "link": "https://typesafe.ai/blog/jev-1-14",
+    "description": "Article URL: https://typesafe.ai/blog/jev-1-14 Comments URL: https://news.ycombinator.com/item?id=50095353 Points: 244 # Comments: 82",
+    "published": "Wed, 14 Oct 2026 21:11:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenCode 2.0",
+    "link": "https://anoma.ly/notes/opencode-2-0/",
+    "description": "Article URL: https://anoma.ly/notes/opencode-2-0/ Comments URL: https://news.ycombinator.com/item?id=50094994 Points: 437 # Comments: 184",
+    "published": "Wed, 14 Oct 2026 20:48:24 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Anthropic's Scion is heavily inspired by Mononoke",
+    "link": "https://sunshowers.io/posts/anthropic-mononoke/",
+    "description": "Article URL: https://sunshowers.io/posts/anthropic-mononoke/ Comments URL: https://news.ycombinator.com/item?id=50094694 Points: 322 # Comments: 123",
+    "published": "Wed, 14 Oct 2026 20:30:54 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Fancy Curl Sites",
+    "link": "https://nytpu.com/gemlog/2026-03-18",
+    "description": "Article URL: https://nytpu.com/gemlog/2026-03-18 Comments URL: https://news.ycombinator.com/item?id=50093612 Points: 105 # Comments: 19",
+    "published": "Wed, 14 Oct 2026 19:29:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Things to know when you get cancer",
+    "link": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+    "description": "Article URL: https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/ Comments URL: https://news.ycombinator.com/item?id=50093568 Points: 1041 # Comments: 255",
+    "published": "Wed, 14 Oct 2026 19:26:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Fire at Starlink site in Bulgaria after suspected sabotage in Poland",
+    "link": "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/",
+    "description": "Article URL: https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/ Comments URL: https://news.ycombinator.com/item?id=50092730 Points: 323 # Comments: 211",
+    "published": "Wed, 14 Oct 2026 18:37:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+    "link": "https://petal.live/",
+    "description": "Hi HN! I’m Jason Thomas, one of the founders of CoScreen. As some of you may know, Datadog sunset the CoScreen service on July 31st. Four of us from the original CoScreen team have spent the last couple months building a free and open source pair programming tool inspired by those that came before us: It’s called Petal ( https://github.com/kiruna-labs/petal ) Some history first, because when we started CoScreen we had hoped to break the sad and established pattern of this industry. Screenhero wa",
+    "published": "Wed, 14 Oct 2026 18:23:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Virtual Oxide Labs: Emulating a Full Oxide Rack",
+    "link": "https://oxide.computer/blog/voxel-labs",
+    "description": "Article URL: https://oxide.computer/blog/voxel-labs Comments URL: https://news.ycombinator.com/item?id=50092423 Points: 97 # Comments: 9",
+    "published": "Wed, 14 Oct 2026 18:21:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+    "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+    "description": "Article URL: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html Comments URL: https://news.ycombinator.com/item?id=50091788 Points: 856 # Comments: 498",
+    "published": "Wed, 14 Oct 2026 17:45:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: I wrote an email app that accepts only one sender per inbox",
+    "link": "https://clova.email/",
+    "description": "Infinite inboxes, including prefixes where you don't have to create inboxes before you use them -- they self create when you add a suffix. Three types of inboxes: - One sender. Locks to the first domain to send email (except gmail, outlook, etc where it locks to an email account for obivous reasons. It bounces everyone else. - Temporary. Lasts for a while (24h, 7days, etc) then bounces. Received messages stay or go as per your choice. - Prefix. The most powerful. Declare a prefix like \"service\" ",
+    "published": "Wed, 14 Oct 2026 17:00:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Has AI tells",
+    "link": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+    "description": "Article URL: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1 Comments URL: https://news.ycombinator.com/item?id=50090799 Points: 98 # Comments: 87",
+    "published": "Wed, 14 Oct 2026 16:52:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Better HTTP/1 connection reuse in Go 1.27",
+    "link": "https://go.dev/blog/http-connection-reuse",
+    "description": "Article URL: https://go.dev/blog/http-connection-reuse Comments URL: https://news.ycombinator.com/item?id=50090369 Points: 221 # Comments: 33",
+    "published": "Wed, 14 Oct 2026 16:29:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Americans' social activity has steeply declined in the past 30 years",
+    "link": "https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years",
+    "description": "Article URL: https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years Comments URL: https://news.ycombinator.com/item?id=50089921 Points: 304 # Comments: 305",
+    "published": "Wed, 14 Oct 2026 16:09:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Submarine cable resilience",
+    "link": "https://blog.apnic.net/2026/10/14/submarine-cable-resilience/",
+    "description": "Article URL: https://blog.apnic.net/2026/10/14/submarine-cable-resilience/ Comments URL: https://news.ycombinator.com/item?id=50089229 Points: 142 # Comments: 52",
+    "published": "Wed, 14 Oct 2026 15:31:15 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Passkeys are not a trap",
+    "link": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+    "description": "Article URL: https://scotthelme.co.uk/passkeys-are-not-a-trap/ Comments URL: https://news.ycombinator.com/item?id=50088935 Points: 546 # Comments: 704",
+    "published": "Wed, 14 Oct 2026 15:15:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

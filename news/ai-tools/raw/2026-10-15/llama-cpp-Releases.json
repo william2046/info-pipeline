@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11641: spec : add lilicorr support (#30506)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11641",
+    "description": "spec : add lilicorr support convert : use convention for hparam assignment add todo for hparam use in llama-batch.cpp Co-authored-by: Georgi Gerganov ggerganov@gmail.com typo fix Co-authored-by: Georgi Gerganov ggerganov@gmail.com",
+    "published": "2026-10-15T03:49:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11639: opencl: support CLAMP on non-contiguous views (#30186)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11639",
+    "description": "The clamp kernel indexed source and destination as one flat contiguous array, so a strided view as input (the new CLAMP v=1 case) read the wrong elements. Add a strided kernel_clamp_nc, as the other unary ops have, and take it whenever the source is not contiguous.",
+    "published": "2026-10-14T20:02:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11636",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11636",
+    "description": "sycl: IQ3 code reorder ( #29107 ) sycl: persistent IQ3_S/IQ3_XXS weight reorder for SYCL decode and prefill Add persistent reordered weight layouts for IQ3_S and IQ3_XXS. Weights are reordered once at load time; the reordered MMVQ dot products then walk dense super-blocks with dp4a and SWAR sign expansion instead of gathering bits from the interleaved standard layout. Reorder-aware dequantization feeds the batched prefill GEMMs so prompt processing sees the same benefit. Also harden the oneDNN b",
+    "published": "2026-10-15T04:53:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11635",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11635",
+    "description": "ggml-cpu : keep the FP16->FP32 lookup table on x86 with F16C ( #30342 ) ( #30343 ) ggml-cpu : keep the FP16->FP32 lookup table on x86 with F16C ( #30342 ) #30270 routed both scalar conversions through F16C. For FP16->FP32, Clang 20.1.8 lowers the intrinsic to a vpinsrw merging into the live accumulator register of the quantized dot products, which serialises the loop (19 vs 4 cycles/iteration estimated, 45-65% slower Q8_0/Q4_0 MUL_MAT_ID kernels measured). Keep F16C for FP32->FP16 as intended an",
+    "published": "2026-10-15T04:01:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11633",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11633",
+    "description": "ggml-cpu : size set_rows conversion buffer for all threads ( #30454 ) ggml-cpu : size set_rows conversion buffer for all threads SET_ROWS is planned with n_tasks = 1, but every thread runs it and uses its own row of the F16 -> F32 conversion buffer, so threads > 0 wrote past the work buffer when the graph had another multi-threaded op. move set_rows to n_task = n_threads group Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56100739 macOS/iOS: macOS Ap",
+    "published": "2026-10-15T03:41:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11632",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11632",
+    "description": "cuda, hip: GDN chunked kernel ( #29353 ) cuda, hip: GDN chunked kernel Ported-from: tetherto#257 Source-commit: 53f0027 Co-authored-by: Aman Gupta aman.gupta@tether.io fix older builds review fixes cuda: enable GDN MMA on tested Ampere and Ada GPUs Enable SM86 and SM89 after RTX 3090 and RTX 4090 correctness and prefill benchmarks. Keep other untested architectures on the existing fallback. Assisted-by: Codex cuda : use refactored swizzle API in GDN MMA ggml : GDN only guarantees the final state",
+    "published": "2026-10-15T03:24:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11630",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11630",
+    "description": "ggml: fix conv_1d result layout for batched input ( #28738 ) ggml: fix conv_1d result layout for batched input The GEMM behind conv_1d folds the batch into its rows, so the product sits in memory as [OL, N, OC] while the reshape claims [OL, OC, N]. The shape is right and the contents are transposed, so nothing fires: no assert, no abort, the graph just runs and the channels come out interleaved with the batches. With N == 1 the two readings describe the same buffer, which is why the three vocode",
+    "published": "2026-10-15T00:36:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11627",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11627",
+    "description": "ggml : add note about mul_mat_id + disable mul_mat_id_dup tests ( #30501 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56058008 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu",
+    "published": "2026-10-15T00:17:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11626: model: split layers evenly when no device reports free memory (#29677)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11626",
+    "description": "When every device reports zero free memory the split points are normalized by a zero sum, the NaN split sends layers to a device index past the end and loading aborts with vector::_M_range_check.",
+    "published": "2026-10-14T06:30:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11625: vendor : update cpp-httplib to 0.61.0 (#30494)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11625",
+    "description": "Signed-off-by: Adrien Gallouët angt@huggingface.co",
+    "published": "2026-10-14T06:28:24Z",
+    "source": "llama.cpp Releases"
+  }
+]
