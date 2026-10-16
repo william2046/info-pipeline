@@ -1,0 +1,352 @@
+[
+  {
+    "title": "siliXon",
+    "link": "https://www.producthunt.com/products/silixon",
+    "description": "Turn a plain English idea into a circuit board you can order Discussion | Link",
+    "published": "2026-10-14T09:06:31-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Talanoa",
+    "link": "https://www.producthunt.com/products/talanoa-2",
+    "description": "Email that feels like chat Discussion | Link",
+    "published": "2026-10-01T13:35:01-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Backdrop",
+    "link": "https://www.producthunt.com/products/backdrop",
+    "description": "Build AI coworkers for any workflow, any industry Discussion | Link",
+    "published": "2026-10-12T22:14:44-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "SaidTrace",
+    "link": "https://www.producthunt.com/products/saidtrace",
+    "description": "Private voice memos. Your choice of AI. Discussion | Link",
+    "published": "2026-10-03T12:44:01-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Nostaliga",
+    "link": "https://www.producthunt.com/products/nostaliga",
+    "description": "Rediscover the days behind your favorite songs Discussion | Link",
+    "published": "2026-10-13T11:40:39-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "SuperLocalMemory",
+    "link": "https://www.producthunt.com/products/superlocalmemory-v2",
+    "description": "Agent memory with Laya, Jev + Google Gemma Discussion | Link",
+    "published": "2026-10-13T12:43:21-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Actually Asked",
+    "link": "https://www.producthunt.com/products/actually-asked",
+    "description": "A self-improving branded AI FAQ page Discussion | Link",
+    "published": "2026-10-14T08:36:37-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Lleverage",
+    "link": "https://www.producthunt.com/products/lleverage",
+    "description": "The autonomous back office for the physical economy Discussion | Link",
+    "published": "2026-10-13T08:53:16-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Reelbird",
+    "link": "https://www.producthunt.com/products/reelbird",
+    "description": "Open Source Loom + Screen Studio alternative for Mac Discussion | Link",
+    "published": "2026-10-13T19:29:03-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "CmdRound",
+    "link": "https://www.producthunt.com/products/cmdround",
+    "description": "Assess how engineers build with artificial intelligence Discussion | Link",
+    "published": "2026-10-14T03:18:29-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Audio Lip Sync Pro for Blender",
+    "link": "https://www.producthunt.com/products/audio-lip-sync-pro-for-blender",
+    "description": "Generate high-quality facial animations, direct from audio. Discussion | Link",
+    "published": "2026-10-14T22:09:17-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Daddy Issues",
+    "link": "https://www.producthunt.com/products/daddy-issues",
+    "description": "Think ahead. Fight less. A weekly family briefing for dads. Discussion | Link",
+    "published": "2026-10-08T06:59:20-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Afterparty",
+    "link": "https://www.producthunt.com/products/afterparty",
+    "description": "Automated actions for meeting deliverables Discussion | Link",
+    "published": "2026-10-05T02:43:13-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "CinemaLut",
+    "link": "https://www.producthunt.com/products/cinemalut",
+    "description": "Any frame's color, as a LUT for yours. Discussion | Link",
+    "published": "2026-10-14T14:20:59-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Basedash Connector gallery",
+    "link": "https://www.producthunt.com/products/basedash",
+    "description": "See what you'll build before you connect a data source Discussion | Link",
+    "published": "2026-10-14T14:32:02-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "NestJS Observe",
+    "link": "https://www.producthunt.com/products/nestjs-observe",
+    "description": "Zero-config observability built for NestJS Discussion | Link",
+    "published": "2026-10-14T01:58:30-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Shrine",
+    "link": "https://www.producthunt.com/products/shrine-2",
+    "description": "A home for your agents Discussion | Link",
+    "published": "2026-10-12T13:55:44-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Audimate",
+    "link": "https://www.producthunt.com/products/audimate",
+    "description": "AI assistant that works right in the apps you already use Discussion | Link",
+    "published": "2026-10-11T23:24:43-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "GLM-Legal",
+    "link": "https://www.producthunt.com/products/z-ai",
+    "description": "Z.ai’s legal AI model for contract review and compliance Discussion | Link",
+    "published": "2026-10-12T09:24:12-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Atticus",
+    "link": "https://www.producthunt.com/products/atticus",
+    "description": "Hold a key, talk, and your Mac does what you asked Discussion | Link",
+    "published": "2026-10-14T14:14:44-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Rushilo",
+    "link": "https://www.producthunt.com/products/rushilo",
+    "description": "Edit video by talking to Claude Code or Codex Discussion | Link",
+    "published": "2026-10-14T08:35:56-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "OpenMuse",
+    "link": "https://www.producthunt.com/products/copilotkit",
+    "description": "Opensource, self hostable personal assistant for any harness Discussion | Link",
+    "published": "2026-09-23T08:53:14-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "CodeCrab",
+    "link": "https://www.producthunt.com/products/codecrab",
+    "description": "AI code reviews with deep analysis & multi-tool integrations Discussion | Link",
+    "published": "2026-10-12T19:12:58-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Superdraft",
+    "link": "https://www.producthunt.com/products/superdraft",
+    "description": "Automatically identify opportunities to email your customers Discussion | Link",
+    "published": "2026-10-14T12:22:19-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "withHuman",
+    "link": "https://www.producthunt.com/products/withhuman",
+    "description": "A open-source human approval layer for AI Agents Discussion | Link",
+    "published": "2026-10-14T09:01:56-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Ubuntu 26.10 (Stonking Stingray)",
+    "link": "https://www.producthunt.com/products/ubuntu",
+    "description": "GNOME 51, Rust coreutils, and a refreshed Linux desktop Discussion | Link",
+    "published": "2026-10-14T10:16:14-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "AI Sandboxes by Buddy",
+    "link": "https://www.producthunt.com/products/buddy",
+    "description": "Isolated cloud machines for your AI coding agents Discussion | Link",
+    "published": "2026-10-14T05:11:07-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Chatway MCP",
+    "link": "https://www.producthunt.com/products/chatway",
+    "description": "Let ChatGPT & Claude answer customer support tickets via MCP Discussion | Link",
+    "published": "2026-10-14T04:30:36-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Kerno 1.0",
+    "link": "https://www.producthunt.com/products/kerno",
+    "description": "The AI Runtime Backend QA Engineer Discussion | Link",
+    "published": "2026-10-12T06:19:36-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Polylane Impact Analysis",
+    "link": "https://www.producthunt.com/products/polylane",
+    "description": "Catch risky pull requests before they break production Discussion | Link",
+    "published": "2026-10-13T12:04:38-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Navige",
+    "link": "https://www.producthunt.com/products/navige",
+    "description": "Cut AI agent costs and control runaway spending Discussion | Link",
+    "published": "2026-10-13T23:29:41-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Dreamscale Labs",
+    "link": "https://www.producthunt.com/products/dreamscale-labs",
+    "description": "Run the best robot AI models over the cloud Discussion | Link",
+    "published": "2026-10-12T23:27:22-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Fwrd",
+    "link": "https://www.producthunt.com/products/fwrd",
+    "description": "Forward iPhone texts to Slack, Discord, or Telegram Discussion | Link",
+    "published": "2026-10-08T17:45:21-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Brussle",
+    "link": "https://www.producthunt.com/products/brussle-2",
+    "description": "Improve Jev's accuracy on your data Discussion | Link",
+    "published": "2026-10-14T21:18:27-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Apple HomeView",
+    "link": "https://www.producthunt.com/products/apple",
+    "description": "A new way to stay connected, and manage the home Discussion | Link",
+    "published": "2026-10-13T07:29:39-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Confidence by Spotify",
+    "link": "https://www.producthunt.com/products/spotify",
+    "description": "Build products at full speed, with both hands on the wheel Discussion | Link",
+    "published": "2026-10-12T07:15:03-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "PixLate",
+    "link": "https://www.producthunt.com/products/pixlate",
+    "description": "Translate documents. Preserve artwork and layout. Discussion | Link",
+    "published": "2026-10-13T21:47:06-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Screenwell.ai",
+    "link": "https://www.producthunt.com/products/screenwell-ai",
+    "description": "An AI interviewer that runs your first-round screening Discussion | Link",
+    "published": "2026-10-10T08:32:34-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Reason",
+    "link": "https://www.producthunt.com/products/dereference-the-100x-ide",
+    "description": "A state-of-the-art coding agent for cost efficiency Discussion | Link",
+    "published": "2026-10-04T12:34:54-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Epherem",
+    "link": "https://www.producthunt.com/products/epherem",
+    "description": "Find login and database flaws in your AI-built app Discussion | Link",
+    "published": "2026-10-11T22:28:21-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Table Canon",
+    "link": "https://www.producthunt.com/products/table-canon-ttrpg-campaign-memory",
+    "description": "Automated notes, searchable history, prep ideas for GMs Discussion | Link",
+    "published": "2026-10-07T10:26:27-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Make0 Brain",
+    "link": "https://www.producthunt.com/products/make0-brain",
+    "description": "A memory store that works across all of your AI agents. Discussion | Link",
+    "published": "2026-10-10T04:10:23-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Keysi",
+    "link": "https://www.producthunt.com/products/keysi",
+    "description": "See every shortcut of the app you're in Discussion | Link",
+    "published": "2026-10-06T08:55:35-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "SlashDocs by Razorpay",
+    "link": "https://www.producthunt.com/products/razorpay",
+    "description": "Self-hosted collaboration layer for agent-written HTML Discussion | Link",
+    "published": "2026-10-13T02:20:41-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Orbora",
+    "link": "https://www.producthunt.com/products/orbora",
+    "description": "Create personalized guided audio: meditation, breath, ASMR Discussion | Link",
+    "published": "2026-10-11T11:57:48-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Acyclic",
+    "link": "https://www.producthunt.com/products/acyclic",
+    "description": "Rapid agent swarms for any agentic workflow Discussion | Link",
+    "published": "2026-10-09T14:11:56-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Mira Tours",
+    "link": "https://www.producthunt.com/products/mira-tours",
+    "description": "AI Walking Tour Guide Discussion | Link",
+    "published": "2026-10-11T14:11:26-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Winq",
+    "link": "https://www.producthunt.com/products/winq",
+    "description": "Control your Mac with a look and a wink Discussion | Link",
+    "published": "2026-10-12T14:15:50-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Nimble",
+    "link": "https://www.producthunt.com/products/nimble-5",
+    "description": "SOTA Decision Model Discussion | Link",
+    "published": "2026-10-13T10:21:30-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Rambox",
+    "link": "https://www.producthunt.com/products/rambox",
+    "description": "Ready-to-use workspaces as you switch tasks and contexts Discussion | Link",
+    "published": "2026-10-09T03:19:13-07:00",
+    "source": "Product Hunt"
+  }
+]

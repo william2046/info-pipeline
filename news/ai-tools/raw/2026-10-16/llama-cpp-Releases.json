@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11681",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11681",
+    "description": "graph : add precision handling for MELLUM architecture ( #30584 )",
+    "published": "2026-10-16T03:32:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11680",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11680",
+    "description": "hexagon: tensor repacking rework and support for tiled and flat quant…",
+    "published": "2026-10-16T03:30:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11679: llama : share the k-pool input views between layers (#30613)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11679",
+    "description": "The scheduler uploads each view of a host input on its own, so the per-layer reshape of new_pool_idxs (and of sel_mask in glm5-next) was copied once per layer.",
+    "published": "2026-10-16T03:14:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11678",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11678",
+    "description": "Limit max CUDA pinned host buffer size to 4 GB ( #30449 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56529820 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) ",
+    "published": "2026-10-16T04:29:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11677: sycl: support reordered Q8_0 MoE weights (#29337)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11677",
+    "description": "Preserve the existing MoE accumulation order. Assisted-by: Codex Assisted-by: Angel",
+    "published": "2026-10-16T01:59:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11676: [SYCL] Enable ssl in build script and CI (#30456)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11676",
+    "description": "enable OPENSSL=ON as default in build script, update it in CI and dockerfile change to LLAMA_BUILD_BORINGSSL on windows refactor rm Download UI build Apply suggestion from @CISC Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Apply suggestion from @CISC Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Apply suggestion from @CISC Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co",
+    "published": "2026-10-16T01:58:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "v0.7.0",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0",
+    "description": "Overview llama.cpp v0.7.0 adds the LiliCorr speculative decoding technique and MTP for GLM5-Next, a new GPU cache for MoE experts kept in host memory ( --moe-cache-mib , up to ~2.2x decode speedup when experts are offloaded), and a large batch of new models: K2 Horizon (dense and MoVA), Prism Bonsai 2 27B, EmbeddingGemma-2 (text+vision+audio), the LiquidAI d1/d1-omni and vLLM decision 2/d3 decision models, pplx-decider, MiniCPM-V 4.7, Nemotron Super 3.5 VL / Nemotron Bolt and maion-coder. The se",
+    "published": "2026-10-15T17:15:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11675",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11675",
+    "description": "mtmd: add mtmd_audio_stream + support voxtral-realtime ( #30629 ) mtmd: add mtmd_audio_stream + support voxtral-realtime address review Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56510441 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.",
+    "published": "2026-10-16T02:51:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11672",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11672",
+    "description": "mtmd: lightonocr does not require longest edge to always be 1540, native resolution is the default ( #30600 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56505166 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libra",
+    "published": "2026-10-16T02:26:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11671",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11671",
+    "description": "model: add Muse Spark Open (text, vision and audio) ( #30616 ) model: add Muse Spark Open (text, vision and audio) Muse Spark Open is a latent space MoE: the residual stream stays at 8192 while the 256 experts live in 4096, with a projection down and up around them, top-8 sigmoid routing with a correction bias. Attention interleaves three sliding layers at a 2048 window with rope for one global layer without rope, with a sigmoid output gate and a weightless QK-norm. Residuals are norm preserving",
+    "published": "2026-10-16T00:21:23Z",
+    "source": "llama.cpp Releases"
+  }
+]

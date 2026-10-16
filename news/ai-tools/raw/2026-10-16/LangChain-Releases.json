@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-core==1.6.11",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.11",
+    "description": "Changes since langchain-core==1.6.10 release(core): 1.6.11 ( #41260 ) feat(core): accept address inside LangChainTracer ( #41006 )",
+    "published": "2026-10-15T18:32:37Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.7.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.2",
+    "description": "Changes since langchain-openai==1.7.1 release(openai): 1.7.2 ( #41245 ) fix(openai): keep Responses stream items on one block when output_index drifts ( #41121 )",
+    "published": "2026-10-14T13:51:18Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.6",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.6",
+    "description": "Changes since langchain==1.4.5 release(langchain): 1.4.6 ( #41247 ) feat(langchain): add opt-in per-call interrupts to HITL middleware ( #41062 )",
+    "published": "2026-10-14T17:28:08Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.7.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.1",
+    "description": "Changes since langchain-openai==1.7.0 release(openai): 1.7.1 ( #41222 ) feat(core,anthropic,openai): declare mid-conversation support in model profiles ( #41180 )",
+    "published": "2026-10-12T14:33:11Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.10",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.10",
+    "description": "Changes since langchain-core==1.6.9 release(core): 1.6.10 ( #41220 ) feat(core,anthropic,openai): declare mid-conversation support in model profiles ( #41180 )",
+    "published": "2026-10-12T14:14:05Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.7.6",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.6",
+    "description": "Changes since langchain-anthropic==1.7.5 release(anthropic): 1.7.6 ( #41221 ) chore(model-profiles): refresh model profile data ( #41145 ) feat(core,anthropic,openai): declare mid-conversation support in model profiles ( #41180 ) chore(deps): bump langgraph-sdk from 0.4.4 to 0.4.6 in /libs/partners/anthropic ( #41101 ) chore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/partners/anthropic ( #41080 ) chore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/anthropic ( #40964 )",
+    "published": "2026-10-12T14:40:17Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.5",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.5",
+    "description": "Changes since langchain==1.4.4 release(langchain): 1.4.5 ( #41226 ) feat(langchain): accept summarizer in SummarizationMiddleware ( #41225 )",
+    "published": "2026-10-12T19:28:43Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.7.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.0",
+    "description": "Changes since langchain-openai==1.6.7 release(openai): 1.7.0 ( #41154 ) feat(openai): support decisions api ( #41125 ) chore(deps): bump langgraph-sdk from 0.4.4 to 0.4.6 in /libs/partners/openai ( #41096 ) chore(deps): bump langgraph-sdk from 0.4.2 to 0.4.4 in /libs/partners/openai ( #41072 ) chore(deps): bump pyjwt from 2.15.0 to 2.15.1 in /libs/partners/openai ( #40951 ) chore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/openai ( #40952 )",
+    "published": "2026-10-08T16:07:55Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.9",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.9",
+    "description": "Changes since langchain-core==1.6.8 release(core): 1.6.9 ( #41160 ) feat(core): accept a callable in with_retry ( #41158 )",
+    "published": "2026-10-08T20:11:34Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.8",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.8",
+    "description": "Changes since langchain-core==1.6.7 release(core): 1.6.8 ( #41153 ) fix(core): harden scoped and compatible IPv6 SSRF checks ( #41151 )",
+    "published": "2026-10-08T15:41:25Z",
+    "source": "LangChain Releases"
+  }
+]
