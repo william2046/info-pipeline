@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11706",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11706",
+    "description": "sycl: fix prompt-processing regression after Q4_0/Q8_0 weight reorder ( #30374 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56871404 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries ",
+    "published": "2026-10-17T02:33:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11703",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11703",
+    "description": "hexagon: vectorize softplus with HVX ( #30435 ) softplus_f32 and tile_softplus_f32 ran a scalar logf(1.0f + expf(x)) loop. Replace both with a shared hvx_softplus_f32_aa() helper built from the backend's existing hvx_vec_exp_f32 / hvx_vec_log_f32 primitives, so no new numerical approximation is introduced. hvx_vec_exp_f32 clamps its input to (-88, 88) before exponentiating, so a naive log(1 + exp(x)) composition would saturate to ~88.72 for large x instead of returning x. The Q6_V_vmux_QVV selec",
+    "published": "2026-10-17T01:06:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11702",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11702",
+    "description": "opencl: Add MxFP4 MoE bin kernel for Adreno X1 devices ( #30691 ) opencl: add bin kernel gemm_moe_mxfp4_q8_1_dp4a_ila_ldck for X1 opencl: fix whitespace opencl: undo unnecessary change opencl: enable dp4a clc for X1E Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56851713 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubun",
+    "published": "2026-10-17T00:25:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11701",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11701",
+    "description": "model: add Beam (Reflection) ( #30670 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56841237 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 librar",
+    "published": "2026-10-16T23:24:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11700",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11700",
+    "description": "model : Granite Switch Decision ( #30676 ) feat(convert): Add decision.chat to support decision models that can also chat Branch: GraniteSwitchDecision AI-usage: full (Claude + Sonnet 5.5) Signed-off-by: Gabe Goodhart ghart@us.ibm.com feat(convert): Add conversion for Granite Switch as decision model The template follows from the usage sample: https://huggingface.co/ibm-granite/granite-switch-4.1-8b#guardian-and-decision-side-by-side Branch: GraniteSwitchDecision AI-usage: draft (Claude + Sonnet",
+    "published": "2026-10-16T18:36:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11699",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11699",
+    "description": "common: honor HTTP_PROXY/HTTPS_PROXY env vars in http client ( #21752 ) common: honor HTTP_PROXY/HTTPS_PROXY env vars in http client common_http_client() was ignoring standard proxy env vars, causing downloads via -hf and similar flags to fail silently in environments behind an HTTP proxy (corporate networks, air-gapped infra, etc.). Checks HTTPS_PROXY/https_proxy for https:// URLs and HTTP_PROXY/http_proxy for http:// URLs, in that order. If a proxy URL is set and parseable, passes it to httpli",
+    "published": "2026-10-16T18:01:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11696",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11696",
+    "description": "hexagon: correct HMX FA sinks ( #30581 ) hexagon: correct HMX FA sinks hex-fa: vectorize sinks in hmx kernels Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56638901 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubu",
+    "published": "2026-10-16T11:29:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11695",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11695",
+    "description": "model : MTP support for Mellum2.1 ( #30612 ) model : MTP support for Mellum model : inline rope construction in Mellum Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56634767 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubunt",
+    "published": "2026-10-16T11:16:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11693",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11693",
+    "description": "[SYCL]: fix memory errors in mul_mat, split buffer, host pool ( #29889 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56630304 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu a",
+    "published": "2026-10-16T11:00:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11691",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11691",
+    "description": "CUDA: HIP: rms_norm: add variants that load float4 at a time and stor…",
+    "published": "2026-10-16T07:07:34Z",
+    "source": "llama.cpp Releases"
+  }
+]
