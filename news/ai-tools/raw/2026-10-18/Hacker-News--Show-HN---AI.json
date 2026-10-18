@@ -1,0 +1,142 @@
+[
+  {
+    "title": "A Mole Infiltrated the Highest Ranks of American Militias",
+    "link": "https://www.propublica.org/article/ap3-oath-keepers-militia-mole",
+    "description": "Article URL: https://www.propublica.org/article/ap3-oath-keepers-militia-mole Comments URL: https://news.ycombinator.com/item?id=50138044 Points: 13 # Comments: 0",
+    "published": "Sun, 18 Oct 2026 04:59:24 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Sphinx – a hook that quizzes you on your AI's code before shipping",
+    "link": "https://sphinx-six-theta.vercel.app/",
+    "description": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 16 # Comments: 2",
+    "published": "Sun, 18 Oct 2026 04:33:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "How the Elizabeth Holmes Doc 'You Can See Everything' Is Deceiving You",
+    "link": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+    "description": "Article URL: https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything Comments URL: https://news.ycombinator.com/item?id=50137620 Points: 47 # Comments: 22",
+    "published": "Sun, 18 Oct 2026 03:19:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "NY announces game ownership bill requiring ownership rather than licensing",
+    "link": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+    "description": "Article URL: https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends Comments URL: https://news.ycombinator.com/item?id=50136536 Points: 181 # Comments: 48",
+    "published": "Sun, 18 Oct 2026 00:14:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Codex Desktop continuously generates Crashpad pending dumps",
+    "link": "https://github.com/openai/codex/issues/25921",
+    "description": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 111 # Comments: 39",
+    "published": "Sat, 17 Oct 2026 17:45:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I Became a Citizen of Japan",
+    "link": "https://www.derekwessman.com/blog-1/natural",
+    "description": "Article URL: https://www.derekwessman.com/blog-1/natural Comments URL: https://news.ycombinator.com/item?id=50133150 Points: 190 # Comments: 102",
+    "published": "Sat, 17 Oct 2026 17:36:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Gold is now the top U.S. export",
+    "link": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+    "description": "Article URL: https://www.numismaticnews.net/gold-now-top-u-s-export Comments URL: https://news.ycombinator.com/item?id=50132870 Points: 290 # Comments: 149",
+    "published": "Sat, 17 Oct 2026 17:06:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Artie (YC S23) Is Hiring Enterprise AES and Senior Engineers",
+    "link": "https://www.artie.com/careers",
+    "description": "Article URL: https://www.artie.com/careers Comments URL: https://news.ycombinator.com/item?id=50132839 Points: 0 # Comments: 0",
+    "published": "Sat, 17 Oct 2026 17:02:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Pele – Mermaid diagrams as themeable SVG",
+    "link": "https://pele.run/",
+    "description": "Article URL: https://pele.run/ Comments URL: https://news.ycombinator.com/item?id=50132193 Points: 337 # Comments: 30",
+    "published": "Sat, 17 Oct 2026 15:55:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Solar surpasses nuclear power globally for first time",
+    "link": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+    "description": "Article URL: https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/ Comments URL: https://news.ycombinator.com/item?id=50131256 Points: 534 # Comments: 328",
+    "published": "Sat, 17 Oct 2026 14:01:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Making chicken transparent using Dorito dust",
+    "link": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+    "description": "Article URL: https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using Comments URL: https://news.ycombinator.com/item?id=50131213 Points: 281 # Comments: 71",
+    "published": "Sat, 17 Oct 2026 13:55:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+    "link": "https://github.com/mikroverk/esp32sim",
+    "description": "Hi HN, I’ve been working on esp32sim, an open-source ESP32 emulator that runs in the browser. The fun part of the demo is that there is no ESP32 involved — the firmware is executing in the emulator. The goal is to make ESP32 software easier to experiment with, test and simulate without always needing physical hardware connected. Source: https://github.com/mikroverk/esp32sim I made a short video showing it in action: https://youtu.be/waoWFilTWEc I’m particularly interested in feedback from embedd",
+    "published": "Sat, 17 Oct 2026 13:51:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: High-quality duck audio synthesizer",
+    "link": "https://celphase.github.io/duck-pond/",
+    "description": "Article URL: https://celphase.github.io/duck-pond/ Comments URL: https://news.ycombinator.com/item?id=50131006 Points: 106 # Comments: 27",
+    "published": "Sat, 17 Oct 2026 13:28:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Interactive Linear Programming in the Browser",
+    "link": "https://lpviz.net/",
+    "description": "Article URL: https://lpviz.net/ Comments URL: https://news.ycombinator.com/item?id=50130379 Points: 4 # Comments: 0",
+    "published": "Sat, 17 Oct 2026 12:06:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "DeepSeek-v4.1-Flash-1017",
+    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "description": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 776 # Comments: 618",
+    "published": "Sat, 17 Oct 2026 08:21:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+    "link": "https://llmspeed.dev/",
+    "description": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 269 # Comments: 78",
+    "published": "Sat, 17 Oct 2026 04:36:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Source code of the Estonian online voting system",
+    "link": "https://github.com/valimised/ivxv",
+    "description": "Article URL: https://github.com/valimised/ivxv Comments URL: https://news.ycombinator.com/item?id=50127586 Points: 192 # Comments: 157",
+    "published": "Sat, 17 Oct 2026 03:18:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A skeptic's first contact with Kubernetes (2024)",
+    "link": "https://blog.davidv.dev/posts/first-contact-with-k8s/",
+    "description": "Article URL: https://blog.davidv.dev/posts/first-contact-with-k8s/ Comments URL: https://news.ycombinator.com/item?id=50127572 Points: 104 # Comments: 55",
+    "published": "Sat, 17 Oct 2026 03:16:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Dam removals are bringing fish back across the northeastern United States",
+    "link": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/",
+    "description": "Article URL: https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/ Comments URL: https://news.ycombinator.com/item?id=50126312 Points: 244 # Comments: 60",
+    "published": "Fri, 16 Oct 2026 23:47:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Bleached corals thrive within days when touching healthy neighbour",
+    "link": "https://www.nature.com/articles/d41586-026-03266-x",
+    "description": "https://archive.ph/zIPG4 Comments URL: https://news.ycombinator.com/item?id=50126253 Points: 393 # Comments: 83",
+    "published": "Fri, 16 Oct 2026 23:38:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

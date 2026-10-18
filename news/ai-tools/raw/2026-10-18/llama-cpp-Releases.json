@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11718",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11718",
+    "description": "Restore ESIMD kernels on FFN path ( #30239 ) Reenable ESIMD on the FFN path Signed-off-by: Todd Malsbary todd.malsbary@intel.com Extend ESIMD fusion on FFN path to include Q8_0 Signed-off-by: Todd Malsbary todd.malsbary@intel.com Remove comment explicitly referencing ESIMD in test-backend-ops Signed-off-by: Todd Malsbary todd.malsbary@intel.com Signed-off-by: Todd Malsbary todd.malsbary@intel.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57072547",
+    "published": "2026-10-18T04:45:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11717",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11717",
+    "description": "hexagon: add support for hadamard MUL_MAT and GET_ROW for flat and tiled Q1_0 and Q2_0 ( #30627 ) hex-hadamard: add support for hadamard ops hex-mm: reduce pkt counts in the q8_1 quantizer and vec_dot_q1 hex-q1/q2: add support for flat and tiled GET_ROWS for Q1_0 and Q2_0 Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57059545 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
+    "published": "2026-10-18T02:53:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11716",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11716",
+    "description": "hexagon: add support for Q1_0 and Q2_0 ( #30122 ) hexagon: add support for q1_0 quant hexagon: enable Q1_0 weights in the 2D HMX MUL_MAT path hex-q1: cleanup gates, generalize tiling and remove in-loop divs hex-tiling: document tiled formats in developer.md and update htp-tensor.h hex-q2: add support for Q2_0 hex-q2: remove stale asserts and speacial cases hex-mm: fix MUL_MAT_NX assumption about square tiling, Q1/Q2 have non-square tiles hex-q1/2: minor optimizations (unrolls/un-unrolls/...) hex",
+    "published": "2026-10-17T21:15:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11715",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11715",
+    "description": "ggml-cuda: HIP: use __builtin_amdgcn_perm for q1_0 unpacking ( #29927 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57002849 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu ar",
+    "published": "2026-10-17T19:37:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11714",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11714",
+    "description": "ui : Discover & Download Models from HF Hub ( #29584 ) common : resolve - download tags and list cached sidecars A Q4_0-mtp style tag now resolves the sidecar file when no model file matches it, so a solo draft or mmproj download actually pulls the file. Cached sidecar files list as their own entries so the state survives a restart, and removing such a tag deletes only the sidecar. Assisted-by: pi:zai-org/GLM-5.3 ui : optional sanitized raw HTML in markdown Add an allowHtml prop to MarkdownConte",
+    "published": "2026-10-17T16:20:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11713",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11713",
+    "description": "CUDA: faster MMVQ for low-bit types ( #30517 ) CUDA: faster MMVQ for low-bit types ggml-cuda: hip: small nwarps GCN fix on Q3_K(ncols=2,3), Q6_K(ncols=4) Co-authored-by: thelittlefireman thelittlefireman3@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56972972 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x ",
+    "published": "2026-10-17T16:04:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11712",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11712",
+    "description": "tests: give the random model generator a per-tensor filler table ( #30674 ) tests: give the random model generator a per-tensor filler table Muse Spark makes test-llama-context fail on state_load, cp_h and cp_d on about six percent of the random seeds, with an NMSE of 1.0e-05 to 1.4e-05 against a threshold of 1.0e-05. The sliding window is what exposes it: a restored state keeps the window alone, so the attention of an SWA layer reduces over a different cell layout and the continuation is not bi",
+    "published": "2026-10-17T14:04:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11711",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11711",
+    "description": "cuda : fix -Wtautological-compare in fattn vec dispatch ( #30519 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56950661 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu",
+    "published": "2026-10-17T13:07:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11710",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11710",
+    "description": "cuda : add grouped experts top-k fusion ( #29181 ) fuse grouped experts add tests hip fix add to graph_optimize apply suggestion from am17an hip fix fix hip fix fix fix fix gate on hip version instead Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/56948204 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x",
+    "published": "2026-10-17T12:49:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11709",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11709",
+    "description": "model : add Kolibri-1 (Aleph-Alpha) support ( #30673 ) model : add Kolibri-1 (Aleph-Alpha) support Kolibri-1 is a bilingual German/English MoE reasoning model with 78B parameters and 3.46B active per token: 50 layers, 384 routed experts plus one shared expert. Attention interleaves four sliding layers at a 513 window with one full layer. The sliding layers rotate with NeoX RoPE, the full layers are NoPE. GQA runs 48 query heads against 4 KV heads at head_dim 128 with a QK-RMSNorm, and every bloc",
+    "published": "2026-10-17T12:32:09Z",
+    "source": "llama.cpp Releases"
+  }
+]
