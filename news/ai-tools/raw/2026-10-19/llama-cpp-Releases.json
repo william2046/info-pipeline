@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11724: CUDA: fix shared-memory WAR hazard in flash_attn_ext_vec (#30573)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11724",
+    "description": "CUDA: fix KQ write-after-read race in flash_attn_ext_vec Assisted-by: ChatGPT CUDA: apply review suggestions for KQ sync comments Co-authored-by: Johannes Gäßler johannesg@5d6.de Co-authored-by: Johannes Gäßler johannesg@5d6.de",
+    "published": "2026-10-19T05:25:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11723",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11723",
+    "description": "hexagon: FLASH_ATTN_EXT improvements for longer context and SWA models ( #30731 ) hex-fa: support for masked block skipping to reduce DMA fetching hex-fa: finetuning the hmx->hvx crossover thresholds (boosting gemma-4) hex-fa: update hmx gate to account for mdev.count Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57234765 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Li",
+    "published": "2026-10-19T02:09:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11722",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11722",
+    "description": "hexagon: allow multistream FA ( #30218 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57232684 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libra",
+    "published": "2026-10-19T01:54:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11721",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11721",
+    "description": "cuda : fuse qwen4exp's SCALE -> SIGMOID -> SCALE -> hc_post chain ( #30602 ) Port of the Vulkan HC_POST_GATE fusion ( #29520 ). hc_combine builds the hc_post weights as 2 sigmoid(inject/hc); dsv4_hc_post_f32 now takes a gated template flag and computes scale_out sigmoid(scale_in*p) from the raw weights, so the chain runs as one kernel instead of four. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57168730 macOS/iOS: macOS Apple Silicon (arm64) macOS ",
+    "published": "2026-10-18T18:08:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11720",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11720",
+    "description": "ggml: support non-contiguous SUM (CPU, CUDA, Vulkan, WebGPU) ( #28851 ) ggml: support non-contiguous SUM (CPU, CUDA) tests: add non-contiguous SUM cases tests: SUM over non-contiguous views vulkan: support non-contiguous SUM webgpu: support non-contiguous SUM Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57164866 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubun",
+    "published": "2026-10-18T17:40:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11719",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11719",
+    "description": "ggml-cuda: fattn do not check oob if k_VKQ_max = (k_VKQ_max - nbatch_fa) ( #30572 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57114852 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 librari",
+    "published": "2026-10-18T11:14:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11718",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11718",
+    "description": "Restore ESIMD kernels on FFN path ( #30239 ) Reenable ESIMD on the FFN path Signed-off-by: Todd Malsbary todd.malsbary@intel.com Extend ESIMD fusion on FFN path to include Q8_0 Signed-off-by: Todd Malsbary todd.malsbary@intel.com Remove comment explicitly referencing ESIMD in test-backend-ops Signed-off-by: Todd Malsbary todd.malsbary@intel.com Signed-off-by: Todd Malsbary todd.malsbary@intel.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57072547",
+    "published": "2026-10-18T04:45:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11717",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11717",
+    "description": "hexagon: add support for hadamard MUL_MAT and GET_ROW for flat and tiled Q1_0 and Q2_0 ( #30627 ) hex-hadamard: add support for hadamard ops hex-mm: reduce pkt counts in the q8_1 quantizer and vec_dot_q1 hex-q1/q2: add support for flat and tiled GET_ROWS for Q1_0 and Q2_0 Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57059545 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleid",
+    "published": "2026-10-18T02:53:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11716",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11716",
+    "description": "hexagon: add support for Q1_0 and Q2_0 ( #30122 ) hexagon: add support for q1_0 quant hexagon: enable Q1_0 weights in the 2D HMX MUL_MAT path hex-q1: cleanup gates, generalize tiling and remove in-loop divs hex-tiling: document tiled formats in developer.md and update htp-tensor.h hex-q2: add support for Q2_0 hex-q2: remove stale asserts and speacial cases hex-mm: fix MUL_MAT_NX assumption about square tiling, Q1/Q2 have non-square tiles hex-q1/2: minor optimizations (unrolls/un-unrolls/...) hex",
+    "published": "2026-10-17T21:15:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11715",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11715",
+    "description": "ggml-cuda: HIP: use __builtin_amdgcn_perm for q1_0 unpacking ( #29927 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57002849 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu ar",
+    "published": "2026-10-17T19:37:43Z",
+    "source": "llama.cpp Releases"
+  }
+]
