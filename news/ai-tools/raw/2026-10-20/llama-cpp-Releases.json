@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11750",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11750",
+    "description": "sycl: fix compiler warnings - missing prototypes, dead code, extra se…",
+    "published": "2026-10-20T04:47:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11749: ui: hide the native clear button in SearchInput (#30719)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11749",
+    "description": "SearchInput already renders its own clear button. Hide the browser's native search cancel button to avoid showing both controls. Fixes #28627 Signed-off-by: aiqubits aiqubits@hotmail.com",
+    "published": "2026-10-20T03:58:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11748",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11748",
+    "description": "sycl : fix get_rows on reordered quantized weights ( #30430 ) Co-authored-by: Sam sam@garagellm.tail7dd858.ts.net Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57598742 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64",
+    "published": "2026-10-20T00:27:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11747",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11747",
+    "description": "mtmd : match the transformers Qwen-VL resize ( #30736 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57593886 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - ",
+    "published": "2026-10-20T00:02:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11744",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11744",
+    "description": "server: add --connect, allow p2p access to server outside LAN ( #28277 ) init wip wire it up make it clear that it's experimental add props.connect_code nits fix windows build server: do not advertise a connect code without the tunnel --connect-code on its own had no effect other than being served in /props, so the Web UI showed a remote access code that no tunnel was serving. Clear it when --connect is off, and say so once at startup. The teardown comment claimed that terminate() closes the chi",
+    "published": "2026-10-19T22:58:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11742",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11742",
+    "description": "hybrid dna tokenizer fixes ( #30825 ) vocab : support Carbon-14B HybridDNA tokenizer Carbon-14B auto-tags untagged DNA runs and uses N-padded tail tokens (tail=pad_n). Also strip whitespace inside tags and handle a stray like the HF tokenizer. convert : fix special tokens and merges for older Carbon models Carbon-500M/3B/8B don't register the Qwen added tokens and ship no tokenizer.json, so take the token types, merges and special ids from the base tokenizer. Update conversion/base.py Co-authore",
+    "published": "2026-10-19T21:34:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11741",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11741",
+    "description": "opencl: add cooperative-k dp4a gemm for q4_0, q4_k and q6_k ( #30741 ) opencl: add cooperative-k dp4a GEMM for q4_0 opencl: add cooperative-k dp4a GEMM for q4_k opencl: add cooperative-k dp4a GEMM for q6_k opencl: fix alignment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57533158 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) ",
+    "published": "2026-10-19T20:17:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11740",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11740",
+    "description": "opencl: add get_rows for i32, cpy for i32 and f32 ( #30756 ) opencl: support i32 GET_ROWS opencl: support i32 and f32 copy conversions Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57528236 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8",
+    "published": "2026-10-19T20:02:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11739",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11739",
+    "description": "jinja : implement unique filter ( #30819 ) jinja : implement unique filter cont : inline key_of cont : fix alignment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57486845 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu ",
+    "published": "2026-10-19T18:02:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11738",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11738",
+    "description": "server : fix swa checkpoint invalidation logic ( #30666 ) server : fix swa checkpoint invalidation logic Assisted-by: Claude add testcase that fails with > n_past, but works with > n_prefix Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/57466532 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan)",
+    "published": "2026-10-19T17:04:01Z",
+    "source": "llama.cpp Releases"
+  }
+]

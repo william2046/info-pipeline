@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.40.7",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0",
+    "description": "What's Changed openai: allow Responses effort on non-thinking models by @hoyyeva in #19010 llama-server: let llama-server infer the draft speculative type by @dhiltgen in #19064 mlx: add PPLX Decider v1.2 support by @dhiltgen in #19072 Full Changelog : v0.40.6...v0.40.7-rc0",
+    "published": "2026-10-18T00:28:57Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.6",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
+    "description": "What's Changed win: prevent orphaned runners by @dhiltgen in #18500 gguf: add the q2_0 tensor and file types by @jmorganca in #18967 Launch clef in Ollama's cloud by @jberg5 in #19036 use identifiers for --ask mode question keys by @jberg5 in #19041 Full Changelog : v0.40.5...v0.40.6-rc0",
+    "published": "2026-10-17T15:29:04Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.6-rc1: transfer: support proxies on registry redirect targets (#19065)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc1",
+    "description": "Behind a proxy, defer redirect-target DNS to the proxy; without one, keep the resolve-and-pin path. Trust default-registry/CDN hostnames with no local DNS. Fix a nil CancelFunc crash in blobDownload.release.",
+    "published": "2026-10-16T22:00:17Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.6-rc0: Merge pull request #19041 from ollama/jberg/clef-question-ids",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0",
+    "description": "use identifiers for --ask mode question keys",
+    "published": "2026-10-16T01:09:41Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.5",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.5",
+    "description": "NVIDIA Nemotron 3.5 Super NVIDIA Nemotron 3.5 Super is a vision-language model for coding, reasoning, tool use, and document understanding. It pairs a 120B-parameter hybrid Mamba-2/Transformer mixture-of-experts backbone (12B active per token) with a C-RADIO vision encoder, and supports tool calling, an on/off thinking mode, and context up to 1M tokens. ollama run nemotron-3.5-super A compact sibling, Nemotron 3.5 Bolt , distills Super down to 74B parameters (9B active) tuned to fit a 24 GB NVID",
+    "published": "2026-10-15T19:18:39Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.5-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc2",
+    "description": "llama.cpp: version bump b11669 ( #19032 )",
+    "published": "2026-10-15T16:11:12Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.5-rc1: New model... (#19030)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1",
+    "description": "ci: shorten Windows Vulkan build path Keep the nested shader-generator compiler probes below Windows path limits in checkouts with longer repository names. mlx: fix Nemotron bugs and support global scales Accept published Nemotron layer names while retaining legacy aliases, and fix layer-count inference and detached MTP quantization. Stabilize Mamba softplus, preserve FP32 vision normalization, and compile Mamba gate and norm scaling. Support per-expert F32 global scales and preserve activation-",
+    "published": "2026-10-15T14:28:26Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.5-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0",
+    "description": "MLX: version bump ( #18993 )",
+    "published": "2026-10-14T18:27:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
+    "description": "Decision models in the CLI Decision models can now be used directly from the terminal with ollama run — ask yes/no questions, classify text into labels, or score against a rubric: ollama run nimble --ask \"Is a refund being requested?\" < ticket.txt What's Changed Kev decision models are now supported by the MLX runner on Apple silicon ollama launch can now be used with usage credits without upgrading to a paid plan ollama launch codex now includes locally installed Ollama models in its model pick",
+    "published": "2026-10-14T02:23:26Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.4-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc2",
+    "description": "launch: allow usage credits without upgrading ( #18985 )",
+    "published": "2026-10-13T21:23:05Z",
+    "source": "Ollama Releases"
+  }
+]

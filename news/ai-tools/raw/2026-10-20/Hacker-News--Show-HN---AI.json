@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Americans Are Spending More Money to Drive Worse Cars",
+    "link": "https://www.theatlantic.com/technology/2026/10/americans-not-buying-electric-cars/689071/",
+    "description": "Article URL: https://www.theatlantic.com/technology/2026/10/americans-not-buying-electric-cars/689071/ Comments URL: https://news.ycombinator.com/item?id=50161505 Points: 13 # Comments: 3",
+    "published": "Tue, 20 Oct 2026 04:55:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs",
+    "link": "https://deathplanswitch.com/",
+    "description": "Hi HN, I'm Peter Bishop and I've been working in graphics and web tech for over 25yrs. I've recently launched Death Plan Switch to solve a major problem in my succession plan. What if I go missing or die? The right people are told and my business can continue to operate for my clients. There's a backstory to this project, I was hospitalised in 2012 and lost my business back then and I couldn't get the data to my technical 2IC in time without frustrating my clients. Death Plan Switch solves this ",
+    "published": "Tue, 20 Oct 2026 04:37:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "U.S. Supreme Court to review 1868 federal ban on home distilling of liquor",
+    "link": "https://www.staradvertiser.com/2026/10/19/breaking-news/u-s-supreme-court-to-review-1868-federal-ban-on-home-distilling-of-liquor/",
+    "description": "Article URL: https://www.staradvertiser.com/2026/10/19/breaking-news/u-s-supreme-court-to-review-1868-federal-ban-on-home-distilling-of-liquor/ Comments URL: https://news.ycombinator.com/item?id=50161207 Points: 28 # Comments: 25",
+    "published": "Tue, 20 Oct 2026 04:02:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Go will reject certificate chains containing eight distrusted SPKIs",
+    "link": "https://github.com/golang/go/issues/82345",
+    "description": "Article URL: https://github.com/golang/go/issues/82345 Comments URL: https://news.ycombinator.com/item?id=50160877 Points: 35 # Comments: 15",
+    "published": "Tue, 20 Oct 2026 03:05:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenBSD 8.0",
+    "link": "https://www.openbsd.org/80.html",
+    "description": "Article URL: https://www.openbsd.org/80.html Comments URL: https://news.ycombinator.com/item?id=50160494 Points: 126 # Comments: 33",
+    "published": "Tue, 20 Oct 2026 02:06:40 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenBSD 8.0: released Oct 20, 2026",
+    "link": "https://marc.info/?l=openbsd-misc&m=179245849770356&w=2",
+    "description": "Article URL: https://marc.info/?l=openbsd-misc&m=179245849770356&w=2 Comments URL: https://news.ycombinator.com/item?id=50160419 Points: 27 # Comments: 2",
+    "published": "Tue, 20 Oct 2026 01:53:51 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Developing Taste",
+    "link": "https://emilkowal.ski/ui/developing-taste",
+    "description": "Article URL: https://emilkowal.ski/ui/developing-taste Comments URL: https://news.ycombinator.com/item?id=50160135 Points: 29 # Comments: 24",
+    "published": "Tue, 20 Oct 2026 01:12:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "France's supermarket fridges were vulnerable online for months",
+    "link": "https://ipinfo.io/blog/france-fridges-hack",
+    "description": "Related: Hackers activate automatic defrosting in supermarket fridges across Europe - https://news.ycombinator.com/item?id=50055304 - Oct 2026 (1007 comments) Comments URL: https://news.ycombinator.com/item?id=50159616 Points: 89 # Comments: 71",
+    "published": "Tue, 20 Oct 2026 00:00:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+    "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+    "description": "Article URL: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions Comments URL: https://news.ycombinator.com/item?id=50159341 Points: 201 # Comments: 34",
+    "published": "Mon, 19 Oct 2026 23:22:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "How abliterated models can get you pwned",
+    "link": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
+    "description": "Article URL: https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned Comments URL: https://news.ycombinator.com/item?id=50159245 Points: 73 # Comments: 46",
+    "published": "Mon, 19 Oct 2026 23:08:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "An ad-free Android TV",
+    "link": "https://cretezy.com/2026/ad-free-android-tv",
+    "description": "Article URL: https://cretezy.com/2026/ad-free-android-tv Comments URL: https://news.ycombinator.com/item?id=50158942 Points: 98 # Comments: 34",
+    "published": "Mon, 19 Oct 2026 22:32:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+    "link": "https://bsd.network/@brynet/117407035545900963",
+    "description": "Article URL: https://bsd.network/@brynet/117407035545900963 Comments URL: https://news.ycombinator.com/item?id=50158138 Points: 133 # Comments: 28",
+    "published": "Mon, 19 Oct 2026 21:11:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
+    "link": "https://josie.lol/blog/linux-rtx-spark",
+    "description": "Article URL: https://josie.lol/blog/linux-rtx-spark Comments URL: https://news.ycombinator.com/item?id=50158100 Points: 212 # Comments: 99",
+    "published": "Mon, 19 Oct 2026 21:08:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "One Hash Bloom Filters",
+    "link": "https://calabro.io/ohbf",
+    "description": "Article URL: https://calabro.io/ohbf Comments URL: https://news.ycombinator.com/item?id=50157865 Points: 76 # Comments: 10",
+    "published": "Mon, 19 Oct 2026 20:50:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Evidence (YC S21) Is Hiring Software Engineers",
+    "link": "https://evidence.dev/jobs",
+    "description": "Article URL: https://evidence.dev/jobs Comments URL: https://news.ycombinator.com/item?id=50155172 Points: 0 # Comments: 0",
+    "published": "Mon, 19 Oct 2026 17:21:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Android apps running native on macOS",
+    "link": "https://github.com/kksimp/Mac.apk",
+    "description": "Article URL: https://github.com/kksimp/Mac.apk Comments URL: https://news.ycombinator.com/item?id=50154624 Points: 294 # Comments: 157",
+    "published": "Mon, 19 Oct 2026 16:45:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "MiniMax M3.1 Flash",
+    "link": "https://www.minimax.io/blog/minimax-m31f",
+    "description": "Article URL: https://www.minimax.io/blog/minimax-m31f Comments URL: https://news.ycombinator.com/item?id=50154540 Points: 423 # Comments: 184",
+    "published": "Mon, 19 Oct 2026 16:39:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+    "link": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+    "description": "https://public-inspection.federalregister.gov/2026-21447.pdf Comments URL: https://news.ycombinator.com/item?id=50154244 Points: 114 # Comments: 107",
+    "published": "Mon, 19 Oct 2026 16:16:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ukraine claims first drone evacuation of wounded soldier",
+    "link": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
+    "description": "Article URL: https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310 Comments URL: https://news.ycombinator.com/item?id=50153664 Points: 192 # Comments: 145",
+    "published": "Mon, 19 Oct 2026 15:31:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Wine ported to OpenBSD",
+    "link": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+    "description": "Article URL: https://marc.info/?l=openbsd-ports&m=179236125692175 Comments URL: https://news.ycombinator.com/item?id=50152307 Points: 537 # Comments: 178",
+    "published": "Mon, 19 Oct 2026 13:35:34 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

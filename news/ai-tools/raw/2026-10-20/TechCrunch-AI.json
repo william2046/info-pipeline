@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+    "link": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+    "description": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+    "published": "Tue, 20 Oct 2026 01:27:03 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+    "link": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+    "description": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
+    "published": "Mon, 19 Oct 2026 23:39:38 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+    "link": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+    "description": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
+    "published": "Mon, 19 Oct 2026 22:49:27 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+    "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+    "description": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+    "published": "Mon, 19 Oct 2026 22:04:28 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+    "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+    "description": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
+    "published": "Mon, 19 Oct 2026 20:09:24 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+    "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+    "description": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+    "published": "Mon, 19 Oct 2026 19:28:34 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+    "link": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+    "description": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
+    "published": "Mon, 19 Oct 2026 19:00:12 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+    "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+    "description": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+    "published": "Mon, 19 Oct 2026 18:49:04 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+    "link": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+    "description": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
+    "published": "Mon, 19 Oct 2026 18:37:27 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "People are using AI to make their smart TVs dumb again",
+    "link": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+    "description": "Fed up with ads, tracking, and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+    "published": "Mon, 19 Oct 2026 16:13:22 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+    "link": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+    "description": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.",
+    "published": "Mon, 19 Oct 2026 15:37:09 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+    "link": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+    "description": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+    "published": "Mon, 19 Oct 2026 12:30:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+    "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+    "description": "The company offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.”",
+    "published": "Sun, 18 Oct 2026 20:37:40 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Disney agrees to hire the majority of Character AI’s workforce",
+    "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+    "description": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+    "published": "Sun, 18 Oct 2026 16:30:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Meta removes language that raised scraping and AI training concerns",
+    "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+    "description": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+    "published": "Sat, 17 Oct 2026 21:31:32 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+    "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+    "description": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+    "published": "Sat, 17 Oct 2026 20:21:19 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+    "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+    "description": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer partnering with Anthropic.",
+    "published": "Sat, 17 Oct 2026 18:48:08 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "India becomes the latest country to report rogue AI agent activity",
+    "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+    "description": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+    "published": "Fri, 16 Oct 2026 17:52:24 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+    "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+    "description": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+    "published": "Fri, 16 Oct 2026 16:30:00 +0000",
+    "source": "TechCrunch AI"
+  },
+  {
+    "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+    "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+    "description": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+    "published": "Fri, 16 Oct 2026 16:30:00 +0000",
+    "source": "TechCrunch AI"
+  }
+]
