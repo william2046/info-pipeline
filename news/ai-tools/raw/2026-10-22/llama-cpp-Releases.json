@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11806: lora : support prism.hadamard folded weights (#30910)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11806",
+    "description": "lora : support prism.hadamard folded weights tests : remove LoRA test from test-llama-archs",
+    "published": "2026-10-22T05:12:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11804",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11804",
+    "description": "opencl: add F32-to-I32 ARGMAX ( #30897 ) opencl: add F32-to-I32 ARGMAX Assisted-by: OpenCode opencl: init to 0 to be consistent with cpu Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58459449 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu ar",
+    "published": "2026-10-22T01:30:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11803",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11803",
+    "description": "models : add Flint model (FlintForCausalLM) ( #30928 ) Add Flint model (FlintForCausalLM). Assisted by Codex cleanup one more Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58417268 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulka",
+    "published": "2026-10-21T22:34:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11802",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11802",
+    "description": "jinja : fix namespace attributes shadowed by dict methods ( #30941 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58411998 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64",
+    "published": "2026-10-21T22:17:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11801",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11801",
+    "description": "model: Add support for SenseNova U1 model ( #28919 ) model : add SenseNova U1 understanding support Add support for the dense SenseNova U1 understanding branch, including the U1.5-8B-MoT model. Add HF-to-GGUF conversion for NEOChatModel, excluding MoT generation tensors and concatenating temporal and spatial Q/K normalization weights. Register the sensenova_u1 GGUF architecture and custom spatial RoPE metadata. Implement temporal/spatial Q/K normalization with 4-axis RoPE. Keep U1-specific text ",
+    "published": "2026-10-21T21:59:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11800",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11800",
+    "description": "llama: create new fused op for QSA mask ( #30640 ) llama: create new fused op for QSA scoring enroll glm5.3-next too tests : initialize the remaining tensors in test_kpool_mask The harness sentinels were left uninitialized, so leftover memory could read as NaN and fail the NaN check. ggml: generalize the k-pool mask op into ggml_top_k_mask The k-pool mask op only covered the pooled QSA selection of qwen4exp and glm5-next, while the DSA models and the DeepSeek V4 CSA build the same top-k mask by ",
+    "published": "2026-10-21T21:18:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11799",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11799",
+    "description": "sycl: q8 fast dequant ( #30775 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58318564 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4 libraries Ubu",
+    "published": "2026-10-21T17:55:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11798",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11798",
+    "description": "jinja: support hexadecimal string escapes ( #30929 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58290954 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUD",
+    "published": "2026-10-21T16:40:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11797",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11797",
+    "description": "ggml-opencl : add IM2COL_3D support ( #30895 ) ggml-opencl : add IM2COL_3D support Assisted-by: OpenCode opencl: use same type for kernel and host opencl: fix for older adreno Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58277702 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s3",
+    "published": "2026-10-21T16:04:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11796",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11796",
+    "description": "mtmd: add state object for mtmd_gen ( #30902 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58202944 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4",
+    "published": "2026-10-21T12:39:27Z",
+    "source": "llama.cpp Releases"
+  }
+]

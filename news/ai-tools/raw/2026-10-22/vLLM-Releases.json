@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.32.1rc0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0",
+    "description": "[Doc][RL] Document the weight-transfer HTTP protocol for trainers wit…",
+    "published": "2026-10-18T09:26:56Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.32.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "description": "v0.32.0 Highlights This release features 814 commits from 363 contributors (121 new)! Structured decisions and generic parsers : the new POST /v1/systemone endpoint answers choice , noul and score questions over a structured state ( #59299 ), is served by default ( #60677 , #60696 ), and also runs on Cloudflare/clef-omni ( #61064 ), LiquidAI/d1-3B ( #60676 ) and DiffusionGemma ( #60466 ). The new hf tool and reasoning parser ( --tool-call-parser hf , --reasoning-parser hf ) reads the checkpoint'",
+    "published": "2026-10-18T10:23:45Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.32.0rc3: [Bugfix] Fix NaN output of the Mamba2 chunk scan kernel on sm90 (#61718)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3",
+    "description": "Signed-off-by: Vadim Gimpelson vadim.gimpelson@gmail.com Co-authored-by: Claude noreply@anthropic.com",
+    "published": "2026-10-17T00:25:45Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.32.0rc2",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc2",
+    "description": "[CI] Pin DeepSeek-V4.1-Flash-NVFP4 eval to its FP8-Engram revision (#…",
+    "published": "2026-10-15T09:50:46Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.32.0rc1: [Dependency] Update Humming and remove NVFP4 scale workaround (#61556)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc1",
+    "description": "Signed-off-by: jinzhen.ljz jinzhen.ljz@antgroup.com Co-authored-by: Codex codex@openai.com Co-authored-by: Misha Goin mgoin64@gmail.com Co-authored-by: Kevin H. Luu khluu000@gmail.com",
+    "published": "2026-10-14T23:29:34Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "proto-v0.6.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.6.0",
+    "description": "vllm-proto 0.6.0",
+    "published": "2026-10-14T23:57:02Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.32.0rc0: [HiSparse] Report host pool in KV cache capacity logs (#60285)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc0",
+    "description": "Signed-off-by: Matthew Bonanni mbonanni@redhat.com Co-authored-by: Claude Opus 5.5 noreply@anthropic.com",
+    "published": "2026-10-12T20:49:49Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "proto-v0.5.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.5.0",
+    "description": "Release vllm-proto 0.5.0",
+    "published": "2026-10-09T03:11:40Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.31.1rc0: [Metrics] Expose cached prompt tokens by cache tier (#56318)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.31.1rc0",
+    "description": "Signed-off-by: Cam Quilici cjquilici@gmail.com Signed-off-by: Cam Quilici cameron@semianalysis.com Co-authored-by: Cam Quilici cameron@semianalysis.com Co-authored-by: Nick Hill nickhill123@gmail.com Co-authored-by: Yifan Qiao yifanqiao@inferact.ai",
+    "published": "2026-10-06T18:52:05Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.31.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "description": "v0.31.0 Highlights This release features 717 commits from 307 contributors (96 new)! DeepSeek-V4.1-Flash performance : FlashMLA mega attention with the V4.1 NVFP4 compressed KV cache is now the SM100 default ( #56935 ); DeepGEMM sparse MQA logits for the indexer ( #56254 ) and Mega-Gate fusing the gate GEMM with expert selection ( #56266 ); decoder boundaries fuse the TP all-reduce, mHC input preparation ( #57643 ) and the MoE finalize ( #58586 ); a fused small-batch WO-A with inverse RoPE and M",
+    "published": "2026-10-06T06:49:35Z",
+    "source": "vLLM Releases"
+  }
+]

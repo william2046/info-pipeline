@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.40.9",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
+    "description": "What's Changed llama.cpp update Full Changelog : v0.40.8...v0.40.9-rc0",
+    "published": "2026-10-22T01:33:10Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.9-rc0: ci: switch to released WoA CTK (#19185)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc0",
+    "description": "We were still using a pre-release, and the download site is flaky, so lets get current on the latest CUDA Toolkit for WoA support.",
+    "published": "2026-10-21T20:12:06Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.8",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
+    "description": "Recursive Flint Flint brings Recursive's coding model to Ollama. It is designed for the work coding agents do across a repository: understanding unfamiliar code, tracing bugs, implementing features, and adding tests. Reasoning, multi-turn tool use, and a 262K-token context window support longer tasks across files and tool interactions. Flint is an Apache 2.0-licensed, 40B-parameter mixture-of-experts model with approximately 2.5B parameters active per token. In its release evaluations , Recursiv",
+    "published": "2026-10-21T21:46:35Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.8-rc0: mlx: add Flint model support (#19181)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0",
+    "description": "Preserve source tool JSON alongside decoded API values so Flint can retain numeric types and schema order in prompts. Existing API marshaling is unchanged. Assemble ModelOpt expert banks during safetensors import, and reject direct Flint NVFP4 creation before conversion. Other models retain their existing import and quantization paths. Add optional learned sinks and device causal masks to shared MLX attention. Existing callers retain the no-sink and host-mask paths; Flint opts into the new behav",
+    "published": "2026-10-21T14:45:50Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.7",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.7",
+    "description": "What's Changed pplx-decider is a 27B decision model from Perplexity, fine-tuned from Qwen3.8-27B Continuing an OpenAI-compatible Responses conversation no longer fails when switching between models with and without thinking, or when the history contains another provider's compaction items Fixed streaming Responses requests where client tool calls (e.g. Codex with web search) could emit before open reasoning items, producing misordered/duplicate tool call events Requests routed to remote models a",
+    "published": "2026-10-21T04:01:19Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.7-rc1: mlx: deduplicate CUDA runtime payloads (#17956)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1",
+    "description": "Deduplicate MLX CUDA runtime payloads Move CUDA libraries shared by the GGML and MLX backends into the sibling CUDA payload, and teach in-process and subprocess MLX loading to resolve that packaged dependency directory. Keep MLX-private libraries and JIT headers in the MLX overlay, include the full OpenBLAS Fortran runtime closure, and verify those dependencies in release packaging. address comments",
+    "published": "2026-10-20T21:15:15Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.7-rc0: mlx: add PPLX Decider v1.2 support (#19072)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0",
+    "description": "Implement the Qwen3.5-backed decision scorer with noncausal attention, the publisher readout, image handling, and System One prompt encoding.",
+    "published": "2026-10-17T21:45:55Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.6",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
+    "description": "What's Changed win: prevent orphaned runners by @dhiltgen in #18500 gguf: add the q2_0 tensor and file types by @jmorganca in #18967 Launch clef in Ollama's cloud by @jberg5 in #19036 use identifiers for --ask mode question keys by @jberg5 in #19041 Full Changelog : v0.40.5...v0.40.6-rc0",
+    "published": "2026-10-17T15:29:04Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.6-rc1: transfer: support proxies on registry redirect targets (#19065)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc1",
+    "description": "Behind a proxy, defer redirect-target DNS to the proxy; without one, keep the resolve-and-pin path. Trust default-registry/CDN hostnames with no local DNS. Fix a nil CancelFunc crash in blobDownload.release.",
+    "published": "2026-10-16T22:00:17Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.6-rc0: Merge pull request #19041 from ollama/jberg/clef-question-ids",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0",
+    "description": "use identifiers for --ask mode question keys",
+    "published": "2026-10-16T01:09:41Z",
+    "source": "Ollama Releases"
+  }
+]

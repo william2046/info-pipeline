@@ -1,0 +1,142 @@
+[
+  {
+    "title": "I can't believe PowerShell is good",
+    "link": "https://www.spacebar.news/powershell-is-actually-good/",
+    "description": "Article URL: https://www.spacebar.news/powershell-is-actually-good/ Comments URL: https://news.ycombinator.com/item?id=50190959 Points: 37 # Comments: 17",
+    "published": "Thu, 22 Oct 2026 03:47:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+    "link": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+    "description": "Article URL: https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf Comments URL: https://news.ycombinator.com/item?id=50190455 Points: 89 # Comments: 54",
+    "published": "Thu, 22 Oct 2026 02:30:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+    "link": "https://simedw.com/2026/10/21/world-model-terminal/",
+    "description": "Article URL: https://simedw.com/2026/10/21/world-model-terminal/ Comments URL: https://news.ycombinator.com/item?id=50190363 Points: 33 # Comments: 8",
+    "published": "Thu, 22 Oct 2026 02:18:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "LLM agents play Pokemon showdown",
+    "link": "https://olivergrabner.com/research/pokemon/",
+    "description": "Article URL: https://olivergrabner.com/research/pokemon/ Comments URL: https://news.ycombinator.com/item?id=50190334 Points: 24 # Comments: 11",
+    "published": "Thu, 22 Oct 2026 02:13:48 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "mitmproxy adds --emudhra option",
+    "link": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+    "description": "Article URL: https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b Comments URL: https://news.ycombinator.com/item?id=50189232 Points: 365 # Comments: 95",
+    "published": "Wed, 21 Oct 2026 23:51:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "There isn't an easy exploit for this PHP vulnerability",
+    "link": "https://eliastaylor.com/noexploit/",
+    "description": "Article URL: https://eliastaylor.com/noexploit/ Comments URL: https://news.ycombinator.com/item?id=50188948 Points: 348 # Comments: 158",
+    "published": "Wed, 21 Oct 2026 23:13:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Postgres recovery_prefetch can cause outages",
+    "link": "https://ardentperf.com/2026/10/20/postgres-recovery_prefetch-considered-harmful-and-causing-outages/",
+    "description": "Article URL: https://ardentperf.com/2026/10/20/postgres-recovery_prefetch-considered-harmful-and-causing-outages/ Comments URL: https://news.ycombinator.com/item?id=50188614 Points: 13 # Comments: 0",
+    "published": "Wed, 21 Oct 2026 22:33:08 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Security Disclosure",
+    "link": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+    "description": "Article URL: https://blog.railway.com/p/security-disclosure-wednesday-october-21st Comments URL: https://news.ycombinator.com/item?id=50188228 Points: 392 # Comments: 230",
+    "published": "Wed, 21 Oct 2026 21:58:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Rust Style Guide",
+    "link": "https://google.github.io/styleguide/rustguide.html",
+    "description": "Article URL: https://google.github.io/styleguide/rustguide.html Comments URL: https://news.ycombinator.com/item?id=50186010 Points: 265 # Comments: 145",
+    "published": "Wed, 21 Oct 2026 19:11:57 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "GitLab critical patch release",
+    "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+    "description": "Article URL: https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/ Comments URL: https://news.ycombinator.com/item?id=50185869 Points: 295 # Comments: 71",
+    "published": "Wed, 21 Oct 2026 19:01:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+    "link": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+    "description": "https://nmdoj.gov/press-release/the-new-mexico-department-of... Comments URL: https://news.ycombinator.com/item?id=50184820 Points: 470 # Comments: 292",
+    "published": "Wed, 21 Oct 2026 17:45:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+    "link": "https://github.com/omnara-ai/omnara",
+    "description": "Hey all, Kartik from Omnara ( https://omnara.com ) here. We're building an open-source API for running durable agents. You create an agent with an API call, and Omnara runs the agent loop, gives the agent sandboxes to run commands in, and handles secrets, permissions, and RBAC. Each agent's state is stored in Postgres, so agents survive restarts and cost nothing while idle. You can message them and stream their events over the API. You may remember us from our early days, when we made a remote-c",
+    "published": "Wed, 21 Oct 2026 16:44:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Today's PHP security release, and how we're strengthening security",
+    "link": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+    "description": "Related ongoing thread: PHP 8.2.35 - https://news.ycombinator.com/item?id=50180873 (links to more at https://news.ycombinator.com/item?id=50184935 ) Comments URL: https://news.ycombinator.com/item?id=50182987 Points: 705 # Comments: 346",
+    "published": "Wed, 21 Oct 2026 15:48:56 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
+    "link": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
+    "description": "Article URL: https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488 Comments URL: https://news.ycombinator.com/item?id=50182526 Points: 182 # Comments: 91",
+    "published": "Wed, 21 Oct 2026 15:20:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+    "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+    "description": "https://patchtheplanet.org/ Comments URL: https://news.ycombinator.com/item?id=50181175 Points: 247 # Comments: 166",
+    "published": "Wed, 21 Oct 2026 14:03:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+    "link": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+    "description": "Article URL: https://duckdb.org/2026/10/21/announcing-duckdb-200 Comments URL: https://news.ycombinator.com/item?id=50181136 Points: 389 # Comments: 50",
+    "published": "Wed, 21 Oct 2026 14:01:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+    "link": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+    "description": "Article URL: https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/ Comments URL: https://news.ycombinator.com/item?id=50181114 Points: 472 # Comments: 160",
+    "published": "Wed, 21 Oct 2026 14:00:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "PHP 8.2.35",
+    "link": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+    "description": "Related ongoing thread: Today's PHP security release, and how we're strengthening security - https://news.ycombinator.com/item?id=50182987 Comments URL: https://news.ycombinator.com/item?id=50180873 Points: 993 # Comments: 535",
+    "published": "Wed, 21 Oct 2026 13:45:33 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OpenAI models are coming to Google Cloud",
+    "link": "https://openai.com/index/openai-models-google-cloud/",
+    "description": "Article URL: https://openai.com/index/openai-models-google-cloud/ Comments URL: https://news.ycombinator.com/item?id=50180079 Points: 273 # Comments: 112",
+    "published": "Wed, 21 Oct 2026 12:53:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
+    "link": "https://alterauth.com/",
+    "description": "Hi HN! We’re Srikar and Kevan, founders of Alter – https://alterauth.com/ . We’re building access control for agents that can take actions on behalf of multiple users. If you’ve built an internal agent people use through Slack, you may have experienced this scenario: everyone signs in with their own account, but the agent connects to the CRM or billing system with one shared API key, so the agent can do anything that the key can do. User-level authentication in Slack does nothing to control what",
+    "published": "Wed, 21 Oct 2026 06:42:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
