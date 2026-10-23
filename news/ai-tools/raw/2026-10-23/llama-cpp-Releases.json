@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11833: vocab : fix Nemotron-3.5-Embed tokenization (#30974)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11833",
+    "description": "vocab : fix Nemotron-3.5-Embed tokenization Update src/llama-vocab.h Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co rename Update src/llama-vocab.cpp Co-authored-by: Daniel Bevenius daniel.bevenius@gmail.com Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Daniel Bevenius daniel.bevenius@gmail.com",
+    "published": "2026-10-23T05:31:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11832",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11832",
+    "description": "hexagon: Op Fusion refactoring, optimizations and new fusions like `B…",
+    "published": "2026-10-23T04:05:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11831",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11831",
+    "description": "sycl: Replace host waits in fattn-mkl with explicit dependencies ( #30 …",
+    "published": "2026-10-23T02:43:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11830: sycl: Add graph record and replay (#28725)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11830",
+    "description": "Signed-off-by: Todd Malsbary todd.malsbary@intel.com",
+    "published": "2026-10-23T02:39:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11829",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11829",
+    "description": "server: Substitute rerank placeholder from the original template only. ( #30864 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58867720 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries",
+    "published": "2026-10-22T23:46:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11828",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11828",
+    "description": "server: realtime API: send complete after committed audio drains ( #30994 ) server: realtime API: send complete after committed audio drains server: realtime API: complete a commit at its end row Completion is triggered when the stream runs dry, which is a timing proxy: audio appended while the tail drains leaks into the committed item, a final commit before the drain merges both items, and back to back commits collapse into one. mtmd_audio_stream_flush() records the row count at the end of the ",
+    "published": "2026-10-22T23:29:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11827",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11827",
+    "description": "opencl: add depthwise conv2d ( #30900 ) opencl: add Adreno depthwise conv2d Assisted-by: OpenCode opencl: use local program for depthwise conv2d Assisted-by: OpenCode opencl: use singed type for args Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58789398 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubun",
+    "published": "2026-10-22T19:41:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11826",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11826",
+    "description": "mtmd : add MiniCPM-OCR 1.0 support ( #30979 ) Signed-off-by: tc-mb tianchi_cai@icloud.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58775194 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 l",
+    "published": "2026-10-22T19:00:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11824",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11824",
+    "description": "Fix !30793",
+    "published": "2026-10-22T14:00:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11823",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11823",
+    "description": "glm5 : optimize inputs ( #30932 ) glm5 : avoid sel_mask_2d input cont : avoid new_pool_flat input Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/58756023 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUD",
+    "published": "2026-10-22T18:05:51Z",
+    "source": "llama.cpp Releases"
+  }
+]

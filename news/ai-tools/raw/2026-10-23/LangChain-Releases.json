@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-core==1.7.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0",
+    "description": "Changes since langchain-core==1.6.13 release(core): 1.7.0 ( #41418 ) feat(core): emit tool-call-delta for streamed tool-call args ( #41257 ) Notes Tool-call args now stream as tool-call-delta slices instead of block-delta snapshots of the args so far. If you read raw stream events and their block-delta args mid-stream, read tool-call-delta instead. .tool_calls.get() and .output are unchanged. To keep snapshots, pin langchain-core<1.7 . Since 1.6.13, iterating ChatModelStream.tool_calls yields ea",
+    "published": "2026-10-22T17:48:17Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-perplexity==1.4.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.2",
+    "description": "Changes since langchain-perplexity==1.4.1 release(perplexity): 1.4.2 ( #41392 ) chore(model-profiles): refresh model profile data ( #41354 ) chore(deps): bump certifi from 2025.8.3 to 2026.10.19 in /libs/partners/perplexity ( #41377 ) fix(perplexity): preserve Agent API search results ( #41349 ) fix: fix dependencies in some partner packages ( #41266 ) chore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/perplexity ( #40947 ) chore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/part",
+    "published": "2026-10-21T17:31:06Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.13",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.13",
+    "description": "Changes since langchain-core==1.6.12 release(core): 1.6.13 ( #41397 ) chore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/core ( #41373 ) feat(core,langchain,standard-tests): read tool-call-delta in stream consumers ( #41246 )",
+    "published": "2026-10-21T20:43:50Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.7",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.7",
+    "description": "Changes since langchain==1.4.6 chore(langchain): update lockfile ( #41402 ) release(langchain): 1.4.7 ( #41401 ) chore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/langchain_v1 ( #41370 ) feat(core,langchain,standard-tests): read tool-call-delta in stream consumers ( #41246 ) chore(deps): bump aiohttp from 3.14.4 to 3.14.5 in /libs/langchain_v1 ( #41360 ) chore(deps): bump aiohttp from 3.14.3 to 3.14.4 in /libs/langchain_v1 ( #41330 ) chore(deps): bump mcp from 2.1.1 to 2.2.0 in /l",
+    "published": "2026-10-21T21:39:18Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.12",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.12",
+    "description": "Changes since langchain-core==1.6.11 release(core): 1.6.12 ( #41277 ) fix(core): propagate extras on content-block-start events ( #41272 )",
+    "published": "2026-10-16T19:28:46Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.11",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.11",
+    "description": "Changes since langchain-core==1.6.10 release(core): 1.6.11 ( #41260 ) feat(core): accept address inside LangChainTracer ( #41006 )",
+    "published": "2026-10-15T18:32:37Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.7.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.2",
+    "description": "Changes since langchain-openai==1.7.1 release(openai): 1.7.2 ( #41245 ) fix(openai): keep Responses stream items on one block when output_index drifts ( #41121 )",
+    "published": "2026-10-14T13:51:18Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.6",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.6",
+    "description": "Changes since langchain==1.4.5 release(langchain): 1.4.6 ( #41247 ) feat(langchain): add opt-in per-call interrupts to HITL middleware ( #41062 )",
+    "published": "2026-10-14T17:28:08Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.7.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.1",
+    "description": "Changes since langchain-openai==1.7.0 release(openai): 1.7.1 ( #41222 ) feat(core,anthropic,openai): declare mid-conversation support in model profiles ( #41180 )",
+    "published": "2026-10-12T14:33:11Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.10",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.10",
+    "description": "Changes since langchain-core==1.6.9 release(core): 1.6.10 ( #41220 ) feat(core,anthropic,openai): declare mid-conversation support in model profiles ( #41180 )",
+    "published": "2026-10-12T14:14:05Z",
+    "source": "LangChain Releases"
+  }
+]
