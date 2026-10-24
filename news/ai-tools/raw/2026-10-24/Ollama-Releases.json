@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.40.11",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0",
+    "description": "What's Changed qwen3coder: preserve literal function closing tags in parameters by @hoyyeva in #19228 launch: use allocated context for OpenCode by @hoyyeva in #19193 decision: allow empty state for vllm-d3 by @SynapShift in #19173 llama.cpp: version bump b11845 by @dhiltgen in #19250 mlxrunner: spell out symbols, numbers and links for Phonon by @jmorganca in #19234 voice: add voice catalog for Phonon by @jmorganca in #19242 New Contributors @SynapShift made their first contribution in #19173 Fu",
+    "published": "2026-10-24T00:30:13Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.10",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.10",
+    "description": "NVIDIA Nemotron 3.5 Bolt E4B Nemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window. The model includes a DFlash draft for speculative decoding. ollama run nemotron-3.5-bolt:e4b Full Changelog : v0.40.9...v0.40.10",
+    "published": "2026-10-23T17:17:19Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.10-rc0: Update gemma renderers (#19241)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
+    "description": "renderers: add gemma4-nemotron renderer Add a Gemma 4 renderer variant that renders assistant content before its tool calls rather than after the tool responses. Models opt in with RENDERER gemma4-nemotron; gemma4 auto-detection is unchanged. Adds the corresponding chat template as a test fixture for Jinja parity checks. mlx: support Gemma 4 targets with DFlash drafts Load a draft-owned output head when its config requires one, while preserving the target-head path used by existing DFlash models",
+    "published": "2026-10-23T14:12:11Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.9",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
+    "description": "Speech Ollama can now generate speech with Phonon on Apple Silicon. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint. ollama run phonon \" Hello from Ollama. \" d3 decision models d3 brings vLLM Semantic Router's decision models to Ollama. Give a model text, structured state, or an image, and ask it to classify, answer yes or no, or score options with probabilities. The family includes 2",
+    "published": "2026-10-23T02:12:47Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.9-rc3: Support GA Gradium Phonon checkpoints (#19227)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3",
+    "description": "Replace the prerelease checkpoint path with Gradium's GA format, including default-voice import and speech conditioning. Set the 0.40.9 minimum, update the speech docs, and test import, inference setup, and rejection of the old checkpoint.",
+    "published": "2026-10-22T22:51:43Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.9-rc2: flint: fix replies with thinking disabled (#19216)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
+    "description": "flint: fix replies with thinking disabled Close the thinking section when think:false so Flint answers directly. Default and think:true prompts are unchanged. update template",
+    "published": "2026-10-22T18:38:27Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.9-rc1",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
+    "description": "llama.cpp update ( #19194 )",
+    "published": "2026-10-22T00:13:25Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.9-rc0: ci: switch to released WoA CTK (#19185)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc0",
+    "description": "We were still using a pre-release, and the download site is flaky, so lets get current on the latest CUDA Toolkit for WoA support.",
+    "published": "2026-10-21T20:12:06Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.8",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
+    "description": "Recursive Flint Flint brings Recursive's coding model to Ollama. It is designed for the work coding agents do across a repository: understanding unfamiliar code, tracing bugs, implementing features, and adding tests. Reasoning, multi-turn tool use, and a 262K-token context window support longer tasks across files and tool interactions. Flint is an Apache 2.0-licensed, 40B-parameter mixture-of-experts model with approximately 2.5B parameters active per token. In its release evaluations , Recursiv",
+    "published": "2026-10-21T21:46:35Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.8-rc0: mlx: add Flint model support (#19181)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0",
+    "description": "Preserve source tool JSON alongside decoded API values so Flint can retain numeric types and schema order in prompts. Existing API marshaling is unchanged. Assemble ModelOpt expert banks during safetensors import, and reject direct Flint NVFP4 creation before conversion. Other models retain their existing import and quantization paths. Add optional learned sinks and device causal masks to shared MLX attention. Existing callers retain the no-sink and host-mask paths; Flint opts into the new behav",
+    "published": "2026-10-21T14:45:50Z",
+    "source": "Ollama Releases"
+  }
+]

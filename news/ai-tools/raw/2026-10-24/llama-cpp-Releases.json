@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11850: mtmd : add Soprano TTS support (#28607)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11850",
+    "description": "Add Soprano-80M and Soprano-1.1-80M ( https://huggingface.co/ekwek/Soprano-1.1-80M ) as an audio generation model: a Qwen3 backbone plus a Vocos decoder that runs as a gen-only mmproj. convert: detect Soprano checkpoints and export the backbone as qwen3 and the decoder.pth Vocos weights as the mmproj vocab: add the soprano pre-tokenizer (lowercase, whitespace collapse, per-digit split, [UNK] fallback) mtmd: add the Vocos graph and ISTFT, allow loading a gen-only mmproj for Soprano and include th",
+    "published": "2026-10-23T23:09:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11849",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11849",
+    "description": "hexagon: add SGN op ( #30346 ) hexagon : add SGN support Assisted-by: OpenCode hexagon : optimize SGN with sign bit Assisted-by: OpenCode hex-sgn: add f16 hex-unary: update SGN to use generic unary_colapse and relax colapse checks to apply to more conditions hex-unary: improve dims colapsing and run it in the host-side solver Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59323916 macOS/iOS: macOS ",
+    "published": "2026-10-24T02:59:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11848",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11848",
+    "description": "common : allow concurrent downloads across processes ( #29312 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59320287 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x6",
+    "published": "2026-10-24T02:38:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11847",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11847",
+    "description": "hip: fix bf16 WMMA operand vector type for gfx11/gfx12 ( #30885 ) The __builtin_amdgcn_wmma_f32_16x16x16_bf16_w32 (and _gfx12) builtins take their A/B operands as vectors of short (_ExtVector<16, short> / _ExtVector<8, short>), not __bf16. Declaring the fragments as ext_vector_type(N) __bf16 fails to compile: error: cannot initialize a parameter of type 'short attribute ((ext_vector_type(16)))' with an lvalue of type 'const bf16x16_t' (vector of 16 '__bf16' values) short and __bf16 are both 16-b",
+    "published": "2026-10-24T02:22:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11846",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11846",
+    "description": "ggm-cuda: Enforce DP4A MMQ tile height multiple of warp size ( #30837 ) Added static assertion to enforce DP4A MMQ tile height requirement. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59291731 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA",
+    "published": "2026-10-24T00:05:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11845: CUDA: fix build after chunked CUDA graphs (#30804) (#31053)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11845",
+    "description": "CUDA: fix build after chunked CUDA graphs ( #30804 ) Apply suggestion from @JohannesGaessler Co-authored-by: Johannes Gäßler johannesg@5d6.de Fix newlines in common.cuh Co-authored-by: Johannes Gäßler johannesg@5d6.de",
+    "published": "2026-10-23T18:47:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11844",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11844",
+    "description": "allows the usage of 4-10 gpus for stepfun and laguna in tensor paral…",
+    "published": "2026-10-23T17:56:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11843: qwen4exp : build the QSA selection without the kq_mask (#30965)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11843",
+    "description": "qwen4exp : build the QSA selection without the kq_mask clean lang qwen4exp : reshape the fused QSA selection to the kq_mask streams ggml_top_k_mask with a single keep row returns [n_kv, n_tokens], while build_attn_qsa expects the kq_mask layout [n_kv, n_tokens/n_stream, 1, n_stream]. With several streams the shape assert failed at graph reserve. test the QSA optimization reword update build_fused_top_k_mask instead of handwiring simplify keep il at the end for consistency",
+    "published": "2026-10-23T17:49:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11841",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11841",
+    "description": "CUDA: chunk graphs to amortize graph launch ( #30804 )",
+    "published": "2026-10-23T16:26:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11840",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11840",
+    "description": "hexagon: add CEIL op ( #31006 ) hex-ceil: add CEIL(f32) op hex-ceil: add f16 version hex-ops: update supported ops hex-ops: update docs with supported ops Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59163430 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (",
+    "published": "2026-10-23T16:51:13Z",
+    "source": "llama.cpp Releases"
+  }
+]
