@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11870",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11870",
+    "description": "model: DSV4.1 flash ( #31086 ) model : add DeepSeek-V4.1-Flash (deepseek41) deepseek41 : remove MXFP8, convert the Engram table to BF16 deepseek41 : compute the compressed-KV read layers once in the cache deepseek41 : use get_cells() for the shared-history check, drop llama_kv_cache::seq_pos_tok_le deepseek41 : gather the Engram rows in-graph like qwen4exp, drop the host gather deepseek41 : keep the Engram hash constants in hparams.ple_*, one module per Engram layer deepseek41 : drop the LLAMA_D",
+    "published": "2026-10-25T02:18:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11869",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11869",
+    "description": "jinja : fix select and selectattr argument handling ( #31059 ) jinja : fix select and selectattr argument handling jinja : address review feedback jinja : Simplified test attr Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59481708 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 ",
+    "published": "2026-10-24T21:21:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11868",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11868",
+    "description": "hexagon: KV-head team split for multicore HMX flash attention ( #31055 ) hexagon: KV-head team split for HMX flash attention in multicore hexagon: merge FA_HEAD_SPLIT and FA_SPLIT into single GGML_HEXAGON_FA_SPLIT flag 0 = off (token-split only); 1 = head-split, plus team-split when n_kv_heads < N_cores so stranded cores still participate (e.g. gemma-4 with 2 KV heads on 4 cores). Where heads divide evenly across cores, plain head-split is used. Website: https://llama.app Attestations: https://g",
+    "published": "2026-10-24T20:27:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11867",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11867",
+    "description": "server: refactor server entrypoint ( #31113 ) server_role cont Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59471574 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA",
+    "published": "2026-10-24T20:15:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11866",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11866",
+    "description": "metal : remove mul_mm_id amax rescaling ( #30924 ) The src1 power-of-two rescale in kernel_mul_mm_id is superseded by the per expert-token amax scaling done in the compute graph (ref: #30861 ), which keeps the MoE down-projection activations within f16 range before the op runs. Drop the two-stage reduction kernels, their scratch buffer and the GGML_PREC_F32 dispatch added in #26223 , as well as the test cases that drive MUL_MAT_ID src1 out of f16 range. Assisted-by: pi:llama.cpp/ggml-org/Qwen3.8",
+    "published": "2026-10-24T19:55:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11865",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11865",
+    "description": "rpc : add bounds check in rdma_recv ( #30399 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59465966 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUDA 13.4",
+    "published": "2026-10-24T19:34:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11861",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11861",
+    "description": "minimax-m3 : forward quant scales to the graph (fixes #31063 ) ( #31097 ) The generic scale pass in llama-model.cpp loads the per-expert NVFP4 scale2 tensors (ffn_{up,gate,down}_exps_s) and the per-tensor MXFP8 scales for the dense FFN and the shared expert, but minimax-m3.cpp never forwarded any of them to the graph. build_moe_ffn() defaults these to nullptr, so build_lora_mm_id() skipped its w_s branch entirely and the routed-expert weights came out global_scale times too large, swamping the r",
+    "published": "2026-10-24T19:17:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11860",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11860",
+    "description": "tests : fix test-llama-context for large n_batch ( #31083 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59459673 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13",
+    "published": "2026-10-24T18:59:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11858",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11858",
+    "description": "llama : deny -sm tensor for arches with moe amax rescaling ( #31081 ) The amax POOL_1D reduction spans the whole matmul row, so a device cannot compute it from an axis-0 split. The Meta split-state case reported MIRRORED, which gives each device a partial max of its own slice. Drop that case and deny -sm tensor for the arches which build the amax graph, see [TAG_MOE_AMAX_SCALE]. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) Website: https://llama.app Attest",
+    "published": "2026-10-24T18:41:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11857",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11857",
+    "description": "ggml : allow MUL_MAT_ID -1 index to skip the computation ( #26631 ) ggml : allow MUL_MAT_ID -1 index to skip the computation nits update vulkan code ggml-webgpu: ensure all threads reach workgroup barriers in mul_mat_id_vec (cherry picked from commit d8a4b9e ) fix cuda openvino exclude CUDA from this PR add TODO tag Co-authored-by: yomaytk yoshimura.masashi.frbs@gmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59453793 macOS/iOS: macOS Apple S",
+    "published": "2026-10-24T18:23:32Z",
+    "source": "llama.cpp Releases"
+  }
+]
