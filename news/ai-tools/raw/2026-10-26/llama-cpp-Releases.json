@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11889",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11889",
+    "description": "cuda : use std::string instead of VLA for archName ( #30463 ) cuda : use std::string instead of VLA for archName Modernize the code (old C style) and fix the following warnings: ggml/src/ggml-cuda/ggml-cuda.cu:180:19: warning: variable length arrays in C++ are a Clang extension [-Wvla-cxx-extension] 180 | char archName[archLen + 1]; | ^~~~~~~~~~~ ggml/src/ggml-cuda/ggml-cuda.cu:180:19: note: read of non-const variable 'archLen' is not allowed in a constant expression ggml/src/ggml-cuda/ggml-cuda",
+    "published": "2026-10-25T23:48:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11888",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11888",
+    "description": "common, grammar: add recursive depth limit, make it a requirement ( #31153 ) common, grammar: add recursive depth limit, make it a requirement catch more recursive functions common : tidy up peg parser changes grammar : reject candidates in a loop, without a depth limit The depth limit in llama_grammar_reject_candidates_for_stack counted the code points of a vocab token, so any token of 256 chars or more was always rejected under a grammar, such as the 512-space token of GLM-4.7-Flash or the lon",
+    "published": "2026-10-25T23:31:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11887",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11887",
+    "description": "tests : adjust default threads for test-llama-context ( #31157 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59670438 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CU",
+    "published": "2026-10-25T18:38:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11886",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11886",
+    "description": "qwen: merge tensors on convert ( #31028 ) qwen: merge tensors on convert convert: use generator functions qwen4exp: remove conts and pre-scale Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59667111 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - C",
+    "published": "2026-10-25T18:20:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11884",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11884",
+    "description": "llama: fix exhausting CPU and MEM caused by dry sequence breaker ( #31035 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59663486 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubunt",
+    "published": "2026-10-25T17:59:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11883",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11883",
+    "description": "llama-quant : fix 4D tensor quantization using ggml_nrows() and name-based expert detection ( #30820 ) llama-quant : fix quantizing 4D tensors nrows_total was ne[1]*ne[2], so for a 4D tensor only the first ne[2] slices were quantized and the rest of the rows were dropped. Use ggml_nrows(tensor) to count all rows, including ne[3]. Fixes #29916 llama-quant : detect expert tensors by name and fix imatrix size for 4D tensors The MXFP4_MOE path used ne[2] > 1 to detect MoE expert tensors. This is wro",
+    "published": "2026-10-25T17:29:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11882",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11882",
+    "description": "grammar: limit recursion depth to prevent stack overflow ( #29495 ) ( #29755 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59655793 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ub",
+    "published": "2026-10-25T17:08:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11881",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11881",
+    "description": "llama : respect no_alloc in all memory caches ( #31087 ) llama : respect no_alloc in memory caches Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) llama : TODO: move no_alloc out of llama_hparams Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) llama : TODO: move no_alloc out of llama_hparams Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) Web",
+    "published": "2026-10-25T16:51:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11880",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11880",
+    "description": "tools : reject truncated GGUF tensor data in merge ( #31044 ) Co-authored-by: Shreya Agrawal shreyaagrawal@Shreyas-MacBook-Air.local Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59649636 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 l",
+    "published": "2026-10-25T16:34:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11879",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11879",
+    "description": "CUDA: fuse FFN gate/up matmuls and GLU in MMQ with interleaved gate/up rows ( #29948 ) cuda: fuse FFN gate/up and GLU in MMQ with interleaved gate/up rows For prompt processing, run the gate and up matmuls of a dense FFN as one mul_mat_q launch and apply the GLU in the write-back. The loaders take the gate weights as a second pointer and fill the weight tile with up and gate rows interleaved in chunks of 8, so each thread holds an up value and the matching gate value (rows r and r + 8 of an MMA ",
+    "published": "2026-10-25T16:15:29Z",
+    "source": "llama.cpp Releases"
+  }
+]
