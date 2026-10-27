@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11913",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11913",
+    "description": "hexagon: add GGML_HEXAGON_VTCM_SIZE ( #31221 ) hexagon: add GGML_HEXAGON_VTCM_MB and GGML_HEXAGON_NTHREADS caps Change-Id: Idffe1613c8db6f96aa842d43d1b2efaed45462a8 hexagon: rename VTCM cap to GGML_HEXAGON_VTCM_SIZE, drop NTHREADS cap Change-Id: If4c5b9ce9fd6b725c3561421c2295d40599d012d hexagon: make GGML_HEXAGON_VTCM_SIZE an override, accept K/M/G suffixes Change-Id: Ib8eea84c22f24e6d986b37f215e504b046478c2c Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestat",
+    "published": "2026-10-27T00:23:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11912",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11912",
+    "description": "llama : enable moe amax rescaling for laguna ( #31147 ) llama : enable moe amax rescaling for laguna Assisted-by: Devin llama : declare laguna sm tensor support Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60129010 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu",
+    "published": "2026-10-26T22:33:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11910",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11910",
+    "description": "opencl: write KV-cache views in set_tensor so a state restore is not dropped ( #30471 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60106982 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 lib",
+    "published": "2026-10-26T21:23:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11909",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11909",
+    "description": "hexagon: MUL_MAT_ID row skipping optimizations and improvements ( #31169 ) hex-mmid: vectorize skipped row zeroing and added zeroing to fused MM_ID_NX hex-mmid: remove scalar div Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60100504 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm",
+    "published": "2026-10-26T21:04:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11908",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11908",
+    "description": "llama : move no_alloc out of llama_hparams ( #31141 ) llama : move no_alloc out of llama_hparams Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (2x DGX Spark (RDMA, TP=2)) cont : clean-up cont : clean-up Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (2x DGX Spark (RDMA, TP=2)) tests : add a no_alloc case to test-llama-context Assisted-by: dsh:llama.cpp/ggml-org/GLM-5.3-Flash-GGUF (2x DGX Spark (RDMA, TP=2)) Website: https://llama.app Attestations: https://github.com/ggml-org/lla",
+    "published": "2026-10-26T20:49:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11907",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11907",
+    "description": "models : replace ggml_tensor** out-params with output structs ( #31142 ) The hyper-connection and DSA graph builders wrote their extra outputs (post / comb gates, carried top-k selections, inject gates) through ggml_tensor** out-params. Return them in a small struct next to the primary output instead. Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60084920 macOS/iOS: ",
+    "published": "2026-10-26T20:18:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11906",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11906",
+    "description": "ggml-cpu : rewrite concat as one row kernel for all types ( #31179 ) Every dst row comes from src0 or src1, or for dim 0 from the row of src0 followed by the row of src1, so a single kernel covers every type: a dense source row is one memcpy, quantized types included, and a strided source is copied element by element with the element size known at compile time. Rows are split across threads instead of i2 alone, which is often 1, and are copied in tiles of 32: for a transposed source the elements",
+    "published": "2026-10-26T19:49:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11905",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11905",
+    "description": "vulkan: rms norm optimization using subgroup reductions ( #29882 ) RMS Norm Subgroup reductions optimizaton Fix build error Improved optimization Make usage of BLOCK_SIZE consistent Add fast path to skip 2nd subgroupAdd Add AMD Vendor to subgroup reduction opt Add comment clarifying rms_dict and merge_maps behavior Add unroll Rebase Fixed syntax issue Add 128/256/512 block sizes to non-subgroup path Remove trailing whitespace Website: https://llama.app Attestations: https://github.com/ggml-org/l",
+    "published": "2026-10-26T19:12:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11904",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11904",
+    "description": "sycl: template the plain MMVQ launch triples ( #31013 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60054506 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - ",
+    "published": "2026-10-26T18:49:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11903",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11903",
+    "description": "sycl: template the per-quant concat impls ( #31008 )",
+    "published": "2026-10-26T14:12:56Z",
+    "source": "llama.cpp Releases"
+  }
+]

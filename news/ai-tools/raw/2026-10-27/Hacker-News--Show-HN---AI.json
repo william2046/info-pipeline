@@ -1,0 +1,142 @@
+[
+  {
+    "title": "There are now 5 inference providers for abliterated DeepSeek",
+    "link": "https://allmodels.io/llm/abliterated",
+    "description": "Article URL: https://allmodels.io/llm/abliterated Comments URL: https://news.ycombinator.com/item?id=50254836 Points: 10 # Comments: 2",
+    "published": "Tue, 27 Oct 2026 04:53:52 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "I still teach OpenGL ES 3.0",
+    "link": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
+    "description": "Article URL: https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html Comments URL: https://news.ycombinator.com/item?id=50253939 Points: 20 # Comments: 12",
+    "published": "Tue, 27 Oct 2026 02:15:10 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+    "link": "https://github.com/otya128/winevdm",
+    "description": "Article URL: https://github.com/otya128/winevdm Comments URL: https://news.ycombinator.com/item?id=50253529 Points: 61 # Comments: 5",
+    "published": "Tue, 27 Oct 2026 01:15:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+    "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+    "description": "Article URL: https://blog.cloudflare.com/kv-cache-exposure-remediation/ Comments URL: https://news.ycombinator.com/item?id=50252159 Points: 111 # Comments: 36",
+    "published": "Mon, 26 Oct 2026 22:41:48 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Is PHP Running on Your ColdFusion Server? How to Check, and Remove It",
+    "link": "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it",
+    "description": "Article URL: https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it Comments URL: https://news.ycombinator.com/item?id=50252008 Points: 36 # Comments: 29",
+    "published": "Mon, 26 Oct 2026 22:27:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Exponential Time Hypothesis Is False [pdf]",
+    "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+    "description": "See also: Announcing three new discoveries in mathematics, computer science, and physics - https://news.ycombinator.com/item?id=50251344 Comments URL: https://news.ycombinator.com/item?id=50251661 Points: 492 # Comments: 180",
+    "published": "Mon, 26 Oct 2026 21:59:15 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Three new discoveries in mathematics, computer science, and physics",
+    "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+    "description": "Related: The Exponential Time Hypothesis Is False [pdf] - https://news.ycombinator.com/item?id=50251661 Comments URL: https://news.ycombinator.com/item?id=50251344 Points: 704 # Comments: 303",
+    "published": "Mon, 26 Oct 2026 21:35:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Type Server Protocol",
+    "link": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+    "description": "Article URL: https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md Comments URL: https://news.ycombinator.com/item?id=50248371 Points: 220 # Comments: 146",
+    "published": "Mon, 26 Oct 2026 18:14:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "GPT-6.1 Terra",
+    "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
+    "description": "https://developers.openai.com/api/docs/models/gpt-6.1-terra Comments URL: https://news.ycombinator.com/item?id=50248124 Points: 563 # Comments: 351",
+    "published": "Mon, 26 Oct 2026 18:01:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Oldest GUI application that still runs on Windows 11",
+    "link": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+    "description": "Article URL: https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/ Comments URL: https://news.ycombinator.com/item?id=50248055 Points: 366 # Comments: 213",
+    "published": "Mon, 26 Oct 2026 17:56:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A Man from the Future: Why Johnny Can't Stop Abstracting",
+    "link": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
+    "description": "Article URL: http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html Comments URL: https://news.ycombinator.com/item?id=50247928 Points: 150 # Comments: 72",
+    "published": "Mon, 26 Oct 2026 17:49:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Nietzschian Debugger",
+    "link": "https://github.com/DilawarShafiq/nietzschian-debugger",
+    "description": "Article URL: https://github.com/DilawarShafiq/nietzschian-debugger Comments URL: https://news.ycombinator.com/item?id=50247493 Points: 153 # Comments: 50",
+    "published": "Mon, 26 Oct 2026 17:25:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "CSS-Tricks has a new owner",
+    "link": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+    "description": "Article URL: https://css-tricks.com/css-tricks-has-a-new-owner/ Comments URL: https://news.ycombinator.com/item?id=50245831 Points: 420 # Comments: 96",
+    "published": "Mon, 26 Oct 2026 15:51:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+    "link": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+    "description": "Article URL: https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/ Comments URL: https://news.ycombinator.com/item?id=50245524 Points: 863 # Comments: 797",
+    "published": "Mon, 26 Oct 2026 15:35:12 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Solar power is becoming bigger than nuclear",
+    "link": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+    "description": "Article URL: https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear Comments URL: https://news.ycombinator.com/item?id=50245385 Points: 218 # Comments: 336",
+    "published": "Mon, 26 Oct 2026 15:26:17 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+    "link": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+    "description": "Article URL: https://magazine.sebastianraschka.com/p/building-reasoning-models Comments URL: https://news.ycombinator.com/item?id=50245138 Points: 638 # Comments: 91",
+    "published": "Mon, 26 Oct 2026 15:11:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "New iPad mini",
+    "link": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+    "description": "Article URL: https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/ Comments URL: https://news.ycombinator.com/item?id=50243061 Points: 174 # Comments: 457",
+    "published": "Mon, 26 Oct 2026 13:13:36 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Anthropic S-1",
+    "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "description": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 1555 # Comments: 1496",
+    "published": "Mon, 26 Oct 2026 13:04:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Pharo 14",
+    "link": "https://pharo.org/news/2026-10-26-Pharo14Release.html",
+    "description": "Article URL: https://pharo.org/news/2026-10-26-Pharo14Release.html Comments URL: https://news.ycombinator.com/item?id=50241925 Points: 249 # Comments: 66",
+    "published": "Mon, 26 Oct 2026 11:15:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Websites Should Be Printable",
+    "link": "https://brennenputh.me/blog/printable-websites/",
+    "description": "Article URL: https://brennenputh.me/blog/printable-websites/ Comments URL: https://news.ycombinator.com/item?id=50241664 Points: 310 # Comments: 186",
+    "published": "Mon, 26 Oct 2026 10:32:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
