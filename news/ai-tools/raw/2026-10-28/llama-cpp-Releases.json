@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11946",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11946",
+    "description": "server : add realtime conversation and transcription on /v1/realtime ( #31269 ) server : add realtime conversation and transcription on /v1/realtime Co-authored-by: Xuan Son Nguyen son@huggingface.co Assisted-by: Claude Opus 5.5 examples : default the realtime client to the server port 9931 Assisted-by: Claude Opus 5.5 server : sample realtime responses right after their own decode Slots respond in turns on one context: sampling at the start of the next step read the logits of whichever slot dec",
+    "published": "2026-10-28T02:02:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11945",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11945",
+    "description": "model : add LiquidAI/d1-2B and LiquidAI/d1-omni-2B ( #31275 ) model : add LiquidAI/d1-2B and LiquidAI/d1-omni-2B Assisted-by: Claude Opus 5.5 convert : keep the speech task templates out of the d1 GGUFs Assisted-by: Claude Opus 5.5 small refactoring: no_batching Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60641357 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) ",
+    "published": "2026-10-28T01:44:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11944",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11944",
+    "description": "server: expose the reasoning effort levels of the chat template ( #31271 ) server: expose the reasoning effort levels of the chat template The capability probe renders a user turn for each candidate level (minimal, low, medium, high, xhigh, max) and for an unknown level. A level is honored when it renders without raising and differently from the unknown level, which shows the template fallback. Levels sharing a render are aliases and the highest one is kept. The caps serialize to JSON, and chat_",
+    "published": "2026-10-28T01:27:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11941",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11941",
+    "description": "model : add LiquidAI/LFM3-Audio-2B and LiquidAI/LFM3-Omni-2B ( #31257 ) model : add LiquidAI/LFM3-Audio-2B and LiquidAI/LFM3-Omni-2B Co-authored-by: Xuan Son Nguyen son@huggingface.co Assisted-by: Claude Opus 5.5 convert : read the LFM3-Audio config.json as released A transformers that knows lfm3_audio rewrites the config into another layout (no lfm/encoder keys). Assisted-by: Claude Opus 5.5 mtmd : disable flash attention for the LFM3-Audio depthformer Assisted-by: Claude Opus 5.5 tts : add a v",
+    "published": "2026-10-28T01:06:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11940",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11940",
+    "description": "common : support deferred tools and tool_reference content parts ( #31256 ) common : support deferred tools and tool_reference content parts Assisted-by: Claude Opus 5.5 common : credit the deferred tools co-author Co-authored-by: Aldehir Rojas 765227+aldehir@users.noreply.github.com Assisted-by: Claude Opus 5.5 tests : fix the type check of the deferred tools test Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60626465 ma",
+    "published": "2026-10-28T00:35:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11938",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11938",
+    "description": "model : add LiquidAI/LFM3-1.7B and LiquidAI/LFM3-VL-2B ( #31252 ) model : add LiquidAI/LFM3-1.7B and LiquidAI/LFM3-VL-2B Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Xuan-Son Nguyen son@huggingface.co Assisted-by: Claude Opus 5.5 tests : set the SWA rope base of the LFM3 test model Assisted-by: Claude Opus 5.5 llama : enable recurrent state rollback for LFM3 Assisted-by: Claude Opus 5.5 Apply batched suggestions from code review Co-authored-by: Sigbjørn Skjær",
+    "published": "2026-10-28T00:01:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11937",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11937",
+    "description": "cmake: WASI doesn't support spawning ( #30751 )",
+    "published": "2026-10-27T14:14:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11936",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11936",
+    "description": "llama : build the k-pool sparse selection independently of the kq_mask shape ( #31243 ) llama : build the k-pool sparse selection independently of the kq_mask shape qwen4exp (QSA) and glm5-next pick cache cells by index and no longer read the kq_mask values, but they still shaped the selection like the dense kq_mask. Build the selection as [n_kv, n_tokens] over the cache cells instead, and split it into the streams of the K view right before the attention. This lets the dense mask change its lay",
+    "published": "2026-10-27T20:15:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11935",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11935",
+    "description": "rpc : catch std::length_error in recv_msg ( #31204 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/60485441 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 libraries Ubuntu arm64 (CUDA 13) - CUD",
+    "published": "2026-10-27T17:18:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11934",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11934",
+    "description": "tests : speed up tensor data generation and model saving ( #31145 ) tests : speed up tensor data generation and model saving Refactor save_models to create only the model, not a llama_context, which is not needed for saving. Replace the slow std::normal_distribution draw with a splitmix64 + box-muller normal generator. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) tests : use a shared pool of normal draws for tensor data Generate a pool of no",
+    "published": "2026-10-27T15:53:42Z",
+    "source": "llama.cpp Releases"
+  }
+]
