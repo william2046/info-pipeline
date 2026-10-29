@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.33.0rc1: [CI] Fix stale NVFP4 decode test selector on DGX Spark (#64107)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1",
+    "description": "Signed-off-by: grYe99 guorongye99@gmail.com Co-authored-by: grYe99 guorongye99@gmail.com (cherry picked from commit bfa2a43 )",
+    "published": "2026-10-28T09:31:23Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.33.0rc0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc0",
+    "description": "[Bugfix][MRV2] Skip adaptive verification cost profiling in the CUDA …",
+    "published": "2026-10-26T17:59:24Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.32.1rc0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0",
+    "description": "[Doc][RL] Document the weight-transfer HTTP protocol for trainers wit…",
+    "published": "2026-10-18T09:26:56Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.32.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "description": "v0.32.0 Highlights This release features 814 commits from 363 contributors (121 new)! Structured decisions and generic parsers : the new POST /v1/systemone endpoint answers choice , noul and score questions over a structured state ( #59299 ), is served by default ( #60677 , #60696 ), and also runs on Cloudflare/clef-omni ( #61064 ), LiquidAI/d1-3B ( #60676 ) and DiffusionGemma ( #60466 ). The new hf tool and reasoning parser ( --tool-call-parser hf , --reasoning-parser hf ) reads the checkpoint'",
+    "published": "2026-10-18T10:23:45Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.32.0rc3: [Bugfix] Fix NaN output of the Mamba2 chunk scan kernel on sm90 (#61718)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3",
+    "description": "Signed-off-by: Vadim Gimpelson vadim.gimpelson@gmail.com Co-authored-by: Claude noreply@anthropic.com",
+    "published": "2026-10-17T00:25:45Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.32.0rc2",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc2",
+    "description": "[CI] Pin DeepSeek-V4.1-Flash-NVFP4 eval to its FP8-Engram revision (#…",
+    "published": "2026-10-15T09:50:46Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.32.0rc1: [Dependency] Update Humming and remove NVFP4 scale workaround (#61556)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc1",
+    "description": "Signed-off-by: jinzhen.ljz jinzhen.ljz@antgroup.com Co-authored-by: Codex codex@openai.com Co-authored-by: Misha Goin mgoin64@gmail.com Co-authored-by: Kevin H. Luu khluu000@gmail.com",
+    "published": "2026-10-14T23:29:34Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "proto-v0.6.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.6.0",
+    "description": "vllm-proto 0.6.0",
+    "published": "2026-10-14T23:57:02Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.32.0rc0: [HiSparse] Report host pool in KV cache capacity logs (#60285)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc0",
+    "description": "Signed-off-by: Matthew Bonanni mbonanni@redhat.com Co-authored-by: Claude Opus 5.5 noreply@anthropic.com",
+    "published": "2026-10-12T20:49:49Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "proto-v0.5.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.5.0",
+    "description": "Release vllm-proto 0.5.0",
+    "published": "2026-10-09T03:11:40Z",
+    "source": "vLLM Releases"
+  }
+]

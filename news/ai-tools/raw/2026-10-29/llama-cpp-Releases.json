@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b11980: [SYCL] add DPAS flash attention kernel for quantized KV cache (#31125)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11980",
+    "description": "sycl : add DPAS flash attention kernel for quantized KV cache Decode and small batches (1 to 31 query tokens) now run flash attention straight on q4_0 and q8_0 KV blocks, instead of scalar dequant or converting the whole cache to f16 per call. Q.K uses s8 x s4 and s8 x s8 DPAS on XMX, V.P stays f16. dpas.s4.s8 is inline vISA since joint_matrix has no s4. Covers head sizes 64 to 512, GQA up to 32 and attention sinks. Prompts stay on the existing kernels. GGML_SYCL_FA_DPAS=0 turns it off. B580, Ll",
+    "published": "2026-10-29T06:01:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11979",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11979",
+    "description": "sycl : vectorize reordered-layout dequantization stores (Q4_0, K-quants, IQ3, MXFP4) ( #30976 ) sycl : widen reordered q4_0 dequantization stores The reordered-layout Q4_0 conversion kernel processed one qs byte per work-item with two scalar stores, strided 16 elements apart. Give it the same treatment the Q8_0 kernel got in #30775 : a flat sycl::range<1> launch with four qs bytes (8 outputs) per work-item inside one 32-element block and two vec<dst_t,4> stores. Same float math and rounding as t",
+    "published": "2026-10-29T06:45:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11978",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11978",
+    "description": "tests : fix comp_padding CUDA graph reservation ( #31344 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61149598 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libra",
+    "published": "2026-10-29T05:43:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11977",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11977",
+    "description": "ggml-openvino: slice view inputs of SCALE ( #31334 ) SCALE now accepts a src0 view with arbitrary row strides. translate_scale used the raw input, and on the dynamic path a VIEW translates to its whole source tensor, so a strided view input scaled the entire source. The model output then had the source's size, and copying it back overran the result buffer, which crashes test-backend-ops on the SCALE view cases. Slice the input with process_view_input_new, as the other translators do. Reject an i",
+    "published": "2026-10-29T04:45:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11976",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11976",
+    "description": "Hexagon: IM2COL improvement - block based HVX parallelization ( #31050 ) hexagon: IM2COL over multiple threads with output-col blocks Assisted-by: Claude Opus 5.5 hex-im2col: fix padding handling hex-im2col: loop unroll common cases Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61099121 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) ",
+    "published": "2026-10-29T02:31:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11974",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11974",
+    "description": "ggml-cpu: add SVE implementation of ggml_gemv_q8_0_4x8_q8_0 ( #30585 )",
+    "published": "2026-10-29T00:21:05Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "v0.8.0",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0",
+    "description": "Overview This release adds the LiquidAI LFM3 family (text, vision, audio and omni) together with a new experimental streaming-audio API in mtmd , and wires realtime audio in and out of the server through the new /v1/realtime and /tts endpoints. A batch of new architectures landed: DeepSeek V4.1 Flash, SenseNova U1, Beam, Kolibri-1, Flint, Muse Spark, Granite Switch Decision, plus decision/embedding models from LiquidAI, Baidu and NVIDIA. The core got sparse-attention (QSA/DSA) reworked onto a fu",
+    "published": "2026-10-28T12:49:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11972",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11972",
+    "description": "common, mtmd: bound control vector layer indices and M-RoPE position loops ( #31336 ) common: bound control vector layer indices by the model layer count A direction tensor layer index is parsed from the tensor name with no upper bound, and the buffer size and write offset are computed in int. A large index overflows both, so the accumulation writes before the start of the buffer. Pass the model layer count to the loader, reject indices above it like the existing zero index check, and compute th",
+    "published": "2026-10-28T22:53:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11971",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11971",
+    "description": "opencl: add tiled q4_k GEMM for adreno ( #30412 ) opencl: run the tiled q4_K lm_head through a tiled GEMM at batch > 1 opencl: split tiled dp4a q4_k gemm into its own file and test for dp4a Assisted-by: Codex Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61033347 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (",
+    "published": "2026-10-28T22:28:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11970",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11970",
+    "description": "hexagon: add conv2d support ( #30995 ) hexagon: add conv2d op hex-conv2d: add double-buffered staging hex-conv2d: full 64-wide activation block transpose straight from staged buffer hex-conv2d: implicit gemm hex-conv2d: remove scalar path and kernel hex-conv2d: unify conv2d kernel params for all paths hex-conv2d: scale HMX result before f16 storage and then restore during unpacking to prevent overflow hex-conv2d: fix f16 overflow in HMX paths hex-conv2d: refactor to rebase to new op fusion machi",
+    "published": "2026-10-28T21:33:05Z",
+    "source": "llama.cpp Releases"
+  }
+]
