@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12004",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12004",
+    "description": "common : end reasoning budget forcing on an end tag from the prompt (…",
+    "published": "2026-10-30T00:27:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12001: ROCm/HIP: add RDNA4_M family for gfx1170/gfx1171 (#31373)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12001",
+    "description": "gfx117X is more like RDNA4, with 128b WMMA. But they're not identical. Adjust the defines accordingly to have a new RDNA4_M and use it where it makes sense. Assisted-by: Codex Assisted-by: GitHub Copilot Co-authored-by: Mario Limonciello mario.limonciello@amd.com",
+    "published": "2026-10-29T17:23:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12000",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12000",
+    "description": "Quant: OCP FP8 E4M3 support ( #27512 ) WIP OCP FP8 E4M3 support Fix python type-checker Materialize input_scales also for FP8 when converting Fix conversion of https://huggingface.co/RedHatAI/Qwen3.8-27B-NVFP4 Per row FP8 wrongly fell to NVFP4 conversion, as NVFP4 checked on dims alone. Also check on dtype for FP8 Need to reshape FP8 QKV projections scales in the same way that weights are reshaped Allow remaining FP8 tensors to be dequantized during conversion Allow tensor-strategy for FP8-only ",
+    "published": "2026-10-30T04:28:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11998",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11998",
+    "description": "model: mistral le chonk ( #31376 ) llama: extend DSA and sdpark to new model fix ci Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61557038 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8",
+    "published": "2026-10-30T01:15:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11997",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11997",
+    "description": "llama : reuse the tensor staging buffer and skip the direct-io bounce buffer ( #31321 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61552516 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA ",
+    "published": "2026-10-30T00:54:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11996",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11996",
+    "description": "server : restore the spec checkpoint for drafts longer than n_rs_seq …",
+    "published": "2026-10-29T09:28:03Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11989: HIP/CUDA: enable sparse attn on CDNA (#31259)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11989",
+    "description": "HIP/CUDA: enable sparse attn on CDNA Use __ballot for __ballot_sync on old ROCm versions Ignore new large head fattn mma variant",
+    "published": "2026-10-29T08:14:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11988",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11988",
+    "description": "model : Support Limite 1B - Violetto ( #29433 ) gguf-py : add Limite arch Assisted-by: Claude Opus 5.5 Signed-off-by: Giuseppe Scrivano giuseppe@scrivano.org convert : add Limite support Assisted-by: Claude Opus 5.5 Signed-off-by: Giuseppe Scrivano giuseppe@scrivano.org llama : add Limite support Assisted-by: Claude Opus 5.5 Signed-off-by: Giuseppe Scrivano giuseppe@scrivano.org Signed-off-by: Giuseppe Scrivano giuseppe@scrivano.org Website: https://llama.app Attestations: https://github.com/ggm",
+    "published": "2026-10-29T20:57:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11986",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11986",
+    "description": "opencl: initial support for iq2 ( #31267 ) opencl: add iq2_s AOS mv opencl: add iq2_s SOA mv and tiled mm opencl: add iq2_s noshuffle gemm/gemv for adreno opencl: add iq2_s dp4a for adreno opencl: optimize iq2_s adreno decode and narrow batches Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: add iq2_xs AOS mv opencl: add iq2_xs SOA mv and tiled mm opencl: add iq2_xs noshuffle gemm/gemv for adreno opencl: add iq2_xs dp4a for adreno opencl: optimize iq2_xs adreno decode and narrow ba",
+    "published": "2026-10-29T20:19:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b11985",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b11985",
+    "description": "metal : faster MXFP4 mat-vec, full threadgroups for unary/binary/GLU ( #31075 ) metal : faster MXFP4 mat-vec kernel Decode the fp4 values with the fp16 bit trick instead of a threadgroup lookup table, and load the packed nibbles as aligned 32-bit words. The kernel no longer uses threadgroup memory. metal : launch contiguous unary and binary ops with full threadgroups The contiguous unary path and the row-broadcast binary path used one thread per threadgroup. Use up to 256 threads per threadgroup",
+    "published": "2026-10-29T17:13:28Z",
+    "source": "llama.cpp Releases"
+  }
+]

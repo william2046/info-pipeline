@@ -1,0 +1,142 @@
+[
+  {
+    "title": "CVE-2026-98432: Linux TCP Use-After-Free Risk and Patch Validation",
+    "link": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
+    "description": "Article URL: https://www.penligent.ai/hackinglabs/cve-2026-98432/ Comments URL: https://news.ycombinator.com/item?id=50299182 Points: 41 # Comments: 28",
+    "published": "Fri, 30 Oct 2026 02:33:04 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Lasm – Write formally verified webapps in Lean for Node/serverless/edge",
+    "link": "https://github.com/Millillion/lasm",
+    "description": "Lasm has been my dream for a good part of 2026. I firmly believe that formal verification is the next evolution of software engineering and programming languages. This next wave will largely be enabled by the incredibly intelligent LLMs that understand formal verification and its programming languages. Lean is one of the most popular languages that allow for formal verification, and to me is incredibly powerful because it is a general purpose programming language with formal verification built d",
+    "published": "Fri, 30 Oct 2026 02:05:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Pico CSS is no longer maintained",
+    "link": "https://github.com/picocss/pico/discussions/754",
+    "description": "Article URL: https://github.com/picocss/pico/discussions/754 Comments URL: https://news.ycombinator.com/item?id=50298964 Points: 91 # Comments: 26",
+    "published": "Fri, 30 Oct 2026 01:58:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Herdr has released native app",
+    "link": "https://github.com/herdrdev/herdr-app",
+    "description": "Article URL: https://github.com/herdrdev/herdr-app Comments URL: https://news.ycombinator.com/item?id=50298436 Points: 115 # Comments: 73",
+    "published": "Fri, 30 Oct 2026 00:42:41 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Cormac McCarthy's Library",
+    "link": "https://cormacmccarthy.lib.utk.edu/",
+    "description": "Article URL: https://cormacmccarthy.lib.utk.edu/ Comments URL: https://news.ycombinator.com/item?id=50298318 Points: 37 # Comments: 17",
+    "published": "Fri, 30 Oct 2026 00:31:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: I Turned DOOM into a Transformer",
+    "link": "https://github.com/mottopanikeiku/doomformer",
+    "description": "Instead of trying to run DOOM on things, I have instead decided to use DOOM (many, many, many doom games actually) to create a transformer. For a lot of the math required I essentially had to use DOOM game mechanics and voodoo dolls (DOOM is turing complete btw) and exchange them with the actual operations, essentially creating an alternative to NumPy (a 65000x slower one). Thus, I am proud to present DOOMFORMER. Here are a list of things DOOMFORMER can do : It can classify MNIST digits, even if",
+    "published": "Thu, 29 Oct 2026 23:25:46 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)",
+    "link": "https://journal.animationstudies.org/article/id/66/",
+    "description": "Article URL: https://journal.animationstudies.org/article/id/66/ Comments URL: https://news.ycombinator.com/item?id=50297089 Points: 90 # Comments: 21",
+    "published": "Thu, 29 Oct 2026 22:26:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Great American Rascal: Tom Sawyer at 150",
+    "link": "https://claremontreviewofbooks.com/the-great-american-rascal/",
+    "description": "Article URL: https://claremontreviewofbooks.com/the-great-american-rascal/ Comments URL: https://news.ycombinator.com/item?id=50296947 Points: 60 # Comments: 29",
+    "published": "Thu, 29 Oct 2026 22:14:23 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "We ran AI agent swarms in Minecraft and Mindustry",
+    "link": "https://labs.ycombinator.com/projects/games/index.html",
+    "description": "Article URL: https://labs.ycombinator.com/projects/games/index.html Comments URL: https://news.ycombinator.com/item?id=50296486 Points: 241 # Comments: 82",
+    "published": "Thu, 29 Oct 2026 21:40:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+    "link": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+    "description": "Article URL: https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8 Comments URL: https://news.ycombinator.com/item?id=50296470 Points: 1061 # Comments: 635",
+    "published": "Thu, 29 Oct 2026 21:38:59 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Sylphide OS: a general-purpose OS for microcontroller-based computers",
+    "link": "https://projects.freehackers.org/sylphide-os/",
+    "description": "Article URL: https://projects.freehackers.org/sylphide-os/ Comments URL: https://news.ycombinator.com/item?id=50295868 Points: 56 # Comments: 15",
+    "published": "Thu, 29 Oct 2026 20:59:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "ElementaryUI – Swift, in the Browser",
+    "link": "https://elementary.codes",
+    "description": "Article URL: https://elementary.codes Comments URL: https://news.ycombinator.com/item?id=50295821 Points: 87 # Comments: 19",
+    "published": "Thu, 29 Oct 2026 20:56:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+    "link": "https://github.com/SheepSeb/tinyworldformer",
+    "description": "Article URL: https://github.com/SheepSeb/tinyworldformer Comments URL: https://news.ycombinator.com/item?id=50295450 Points: 180 # Comments: 10",
+    "published": "Thu, 29 Oct 2026 20:32:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Patrick Stewart has died",
+    "link": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+    "description": "https://archive.ph/y4Egm https://en.wikipedia.org/wiki/Patrick_Stewart Comments URL: https://news.ycombinator.com/item?id=50294702 Points: 2720 # Comments: 579",
+    "published": "Thu, 29 Oct 2026 19:41:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
+    "link": "https://github.com/johncassil/dontallow",
+    "description": "This popup has been a constant gripe of mine for years. I almost NEVER want to allow this permission and there is no system setting to disable it globally and prevent the popup from interrupting your typing, etc. This tiny swift app I built will autoclose it in 1/4th of a second and leave behind a little notification that it did so. Would love to hear feedback! Comments URL: https://news.ycombinator.com/item?id=50294506 Points: 120 # Comments: 91",
+    "published": "Thu, 29 Oct 2026 19:27:44 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "16colo.rs – ANSI/ASCII art archive",
+    "link": "https://16colo.rs/",
+    "description": "Article URL: https://16colo.rs/ Comments URL: https://news.ycombinator.com/item?id=50291421 Points: 101 # Comments: 8",
+    "published": "Thu, 29 Oct 2026 16:14:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+    "link": "https://news.ycombinator.com/item?id=50291116",
+    "description": "Hi HN, we're Ahnaf and Seungmin from Simantic ( https://simantic.com ). We are building the simulation layer that lets engineers and AI agents test and validate firmware without hardware. Before Simantic, we were ex-firmware engineers at companies like Neuralink and Tesla. We’ve worked on some of the coolest projects, like the Cybertruck and Roadster, back when they were still early prototypes. We started working on firmware back when ChatGPT didn’t exist yet, but over the years, we saw how much",
+    "published": "Thu, 29 Oct 2026 15:56:32 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "H.264 Is Magic (2016)",
+    "link": "https://sidbala.com/h-264-is-magic/",
+    "description": "Article URL: https://sidbala.com/h-264-is-magic/ Comments URL: https://news.ycombinator.com/item?id=50291054 Points: 380 # Comments: 141",
+    "published": "Thu, 29 Oct 2026 15:53:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "LLM Voice",
+    "link": "https://martinfowler.com/bliki/LLM-Voice.html",
+    "description": "Article URL: https://martinfowler.com/bliki/LLM-Voice.html Comments URL: https://news.ycombinator.com/item?id=50290177 Points: 411 # Comments: 215",
+    "published": "Thu, 29 Oct 2026 14:57:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "We're releasing the weights of Mistral Large 4",
+    "link": "https://mistral.ai/news/mistral-large-4-oss/",
+    "description": "Article URL: https://mistral.ai/news/mistral-large-4-oss/ Comments URL: https://news.ycombinator.com/item?id=50289418 Points: 1319 # Comments: 360",
+    "published": "Thu, 29 Oct 2026 14:13:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]
