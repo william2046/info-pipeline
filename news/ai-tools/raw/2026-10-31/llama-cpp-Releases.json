@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12019",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12019",
+    "description": "chat : strip the think block in the qwen3-coder with reasoning_format none ( #31380 ) chat : accept the think block in the qwen3-coder response format with reasoning_format none Assisted-by: Claude Opus 5.5 chat : define both qwen3-coder think block variants up front Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62045373 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Lin",
+    "published": "2026-10-31T05:23:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12018",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12018",
+    "description": "sycl: fix f32 to q2_0/q4_0/q5_0 rounding in CPY ( #31120 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62012681 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CU",
+    "published": "2026-10-31T02:24:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12017",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12017",
+    "description": "rpc : delete fs_path_to_utf8() ( #31424 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61919870 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - ",
+    "published": "2026-10-30T20:23:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12015",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12015",
+    "description": "common : delete fs_path_to_utf8() ( #31423 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61831888 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12)",
+    "published": "2026-10-30T16:09:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12014",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12014",
+    "description": "common : drop the Windows argv reconstruction ( #31417 ) The manifest from #31329 already makes argv UTF-8. Fixes #26416 Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61816911 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04",
+    "published": "2026-10-30T15:33:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12013: quant : allow quantization for LFM3-Audio codec decoder (#31386)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12013",
+    "description": "quantize : quantize the LFM3-Audio codec decoder, it is Q4_0 QAT quantize : drop the QAT note from the LFM3-Audio comment",
+    "published": "2026-10-30T10:52:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12012",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12012",
+    "description": "vendor : update cpp-httplib to 0.64.0 ( #31400 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61801183 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - C",
+    "published": "2026-10-30T14:56:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12010: cmake : embed an app manifest in all Windows exes (#31329)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12010",
+    "description": "cmake : embed an app manifest in all Windows exes Signed-off-by: Adrien Gallouët angt@huggingface.co Remove LLAMA_WIN_APP_CMAKE Signed-off-by: Adrien Gallouët angt@huggingface.co Signed-off-by: Adrien Gallouët angt@huggingface.co",
+    "published": "2026-10-30T09:56:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12008",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12008",
+    "description": "gemma3n, gemma4 : create token_embd before the tied output ( #31394 ) The duplicated output looks up token_embd in its buffer context, so token_embd must exist first. With the old order a load where input and output share a buffer type (CPU-only, -ngl 0) held the table twice: gemma-4-E2B-it Q4_K_M, no mmap, CPU model buffer 3163.73 -> 2947.73 MiB. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/61785118 macOS/iOS: macOS Apple Silicon (arm64) macOS Appl",
+    "published": "2026-10-30T14:10:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12007",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12007",
+    "description": "kv-cache : keep rotation constants on the GPU ( #31073 ) kv-cache : keep rotation constants on the GPU Assisted-by: Codex tests : verify resident KV rotation buffers Assisted-by: Codex kv-cache : document remaining multi-device rotation work Assisted-by: Codex kv-cache : support per-layer rotation buffers Assisted-by: Codex kv-cache : fix hybrid SWA rotation inputs and mixed placement check Assisted-by: Codex models : use per-layer rotation in mistral-large4 and dflash tests: drop the rotation b",
+    "published": "2026-10-30T13:54:18Z",
+    "source": "llama.cpp Releases"
+  }
+]

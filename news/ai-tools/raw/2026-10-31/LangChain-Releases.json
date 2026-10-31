@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-core==1.7.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.3",
+    "description": "Changes since langchain-core==1.7.2 release(core): 1.7.3 ( #41564 )",
+    "published": "2026-10-29T20:56:14Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.7.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.2",
+    "description": "Changes since langchain-core==1.7.1 release(core): 1.7.2 ( #41562 ) feat(core): add add_notification_metadata and get_notification_metadata ( #41540 ) fix(core): stop merge_content from changing the first message's content ( #41502 )",
+    "published": "2026-10-29T19:04:31Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.7.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1",
+    "description": "Changes since langchain-core==1.7.0 release(core): version 1.7.1 ( #41548 ) fix(core): preserve gateway tracing metadata in v3 streams ( #41504 ) fix(core): escape node metadata in Mermaid labels ( #41512 ) chore(deps): bump the minor-and-patch group across 3 directories with 32 updates ( #41465 ) chore(deps-dev): bump setuptools from 83.0.0 to 84.1.0 in /libs/core ( #41442 ) chore(deps): bump nbconvert from 7.17.1 to 7.17.2 in /libs/core ( #41425 ) chore(infra): relax third-party dependency upp",
+    "published": "2026-10-28T15:00:04Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.7.7",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.7",
+    "description": "Changes since langchain-anthropic==1.7.6 release(anthropic): 1.7.7 ( #41538 ) fix(anthropic): trace resolved reasoning effort ( #41536 ) chore(infra): relax third-party dependency upper bounds ( #41407 ) chore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/partners/anthropic ( #41391 ) fix: fix dependencies in some partner packages ( #41266 )",
+    "published": "2026-10-27T23:48:26Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.7.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.3",
+    "description": "Changes since langchain-openai==1.7.2 test(openai): use current lightweight model in integration tests ( #41509 ) release(openai): 1.7.3 ( #41506 ) chore(model-profiles): refresh openai model profile data ( #41505 ) build(infra): patch test-only Pillow without dropping Python 3.10 ( #41484 ) revert: patch vulnerable integration dependencies ( #41481 ) build(deps): patch vulnerable integration dependencies ( #41473 ) chore(infra): relax third-party dependency upper bounds ( #41407 ) chore(deps): ",
+    "published": "2026-10-26T23:08:50Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.7.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0",
+    "description": "Changes since langchain-core==1.6.13 release(core): 1.7.0 ( #41418 ) feat(core): emit tool-call-delta for streamed tool-call args ( #41257 ) Notes Tool-call args now stream as tool-call-delta slices instead of block-delta snapshots of the args so far. If you read raw stream events and their block-delta args mid-stream, read tool-call-delta instead. .tool_calls.get() and .output are unchanged. To keep snapshots, pin langchain-core<1.7 . Since 1.6.13, iterating ChatModelStream.tool_calls yields ea",
+    "published": "2026-10-22T17:48:17Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-perplexity==1.4.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.2",
+    "description": "Changes since langchain-perplexity==1.4.1 release(perplexity): 1.4.2 ( #41392 ) chore(model-profiles): refresh model profile data ( #41354 ) chore(deps): bump certifi from 2025.8.3 to 2026.10.19 in /libs/partners/perplexity ( #41377 ) fix(perplexity): preserve Agent API search results ( #41349 ) fix: fix dependencies in some partner packages ( #41266 ) chore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/perplexity ( #40947 ) chore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/part",
+    "published": "2026-10-21T17:31:06Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.13",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.13",
+    "description": "Changes since langchain-core==1.6.12 release(core): 1.6.13 ( #41397 ) chore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/core ( #41373 ) feat(core,langchain,standard-tests): read tool-call-delta in stream consumers ( #41246 )",
+    "published": "2026-10-21T20:43:50Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.7",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.7",
+    "description": "Changes since langchain==1.4.6 chore(langchain): update lockfile ( #41402 ) release(langchain): 1.4.7 ( #41401 ) chore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/langchain_v1 ( #41370 ) feat(core,langchain,standard-tests): read tool-call-delta in stream consumers ( #41246 ) chore(deps): bump aiohttp from 3.14.4 to 3.14.5 in /libs/langchain_v1 ( #41360 ) chore(deps): bump aiohttp from 3.14.3 to 3.14.4 in /libs/langchain_v1 ( #41330 ) chore(deps): bump mcp from 2.1.1 to 2.2.0 in /l",
+    "published": "2026-10-21T21:39:18Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.6.12",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.12",
+    "description": "Changes since langchain-core==1.6.11 release(core): 1.6.12 ( #41277 ) fix(core): propagate extras on content-block-start events ( #41272 )",
+    "published": "2026-10-16T19:28:46Z",
+    "source": "LangChain Releases"
+  }
+]
