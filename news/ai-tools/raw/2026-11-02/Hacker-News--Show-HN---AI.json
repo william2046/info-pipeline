@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
+    "link": "https://wikihack.netlify.app",
+    "description": "After seeing Karpathy's Hackertube and Hackerbooks, I just had to make Wikihack. I scraped all mentions of wikipedia on hackernews and ranked them, and turn them into a scrollable feed to make it a bit more easy to digest / interact with. You can see where people submitted the articles and where people mentioned it in comments. The top shows the most frequently linked articles. Random is random but slightly weighted towards the more frequently linked articles (a little bit like Wikipedia actuall",
+    "published": "Mon, 02 Nov 2026 05:06:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
+    "link": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
+    "description": "Article URL: https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/ Comments URL: https://news.ycombinator.com/item?id=50332163 Points: 81 # Comments: 6",
+    "published": "Mon, 02 Nov 2026 01:59:38 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
+    "link": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+    "description": "Article URL: https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture Comments URL: https://news.ycombinator.com/item?id=50332086 Points: 69 # Comments: 48",
+    "published": "Mon, 02 Nov 2026 01:47:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Bones may release proteins that slow aging and extend life span",
+    "link": "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span",
+    "description": "Article URL: https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span Comments URL: https://news.ycombinator.com/item?id=50331957 Points: 19 # Comments: 1",
+    "published": "Mon, 02 Nov 2026 01:31:07 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Trigger.dev customer environment variables exposed",
+    "link": "https://trigger.dev/blog/security-incident-nov-2026",
+    "description": "Article URL: https://trigger.dev/blog/security-incident-nov-2026 Comments URL: https://news.ycombinator.com/item?id=50331784 Points: 62 # Comments: 22",
+    "published": "Mon, 02 Nov 2026 01:09:16 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "OccupySaaS",
+    "link": "https://occupysaas.com/",
+    "description": "Article URL: https://occupysaas.com/ Comments URL: https://news.ycombinator.com/item?id=50331402 Points: 184 # Comments: 124",
+    "published": "Mon, 02 Nov 2026 00:17:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ask HN: Which TV do you recommend for privacy?",
+    "link": "https://news.ycombinator.com/item?id=50328896",
+    "description": "I haven’t owned a TV in years and would like one that respects my privacy. Are there any TV’s which do this well? I am looking for something in the 60”to 80”range and would like a 4k display with at least 60hz display. I don’t mind paying a premium. I have heard good things about Apple TV as a better alternative to most smart TV native apps. Would some TV’s pair better with this than others for privacy? I don’t want the TV doing anything other than being the display for Apple TV. I am curious wh",
+    "published": "Sun, 01 Nov 2026 19:35:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Mathematics has changed. Let's act like it",
+    "link": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+    "description": "Article URL: https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/ Comments URL: https://news.ycombinator.com/item?id=50328251 Points: 274 # Comments: 294",
+    "published": "Sun, 01 Nov 2026 18:28:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Seoul Viosys begins production of rare-earth-free white light emitter",
+    "link": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
+    "description": "Article URL: https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml Comments URL: https://news.ycombinator.com/item?id=50327058 Points: 160 # Comments: 48",
+    "published": "Sun, 01 Nov 2026 16:23:26 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+    "link": "https://hackerbooks.org",
+    "description": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page. To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc. It counts mentions, so it's not perfect (praising a book and ",
+    "published": "Sun, 01 Nov 2026 15:58:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+    "link": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+    "description": "Article URL: https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/ Comments URL: https://news.ycombinator.com/item?id=50326099 Points: 453 # Comments: 157",
+    "published": "Sun, 01 Nov 2026 14:34:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
+    "link": "https://arxiv.org/abs/2610.39302",
+    "description": "Article URL: https://arxiv.org/abs/2610.39302 Comments URL: https://news.ycombinator.com/item?id=50325454 Points: 131 # Comments: 66",
+    "published": "Sun, 01 Nov 2026 13:24:49 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+    "link": "https://github.com/ivankovic/omnidiff",
+    "description": "I have been researching what the ultimate diff tool would look like, based on actual diffs in open source repositories. OmniDiff can diff: code (25 languages), config, images, PDFs, archives, cursors, fonts... It's fast. It can diff C++ files of tens of thousands of lines in under 100ms, on a 2023 ThinkPad T14s. It's open source. AGPLv3. It's based on real diffs. I looked at the 7400 repositories that are listed in Gentoo packages, sampled 2000 diffs and solved them manually to get a good unders",
+    "published": "Sun, 01 Nov 2026 13:02:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Domain hacks with unusual Unicode characters (2018)",
+    "link": "https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/",
+    "description": "Article URL: https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/ Comments URL: https://news.ycombinator.com/item?id=50324371 Points: 71 # Comments: 50",
+    "published": "Sun, 01 Nov 2026 10:44:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The AI cost of JavaScript frameworks",
+    "link": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+    "description": "Article URL: https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/ Comments URL: https://news.ycombinator.com/item?id=50323088 Points: 346 # Comments: 264",
+    "published": "Sun, 01 Nov 2026 06:06:19 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+    "link": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+    "description": "Article URL: https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/ Comments URL: https://news.ycombinator.com/item?id=50320963 Points: 789 # Comments: 203",
+    "published": "Sat, 31 Oct 2026 22:41:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Bidirectional charging during grid outages",
+    "link": "https://www.jefftk.com/p/bidirectional-charging-during-grid-outages",
+    "description": "Article URL: https://www.jefftk.com/p/bidirectional-charging-during-grid-outages Comments URL: https://news.ycombinator.com/item?id=50319749 Points: 96 # Comments: 145",
+    "published": "Sat, 31 Oct 2026 20:21:55 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "HackerTube: YouTube built from videos recommended by HN",
+    "link": "https://karpathy.bearblog.dev/hacker-tube/",
+    "description": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/ Comments URL: https://news.ycombinator.com/item?id=50319510 Points: 2460 # Comments: 555",
+    "published": "Sat, 31 Oct 2026 19:56:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The She-Wolves of Jülich",
+    "link": "https://www.historytoday.com/archive/history-matters/she-wolves-julich",
+    "description": "Article URL: https://www.historytoday.com/archive/history-matters/she-wolves-julich Comments URL: https://news.ycombinator.com/item?id=50318129 Points: 21 # Comments: 3",
+    "published": "Sat, 31 Oct 2026 17:29:39 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
+    "link": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved",
+    "description": "Article URL: https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved Comments URL: https://news.ycombinator.com/item?id=50315217 Points: 84 # Comments: 34",
+    "published": "Sat, 31 Oct 2026 11:53:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

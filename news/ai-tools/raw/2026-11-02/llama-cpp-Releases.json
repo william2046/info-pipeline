@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12033",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12033",
+    "description": "requirements : fix numpy dependencies ( #31508 )",
+    "published": "2026-11-01T17:23:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12032",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12032",
+    "description": "sycl: Try PkgConfig for LevelZero includes / libs ( #31076 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62286322 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (",
+    "published": "2026-11-01T09:04:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12031",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12031",
+    "description": "opencl: add initial iq3 support ( #31338 ) opencl: add iq3_s AOS mv Assisted-by: Codex opencl: add iq3_s SOA mv and tiled mm Assisted-by: Codex opencl: add iq3_s noshuffle gemm/gemv for adreno Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: add iq3_s dp4a for adreno Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl: optimize iq3_s adreno decode and narrow batches Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Assisted-by: Codex opencl:",
+    "published": "2026-11-01T07:45:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12030",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12030",
+    "description": "hexagon : fix DMA transfers with strides > 24 bits ( #31442 ) hexagon : fix DMA transfers with strides > 24 bits On v75+ the 2D DMA descriptor stores row_size and strides in 24 bits. dma_queue_push sent oversized strides to fallback_2d, which only splits nrows, so strides of 16 MB or more were truncated - wrong addresses. Fix will fall back to one transfer per row in that case. Also added two CONT tests with source strides over 16 MB. hex-dma: refactor the fallback paths to remove duplication Co",
+    "published": "2026-11-01T07:19:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12029",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12029",
+    "description": "mtmd : fix InternVL CLS token order ( #30886 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62277183 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUD",
+    "published": "2026-11-01T07:00:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12028",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12028",
+    "description": "tests : enable Gemma 4 in test-llama-archs ( #31401 ) tests : enable Gemma 4 in test-llama-archs tests : use GQA for Gemma 4 in test-llama-archs Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62274835 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (V",
+    "published": "2026-11-01T06:45:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12027",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12027",
+    "description": "llama : enable tensor split for LFM3 ( #31431 ) Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62271899 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librar",
+    "published": "2026-11-01T06:23:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12025",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12025",
+    "description": "llama : fix rotation of attention tensors in layers with shared KV (#…",
+    "published": "2026-10-31T22:30:49Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12024",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12024",
+    "description": "reshaping so mm on 2d instead of 3d tensor for lfm sc ( #30831 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62198272 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x",
+    "published": "2026-10-31T21:38:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12023",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12023",
+    "description": "server: cap shared decision prefixes at the first output ( #30710 ) Limit the shared prefix to the first required output position of the parent and each child task. This keeps decision output embeddings available in the final batch when questions share option tokens. Fixes #30482 Signed-off-by: aiqubits aiqubits@hotmail.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62175271 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, Kleidi",
+    "published": "2026-10-31T19:22:28Z",
+    "source": "llama.cpp Releases"
+  }
+]
