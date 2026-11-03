@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12065: kv-cache : never return 0 kv_rows for sequences without cells (#31570)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12065",
+    "description": "A cache that shares the cells of another one (f.ex. the gemma4 assistant) can build a graph before its sequences have any cells, f.ex. at the server warmup. get_n_kv_rows() then returned 0, which means that kv_rows are not used, so the graph fell back to the dense KQ mask and the scheduler re-planned for it. Later graphs with larger masks then aborted with GGML_SCHED_DEBUG_REALLOC=1.",
+    "published": "2026-11-03T05:51:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12064",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12064",
+    "description": "hexagon: tiled hvx permute ( #31446 ) hexagon: add tiled HVX transpose path for permuted CONT/CPY Permuted copies where dst dim 0 is strided in src, but some other src dim is contiguous, used to fall back to HTP_COPY_KERNEL_RESHAPE. That issues one DMA descriptor per element. The channel-first <-> channel-last permutes around per-channel norms (e.g. [W,H,T,C] <-> [C,W,H,T] in video VAEs) ht this path, and these copies ran at about 45 MB/s. Add HTP_COPY_KERNEL_TRANSPOSE for same-type, same-shape ",
+    "published": "2026-11-03T05:45:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12063",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12063",
+    "description": "dflash: copy hidden features via device copies ( #31506 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62913415 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUD",
+    "published": "2026-11-03T01:42:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12061",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12061",
+    "description": "mtmd: Pocket tts - support for voices without voice cloning ( #31429 ) feat: support PocketTTS voices with no voice cloning The kyutai/pocket-tts-without-voice-cloning weights ship predefined voices as the backbone KV state after the voice prompt. The converter turns each state back into the prompt embeddings and stores them in the mmproj (voice.), the zeroed voice encoder is left out, and the \"voice\" field of /tts and --tts-voice select one of them. A speaker reference is rejected when the mode",
+    "published": "2026-11-02T23:21:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12060",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12060",
+    "description": "model: add Clover support ( #31306 ) model : add AR-only Clover MoE support Add GGUF conversion, model loading, and causal hybrid attention for Clover, reusing shared attention, recurrent-state, MoE, and LoRA helpers. Update tests/test-llama-archs.cpp Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co convert : filter Clover tensors using filter_tensors clover : use the standard ssm_a tensor name Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Website: https://ll",
+    "published": "2026-11-02T23:04:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12059",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12059",
+    "description": "llama : flash_attn_ext_rows - more efficient unified kv for multi-seq ( #29510 ) llama : use llm_attn_mask and kv_rows for unified attention Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4-Flash-Vision-Exp-GGUF (Mac Studio, M2 Ultra, 192GB) Co-authored-by: Georgi Gerganov ggerganov@gmail.com cont : optimize get_seq_cells llama : build the kv_rows lists from per-sequence cell bitmaps Keep a bitmap over the cells for each sequence (the transpose of seq ), updated in seq_pos_inc/dec, and build the ",
+    "published": "2026-11-02T22:44:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12058",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12058",
+    "description": "imatrix : fix --nextn crash ( #31522 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62794269 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 l",
+    "published": "2026-11-02T19:33:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12057",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12057",
+    "description": "context : simplify setters ( #29730 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62784585 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.4 li",
+    "published": "2026-11-02T19:09:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12054",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12054",
+    "description": "ggml-zdnn: share buffers with host ( #31481 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62776552 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUD",
+    "published": "2026-11-02T18:48:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12053",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12053",
+    "description": "ggml : use vm_allocate instead of posix_memalign on all Apple platforms ( #31437 ) ggml : use vm_allocate instead of posix_memalign on iOS ggml : use vm_allocate on all Apple platforms, run test-host-buffer-release by default Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/62768489 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ub",
+    "published": "2026-11-02T18:27:59Z",
+    "source": "llama.cpp Releases"
+  }
+]
