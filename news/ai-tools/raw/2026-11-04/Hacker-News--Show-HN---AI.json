@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Jelly Sheet",
+    "link": "https://mrdoob.github.io/codevember-2026/01/",
+    "description": "Article URL: https://mrdoob.github.io/codevember-2026/01/ Comments URL: https://news.ycombinator.com/item?id=50361268 Points: 116 # Comments: 24",
+    "published": "Wed, 04 Nov 2026 03:40:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Distinct cellular and genetic differences in colorectal cancer in young patients",
+    "link": "https://www.dana-farber.org/newsroom/news-releases/2026/study-reveals-distinct-cellular-and-genetic-differences-in-colorectal-cancer-in-younger-patients",
+    "description": "Article URL: https://www.dana-farber.org/newsroom/news-releases/2026/study-reveals-distinct-cellular-and-genetic-differences-in-colorectal-cancer-in-younger-patients Comments URL: https://news.ycombinator.com/item?id=50361154 Points: 54 # Comments: 1",
+    "published": "Wed, 04 Nov 2026 03:20:13 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Arrows to arrows, categories to queries (2025)",
+    "link": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
+    "description": "Article URL: https://reasonablypolymorphic.com/blog/arrows-to-arrows/ Comments URL: https://news.ycombinator.com/item?id=50361107 Points: 27 # Comments: 1",
+    "published": "Wed, 04 Nov 2026 03:11:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Giant canyon on Mars is still tectonically active",
+    "link": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
+    "description": "Article URL: https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today Comments URL: https://news.ycombinator.com/item?id=50360573 Points: 67 # Comments: 5",
+    "published": "Wed, 04 Nov 2026 01:40:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "C++26 Disapproved",
+    "link": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+    "description": "Article URL: https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/ Comments URL: https://news.ycombinator.com/item?id=50360164 Points: 225 # Comments: 121",
+    "published": "Wed, 04 Nov 2026 00:33:22 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Internals of PostgreSQL",
+    "link": "https://www.interdb.jp/pg/index.html",
+    "description": "Article URL: https://www.interdb.jp/pg/index.html Comments URL: https://news.ycombinator.com/item?id=50358702 Points: 228 # Comments: 13",
+    "published": "Tue, 03 Nov 2026 21:51:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+    "link": "https://arxiv.org/abs/2605.29713",
+    "description": "Article URL: https://arxiv.org/abs/2605.29713 Comments URL: https://news.ycombinator.com/item?id=50358582 Points: 309 # Comments: 49",
+    "published": "Tue, 03 Nov 2026 21:40:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Safari introduces Adaptive Dark Mode in 27.3",
+    "link": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+    "description": "Article URL: https://webkit.org/blog/18541/introducing-adaptive-dark-mode/ Comments URL: https://news.ycombinator.com/item?id=50358562 Points: 391 # Comments: 212",
+    "published": "Tue, 03 Nov 2026 21:39:05 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+    "link": "https://uncracked.city",
+    "description": "To give you some context on the project. I'm a solo founder and I use AI heavily in my work. The idea came from wanting players to discover cities. Each city has its own history, so every case is set in a real city with real public places. The crime and the people are on other hand invented. The part that I care most is the playable aspect of the game, a model plays the detective and must solve the case before it goes live. As of today: it's free on Android, the iOS version is still waiting to b",
+    "published": "Tue, 03 Nov 2026 21:20:03 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+    "link": "https://github.com/finic-ai/kairos",
+    "description": "Hey HN, Ayan here from Finic. We’re launching Kairos, an open source alternative to Sift, Sardine, and other real-time fraud decisioning platforms. Kairos addresses two of the biggest problems facing traditional decisioning tools: a lack of labeled data to train on and dealing with fraudsters that are constantly changing their tactics. 1. Traditional fraud solutions use ML models such as XGBoost to detect fraud, but these models are dependent on quality labeled data which many businesses do not ",
+    "published": "Tue, 03 Nov 2026 21:16:48 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Introduction to Programming in ATS",
+    "link": "https://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/book1.html",
+    "description": "Article URL: https://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/book1.html Comments URL: https://news.ycombinator.com/item?id=50356913 Points: 66 # Comments: 9",
+    "published": "Tue, 03 Nov 2026 19:25:18 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "How I use AI (Oct 2026)",
+    "link": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+    "description": "Article URL: https://ben.stolovitz.com/posts/how-use-ai-oct-2026/ Comments URL: https://news.ycombinator.com/item?id=50355767 Points: 137 # Comments: 121",
+    "published": "Tue, 03 Nov 2026 18:11:11 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+    "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "description": "Article URL: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/ Comments URL: https://news.ycombinator.com/item?id=50355251 Points: 571 # Comments: 171",
+    "published": "Tue, 03 Nov 2026 17:40:00 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+    "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+    "description": "Article URL: https://github.com/postmanlabs/postman-app-support/issues/14370 Comments URL: https://news.ycombinator.com/item?id=50354960 Points: 1180 # Comments: 390",
+    "published": "Tue, 03 Nov 2026 17:22:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Ashby (YC W19) Is Hiring EMs",
+    "link": "https://www.ashbyhq.com/careers?ashby_jid=695b1ce6-c375-4fad-94ef-61b50a3fbd28&utm_source=hn",
+    "description": "Article URL: https://www.ashbyhq.com/careers?ashby_jid=695b1ce6-c375-4fad-94ef-61b50a3fbd28&utm_source=hn Comments URL: https://news.ycombinator.com/item?id=50354582 Points: 0 # Comments: 0",
+    "published": "Tue, 03 Nov 2026 17:00:53 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Stringman, an $800 open-source room scale gripper robot",
+    "link": "https://neufangled.com/",
+    "description": "Article URL: https://neufangled.com/ Comments URL: https://news.ycombinator.com/item?id=50354358 Points: 515 # Comments: 177",
+    "published": "Tue, 03 Nov 2026 16:47:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Mac at any scale",
+    "link": "https://namespace.so/blog/mac-at-any-scale",
+    "description": "Article URL: https://namespace.so/blog/mac-at-any-scale Comments URL: https://news.ycombinator.com/item?id=50352758 Points: 364 # Comments: 204",
+    "published": "Tue, 03 Nov 2026 14:53:42 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "There is no posttraining data commons",
+    "link": "https://openathena.ai/blog/there-is-no-posttraining-data-commons/",
+    "description": "Article URL: https://openathena.ai/blog/there-is-no-posttraining-data-commons/ Comments URL: https://news.ycombinator.com/item?id=50352641 Points: 57 # Comments: 18",
+    "published": "Tue, 03 Nov 2026 14:45:47 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
+    "link": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
+    "description": "Article URL: https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/ Comments URL: https://news.ycombinator.com/item?id=50351463 Points: 54 # Comments: 132",
+    "published": "Tue, 03 Nov 2026 12:58:43 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Why Clip Art Was Everywhere Until It Wasn't [video]",
+    "link": "https://www.youtube.com/watch?v=XfLlpxE6AYM",
+    "description": "Article URL: https://www.youtube.com/watch?v=XfLlpxE6AYM Comments URL: https://news.ycombinator.com/item?id=50351298 Points: 30 # Comments: 10",
+    "published": "Tue, 03 Nov 2026 12:40:06 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

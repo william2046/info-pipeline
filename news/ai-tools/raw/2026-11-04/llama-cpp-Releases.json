@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12099",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12099",
+    "description": "hexagon: add LIGHTNING_INDEXER support ( #31289 ) hexagon: initial support for LIGHTNING_INDEXER op hex-lght-idxr: hmx for prefill hex-lght-idxr: q8_0 decode gather transpose, two-block decode compute hex-lght-idxr: pipelined hmx path for decode and prefill hex-lid: add support for K (f32) hex-lid: add support for K (f32) hex-lid: add support for q4_0 hex-lid: remove scalar VTCM reads in the HMX q4_0 K prep and remove vector spills hex-lid: host/kernel kparams alighnment and remove sw devices in",
+    "published": "2026-11-04T05:50:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12098",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12098",
+    "description": "mtmd: accurate support for qwen3-vl video prompt format ( #31619 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63416358 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu",
+    "published": "2026-11-04T03:53:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12097",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12097",
+    "description": "model, mtmd: add chatterbox TTS support ( #30993 ) add chatterbox TTS support Co-authored-by: Pascal admin@serveurperso.com add built-in voice support rm redundant code clean up clean up 2 Apply batched suggestions from code review Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co improve Co-authored-by: Pascal admin@serveurperso.com Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/att",
+    "published": "2026-11-04T03:32:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12096",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12096",
+    "description": "hexagon: add TOP_K_MASK op ( #31552 ) hexagon: add TOP_K_MASK op Simplify Hexagon TOP_K_MASK kernel and do not duplicate host configuration Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63407530 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan",
+    "published": "2026-11-04T03:16:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12095",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12095",
+    "description": "gemma4: graph optimizations (massive gains on pp for E2B and E4B) ( #3 …",
+    "published": "2026-11-03T18:30:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12094",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12094",
+    "description": "hexagon: faster TOP_K for the backend sampler ( #31279 ) hexagon: faster TOP_K for the backend sampler (skip tiles, then block scan) Skip the bitonic sort for tiles whose max cannot reach the running k-th best value, then replace the tile sort with top_k_scan(): reject 256-float blocks with one HVX max-reduce and insert only surviving elements into a sorted k-entry list. Used for k in 2..64 and rows wider than 1024, in both the single-row and multi-row paths. Ties keep the first-seen index. NaN ",
+    "published": "2026-11-04T02:44:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12092: hexagon: add DSV4_HC_PRE and DSV4_HC_POST ops (#30953)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12092",
+    "description": "hexagon: add support for DSV4_HC_PRE hexagon: hsv4-hc-pre plain/gated split kernel and l2 prefetch optimization hex-dsv4-hc-pre: double-buffered DMA for prefill hex-dsv4-hc-pre: refactor DMA block setup hex-dsv4-hc-pre: precompute kernel params hex-dsv4-hc-pre: support for n_hc != 4 hexagon: add support for DSV4_HC_POST hex-dsv4-hc-pre: refactor gated PRE prefill DMA to dst writeback after each block hex-dsv4-hc-pre: remove in-loop vector spills and redundant device-side checks hex-run: add supp",
+    "published": "2026-11-03T16:26:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12091",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12091",
+    "description": "spec : save and restore MTP hidden state ( #30141 ) speculative : save and restore MTP hidden state Assisted-by: Codex tests : remove MTP state test Assisted-by: Codex speculative : simplify MTP checkpoint state Save only the boundary hidden row; verification rows are rebuilt on the supported restore paths. Assisted-by: GPT-6 Co-authored-by: zouyongxing zouyongxing@bytedance.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63388261 macOS/iOS: macOS ",
+    "published": "2026-11-04T01:59:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12090",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12090",
+    "description": "ggml-zdnn: fix fattn test failure ( #31583 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63384051 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA ",
+    "published": "2026-11-04T01:41:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12089",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12089",
+    "description": "model : Add support for Metis-1.6 models ( #31134 ) Assisted-by: Claude Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63378637 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries U",
+    "published": "2026-11-04T01:20:02Z",
+    "source": "llama.cpp Releases"
+  }
+]
