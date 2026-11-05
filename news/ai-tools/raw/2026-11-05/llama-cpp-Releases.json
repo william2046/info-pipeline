@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12126: qwen2 : add nvfp4 scales to build_ffn (#31657)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12126",
+    "description": "This commit adds nvfp4 scales to qwen2's build_ffn call which are currently passed as NULL. The motivation for this is that a model converted to NVFP4 will currently crash because the scales are loaded but never applied in the FFN: llama-completion: llama.cpp/src/llama-sampler.cpp:1218: void llama_sampler_dist_apply(llama_sampler*, llama_token_data_array*): Assertion `found' failed. The attention already applies its scales but ffn is missing them.",
+    "published": "2026-11-05T05:29:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12125",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12125",
+    "description": "opencl: enable f32 and q5_k multi column GEMV by default for Adreno X2 ( #31694 ) opencl: use the small-N f32 GEMV by default on X2E Assisted-by: Claude Opus 5.5 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com opencl: use the q5_K multi-column verify GEMV by default on X2E Assisted-by: Claude Opus 5.5 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63933469",
+    "published": "2026-11-05T07:32:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12124",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12124",
+    "description": "opencl: support non-contig sigmoid ( #31687 ) Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63927117 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA",
+    "published": "2026-11-05T07:12:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12123",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12123",
+    "description": "opencl: add DSV4_HC_PRE and DSV4_HC_POST ( #31623 ) opencl: add DSV4_HC_PRE and DSV4_HC_POST Co-authored-by: Shafei Qi shaoqi@qti.qualcomm.com opencl: improve dsv4_hc_post Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63921700 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux",
+    "published": "2026-11-05T06:46:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12122",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12122",
+    "description": "Title: CUDA: fuse NVFP4 gate/up matmuls and GLU in MMQ ( #31296 ) cuda: fuse NVFP4 gate/up and GLU in MMQ cuda: honor the requested src1 precision in fused gate/up MMQ cuda: share NVFP4 scale checks, skip unused fused FP4 kernels cuda: test NVFP4 fused MMQ at W4A8 without scales and with batches, clean up naming cuda: check gate_scale before loading the fused NVFP4 gate scale Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63914210 macOS/iOS: macOS App",
+    "published": "2026-11-05T06:19:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12121",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12121",
+    "description": "llama : fix on-device state copy sizes for quantized KV caches ( #30541 ) llama : fix on-device state copy sizes for quantized KV caches The on-device sequence state copies (LLAMA_STATE_SEQ_FLAGS_ON_DEVICE) computed their element count as size / ggml_element_size(). For a quantized type such as q8_0 or q4_0 that is the number of blocks, not elements, so only part of each range was copied: the restored state was wrong, or the copy crashed. Compute the count as size / ggml_type_size() * ggml_blck_",
+    "published": "2026-11-05T03:03:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "v0.9.0",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0",
+    "description": "Overview This release adds OCP FP8 E4M3 quantization support, a new flash_attn_ext_rows op that makes the unified KV cache efficient for multi-sequence inference, and a generic batched tensor copy API. Four new architectures are supported (Clover, Limite, Metis-1.6 and Mistral Large 4), audio generation and transcription expand with Chatterbox TTS, Nemotron 3.5 Transcribe and predefined Pocket TTS voices, and the Gemma 4 E2B/E4B models get major prefill optimizations. ggml is updated to v0.29.0,",
+    "published": "2026-11-04T13:09:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12119",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12119",
+    "description": "server : realtime: send an error event instead of crashing on exceptions ( #31632 ) server : realtime: send an error event instead of crashing on exceptions server : route websocket handlers through ex_wrapper, remove the realtime test server : realtime: keep the previous tools when the chat template rejects new ones server : realtime: reject tool schemas the grammar cannot convert, drop ws_ex_wrapper server : realtime: clarify the tool schema check comment Website: https://llama.app Attestation",
+    "published": "2026-11-04T22:37:57Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12118",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12118",
+    "description": "opencl: improve decode perf with FA ( #31633 ) opencl: use more workgroups for q4_K gate up + GLU Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com opencl: handle FA for GQA 2 and 6 with head size 256 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com opencl: handle FA for GQA 16 with head size of 128, 512 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com opencl: handle FA for GQA 2 with head size 512 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Co-authored-by: Li He lih@qti.qualcomm.com",
+    "published": "2026-11-04T22:17:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12116",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12116",
+    "description": "model, mtmd: drama-3 tts support ( #31613 ) model, mtmd: drama-3 tts support clean up mtmd: drama3 helper stops at the codebook tower limit Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/63780976 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU",
+    "published": "2026-11-04T22:01:47Z",
+    "source": "llama.cpp Releases"
+  }
+]
