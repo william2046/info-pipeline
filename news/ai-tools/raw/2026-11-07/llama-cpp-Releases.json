@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12182",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12182",
+    "description": "meta : raise the compute view limit for buffers with few tensors ( #31447 ) ggml-backend-meta : minimum number of compute views per buffer Assisted-by: Claude Opus 5.5 tests : revert the deepseek41 test model to 6 layers Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64758969 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CP",
+    "published": "2026-11-07T03:35:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12181: hexagon: fuse post-norm residual add into RMS_NORM_MUL (#31822)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12181",
+    "description": "hexagon: fuse post-norm residual add into RMS_NORM_MUL hex-fusion: refactor RMS_NORM fusion and add dedicated RMS_NORM_MUL_ADD opcode Improves performance by keeping things in HVX registers. Also simplifies overall fusion logic and logging. Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com",
+    "published": "2026-11-07T00:06:59Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12180",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12180",
+    "description": "model: add Kimi-K3.1-Pro text model ( #31779 ) model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no rope). The KDA (linear-attention) layers and the rest of the K3 skeleton - cross-layer residuals, latent MoE, situ, MLA output gate, full-rank KDA gate - are unchanged, so this reuses the K3 graph and converter and adds the indexer. Indexer: the selection is an add",
+    "published": "2026-11-06T23:24:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12179",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12179",
+    "description": "hexagon: conv_2d optimizations and support for conv_3d ( #31814 ) hexagon: Generalization of CONV_2D implementation for CONV_3D New op HTP_OP_CONV_3D is wired through htp-ops.h, main.c (shares op_conv_2d) and the op remap in htp-kparams.cpp. conv_3d runs on the existing HMX tiled (implicit GEMM) conv2d path. KD and KH are folded into one virtual kernel row (KD KH), and output rows are counted as N OD*OH. htp_kparams_solve_conv3d checks the conv_3d layout and calls the tiled solver htp_kparams_co",
+    "published": "2026-11-06T20:47:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12177",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12177",
+    "description": "cli : fix crash on invalid UTF-8 in prompt or files ( #31563 ) Assisted-by: Claude Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64587236 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 ",
+    "published": "2026-11-06T17:13:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12176",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12176",
+    "description": "tests : qualify isnan and signbit with std:: ( #31791 ) tests : qualify isnan and signbit with std:: The unqualified calls rely on the C math.h names also being present in the global namespace, which is not the case for the NetBSD 11.99.9/x86_64 gcc 14.4.0 build reported in the issue. Prefix the calls with std:: to select the standard C++ overloads declared by . ref: ggml-org/ggml#1681 Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) tests : qualify C math cal",
+    "published": "2026-11-06T16:43:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12175",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12175",
+    "description": "tests : override hardware_concurrency in CI ( #31797 ) The self-hosted CPU runners are containers with 8 CPUs, but std::thread::hardware_concurrency reports the cores of the host. The table mode of test-llama-context sizes its pool from that count, so it runs 4 models x 8 threads on an 8-CPU job and hangs. Add TEST_ARG_HARDWARE_CONCURRENCY and TEST_ARG_PARALLEL_WORKERS as the defaults for the auto-selected counts of test-llama-context and of test-backend-ops, and set them to 8 and 4 for cpu-x64-",
+    "published": "2026-11-06T16:11:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12174",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12174",
+    "description": "cmake : generate RC file directly without win-app.rc.in ( #31718 ) Signed-off-by: Adrien Gallouët angt@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64553678 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
+    "published": "2026-11-06T15:50:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12173",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12173",
+    "description": "opencl: support repeat for f16, i32, i16, bf16 ( #31782 ) opencl: add f16 repeat Assisted-by: Codex opencl: support repeat for i32, i16, bf16 Assisted-by: Codex opencl: update ops Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64540216 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.",
+    "published": "2026-11-06T15:13:47Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12172",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12172",
+    "description": "webgpu: add batched tensor API ( get_tensor_n and set_tensor_n ) ( #31473 ) add set_tensor_n and get_tensor_n fix for editor-config checker remove the outdated comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64533296 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s39",
+    "published": "2026-11-06T14:54:23Z",
+    "source": "llama.cpp Releases"
+  }
+]
