@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12201",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12201",
+    "description": "speculative : do not apply the MoE cache to the draft model ( #31497 )",
+    "published": "2026-11-08T06:11:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12200",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12200",
+    "description": "opencl: improve q8_0 and MoE small-n verification for spec ( #31831 ) opencl: add kernel_gemv_noshuffle_q8_0_f32_mc Assisted-by: Claude Opus 5.5 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: small-n MoE GEMV for q5_1, q4_k Assisted-by: Claude Opus 5.5 Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com opencl: adreno kernel k floor 256 for x2 Assisted-by: Claude Opus 5.5 Co-aut",
+    "published": "2026-11-08T06:43:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12199",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12199",
+    "description": "common : sanitize invalid UTF-8 in PEG tool call arguments ( #31861 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64987982 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubu",
+    "published": "2026-11-08T04:48:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12198",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12198",
+    "description": "server : downgrade per-request proxy logs to trace ( #31859 ) Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-Flash-Next-GGUF (MacBook, M5 Max, 128GB) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64965303 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 ",
+    "published": "2026-11-08T02:09:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12197",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12197",
+    "description": "hexagon: support for automatic loading of libhtp without legacy env vars ( #31781 ) hexagon: use absolute skel path hexagon: support non-ascii dir and long path in skel-abs path hex-libdir: add support for FASTRPC_MANAGE_DSP_LIBRARY_PATH and GGML_HEXAGON_LIBHTP_DIR on all platforms hex-libdir: keep extra fwd slash in abs path on Android and Linux hex-libpath: always start with absolute path then fallback to session ctl then env hex-libdir: add CDSP1,2,3 to the fallback, needed for the IQ10 Co-au",
+    "published": "2026-11-08T01:49:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12196",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12196",
+    "description": "sycl: exact rounding in CPY to Q4_1, Q5_1 and Q8_0 ( #31465 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64960076 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 ",
+    "published": "2026-11-08T01:32:39Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12195",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12195",
+    "description": "sycl: refuse device buffers that would exceed VRAM ( #31285 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64957626 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 ",
+    "published": "2026-11-08T01:15:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12194",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12194",
+    "description": "hexagon: n_hvx and n_threads cleanup ( #31857 ) hex-nhvx: apply nhvx updates to the latest master hex-nhvx: set N_HVX and N_THREADS based on the arch to avoid overallocation hex-build: add support for enabling HTP_DEBUG via build.py hex-trace: move tracing state/helpers into new htp-trace.h header hex-dcache: cleanup dcache #defines hex-hnvx: minimize the diff by reflowing the macros hex-ci: fix python type/linter warnings hex-nhvx: consitent logging Website: https://llama.app Attestations: http",
+    "published": "2026-11-08T00:23:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12193",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12193",
+    "description": "mtmd: move log-mel computation to cgraph ( #31808 ) mtmd: move log-mel computation to cgraph rm stray file also include source in mtmd_audio_track rm stray file rm mtmd_audio_stft_op add test Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/64943429 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu 26.04 s390",
+    "published": "2026-11-07T23:48:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12192",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12192",
+    "description": "mtmd: support MageVL-Cowork model ( #31819 ) mtmd: support MageVL-Cowork model mtmd: keep magevl rope_freqs at model level and check its shape The rope factors are shared by every layer, so they live in clip_model instead of a pointer copied into each clip_layer. The loader now checks that v.rope_freqs is F32 with d_head elements and that d_head splits into the 4:6:6 pairs the graph expects. Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com",
+    "published": "2026-11-07T21:31:27Z",
+    "source": "llama.cpp Releases"
+  }
+]
