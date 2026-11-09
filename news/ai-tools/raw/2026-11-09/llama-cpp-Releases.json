@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12211",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12211",
+    "description": "mtmd: refactoring: remove clip.h, consolidate code into mtmd ( #31865 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65083165 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libra",
+    "published": "2026-11-08T16:53:06Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12210",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12210",
+    "description": "cpu: enable SpacemiT IME2 MXFP4 dense repack ( #31776 ) Assisted-by: Codex Signed-off-by: gitGurugu 2049447146@qq.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65077268 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (",
+    "published": "2026-11-08T16:18:43Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12209",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12209",
+    "description": "llamafile: impl bf16 and q8_0 vxe ( #31866 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65074455 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) ",
+    "published": "2026-11-08T16:04:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12208",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12208",
+    "description": "ggml : update CUDA/Metal radix Top-K to make tied selections deterministic ( #31084 ) ggml : fix for the radix TOP_K thread timing bug make the key an ordered 64-bit pair a rewrite without shift-skip logic fix casts warp-contiguous layout reduce the scope removing vulkan+metal changes turn it off for Metal/ROCm, note about cub::DeviceTopK fix the hip build skip Vulkan as well popc lambda from fattn do block_cols math in int64_t make it allowlist bc SYCL looks non deterministic too ggml : make Me",
+    "published": "2026-11-08T15:50:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12207",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12207",
+    "description": "ggml-cuda : add d_state=64 fast path to SSM_SCAN kernel ( #31818 ) Zamba2 and similar architectures use a state size of 64 in their recurrent-scan step, which fell outside the GPU kernel's existing fast paths (96, 128, 256). Every scan step was falling back to CPU, bottlenecking generation to 6-7 tok/s against the 50-70 tok/s band other architectures achieve on the same hardware. Add a 4th template instantiation for d_state=64, following the existing pattern; no change to the underlying math. Ve",
+    "published": "2026-11-08T14:24:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12206",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12206",
+    "description": "moe-cache : ensure CPU part does not wait for the cached experts ( #31888 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/65056209 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 l",
+    "published": "2026-11-08T14:04:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12205: webgpu : add COUNT_EQUAL support (#31578)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12205",
+    "description": "webgpu : add COUNT_EQUAL support Assisted-by: Codex webgpu : reduce small COUNT_EQUAL inputs in one dispatch Assisted-by: Codex webgpu : simplify COUNT_EQUAL and reuse existing tests webgpu : move COUNT_EQUAL pipeline cache declaration Update ggml/src/ggml-webgpu/ggml-webgpu.cpp Co-authored-by: Masashi Yoshimura yoshimura.masashi.frbs@gmail.com tests : simplify COUNT_EQUAL coverage Co-authored-by: Masashi Yoshimura yoshimura.masashi.frbs@gmail.com",
+    "published": "2026-11-08T09:50:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12204: ci: move runners to Ubuntu 26.04 (#31529)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12204",
+    "description": "ci: update to ubuntu26.04 Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: bring back toolchain workaround Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: remove workaround completely Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: more switching to ubuntu 26.04 Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: pin android cmake version Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: restore ubuntu 24.04 for s390x Signed-off-by: Aaron Teo aaron.teo1@ibm.com ci: fix missing s390x ubuntu 24.04 releas",
+    "published": "2026-11-08T09:47:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12203: ggml : switch to F32 src1 in the CPU backend (#31854)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12203",
+    "description": "ggml : switch to F32 src1 in the CPU backend Change the default computation for GGML_TYPE_F16 to use F32 for src1 data in matrix multiplications: vec_dot_type(F16) is now F32 and the dot product goes through the new ggml_vec_dot_f16_f32 (x = F16 src0, y = F32 src1), so src1 is no longer quantized to F16 and worst-case inputs that only fit in the F32 FP range are handled correctly. conv_2d/conv_3d: store im2col patches (the inner mul_mat src1) as F32 and pass separate src0/src1 types to the inner",
+    "published": "2026-11-08T09:44:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12202",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12202",
+    "description": "llama, mtmd: follow the reference precision of ggml_prec_set_acc calls ( #31851 ) llama, mtmd: follow the reference precision of ggml_prec_set_acc calls Requests that the reference implementation does not keep in F32 move to GGML_PREC_BF16: the GLM4 family down and output projections, the MiMoVL vision matmuls and the Qwen3-TTS speaker encoder conv1d. The DeepSeek V4/V4.1 routers and the MiniMax-M3 indexer stay in F32 with a link to the reference line that computes them in F32. ggml: handle GGML",
+    "published": "2026-11-08T08:14:24Z",
+    "source": "llama.cpp Releases"
+  }
+]
