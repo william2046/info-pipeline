@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12283",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12283",
+    "description": "sycl : fixed sycl CLAMP to actually support strided view ( #31784 ) Modify ggml_sycl_op_clamp to use the unary helper function ggml_sycl_detail::ggml_sycl_op_unary to handle non-contigous or strided views. The fix uses a pattern that matches other stride-safe unary ops, and is a simpler execution path. Deleted dead template unary_op_clamp_kernel , the flat clamp kernel launcher from element_wise.cpp, and deleted (now) unused SYCL_CLAMP_BLOCK_SIZE from presets.hpp. Website: https://llama.app Atte",
+    "published": "2026-11-11T06:21:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12282",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12282",
+    "description": "chat : fix Muse Spark ignoring response_format json_schema ( #32017 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66115272 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librari",
+    "published": "2026-11-11T03:35:11Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12277",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12277",
+    "description": "mtmd: fix string format, rename to mtmd_format ( #32040 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66110290 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x6",
+    "published": "2026-11-11T03:14:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12274",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12274",
+    "description": "llama : Add FP8 KV-cache support ( #28392 ) Add FP8 KV-cache support Add tests for scaled, FP8 KV-cache to test-backend-ops Fix get_*_scale mapping and dequnatize FP8 also before rope shift Normalizes cache-scale names independently of projection layout. While fused KQV is currently impractival for non-shared scales, this is an improvement for future use regardless Enable Gemma 4 Assistant with FP8 by storing and fetching scale ptrs Update comment wording Move E2E FP8 KV cache tests to test-llam",
+    "published": "2026-11-11T02:57:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12273",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12273",
+    "description": "Merge pull request #32015 from ggml-org/gg/fix-sampling-output-aliasing Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66100460 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libra",
+    "published": "2026-11-11T02:38:08Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12271",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12271",
+    "description": "llama : reuse backend scheduler when sched_params are compatible ( #32009 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66094783 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 l",
+    "published": "2026-11-11T02:18:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12270",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12270",
+    "description": "ggml : add MUL_MAT src1 precision tests and gating ( #31896 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66090173 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubunt",
+    "published": "2026-11-11T01:59:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12263",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12263",
+    "description": "cuda : halve VMM pool reservation size and retry on cuMemAddressReserve failure ( #30542 ) cuda : Lowering VMM pool reservation size to 8 GB on GPUs with combined memory due to CUDA out of memory errors Assisted-by: Gemini Argon cuda : Halve VMM pool reservation size and retry on failure Assisted-by: Gemini Argon cuda : only shrink VMM pool on CUDA_ERROR_OUT_OF_MEMORY Assisted-by: Gemini Argon cuda : log warning when VMM pool reserves less than max size Assisted-by: Gemini Argon Website: https:/",
+    "published": "2026-11-11T01:29:41Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12262",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12262",
+    "description": "CUDA: skip graph compat check when graph is being reused ( #32004 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66042335 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries",
+    "published": "2026-11-10T23:08:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12261",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12261",
+    "description": "mtmd: share compute buffer among subcontext ( #31945 ) shared compute buffer add load-time alloc for audio gen Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66037540 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan)",
+    "published": "2026-11-10T22:53:12Z",
+    "source": "llama.cpp Releases"
+  }
+]

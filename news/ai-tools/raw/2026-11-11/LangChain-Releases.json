@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-core==1.7.7",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7",
+    "description": "Changes since langchain-core==1.7.6 release(core): 1.7.7 ( #41776 ) fix(core): cap nesting depth in load() ( #41742 ) chore(deps): patch newer-python security lock resolutions ( #41585 )",
+    "published": "2026-11-10T04:08:29Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain==1.4.10",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.10",
+    "description": "Changes since langchain==1.4.9 release(langchain): 1.4.10 ( #41778 ) fix(langchain): keep middleware-internal model calls off the messages stream ( #41579 ) chore(deps): patch newer-python security lock resolutions ( #41585 ) fix(langchain): omit trace inputs from ModelRefusalMiddleware ( #41689 )",
+    "published": "2026-11-10T18:37:33Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.7.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3",
+    "description": "Changes since langchain-fireworks==1.7.2 release(fireworks): 1.7.3 ( #41773 ) fix(fireworks): default max_tokens from model profiles ( #41772 ) chore(model-profiles): refresh model profile data ( #41762 ) chore(model-profiles): refresh model profile data ( #41745 )",
+    "published": "2026-11-09T20:54:21Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-typesafe==0.0.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2",
+    "description": "Changes since langchain-typesafe==0.0.1 release(typesafe): 0.0.2 ( #41720 ) feat(typesafe): accept a classifier in experimental middleware ( #41657 )",
+    "published": "2026-11-05T22:57:00Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.7.6",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6",
+    "description": "Changes since langchain-core==1.7.5 release(core): 1.7.6 ( #41698 ) perf(core): merge streamed AIMessageChunk s once when accumulating runnable streams ( #41697 ) perf(core): stop parse_partial_json from retrying one character at a time ( #41467 )",
+    "published": "2026-11-05T00:22:14Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-typesafe==0.0.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1",
+    "description": "Initial release release(typesafe): 0.0.1 ( #41650 ) chore(infra): relax third-party dependency upper bounds ( #41407 ) chore(deps): bump certifi from 2026.7.22 to 2026.10.19 in /libs/partners/typesafe ( #41375 ) fix: fix dependencies in some partner packages ( #41266 ) release(typesafe): 0.0.1a3 ( #40693 ) feat(typesafe): make classifier questions invocation-scoped ( #40659 ) release(typesafe): bump to 0.0.1a2 ( #40576 ) feat(typesafe): experimental AutoModeMiddleware ( #40545 ) feat(typesafe): ",
+    "published": "2026-11-04T00:11:28Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.7.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.4",
+    "description": "Changes since langchain-openai==1.7.3 release(openai): 1.7.4 ( #41683 ) chore(deps): require langchain-core>=1.7.5 for refusal handling ( #41682 ) feat(core): standardize model refusal content blocks ( #41582 ) chore(model-profiles): refresh model profile data ( #41556 )",
+    "published": "2026-11-04T16:55:56Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-fireworks==1.7.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.2",
+    "description": "Changes since langchain-fireworks==1.7.1 fix(fireworks): report streamed token usage once ( #41693 ) release(fireworks): 1.7.2 ( #41690 ) fix(fireworks): report the served model in response metadata ( #41686 ) chore(model-profiles): refresh model profile data ( #41669 ) fix(fireworks): promote reranking out of beta ( #41551 ) chore(model-profiles): refresh model profile data ( #41432 ) chore(infra): relax third-party dependency upper bounds ( #41407 ) chore(model-profiles): refresh model profile",
+    "published": "2026-11-04T20:47:52Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.7.5",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.5",
+    "description": "Changes since langchain-core==1.7.4 release(core): 1.7.5 ( #41665 ) feat(core): translate Gemini safety blocks to refusal content blocks ( #41658 ) fix(core): end tool run on cancellation ( #41660 ) feat(core): standardize model refusal content blocks ( #41582 ) fix(core): load RemoveMessage serialized by LangChain.js ( #41642 )",
+    "published": "2026-11-04T15:50:07Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.7.10",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.10",
+    "description": "Changes since langchain-anthropic==1.7.9 release(anthropic): 1.7.10 ( #41685 ) chore(deps): require langchain-core>=1.7.5 for refusal handling ( #41682 ) feat(core): translate Gemini safety blocks to refusal content blocks ( #41658 ) feat(core): standardize model refusal content blocks ( #41582 )",
+    "published": "2026-11-04T16:51:15Z",
+    "source": "LangChain Releases"
+  }
+]

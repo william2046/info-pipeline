@@ -1,0 +1,352 @@
+[
+  {
+    "title": "Ember",
+    "link": "https://www.producthunt.com/products/ember-117",
+    "description": "Free, open-source Slack you host on Cloudflare in one click Discussion | Link",
+    "published": "2026-11-09T09:00:33-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "OpenVibe",
+    "link": "https://www.producthunt.com/products/openvibe-2",
+    "description": "A canvas of real terminals for your AI coding agents Discussion | Link",
+    "published": "2026-11-09T09:34:57-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Levo",
+    "link": "https://www.producthunt.com/products/levo-3",
+    "description": "Your AI agent finds what's safe to delete on your Mac Discussion | Link",
+    "published": "2026-11-07T13:30:59-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Maxma",
+    "link": "https://www.producthunt.com/products/maxma-2",
+    "description": "The 24/7 AI teammate that scales your paid ad performance Discussion | Link",
+    "published": "2026-10-23T17:59:22-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Nadhif",
+    "link": "https://www.producthunt.com/products/nadhif",
+    "description": "Check Mac, server and website security Discussion | Link",
+    "published": "2026-11-04T17:12:09-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Operum",
+    "link": "https://www.producthunt.com/products/operum",
+    "description": "Your AI product team, with expert workflows built in Discussion | Link",
+    "published": "2026-10-10T20:07:59-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Wipecraft",
+    "link": "https://www.producthunt.com/products/wipecraft",
+    "description": "Mac System Data cleaner with on-device AI mode Discussion | Link",
+    "published": "2026-11-09T03:50:59-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "CloakPane",
+    "link": "https://www.producthunt.com/products/cloakpane",
+    "description": "A Mac browser that stays out of your screen shares Discussion | Link",
+    "published": "2026-11-06T22:51:00-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Daytwo",
+    "link": "https://www.producthunt.com/products/daytwo-2",
+    "description": "Let your team change your custom site without touching code Discussion | Link",
+    "published": "2026-11-09T07:17:34-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "AppuBot",
+    "link": "https://www.producthunt.com/products/appubot",
+    "description": "Grok Bot alternative that runs on your AI, completely free Discussion | Link",
+    "published": "2026-11-09T20:16:01-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "MuJoCo 4",
+    "link": "https://www.producthunt.com/products/google",
+    "description": "A physics engine for robots with its own studio Discussion | Link",
+    "published": "2026-11-09T22:23:09-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "MoreFrame",
+    "link": "https://www.producthunt.com/products/moreframe",
+    "description": "Dual-screen recording and editing for Mac and Windows Discussion | Link",
+    "published": "2026-11-09T11:44:36-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "CollaboTokyo",
+    "link": "https://www.producthunt.com/products/collabotokyo",
+    "description": "Explore a virtual Tokyo to network, market, and collaborate Discussion | Link",
+    "published": "2026-11-08T22:24:12-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Clive",
+    "link": "https://www.producthunt.com/products/clive",
+    "description": "Let Claude and other AIs set your iPhone alarms Discussion | Link",
+    "published": "2026-11-09T16:23:22-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Rodeo",
+    "link": "https://www.producthunt.com/products/rodeo-7",
+    "description": "A Notion alternative with AI meeting notes on the free plan Discussion | Link",
+    "published": "2026-11-05T02:22:01-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Dover Startup Jobs",
+    "link": "https://www.producthunt.com/products/dover",
+    "description": "Where great startups meet great candidates Discussion | Link",
+    "published": "2026-11-09T18:53:06-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Ownkube",
+    "link": "https://www.producthunt.com/products/ownkube",
+    "description": "Deploy apps from your coding agent with one prompt Discussion | Link",
+    "published": "2026-10-20T07:25:22-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "ZUS",
+    "link": "https://www.producthunt.com/products/zus-2",
+    "description": "AI-native IDE: agents code with human review Discussion | Link",
+    "published": "2026-11-09T09:01:49-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "LotusQ",
+    "link": "https://www.producthunt.com/products/lotusq",
+    "description": "Talk instead of type, in any app Discussion | Link",
+    "published": "2026-11-09T01:52:20-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Inspo by Context.dev",
+    "link": "https://www.producthunt.com/products/context-dev",
+    "description": "Real website inspiration for your coding agent Discussion | Link",
+    "published": "2026-11-09T13:48:31-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "RunThru",
+    "link": "https://www.producthunt.com/products/runthru",
+    "description": "Video proof that your agent's pull request works Discussion | Link",
+    "published": "2026-11-07T00:05:49-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "openring",
+    "link": "https://www.producthunt.com/products/openring",
+    "description": "Open-source voice AI agents with no platform fee Discussion | Link",
+    "published": "2026-11-09T17:26:14-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "VeilCC",
+    "link": "https://www.producthunt.com/products/veilcc",
+    "description": "Ship code AI can't reverse engineer Discussion | Link",
+    "published": "2026-11-05T23:02:53-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Kumiko",
+    "link": "https://www.producthunt.com/products/kumiko-2",
+    "description": "AI window manager for ultrawide and big-screen Macs Discussion | Link",
+    "published": "2026-11-09T13:40:59-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "QuotedPart",
+    "link": "https://www.producthunt.com/products/quotedpart",
+    "description": "AI quoting for CNC and sheet metal job shops Discussion | Link",
+    "published": "2026-11-08T16:04:46-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Gesso",
+    "link": "https://www.producthunt.com/products/gesso-2",
+    "description": "Ask ChatGPT or Claude to design, then edit every layer Discussion | Link",
+    "published": "2026-11-03T21:47:42-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "TOWeb 15",
+    "link": "https://www.producthunt.com/products/toweb",
+    "description": "Rewritten as a native Mac & Windows app, with AI and MCP Discussion | Link",
+    "published": "2026-11-03T10:07:07-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Kata Send",
+    "link": "https://www.producthunt.com/products/kata-send",
+    "description": "Cold email infrastructure for AI agents Discussion | Link",
+    "published": "2026-11-05T00:50:12-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "TK by Medium",
+    "link": "https://www.producthunt.com/products/medium",
+    "description": "An agentic notebook to build your best thinking Discussion | Link",
+    "published": "2026-11-05T06:33:24-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Seldon",
+    "link": "https://www.producthunt.com/products/seldon",
+    "description": "Behavioral QA agents that use your product like customers do Discussion | Link",
+    "published": "2026-11-09T17:18:21-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Latch.ai",
+    "link": "https://www.producthunt.com/products/latch-ai-2",
+    "description": "Automate complex accounting work without a single prompt Discussion | Link",
+    "published": "2026-10-28T13:19:05-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Alsona",
+    "link": "https://www.producthunt.com/products/alsona",
+    "description": "AI agents that turn buying signals into booked sales calls Discussion | Link",
+    "published": "2026-10-21T08:41:38-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Coffee",
+    "link": "https://www.producthunt.com/products/coffee-9",
+    "description": "A quiet Markdown editor for Mac, with sums in your notes Discussion | Link",
+    "published": "2026-11-07T17:06:13-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Lottie AI",
+    "link": "https://www.producthunt.com/products/lottiefiles",
+    "description": "Editable vector animations from a text prompt Discussion | Link",
+    "published": "2026-11-09T00:16:41-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "SideKick By Open",
+    "link": "https://www.producthunt.com/products/open-for-sales",
+    "description": "“Claude, but for your product” is here. Discussion | Link",
+    "published": "2026-11-09T04:59:46-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "AppTraction",
+    "link": "https://www.producthunt.com/products/apptraction",
+    "description": "Supercharge Apple App Store analytics Discussion | Link",
+    "published": "2026-10-20T13:30:58-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "ChromePing",
+    "link": "https://www.producthunt.com/products/chromeping",
+    "description": "Talk to anyone by phone, in a language you don't speak Discussion | Link",
+    "published": "2026-11-04T22:37:36-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Opal Reader",
+    "link": "https://www.producthunt.com/products/opal-reader",
+    "description": "Read PDFs and EPUBs on iPhone Duo Discussion | Link",
+    "published": "2026-11-07T19:57:34-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Quillo",
+    "link": "https://www.producthunt.com/products/quillo-2",
+    "description": "Listen to any PDF in a natural voice, then ask Quillo Ai Discussion | Link",
+    "published": "2026-11-05T07:57:02-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "ForAgent",
+    "link": "https://www.producthunt.com/products/foragent",
+    "description": "Private phone numbers so AI agents can call each other Discussion | Link",
+    "published": "2026-11-04T23:09:58-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "FigSchema",
+    "link": "https://www.producthunt.com/products/figschema",
+    "description": "Design database schemas right in FigJam Discussion | Link",
+    "published": "2026-11-05T00:48:42-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Billing MCP By SubscriptionFlow",
+    "link": "https://www.producthunt.com/products/subscriptionflow-ai-billing-mcp",
+    "description": "Open Source AI Agent to Run Your Subscription Billing Discussion | Link",
+    "published": "2026-10-15T00:32:33-07:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Tokens by UI Colors",
+    "link": "https://www.producthunt.com/products/tokens-by-ui-colors",
+    "description": "Build your product’s visual language with design tokens Discussion | Link",
+    "published": "2026-11-09T09:29:48-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Obsiva",
+    "link": "https://www.producthunt.com/products/obsiva",
+    "description": "Turn site pics + voice notes into a PDF inspection report Discussion | Link",
+    "published": "2026-11-09T11:41:51-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "gitmanual",
+    "link": "https://www.producthunt.com/products/gitmanual",
+    "description": "See if a GitHub repo runs on your OS, and how to set it up Discussion | Link",
+    "published": "2026-11-06T09:01:01-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Willder",
+    "link": "https://www.producthunt.com/products/willder-with-will-wield-the-wilder",
+    "description": "The context layer that syncs your apps, agents and teams Discussion | Link",
+    "published": "2026-11-09T12:05:59-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Almanzor",
+    "link": "https://www.producthunt.com/products/almanzor",
+    "description": "Ask AI + MCP server for your docs, with cited answers Discussion | Link",
+    "published": "2026-11-09T16:21:01-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Co-Review",
+    "link": "https://www.producthunt.com/products/co-review",
+    "description": "Read the whole repository with the agent that built it Discussion | Link",
+    "published": "2026-11-09T01:54:32-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "HitPay Agentic Discovery",
+    "link": "https://www.producthunt.com/products/hitpay-agentic-discovery",
+    "description": "Make your store findable and buyable by AI agents Discussion | Link",
+    "published": "2026-11-09T19:04:23-08:00",
+    "source": "Product Hunt"
+  },
+  {
+    "title": "Kettle",
+    "link": "https://www.producthunt.com/products/kettle",
+    "description": "The helper in your family group chat Discussion | Link",
+    "published": "2026-11-09T13:40:46-08:00",
+    "source": "Product Hunt"
+  }
+]
