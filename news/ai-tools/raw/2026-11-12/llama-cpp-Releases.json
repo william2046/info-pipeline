@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12318: CUDA: add cuda debug buffer pool (#31919)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12318",
+    "description": "CUDA: add cuda debug buffer pool CUDA: add code comment for debug pool with compute-sanitizer",
+    "published": "2026-11-12T06:50:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12317",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12317",
+    "description": "opencl: add bin kernel kernel_gemm_noshuffle_q4_0_f32_32b_trans_ila_a7_bin ( #30947 ) opencl: add A7 Q4_0 non-MoE binary kernel opencl: refactor Co-authored-by: Li He lih@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66575588 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s3",
+    "published": "2026-11-12T07:02:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12316",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12316",
+    "description": "CUDA: skip empty MoE tiles in MMQ stream-k fixup ( #32067 ) CUDA: skip empty MoE tiles in MMQ stream-k fixup mul_mat_q_stream_k_fixup loads ids_dst[col_low + j] for all j < J before checking j_sup. mul_mat_q returns early on col_low == col_high, the fixup kernel did not. mm_ids_helper emits one extra tile per expert that may be empty; for trailing experts col_low == ncols_dst, so the load reads one element past the J_best-1 padding added in #29953 . The kernel returns at j >= j_sup before storin",
+    "published": "2026-11-12T06:29:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12314",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12314",
+    "description": "opencl: add decomposed FA for Adreno ( #32046 ) opencl: add decomposed FA Assisted-by: Claude Opus 5.5 Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Co-authored-by: Shaofei Qi shaoqi@qti.qualcomm.com opencl: build FA MQ kernel on first FA call so allows warmup to early build neccessary kernels Assisted-by: Claude Opus 5.5 opencl: handle inf for fully masked row opencl: refine condition for using fa decomp opencl: support dp4a for PV mm Assisted-by: Codex opencl: add direct PV for FA deco",
+    "published": "2026-11-12T05:27:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12311",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12311",
+    "description": "ui: keep downloads in Discover during search and fix their progress with a draft ( #31467 ) ui : keep downloads in Discover sidebar during search, sort base-org repos first Show the sticky Downloading section regardless of an active search query Order search results so repos published by their base model's org lead Assisted-by: Claude (Opus 5.5 Medium) server : throttle download progress per file Files of a download run in parallel threads, but progress updates were throttled with one shared tim",
+    "published": "2026-11-12T05:06:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12308",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12308",
+    "description": "ci: move test models to ggml-org-dev ( #32096 ) ci: move test models to ggml-org-dev fix test spec Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66540743 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 ",
+    "published": "2026-11-12T04:35:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12307",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12307",
+    "description": "metal : prevent out-of-bounds reads in SOLVE_TRI kernel ( #32103 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66535500 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries ",
+    "published": "2026-11-12T04:13:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12306",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12306",
+    "description": "vulkan: support batched tensor copy API ( #31418 ) vulkan: support batched tensor copy API allocate staging buffer only for copies that actually need it Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66530328 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN)",
+    "published": "2026-11-12T03:50:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12304",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12304",
+    "description": "llama : reuse graph result instances across scheduler reserves ( #32089 ) Allocate gf_res_reserve and both gf_res_prev entries once in the llama_context constructor. Add llm_graph_result::set_max_nodes() and reset the existing instances in sched_reserve() instead of recreating them. get_gf_res_prev() now only selects the arena for the current batch. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) Website: https://llama.app Attestations: https://git",
+    "published": "2026-11-12T03:22:26Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12303",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12303",
+    "description": "jinja : support chained comparisons and argument unpacking ( #32072 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66518918 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librari",
+    "published": "2026-11-12T02:59:05Z",
+    "source": "llama.cpp Releases"
+  }
+]

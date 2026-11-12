@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.34.0rc2",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc2",
+    "description": "[Doc][Tests] Stop setting gpu_memory_utilization in most extensible…",
+    "published": "2026-11-12T06:21:02Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.34.0rc1",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc1",
+    "description": "[Bugfix][Spec Decode][XPU] greedy_argmax: treat NaN as -inf on the to…",
+    "published": "2026-11-11T19:37:13Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.34.0rc0: [Transformers backend] Migrate Gemma and StableLM (#66393)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc0",
+    "description": "Signed-off-by: Harry Mellor 19981378+hmellor@users.noreply.github.com Co-authored-by: Claude Opus 5.5 noreply@anthropic.com",
+    "published": "2026-11-08T18:38:57Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.33.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0",
+    "description": "vLLM v0.33.0",
+    "published": "2026-11-01T09:21:10Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.33.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+    "description": "v0.33.0 Highlights This release features 927 commits from 389 contributors (122 new)! New models : Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter ( #62074 ), Yandex AliceAI-Foundation-80B-A3B ( #57963 ), Recursive Flint (40B MoE, 2.5B active) ( #62938 ), Muse Spark Open ( #61879 ), Step-5 Preview ( #61727 , #63147 ), NVIDIA Alpamayo 2 Super ( #62957 ), Nemotron-Labs Dory1.0-4B ( #60149 ), Nemotron Parse 3.5 ( #61651 ), MiniCPM-OCR 1.0 ( #63095 ), Domyn Edge ( #62544 ) and th",
+    "published": "2026-11-02T10:11:34Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N >= 2^31 on gfx950 (#64567)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2",
+    "description": "Signed-off-by: Micah Williamson micah.williamson@amd.com (cherry picked from commit 6d01893 )",
+    "published": "2026-10-30T09:10:43Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.33.0rc1: [CI] Fix stale NVFP4 decode test selector on DGX Spark (#64107)",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1",
+    "description": "Signed-off-by: grYe99 guorongye99@gmail.com Co-authored-by: grYe99 guorongye99@gmail.com (cherry picked from commit bfa2a43 )",
+    "published": "2026-10-28T09:31:23Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.33.0rc0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc0",
+    "description": "[Bugfix][MRV2] Skip adaptive verification cost profiling in the CUDA …",
+    "published": "2026-10-26T17:59:24Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.32.1rc0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0",
+    "description": "[Doc][RL] Document the weight-transfer HTTP protocol for trainers wit…",
+    "published": "2026-10-18T09:26:56Z",
+    "source": "vLLM Releases"
+  },
+  {
+    "title": "v0.32.0",
+    "link": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "description": "v0.32.0 Highlights This release features 814 commits from 363 contributors (121 new)! Structured decisions and generic parsers : the new POST /v1/systemone endpoint answers choice , noul and score questions over a structured state ( #59299 ), is served by default ( #60677 , #60696 ), and also runs on Cloudflare/clef-omni ( #61064 ), LiquidAI/d1-3B ( #60676 ) and DiffusionGemma ( #60466 ). The new hf tool and reasoning parser ( --tool-call-parser hf , --reasoning-parser hf ) reads the checkpoint'",
+    "published": "2026-10-18T10:23:45Z",
+    "source": "vLLM Releases"
+  }
+]
