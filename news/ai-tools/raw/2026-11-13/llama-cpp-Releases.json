@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12352",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12352",
+    "description": "chat : accept </ifm|think> as K2 Horizon closer at medium/low effort …",
+    "published": "2026-11-12T23:11:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12347: llama : prune (#30565)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12347",
+    "description": "llama : remove deprecated llama_set_warmup Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) llama : remove remaining deprecated API Drop the APIs marked DEPRECATED in llama.h, the deprecated llama_context_params::defrag_thold field and the --defrag-thold option. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) fit-params : remove stale llama-ext.h include Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.",
+    "published": "2026-11-12T18:59:09Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12345",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12345",
+    "description": "hexagon: add Q5_0 and Q5_1 support ( #32094 ) hexagon: add q5_0 and q5_1 support hex-mm: dedicated q5_0 kernels Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67050302 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan",
+    "published": "2026-11-13T06:37:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12344",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12344",
+    "description": "server : cancel MCP tool calls on client disconnect or timeout ( #32025 ) server : cancel MCP tool calls on client disconnect or timeout server : shorten MCP cancellation tests and fix a type-check error Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67042801 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU)",
+    "published": "2026-11-13T06:05:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12343",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12343",
+    "description": "qwen3.5: merge tensors on convert also ( #32102 ) qwen3.5: merge tensors on convert also Remove conversion test for qwen3.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67035302 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu a",
+    "published": "2026-11-13T05:26:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12342",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12342",
+    "description": "Title: CUDA: few-row MMQ for BS 2-24 ( #31533 ) CUDA: few-row MMQ for 2-24 src1 columns New int8 MMA kernel for quantized mat-muls with 2-24 src1 columns, e.g. speculative decoding verify passes. Supports Q8_0, Q3_K, Q4_K, Q5_K, Q6_K, IQ3_S, IQ4_NL and IQ4_XS on NVIDIA GPUs from Ampere on. nit fixes CUDA-only guard for few-row MMQ, weights flag in test_mul_mat few-row quantize: DS4 sum from the quantized values, as in #31247 few-row MMQ: clearer HIP/MUSA abort, test_mul_mat two-context build few",
+    "published": "2026-11-13T04:31:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12340",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12340",
+    "description": "server: fix SSRF for CORS proxy and media URLs ( #32115 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/66974653 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x6",
+    "published": "2026-11-13T01:16:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12336",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12336",
+    "description": "mtmd: require an F32 position embedding for HunyuanVL ( #32131 ) HunyuanVL resamples its position embedding on the host into a float buffer sized for F32, then reads ggml_nbytes() of the tensor into it. The graph never uses the tensor, so any type loads, and an F64 tensor overflows the buffer at the first image request. Require the position embedding to be present and F32 when loading the HunyuanVL tensors. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestatio",
+    "published": "2026-11-13T00:38:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12332: ggml : route GATED_DELTA_NET to the SpacemiT RVV kernel (#31897)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12332",
+    "description": "The SpacemiT compute case was commented out, so the op stayed on the scalar CPU path. Type dispatch stays with the other ops, and use_ref keeps the reference path on the generic CPU kernel. Assisted-by: Codex Signed-off-by: gitGurugu 2049447146@qq.com Signed-off-by: Wang Yang yangwang@iscas.ac.cn",
+    "published": "2026-11-12T10:20:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12331: vulkan : Intel FA kernel for prefill. (#29357)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12331",
+    "description": "vulkan : Intel customized FA shader for prefill usage vulkan : adding check of max_bias/logit_softcap for Intel FA kernel path vulkan : add m16n16k16/SIMD32 support for Xe FA prefill shader vulkan : Intel FA shader and host refinement, with accuracy issues fixes vulkan : Limit the SLM usage to 48 KiB for Intel prefill FA shader vulkan : Update Intel FA shaders to handle cases with large head dimension K, unaligned Q head stride and multi head mask cases vulkan : Intel FA shader and host refineme",
+    "published": "2026-11-12T10:19:17Z",
+    "source": "llama.cpp Releases"
+  }
+]
