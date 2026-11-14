@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12375",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12375",
+    "description": "chat : remove mistral workaround ( #32230 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67449481 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - ",
+    "published": "2026-11-14T04:18:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "v1.0.0",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+    "description": "Blog post: https://huggingface.co/blog/ggml-org/llama-cpp-v1 Overview llama.cpp v1.0.0 removes the deprecated public API and promotes the NextN/speculative API to llama.h , adds OCP FP8 KV caches, a host-memory MoE expert cache with a configurable CPU share, and loading of external PLE shards. It adds three text architectures (Kimi-K3.1-Pro, Ripple and xing4_0), drama-3 TTS, and MageVL-Cowork and Kimi-K3.1 vision, hardens llama-server (SSRF, CORS, DNS rebinding, MCP tool cancellation) and adds a",
+    "published": "2026-11-13T14:08:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "v1.0.0-b12359-b1b770d: examples : remove explict version from test-cmake (#32191)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0-b12359-b1b770d",
+    "description": "This commit removes the llama version test-cmake and instead uses the version that is supplied by CMAKE_PREFIX_PATH. The motivation for this is to avoid issues when bumping major versions.",
+    "published": "2026-11-13T09:09:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12374",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12374",
+    "description": "metal : fix mul_mv destination offset overflow ( #32221 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67398456 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x6",
+    "published": "2026-11-14T00:12:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12373",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12373",
+    "description": "hexagon: add support for SSM_SCAN op ( #31921 ) hexagon: add SSM_SCAN Op support hex-ssm-scan: fix multi-device spliting hex-ssm-scan: remove redundant checks and make kernel use host config hex-ssm-scan: remove direct ddr access hex-ssm-scan: remove DMA ordering hex-ops: update supported ops hex-ssm-scan: rewrite the dma pipeline to match other ops (dbl.buf, etc) hex-ssm-scan: remove all fallbacks, only dma/vtcm paths hex-ssm-scan: add kernel_type to kparams and remove redundant recomputes hex-",
+    "published": "2026-11-13T23:17:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12370",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12370",
+    "description": "ggml-cuda: hip: tune GCN MMQ configs ( #30021 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67382766 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13",
+    "published": "2026-11-13T23:02:31Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12368",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12368",
+    "description": "hexagon: improve buffer allocations and mappings (mmap stacking) ( #32144 ) hex-bufs: combine queue and fence buffers hex-bufs: use n_threads for queue sizing hex-mmap: optimize buffer stacking at the host to avoid iova fragmentation hex-mmap: add simply retry for spurios mmap failures hex-mmap: use eager mode for extended mmap retries Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67363734 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (a",
+    "published": "2026-11-13T21:58:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12367",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12367",
+    "description": "CUDA: add SM103 SASS to non-native builds ( #30099 ) Signed-off-by: ynankani ynankani@nvidia.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67359208 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (C",
+    "published": "2026-11-13T21:44:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12366",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12366",
+    "description": "ggml : add BF16 support to RMS_NORM (CPU, CUDA) ( #32135 ) ggml : add BF16 support to RMS_NORM (CPU, CUDA) cuda : use one helper for the F32/BF16 RMS_NORM launches Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67316539 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s",
+    "published": "2026-11-13T19:33:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12365",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12365",
+    "description": "vulkan: add TOP_K_MASK ( #31544 ) vulkan: add TOP_K_MASK Assisted-by: Claude Opus 5.5 vulkan: fix the TOP_K_MASK barrier and use the common offset helper Assisted-by: Claude Opus 5.5 vulkan: declare ggml_vk_top_k_mask in the common header Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67310514 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Lin",
+    "published": "2026-11-13T19:15:47Z",
+    "source": "llama.cpp Releases"
+  }
+]
