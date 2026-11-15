@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12407: model : metal : workaround fusion for LFM3 (#32296)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12407",
+    "description": "lfm3 : put the normed tensor first in residual adds to enable norm fusion Assisted-by: Claude Opus 5.5 tests : update Metal fusion baseline for lfm3 Assisted-by: Claude Opus 5.5",
+    "published": "2026-11-15T00:05:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12404: server : Fix connection reuse after streamed responses (#30492)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12404",
+    "description": "Assisted-by: Codex",
+    "published": "2026-11-14T23:29:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12403",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12403",
+    "description": "hexagon: add TIMESTEP_EMBEDDING HVX kernel ( #32228 ) hexagon: add TIMESTEP_EMBEDDING HVX kernel hex-timestep: add dma, improve kparams, and work-splits, and tracing timestep: add testcases that cover WAN2.2 hex-timestep: relax the gates to cont_rows Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67735351 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED ",
+    "published": "2026-11-15T07:27:40Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12402",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12402",
+    "description": "memory : fix non-consecutive position warning for M-RoPE ( #32287 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67733627 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries",
+    "published": "2026-11-15T07:17:14Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12401",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12401",
+    "description": "llamafile: introduce more Q0 quant support for s390x ( #32203 ) Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67731204 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ub",
+    "published": "2026-11-15T07:02:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12400",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12400",
+    "description": "llama : allocate the tensor staging buffer from the CPU buffer type ( #31438 ) llama : allocate the tensor staging buffer from the CPU buffer type llama : drop the staging buffer test, reword the comment Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67729330 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU)",
+    "published": "2026-11-15T06:50:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12399",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12399",
+    "description": "vulkan: Explicitly include SPIRV-Headers ( #31416 ) vulkan: Explicitly include SPIRV-Headers Distros that don't put the headers in a system include path need to specify it to the compiler. So we use the appropriate CMake target to include it. Assisted-by: Codex vulkan: Add explicit headers location to workaround OSX CI runner conf Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67727115 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64,",
+    "published": "2026-11-15T06:36:29Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12398",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12398",
+    "description": "vulkan: optimize prompt processing Flash Attention for RDNA3 and RDNA4 ( #31323 ) vulkan: optimize Flash Attention cm1 for RDNA3 and RDNA4 reduce shmem use through buffer reuse clean up and fixes limit q_in_regs to prefill vulkan: add flipped FA path, each subgroup owns 16 Q rows cleanup move flip shader into own file replace kvsep with direct load mode fix nvidia hang, tune AMD only store pv in sfsh if necessary fix skip condition nvidia tuning reduce occupancy on RDNA4 for large attention head",
+    "published": "2026-11-15T06:20:04Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12397",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12397",
+    "description": "cuda : keep columns in registers for cooperative softmax ( #28982 ) Template soft_max_f32_parallelize_cols_single_row to keep column elements in registers when they fit, reducing memory traffic from 5 global memory passes to 2 passes. Assisted-by: Gemini 3.8 Flash Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67720591 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux:",
+    "published": "2026-11-15T06:02:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12396",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12396",
+    "description": "vulkan: optimize matrix multiplication for narrow N ( #31990 ) vulkan: optimize matrix multiplication for narrow N Add new \"narrow\" tile configs for coopmat1/coopmat2 that are tuned for N<=32. Attempt to handle wave64 add n=16 tile for cm1 apply RDNA split_k heuristic to narrow_n generally Co-authored-by: Ruben Ortlam rortlam@redhat.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67717441 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (",
+    "published": "2026-11-15T05:41:14Z",
+    "source": "llama.cpp Releases"
+  }
+]
