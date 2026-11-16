@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12431",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12431",
+    "description": "server: answer reasoning_effort levels the template rejects with 400 …",
+    "published": "2026-11-16T05:55:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12430",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12430",
+    "description": "ggml-cuda: fix MoE regression on HIP with #29948 ( #32344 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67993871 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu ",
+    "published": "2026-11-16T06:39:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12429: convert: fix ripple dflash2 NoPE metadata (#32363)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12429",
+    "description": "convert: fix ripple dflash2 NoPE metadata was wrong https://huggingface.co/ricursiveAI/Ripple-65B-Preview-DFlash2/blob/743c4669f7daa11d3ca350b9a057c059481b1afd/config.json#L45-L47 Update conversion/base.py Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co Co-authored-by: Sigbjørn Skjæret sigbjorn.skjaeret@huggingface.co",
+    "published": "2026-11-15T23:47:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12428",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12428",
+    "description": "jinja: add 4 missing features ( #32352 ) jinja: add 4 missing features apply suggestion Co-authored-by: Aldehir Rojas hello@alde.dev fix error msg Co-authored-by: Aldehir Rojas hello@alde.dev Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67916336 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.0",
+    "published": "2026-11-16T00:17:10Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12427",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12427",
+    "description": "server : skip MCP discovery for router children ( #32359 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67907593 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x",
+    "published": "2026-11-15T23:27:19Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12426",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12426",
+    "description": "mtmd: support higgs v3 STT and vibevoice-ASR ( #32329 ) mtmd: support higgs v3 and vibevoice-ASR use proper mapping address review comment nits rm hacky get_audio_length, add mtmd_helper_get_media_meta Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67880678 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) U",
+    "published": "2026-11-15T21:09:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12425",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12425",
+    "description": "model : read qwen3vl output head size from the tensor ( #32349 ) Allows Qwen3-ForcedAligner, whose output head (5000 timestamp classes) is smaller than the vocab. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67872415 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s3",
+    "published": "2026-11-15T20:26:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12424",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12424",
+    "description": "mtmd: add zonos3-mini TTS model ( #32020 ) zonos3 init add audio gen pipeline fix string_format add default voice as gguf metadata better ref support voice clone add delivery params optimize speed nits nits 2 add text normalization nits Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67869503 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm",
+    "published": "2026-11-15T20:11:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12423",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12423",
+    "description": "Revert \"jinja: add 4 missing features\" This reverts commit a681a53 . Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67866816 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librarie",
+    "published": "2026-11-15T19:58:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12422",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12422",
+    "description": "jinja: add 4 missing features Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/67861908 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUDA 13.5 libr",
+    "published": "2026-11-15T19:33:50Z",
+    "source": "llama.cpp Releases"
+  }
+]
