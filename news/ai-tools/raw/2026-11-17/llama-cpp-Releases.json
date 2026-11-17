@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12466: opencl: support f16 and non-contig f32 silu (#32319)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12466",
+    "description": "opencl: support non-contig silu Assisted-by: Claude Opus 5.5 opencl: support f16 silu Assisted-by: Claude Opus 5.5",
+    "published": "2026-11-17T08:38:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12465",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12465",
+    "description": "sycl: use fast division in bin-bcast kernels ( #32213 ) Replace the per-element modulo of i0 with fast_div_modulo in the ravel and unravel bin-bcast kernels, drop the now-unused ne10/ne20 kernel arguments, and reject divisors that do not fit in 32 bits when the magic values are computed, as the CUDA implementation does. Co-authored-by: zhaoyshine zhaoyshine@users.noreply.github.com Co-authored-by: Claude Code noreply@anthropic.com Website: https://llama.app Attestations: https://github.com/ggml-",
+    "published": "2026-11-17T07:56:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12464",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12464",
+    "description": "opencl: add A7 Q8_0 non-MoE binary kernel ( #31003 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68487303 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CU",
+    "published": "2026-11-17T06:33:07Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12463",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12463",
+    "description": "mtmd : fix Muse Glimmer vision embedding order ( #32433 ) Assisted-by: Claude Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68483217 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8",
+    "published": "2026-11-17T06:17:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12461: tests: print the exception message in test-llama-context (#32428)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12461",
+    "description": "A case that throws only reported \"unhandled exception\", which hides the cause of the intermittent failures on the Vulkan Apple runner.",
+    "published": "2026-11-16T20:53:32Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12458",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12458",
+    "description": "mtmd: support YuE2-3B ( #32369 ) mtmd: support YuE2-3B improve speed add CFG fix streaming add cfg control from api check ctx size fix n_predict add flow_steps config nits fix batch api nits adapt mtmd: yue2 samples from its own saved logits The context logits belong to the last decode of any slot, so with several server slots the score and the unguided codes were sampled from another sequence. Keep the logits of each own decode in save_logits(), which also does the guidance mix. mtmd: let the y",
+    "published": "2026-11-17T05:39:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12457",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12457",
+    "description": "opencl: add A7 Q4_K non-MoE binary kernel ( #30948 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68469084 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CU",
+    "published": "2026-11-17T05:25:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12456",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12456",
+    "description": "opencl: fix three defects of the bin flash-attention prefill path ( #32110 ) opencl: release the WMM flash-attention mask fallback image The fallback image is created on every call of the bin flash-attention kernel over a sub-buffer of the K cache and was never released, so each call kept a K-cache sub-buffer alive. Every call with more than one query row takes this path, including each speculative-decoding verify step, so the objects pile up and the server slows with every request. opencl: keep",
+    "published": "2026-11-17T05:09:27Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12455",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12455",
+    "description": "chat : implement inkling parser ( #32381 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68461562 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - C",
+    "published": "2026-11-17T04:53:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12453",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12453",
+    "description": "MMVQ: Tune ne11 Gate for RDNA3_5 ( #32308 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68453642 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - ",
+    "published": "2026-11-17T04:19:53Z",
+    "source": "llama.cpp Releases"
+  }
+]
