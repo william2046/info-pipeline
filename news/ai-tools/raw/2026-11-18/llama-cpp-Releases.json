@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12503",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12503",
+    "description": "ggml-openvino: expand model support, optimize NPU,GPU and memory usag…",
+    "published": "2026-11-18T07:56:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12502",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12502",
+    "description": "CUDA: use MMQ for MoE on V100 ( #32504 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69023761 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA 13) - CUD",
+    "published": "2026-11-18T08:12:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12500",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12500",
+    "description": "cuda: decode the conv2d patch indices with fastdiv ( #32492 ) The implicit GEMM conv2d kernel recovers the channel and the kernel position of each reduction index with three integer divisions by runtime divisors, once per loaded row of every tile. Outside the 3x3 and 1x1 specializations this integer division bounds the kernel: removing it halves the time on long reductions. Divide with the precomputed magic numbers of fastdiv instead. The 3x3 and 1x1 specializations keep their compile time divis",
+    "published": "2026-11-18T07:08:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12499",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12499",
+    "description": "vulkan: run rms_norm with a runtime loop count on Qualcomm ( #30824 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68973102 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librari",
+    "published": "2026-11-18T05:27:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12498",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12498",
+    "description": "server: slot_sched: fix lora and recurrent ( #32434 ) server: fix lora and recurrent tests: run the hybrid SWA checkpoint test with one token per ubatch With and without the cache, the prompt was not split into the same ubatches, and the generated tokens are decoded one at a time while the uncached run processes them in a batch. On CUDA this moves the top logprobs of the tiny model by up to 0.03 and swaps near ties, so the test failed while the cache behaved as expected. With one token per ubatc",
+    "published": "2026-11-18T04:22:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12497",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12497",
+    "description": "mtmd: support tiny-voca ( #32427 ) mtmd: support tiny-voca improve G2P Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68950753 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librar",
+    "published": "2026-11-18T04:07:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12496",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12496",
+    "description": "ggml-cuda: hip: Tune stream_k algo and mmq configs to use stream_k on AMD GCN ( #30022 ) ggml-cuda: hip: enable stream_k on GCN ggml-cuda: Test on CDNA done no improvement, remove TODO ggml-cuda: HIP: GCN cleanup Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68945910 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s3",
+    "published": "2026-11-18T03:48:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12494",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12494",
+    "description": "mtmd: add kokoro tts support ( #32413 ) jinja: impl scope-chain key lookup add test for call_statement lambda chat: add tts_dict for kokoro G2P template more testing value_float_t range check no json-in-meta, add llama_model_meta_arr_str/_n mtmd: add kokoro tts support detailed guide about G2P and text norm port refine G2P clean up migrate batch api nits Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68927307 macOS/iOS: macOS Apple Silicon (arm64) mac",
+    "published": "2026-11-18T02:41:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12493",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12493",
+    "description": "cuda: use the implicit GEMM conv2d path for F32 kernels ( #32482 ) The fast CONV_2D path (implicit GEMM with MMA, or cuBLAS for pointwise convolutions) required an F16 kernel. F32 kernels fell back to the naive direct convolution, which is much slower than im2col + mul_mat on large channel counts. Convert F32 kernels to F16 in a pool buffer, as is already done for the input, and take the same path with F32 accumulation. The Metal implicit GEMM kernel already stages both operands as F16. Website:",
+    "published": "2026-11-18T02:25:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12492",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12492",
+    "description": "opencl: add A7 Q5_K non-MoE binary kernel ( #31002 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68914827 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CU",
+    "published": "2026-11-18T02:04:56Z",
+    "source": "llama.cpp Releases"
+  }
+]
