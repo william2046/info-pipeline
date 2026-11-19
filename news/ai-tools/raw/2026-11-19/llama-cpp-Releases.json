@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12533: CUDA: use 64-bit dst offsets in mul_mat_q (#32374)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12533",
+    "description": "The MMQ kernels computed the dst tile offset (jt J stride_col_dst) in 32-bit int. For a dst with more than 2^31 elements, column tiles that start past INT_MAX/nrows wrap around and write out of bounds. This happens with an all-logits output head, e.g. llama-perplexity -c 32768 -b 32768 -ub 16384 on a 248320-vocab model: the q8_0 output matmul has a 248320 x 16384 dst (4.07e9 elements) and aborts with an illegal memory access. Widen the offsets in mul_mat_q and the stream-k fixup to int64_t, and ",
+    "published": "2026-11-19T06:11:44Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12532",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12532",
+    "description": "opencl: allow adjusting KV padding in decomposed FA ( #32522 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69491345 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA ",
+    "published": "2026-11-19T04:49:50Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12531",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12531",
+    "description": "mtmd: support voxcpm2 ( #32443 ) mtmd: support voxcpm speed up a bit various fixes Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69455423 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA",
+    "published": "2026-11-19T02:23:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12530",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12530",
+    "description": "ggml : WASM Relaxed SIMD Enhancement ( #19590 ) add relaxed simd fix indentation remove comments and whitespace wasm: fix relaxed SIMD kernels and add q3_K/q6_K support rm trailing space Co-authored-by: Xuan Son Nguyen son@huggingface.co Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69435594 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu ar",
+    "published": "2026-11-19T01:13:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12529",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12529",
+    "description": "llama : fix sticky NaN in recurrent state ( #31913 ) Co-authored-by: Alexey Kopytko alexey@kopytko.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69418514 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu ",
+    "published": "2026-11-19T00:15:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12528",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12528",
+    "description": "server: fix sleep state for v1/realtime ( #32567 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69408923 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64 (CUDA",
+    "published": "2026-11-18T23:42:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12527",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12527",
+    "description": "model : limite: reject mudd configs that index past mudd_tap_idx on load ( #32562 ) n_mudd_taps comes from limite.mudd.tap_count, a scalar read separately from the length-checked tap_indices array. mudd_tap_idx is a fixed std::array<int32_t, 512> indexed at [i*n_taps] in both the tensor load and the graph build, so a crafted GGUF with n_layer * n_mudd_taps > 512 reads past the array. Reject that at hparams load; the one check covers both index sites. Website: https://llama.app Attestations: http",
+    "published": "2026-11-18T22:59:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12525: ggml, ci : use llvm 22.1.8 (#32548)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12525",
+    "description": "ggml, ci : use llvm 22.1.8 Signed-off-by: Adrien Gallouët angt@huggingface.co Update build-cpu.yml too Signed-off-by: Adrien Gallouët angt@huggingface.co Fix clang 22 Signed-off-by: Adrien Gallouët angt@huggingface.co Fix release.yml (arm64 with vulkan) Signed-off-by: Adrien Gallouët angt@huggingface.co Fix server.yml Signed-off-by: Adrien Gallouët angt@huggingface.co Signed-off-by: Adrien Gallouët angt@huggingface.co",
+    "published": "2026-11-18T20:10:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12522",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12522",
+    "description": "[CUDA] : Add SKU-aware FP16/BF16 accumulation precision gating for NV…",
+    "published": "2026-11-18T17:29:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12521",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12521",
+    "description": "webgpu: (fix CI) allow the FA mask to be broadcast over the Q batch ( #32535 ) allow the mask batch to be broadcast over the Q batch use Q_ne3 for blk_batch_count of get_alloc_size function Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/69252626 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 ",
+    "published": "2026-11-18T17:15:37Z",
+    "source": "llama.cpp Releases"
+  }
+]
