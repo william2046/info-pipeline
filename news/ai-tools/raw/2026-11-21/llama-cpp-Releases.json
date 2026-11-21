@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12603",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12603",
+    "description": "llama : score only the k-pools of the ubatch sequences in QSA ( #32519 )",
+    "published": "2026-11-21T05:22:36Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12602",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12602",
+    "description": "sycl: Improve Grouped XMX GEMM by avoiding SLM staging ( #31428 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70439764 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries U",
+    "published": "2026-11-21T04:32:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12600",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12600",
+    "description": "model : Inkling 2 Mini ( #32694 ) Conversion Separate model_type Add gate_rank to allow building from metadata while testing Base model Loop graph Support the new is_varloop attribute Adopt naming scheme from #32588 Rename to varying Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70375093 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 ",
+    "published": "2026-11-20T23:34:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12599",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12599",
+    "description": "hip: add RDNA1 MMVQ parameter table (1 warp per block for ncols=1) ( #32389 ) hip: add RDNA1 MMVQ parameter table (1 warp per block for ncols=1) hip: write the RDNA1 MMVQ values explicitly instead of recursing into the generic table hip: list the RDNA1 MMVQ table before RDNA2 in the enum Update ggml/src/ggml-cuda/mmvq.cu Co-authored-by: Johannes Gäßler johannesg@5d6.de Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70370539 macOS/iOS: macOS Apple Sili",
+    "published": "2026-11-20T23:16:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12597",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12597",
+    "description": "convert: qwen3-asr: put \"language ...\" output into thinking block ( #32571 ) convert: qwen3-asr: put \"language ...\" output into thinking block convert: qwen3-asr: read the chat template from models/templates The converter embedded its own copy of Qwen3-ASR.jinja. Read the bundled file instead, as the Kimi-K3 and Kokoro converters do, so the GGUF and test-chat share a single template. Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-or",
+    "published": "2026-11-20T23:00:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12596",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12596",
+    "description": "metal : allow the norm chain in either operand of the fused MUL/ADD ( #32300 ) Assisted-by: Claude Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70363012 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ub",
+    "published": "2026-11-20T22:48:28Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12591",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12591",
+    "description": "ggml : major version bump reminders + deprecate ggml_ftype ( #32647 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70359245 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librari",
+    "published": "2026-11-20T22:34:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12590",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12590",
+    "description": "mtmd: drama3 voice cloning ( #32586 ) mtmd: drama3 voice cloning The Fish S2 codec encoder (fish_s2_spkenc) now also serves drama3: conversion: drama3 writes the codec encoder and the audio encoder KV, shared with fish_s2 fish_s2_spkenc: outputs the codes of the clip (gen-side reference) and, in a drama3_gen mmproj, builds the drama3 backbone rows (E_lm[semantic] + E_cb[1][code 1]) / sqrt(2) drama3_gen tower: teacher forcing when the caller gives the codes of the next frame drama3 pipeline: refe",
+    "published": "2026-11-20T19:06:21Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12589",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12589",
+    "description": "vulkan: add support for COL2IM_1D misalign bytes and split workgroups ( #32673 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70255791 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 1",
+    "published": "2026-11-20T17:45:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12588",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12588",
+    "description": "gemma4: Optimized prompt processing for multi-seq queries ( #32342 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70231749 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librarie",
+    "published": "2026-11-20T16:44:24Z",
+    "source": "llama.cpp Releases"
+  }
+]
