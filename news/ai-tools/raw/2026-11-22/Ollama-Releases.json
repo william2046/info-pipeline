@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.40.17",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
+    "description": "Inkling 2 Mini Inkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench Verified). ollama run inkling-2-mini Note: inkling-2-mini is supported on Apple silicon only in this release. PC support will follow in an upcoming release. What's Changed ollama launch claude supports",
+    "published": "2026-11-21T04:05:14Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.17-rc4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4",
+    "description": "Merge remote-tracking branch 'upstream/main' into release_v0.40.17",
+    "published": "2026-11-20T23:04:26Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.17-rc3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
+    "description": "mlxrunner: add Inkling 2 Mini",
+    "published": "2026-11-20T18:37:07Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.17-rc2: mlxrunner: adapt saved history to memory pressure (#19678)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2",
+    "description": "mlxrunner: adapt saved history to memory pressure Retain Metal prefix history using observed memory headroom and execution workspace rather than a fixed 8 GiB allowance. Release unused buffers and cold history when system compression grows, preserving reusable paths and active requests. Cover pressure reclamation, snapshot ownership, memory observation, and cacheless request isolation. address comments address comments",
+    "published": "2026-11-19T23:41:42Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.17-rc1: mlxrunner: batch speculative verification (#19663)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
+    "description": "mlxrunner: batch speculative verification Keep drafting active for concurrent generation by sharing target verification while preserving per-request sampling and cache rollback. Learn draft depth for each concurrent workload separately from isolated requests, and preserve probes that short requests never execute. Materialize owned target features before a reader can pause, and cover acceptance, cancellation, handoffs, mixed decoding and retained-memory boundaries. address comments",
+    "published": "2026-11-16T16:43:54Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.17-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
+    "description": "MLX, MLX-C: version bump ( #19647 )",
+    "published": "2026-11-10T21:42:11Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.16",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+    "description": "Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected model ollama launch explains when a cloud model has been retired /v1/responses respects truncation and no longer silently truncates by default /v1/models returns an empty list instead of null when no models are installed CUDA",
+    "published": "2026-11-09T23:45:36Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.16-rc0: Add ripple preview support to the MLX runner (#19592)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
+    "description": "Add the Ripple model, renderer, parser and import registration. Support per-layer NoPE in DFlash drafts. Fuse MLP activation, value blending and attention gating. Add reference fixtures and model/runner regression tests.",
+    "published": "2026-11-08T00:36:53Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.15",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
+    "description": "MiMo V2.6 Xiaomi MiMo's mimo-v2.6 , a 9B model built for code and agent workflows, is now supported in Ollama. ollama run mimo-v2.6 AutoTrust decision models AutoTrust decision models read text and return choices, yes or no probabilities, and ratings for the questions you supply. The family includes 9b, 35b, and 27b-vl sizes — the 35b and 27b-vl sizes can also read images. ollama run autotrust-jev \" A customer says their card was charged twice. \" --ask \" Is this a billing issue? \" Note: autotrus",
+    "published": "2026-11-06T01:47:18Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.15-rc2",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc2",
+    "description": "cmd/launch: add Kimi Code CLI support ( #19506 )",
+    "published": "2026-11-05T21:41:21Z",
+    "source": "Ollama Releases"
+  }
+]

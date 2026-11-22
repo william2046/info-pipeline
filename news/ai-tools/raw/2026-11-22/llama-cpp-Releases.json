@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12628",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12628",
+    "description": "vulkan : support non-contiguous src in SCALE ( #32735 ) Assisted-By: Opus 5.5 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70699278 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8",
+    "published": "2026-11-22T06:58:12Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12627",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12627",
+    "description": "server : fit non-causal batches in one ubatch ( #32713 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70673562 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu x64",
+    "published": "2026-11-22T03:55:22Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12626",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12626",
+    "description": "vulkan : fix memset for unaligned ranges for non-UMA devices ( #32725 ) See #32574 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70660507 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA",
+    "published": "2026-11-22T02:23:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12625",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12625",
+    "description": "model: fix no_realloc for clef and vllm-decision2 ( #32754 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70657345 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu",
+    "published": "2026-11-22T02:04:45Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12624",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12624",
+    "description": "chat : pass reasoning_effort = none if supported ( #32763 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70655398 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubuntu ",
+    "published": "2026-11-22T01:51:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12623",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12623",
+    "description": "mtmd : merge Parakeet rel-pos views to avoid OOB ( #32722 ) Assisted-by: Grok Bot Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70649736 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA ",
+    "published": "2026-11-22T01:14:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12622",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12622",
+    "description": "model: apply .scale tensors automatically + fix correctness ( #32669 ) model: apply .scale tensors automatically rm build_moe_ffn \"_s\" overload use llama_prec_policy fix ci build_lora_mm_id: rm w_s Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70646566 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubunt",
+    "published": "2026-11-22T00:54:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12621",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12621",
+    "description": "sycl: bound CONV_TRANSPOSE_1D input iteration ( #31109 ) Used angelX to optimize SYCL/drama 3 coordination, results are as follows Each output reads only inputs with i s0 <= idx < i s0 + K, in the same ascending order as before. Arc Pro B70, oneAPI 2026.1, test-backend-ops perf, base 9b56ccf vs patch, median of 3 same-boot A/B/A rounds, A/A 1.000-1.001: input [ne0, ne1] kernel [K, OC, IC] s0 base us patch us speedup [16, 1536] [16, 768, 1536] 8 3910.57 1348.59 2.90x [128, 768] [16, 384, 768] 8 3",
+    "published": "2026-11-22T00:40:54Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12620",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12620",
+    "description": "ggml : improvements to the memory access pattern in ggml_compute_forward_mul_mat_one_chunk ( #30846 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70641771 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x",
+    "published": "2026-11-22T00:19:37Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12619",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12619",
+    "description": "mtmd: support kyutai/hibiki realtime full-duplex ( #32491 ) mtmd: support hibiki realtime duplex fix and clean up fix long session quality fix ci tests : add the moshi fusion baseline for Metal The Metal fusion check found 5 RMS_NORM+MUL fusions in the new moshi arch and no baseline for them. Co-authored-by: Pascal admin@serveurperso.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70636946 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon ",
+    "published": "2026-11-21T23:50:00Z",
+    "source": "llama.cpp Releases"
+  }
+]
