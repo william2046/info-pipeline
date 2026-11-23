@@ -1,0 +1,399 @@
+[1] 来源: OpenAI Blog
+标题: Perplexity and Intelligence
+链接: https://openai.com/index/perplexity-and-intelligence
+摘要: How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.
+
+[2] 来源: OpenAI Blog
+标题: Combatting adversarial distillation
+链接: https://openai.com/index/combatting-adversarial-distillation
+摘要: OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.
+
+[3] 来源: OpenAI Blog
+标题: Hebbia sees improvements in financial research with GPT-6 Astra
+链接: https://openai.com/business/customer-stories/hebbia
+摘要: Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.
+
+[4] 来源: OpenAI Blog
+标题: Can AI help scientists identify promising drug candidates?
+链接: https://openai.com/index/introducing-medchembench
+摘要: MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.
+
+[5] 来源: OpenAI Blog
+标题: How OpenAI’s Performance Factory keeps ChatGPT fast
+链接: https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast
+摘要: Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.
+
+[6] 来源: OpenAI Blog
+标题: Deploying Daybreak Red
+链接: https://openai.com/business/learn/deploying-daybreak-red
+摘要: Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.
+
+[7] 来源: OpenAI Blog
+标题: See PR scans in action
+链接: https://openai.com/business/learn/pr-scans-demo
+摘要: Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.
+
+[8] 来源: OpenAI Blog
+标题: Get started with Daybreak Blue
+链接: https://openai.com/business/learn/daybreak-blue-onboarding-demo
+摘要: Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.
+
+[9] 来源: OpenAI Blog
+标题: Explore the Codex Security Plugin
+链接: https://openai.com/business/learn/codex-security-plugin-demo
+摘要: Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.
+
+[10] 来源: OpenAI Blog
+标题: The Silent Consensus
+链接: https://openai.com/index/the-silent-consensus
+摘要: Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.
+
+[11] 来源: OpenAI Blog
+标题: Research acceleration: The jagged frontier
+链接: https://openai.com/index/research-acceleration-jagged-frontier
+摘要: OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.
+
+[12] 来源: OpenAI Blog
+标题: How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise
+链接: https://openai.com/business/customer-stories/sumitomo-life
+摘要: Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.
+
+[13] 来源: OpenAI Blog
+标题: Inside the Codex sandbox
+链接: https://openai.com/index/inside-the-codex-sandbox
+摘要: See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.
+
+[14] 来源: OpenAI Blog
+标题: Managing frontier AI risk: From training to deployment
+链接: https://openai.com/index/managing-frontier-ai-risk
+摘要: OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.
+
+[15] 来源: OpenAI Blog
+标题: Advancing chip design with OpenAI models
+链接: https://openai.com/index/advancing-chip-design-with-our-models
+摘要: OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.
+
+[16] 来源: OpenAI Blog
+标题: Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT
+链接: https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership
+摘要: Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.
+
+[17] 来源: OpenAI Blog
+标题: Introducing GPT-6.2 Astra and Sol
+链接: https://openai.com/index/introducing-gpt-6-2-astra-sol
+摘要: Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.
+
+[18] 来源: OpenAI Blog
+标题: Strengthening NATO and allied cyber defenses with AI
+链接: https://openai.com/index/strengthening-nato-allied-cyber-defences-ai
+摘要: How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.
+
+[19] 来源: OpenAI Blog
+标题: Introducing ChatGPT for Sales
+链接: https://openai.com/index/introducing-chatgpt-for-sales
+摘要: Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.
+
+[20] 来源: OpenAI Blog
+标题: Introducing OpenAI for Chile
+链接: https://openai.com/index/introducing-openai-for-chile
+摘要: OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.
+
+[21] 来源: OpenAI Blog
+标题: Astra for Law leads in legal intelligence
+链接: https://openai.com/index/astra-law-6-2
+摘要: Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.
+
+[22] 来源: OpenAI Blog
+标题: Broadening access to AI for scientists
+链接: https://openai.com/index/expanding-chatgpt-for-academic-researchers
+摘要: We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.
+
+[23] 来源: OpenAI Blog
+标题: Strengthening the fight against online child sexual abuse with new tools and support
+链接: https://openai.com/index/strengthening-online-child-safety
+摘要: New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.
+
+[24] 来源: OpenAI Blog
+标题: Science at the Frontier: How scientists use ChatGPT
+链接: https://openai.com/index/science-at-the-frontier
+摘要: Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.
+
+[25] 来源: OpenAI Blog
+标题: How Revolut raises ambition without lowering the bar
+链接: https://openai.com/business/customer-stories/revolut
+摘要: Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.
+
+[26] 来源: OpenAI Blog
+标题: LVMH’s Media Division announces strategic partnership with OpenAI
+链接: https://openai.com/index/lvmh-media-division-partnership
+摘要: LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.
+
+[27] 来源: OpenAI Blog
+标题: Our first phase of embedded assessments
+链接: https://openai.com/index/our-first-phase-of-embedded-assessments
+摘要: OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.
+
+[28] 来源: OpenAI Blog
+标题: More ways to move care forward with ChatGPT for Healthcare
+链接: https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare
+摘要: Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.
+
+[29] 来源: OpenAI Blog
+标题: Advancing computer-use agents for healthcare teams
+链接: https://openai.com/index/advancing-computer-use-for-healthcare-teams
+摘要: 
+
+[30] 来源: OpenAI Blog
+标题: The King’s Trust and OpenAI launch £1m partnership
+链接: https://openai.com/index/the-kings-trust-and-openai
+摘要: The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.
+
+[31] 来源: OpenAI Blog
+标题: At Holiday Extras, dots get to work before anyone asks
+链接: https://openai.com/business/customer-stories/holiday-extras-dots
+摘要: Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.
+
+[32] 来源: OpenAI Blog
+标题: A step toward defining the Standard Model on a lattice
+链接: https://openai.com/index/step-toward-defining-the-standard-model
+摘要: Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.
+
+[33] 来源: OpenAI Blog
+标题: Our new blog for science
+链接: https://openai.com/index/our-new-blog-for-science
+摘要: The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.
+
+[34] 来源: OpenAI Blog
+标题: Introducing ChatGPT Wallet
+链接: https://openai.com/index/introducing-chatgpt-wallet
+摘要: Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.
+
+[35] 来源: OpenAI Blog
+标题: Shield helps technicians hand off legacy portal work with OpenAI
+链接: https://openai.com/business/customer-stories/shield
+摘要: Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.
+
+[36] 来源: OpenAI Blog
+标题: How Amplitude ships product improvements in 1–2 days with OpenAI
+链接: https://openai.com/business/customer-stories/amplitude
+摘要: Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.
+
+[37] 来源: OpenAI Blog
+标题: Gondola doubles revenue as its team builds more with Codex
+链接: https://openai.com/business/customer-stories/gondola
+摘要: Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.
+
+[38] 来源: OpenAI Blog
+标题: Holiday Extras is rethinking what it can build with Codex
+链接: https://openai.com/business/customer-stories/holidays-extras-codex
+摘要: With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.
+
+[39] 来源: OpenAI Blog
+标题: Supporting research on AI and children’s safety
+链接: https://openai.com/index/children-first-declaration
+摘要: OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.
+
+[40] 来源: OpenAI Blog
+标题: ChatGPT Ads increases its market presence in 44 countries
+链接: https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence
+摘要: Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies
+
+[41] 来源: OpenAI Blog
+标题: Gilbert + Tobin rethinks the business of law with AI
+链接: https://openai.com/index/gilbert-tobin-sam-nickless
+摘要: A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.
+
+[42] 来源: OpenAI Blog
+标题: JioStar’s chief architect on AI discovery at 500M-user scale
+链接: https://openai.com/index/jiostar-vijay-seshadri
+摘要: JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.
+
+[43] 来源: OpenAI Blog
+标题: Helping caregivers use AI in everyday life
+链接: https://openai.com/index/helping-caregivers-use-ai-in-everyday-life
+摘要: OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.
+
+[44] 来源: OpenAI Blog
+标题: Introducing Businesses in ChatGPT
+链接: https://openai.com/index/introducing-businesses-chatgpt
+摘要: Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.
+
+[45] 来源: OpenAI Blog
+标题: Closing the AI guidance gap in education
+链接: https://openai.com/index/closing-ai-guidance-gap-education
+摘要: New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.
+
+[46] 来源: OpenAI Blog
+标题: Singapore Airlines elevates travel & work with OpenAI technology
+链接: https://openai.com/index/singapore-airlines-travel-work
+摘要: Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.
+
+[47] 来源: OpenAI Blog
+标题: Work at the Frontier: AI’s effect on freelance work
+链接: https://openai.com/index/ai-effect-on-freelance-work
+摘要: New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.
+
+[48] 来源: OpenAI Blog
+标题: Cogent and OpenAI build cyber defense factories for enterprises
+链接: https://openai.com/index/cogent-security
+摘要: Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.
+
+[49] 来源: OpenAI Blog
+标题: ChatGPT Enterprise now available in AWS Marketplace
+链接: https://openai.com/index/chatgpt-enterprise-aws-marketplace
+摘要: ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.
+
+[50] 来源: OpenAI Blog
+标题: Control Room: A central system to track and stop model workloads across our research infrastructure
+链接: https://openai.com/index/control-room
+摘要: Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.
+
+[51] 来源: OpenAI Blog
+标题: CodeRabbit scales agentic software development and ships 20x more
+链接: https://openai.com/index/coderabbit-codex-daybreak
+摘要: CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.
+
+[52] 来源: OpenAI Blog
+标题: Kuken Industries searches 70 years of drawings in minutes
+链接: https://openai.com/index/kuken
+摘要: Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.
+
+[53] 来源: OpenAI Blog
+标题: How VistaPrint helps small businesses get the word out
+链接: https://openai.com/ads/customers/vistaprint
+摘要: Small business owners preparing for a launch or an event often know what they want to accomplish before they know what to print. VistaPrint uses ChatGPT Ads to show how products like signs and branded merchandise can help them get the word out.
+
+[54] 来源: OpenAI Blog
+标题: Partnering with Hacktron to find vulnerabilities in OpenAI’s systems
+链接: https://openai.com/index/partnering-with-hacktron
+摘要: OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.
+
+[55] 来源: OpenAI Blog
+标题: Measuring how AI agents handle everyday wet-lab science
+链接: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science
+摘要: OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.
+
+[56] 来源: OpenAI Blog
+标题: Australian universities are creating AI-native graduates
+链接: https://openai.com/index/australian-universities-ai-native-graduates
+摘要: Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.
+
+[57] 来源: OpenAI Blog
+标题: Cult.fit builds operational muscle with Codex
+链接: https://openai.com/index/cultfit-builds-with-codex
+摘要: Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.
+
+[58] 来源: OpenAI Blog
+标题: GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents
+链接: https://openai.com/index/introducing-gpt-6-cyber
+摘要: Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.
+
+[59] 来源: OpenAI Blog
+标题: Merge builds product and business tools with OpenAI technology
+链接: https://openai.com/index/merge-builds-with-openai
+摘要: Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.
+
+[60] 来源: OpenAI Blog
+标题: Flipsnack grows product signups with conversion optimization
+链接: https://openai.com/ads/customers/flipsnack
+摘要: Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.
+
+[61] 来源: OpenAI Blog
+标题: Franklin Templeton uses OpenAI to support investment research
+链接: https://openai.com/index/franklin-templeton
+摘要: Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.
+
+[62] 来源: OpenAI Blog
+标题: OpenAI to acquire Pierre Computer Company, Inc.
+链接: https://openai.com/index/openai-to-acquire-pierre
+摘要: OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.
+
+[63] 来源: OpenAI Blog
+标题: Daybreak Red is now available in AWS GovCloud (US-East)
+链接: https://openai.com/index/daybreak-red-aws-govcloud
+摘要: Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.
+
+[64] 来源: OpenAI Blog
+标题: A thousand fewer paths to root
+链接: https://openai.com/index/a-thousand-fewer-paths-to-root
+摘要: OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.
+
+[65] 来源: OpenAI Blog
+标题: Introducing Images 2.6
+链接: https://openai.com/index/introducing-images-2-6
+摘要: Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.
+
+[66] 来源: OpenAI Blog
+标题: DevRev delivers autonomous self-service with GPT-6.1 Sol
+链接: https://openai.com/index/devrev-enterprise-self-service
+摘要: DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.
+
+[67] 来源: OpenAI Blog
+标题: Accelerating engineering for the physical world
+链接: https://openai.com/index/accelerating-engineering-for-the-physical-world
+摘要: Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.
+
+[68] 来源: OpenAI Blog
+标题: How Cisco defends at machine speed with OpenAI
+链接: https://openai.com/index/cisco-cyber
+摘要: Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.
+
+[69] 来源: OpenAI Blog
+标题: Heimstaden is changing residential real estate management with AI
+链接: https://openai.com/index/heimstaden
+摘要: Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.
+
+[70] 来源: OpenAI Blog
+标题: OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer
+链接: https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer
+摘要: Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.
+
+[71] 来源: OpenAI Blog
+标题: Scaling Git at OpenAI
+链接: https://openai.com/index/scaling-git-at-openai
+摘要: How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.
+
+[72] 来源: OpenAI Blog
+标题: Introducing the Grid Protectors Program
+链接: https://openai.com/index/grid-protectors-program
+摘要: OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.
+
+[73] 来源: OpenAI Blog
+标题: Preparing our next security sprint to harden OpenAI
+链接: https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai
+摘要: OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.
+
+[74] 来源: OpenAI Blog
+标题: Rewarding defenders with bigger bug bounties
+链接: https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties
+摘要: OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.
+
+[75] 来源: OpenAI Blog
+标题: LifeVal
+链接: https://openai.com/index/lifeval
+摘要: Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.
+
+[76] 来源: OpenAI Blog
+标题: OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization
+链接: https://openai.com/index/dan-driscoll-joins-openai
+摘要: OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.
+
+[77] 来源: OpenAI Blog
+标题: Qodo builds context into AI code review with Codex
+链接: https://openai.com/index/qodo-codex-plugin
+摘要: Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.
+
+[78] 来源: OpenAI Blog
+标题: Making it easier for websites to express AI training preferences
+链接: https://openai.com/index/helping-websites-express-ai-training-preferences
+摘要: OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.
+
+[79] 来源: OpenAI Blog
+标题: Community safety report and new protections for teens
+链接: https://openai.com/index/community-safety-report-and-new-protections-for-teens
+摘要: OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.
+
+[80] 来源: OpenAI Blog
+标题: Fair use benefits everyone
+链接: https://openai.com/index/fair-use-benefits-everyone
+摘要: OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.

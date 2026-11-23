@@ -1,0 +1,72 @@
+[
+  {
+    "title": "langchain-openrouter==0.3.0",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.3.0",
+    "description": "langchain-openrouter 0.3.0 drops support for Python 3.10 , which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum langchain-core version is now 1.8.3. Users on Python 3.10 will continue to resolve langchain-openrouter 0.2.x. Changes since langchain-openrouter==0.2.9 release(openrouter): 0.3.0 ( #41957 ) chore(model-profiles): refresh model profile data ( #41934 ) chore(model-profiles): refresh model profile data ( #41917 ) chore(model-profiles): refresh ",
+    "published": "2026-11-19T15:03:21Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.8.5",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.5",
+    "description": "Changes since langchain-openai==1.8.4 release(openai): 1.8.5 ( #41969 ) fix(openai): preserve streamed Responses tool call arguments ( #41963 ) feat(core): standardize finish reason on message-finish events ( #41926 )",
+    "published": "2026-11-19T23:16:22Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.8.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.4",
+    "description": "Changes since langchain-openai==1.8.3 release(openai): 1.8.4 ( #41962 ) chore(langchain): require langgraph 1.2.16 or newer ( #41959 ) fix(openai): classify in-stream server errors as retryable ( #41952 )",
+    "published": "2026-11-19T21:36:53Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.8.3",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3",
+    "description": "Changes since langchain-openai==1.8.2 release(openai): 1.8.3 ( #41950 ) fix(openai): enable Codex prompt caching on GPT-6.2 ( #41949 )",
+    "published": "2026-11-19T00:38:59Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-core==1.8.4",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.4",
+    "description": "Changes since langchain-core==1.8.3 release(core): 1.8.4 ( #41964 ) feat(core): standardize finish reason on message-finish events ( #41926 ) feat(langchain): tag synthetic HITL tool messages with source metadata ( #41928 )",
+    "published": "2026-11-19T22:35:59Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-anthropic==1.7.12",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.12",
+    "description": "Changes since langchain-anthropic==1.7.11 release(anthropic): 1.7.12 ( #41966 ) feat(core): standardize finish reason on message-finish events ( #41926 ) chore(langchain): require langgraph 1.2.16 or newer ( #41959 ) fix(anthropic): preserve caller on tool_search_tool_result blocks ( #41958 ) fix(anthropic): don't share the async HTTP client between models ( #41946 )",
+    "published": "2026-11-19T23:00:21Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-xai==1.4.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.1",
+    "description": "Changes since langchain-xai==1.4.0 release(xai): 1.4.1 ( #41931 ) feat(xai): send langsmith_gateway headers from the client ( #41904 )",
+    "published": "2026-11-18T17:29:54Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-openai==1.8.2",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.2",
+    "description": "Changes since langchain-openai==1.8.1 fix(openai): don't share the async HTTP client between models ( #41944 ) feat(openai): support GPT-6.2 Astra and Sol ( #41922 ) feat(openai): send langsmith_gateway headers from the client ( #41901 )",
+    "published": "2026-11-18T16:53:07Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-groq==1.2.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.1",
+    "description": "Changes since langchain-groq==1.2.0 release(groq): 1.2.1 ( #41930 ) feat(groq): send langsmith_gateway headers from the client ( #41903 )",
+    "published": "2026-11-18T17:27:24Z",
+    "source": "LangChain Releases"
+  },
+  {
+    "title": "langchain-deepseek==1.2.1",
+    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.1",
+    "description": "Changes since langchain-deepseek==1.2.0 release(deepseek): 1.2.1 ( #41932 ) feat(deepseek): send langsmith_gateway headers from the client ( #41905 )",
+    "published": "2026-11-18T17:27:46Z",
+    "source": "LangChain Releases"
+  }
+]
