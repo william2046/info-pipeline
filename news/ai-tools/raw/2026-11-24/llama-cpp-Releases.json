@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12679: opencl: add c8 q6_k coopk GEMM for up to n=8 spec verify (#32909)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12679",
+    "description": "Assisted-by: Codex Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com",
+    "published": "2026-11-24T01:12:33Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12676: GDN: use replay instead of rollback (#31669)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12676",
+    "description": "GDN: use replay instead of rollback [WIP] memory : move rs_max with the sequence when find_slot swaps cells find_slot swapped pos/src/rs_pend/seq_id of the cell it moves out of the way, but not rs_max, so that sequence inherited the rollback depth of the cell's previous owner. A smaller value made seq_rm refuse the rollback ( #31656 ), a larger one made snapshot mode restore the previous owner's snapshots. With rs_replay the pending columns are copied along with the state, so rs_max follows the ",
+    "published": "2026-11-23T23:06:02Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12675",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12675",
+    "description": "server : preserve a prompt-cache entry until restores succeed ( #32828 ) Assisted-by: Codex Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71542828 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 1",
+    "published": "2026-11-24T10:00:15Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12674",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12674",
+    "description": "opencl: fetch the Adreno binary kernel library at configure time for Windows on Snapdragon ( #31759 ) opencl: fetch the Adreno binary kernel library at configure time Make GGML_OPENCL_USE_ADRENO_BIN_KERNELS an option, default ON, and add GGML_OPENCL_ADRENO_BIN_KERNELS_FETCH, default ON. On Windows, CMake downloads the pinned adreno-opencl-kernels release from the Qualcomm Software Center, verifies its SHA256, and copies the DLL and its license next to the executables. A failed download is only a",
+    "published": "2026-11-24T08:30:17Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12672: metal : add NVFP4 support (#32825)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12672",
+    "description": "metal : add NVFP4 support Follow the MXFP4 path: add the UE4M3 scale decode, the NVFP4 dequantizers, a dedicated mat-vec kernel with its MUL_MAT_ID, small-batch and MMA variants, the mul_mm / mul_mm_id and tensor-op variants, and the get_rows and cpy kernels. Enable the type in supports_op. Tested on an M5 Max with ggml-org/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF:NVFP4 and test-backend-ops (MUL_MAT, MUL_MAT_ID, W4A8/W4A4, CPY, GET_ROWS). Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash",
+    "published": "2026-11-23T19:02:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12671",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12671",
+    "description": "metal : batch concat rows and copy them in vector chunks ( #32824 ) metal : batch concat rows and copy them in vector chunks The concat kernel copied one element per thread, so wide rows with many rows ran at a fraction of the memory bandwidth. Batch several rows per threadgroup and copy the contiguous dim-0 elements in 4-element chunks when the row is contiguous. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) test : cover concat vector and misali",
+    "published": "2026-11-24T07:06:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12670",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12670",
+    "description": "ggml: compact bias on the existing FLASH_ATTN_EXT ( #32740 ) compact bias on the existing FLASH_ATTN_EXT for CUDA, ROCm and Vulkan fixup! compact bias on the existing FLASH_ATTN_EXT for CUDA, ROCm and Vulkan remove the Vulkan support from this PR move the CUDA/HIP and Inkling 2 graph changes out of this PR CPU reference implementation of the indexed bias move the indexed bias test to test-backend-ops, add the bias in F32 on CPU incorporate review remarks Website: https://llama.app Attestations: ",
+    "published": "2026-11-24T06:16:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12669",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12669",
+    "description": "quantize: add option to automatically choose optimal quant types to reach a file/bpw target size at lowest error ( #15550 ) Refactor pareto optimise and convexify Refactor lagrange_penalty() Refactor quantisation checks into its own function Exit loop if no better solution found Replace slope with cross product Adjust for small vector size Simplify candidates sorting Add comments to explain magic numbers Increase scale multiplier Move is_iq() into a lambda and remove unused variables Combine qua",
+    "published": "2026-11-24T02:43:24Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12668",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12668",
+    "description": "metal : support BF16/F32 src1 for MUL_MAT and MUL_MAT_ID ( #32677 ) llama, metal : support BF16 src1 for MUL_MAT and MUL_MAT_ID Add GGML_PREC_BF16 handling for src1 on the Metal backend when the tensor API is available: MUL_MAT with an F32 src0 stages the A tile as bfloat, and MUL_MAT_ID stages src1 as bfloat instead of F16. The tensor path keeps src1 in F32 when it reads the operand directly. Add a temporary LLAMA_MOE_AMAX_SKIP env var that disables the graph-level amax rescaling for the MoE do",
+    "published": "2026-11-24T02:18:01Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12667",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12667",
+    "description": "server: ask exec_shell_command for a short description of the command ( #32894 ) The shell tool's schema gains a required description argument, listed first: a short plain-language line on what the command does. The tool ignores it, as before; clients can show it in place of the raw command while the call streams and in their logs. Calls without it still run. Assisted-by: Claude (Opus 5.5 Medium) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71399301",
+    "published": "2026-11-24T01:56:56Z",
+    "source": "llama.cpp Releases"
+  }
+]
