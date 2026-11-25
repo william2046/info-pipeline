@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12723: model : inkling2 graph with fewer ops in mix() and control() (#32948)",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12723",
+    "description": "Assisted-by: Claude Opus 5.5",
+    "published": "2026-11-25T03:54:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12722",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12722",
+    "description": "opencl: add clc coopmat moe kernel for q4_0/q4_1/q4_k/q5_0/q5_1/q5_k/…",
+    "published": "2026-11-25T00:42:30Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12721",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12721",
+    "description": "tests : fix MSVC static build of test-batch-alloc and test-server-component ( #32870 ) Fixes #32868 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72030425 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64",
+    "published": "2026-11-25T07:52:00Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12720",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12720",
+    "description": "feat: Inkling 2 DSpark support ( #32218 ) conversion init cpp side handle temp > 0 dspark : fix Inkling2 draft state width, reseeding and draw order spec: align Inkling2 DSpark with n_max draft tokens same as the other DSparks unify rnn condition with markov_head_type formatting issues and restructure some DSpark functions Co-authored-by: Xuan Son Nguyen son@huggingface.co Co-authored-by: ruixiang63 wangruixiang07@outlook.com Website: https://llama.app Attestations: https://github.com/ggml-org/l",
+    "published": "2026-11-25T06:47:46Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12719",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12719",
+    "description": "cuda : fix int overflow of the MMVF matrix offsets ( #32965 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71997699 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries Ubunt",
+    "published": "2026-11-25T06:03:20Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12717",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12717",
+    "description": "ggml : fix SpacemiT flash attention null mask, ALiBi and softcap ( #32 …",
+    "published": "2026-11-24T18:47:34Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12716",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12716",
+    "description": "cmake : include the llguidance header from the source tree ( #32928 ) Cargo 1.100 changed the build directory layout for intermediate artifacts, so the header destination llguidance derives from $OUT_DIR no longer resolves to target/release, and the build fails on a missing llguidance.h. The header is a source file that cargo only copies around, so include it from the llguidance source tree instead of from the build output. ref: rust-lang/cargo#17354 Assisted-by: dsh:llama.cpp/ggml-org/Qwen3.8-F",
+    "published": "2026-11-25T04:32:13Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12711",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12711",
+    "description": "ggml-cpu: repack kernels for targets without dotprod (ARMv8.0 64-bit) for Q4_0/Q8_0 ( #32142 ) ggml-cpu: optimized kernels for ARM v8.0 (without dotprod) ggml-cpu: fix comment and align to implementation ggml-cpu: exclude new kernels for apple arch Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71965502 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU",
+    "published": "2026-11-25T04:07:58Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12709",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12709",
+    "description": "ggml-cpu: add SVE-optimized q5_0 and q5_1 dot-product kernels ( #30867 ) Merged PR 5925: SVE suooprt for ggml_vec_dot_q5_0_q8_0, ggml_vec_dot_q5_1_q8_1 SVE suooprt for ggml_vec_dot_q5_0_q8_0, ggml_vec_dot_q5_1_q8_1 perf(arm): optimize q5_0 q8_0 dot products with SVE Load high-bit masks directly from quantized blocks Replace lookup-table expansion with predicated SVE duplication Reduce scalar high-bit unpacking overhead fix(arm): load SVE masks through inline assembly Add a helper to load mask da",
+    "published": "2026-11-25T03:55:23Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12708",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12708",
+    "description": "server : include MCP image and audio data in tool results ( #32064 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/71959162 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librarie",
+    "published": "2026-11-25T03:40:38Z",
+    "source": "llama.cpp Releases"
+  }
+]
