@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12811",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12811",
+    "description": "ui: share conversations to Hugging Face datasets as agent traces ( #32 …",
+    "published": "2026-11-27T09:09:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12810",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12810",
+    "description": "hex-hmx: fix accuracy issues in act and weight scaling, drop w8a8+f16 hybrid mode (no longer needed) ( #33166 ) Co-authored-by: Max Krasnyansky maxk@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72993952 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04",
+    "published": "2026-11-27T08:14:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12809",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12809",
+    "description": "vulkan: add FA compact bias support for Inkling 2 Mini ( #32898 ) vulkan: add FA compact bias support for Inkling 2 Mini fix xe condition and function signature fix RDNA regression batch loads to allow overlap and coalescing Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72976586 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubu",
+    "published": "2026-11-27T07:18:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12808",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12808",
+    "description": "sycl: dequantize reordered q6_K in f32 like the canonical kernel ( #32726 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72959070 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 l",
+    "published": "2026-11-27T06:06:35Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12807",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12807",
+    "description": "ggml-openvino: CI op-test fixes and NPU improvements ( #33088 ) ggml-openvino: KV-only prefill on the static path, with one decode step for the outputs On the static path (NPU, or any device with GGML_OPENVINO_FORCE_STATIC=1) the prefill model of a graph with KV-shared attention layers is compiled with only the cache writes as outputs. The new conversion pass KeepCacheResults (openvino/pass/keep_cache_results.cpp, registered in pass_registry/common.cpp from GraphTraits::kv_only_outputs) removes ",
+    "published": "2026-11-27T05:46:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "v1.1.0",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0",
+    "description": "Overview llama.cpp v1.1.0 adds the Inkling 2 family (base, Mini and DSpark), Domyn Edge 4B, Zaya1 8B, RAON-1-mini and Hy4 flash, splits DFlash speculative decoding into separate draft methods, and deprecates the old llama_batch API in favour of llama_batch_ext . It brings a large set of TTS and audio models (Kokoro, Zonos3-Mini, tiny-voca, VoxCPM2, MiniMax-Music3, YuE2, Fish S2, Higgs v3/VibeVoice-ASR and Kyutai Hibiki), token-aware chat parsing, named tool choice, automatic per-tensor quantizat",
+    "published": "2026-11-26T09:17:18Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12806",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12806",
+    "description": "sycl: route BMG D=256 single-query decode to the FA vector kernel ( #30606 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72950637 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 ",
+    "published": "2026-11-27T05:26:16Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12805",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12805",
+    "description": "opencl: add multi token f32 GEMV for spec verify ( #33098 ) opencl: add multi token F32 GEMV Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Assisted-by: Codex opencl: let ne01 > 512 still use tiled GEMM Co-authored-by: Hongqiang Wang wangh@qti.qualcomm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72944950 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: ",
+    "published": "2026-11-27T04:55:55Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12804",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12804",
+    "description": "hip : fix bf16 MFMA operand vector type for CDNA ( #33086 ) Follow-up to #30885 : the CDNA MFMA bf16 builtins also take short vectors, so LLVM 23 rejects __bf16 for gfx908, gfx90a, gfx942 and gfx950. Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72937567 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubu",
+    "published": "2026-11-27T04:22:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12803",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12803",
+    "description": "bailingmoe3 : fuse ssm_conv + silu and remove redundant copies ( #33081 ) bailingmoe3 : apply silu before reshape to enable fused conv kernel bailingmoe3 : avoid redundant copies before attention output projection Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/72908126 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s",
+    "published": "2026-11-27T02:09:47Z",
+    "source": "llama.cpp Releases"
+  }
+]
