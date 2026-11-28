@@ -1,0 +1,72 @@
+[
+  {
+    "title": "b12826",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12826",
+    "description": "ui: show only the mention label in generated conversation titles ( #33 …",
+    "published": "2026-11-27T19:28:53Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12823",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12823",
+    "description": "CUDA: fix ADD_ID launch for more than 65535 tokens ( #33162 ) The grid's y dimension came directly from the token count, so ADD_ID launches with more than 65535 tokens failed with \"invalid configuration argument\". NVIDIA and HIP are equally affected, since gridDim.y is capped at 65535 on both. Clamp the grid and stride over ne2 in the kernel, matching convert.cu and pad.cu. Add a test case at 70000 tokens; the existing cases top out at 129. Assisted-by: Claude Opus 5 Website: https://llama.app A",
+    "published": "2026-11-28T01:28:25Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12822",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12822",
+    "description": "vulkan: handle empty conv3d kernel, fixes validation error ( #33106 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/73330379 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 librari",
+    "published": "2026-11-28T01:11:52Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12821",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12821",
+    "description": "vulkan: further optimize coopmat2 GDN ( #32860 ) vulkan: further optimize coopmat2 GDN Refactor split+store callbacks so hi and lo portions are all stored together. This should help allow the stores to be vectorized. Interleave the state store callbacks with the gram_pmat work. The compiler doesn't seem to let these things overlap without manual effort like this. I suspect this is because the compiler doesn't have smart enough alias analyssis to know what can/can't conflict. Similarly, split the",
+    "published": "2026-11-28T00:57:48Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12820",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12820",
+    "description": "ggml-zdnn: make zTensor memory usage visible for fitting ( #31849 ) ggml-zdnn: make memory usage visible for fitting Signed-off-by: Aaron Teo aaron.teo1@ibm.com ggml-zdnn: switch to a flag check for ztensor buffer storage Signed-off-by: Aaron Teo aaron.teo1@ibm.com ggml-zdnn: fix rebase conflicts Signed-off-by: Aaron Teo aaron.teo1@ibm.com Signed-off-by: Aaron Teo aaron.teo1@ibm.com Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/73324974 macOS/iOS: ma",
+    "published": "2026-11-28T00:42:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12819",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12819",
+    "description": "CUDA: cache the device type at init ( #33142 ) CUDA: cache the device type at init ggml_backend_cuda_device_get_type called cudaGetDeviceProperties on every call, which takes ~0.7-1 ms with the CUDA 12 runtime. With tensor overrides on multiple GPUs the scheduler queries the device type for every split input, so this ran dozens of times per token. Store the device type in ggml_cuda_device_info at init. It is derived from prop.integrated, not from the integrated flag, which is forced off ( #15034",
+    "published": "2026-11-28T00:24:38Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12818",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12818",
+    "description": "ggml: support quant scales for fp8 and nvfp4 ( #28898 ) ggml: add tensor scaling (per-tensor, per-channel, per-expert, per-expert-per-channel) support add meta backend scale split add optional activation scales to mul_mat and mul_mat_id tensors handle bitnet scales too, disable in backends Don't treat single expert as per-channel-per-expert Temp workaround for moe-cache with scaled data-types Also apply scales in CPU backend 's tiled mul_mat Handle strided views on scales Make *scale tensors use",
+    "published": "2026-11-27T20:47:42Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12816",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12816",
+    "description": "graph : read recurrent states in place instead of copying ( #28841 ) ( #30139 ) graph : read recurrent states in place instead of copying ( #28841 ) This is a graph only change that speeds up token output in the majority of cases and backends by removing state copy steps. Where possible, kernels now read recurrent states directly from the cache instead of a copy from ggml_get_rows. A change to RWKV6/7 makes it read its old state before overwriting. A graph-reuse check condition is added to keep ",
+    "published": "2026-11-27T17:05:51Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12815",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12815",
+    "description": "cuda : fix NVFP4 MMQ y_scale over-read in the stream-k fixup ( #33136 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/73139901 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libra",
+    "published": "2026-11-27T14:12:56Z",
+    "source": "llama.cpp Releases"
+  },
+  {
+    "title": "b12814",
+    "link": "https://github.com/ggml-org/llama.cpp/releases/tag/b12814",
+    "description": "moe-cache : support experts selected on another backend ( #33133 ) When the experts are selected on another backend than the cache, e.g. the loop passes of inkling2_loop with a layer split, the lookup reads a copy of the ids made by the scheduler, which has no source to read the shape from. Take the experts per token from build_lookup instead. Fixes #33101 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/73121587 macOS/iOS: macOS Apple Silicon (arm64) m",
+    "published": "2026-11-27T13:31:40Z",
+    "source": "llama.cpp Releases"
+  }
+]

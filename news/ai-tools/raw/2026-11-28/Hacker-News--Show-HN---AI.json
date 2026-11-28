@@ -1,0 +1,142 @@
+[
+  {
+    "title": "FastLanes: Next-gen File Format [pdf]",
+    "link": "https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf",
+    "description": "Article URL: https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf Comments URL: https://news.ycombinator.com/item?id=50675195 Points: 5 # Comments: 0",
+    "published": "Sat, 28 Nov 2026 06:14:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Knuth: Moratorium on Error Reports",
+    "link": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
+    "description": "Article URL: https://www-cs-faculty.stanford.edu/~knuth/moratorium.html Comments URL: https://news.ycombinator.com/item?id=50674452 Points: 41 # Comments: 6",
+    "published": "Sat, 28 Nov 2026 03:49:21 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+    "link": "https://unkernel.dev",
+    "description": "Article URL: https://unkernel.dev Comments URL: https://news.ycombinator.com/item?id=50674218 Points: 239 # Comments: 43",
+    "published": "Sat, 28 Nov 2026 03:19:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Atari Homebrew Awards Cancelled",
+    "link": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
+    "description": "Article URL: https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/ Comments URL: https://news.ycombinator.com/item?id=50673688 Points: 191 # Comments: 182",
+    "published": "Sat, 28 Nov 2026 02:03:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+    "link": "https://research.google/blog/supercharging-transformer-residual-connections/",
+    "description": "Article URL: https://research.google/blog/supercharging-transformer-residual-connections/ Comments URL: https://news.ycombinator.com/item?id=50672565 Points: 350 # Comments: 135",
+    "published": "Fri, 27 Nov 2026 23:06:29 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+    "link": "https://tabernet.es/",
+    "description": "Article URL: https://tabernet.es/ Comments URL: https://news.ycombinator.com/item?id=50672521 Points: 112 # Comments: 39",
+    "published": "Fri, 27 Nov 2026 23:00:30 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "9/UX: a Macintosh-inspired desktop for 9front",
+    "link": "https://progrium.github.io/9ux/",
+    "description": "Article URL: https://progrium.github.io/9ux/ Comments URL: https://news.ycombinator.com/item?id=50672008 Points: 120 # Comments: 30",
+    "published": "Fri, 27 Nov 2026 21:48:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+    "link": "https://github.com/skeeto/prospero",
+    "description": "Article URL: https://github.com/skeeto/prospero Comments URL: https://news.ycombinator.com/item?id=50671275 Points: 66 # Comments: 22",
+    "published": "Fri, 27 Nov 2026 20:23:14 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+    "link": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+    "description": "Article URL: https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform Comments URL: https://news.ycombinator.com/item?id=50670855 Points: 373 # Comments: 220",
+    "published": "Fri, 27 Nov 2026 19:42:25 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Michael Nielsen took down his book on neural nets",
+    "link": "https://neuralnetworksanddeeplearning.com/",
+    "description": "Article URL: https://neuralnetworksanddeeplearning.com/ Comments URL: https://news.ycombinator.com/item?id=50670757 Points: 507 # Comments: 312",
+    "published": "Fri, 27 Nov 2026 19:31:01 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Convex skills send the user's app idea to a remote server without telling them",
+    "link": "https://github.com/convex/convex-backend-skill/issues/64",
+    "description": "Article URL: https://github.com/convex/convex-backend-skill/issues/64 Comments URL: https://news.ycombinator.com/item?id=50669765 Points: 294 # Comments: 93",
+    "published": "Fri, 27 Nov 2026 18:02:45 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: DragDropMath – Learn math by feel",
+    "link": "https://dragdropmath.com/",
+    "description": "Hi HN! I am a professional physicist and I shuffle symbols in equations and mathematical expressions all day long. During my PhD (almost 20 years ago) I noticed that it is as if the symbols have their own 'physics', which makes the wrong moves impossible and the right ones obvious. So I created DragDropMath, where you can learn how to simplify mathematical expressions and how to solve equations by dragging symbols around, and only correct moves are allowed, so you get to feel what's right withou",
+    "published": "Fri, 27 Nov 2026 17:56:28 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+    "link": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+    "description": "Article URL: https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer Comments URL: https://news.ycombinator.com/item?id=50668145 Points: 513 # Comments: 269",
+    "published": "Fri, 27 Nov 2026 15:40:31 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "False computer-checked proofs",
+    "link": "https://cr.yp.to/proofs/falseccp.html",
+    "description": "Article URL: https://cr.yp.to/proofs/falseccp.html Comments URL: https://news.ycombinator.com/item?id=50667989 Points: 224 # Comments: 86",
+    "published": "Fri, 27 Nov 2026 15:26:09 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+    "link": "https://bouncemarket.minhanhday.com/",
+    "description": "a ball will fall. trade on where it lands. I made this game! Some technical details: The entire drop of the ball is simulated server-side, then streamed to each client as server-sent events with a small buffer. Every drop is deterministic from its starting position, so rounds can be replayed exactly for later analysis, but tiny variations in starting position can change the ultimate outcome. There's some AI traders to keep the market moving, but they drop out in any round that has more than five",
+    "published": "Fri, 27 Nov 2026 15:01:50 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Rayshader 1.0: Exit the Matrix",
+    "link": "https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html",
+    "description": "Article URL: https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html Comments URL: https://news.ycombinator.com/item?id=50667371 Points: 124 # Comments: 16",
+    "published": "Fri, 27 Nov 2026 14:30:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Paolo Soleri built a utopian eco-city in the Arizona desert",
+    "link": "https://www.worldofinteriors.com/story/paolo-soleri-arconsati-arizona",
+    "description": "Article URL: https://www.worldofinteriors.com/story/paolo-soleri-arconsati-arizona Comments URL: https://news.ycombinator.com/item?id=50666724 Points: 44 # Comments: 6",
+    "published": "Fri, 27 Nov 2026 13:30:20 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "Citroën Hydraulic System",
+    "link": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
+    "description": "Article URL: https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html Comments URL: https://news.ycombinator.com/item?id=50662313 Points: 187 # Comments: 59",
+    "published": "Fri, 27 Nov 2026 03:10:19 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "First images of the impact of DART asteroid deflection experiment",
+    "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+    "description": "Article URL: https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/ Comments URL: https://news.ycombinator.com/item?id=50657392 Points: 211 # Comments: 63",
+    "published": "Thu, 26 Nov 2026 17:24:37 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  },
+  {
+    "title": "The Balatro Timeline",
+    "link": "https://localthunk.com/blog/balatro-timeline-3aarh",
+    "description": "Article URL: https://localthunk.com/blog/balatro-timeline-3aarh Comments URL: https://news.ycombinator.com/item?id=50657346 Points: 309 # Comments: 67",
+    "published": "Thu, 26 Nov 2026 17:20:27 +0000",
+    "source": "Hacker News (Show HN + AI)"
+  }
+]

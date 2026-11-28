@@ -1,0 +1,72 @@
+[
+  {
+    "title": "v0.40.20-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0",
+    "description": "bump llama-server ( #19953 )",
+    "published": "2026-11-27T21:06:59Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.19",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.19",
+    "description": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog : v0.40.18...v0.40.19-rc0",
+    "published": "2026-11-27T21:47:32Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.19-rc0",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+    "description": "bump llama-server ( #19917 )",
+    "published": "2026-11-26T06:20:48Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.18",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.18",
+    "description": "What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in #19865 inkling2: faster Metal decode, prefill and draft rounds by @dhiltgen in #19843 Full Changelog : v0.40.17...v0.40.18-rc0",
+    "published": "2026-11-24T08:27:44Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.18-rc0: inkling2: faster Metal decode, prefill and draft rounds (#19843)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0",
+    "description": "inkling2: faster Metal decode, prefill and draft rounds Add Inkling-only Metal kernels, each with a stock-graph fallback, gated by GPU generation and size class: short BF16 products, deduplicated NVFP4/MXFP8 expert gathers with fused SwiGLU, fused loop controllers and residual mixing, relative-position split attention, fused short convolutions, faster global prefill, an ordered window cache that appends in place, and an 8-bit draft with a 4-bit vocabulary head (proposals only; outputs stay exact",
+    "published": "2026-11-24T01:35:09Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.17",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
+    "description": "Inkling 2 Mini Inkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench Verified). ollama run inkling-2-mini Note: inkling-2-mini is supported on Apple silicon only in this release. PC support will follow in an upcoming release. What's Changed ollama launch claude supports",
+    "published": "2026-11-21T04:05:14Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.17-rc4",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4",
+    "description": "Merge remote-tracking branch 'upstream/main' into release_v0.40.17",
+    "published": "2026-11-20T23:04:26Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.17-rc3",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
+    "description": "mlxrunner: add Inkling 2 Mini",
+    "published": "2026-11-20T18:37:07Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.17-rc2: mlxrunner: adapt saved history to memory pressure (#19678)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2",
+    "description": "mlxrunner: adapt saved history to memory pressure Retain Metal prefix history using observed memory headroom and execution workspace rather than a fixed 8 GiB allowance. Release unused buffers and cold history when system compression grows, preserving reusable paths and active requests. Cover pressure reclamation, snapshot ownership, memory observation, and cacheless request isolation. address comments address comments",
+    "published": "2026-11-19T23:41:42Z",
+    "source": "Ollama Releases"
+  },
+  {
+    "title": "v0.40.17-rc1: mlxrunner: batch speculative verification (#19663)",
+    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
+    "description": "mlxrunner: batch speculative verification Keep drafting active for concurrent generation by sharing target verification while preserving per-request sampling and cache rollback. Learn draft depth for each concurrent workload separately from isolated requests, and preserve probes that short requests never execute. Materialize owned target features before a reader can pause, and cover acceptance, cancellation, handoffs, mixed decoding and retained-memory boundaries. address comments",
+    "published": "2026-11-16T16:43:54Z",
+    "source": "Ollama Releases"
+  }
+]
